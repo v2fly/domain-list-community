@@ -30,8 +30,7 @@ To generate a section:
 
 1. Remove all the comments in the file.
 1. Replace `include:` lines with the actual content of the file.
-  * Inclusion replacement may be recursive.
-  * Circular inclusion is allowed but has no effect.
+1. Omit all empty lines.
 1. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L21).
 1. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L17).
 1. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19)
