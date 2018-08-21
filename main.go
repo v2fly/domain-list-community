@@ -119,8 +119,9 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 			if pl.Inclusion[entry.Value] {
 				continue
 			}
-			pl.Inclusion[entry.Value] = true
-			r := ref[entry.Value]
+			refName := strings.ToUpper(entry.Value)
+			pl.Inclusion[refName] = true
+			r := ref[refName]
 			if r == nil {
 				return nil, errors.New(entry.Value + " not found.")
 			}
