@@ -50,6 +50,11 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 				Type:  router.Domain_Plain,
 				Value: entry.Value,
 			})
+		case "full":
+			site.Domain = append(site.Domain, &router.Domain{
+				Type:  router.Domain_Full,
+				Value: entry.Value,
+			})
 		default:
 			return nil, errors.New("unknown domain type: " + entry.Type)
 		}

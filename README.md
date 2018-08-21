@@ -12,6 +12,7 @@ include:another-file
 domain:google.com
 keyword:google
 regex:www\.google\.com
+full:www.google.com
 ```
 
 Syntax:
@@ -21,6 +22,7 @@ Syntax:
 * Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
 * Keyword begins with `keyword:`, followed by string.
 * Regular expression begins with `regex:`, followed by a valid regular expression (per Golang's standard).
+* Full domain begins with `full:`, followed by a domain.
 
 ## How it works
 
@@ -34,6 +36,7 @@ To generate a section:
 1. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L21).
 1. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L17).
 1. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19)
+1. Generate each `full:` line into a [full domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L23)
 
 ## File name guideline
 
