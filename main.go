@@ -119,22 +119,33 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 		Name:      list.Name,
 		Inclusion: make(map[string]bool),
 	}
-	for _, entry := range list.Entry {
-		if entry.Type == "include" {
-			if pl.Inclusion[entry.Value] {
-				continue
+	entryList := list.Entry
+	for {
+		newEntryList := make([]Entry, 0, len(entryList))
+		hasInclude := false
+		for _, entry := range entryList {
+			if entry.Type == "include" {
+				if pl.Inclusion[entry.Value] {
+					continue
+				}
+				refName := strings.ToUpper(entry.Value)
+				pl.Inclusion[refName] = true
+				r := ref[refName]
+				if r == nil {
+					return nil, errors.New(entry.Value + " not found.")
+				}
+				newEntryList = append(newEntryList, r.Entry...)
+				hasInclude = true
+			} else {
+				newEntryList = append(newEntryList, entry)
 			}
-			refName := strings.ToUpper(entry.Value)
-			pl.Inclusion[refName] = true
-			r := ref[refName]
-			if r == nil {
-				return nil, errors.New(entry.Value + " not found.")
-			}
-			pl.Entry = append(pl.Entry, r.Entry...)
-		} else {
-			pl.Entry = append(pl.Entry, entry)
+		}
+		entryList = newEntryList
+		if !hasInclude {
+			break
 		}
 	}
+	pl.Entry = entryList
 
 	return pl, nil
 }
