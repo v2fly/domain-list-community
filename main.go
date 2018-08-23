@@ -87,23 +87,17 @@ func parseEntry(line string) (Entry, error) {
 	return Entry{}, errors.New("Invalid format: " + line)
 }
 
-func split(r rune) bool {
-	if r == ':' {
-		return true
-	}
-	return false
-}
-func DetectionPath(gopath string) string {
-	path := os.Getenv(gopath)
-	arrPath := strings.FieldsFunc(path, split)
-	for _, content := range arrPath {
+func DetectPath(path string) string {
+	arrPath := strings.Split(path,":")
+	for _,content := range arrPath {
 		fullPath := filepath.Join(content, "src", "github.com", "v2ray", "domain-list-community", "data")
 		_, err := os.Stat(fullPath)
 		if err == nil || os.IsExist(err) {
 			return fullPath
 		}
 	}
-	panic("No File found in GOPATH")
+	fmt.Println("Failed: No file found in GOPATH")
+	return ""
 }
 
 func Load(path string) (*List, error) {
@@ -170,7 +164,7 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 }
 
 func main() {
-	dir := DetectionPath("GOPATH")
+	dir := DetectPath(os.Getenv("GOPATH"))
 	ref := make(map[string]*List)
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
