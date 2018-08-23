@@ -98,8 +98,8 @@ func DetectionPath(gopath string) string {
 	arrPath := strings.FieldsFunc(path,split)
 	for _,content := range arrPath {
 		fullPath := filepath.Join(content, "src", "github.com", "v2ray", "domain-list-community", "data")
-		_, err1 := os.Stat(fullPath)
-		if err1 == nil || os.IsExist(err1) {
+		_, err := os.Stat(fullPath)
+		if err == nil || os.IsExist(err) {
 			return fullPath
 		}
 	}
