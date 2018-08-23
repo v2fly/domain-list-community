@@ -95,8 +95,8 @@ func split(r rune) bool {
 }
 func DetectionPath(gopath string) string {
 	path := os.Getenv(gopath)
-	arrPath := strings.FieldsFunc(path,split)
-	for _,content := range arrPath {
+	arrPath := strings.FieldsFunc(path, split)
+	for _, content := range arrPath {
 		fullPath := filepath.Join(content, "src", "github.com", "v2ray", "domain-list-community", "data")
 		_, err := os.Stat(fullPath)
 		if err == nil || os.IsExist(err) {
