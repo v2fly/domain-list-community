@@ -6,6 +6,7 @@ include:netease
 include:qihoo360
 include:tencent
 include:zhihu
+imclude:xiaomi
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -268,10 +269,8 @@ meishij.net
 meituan.com
 meizu.com
 mgtv.com
-mi.com
 miaopai.com
 miaozhen.com
-miui.com
 mmbang.com
 mmbang.info
 mmstat.com
@@ -393,7 +392,6 @@ wumii.com
 xiachufang.com
 xiami.com
 xiaokaxiu.com
-xiaomi.com
 xitu.com
 xinhuanet.com
 xinshipu.com
