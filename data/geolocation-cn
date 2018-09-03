@@ -6,7 +6,11 @@ include:netease
 include:qihoo360
 include:tencent
 include:zhihu
-imclude:xiaomi
+include:xiaomi
+
+# CDNs
+
+ourdvsss.com // 网宿科技
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
