@@ -3,6 +3,7 @@
 include:alibaba
 include:baidu
 include:netease
+include:iqiyi
 include:qihoo360
 include:tencent
 include:zhihu
@@ -199,7 +200,6 @@ ip138.com
 ipinyou.com
 ipip.net
 ip-cdn.com
-iqiyi.com
 irs01.com
 it165.net
 it168.com
@@ -316,8 +316,6 @@ qiniu.com
 qiniucdn.com
 qiniudn.com
 qiniudns.com
-qiyi.com
-qiyipic.com
 qtmojo.com
 qunar.com
 qunarzz.com
