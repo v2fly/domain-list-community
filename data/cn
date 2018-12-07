@@ -1,0 +1,4 @@
+# This tag 'cn' is for backward compatibility of 'geosite:cn' in V2Ray.
+
+include:tld-cn
+include:geolocation-cn
