@@ -2,6 +2,10 @@
 
 This project manages a list of domains, to be used as geosites for routing purpose in Project V.
 
+## Purpose of this project
+
+This project contains only lists of domains. It is not opinionated, such as a domain should be blocked, or a domain should be proxied. This list can be used to generate routing rules on demand.
+
 ## Structure of data
 
 All data are under `data/` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
