@@ -1,6 +1,6 @@
-# Domain list
+# Domain list community
 
-List of domains, driven by Project V community. This list will be used by Project V, mainly for routing purpose.
+This project manages a list of domains, to be used as geosites for routing purpose in Project V.
 
 ## Structure of data
 
@@ -9,7 +9,7 @@ All data are under `data/` directory. Each file in the directory represents a su
 ```
 # comments
 include:another-file
-domain:google.com
+domain:google.com @attr1 @att2
 keyword:google
 regex:www\.google\.com
 full:www.google.com
@@ -17,12 +17,13 @@ full:www.google.com
 
 Syntax:
 
-* Comments begins with `#`. It can start anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
+* Comments begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
 * Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
 * Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
 * Keyword begins with `keyword:`, followed by string.
 * Regular expression begins with `regex:`, followed by a valid regular expression (per Golang's standard).
 * Full domain begins with `full:`, followed by a domain.
+* Domains (including `domain`, `keyword`, `regext` and `full`) may have one or more attributes. Each attributes begin with `@` and followed by the name of the attribute.
 
 ## How it works
 
@@ -38,13 +39,15 @@ To generate a section:
 1. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19)
 1. Generate each `full:` line into a [full domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L23)
 
-## File name guideline
+## How to orgnize domains
 
-* A name represents a deterministic group of domains, by common understanding.
-  * Good example: google, youtube, facebook
-  * Bad example: blocked, evil, domestic
-* A name may be divided into sub categories.
-  * Example: ads-cn, ads-us
+### File name
+
+Theoretically any string can be used as the name, as long as it is a valid file name. In practice, we prefer names for determinic group of domains, such as the owner (usually a company name) of the domains, e.g., "google", "netflex". Names with unclear scope are generally unrecommended, such as "evil", or "local".
+
+### Attributes
+
+Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of "google" domains may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute "@ads", and can be used as "geosite:google@ads" in V2Ray routing.
 
 ## Contribution guideline
 
