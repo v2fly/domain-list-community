@@ -16,7 +16,7 @@ jobs:
   - script: |
       go version
       go get -v -t -d github.com/v2ray/domain-list-community/...
-      go run github.com/v2ray/domain-list-community/main.go
+      go run ./src/github.com/v2ray/domain-list-community/main.go
     workingDirectory: '$(system.defaultWorkingDirectory)'
     displayName: 'Generate'
   - task: CopyFiles@2
