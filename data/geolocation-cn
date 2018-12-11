@@ -8,6 +8,7 @@ include:qihoo360
 include:tencent
 include:zhihu
 include:xiaomi
+include:unionpay
 
 # CDNs
 
@@ -366,8 +367,6 @@ tuniu.com
 tutuapp.com
 u17.com
 useso.com
-unionpay.com
-unionpaysecure.com
 upyun.com
 upaiyun.com
 v2ex.com
