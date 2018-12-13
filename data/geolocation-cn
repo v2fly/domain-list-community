@@ -11,6 +11,7 @@ include:xiaomi
 include:unionpay
 include:bytedance
 include:bilibili
+include:sina
 
 # CDNs
 
