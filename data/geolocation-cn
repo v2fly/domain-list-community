@@ -10,6 +10,7 @@ include:zhihu
 include:xiaomi
 include:unionpay
 include:bytedance
+include:bilibili
 
 # CDNs
 
@@ -81,7 +82,6 @@ baixing.net
 bankcomm.com
 bankofchina.com
 bcy.net
-bilibili.com
 cn.bing.com
 bitauto.com
 bitautoimg.com
@@ -172,7 +172,6 @@ gwdang.com
 hao123.com
 hao123img.com
 haosou.com
-hdslb.com
 henha.com
 henkuai.com
 hexun.com
