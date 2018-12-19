@@ -2,16 +2,18 @@
 
 include:alibaba
 include:baidu
-include:netease
-include:iqiyi
-include:qihoo360
-include:tencent
-include:zhihu
-include:xiaomi
-include:unionpay
-include:bytedance
 include:bilibili
+include:bytedance
+include:douyu
+include:iqiyi
+include:jd
+include:netease
+include:qihoo360
 include:sina
+include:tencent
+include:unionpay
+include:xiaomi
+include:zhihu
 
 # CDNs
 
