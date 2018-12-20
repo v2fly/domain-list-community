@@ -13,6 +13,7 @@ include:sina
 include:tencent
 include:unionpay
 include:xiaomi
+include:ynet
 include:zhihu
 
 # CDNs
