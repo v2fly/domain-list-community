@@ -13,6 +13,7 @@ include:qihoo360
 include:sina
 include:tencent
 include:tmtpost
+include:umeng
 include:unionpay
 include:xiaomi
 include:ynet
@@ -21,6 +22,7 @@ include:zhihu
 # CDNs
 
 ourdvsss.com # 网宿科技
+cdn.jsdelivr.net
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
