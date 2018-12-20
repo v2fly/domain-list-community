@@ -11,6 +11,7 @@ include:netease
 include:qihoo360
 include:sina
 include:tencent
+include:tmtpost
 include:unionpay
 include:xiaomi
 include:ynet
