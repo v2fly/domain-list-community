@@ -1,0 +1,24 @@
+# This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
+
+include:adobe
+include:amazon
+include:dropbox
+include:ebay
+include:facebook
+include:github
+include:google
+include:line
+include:linkedin
+include:microsoft
+include:oracle
+include:pixiv
+include:reddit
+include:steam
+include:taboola
+include:telegram
+include:twitter
+include:ubi
+include:wikimedia
+include:xda
+include:xposed
+include:yandex
