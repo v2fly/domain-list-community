@@ -3,6 +3,7 @@
 include:adobe
 include:amazon
 include:dropbox
+include:duckduckgo
 include:ebay
 include:facebook
 include:github
