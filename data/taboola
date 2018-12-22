@@ -1,0 +1,4 @@
+# Taboola uses this single domain for both official website and ads serving. 
+# Blocking the following domain will prevent taboola ads from displaying,
+# but also cut the connection to Taboola website.
+taboola.com

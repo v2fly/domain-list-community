@@ -204,6 +204,7 @@ adsense.com
 adwords.com
 abc.xyz
 android.com
+appspot.com
 blogger.com
 blogspot.com
 chromium.org
@@ -244,7 +245,6 @@ ggoogle.com
 gogole.com
 goolge.com
 googel.com
-duck.com
 googlee.com
 googil.com
 googlr.com
@@ -253,6 +253,7 @@ gmodules.com
 googleadservices.com
 googleapps.com
 googleapis.com
+googleapis.cn
 goo.gl
 googlebot.com
 googlecommerce.com
@@ -263,9 +264,10 @@ withgoogle.com
 1e100.net
 ggpht.com
 googleusercontent.com
-googlecapital.com	
+googlecapital.com
 gv.com
 golang.org
 gstatic.com
 
 include:youtube
+include:google-ads

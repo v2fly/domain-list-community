@@ -2,11 +2,27 @@
 
 include:alibaba
 include:baidu
+include:bilibili
+include:bytedance
+include:douyu
+include:iqiyi
+include:jd
+include:jiemian
 include:netease
 include:qihoo360
+include:sina
 include:tencent
+include:tmtpost
+include:umeng
+include:unionpay
+include:xiaomi
+include:ynet
 include:zhihu
-imclude:xiaomi
+
+# CDNs
+
+ourdvsss.com # 网宿科技
+cdn.jsdelivr.net
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -28,8 +44,6 @@ imclude:xiaomi
 3322.org
 35.com
 360doc.com
-360buy.com
-360buyimg.com
 360safe.com
 36kr.com
 39.net
@@ -76,7 +90,6 @@ baixing.net
 bankcomm.com
 bankofchina.com
 bcy.net
-bilibili.com
 cn.bing.com
 bitauto.com
 bitautoimg.com
@@ -146,6 +159,7 @@ duowan.com
 dxpmedia.com
 eastday.com
 ecitic.com
+edu.cn
 emarbox.com
 eoeandroid.com
 etao.com
@@ -158,6 +172,7 @@ geekpark.net
 geetest.com
 geilicdn.com
 getui.com
+gitee.com
 google-analytics.com
 growingio.com
 gtags.net
@@ -165,7 +180,6 @@ gwdang.com
 hao123.com
 hao123img.com
 haosou.com
-hdslb.com
 henha.com
 henkuai.com
 hexun.com
@@ -195,7 +209,6 @@ ip138.com
 ipinyou.com
 ipip.net
 ip-cdn.com
-iqiyi.com
 irs01.com
 it165.net
 it168.com
@@ -204,7 +217,6 @@ iteye.com
 ithome.com
 itjuzi.com
 jandan.net
-jd.com
 jb51.com
 jia.com
 jianshu.com
@@ -312,8 +324,6 @@ qiniu.com
 qiniucdn.com
 qiniudn.com
 qiniudns.com
-qiyi.com
-qiyipic.com
 qtmojo.com
 qunar.com
 qunarzz.com
@@ -362,8 +372,6 @@ tuniu.com
 tutuapp.com
 u17.com
 useso.com
-unionpay.com
-unionpaysecure.com
 upyun.com
 upaiyun.com
 v2ex.com

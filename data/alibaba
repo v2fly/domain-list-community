@@ -1,10 +1,12 @@
 alibaba.com
+alibabagroup.com
 alibabaplanet.com
 alicdn.com
 aliimg.com.com
 alipay.com
 alipayobjects.com
 aliyun.com
+aliyun-inc.com
 aliyuncdn.com
 aliyuncs.com
 
@@ -13,3 +15,18 @@ taobao.com
 taobaocdn.com
 tbcache.com
 tmall.com
+
+# Fliggy
+alitrip.com
+
+# amap
+amap.com
+amapauto.com
+autonavi.com
+gaode.com
+
+# Xiami music
+xiami.com
+xiami.net
+
+include:alibaba-ads
