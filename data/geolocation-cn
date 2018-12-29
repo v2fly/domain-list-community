@@ -19,6 +19,7 @@ include:xiaomi
 include:ynet
 include:zhihu
 include:meituan
+include:eleme
 
 # CDNs
 
