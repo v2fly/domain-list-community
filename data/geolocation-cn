@@ -20,6 +20,7 @@ include:ynet
 include:zhihu
 include:meituan
 include:eleme
+include:oneplus
 
 # CDNs
 
