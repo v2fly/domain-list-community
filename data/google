@@ -195,8 +195,9 @@ google.co.zm
 google.co.zw
 google.cat
 
-# All .google domains
+# All .google and .goog domains
 google
+goog
 
 # Others
 admob.com
