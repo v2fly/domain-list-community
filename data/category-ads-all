@@ -1,0 +1,6 @@
+# This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
+
+mgid.com
+httpool.com
+
+include:taboola

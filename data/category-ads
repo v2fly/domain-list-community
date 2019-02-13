@@ -15,3 +15,6 @@ include:youku-ads
 # Other domains for ads serving
 ad.wang502.com
 ad-srv.net
+
+# Ads serving for httpool.com
+toboads.com
