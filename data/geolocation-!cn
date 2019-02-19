@@ -15,6 +15,7 @@ include:microsoft
 include:oracle
 include:pixiv
 include:pornhub
+include:python
 include:reddit
 include:steam
 include:stackexchange
