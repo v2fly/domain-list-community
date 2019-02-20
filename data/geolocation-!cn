@@ -2,6 +2,7 @@
 
 include:adobe
 include:amazon
+include:avgle
 include:dropbox
 include:duckduckgo
 include:ebay
