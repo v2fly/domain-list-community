@@ -21,6 +21,7 @@ include:zhihu
 include:meituan
 include:eleme
 include:oneplus
+include:stage1st
 
 # CDNs
 
