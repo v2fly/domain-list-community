@@ -21,6 +21,7 @@ include:zhihu
 include:meituan
 include:eleme
 include:oneplus
+include:stage1st
 
 # CDNs
 
@@ -170,6 +171,7 @@ fanli.com
 feng.com
 fengniao.com
 fhldns.com
+freebuf.com
 geekpark.net
 geetest.com
 geilicdn.com
@@ -289,6 +291,7 @@ mmbang.info
 mmstat.com
 mogucdn.com
 mogujie.com
+moocollege.com
 mop.com
 mscbsc.com
 mukewang.com
@@ -330,12 +333,14 @@ qunar.com
 qunarzz.com
 qzone.com
 renren.com
+rfchost.com
 runoob.com
 ruanmei.com
 ruby-china.org
 sandai.net
 sanguosha.com
 sanwen.net
+sec-wiki.com
 segmentfault.com
 sf-express.com
 sharejs.com
@@ -441,8 +446,9 @@ zhenai.com
 zhanqi.tv
 zhaopin.com
 zhiziyun.com
-zjstv.com
 zhubajie.com
+zimuzu.io
+zjstv.com
 zrblog.net
 zuche.com
 zuchecdn.com

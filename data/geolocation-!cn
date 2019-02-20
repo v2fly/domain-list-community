@@ -2,6 +2,7 @@
 
 include:adobe
 include:amazon
+include:avgle
 include:dropbox
 include:duckduckgo
 include:ebay
@@ -12,13 +13,19 @@ include:jsdelivr
 include:line
 include:linkedin
 include:microsoft
+include:mozilla
 include:oracle
+include:pinterest
 include:pixiv
 include:pornhub
+include:python
+include:quora
+include:rarbg
 include:reddit
 include:steam
 include:stackexchange
 include:taboola
+include:ted
 include:telegram
 include:twitter
 include:ubi
