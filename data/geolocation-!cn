@@ -22,6 +22,7 @@ include:reddit
 include:steam
 include:stackexchange
 include:taboola
+include:ted
 include:telegram
 include:twitter
 include:ubi
