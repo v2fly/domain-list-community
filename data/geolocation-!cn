@@ -10,6 +10,7 @@ include:ebay
 include:facebook
 include:github
 include:google
+include:jetbrains
 include:jsdelivr
 include:line
 include:linkedin
