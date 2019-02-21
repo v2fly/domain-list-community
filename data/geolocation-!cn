@@ -34,4 +34,5 @@ include:ubi
 include:wikimedia
 include:xda
 include:xposed
+include:yahoo
 include:yandex
