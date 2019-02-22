@@ -3,12 +3,14 @@
 include:adobe
 include:amazon
 include:avgle
+include:bestbuy
 include:dropbox
 include:duckduckgo
 include:ebay
 include:facebook
 include:github
 include:google
+include:jetbrains
 include:jsdelivr
 include:line
 include:linkedin
@@ -32,4 +34,5 @@ include:ubi
 include:wikimedia
 include:xda
 include:xposed
+include:yahoo
 include:yandex
