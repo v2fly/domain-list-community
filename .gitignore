@@ -1,0 +1,2 @@
+# Explicitly ignore OS X Finder thumbnail files.
+.DS_Store
