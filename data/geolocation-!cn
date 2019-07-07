@@ -30,7 +30,9 @@ include:taboola
 include:ted
 include:telegram
 include:twitter
+include:uber
 include:ubi
+include:ubuntu
 include:wikimedia
 include:xda
 include:xposed

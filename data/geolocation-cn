@@ -27,6 +27,8 @@ include:stage1st
 
 ourdvsss.com # 网宿科技
 cdn.jsdelivr.net
+ksyun.com # 金山云
+ksyungslb.com # 金山云
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
