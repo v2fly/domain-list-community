@@ -9,6 +9,7 @@ include:duckduckgo
 include:ebay
 include:facebook
 include:github
+include:gitlab
 include:google
 include:jetbrains
 include:jsdelivr
