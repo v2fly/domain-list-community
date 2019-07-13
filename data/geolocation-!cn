@@ -2,8 +2,12 @@
 
 include:adobe
 include:amazon
+include:apkpure
+include:archive
 include:avgle
+include:bbc
 include:bestbuy
+include:discord
 include:dropbox
 include:duckduckgo
 include:ebay
@@ -17,6 +21,8 @@ include:line
 include:linkedin
 include:microsoft
 include:mozilla
+include:netflix
+include:nytimes
 include:oracle
 include:pinterest
 include:pixiv
@@ -25,15 +31,23 @@ include:python
 include:quora
 include:rarbg
 include:reddit
+include:rfa
+include:soundcloud
+include:startpage
 include:steam
 include:stackexchange
 include:taboola
 include:ted
 include:telegram
+include:tumblr
 include:twitter
 include:uber
 include:ubi
 include:ubuntu
+include:v2ray
+include:vimeo
+include:voanews
+include:wikileaks
 include:wikimedia
 include:xda
 include:xposed
