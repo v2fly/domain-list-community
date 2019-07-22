@@ -58,3 +58,12 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 * Please begin with small size PRs, say modification in a single file.
 * A PR must be reviewed and approved by another member.
 * After a few successful PRs, you may applied for manager access of this repository.
+
+## Compile
+1. Install go
+2. run command
+
+```
+go get -v -t -d github.com/v2ray/domain-list-community/...
+go run ./src/github.com/v2ray/domain-list-community/main.go
+```
