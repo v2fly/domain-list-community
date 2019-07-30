@@ -7,14 +7,19 @@ include:archive
 include:avgle
 include:bbc
 include:bestbuy
+include:chinadigitaltimes
 include:discord
 include:dropbox
 include:duckduckgo
 include:ebay
 include:facebook
+include:faststone
+include:gfw
 include:github
 include:gitlab
 include:google
+include:greatfire
+include:guo
 include:jetbrains
 include:jsdelivr
 include:line
@@ -22,6 +27,7 @@ include:linkedin
 include:microsoft
 include:mozilla
 include:netflix
+include:ntd
 include:nytimes
 include:oracle
 include:pinterest
@@ -31,6 +37,7 @@ include:python
 include:quora
 include:rarbg
 include:reddit
+include:reuters
 include:rfa
 include:soundcloud
 include:startpage
