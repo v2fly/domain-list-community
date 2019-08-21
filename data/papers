@@ -1,0 +1,17 @@
+# 常见的查文献的网站，可以走实验室的代理或者在实验室直连
+# Common literature search websites can be connected through the laboratory/school network without taking the proxy
+
+# cn
+include:wanfang
+include:cnki
+include:cas
+
+# out of cn
+include:elsevier
+include:clarivate
+include:springer
+include:acm
+include:ieee
+include:nature
+include:computingreviews
+include:knovel
