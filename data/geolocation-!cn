@@ -52,6 +52,7 @@ include:rfi
 include:rsf
 include:scmp
 include:soundcloud
+include:spotify
 include:startpage
 include:steam
 include:steemit
