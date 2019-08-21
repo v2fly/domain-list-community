@@ -23,6 +23,7 @@ include:meituan
 include:eleme
 include:oneplus
 include:stage1st
+include:papers
 
 # CDNs
 
