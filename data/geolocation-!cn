@@ -77,3 +77,11 @@ include:xposed
 include:yahoo
 include:yandex
 include:medium
+include:elsevier
+include:clarivate
+include:springer
+include:acm
+include:ieee
+include:nature
+include:computingreviews
+include:knovel
