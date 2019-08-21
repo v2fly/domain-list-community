@@ -23,7 +23,9 @@ include:meituan
 include:eleme
 include:oneplus
 include:stage1st
-include:papers
+include:wanfang
+include:cnki
+include:cas
 
 # CDNs
 
