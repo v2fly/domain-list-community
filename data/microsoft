@@ -18,6 +18,7 @@ azure.com
 office.com
 xbox.com
 visualstudio.com
+microsofttranslator.com
 
 # Reference: SSL certificate subject alt name
 msecnd.net
@@ -63,6 +64,3 @@ azure-test.net
 cloudappsecurity.com
 yammer.com
 videoindexer.ai
-
-
-domain:microsofttranslator.com
