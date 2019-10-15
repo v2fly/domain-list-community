@@ -1,0 +1,12 @@
+# youku uses some alicdn services, so this must use with domain list "alibaba"
+
+youku.com
+
+ytimg.com
+ykimg.com
+mmstat.com
+
+soku.com
+
+# youku video cdn
+cibntv.net

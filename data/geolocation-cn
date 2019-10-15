@@ -26,6 +26,7 @@ include:stage1st
 include:wanfang
 include:cnki
 include:cas
+include:youku
 
 # CDNs
 
@@ -81,7 +82,6 @@ ksyungslb.com # 金山云
 9xu.com
 abchina.com
 acfun.tv
-acgvideo.com
 agrantsem.com
 aicdn.com
 aixifan.com
@@ -293,7 +293,6 @@ miaopai.com
 miaozhen.com
 mmbang.com
 mmbang.info
-mmstat.com
 mogucdn.com
 mogujie.com
 moocollege.com
@@ -432,7 +431,6 @@ yixi.tv
 yjbys.com
 yhd.com
 youboy.com
-youku.com
 ysten.com
 yunba.io
 yundaex.com
