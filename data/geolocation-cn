@@ -4,6 +4,7 @@ include:alibaba
 include:baidu
 include:bilibili
 include:bytedance
+include:coolapk
 include:douyu
 include:huya
 include:iqiyi
@@ -137,7 +138,6 @@ cnblogs.com
 cnepub.com
 cnzz.com
 coding.net
-coolapk.com
 cqvip.com
 csbew.com
 csdn.net
