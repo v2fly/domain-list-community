@@ -1,0 +1,10 @@
+# https://tools.ietf.org/html/rfc6762
+local
+
+# https://tools.ietf.org/html/rfc2606
+localhost
+
+# Also defined in rfc2606
+# test
+# example
+# invalid
