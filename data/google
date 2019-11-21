@@ -200,9 +200,6 @@ google
 goog
 
 # Others
-admob.com @ads
-adsense.com
-adwords.com
 abc.xyz
 android.com
 appspot.com
@@ -213,15 +210,9 @@ chrome.com
 chromebook.com
 cobrasearch.com
 feedburner.com
-doubleclick.com @ads
-doubleclick.net @ads
 igoogle.com
 foofle.com
 froogle.com
-googleanalytics.com @ads
-google-analytics.com @ads
-googletagmanager.com @ads
-googletagservices.com @ads
 googlecode.com
 googlesource.com
 googledrive.com
@@ -253,14 +244,12 @@ googil.com
 googlr.com
 googl.com
 gmodules.com
-googleadservices.com @ads
 googleapps.com
 googleapis.com
 googleapis.cn
 goo.gl
 googlebot.com
 googlecommerce.com
-googlesyndication.com @ads
 g.co
 whatbrowser.org
 withgoogle.com
@@ -293,3 +282,4 @@ webmproject.org
 webrtc.org
 
 include:youtube
+include:google-ads
