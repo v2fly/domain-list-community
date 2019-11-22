@@ -7,6 +7,7 @@ include:bytedance
 include:coolapk
 include:ctrip
 include:douyu
+include:huawei
 include:huya
 include:iqiyi
 include:jd
@@ -39,6 +40,14 @@ ourdvsss.com # 网宿科技
 cdn.jsdelivr.net
 ksyun.com # 金山云
 ksyungslb.com # 金山云
+
+# Bank of China
+abchina.com
+boc.cn
+whccb.com
+
+# Moji Weather
+moji.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
