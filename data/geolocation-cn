@@ -37,7 +37,6 @@ include:pinduoduo
 # CDNs
 
 ourdvsss.com # 网宿科技
-cdn.jsdelivr.net
 ksyun.com # 金山云
 ksyungslb.com # 金山云
 
@@ -246,7 +245,6 @@ jiayuan.com
 jikexueyuan.com
 jisuanke.com
 jmstatic.com
-jsdelivr.net
 jstv.com
 jumei.com
 jyimg.com
