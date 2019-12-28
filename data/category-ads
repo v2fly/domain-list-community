@@ -1,5 +1,6 @@
 # This file contains domains that clearly serving ads
 
+include:acfun-ads
 include:alibaba-ads
 include:apple-ads
 include:baidu-ads
@@ -8,6 +9,7 @@ include:google-ads
 include:hunantv-ads
 include:iqiyi-ads
 include:jd-ads
+include:kuaishou-ads
 include:letv-ads
 include:netease-ads
 include:sina-ads
