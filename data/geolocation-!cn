@@ -21,6 +21,7 @@ include:ebay
 include:facebook
 include:faststone
 include:gfw
+include:gitbook
 include:github
 include:gitlab
 include:globalvoices
