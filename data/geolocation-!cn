@@ -13,6 +13,7 @@ include:bypasscensorship
 include:chinadigitaltimes
 include:cnn
 include:discord
+include:disqus
 include:dropbox
 include:duckduckgo
 include:dw
@@ -20,6 +21,7 @@ include:ebay
 include:facebook
 include:faststone
 include:gfw
+include:gitbook
 include:github
 include:gitlab
 include:globalvoices
@@ -55,6 +57,7 @@ include:soundcloud
 include:spotify
 include:startpage
 include:steam
+include:steamunlocked
 include:steemit
 include:stackexchange
 include:taboola

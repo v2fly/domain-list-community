@@ -5,6 +5,7 @@ include:alibaba
 include:baidu
 include:bilibili
 include:bytedance
+include:coding
 include:coolapk
 include:ctrip
 include:douyu
@@ -136,6 +137,7 @@ chinapay.com
 chinatranslation.net
 chinaz.com
 chiphell.com
+chongdiantou.com # 粤ICP备15002070号-1
 chouti.com
 chuangxin.com
 chuansong.me
@@ -147,7 +149,6 @@ cnbetacdn.com
 cnblogs.com
 cnepub.com
 cnzz.com
-coding.net
 cqvip.com
 csbew.com
 csdn.net
@@ -389,6 +390,7 @@ tudouui.com
 tuicool.com
 tuniu.com
 tutuapp.com
+u.tools
 u17.com
 useso.com
 upyun.com
