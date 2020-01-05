@@ -32,7 +32,7 @@ jobs:
         run: |
           domain-list-community
           mkdir -p ./publish
-          mv ./dlc.dat ./publish/geosite.dat
+          mv ./dlc.dat ./publish/dlc.dat
 
       - name: Release file
         uses: Ricky-Hao/action-release@master
