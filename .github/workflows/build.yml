@@ -1,0 +1,41 @@
+name: Build geosite.dat
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Go 1.13
+        uses: actions/setup-go@v1
+        with:
+          go-version: 1.13
+        id: go
+
+      - name: Set $GOPATH and more variables
+        run: |
+          echo "::set-env name=NAME::$(date +%Y%m%d%H%M)"
+          echo "::set-env name=TAG_NAME::$(date +%Y%m%d%H%M)"
+          echo "::set-env name=GOPATH::$(dirname $GITHUB_WORKSPACE)"
+          echo "::add-path::$(dirname $GITHUB_WORKSPACE)/bin"
+        shell: bash
+
+      - name: Get geosite code
+        run: |
+          go get -u -v -insecure github.com/v2ray/domain-list-community
+
+      - name: Build geosite.dat file
+        run: |
+          domain-list-community
+          mkdir -p ./publish
+          mv ./dlc.dat ./publish/geosite.dat
+
+      - name: Release file
+        uses: Ricky-Hao/action-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ASSET_PATH: publish
