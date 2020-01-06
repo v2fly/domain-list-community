@@ -6,3 +6,5 @@ iqiyipic.com
 
 # CDN used by iqiyi
 71edge.com
+
+include:iqiyi-ads
