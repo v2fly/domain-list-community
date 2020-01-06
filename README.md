@@ -21,13 +21,13 @@ full:www.google.com
 
 Syntax:
 
-* Comments begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
+* Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
 * Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
 * Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
-* Keyword begins with `keyword:`, followed by string.
+* Keyword begins with `keyword:`, followed by a string.
 * Regular expression begins with `regex:`, followed by a valid regular expression (per Golang's standard).
 * Full domain begins with `full:`, followed by a domain.
-* Domains (including `domain`, `keyword`, `regext` and `full`) may have one or more attributes. Each attributes begin with `@` and followed by the name of the attribute.
+* Domains (including `domain`, `keyword`, `regext` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
 
 ## How it works
 
@@ -36,18 +36,18 @@ The entire data directory will be built into an external `geosite` file for Proj
 To generate a section:
 
 1. Remove all the comments in the file.
-1. Replace `include:` lines with the actual content of the file.
-1. Omit all empty lines.
-1. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L21).
-1. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L17).
-1. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19)
-1. Generate each `full:` line into a [full domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L23)
+2. Replace `include:` lines with the actual content of the file.
+3. Omit all empty lines.
+4. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L21).
+5. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L17).
+6. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19)
+7. Generate each `full:` line into a [full domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L23)
 
-## How to orgnize domains
+## How to organize domains
 
 ### File name
 
-Theoretically any string can be used as the name, as long as it is a valid file name. In practice, we prefer names for determinic group of domains, such as the owner (usually a company name) of the domains, e.g., "google", "netflex". Names with unclear scope are generally unrecommended, such as "evil", or "local".
+Theoretically any string can be used as the name, as long as it is a valid file name. In practice, we prefer names for determinic group of domains, such as the owner (usually a company name) of the domains, e.g., "google", "netflix". Names with unclear scope are generally unrecommended, such as "evil", or "local".
 
 ### Attributes
 
