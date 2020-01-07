@@ -129,7 +129,7 @@ include:clarivate
 include:taboola
 
 # Porn
-include:porn
+include:category-porn
 
 # Others
 include:archive
