@@ -14,6 +14,7 @@ include:huya
 include:iqiyi
 include:jd
 include:jiemian
+include:jsdelivr
 include:kuaishou
 include:mafengwo
 include:netease
