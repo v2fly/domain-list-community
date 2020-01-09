@@ -15,9 +15,6 @@ include:maying
 include:nexitally
 include:rixcloud
 
-# CDNs
-include:jsdelivr
-
 # Tech companies & Orginations
 include:adobe
 include:amazon
