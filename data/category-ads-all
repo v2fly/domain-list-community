@@ -1,9 +1,9 @@
 # This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
 
-mgid.com
-httpool.com
-unimhk.com
 advertserve.com
+httpool.com
+mgid.com
+unimhk.com
 
 include:taboola
 include:category-ads

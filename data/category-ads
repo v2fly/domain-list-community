@@ -20,28 +20,27 @@ include:umeng-ads
 include:xiaomitv-ads
 include:youku-ads
 
-
 # Other domains for ads serving
-a.adtng.com
-ad.api.moji.com
-ad-srv.net
-ad.wang502.com
-ads.trafficjunky.net
 51y5.net
+a.adtng.com
+ad-srv.net
+ad.api.moji.com
+ad.wang502.com
 adbutter.net
+ads.trafficjunky.net
 cfts1tifqr.com
 contentabc.com
-jl3.yjaxa.top
 img-bss.csdn.net
-imglnkd.com
 imglnkc.com
+imglnkd.com
+ja2.gamersky.com
+jl3.yjaxa.top
 kepler-37b.com
 lqc006.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
 static.javhd.com
 trafficfactory.biz
-ja2.gamersky.com
 
 # Ads serving for httpool.com
 toboads.com
@@ -52,8 +51,8 @@ ad.unimhk.com
 ysm.yahoo.com
 
 adxprtz.com
-exosrv.com
 exoclick.com
+exosrv.com
 
 cdn.advertserve.com
 cdn.banclip.com
