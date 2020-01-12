@@ -1,19 +1,53 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
-# V2Ray related
-include:v2ray
-
-# GFW related
+# VPN tools and services & Privacy protection & Anti-GFW & Anti-censorship
+# References:
+# https://github.com/danoctavian/awesome-anti-censorship
+# https://github.com/KevinColemanInc/awesome-privacy
+include:ahmia
+include:akasha
+include:browserleaks
 include:bypasscensorship
-include:gfw
-include:greatfire
-
-# VPN related
+include:datfoundation
+include:democracyearth
 include:dlercloud
 include:duyaoss
+include:eff
+include:epicbrowser
+include:ffprofile
+include:freenet
+include:fteproxy
+include:gfw
+include:greatfire
+include:guardianproject
+include:haveibeenpwned
+include:i2p
+include:ipfs
+include:jitsi
+include:lantern
 include:maying
 include:nexitally
+include:ntc
+include:onionshare
+include:ooni
+include:openvpn
+include:psiphon
 include:rixcloud
+include:shadowsocks
+include:softether
+include:stunnel
+include:telex
+include:torproject
+include:tribler
+include:tunsafe
+include:twister
+include:uproxy
+include:v2ray
+include:vuvuzela
+include:whonix
+include:wikileaks
+include:wireguard
+include:zeronet
 
 # Tech companies & Orginations
 include:adobe
@@ -43,6 +77,7 @@ include:xposed
 
 # Services & Softwares
 include:apkpure
+include:bitwarden
 include:disqus
 include:dropbox
 include:duckduckgo
@@ -58,6 +93,7 @@ include:zeit
 # Communications
 include:discord
 include:line
+include:signal
 include:telegram
 
 # E-commerce
@@ -134,5 +170,4 @@ include:archive
 include:huanghuagang
 include:rarbg
 include:tsquare
-include:wikileaks
 include:windy
