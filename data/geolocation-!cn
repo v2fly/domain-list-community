@@ -53,6 +53,7 @@ include:pinterest
 include:startpage
 include:steemit
 include:tumblr
+include:zeit
 
 # Communications
 include:discord
