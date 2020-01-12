@@ -1,11 +1,11 @@
+git.io
 github.blog
 github.com
+github.io
 githubapp.com
 githubassets.com
-github.io
-githubusercontent.com
-git.io
 githubstatus.com
+githubusercontent.com
 
 full:github-avatars.oss-cn-hongkong.aliyuncs.com
-regex:github-production-release-asset-[0-9a-f]{6}\.[a-z]\d\.amazonaws\.com
+regex:github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com
