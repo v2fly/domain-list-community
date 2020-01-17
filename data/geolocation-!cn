@@ -65,13 +65,17 @@ include:yahoo
 include:yandex
 
 # Software development related
+include:bootstrap
+include:fontawesome
 include:gitbook
 include:github
 include:gitlab
 include:jetbrains
+include:jquery
 include:python
 include:stackexchange
 include:ubuntu
+include:unpkg
 include:xda
 include:xposed
 
@@ -83,12 +87,14 @@ include:dropbox
 include:duckduckgo
 include:faststone
 include:gofundme
+include:gravatar
 include:infrapedia
 include:netlify
 include:pinterest
 include:startpage
 include:steemit
 include:tumblr
+include:wordpress
 include:zeit
 
 # Communications
