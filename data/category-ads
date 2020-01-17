@@ -13,6 +13,7 @@ include:kuaishou-ads
 include:letv-ads
 include:mxplayer-ads
 include:netease-ads
+include:ookla-speedtest-ads
 include:sina-ads
 include:sohu-ads
 include:tappx-ads
