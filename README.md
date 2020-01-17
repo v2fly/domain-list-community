@@ -27,7 +27,7 @@ Syntax:
 * Keyword begins with `keyword:`, followed by a string.
 * Regular expression begins with `regex:`, followed by a valid regular expression (per Golang's standard).
 * Full domain begins with `full:`, followed by a domain.
-* Domains (including `domain`, `keyword`, `regext` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
+* Domains (including `domain`, `keyword`, `regex` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
 
 ## How it works
 
