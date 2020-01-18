@@ -18,6 +18,7 @@ include:ookla-speedtest-ads
 include:sina-ads
 include:sohu-ads
 include:tappx-ads
+include:tencent-ads
 include:umeng-ads
 include:xiaomitv-ads
 include:youku-ads
