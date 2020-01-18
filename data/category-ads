@@ -21,6 +21,7 @@ include:tappx-ads
 include:tencent-ads
 include:umeng-ads
 include:xiaomitv-ads
+include:yahoo-ads
 include:youku-ads
 include:yyets-ads
 
