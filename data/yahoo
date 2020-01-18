@@ -146,3 +146,5 @@ yimg.com
 # Reference: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
 # All .yahoo domains
 yahoo
+
+include:yahoo-ads
