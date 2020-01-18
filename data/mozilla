@@ -1,9 +1,12 @@
-# Official site
+mozilla.net # short for domain download-installer.cdn.mozilla.net
 mozilla.org
 
-# Sub project
-thunderbird.net
+# Sub projects
 bugzilla.org
 getpocket.com
 seamonkey-project.org
-rust-lang.org
+thunderbird.net
+
+include:firefox
+include:mdn
+include:rust

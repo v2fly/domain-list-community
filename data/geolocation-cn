@@ -9,6 +9,7 @@ include:cas
 include:cnki
 include:coding
 include:coolapk
+include:cowtransfer
 include:ctrip
 include:douyu
 include:eleme
@@ -151,7 +152,6 @@ cnbetacdn.com
 cnblogs.com
 cnepub.com
 cnzz.com
-cowtransfer.com # 蜀ICP备14008877号-3 奶牛快传
 cqvip.com
 csbew.com
 csdn.net
