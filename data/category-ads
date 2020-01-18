@@ -3,6 +3,7 @@
 include:acfun-ads
 include:alibaba-ads
 include:apple-ads
+include:amazon-ads
 include:baidu-ads
 include:dmm-ads
 include:google-ads
