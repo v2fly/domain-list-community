@@ -15,6 +15,7 @@ include:letv-ads
 include:mxplayer-ads
 include:netease-ads
 include:ookla-speedtest-ads
+include:pubmatic-ads
 include:sina-ads
 include:sohu-ads
 include:tappx-ads
@@ -32,7 +33,6 @@ ad-srv.net
 ad.api.moji.com
 ad.wang502.com
 adbutter.net
-ads.pubmatic.com
 ads.trafficjunky.net
 adtechus.com
 aaxads.com
