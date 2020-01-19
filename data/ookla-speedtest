@@ -4,7 +4,7 @@
 # document.querySelectorAll('server').forEach(s => {
 #   let v = s.attributes.host.value;
 #   if (v) {
-#     v = v.split(":")[0];
+#     v = v.split(":")[0].toLowerCase();
 #     servers.push(v);
 #   }
 # });
