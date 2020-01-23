@@ -121,6 +121,7 @@ include:vimeo
 include:yyets
 
 # Forums
+include:lihkg
 include:pincong
 include:quora
 include:reddit
@@ -148,6 +149,7 @@ include:reuters
 include:rfa
 include:rfi
 include:rsf
+include:rthk
 include:scmp
 include:sinoinsider
 include:soundofhope
