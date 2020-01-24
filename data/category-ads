@@ -3,6 +3,7 @@
 include:acfun-ads
 include:alibaba-ads
 include:apple-ads
+include:amazon-ads
 include:baidu-ads
 include:dmm-ads
 include:google-ads
@@ -14,11 +15,14 @@ include:letv-ads
 include:mxplayer-ads
 include:netease-ads
 include:ookla-speedtest-ads
+include:pubmatic-ads
 include:sina-ads
 include:sohu-ads
 include:tappx-ads
+include:tencent-ads
 include:umeng-ads
 include:xiaomitv-ads
+include:yahoo-ads
 include:youku-ads
 include:yyets-ads
 
@@ -30,6 +34,8 @@ ad.api.moji.com
 ad.wang502.com
 adbutter.net
 ads.trafficjunky.net
+adtechus.com
+aaxads.com
 cfts1tifqr.com
 contentabc.com
 img-bss.csdn.net

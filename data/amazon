@@ -1,7 +1,6 @@
 amazon.com
 ssl-images-amazon.com
 media-amazon.com
-amazon-adsystem.com
 amazon.co.uk
 amazon.co.jp
 amazon.jp
@@ -13,3 +12,5 @@ cloudfront.net
 
 # All .aws domains
 aws
+
+include:amazon-ads
