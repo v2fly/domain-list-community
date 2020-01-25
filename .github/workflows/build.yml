@@ -32,7 +32,9 @@ jobs:
         run: |
           curl -L -o servers-source.xml "https://c.speedtest.net/speedtest-servers-static.php"
           cat servers-source.xml | sed -nEe 's/.+host="(.+):[0-9]+".+/\L\1/p' | sort -u > hosts-with-ip.txt
-          sed -E '/^([0-9]{1,3}\.){3}[0-9]{1,3}$/d' hosts-with-ip.txt > $GOPATH/src/github.com/v2ray/domain-list-community/data/ookla-speedtest
+          sed -E '/^([0-9]{1,3}\.){3}[0-9]{1,3}$/d' hosts-with-ip.txt > hosts-without-ip.txt
+          cat hosts-without-ip.txt | awk '{print "full:$0\n"}' > $GOPATH/src/github.com/v2ray/domain-list-community/data/ookla-speedtest
+          echo "include:ookla-speedtest-ads" >> $GOPATH/src/github.com/v2ray/domain-list-community/data/ookla-speedtest
 
       - name: Build geosite.dat file
         run: |
