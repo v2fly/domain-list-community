@@ -1,5 +1,10 @@
-# Generated from https://c.speedtest.net/speedtest-servers-static.php
-# With script:
+# Source: https://c.speedtest.net/speedtest-servers-static.php
+#
+# Ookla-speedtest hosts are now generated automatically by GitHub Actions.
+# For more details, please visit:
+# https://github.com/v2ray/domain-list-community/blob/master/.github/workflows/build.yml
+#
+# Or you can generate manually with following Javascript:
 # let servers = [];
 # document.querySelectorAll('server').forEach(s => {
 #   let v = s.attributes.host.value;
@@ -22,4 +27,6 @@
 # });
 # console.log(output);
 
+
+# Placeholder & just for demo
 include:ookla-speedtest-ads
