@@ -75,6 +75,7 @@ include:jquery
 include:python
 include:stackexchange
 include:ubuntu
+include:unity
 include:unpkg
 include:xda
 include:xposed
@@ -171,6 +172,7 @@ include:ted
 
 # Advertisment & Analytics
 include:clarivate
+include:pubmatic
 include:taboola
 
 # Porn
@@ -179,8 +181,6 @@ include:category-porn
 # Others
 include:archive
 include:huanghuagang
-include:pubmatic
 include:rarbg
 include:tsquare
-include:unity
 include:windy
