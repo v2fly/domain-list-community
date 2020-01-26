@@ -1,5 +1,7 @@
 name: Build geosite.dat
 on:
+  schedule:
+    - cron: "0 0 */3 * *"
   push:
     branches:
       - master
