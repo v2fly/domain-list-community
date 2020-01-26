@@ -2,8 +2,8 @@
 
 include:acfun-ads
 include:alibaba-ads
-include:apple-ads
 include:amazon-ads
+include:apple-ads
 include:baidu-ads
 include:dmm-ads
 include:google-ads
@@ -30,13 +30,13 @@ include:yyets-ads
 # Other domains for ads serving
 51y5.net
 a.adtng.com
+aaxads.com
 ad-srv.net
 ad.api.moji.com
 ad.wang502.com
 adbutter.net
 ads.trafficjunky.net
 adtechus.com
-aaxads.com
 cfts1tifqr.com
 contentabc.com
 img-bss.csdn.net
