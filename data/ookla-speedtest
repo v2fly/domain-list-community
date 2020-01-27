@@ -4,7 +4,7 @@
 # For more details, please visit:
 # https://github.com/v2ray/domain-list-community/blob/master/.github/workflows/build.yml
 #
-# Or you can generate manually with following Javascript:
+# Or you can generate manually with following Javascript code:
 # let servers = [];
 # document.querySelectorAll('server').forEach(s => {
 #   let v = s.attributes.host.value;
@@ -27,6 +27,5 @@
 # });
 # console.log(output);
 
-
-# Placeholder & just for demo
+# Do not remove the following line
 include:ookla-speedtest-ads
