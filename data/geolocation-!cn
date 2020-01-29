@@ -161,7 +161,13 @@ include:thestandnews
 include:voanews
 include:washingtonpost
 include:wenzhao
+
+# Organizations
+include:archive
+include:globalsecurity
+include:who
 include:wikimedia
+include:wto
 
 # Science & Technology & Knowledge
 include:acm
@@ -182,7 +188,6 @@ include:taboola
 include:category-porn
 
 # Others
-include:archive
 include:huanghuagang
 include:rarbg
 include:tsquare
