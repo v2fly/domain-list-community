@@ -1,6 +1,9 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
-# VPN tools and services & Privacy protection & Anti-GFW & Anti-censorship
+# VPN services
+include:category-vpnservices
+
+# VPN tools & Privacy protection & Anti-GFW & Anti-censorship
 # References:
 # https://github.com/danoctavian/awesome-anti-censorship
 # https://github.com/KevinColemanInc/awesome-privacy
@@ -10,8 +13,6 @@ include:browserleaks
 include:bypasscensorship
 include:datfoundation
 include:democracyearth
-include:dlercloud
-include:duyaoss
 include:eff
 include:epicbrowser
 include:ffprofile
@@ -25,14 +26,11 @@ include:i2p
 include:ipfs
 include:jitsi
 include:lantern
-include:maying
-include:nexitally
 include:ntc
 include:onionshare
 include:ooni
 include:openvpn
 include:psiphon
-include:rixcloud
 include:shadowsocks
 include:softether
 include:stunnel
