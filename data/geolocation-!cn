@@ -162,6 +162,7 @@ include:wenzhao
 
 # Organizations
 include:archive
+include:csis
 include:globalsecurity
 include:who
 include:wikimedia
@@ -169,6 +170,7 @@ include:wto
 
 # Science & Technology & Knowledge
 include:acm
+include:chinapower
 include:computingreviews
 include:elsevier
 include:ieee
