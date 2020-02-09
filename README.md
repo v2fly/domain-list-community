@@ -4,7 +4,7 @@ This project manages a list of domains, to be used as geosites for routing purpo
 
 ## Purpose of this project
 
-This project contains only lists of domains. It is not opinionated, such as a domain should be blocked, or a domain should be proxied. This list can be used to generate routing rules on demand.
+This project is not opinionated. In other words, it does NOT endorse, claim or imply that a domain should be blocked or proxied. It can be used to generate routing rules on demand.
 
 ## Structure of data
 
@@ -26,7 +26,7 @@ Syntax:
 * Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
 * Keyword begins with `keyword:`, followed by a string.
 * Regular expression begins with `regex:`, followed by a valid regular expression (per Golang's standard).
-* Full domain begins with `full:`, followed by a domain.
+* Full domain begins with `full:`, followed by a complete and valid domain name.
 * Domains (including `domain`, `keyword`, `regex` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
 
 ## How it works
@@ -40,8 +40,8 @@ To generate a section:
 3. Omit all empty lines.
 4. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L21).
 5. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L17).
-6. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19)
-7. Generate each `full:` line into a [full domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L23)
+6. Generate each `regex:` line into a [regex domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L19).
+7. Generate each `full:` line into a [full domain routing rule](https://github.com/v2ray/v2ray-core/blob/master/app/router/config.proto#L23).
 
 ## How to organize domains
 
@@ -57,4 +57,4 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 
 * Please begin with small size PRs, say modification in a single file.
 * A PR must be reviewed and approved by another member.
-* After a few successful PRs, you may applied for manager access of this repository.
+* After a few successful PRs, you may apply for manager access of this repository.
