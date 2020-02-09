@@ -163,7 +163,6 @@ func GenerateSpeedtest(path string) error {
 	}
 
 	req.Header.Set("Accept-Encoding", "gzip")
-	req.Header.Set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
 		return err
@@ -183,10 +182,6 @@ func GenerateSpeedtest(path string) error {
 
 	reg := regexp.MustCompile(`host="(.+):[0-9]+"`)
 	matchList := reg.FindAllStringSubmatch(string(body), -1)
-
-	if len(matchList) == 0 {
-		return errors.New("cannot get ookla-speedtest domains")
-	}
 
 	exist := make(map[string]bool)
 	var domainList []string
@@ -209,7 +204,6 @@ func GenerateSpeedtest(path string) error {
 		exist[domain] = true
 	}
 	sort.Strings(domainList)
-	fmt.Printf("%ddomains added.\n", len(domainList))
 
 	fPath := filepath.Join(path, "ookla-speedtest")
 	b := append([]byte("include:ookla-speedtest-ads\n"), []byte(strings.Join(domainList, "\n"))...)
