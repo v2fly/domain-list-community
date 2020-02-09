@@ -1,10 +1,8 @@
 # Source: https://c.speedtest.net/speedtest-servers-static.php
 #
-# Ookla-speedtest hosts are now generated automatically by GitHub Actions.
-# For more details, please visit:
-# https://github.com/v2ray/domain-list-community/blob/master/.github/workflows/build.yml
+# Ookla-speedtest hosts are now generated automatically when generating dlc.dat file.
 #
-# Or you can generate manually with following Javascript code:
+# You can also generate manually with following Javascript code:
 # let servers = [];
 # document.querySelectorAll('server').forEach(s => {
 #   let v = s.attributes.host.value;
@@ -26,6 +24,11 @@
 #   output += "full:" + s + "\n";
 # });
 # console.log(output);
+#
+# Or you can generate manually with following sh code:
+# curl -L -o servers-source.xml "https://c.speedtest.net/speedtest-servers-static.php" -H 'Accept-Encoding: gzip' --compressed
+# perl -ne '/host="(.+):[0-9]+"/ && print "full:$1\n"' servers-source.xml | perl -ne 'print if not /^(full:([0-9]{1,3}\.){3}[0-9]{1,3})$/' | perl -ne 'print lc' | sort --ignore-case -u >> $GOPATH/src/$REPO_URL/data/ookla-speedtest
+
 
 # Do not remove the following line
 include:ookla-speedtest-ads
