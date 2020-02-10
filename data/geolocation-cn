@@ -6,6 +6,9 @@ include:baidu
 include:bilibili
 include:bytedance
 include:cas
+include:chinamobile
+include:chinatelecom
+include:chinaunicom
 include:cnki
 include:coding
 include:coolapk
@@ -55,7 +58,6 @@ moji.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
-10010.com
 100offer.com
 115.com
 123juzi.com
