@@ -16,11 +16,13 @@ include:cowtransfer
 include:ctrip
 include:douyu
 include:eleme
+include:gcores
 include:huawei
 include:huya
 include:iqiyi
 include:jd
 include:jiemian
+include:jinrishici
 include:jsdelivr
 include:kuaishou
 include:landian
@@ -32,6 +34,7 @@ include:pinduoduo
 include:qihoo360
 include:sina
 include:stage1st
+include:taptap
 include:tencent
 include:tmtpost
 include:tongcheng
