@@ -1,6 +1,7 @@
 # This file contains domains that clearly serving ads
 
 include:acfun-ads
+include:adcolony-ads
 include:alibaba-ads
 include:amazon-ads
 include:apple-ads
@@ -12,6 +13,7 @@ include:iqiyi-ads
 include:jd-ads
 include:kuaishou-ads
 include:letv-ads
+include:mopub-ads
 include:mxplayer-ads
 include:netease-ads
 include:ookla-speedtest-ads

@@ -1,6 +1,7 @@
 # List of all domains that have access point in China
 
 include:acfun
+include:acplay
 include:alibaba
 include:baidu
 include:bilibili
