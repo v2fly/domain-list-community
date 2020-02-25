@@ -51,7 +51,9 @@ include:zeronet
 include:adobe
 include:amazon
 include:apple
+include:cloudflare
 include:facebook
+include:godaddy
 include:google
 include:hp
 include:ibm
@@ -64,6 +66,20 @@ include:twitter
 include:uber
 include:yahoo
 include:yandex
+
+# Certificate authorities
+# Reference: https://en.wikipedia.org/wiki/Certificate_authority
+include:buypass
+include:comodo
+include:digicert
+include:entrust
+include:globalsign
+include:identrust
+include:letsencrypt
+include:secom
+include:sectigo
+include:telekom
+include:trustwave
 
 # Software development related
 include:bootstrap
