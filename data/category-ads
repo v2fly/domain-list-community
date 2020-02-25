@@ -5,10 +5,12 @@ include:adcolony-ads
 include:alibaba-ads
 include:amazon-ads
 include:apple-ads
+include:applovin-ads
 include:baidu-ads
 include:dmm-ads
 include:google-ads
 include:hunantv-ads
+include:inner-active-ads
 include:iqiyi-ads
 include:jd-ads
 include:kuaishou-ads
@@ -22,6 +24,7 @@ include:sina-ads
 include:sohu-ads
 include:tappx-ads
 include:tencent-ads
+include:uberads-ads
 include:umeng-ads
 include:unity-ads
 include:xiaomitv-ads
