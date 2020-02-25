@@ -129,7 +129,6 @@ include:quora
 include:reddit
 
 # News & Press & Media
-include:0zmedia
 include:appledaily
 include:bbc
 include:boxun
@@ -142,11 +141,16 @@ include:fox
 include:globalvoices
 include:guo
 include:hk01
+include:inmediahk
 include:jfengtime
+include:ltn
+include:matters
 include:medium
 include:myradio
+include:nikkei
 include:ntd
 include:nytimes
+include:passiontimes
 include:reuters
 include:rfa
 include:rfi
@@ -156,15 +160,18 @@ include:scmp
 include:sinoinsider
 include:soundofhope
 include:thestandnews
+include:udn
 include:voanews
 include:washingtonpost
 include:wenzhao
+include:zaobao
 
 # Organizations
 include:archive
 include:change
 include:csis
 include:globalsecurity
+include:ruleoflaw
 include:who
 include:wikimedia
 include:wto
