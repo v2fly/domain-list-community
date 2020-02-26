@@ -11,6 +11,7 @@ include:ahmia
 include:akasha
 include:browserleaks
 include:bypasscensorship
+include:citizenlab
 include:datfoundation
 include:democracyearth
 include:eff
@@ -114,8 +115,6 @@ include:startpage
 include:steemit
 include:tumblr
 include:wordpress
-include:xdty
-include:xingrz
 include:zeit
 
 # Communications
@@ -181,6 +180,7 @@ include:thestandnews
 include:udn
 include:voanews
 include:washingtonpost
+include:watchout
 include:wenzhao
 include:zaobao
 
@@ -218,3 +218,5 @@ include:huanghuagang
 include:rarbg
 include:tsquare
 include:windy
+include:xdty
+include:xingrz
