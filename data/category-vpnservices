@@ -1,4 +1,6 @@
-# Disclaimer: We do NOT endorse or claim that the VPN services below are legal or safe, please use at your own risk and observe local laws, rules and regulations.
+# DISCLAIMER:
+# We do NOT endorse or claim that the VPN services below are legal or safe.
+# Please use at your own risk and observe local laws, rules and regulations.
 
 # Reference: https://duyaoss.com/archives/3/
 include:928plus
@@ -27,8 +29,10 @@ include:paofuyun
 include:renzhe
 include:rixcloud
 include:shadowsockscom
+include:squirrelvpn
 include:ssplive
 include:ssrcloud
 include:ssrpass
 include:stcserver
 include:surflite
+include:vilavpn
