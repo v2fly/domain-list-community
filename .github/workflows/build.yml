@@ -38,7 +38,7 @@ jobs:
           mv ./dlc.dat ./publish/dlc.dat
 
       - name: Release file
-        uses: Ricky-Hao/action-release@master
+        uses: opspresso/action-release@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ASSET_PATH: publish
