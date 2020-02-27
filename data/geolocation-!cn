@@ -3,56 +3,14 @@
 # VPN services
 include:category-vpnservices
 
+# VPN tools & Privacy protection & Anti-GFW & Anti-censorship
+include:category-anticensorship
+
 # Porn
 include:category-porn
 
 # News & Press & Media
 include:category-media
-
-# VPN tools & Privacy protection & Anti-GFW & Anti-censorship
-# References:
-# https://github.com/danoctavian/awesome-anti-censorship
-# https://github.com/KevinColemanInc/awesome-privacy
-include:ahmia
-include:akasha
-include:browserleaks
-include:bypasscensorship
-include:citizenlab
-include:datfoundation
-include:democracyearth
-include:eff
-include:epicbrowser
-include:ffprofile
-include:freenet
-include:fteproxy
-include:gfw
-include:greatfire
-include:guardianproject
-include:haveibeenpwned
-include:i2p
-include:ipfs
-include:jitsi
-include:lantern
-include:ntc
-include:onionshare
-include:ooni
-include:openvpn
-include:psiphon
-include:shadowsocks
-include:softether
-include:stunnel
-include:telex
-include:torproject
-include:tribler
-include:tunsafe
-include:twister
-include:uproxy
-include:v2ray
-include:vuvuzela
-include:whonix
-include:wikileaks
-include:wireguard
-include:zeronet
 
 # Tech companies & Orginations
 include:adobe
