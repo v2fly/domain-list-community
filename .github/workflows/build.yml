@@ -32,8 +32,6 @@ jobs:
       - name: Build dlc.dat file
         run: |
           domain-list-community
-          mkdir -p ./publish
-          mv ./dlc.dat ./publish/dlc.dat
 
       - name: Create a release
         id: create_release
@@ -53,6 +51,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./publish/dlc.dat
+          asset_path: ./dlc.dat
           asset_name: dlc.dat
           asset_content_type: application/octet-stream
