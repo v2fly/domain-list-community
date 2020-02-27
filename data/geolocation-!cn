@@ -111,6 +111,7 @@ include:imgur
 include:infrapedia
 include:netlify
 include:pinterest
+include:protonmail
 include:startpage
 include:steemit
 include:tumblr
@@ -151,6 +152,7 @@ include:bbc
 include:boxun
 include:caijinglengyan
 include:chinadigitaltimes
+include:cnbc
 include:cnn
 include:d100
 include:dw
