@@ -3,6 +3,12 @@
 # VPN services
 include:category-vpnservices
 
+# Porn
+include:category-porn
+
+# News & Press & Media
+include:category-media
+
 # VPN tools & Privacy protection & Anti-GFW & Anti-censorship
 # References:
 # https://github.com/danoctavian/awesome-anti-censorship
@@ -146,46 +152,6 @@ include:pincong
 include:quora
 include:reddit
 
-# News & Press & Media
-include:appledaily
-include:bbc
-include:boxun
-include:caijinglengyan
-include:chinadigitaltimes
-include:cnbc
-include:cnn
-include:d100
-include:dw
-include:fox
-include:globalvoices
-include:guo
-include:hk01
-include:inmediahk
-include:jfengtime
-include:ltn
-include:matters
-include:medium
-include:myradio
-include:nikkei
-include:ntd
-include:nytimes
-include:passiontimes
-include:reuters
-include:rfa
-include:rfi
-include:rsf
-include:rthk
-include:scmp
-include:sinoinsider
-include:soundofhope
-include:thestandnews
-include:udn
-include:voanews
-include:washingtonpost
-include:watchout
-include:wenzhao
-include:zaobao
-
 # Organizations
 include:archive
 include:change
@@ -211,9 +177,6 @@ include:ted
 include:clarivate
 include:pubmatic
 include:taboola
-
-# Porn
-include:category-porn
 
 # Others
 include:huanghuagang
