@@ -93,6 +93,7 @@ include:bestbuy
 include:ebay
 
 # Entertainment & Videos & Games & Music
+include:archiveofourown
 include:epicgames
 include:netflix
 include:pixiv
