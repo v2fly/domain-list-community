@@ -45,6 +45,7 @@ include:secom
 include:sectigo
 include:telekom
 include:trustwave
+include:verisign
 
 # Software development related
 include:bootstrap
