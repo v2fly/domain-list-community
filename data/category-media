@@ -21,6 +21,7 @@ include:nikkei
 include:ntd
 include:nytimes
 include:passiontimes
+include:realvision
 include:reuters
 include:rfa
 include:rfi
@@ -36,3 +37,4 @@ include:washingtonpost
 include:watchout
 include:wenzhao
 include:zaobao
+include:zerohedge
