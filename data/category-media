@@ -1,3 +1,6 @@
+include:afp
+include:americasvoice
+include:ap
 include:appledaily
 include:bbc
 include:boxun
@@ -28,6 +31,7 @@ include:rfi
 include:rsf
 include:rthk
 include:scmp
+include:shuziyimin
 include:sinoinsider
 include:soundofhope
 include:thestandnews
