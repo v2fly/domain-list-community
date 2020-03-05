@@ -64,6 +64,8 @@ include:xda
 include:xposed
 
 # Services & Softwares
+include:addthis
+include:addtoany
 include:apkpure
 include:bitwarden
 include:disqus
