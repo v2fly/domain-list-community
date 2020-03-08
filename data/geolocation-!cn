@@ -101,6 +101,7 @@ include:ebay
 # Entertainment & Videos & Games & Music
 include:archiveofourown
 include:epicgames
+include:disney
 include:netflix
 include:pixiv
 include:spotify
