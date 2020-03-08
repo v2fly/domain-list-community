@@ -147,4 +147,5 @@ yimg.com
 # All .yahoo domains
 yahoo
 
+include:flickr
 include:yahoo-ads
