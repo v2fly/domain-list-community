@@ -71,6 +71,7 @@ include:bitwarden
 include:disqus
 include:dropbox
 include:duckduckgo
+include:entermediadb
 include:faststone
 include:gofundme
 include:gravatar
@@ -80,6 +81,7 @@ include:jwplayer
 include:netlify
 include:pinterest
 include:protonmail
+include:sharethis
 include:startpage
 include:steemit
 include:tumblr
@@ -121,6 +123,7 @@ include:change
 include:csis
 include:globalsecurity
 include:ruleoflaw
+include:un
 include:who
 include:wikimedia
 include:wto
