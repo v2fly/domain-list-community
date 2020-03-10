@@ -1,14 +1,21 @@
 amazon.com
-ssl-images-amazon.com
-media-amazon.com
+amazon.com.au
 amazon.co.uk
 amazon.co.jp
+amazon.de
 amazon.jp
+amzn.com
+media-amazon.com
+ssl-images-amazon.com
 
 # AWS
 amazonaws.com
 awsstatic.com
 cloudfront.net
+
+# Prime Video
+amazonvideo.com
+primevideo.com
 
 # All .aws domains
 aws
