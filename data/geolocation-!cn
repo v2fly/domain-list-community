@@ -27,6 +27,7 @@ include:microsoft
 include:mozilla
 include:nvidia
 include:oracle
+include:samsung
 include:twitter
 include:uber
 include:yahoo
