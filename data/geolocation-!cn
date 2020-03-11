@@ -132,6 +132,7 @@ include:wto
 
 # Science & Technology & Knowledge
 include:acm
+include:arxiv
 include:chinapower
 include:computingreviews
 include:elsevier
