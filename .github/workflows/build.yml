@@ -33,6 +33,10 @@ jobs:
         run: |
           domain-list-community
 
+      - name: Generate dlc.dat sha256 hash
+        run: |
+          sha256sum dlc.dat > dlc.dat.sha256sum
+
       - name: Create a release
         id: create_release
         uses: actions/create-release@v1
@@ -44,8 +48,7 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Upload dat file
-        id: upload-release-asset 
+      - name: Upload dlc.dat
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -54,3 +57,13 @@ jobs:
           asset_path: ./dlc.dat
           asset_name: dlc.dat
           asset_content_type: application/octet-stream
+
+      - name: Upload dlc.dat sha256sum
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dlc.dat.sha256sum
+          asset_name: dlc.dat.sha256sum
+          asset_content_type: text/plain
