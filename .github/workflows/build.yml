@@ -37,6 +37,17 @@ jobs:
         run: |
           sha256sum dlc.dat > dlc.dat.sha256sum
 
+      - name: Git push assets to "release" branch
+        run: |
+          git init
+          git config --local user.name "${{ github.actor }}"
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git checkout -b release
+          git add dlc.dat dlc.dat.sha256sum
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin release
+
       - name: Create a release
         id: create_release
         uses: actions/create-release@v1
