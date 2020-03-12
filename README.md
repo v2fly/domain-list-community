@@ -6,6 +6,11 @@ This project manages a list of domains, to be used as geosites for routing purpo
 
 This project is not opinionated. In other words, it does NOT endorse, claim or imply that a domain should be blocked or proxied. It can be used to generate routing rules on demand.
 
+## Download links
+
+- **dlc.dat**：[https://github.com/v2ray/domain-list-community/raw/release/dlc.dat](https://github.com/v2ray/domain-list-community/raw/release/dlc.dat)
+- **dlc.dat.sha256sum**：[https://github.com/v2ray/domain-list-community/raw/release/dlc.dat.sha256sum](https://github.com/v2ray/domain-list-community/raw/release/dlc.dat.sha256sum)
+
 ## Structure of data
 
 All data are under `data/` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
