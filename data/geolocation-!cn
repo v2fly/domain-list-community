@@ -97,6 +97,7 @@ include:telegram
 
 # E-commerce
 include:bestbuy
+include:dmm
 include:ebay
 
 # Entertainment & Videos & Games & Music
