@@ -22,6 +22,7 @@ include:ntc
 include:onionshare
 include:ooni
 include:openvpn
+include:privacytools
 include:psiphon
 include:shadowsocks
 include:softether
