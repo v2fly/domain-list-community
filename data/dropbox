@@ -1,10 +1,9 @@
 # List of all domains being operated by Dorpbox Inc.
-
 # Source: https://help.dropbox.com/zh-cn/accounts-billing/security/official-domains
 db.tt
 dropbox-dns.com
 dropbox.com
-dropbox.zendesk.com
+dropbox.tech
 dropboxapi.com
 dropboxbusiness.com
 dropboxcaptcha.com
@@ -16,3 +15,5 @@ dropboxpartners.com
 dropboxstatic.com
 dropboxusercontent.com
 getdropbox.com
+
+full:paper-attachments.s3.amazonaws.com
