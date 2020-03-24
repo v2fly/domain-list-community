@@ -16,7 +16,6 @@ include:category-media
 include:adobe
 include:amazon
 include:apple
-include:cloudflare
 include:facebook
 include:godaddy
 include:google
@@ -32,6 +31,13 @@ include:twitter
 include:uber
 include:yahoo
 include:yandex
+
+# CDN companies & Services
+include:cloudflare
+include:fastly
+include:pagecdn
+include:quantil
+include:stackpath
 
 # Certificate authorities
 # Reference: https://en.wikipedia.org/wiki/Certificate_authority
