@@ -115,16 +115,18 @@ include:ebay
 
 # Entertainment & Videos & Games & Music
 include:archiveofourown
-include:epicgames
 include:disney
+include:epicgames
+include:moov
 include:netflix
 include:pixiv
-include:spotify
 include:soundcloud
+include:spotify
 include:steam
 include:steamunlocked
 include:ubi
 include:vimeo
+include:viu
 include:yyets
 
 # Forums
