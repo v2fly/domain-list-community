@@ -92,6 +92,7 @@ include:gravatar
 include:imgur
 include:infrapedia
 include:jwplayer
+include:linguee
 include:netlify
 include:pinterest
 include:protonmail
