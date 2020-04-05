@@ -38,6 +38,7 @@ include:pinduoduo
 include:qihoo360
 include:sfacg
 include:sina
+include:sf
 include:stage1st
 include:taptap
 include:tencent
@@ -385,7 +386,6 @@ sanwen.net
 sec-wiki.com
 segmentfault.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
-sf-express.com
 sharejs.com
 shmetro.com
 shutcm.com
