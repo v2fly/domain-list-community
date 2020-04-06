@@ -1,5 +1,26 @@
-# All .ms domains
-ms
+# All .microsoft domains
+microsoft
+
+# All .azure domains
+azure
+
+# All .bing domains
+bing
+
+# All .hotmail domains
+hotmail
+
+# All .office domains
+office
+
+# All .skype domains
+skype
+
+# All .windows domains
+windows
+
+# All .xbox domains
+xbox
 
 1drv.com
 1drv.ms
@@ -8,10 +29,18 @@ applicationinsights.io
 applicationinsights.net
 asp.net
 aspnetcdn.com
+azure-dns.com
+azure-dns.info
+azure-dns.net
+azure-dns.org
+azure-mobile.net
 azure-test.net
 azure.com
 azure.net
 azurecomcdn.net
+azurecontainer.io
+azuredns-prd.info
+azuredns-prd.org
 azureedge-test.net
 azureedge.net
 azurewebsites.net
@@ -46,6 +75,7 @@ msads.net
 msauth.net
 msecnd.net
 msedge.net
+msft.net
 msftauth.net
 msn.com
 msocdn.com
