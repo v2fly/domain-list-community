@@ -1,5 +1,9 @@
 # List of all domains being operated by Google Inc.
 
+# All .google and .goog domains
+google
+goog
+
 # Source: https://www.google.com/supported_domains
 google.ad
 google.ae
@@ -191,10 +195,6 @@ google.tt
 google.vg
 google.vu
 google.ws
-
-# All .google and .goog domains
-google
-goog
 
 # Blogspot
 blogspot.ae
