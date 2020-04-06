@@ -1,6 +1,3 @@
-# All .ms domains
-ms
-
 # All .microsoft domains
 microsoft
 
@@ -26,6 +23,8 @@ windows
 xbox
 
 1drv.com
+1drv.ms
+aka.ms
 applicationinsights.io
 applicationinsights.net
 asp.net
@@ -58,6 +57,7 @@ crmdynint.com
 docs.com
 dynamics.com
 efproject.net
+gfx.ms
 hotmail.com
 live.com
 live.net
@@ -98,6 +98,7 @@ powerbi.com
 s-microsoft.com
 sfbassets.com
 sfbassets.net
+sfx.ms
 sharepointonline.com
 skype.com
 skype.net
