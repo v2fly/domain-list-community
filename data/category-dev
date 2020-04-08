@@ -27,6 +27,7 @@ include:golang
 include:haskell
 include:homebrew
 include:ius
+include:java
 include:jenkins
 include:jetbrains
 include:jquery
