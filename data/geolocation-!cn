@@ -94,9 +94,11 @@ include:infrapedia
 include:jwplayer
 include:linguee
 include:netlify
+include:osdn
 include:pinterest
 include:protonmail
 include:sharethis
+include:sourceforge
 include:startpage
 include:steemit
 include:tumblr
