@@ -12,6 +12,9 @@ include:category-porn
 # News & Press & Media
 include:category-media
 
+# Software development related
+include:category-dev
+
 # Tech companies & Orginations
 include:adobe
 include:amazon
@@ -53,29 +56,6 @@ include:sectigo
 include:telekom
 include:trustwave
 include:verisign
-
-# Software development related
-include:bootstrap
-include:fontawesome
-include:getcomposer
-include:gitbook
-include:github
-include:gitlab
-include:golang
-include:jetbrains
-include:jquery
-include:nodejs
-include:npmjs
-include:packagist
-include:phantomjs
-include:python
-include:stackexchange
-include:ubuntu
-include:unity
-include:unpkg
-include:xda
-include:xposed
-include:yarnpkg
 
 # Services & Softwares
 include:addthis

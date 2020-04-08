@@ -1,3 +1,6 @@
+# All .apple domains
+apple
+
 apple.com
 apple.net
 
@@ -87,5 +90,4 @@ apple-dns.cn
 
 cups.org
 
-# All .apple domains
-apple
+include:swift
