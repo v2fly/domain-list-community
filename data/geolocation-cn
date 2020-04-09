@@ -32,9 +32,11 @@ include:jsdelivr
 include:kuaishou
 include:landian
 include:mafengwo
+include:meitu
 include:meituan
 include:netease
 include:oneplus
+include:oppo
 include:pinduoduo
 include:qihoo360
 include:sfacg
@@ -112,6 +114,7 @@ moji.com
 71.am
 7k7k.com
 7moor.com
+88cdn.com
 900.la
 91yunxiao.com
 9718.com
@@ -135,6 +138,7 @@ baixing.net
 bankcomm.com
 bankofchina.com
 bcy.net
+biddingx.com
 bitauto.com
 bitautoimg.com
 bobo.com
@@ -146,7 +150,6 @@ ccb.com
 cctv.com
 cctvpic.com
 cdn20.com
-cdn-go.cn
 cebbank.com
 ch.com
 chashebao.com
@@ -327,7 +330,6 @@ lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
 lxdns.com
 lxway.com
-maxsun.com.cn
 mayihr.com
 mechina.org
 mediav.com
@@ -384,7 +386,6 @@ qiniudns.com
 qtmojo.com
 qunar.com
 qunarzz.com
-ren3.cn
 renren.com
 rfchost.com
 rtbasia.com
@@ -437,10 +438,8 @@ tuniu.com
 tutuapp.com
 u.tools
 u17.com
-ucloud.cn
 upaiyun.com
 upyun.com
-url.cn
 useso.com
 v5875.com
 vamaker.com
@@ -458,7 +457,6 @@ weilaiyunxiao.com
 weiphone.com
 weiphone.net
 weixing.com
-weiyoubot.cn
 wonnder.com
 wooyun.org
 worktile.com
@@ -474,6 +472,7 @@ xiu8.com
 xnpic.com
 xueqiu.com
 xunlei.com
+xycdn.com
 xywy.com
 yaolan.com
 yccdn.com
@@ -486,6 +485,7 @@ yihaodianimg.com
 yingjiesheng.com
 yinxiang.com
 yinyuetai.com
+yisu.com
 yixi.tv
 yjbys.com
 youboy.com
@@ -514,7 +514,6 @@ zhipin.com
 zhiziyun.com
 zhubajie.com
 zimuzu.io
-ziyun.com.cn
 zjstv.com
 zrblog.net
 zsxq.com
