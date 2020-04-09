@@ -69,6 +69,7 @@ include:entermediadb
 include:faststone
 include:gofundme
 include:gravatar
+include:heroku
 include:imgur
 include:infrapedia
 include:jwplayer
