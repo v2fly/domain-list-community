@@ -1,11 +1,12 @@
-# All .java domains
-java
-
 # All .oracle domains
 oracle
 
 oracle.com
 oraclecloud.com
+oraclefoundation.org
 oracleimg.com
-java.com
+ateam-oracle.com
+bronto.com
 sun.com
+
+include:java
