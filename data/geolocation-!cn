@@ -53,6 +53,7 @@ include:identrust
 include:letsencrypt
 include:secom
 include:sectigo
+include:swisssign
 include:telekom
 include:trustwave
 include:verisign
