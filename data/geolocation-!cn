@@ -62,6 +62,7 @@ include:addthis
 include:addtoany
 include:apkpure
 include:bitwarden
+include:digitalocean
 include:disqus
 include:dropbox
 include:duckduckgo
