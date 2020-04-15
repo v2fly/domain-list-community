@@ -1,5 +1,6 @@
 # List of all domains that have access point in China
 
+include:4399
 include:acfun
 include:acplay
 include:alibaba
@@ -22,12 +23,14 @@ include:eleme
 include:gcores
 include:gitv
 include:huawei
+include:hupu
 include:huya
 include:iqiyi
 include:jd
 include:jiguang
 include:jiemian
 include:jinrishici
+include:jinshuju
 include:jsdelivr
 include:kuaishou
 include:landian
@@ -44,6 +47,7 @@ include:sina
 include:sf-express
 include:stage1st
 include:taptap
+include:teambition
 include:tencent
 include:tipdm
 include:tmtpost
@@ -99,7 +103,6 @@ moji.com
 39.net
 3conline.com
 3dmgame.com
-4399.com
 500d.me
 50bang.org
 51.la
@@ -187,6 +190,7 @@ cnbetacdn.com
 cnblogs.com
 cnepub.com
 cnzz.com
+code666.com
 cqvip.com
 csbew.com
 csslcloud.net
@@ -214,6 +218,7 @@ douban.fm
 doubanio.com
 downyi.com
 dpfile.com
+duoduocdn.com
 duokanbox.com
 duomai.com
 duoshuo.com
@@ -258,8 +263,6 @@ hichina.com
 huanqiu.com
 hunantv.com
 huochepiao.com
-hupu.com
-hupucdn.com
 huxiu.com
 iask.com
 ichangtou.com
@@ -275,6 +278,7 @@ ikafan.com
 imedao.com
 imgo.tv
 imooc.com
+im-cc.com
 infoq.com
 infoqstatic.com
 ip-cdn.com
@@ -298,7 +302,6 @@ jiasuhui.com
 jiathis.com
 jiayuan.com
 jikexueyuan.com
-jinshuju.net
 jisuanke.com
 jmstatic.com
 jstv.com
@@ -425,6 +428,7 @@ shmetro.com
 shutcm.com
 simei8.com
 smzdm.com
+sobot.com
 sogou.com
 sogoucdn.com
 sohu.com
@@ -443,17 +447,19 @@ szzfgjj.com
 t1y5.com
 tanx.com
 tao123.com
-teambition.com
 tenxcloud.com
 tietuku.com
 tiexue.net
 tingyun.com
 tjjt360.com
 tmcdn.net
+tongdun.net
 topthink.com
+trustutn.org
 ttpod.com
 tudou.com
 tudouui.com
+tuer123.com
 tuicool.com
 tuniu.com
 tutuapp.com
@@ -535,6 +541,7 @@ zhanzhang.net
 zhanqi.tv
 zhaopin.com
 zhenai.com
+zhibo8.cc
 zhipin.com
 zhiziyun.com
 zhubajie.com
