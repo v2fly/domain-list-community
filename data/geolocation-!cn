@@ -157,6 +157,7 @@ include:pubmatic
 include:taboola
 
 # Others
+include:fonts
 include:huanghuagang
 include:rarbg
 include:tsquare
