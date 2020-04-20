@@ -26,6 +26,7 @@ include:gitv
 include:huawei
 include:hupu
 include:huya
+include:ifanr
 include:iqiyi
 include:jd
 include:jiguang
@@ -49,6 +50,7 @@ include:sf-express
 include:sfacg
 include:sina
 include:stage1st
+include:suning
 include:taptap
 include:teambition
 include:tencent
@@ -107,6 +109,7 @@ moji.com
 39.net
 3conline.com
 3dmgame.com
+4paradigm.com
 500d.me
 50bang.org
 51.la
@@ -284,9 +287,6 @@ iask.com
 ichangtou.com
 iciba.com
 idqqimg.com
-ifanr.com
-ifanrusercontent.com
-ifanrx.com
 ifeng.com
 ifengimg.com
 ijinshan.com
@@ -464,7 +464,6 @@ starbaby.cc
 starbaby.com
 staticfile.org
 stockstar.com
-suning.com
 szfw.org
 szzfgjj.com
 t1y5.com
