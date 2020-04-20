@@ -82,9 +82,11 @@ include:osdn
 include:pinterest
 include:protonmail
 include:sharethis
+include:shopify
 include:sourceforge
 include:startpage
 include:steemit
+include:stripe
 include:tumblr
 include:wordpress
 include:zeit
@@ -156,6 +158,7 @@ include:pubmatic
 include:taboola
 
 # Others
+include:fonts
 include:huanghuagang
 include:rarbg
 include:tsquare
