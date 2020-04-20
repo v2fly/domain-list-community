@@ -35,6 +35,7 @@ include:jinshuju
 include:jsdelivr
 include:kuaishou
 include:landian
+include:liepin
 include:mafengwo
 include:meitu
 include:meituan
@@ -58,8 +59,10 @@ include:umeng
 include:unionpay
 include:wanfang
 include:xiaomi
+include:xunlei
 include:ynet
 include:youku
+include:yunfanjiasu
 include:zhihu
 
 # CDNs
@@ -153,6 +156,7 @@ baixing.net
 bangongziyuan.com
 bankcomm.com
 bankofchina.com
+baomitu.com
 bcy.net
 benmi.com
 biddingx.com
@@ -200,6 +204,8 @@ csbew.com
 csslcloud.net
 ctfile.com
 cubead.com
+cztv.com
+cztvcloud.com
 dajie.com
 dajieimg.com
 dangdang.com
@@ -234,6 +240,7 @@ eayyou.com
 ecitic.com
 edu.cn
 eeyy.com
+eflycloud.com
 emarbox.com
 eoeandroid.com
 excelhome.net
@@ -262,13 +269,13 @@ gzwanju.com
 hackhome.com
 hao123.com
 hao123img.com
-haosou.com
 haote.com
 henha.com
 henkuai.com
 hexun.com
 hichina.com
 hiido.com
+hitv.com
 huanqiu.com
 hunantv.com
 huochepiao.com
@@ -307,6 +314,7 @@ jia.com
 jianshu.com
 jianshu.io
 jiasuhui.com
+jiasule.com
 jiathis.com
 jiayuan.com
 jikexueyuan.com
@@ -323,6 +331,7 @@ kanzhun.com
 keboyunxiao.com
 kejet.net
 kf5.com
+kgimg.com
 kimiss.com
 kingdee.com
 kouclo.com
@@ -347,8 +356,6 @@ liantu.me
 liaoxuefeng.com
 liba.com
 libaclub.com
-liepin.com
-lietou.com
 lightonus.com
 lixinger.com
 linkvans.com
@@ -406,6 +413,7 @@ pcbeta.com
 pchome.net
 pingan.com
 pingplusplus.com
+pintu360.com
 pipaw.com
 pipaw.net
 pps.tv
@@ -431,7 +439,6 @@ rfchost.com
 rtbasia.com
 ruby-china.org
 runoob.com
-sandai.net
 sanguosha.com
 sanwen.net
 scdng.com
@@ -489,6 +496,7 @@ v5875.com
 vamaker.com
 vancl.com
 vcimg.com
+videojj.com
 vip.com
 wallstreetcn.com
 wandoujia.com
@@ -519,7 +527,6 @@ xiu8.com
 xnpic.com
 xsa239.com
 xueqiu.com
-xunlei.com
 xycdn.com
 xywy.com
 yaolan.com
@@ -538,6 +545,7 @@ yisu.com
 yiwan.com
 yixi.tv
 yjbys.com
+yunaq.com
 youboy.com
 youshang.com
 youxihezi.net
@@ -567,6 +575,8 @@ zhibo8.cc
 zhipin.com
 zhiziyun.com
 zhubajie.com
+zhugeapi.net
+zhugeio.com
 zimuzu.io
 zjstv.com
 zrblog.net
