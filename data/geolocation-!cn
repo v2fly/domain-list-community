@@ -70,6 +70,7 @@ include:dropbox
 include:duckduckgo
 include:entermediadb
 include:faststone
+include:feedly
 include:gofundme
 include:gravatar
 include:heroku
@@ -79,6 +80,7 @@ include:jwplayer
 include:linguee
 include:netlify
 include:osdn
+include:patreon
 include:pinterest
 include:protonmail
 include:sharethis
@@ -88,6 +90,8 @@ include:startpage
 include:steemit
 include:stripe
 include:tumblr
+include:webflow
+include:wix
 include:wordpress
 include:zeit
 
@@ -104,6 +108,8 @@ include:ebay
 
 # Entertainment & Videos & Games & Music
 include:archiveofourown
+include:bandcamp
+include:deviantart
 include:disney
 include:epicgames
 include:hbo
@@ -121,6 +127,8 @@ include:steamunlocked
 include:ubi
 include:vimeo
 include:viu
+include:weverse
+include:yande
 include:yyets
 
 # Forums
@@ -145,6 +153,7 @@ include:acm
 include:arxiv
 include:chinapower
 include:computingreviews
+include:edx
 include:elsevier
 include:ieee
 include:knovel
