@@ -1,3 +1,4 @@
+include:9news
 include:afp
 include:americasvoice
 include:ap
@@ -26,6 +27,7 @@ include:ltn
 include:matters
 include:medium
 include:myradio
+include:newyorker
 include:nikkei
 include:now
 include:ntd
