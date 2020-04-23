@@ -1,31 +1,30 @@
-# List of scholarly domains being located outside of P.R. China
+# This list contains scholarly domains that don't have access point in China Mainland.
 
-include:acm
-include:arxiv
+include:apa
+include:cambridge
+include:clarivate
+include:doi
 include:elsevier
-include:ieee
-include:nature
+include:mit
+include:oup
+include:sciencedirect
 include:springer
+include:taylorfrancis
 
 aclweb.org
 acm.org
 analytictech.com
 annualreviews.org
-apa.org
 arxiv.org
 asha.org
-audacityteam.org
 berkeley.edu
 biorxiv.org
 brill.com
-cambridge.org
 cell.com
-clarivate.com
+computingreviews.com
 degruyter.com
 dentalhypotheses.com
-doi.org
 elifesciences.org
-elsevier.com
 frontiersin.org
 hindawi.com
 ieee.org
@@ -34,14 +33,9 @@ jmlr.org
 jneurosci.org
 jstor.org
 mdpi.com
-mit.ed
-mitpressjournals.org
 nature.com
 neurology.org
-oup.com
 ovid.com
-oxfordhandbooks.com
-oxfordscholarship.com
 peerj.com
 physiology.org
 plos.org
@@ -52,20 +46,14 @@ routledgehandbooks.com
 royalsocietypublishing.org
 sagepub.com
 scholarpedia.org
-sciencedirect.com
 sciencemag.org
 scientificamerican.com
 scitation.org
 spiedigitallibrary.org
-springer.com
-springerlink.com
 statsmakemecry.com
-tandfonline.com
-taylorfrancis.com
 thelancet.com
 uchicago.edu
 ucla.edu
 umass.edu
-webofknowledge.com
 wiley.com
 yale.edu
