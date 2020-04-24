@@ -11,6 +11,61 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 - **dlc.dat**：[https://github.com/v2ray/domain-list-community/raw/release/dlc.dat](https://github.com/v2ray/domain-list-community/raw/release/dlc.dat)
 - **dlc.dat.sha256sum**：[https://github.com/v2ray/domain-list-community/raw/release/dlc.dat.sha256sum](https://github.com/v2ray/domain-list-community/raw/release/dlc.dat.sha256sum)
 
+## Usage example
+
+Each file in the `data/` directory can be used as a rule in this format: `geosite:filename`.
+
+```json
+"routing": {
+  "domainStrategy": "IPIfNonMatch",
+  "rules": [
+    {
+      "type": "field",
+      "outboundTag": "Reject",
+      "domain": [
+        "geosite:category-ads-all",
+        "geosite:category-porn"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "Direct",
+      "domain": [
+        "domain:v2ex.com",
+        "domain:icloud.com",
+        "domain:icloud-content.com",
+        "domain:cdn-apple.com",
+        "geosite:jsdelivr",
+        "geosite:cn"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "Proxy-1",
+      "domain": [
+        "geosite:category-anticensorship",
+        "geosite:category-media",
+        "geosite:category-vpnservices"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "Proxy-2",
+      "domain": [
+        "geosite:category-dev"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "Proxy-3",
+      "domain": [
+        "geosite:geolocation-!cn"
+      ]
+    }
+  ]
+}
+```
+
 ## Structure of data
 
 All data are under `data/` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.

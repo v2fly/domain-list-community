@@ -12,6 +12,13 @@ include:category-porn
 # News & Press & Media
 include:category-media
 
+# Science & Technology & Knowledge & Scholar & Press
+include:category-scholar-!cn
+include:chinapower
+include:edx
+include:knovel
+include:ted
+
 # Software development related
 include:category-dev
 
@@ -29,6 +36,7 @@ include:microsoft
 include:mozilla
 include:nvidia
 include:oracle
+include:salesforce
 include:samsung
 include:twitter
 include:uber
@@ -69,6 +77,7 @@ include:dropbox
 include:duckduckgo
 include:entermediadb
 include:faststone
+include:feedly
 include:gofundme
 include:gravatar
 include:heroku
@@ -78,13 +87,18 @@ include:jwplayer
 include:linguee
 include:netlify
 include:osdn
+include:patreon
 include:pinterest
 include:protonmail
 include:sharethis
+include:shopify
 include:sourceforge
 include:startpage
 include:steemit
+include:stripe
 include:tumblr
+include:webflow
+include:wix
 include:wordpress
 include:zeit
 
@@ -101,8 +115,12 @@ include:ebay
 
 # Entertainment & Videos & Games & Music
 include:archiveofourown
+include:bandcamp
+include:deviantart
 include:disney
 include:epicgames
+include:hbo
+include:hulu
 include:kingkonglive
 include:moov
 include:netflix
@@ -116,6 +134,8 @@ include:steamunlocked
 include:ubi
 include:vimeo
 include:viu
+include:weverse
+include:yande
 include:yyets
 
 # Forums
@@ -135,24 +155,12 @@ include:who
 include:wikimedia
 include:wto
 
-# Science & Technology & Knowledge
-include:acm
-include:arxiv
-include:chinapower
-include:computingreviews
-include:elsevier
-include:ieee
-include:knovel
-include:nature
-include:springer
-include:ted
-
 # Advertisment & Analytics
-include:clarivate
 include:pubmatic
 include:taboola
 
 # Others
+include:fonts
 include:huanghuagang
 include:rarbg
 include:tsquare
