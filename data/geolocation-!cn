@@ -131,6 +131,7 @@ include:soundcloud
 include:spotify
 include:steam
 include:steamunlocked
+include:twitch
 include:ubi
 include:vimeo
 include:viu
@@ -161,6 +162,7 @@ include:taboola
 
 # Others
 include:fonts
+include:hkedcity
 include:huanghuagang
 include:rarbg
 include:tsquare
