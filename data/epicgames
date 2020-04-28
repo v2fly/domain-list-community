@@ -1,4 +1,12 @@
+battlebreakers.com
 epicgames.com
+fortnite.com
+paragon.com
+playparagon.com
+roborecall.com
+shadowcomplex.com
+spyjinx.com
+unrealtournament.com
 
 regex:^epicgames-download\d\.akamaized\.net$
 regex:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
