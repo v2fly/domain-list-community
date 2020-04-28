@@ -1,11 +1,17 @@
+# All .ibm domains
+ibm
+
+# All .weatherchannel domains
+weatherchannel
+
+# All .weather domains
+weather
+
 bluemix.com
 bluemix.net
 ibm.com
 ibm.eu
+ibm.net
 ibm.us
-nic.ibm
 s-bluemix.net
 s81c.com
-
-# All .ibm domains
-ibm
