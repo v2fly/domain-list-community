@@ -15,7 +15,7 @@ import (
 	"v2ray.com/core/app/router"
 )
 
-var dataPath = flag.String("datapath", "", "Path to the data folder")
+var dataPath = flag.String("datapath", "", "Path to the custom data folder")
 
 type Entry struct {
 	Type  string
