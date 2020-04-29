@@ -1,3 +1,7 @@
+# Reference: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+# All .yahoo domains
+yahoo
+
 myguide.hk
 yahoo-news.com.hk
 yahoo.ae
@@ -141,11 +145,10 @@ yahoo.tm
 yahoo.tn
 yahoo.vg
 yahoo.ws
+yahooapis.com
+yahoodns.net
 yimg.com
-
-# Reference: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
-# All .yahoo domains
-yahoo
+ymail.com
 
 include:flickr
 include:yahoo-ads
