@@ -49,6 +49,7 @@ include:ruanmei
 include:sf-express
 include:sfacg
 include:sina
+include:sogou
 include:stage1st
 include:suning
 include:taptap
@@ -64,6 +65,7 @@ include:xiaomi
 include:xunlei
 include:ynet
 include:youku
+include:youzan
 include:yunfanjiasu
 include:zhihu
 
