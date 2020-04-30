@@ -26,6 +26,7 @@ include:gitv
 include:huawei
 include:hupu
 include:huya
+include:ifanr
 include:iqiyi
 include:jd
 include:jiguang
@@ -49,6 +50,7 @@ include:sf-express
 include:sfacg
 include:sina
 include:stage1st
+include:suning
 include:taptap
 include:teambition
 include:tencent
@@ -81,6 +83,7 @@ moji.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
+
 100offer.com
 115.com
 123juzi.com
@@ -88,6 +91,7 @@ moji.com
 123u.com
 17173.com
 178.com
+178linux.com
 17cdn.com
 188.com
 1905.com
@@ -103,10 +107,12 @@ moji.com
 35.com
 360doc.com
 360jq.com
+360zhyx.com
 36kr.com
 39.net
 3conline.com
 3dmgame.com
+4paradigm.com
 500d.me
 50bang.org
 51.la
@@ -117,8 +123,10 @@ moji.com
 51jobcdn.com
 51wendang.com
 51yes.com
+52hxw.com
 52miji.com
 52z.com
+53kf.com
 55.com
 5577.com
 55bbs.com
@@ -138,8 +146,10 @@ moji.com
 9718.com
 9xu.com
 aardio.com # 皖ICP备09012014号
+adxvip.com
 agrantsem.com
 aicdn.com
+aiemy.com
 aiyunxiao.com
 aizhan.com
 allyes.com
@@ -159,19 +169,26 @@ bankofchina.com
 baomitu.com
 bcy.net
 benmi.com
+biancheng.net
 biddingx.com
+bio-equip.com
+bio360.net
+bio4p.com
+biodiscover.com
 bitauto.com
 bitautoimg.com
 bobo.com
 bokecc.com
 bootcss.com
 btcfans.com
+bthhotels.com
 caiyunapp.com
 ccb.com
 cctv.com
 cctvpic.com
 cdn20.com
 cebbank.com
+cecdc.com
 ch.com
 chashebao.com
 che168.com
@@ -179,6 +196,7 @@ china.com
 chinacache.com
 chinacache.net
 chinapay.com
+chinapubmed.net
 chinatranslation.net
 chinaz.com
 chiphell.com
@@ -197,6 +215,7 @@ cnbetacdn.com
 cnblogs.com
 cnepub.com
 cnfol.com
+cnstock.com
 cnzz.com
 code666.com
 cqvip.com
@@ -213,6 +232,7 @@ danji6.com
 daocloud.io
 daovoice.io
 dbank.com
+dcdkjx.com
 dedecms.com
 develenv.com
 dgtle.com
@@ -247,10 +267,13 @@ excelhome.net
 expreview.com
 famulei.com
 fanli.com
+fastapi.net
 feng.com
 fengkongcloud.com
 fengniao.com
+fenxi.com
 fhldns.com
+fimmu.com
 freebuf.com
 fugetech.com
 gamersky.com
@@ -260,6 +283,7 @@ geilicdn.com
 getui.com
 gfan.com
 gitee.com
+gmallbio.com
 gmz88.com
 golue.com
 growingio.com
@@ -281,12 +305,10 @@ hunantv.com
 huochepiao.com
 huxiu.com
 iask.com
+ibaotu.com
 ichangtou.com
 iciba.com
 idqqimg.com
-ifanr.com
-ifanrusercontent.com
-ifanrx.com
 ifeng.com
 ifengimg.com
 ijinshan.com
@@ -310,6 +332,7 @@ iteye.com
 itjuzi.com
 jandan.net
 jb51.com
+jdair.net
 jia.com
 jianshu.com
 jianshu.io
@@ -320,6 +343,7 @@ jiayuan.com
 jikexueyuan.com
 jiqizhixin.com
 jisuanke.com
+jiuzhilan.com
 jmstatic.com
 jstv.com
 jumei.com
@@ -344,6 +368,7 @@ kugou.com
 kuqin.com
 lady8844.com
 lagou.com
+lascn.net
 le.com
 leanote.com
 leiphone.com
@@ -368,7 +393,9 @@ lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
 lxdns.com
 lxway.com
+magedu.com
 mamecn.com
+mayi.com
 mayihr.com
 mechina.org
 mediav.com
@@ -411,8 +438,10 @@ oschina.net
 paipai.com
 pcbeta.com
 pchome.net
+pharmacodia.com
 pingan.com
 pingplusplus.com
+pingwest.com
 pintu360.com
 pipaw.com
 pipaw.net
@@ -435,6 +464,7 @@ qtmojo.com
 qunar.com
 qunarzz.com
 renren.com
+renren-inc.com
 rfchost.com
 rtbasia.com
 ruby-china.org
@@ -464,7 +494,6 @@ starbaby.cc
 starbaby.com
 staticfile.org
 stockstar.com
-suning.com
 szfw.org
 szzfgjj.com
 t1y5.com
@@ -473,6 +502,7 @@ tao123.com
 tenxcloud.com
 tietuku.com
 tiexue.net
+timedoo.com
 tingyun.com
 tjjt360.com
 tmcdn.net
@@ -484,6 +514,7 @@ tudou.com
 tudouui.com
 tuer123.com
 tuicool.com
+tujia.com
 tuniu.com
 tutuapp.com
 u.tools
@@ -497,9 +528,11 @@ vamaker.com
 vancl.com
 vcimg.com
 videojj.com
+vijos.org
 vip.com
 wallstreetcn.com
 wandoujia.com
+wangyangyang.vip
 wanyx.com
 wdjimg.com
 weand.com
@@ -517,6 +550,7 @@ worktile.com
 wrating.com
 wscdns.com
 wumii.com
+wuximediaglobal.com
 xiachufang.com
 xiaokaxiu.com
 xiayx.com
@@ -531,13 +565,16 @@ xycdn.com
 xywy.com
 yaolan.com
 yaoyl.com
+yaozh.com
 yccdn.com
 yeepay.com
 yesky.com
 yhd.com
 yigao.com
+yigoonet.com
 yihaodian.com
 yihaodianimg.com
+yikexue.com
 yingjiesheng.com
 yinxiang.com
 yinyuetai.com
@@ -547,6 +584,7 @@ yixi.tv
 yjbys.com
 yunaq.com
 youboy.com
+youke.co
 youshang.com
 youxihezi.net
 youzu.com
