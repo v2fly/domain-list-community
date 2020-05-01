@@ -7,7 +7,9 @@ include:amazon-ads
 include:apple-ads
 include:applovin-ads
 include:baidu-ads
+include:clearbitjs-ads
 include:dmm-ads
+include:flurry-ads
 include:google-ads
 include:hunantv-ads
 include:inner-active-ads
@@ -15,11 +17,14 @@ include:iqiyi-ads
 include:jd-ads
 include:kuaishou-ads
 include:letv-ads
+include:mixpanel-ads
 include:mopub-ads
 include:mxplayer-ads
 include:netease-ads
+include:onesignal-ads
 include:ookla-speedtest-ads
 include:pubmatic-ads
+include:segment-ads
 include:sina-ads
 include:sohu-ads
 include:tappx-ads
@@ -27,6 +32,7 @@ include:tencent-ads
 include:uberads-ads
 include:umeng-ads
 include:unity-ads
+include:wteam-ads
 include:xiaomitv-ads
 include:yahoo-ads
 include:youku-ads

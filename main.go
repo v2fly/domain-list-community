@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"errors"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -13,6 +14,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	"v2ray.com/core/app/router"
 )
+
+var dataPath = flag.String("datapath", "", "Path to the custom data folder")
 
 type Entry struct {
 	Type  string
@@ -216,7 +219,15 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 }
 
 func main() {
-	dir, err := DetectPath(os.Getenv("GOPATH"))
+	flag.Parse()
+
+	var dir string
+	var err error
+	if *dataPath != "" {
+		dir = *dataPath
+	} else {
+		dir, err = DetectPath(os.Getenv("GOPATH"))
+	}
 	if err != nil {
 		fmt.Println("Failed: ", err)
 		return
@@ -263,5 +274,7 @@ func main() {
 	}
 	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0777); err != nil {
 		fmt.Println("Failed: ", err)
+	} else {
+		fmt.Println("dlc.dat has been generated successfully.")
 	}
 }

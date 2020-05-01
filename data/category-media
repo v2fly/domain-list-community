@@ -1,3 +1,4 @@
+include:9news
 include:afp
 include:americasvoice
 include:ap
@@ -21,11 +22,13 @@ include:hkopentv
 include:hongkongfp
 include:inmediahk
 include:jfengtime
+include:landofhope
 include:localpresshk
 include:ltn
 include:matters
 include:medium
 include:myradio
+include:newyorker
 include:nikkei
 include:now
 include:ntd
