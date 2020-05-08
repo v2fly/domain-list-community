@@ -40,6 +40,7 @@ include:liepin
 include:mafengwo
 include:meitu
 include:meituan
+include:meizu
 include:netease
 include:oneplus
 include:oppo
@@ -62,6 +63,7 @@ include:umeng
 include:unionpay
 include:wanfang
 include:xiaomi
+include:xueqiu
 include:xunlei
 include:ynet
 include:youku
@@ -99,9 +101,11 @@ moji.com
 188.com
 1905.com
 19yxw.com
+1ting.com
 21cn.com
 2288.org
 2345.com
+258.com
 263.net
 289.com
 2cto.com
@@ -111,6 +115,7 @@ moji.com
 360doc.com
 360jq.com
 360zhyx.com
+365dmp.com
 36kr.com
 39.net
 3conline.com
@@ -147,6 +152,7 @@ moji.com
 91yunxiao.com
 962.net
 9718.com
+999d.com
 9xu.com
 aardio.com # 皖ICP备09012014号
 adxvip.com
@@ -203,6 +209,7 @@ chinapay.com
 chinapubmed.net
 chinatranslation.net
 chinaz.com
+chinaz.net
 chiphell.com
 chongdiantou.com # 粤ICP备15002070号-1
 chouti.com
@@ -261,6 +268,7 @@ duowan.com
 dxpmedia.com
 eastday.com
 eayyou.com
+ebrun.com
 ecitic.com
 edu.cn
 eeyy.com
@@ -286,13 +294,16 @@ geekpark.net
 geetest.com
 geilicdn.com
 getui.com
+gezida.com
 gfan.com
 gitee.com
 gmallbio.com
 gmz88.com
 golue.com
+gree.com
 growingio.com
 gtags.net
+guokr.com
 gwdang.com
 gzwanju.com
 hackhome.com
@@ -367,6 +378,7 @@ kingdee.com
 kouclo.com
 koudai.com
 koudai8.com
+ksord.com
 ku6.com
 ku6cdn.com
 ku6img.com
@@ -388,6 +400,7 @@ liaoxuefeng.com
 liba.com
 libaclub.com
 lightonus.com
+likuso.com
 lixinger.com
 linkvans.com
 linuxidc.com
@@ -409,7 +422,6 @@ meika360.com
 meilishuo.com
 meiqia.com
 meishij.net
-meizu.com
 mgtv.com
 miaopai.com
 miaozhen.com
@@ -445,6 +457,7 @@ oschina.net
 paipai.com
 pcbeta.com
 pchome.net
+pgzs.com
 pharmacodia.com
 pingan.com
 pingplusplus.com
@@ -452,7 +465,6 @@ pingwest.com
 pintu360.com
 pipaw.com
 pipaw.net
-pps.tv
 pptbest.com
 psbc.com
 pubyun.com
@@ -462,7 +474,6 @@ qiaobutang.com
 qichacha.com
 qidian.com
 qie.tv
-qikucdn.com
 qingcloud.com
 qingsongchou.com
 qiniu.com
@@ -470,6 +481,7 @@ qiniucdn.com
 qiniudn.com
 qiniudns.com
 qtmojo.com
+qudong.com
 qunar.com
 qunarzz.com
 renren.com
@@ -570,7 +582,7 @@ xitu.com
 xiu8.com
 xnpic.com
 xsa239.com
-xueqiu.com
+xuanchuanyi.com
 xycdn.com
 xywy.com
 yaolan.com
@@ -626,6 +638,7 @@ zhubajie.com
 zhugeapi.net
 zhugeio.com
 zimuzu.io
+zixiaomao.com
 zjstv.com
 zrblog.net
 zsxq.com
