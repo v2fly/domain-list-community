@@ -112,6 +112,7 @@ include:telegram
 include:bestbuy
 include:dmm
 include:ebay
+include:nike
 
 # Entertainment & Videos & Games & Music
 include:archiveofourown
@@ -140,6 +141,7 @@ include:yande
 include:yyets
 
 # Forums
+include:dcard
 include:lihkg
 include:pincong
 include:quora

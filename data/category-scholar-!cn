@@ -5,6 +5,7 @@ include:cambridge
 include:clarivate
 include:doi
 include:elsevier
+include:google-scholar
 include:mit
 include:oup
 include:sciencedirect
