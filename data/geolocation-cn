@@ -1,6 +1,7 @@
 # List of all domains that have access point in China
 
 include:4399
+include:51job
 include:58tongcheng
 include:acfun
 include:acplay
@@ -21,6 +22,7 @@ include:ctrip
 include:dedao
 include:douyu
 include:eleme
+include:ganji
 include:gcores
 include:gitv
 include:huawei
@@ -35,6 +37,7 @@ include:jinrishici
 include:jinshuju
 include:jsdelivr
 include:kuaishou
+include:lagou
 include:landian
 include:liepin
 include:mafengwo
@@ -56,6 +59,7 @@ include:suning
 include:taptap
 include:teambition
 include:tencent
+include:tiancity
 include:tipdm
 include:tmtpost
 include:tongcheng
@@ -85,10 +89,12 @@ whccb.com
 
 # Moji Weather
 moji.com
+mojichina.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
 
+055110.com
 100offer.com
 115.com
 123juzi.com
@@ -103,6 +109,7 @@ moji.com
 19yxw.com
 1ting.com
 21cn.com
+2265.com
 2288.org
 2345.com
 258.com
@@ -117,9 +124,11 @@ moji.com
 360zhyx.com
 365dmp.com
 36kr.com
+3733.com
 39.net
 3conline.com
 3dmgame.com
+3elife.net
 4paradigm.com
 500d.me
 50bang.org
@@ -127,8 +136,6 @@ moji.com
 51credit.com
 51cto.com
 51jingying.com
-51job.com
-51jobcdn.com
 51wendang.com
 51yes.com
 52hxw.com
@@ -161,6 +168,7 @@ aicdn.com
 aiemy.com
 aiyunxiao.com
 aizhan.com
+alittle-tea.com
 allyes.com
 anquan.org
 anruan.com
@@ -180,12 +188,14 @@ bcy.net
 benmi.com
 biancheng.net
 biddingx.com
+bihu.com
 bio-equip.com
 bio360.net
 bio4p.com
 biodiscover.com
 bitauto.com
 bitautoimg.com
+bjcathay.com
 bobo.com
 bokecc.com
 bootcss.com
@@ -216,6 +226,7 @@ chouti.com
 chuangxin.com
 chuansong.me
 chuyu.me # 浙ICP备17002125 Dism++官网
+city8.com
 clouddn.com
 cloudxns.com
 cmbchina.com
@@ -226,6 +237,7 @@ cnbetacdn.com
 cnblogs.com
 cnepub.com
 cnfol.com
+cnlaw.net
 cnstock.com
 cnzz.com
 code666.com
@@ -234,6 +246,7 @@ csbew.com
 csslcloud.net
 ctfile.com
 cubead.com
+cyagen.com
 cztv.com
 cztvcloud.com
 dajie.com
@@ -248,6 +261,7 @@ dedecms.com
 develenv.com
 dgtle.com
 diandian.com
+diandianqi.com
 diopic.net
 diyiyou.com
 docin.com
@@ -255,6 +269,7 @@ dockerone.com
 dockone.io
 dogedoge.com
 donews.com
+dopa.com
 douban.com
 douban.fm
 doubanio.com
@@ -284,6 +299,7 @@ feiniaomy.com
 feng.com
 fengkongcloud.com
 fengniao.com
+fengxian110.com
 fenxi.com
 fhldns.com
 fimmu.com
@@ -296,6 +312,7 @@ geilicdn.com
 getui.com
 gezida.com
 gfan.com
+giocdn.com
 gitee.com
 gmallbio.com
 gmz88.com
@@ -303,6 +320,7 @@ golue.com
 gree.com
 growingio.com
 gtags.net
+guanhaobio.com
 guokr.com
 gwdang.com
 gzwanju.com
@@ -313,10 +331,13 @@ haote.com
 henha.com
 henkuai.com
 hexun.com
+heytea.com
 hiido.com
 hitv.com
+hktheone.com
 hn-cbec.com
 hnyuyuhui.com
+homeinns.com
 huanqiu.com
 hunantv.com
 huochepiao.com
@@ -382,13 +403,15 @@ ksord.com
 ku6.com
 ku6cdn.com
 ku6img.com
+kuaizhan.com
 kugou.com
 kuqin.com
 lady8844.com
-lagou.com
 lascn.net
+lawxp.com
 le.com
 leanote.com
+leetcode-cn.com
 leiphone.com
 leju.com
 leturich.org
@@ -401,6 +424,7 @@ liba.com
 libaclub.com
 lightonus.com
 likuso.com
+lingkou.com
 lixinger.com
 linkvans.com
 linuxidc.com
@@ -414,6 +438,7 @@ lxdns.com
 lxway.com
 magedu.com
 mamecn.com
+manmankan.com
 mayi.com
 mayihr.com
 mechina.org
@@ -428,6 +453,7 @@ miaozhen.com
 mmbang.com
 mmbang.info
 moegirl.org
+mogu.com
 mogucdn.com
 mogujie.com
 moocollege.com
@@ -439,6 +465,7 @@ mydrivers.com
 myshow360.net
 myyx618.com
 mzstatic.com
+naixuecha.com
 newasp.net
 newbandeng.com
 ngabbs.com
@@ -448,6 +475,7 @@ nvsheng.com
 nzbdw.com
 oadz.com
 oeeee.com
+ol-cdn.com
 ol-img.com
 oneapm.com
 onlinedown.net
@@ -470,6 +498,7 @@ psbc.com
 pubyun.com
 qbox.me
 qcc.com
+qcds.com
 qiaobutang.com
 qichacha.com
 qidian.com
@@ -480,6 +509,7 @@ qiniu.com
 qiniucdn.com
 qiniudn.com
 qiniudns.com
+qschou.com
 qtmojo.com
 qudong.com
 qunar.com
@@ -494,16 +524,20 @@ sanguosha.com
 sanwen.net
 scdng.com
 scoregg.com
+sczsxx.com
 sec-wiki.com
 segmentfault.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
 sharejs.com
 sheui.com
 shmetro.com
+shuidichou.com
+shuidihuzhu.com
 shutcm.com
 simei8.com
 smzdm.com
 sobot.com
+softwhy.com
 sohu.com
 sohucs.com
 sojson.com
@@ -515,6 +549,8 @@ starbaby.com
 staticfile.org
 stockstar.com
 sunrtb.com
+supermap.com
+supermapcloud.com
 szfw.org
 szzfgjj.com
 t1y5.com
@@ -548,12 +584,12 @@ uzzf.com
 v5875.com
 vamaker.com
 vancl.com
+vanclimg.com
 vcimg.com
 videojj.com
 vijos.org
 vip.com
 wallstreetcn.com
-wandoujia.com
 wangyangyang.vip
 wanyx.com
 wdjimg.com
@@ -574,6 +610,7 @@ wscdns.com
 wumii.com
 wuximediaglobal.com
 xiachufang.com
+xiaobaixitong.com
 xiaokaxiu.com
 xiayx.com
 xinhuanet.com
@@ -583,6 +620,7 @@ xiu8.com
 xnpic.com
 xsa239.com
 xuanchuanyi.com
+xuexicha.com
 xycdn.com
 xywy.com
 yaolan.com
@@ -591,13 +629,13 @@ yaozh.com
 yccdn.com
 yeepay.com
 yesky.com
+yh31.com
 yhd.com
 yigao.com
 yigoonet.com
 yihaodian.com
 yihaodianimg.com
 yikexue.com
-yingjiesheng.com
 yinxiang.com
 yinyuetai.com
 yisu.com
