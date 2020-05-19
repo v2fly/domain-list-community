@@ -97,10 +97,10 @@ include:startpage
 include:steemit
 include:stripe
 include:tumblr
+include:vercel
 include:webflow
 include:wix
 include:wordpress
-include:zeit
 
 # Communications
 include:discord
