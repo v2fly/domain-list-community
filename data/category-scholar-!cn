@@ -2,6 +2,7 @@
 
 include:apa
 include:cambridge
+include:cern
 include:clarivate
 include:doi
 include:elsevier
@@ -35,6 +36,7 @@ jneurosci.org
 jstor.org
 mdpi.com
 nature.com
+nejm.org
 neurology.org
 ovid.com
 peerj.com
