@@ -2,6 +2,7 @@
 
 include:apa
 include:cambridge
+include:cern
 include:clarivate
 include:doi
 include:elsevier
