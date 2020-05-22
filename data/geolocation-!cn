@@ -29,6 +29,7 @@ include:apple
 include:facebook
 include:godaddy
 include:google
+include:hinet
 include:hp
 include:ibm
 include:linkedin
@@ -123,6 +124,7 @@ include:epicgames
 include:hbo
 include:hulu
 include:kingkonglive
+include:litv
 include:moov
 include:netflix
 include:nintendo
