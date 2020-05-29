@@ -1,5 +1,9 @@
 # List of all domains being operated by Google Inc.
 
+include:golang
+include:youtube
+include:google-ads
+
 # All .google and .goog domains
 google
 goog
@@ -554,7 +558,3 @@ xn--9trs65b.com
 xn--flw351e.com
 xplr.co
 zukunftswerkstatt.de
-
-include:golang
-include:youtube
-include:google-ads
