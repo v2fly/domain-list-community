@@ -14,6 +14,7 @@ include:category-media
 
 # Science & Technology & Knowledge & Scholar & Press
 include:category-scholar-!cn
+include:cern
 include:chinapower
 include:edx
 include:knovel
@@ -29,6 +30,7 @@ include:apple
 include:facebook
 include:godaddy
 include:google
+include:hinet
 include:hp
 include:ibm
 include:linkedin
@@ -97,10 +99,10 @@ include:startpage
 include:steemit
 include:stripe
 include:tumblr
+include:vercel
 include:webflow
 include:wix
 include:wordpress
-include:zeit
 
 # Communications
 include:discord
@@ -123,6 +125,7 @@ include:epicgames
 include:hbo
 include:hulu
 include:kingkonglive
+include:litv
 include:moov
 include:netflix
 include:nintendo
