@@ -9,6 +9,7 @@ include:flutter
 include:golang
 include:google-ads
 include:polymer
+include:v8
 include:youtube
 
 # All .google and .goog domains
@@ -445,8 +446,6 @@ unfiltered.news
 useplannr.com
 usvimosquito.com
 usvimosquitoproject.com
-v8.dev
-v8project.org
 velostrata.com
 verily.com
 verilylifesciences.com
