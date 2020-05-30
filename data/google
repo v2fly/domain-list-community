@@ -1,6 +1,7 @@
 # List of all domains being operated by Google Inc.
 
 include:amp
+include:android
 include:blogspot
 include:golang
 include:google-ads
@@ -210,8 +211,6 @@ google.ws
 abc.xyz
 adgoogle.net
 admeld.com
-android.com
-androidify.com
 angulardart.org
 api.ai
 apigee.com
