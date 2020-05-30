@@ -4,6 +4,7 @@ include:amp
 include:android
 include:blogspot
 include:dart
+include:fastlane
 include:golang
 include:google-ads
 include:youtube
@@ -270,8 +271,6 @@ devsitetest.how
 dialogflow.com
 digitalassetlinks.org
 episodic.com
-fastlane.ci
-fastlane.tools
 feedburner.com
 fflick.com
 financeleadsonline.com
