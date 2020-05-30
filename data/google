@@ -3,6 +3,7 @@
 include:amp
 include:android
 include:blogspot
+include:dart
 include:golang
 include:google-ads
 include:youtube
@@ -260,8 +261,6 @@ coova.org
 crossmediapanel.com
 crr.com
 cs4hs.com
-dart.dev
-dartlang.org
 dartsearch.net
 dataliberation.org
 debug.com
