@@ -1,9 +1,10 @@
 # List of all domains being operated by Google Inc.
 
+include:amp
 include:blogspot
 include:golang
-include:youtube
 include:google-ads
+include:youtube
 
 # All .google and .goog domains
 google
@@ -209,10 +210,6 @@ google.ws
 abc.xyz
 adgoogle.net
 admeld.com
-amp.dev
-ampproject.com
-ampproject.net
-ampproject.org
 android.com
 androidify.com
 angulardart.org
