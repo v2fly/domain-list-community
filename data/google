@@ -8,6 +8,7 @@ include:fastlane
 include:flutter
 include:golang
 include:google-ads
+include:polymer
 include:youtube
 
 # All .google and .goog domains
@@ -402,8 +403,6 @@ picasaweb.net
 picasaweb.org
 picnik.com
 pittpatt.com
-polymer-project.org
-polymerproject.org
 postini.com
 projectara.com
 projectbaseline.com
