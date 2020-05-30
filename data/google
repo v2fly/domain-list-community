@@ -5,6 +5,7 @@ include:android
 include:blogspot
 include:dart
 include:fastlane
+include:flutter
 include:golang
 include:google-ads
 include:youtube
@@ -275,7 +276,6 @@ feedburner.com
 fflick.com
 financeleadsonline.com
 firebaseapp.com
-flutterapp.com
 foofle.com
 froogle.com
 fuchsia.dev
