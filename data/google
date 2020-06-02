@@ -1,9 +1,16 @@
 # List of all domains being operated by Google Inc.
 
+include:amp
+include:android
 include:blogspot
+include:dart
+include:fastlane
+include:flutter
 include:golang
-include:youtube
 include:google-ads
+include:polymer
+include:v8
+include:youtube
 
 # All .google and .goog domains
 google
@@ -209,12 +216,6 @@ google.ws
 abc.xyz
 adgoogle.net
 admeld.com
-amp.dev
-ampproject.com
-ampproject.net
-ampproject.org
-android.com
-androidify.com
 angulardart.org
 api.ai
 apigee.com
@@ -230,6 +231,7 @@ bandpage.com
 baselinestudy.com
 baselinestudy.org
 bazel.build
+bdn.dev
 beatthatquote.com
 blink.org
 blogblog.com
@@ -263,8 +265,6 @@ coova.org
 crossmediapanel.com
 crr.com
 cs4hs.com
-dart.dev
-dartlang.org
 dartsearch.net
 dataliberation.org
 debug.com
@@ -274,13 +274,10 @@ devsitetest.how
 dialogflow.com
 digitalassetlinks.org
 episodic.com
-fastlane.ci
-fastlane.tools
 feedburner.com
 fflick.com
 financeleadsonline.com
 firebaseapp.com
-flutterapp.com
 foofle.com
 froogle.com
 fuchsia.dev
@@ -407,8 +404,6 @@ picasaweb.net
 picasaweb.org
 picnik.com
 pittpatt.com
-polymer-project.org
-polymerproject.org
 postini.com
 projectara.com
 projectbaseline.com
@@ -448,12 +443,9 @@ tiltbrush.com
 txcloud.net
 txvia.com
 unfiltered.news
-urchin.com
 useplannr.com
 usvimosquito.com
 usvimosquitoproject.com
-v8.dev
-v8project.org
 velostrata.com
 verily.com
 verilylifesciences.com
@@ -479,8 +471,8 @@ womenwill.in
 womenwill.mx
 x.company
 x.team
-xn--9kr7l.com
-xn--9trs65b.com
-xn--flw351e.com
+xn--9kr7l.com   # 古博.com
+xn--9trs65b.com # 咕果.com
+xn--flw351e.com # 谷歌.com
 xplr.co
 zukunftswerkstatt.de

@@ -1,5 +1,7 @@
 include:alpinelinux
+include:amp
 include:anaconda
+include:android
 include:apache
 include:archlinux
 include:atom
@@ -9,13 +11,16 @@ include:chocolatey
 include:clojure
 include:cygwin
 include:cython
+include:dart
 include:debian
 include:deno
 include:docker
 include:elixir
 include:elrepo
 include:erlang
+include:fastlane
 include:fedora
+include:flutter
 include:fontawesome
 include:freebsd
 include:gentoo
@@ -61,6 +66,7 @@ include:pcre
 include:perl
 include:phantomjs
 include:php
+include:polymer
 include:postgresql
 include:python
 include:qt
@@ -80,6 +86,7 @@ include:swift
 include:ubuntu
 include:unity
 include:unpkg
+include:v8
 include:vagrant
 include:vim
 include:wireshark
