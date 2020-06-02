@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "::set-env name=RELEASE_NAME::$(date +%Y%m%d%H%M)"
           echo "::set-env name=TAG_NAME::$(date +%Y%m%d%H%M)"
-          echo "::set-env name=REPO_URL::github.com/v2ray/domain-list-community"
+          echo "::set-env name=REPO_URL::github.com/${{ github.repository }}"
           echo "::set-env name=GOPATH::$(dirname $GITHUB_WORKSPACE)"
           echo "::add-path::$(dirname $GITHUB_WORKSPACE)/bin"
         shell: bash
@@ -31,7 +31,7 @@ jobs:
 
       - name: Build dlc.dat file
         run: |
-          domain-list-community
+          domain-list-community --datapath=${{ env.GOPATH }}/src/${{ env.REPO_URL }}/data
 
       - name: Generate dlc.dat sha256 hash
         run: |
