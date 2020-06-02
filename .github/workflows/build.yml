@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - "**/README.md"
+      - ".github/**"
 jobs:
   build:
     name: Build
