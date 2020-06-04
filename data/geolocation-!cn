@@ -73,7 +73,9 @@ include:verisign
 include:addthis
 include:addtoany
 include:apkpure
+include:bitly
 include:bitwarden
+include:cuttly
 include:digitalocean
 include:disqus
 include:dropbox
@@ -89,6 +91,7 @@ include:heroku
 include:imgur
 include:infrapedia
 include:inoreader
+include:isgd
 include:jwplayer
 include:linguee
 include:netlify
@@ -98,12 +101,16 @@ include:patreon
 include:pinterest
 include:protonmail
 include:quip
+include:rebrandly
+include:reurl
 include:sharethis
 include:shopify
+include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
 include:stripe
+include:tinyurl
 include:trello
 include:tumblr
 include:vercel
