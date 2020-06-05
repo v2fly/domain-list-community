@@ -1,3 +1,7 @@
+include:alibaba-ads
+include:dingtalk
+include:teambition
+
 25pp.com
 56che.com
 95095.com
@@ -111,7 +115,6 @@ cainiao.com.cn
 cainiao-inc.com
 
 # Hema
-
 freshhema.com
 hemaos.com
 shyhhema.com
@@ -150,7 +153,3 @@ gaode.com
 xiami.com
 xiami.fm
 xiami.net
-
-include:alibaba-ads
-include:dingtalk
-include:teambition
