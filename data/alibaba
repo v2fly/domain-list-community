@@ -1,5 +1,6 @@
 include:alibaba-ads
 include:alibabacloud
+include:aliyun
 include:dingtalk
 include:teambition
 
@@ -12,16 +13,12 @@ alibaba.com
 alibaba-inc.com
 alibabacapital.com
 alibabacorp.com
-alibabadns.com
 alibabadoctor.com
 alibabafuturehotel.com
 alibabagroup.com
 alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
-alicdn.com
-alidayu.com
-alidns.com
 aliexpress.com
 alifanyi.com
 alihealth.com.cn
@@ -43,11 +40,6 @@ aliunicorn.com
 aliway.com
 aliwork.com
 alixiaomi.com
-aliyun.com
-aliyun-inc.com
-aliyun-iot-share.com
-aliyuncdn.com
-aliyuncs.com
 alizhaopin.com
 alyms.cn
 asczwa.com
@@ -68,7 +60,6 @@ dongting.com
 dratio.com
 emas-poc.com
 gongyi.xin
-hichina.com
 ialicdn.com
 iconfont.cn
 ics.design
@@ -81,7 +72,6 @@ mdeer.com
 mei.com
 miaostreet.com
 mshare.cc
-mxhichina.com
 nic.xin
 philanthropy.xin
 phpwind.com
