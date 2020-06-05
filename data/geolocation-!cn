@@ -27,6 +27,7 @@ include:category-dev
 include:adobe
 include:amazon
 include:apple
+include:atlassian
 include:facebook
 include:godaddy
 include:google
@@ -72,42 +73,57 @@ include:verisign
 include:addthis
 include:addtoany
 include:apkpure
+include:bitly
 include:bitwarden
+include:cuttly
 include:digitalocean
 include:disqus
 include:dropbox
 include:duckduckgo
 include:entermediadb
+include:evernote
 include:faststone
 include:feedly
+include:figma
 include:gofundme
 include:gravatar
 include:heroku
 include:imgur
 include:infrapedia
+include:inoreader
+include:isgd
 include:jwplayer
 include:linguee
 include:netlify
+include:notion
 include:osdn
 include:patreon
 include:pinterest
 include:protonmail
+include:quip
+include:rebrandly
+include:reurl
 include:sharethis
 include:shopify
+include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
 include:stripe
+include:tinyurl
+include:trello
 include:tumblr
 include:vercel
 include:webflow
 include:wix
 include:wordpress
+include:zeplin
 
 # Communications
 include:discord
 include:line
 include:signal
+include:slack
 include:telegram
 
 # E-commerce
@@ -115,9 +131,11 @@ include:bestbuy
 include:dmm
 include:ebay
 include:nike
+include:shopee
 
 # Entertainment & Videos & Games & Music
 include:archiveofourown
+include:attwatchtv
 include:bandcamp
 include:deviantart
 include:disney
@@ -135,6 +153,7 @@ include:soundcloud
 include:spotify
 include:steam
 include:steamunlocked
+include:tiktok
 include:twitch
 include:ubi
 include:vimeo
