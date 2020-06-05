@@ -1,4 +1,5 @@
 include:alibaba-ads
+include:alibabacloud
 include:dingtalk
 include:teambition
 
@@ -10,13 +11,6 @@ aliapp.org
 alibaba.com
 alibaba-inc.com
 alibabacapital.com
-alibabacloud.co.in
-alibabacloud.com
-alibabacloud.com.au
-alibabacloud.com.hk
-alibabacloud.com.my
-alibabacloud.com.sg
-alibabacloud.com.tw
 alibabacorp.com
 alibabadns.com
 alibabadoctor.com
@@ -26,7 +20,6 @@ alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
 alicdn.com
-alicloud.com
 alidayu.com
 alidns.com
 aliexpress.com
