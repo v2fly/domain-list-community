@@ -1,7 +1,5 @@
 name: Build dlc.dat
 on:
-  schedule:
-    - cron: "0 0 * * 3"
   push:
     branches:
       - master
@@ -15,7 +13,7 @@ jobs:
 
     steps:
       - name: Setup Go 1.14
-        uses: actions/setup-go@v1
+        uses: actions/setup-go@v2
         with:
           go-version: 1.14
 
