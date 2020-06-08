@@ -3,6 +3,7 @@ include:alibabacloud
 include:aliyun
 include:dingtalk
 include:teambition
+include:umeng
 
 25pp.com
 56che.com
@@ -67,6 +68,7 @@ jhgtgb.com
 kanbox.com
 lazada.com
 liangxinyao.com
+m-now.cn
 maitix.com
 mdeer.com
 mei.com
@@ -76,12 +78,15 @@ nic.xin
 philanthropy.xin
 phpwind.com
 phpwind.net
+qingtingtrip.com
+rexpos.cn
 saee.org.cn
 shenjing.com
 shuqi.com
 shuqireader.com
 sparenode.com
 supet.com
+ttpod.com
 wandoujia.com
 xinlingshou.cn
 yowhale.com
@@ -100,7 +105,9 @@ cainiao-inc.com
 
 # 盒马
 freshhema.com
+hemamax.com
 hemaos.com
+hemashare.cn
 shyhhema.com
 
 # 淘宝
@@ -108,10 +115,12 @@ shyhhema.com
 etao.com
 juhuasuan.com
 lingshoujia.com
+mashort.cn
 pailitao.com
 taobao.com
 taobao.org
 taobaocdn.com
+taobizhong.com
 taopiaopiao.com
 tb.cn
 tbcache.com
