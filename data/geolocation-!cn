@@ -94,6 +94,7 @@ include:inoreader
 include:isgd
 include:jwplayer
 include:linguee
+include:mega
 include:netlify
 include:notion
 include:osdn
