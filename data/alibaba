@@ -3,6 +3,7 @@ include:alibabacloud
 include:aliyun
 include:dingtalk
 include:teambition
+include:umeng
 
 25pp.com
 56che.com
