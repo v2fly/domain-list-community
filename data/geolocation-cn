@@ -41,9 +41,11 @@ include:lagou
 include:landian
 include:liepin
 include:mafengwo
+include:manmanbuy
 include:meitu
 include:meituan
 include:meizu
+include:mihoyo
 include:netease
 include:oneplus
 include:oppo
@@ -58,7 +60,6 @@ include:sogou
 include:stage1st
 include:suning
 include:taptap
-include:teambition
 include:tencent
 include:tiancity
 include:tipdm
@@ -179,6 +180,7 @@ mojichina.com
 58pic.com
 5bite.com
 5fun.com
+5gzm.net
 5you.com
 66wz.com
 6rooms.com
@@ -188,6 +190,7 @@ mojichina.com
 7down.com
 7k7k.com
 7moor.com
+7po.com
 7x24cc.com
 818ps.com
 84399.com
@@ -242,9 +245,11 @@ baoxianshichang.com
 bcy.net
 bearychat.com
 beihaidc.com
+bengbeng.com
 benmi.com
 bestopview.com
 biancheng.net
+bianews.com
 bibaodao.com
 bidchance.com
 biddingx.com
@@ -418,6 +423,7 @@ famulei.com
 fanli.com
 fanxian.com
 fastapi.net
+feihuo.com
 feiniaomy.com
 feng.com
 fengkongcloud.com
@@ -430,6 +436,7 @@ fixdown.com
 freebuf.com
 fugetech.com
 fuwj.com
+gameabc.com
 gamersky.com
 gaodun.com
 gaoshouyou.com
@@ -483,6 +490,7 @@ hiyd.com
 hktheone.com
 hn-cbec.com
 hnair.com
+hntv.tv
 hnyuyuhui.com
 hollycrm.com
 homeinns.com
@@ -687,6 +695,7 @@ mofazhu.com
 mogu.com
 mogucdn.com
 mogujie.com
+mokahr.com
 moocollege.com
 mop.com
 mscbsc.com
@@ -801,6 +810,7 @@ segmentfault.com
 sencdn.com
 seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
+sgamer.com
 shangzhibo.tv
 sharejs.com
 shenmayouxi.com
@@ -899,6 +909,7 @@ videojj.com
 vijos.org
 vip.com
 vobao.com
+vpgame.com
 wallstreetcn.com
 wangyangyang.vip
 wannianli8.com
@@ -941,7 +952,6 @@ wuximediaglobal.com
 xafc.com
 xdwan.com
 xfdown.com
-xhaiwai.com
 xhscdn.com
 xiachufang.com
 xiaobaixitong.com

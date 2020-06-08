@@ -118,6 +118,7 @@ include:webflow
 include:wix
 include:wordpress
 include:zeplin
+include:zoho
 
 # Communications
 include:discord

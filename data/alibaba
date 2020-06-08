@@ -1,22 +1,24 @@
+include:alibaba-ads
+include:alibabacloud
+include:aliyun
+include:dingtalk
+include:teambition
+
 25pp.com
 56che.com
 95095.com
 9game.cn
 aliapp.org
-alibaba.com
 alibaba-inc.com
+alibaba.com
 alibabacapital.com
 alibabacorp.com
-alibabadns.com
 alibabadoctor.com
 alibabafuturehotel.com
 alibabagroup.com
 alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
-alicdn.com
-alidayu.com
-alidns.com
 aliexpress.com
 alifanyi.com
 alihealth.com.cn
@@ -25,6 +27,7 @@ aliimg.com
 alikmd.com
 alimama.com
 alimebot.com
+alimei.com
 alios.cn
 alipay.com
 alipayobjects.com
@@ -37,18 +40,17 @@ aliunicorn.com
 aliway.com
 aliwork.com
 alixiaomi.com
-aliyun.com
-aliyun-inc.com
-aliyuncdn.com
-aliyuncs.com
 alizhaopin.com
+alyms.cn
 asczwa.com
 asczxcefsv.com
+asmlink.cn
 atatech.org
 b2byao.com
 bazai.com
 bcvbw.com
 cheng.xin
+cloudeagle.cn
 damai.cn
 dayu.com
 dfkhgj.com
@@ -58,7 +60,7 @@ dongting.com
 dratio.com
 emas-poc.com
 gongyi.xin
-hichina.com
+ialicdn.com
 iconfont.cn
 ics.design
 jhgtgb.com
@@ -70,34 +72,38 @@ mdeer.com
 mei.com
 miaostreet.com
 mshare.cc
-mxhichina.com
 nic.xin
 philanthropy.xin
+phpwind.com
+phpwind.net
 saee.org.cn
 shenjing.com
 shuqi.com
 shuqireader.com
+sparenode.com
+supet.com
 wandoujia.com
 xinlingshou.cn
 yowhale.com
-yunos.com
 yunos-inc.com
+yunos.com
 yushanfang.com
 zuodao.com
 
+# 神马搜索
 sm.cn
 
+# 菜鸟
 cainiao.com
 cainiao.com.cn
 cainiao-inc.com
 
-# Hema
-
+# 盒马
 freshhema.com
 hemaos.com
 shyhhema.com
 
-# Taobao
+# 淘宝
 1688.com
 etao.com
 juhuasuan.com
@@ -109,11 +115,12 @@ taobaocdn.com
 taopiaopiao.com
 tb.cn
 tbcache.com
+tburl.in
 tmall.com
 tmalltv.com
 tmjl.ai
 
-# Fliggy
+# 飞猪
 alitrip.com
 feizhu.cn
 feizhu.com
@@ -121,16 +128,13 @@ fliggy.com
 fliggy.hk
 iuynfg.com
 
-# amap
+# 高德地图
 amap.com
 amapauto.com
 autonavi.com
 gaode.com
 
-# Xiami music
+# 虾米音乐
 xiami.com
 xiami.fm
 xiami.net
-
-include:alibaba-ads
-include:dingtalk
