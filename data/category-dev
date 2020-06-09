@@ -38,6 +38,7 @@ include:jenkins
 include:jetbrains
 include:jquery
 include:js-org
+include:jupyter
 include:kali
 include:kernel
 include:kotlin
@@ -73,6 +74,7 @@ include:qt
 include:r-project
 include:raspberrypi
 include:raspbian
+include:readthedocs
 include:redis
 include:remirepo
 include:rpmfusion
