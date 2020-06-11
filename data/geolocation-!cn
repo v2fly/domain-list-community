@@ -121,6 +121,8 @@ include:wordpress
 include:zeplin
 include:zoho
 
+# Bank
+
 # Communications
 include:discord
 include:line
