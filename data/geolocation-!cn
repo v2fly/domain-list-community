@@ -122,6 +122,7 @@ include:zeplin
 include:zoho
 
 # Bank
+include:mastercard
 
 # Communications
 include:discord
