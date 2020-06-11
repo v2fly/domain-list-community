@@ -22,6 +22,7 @@ include:ctrip
 include:dedao
 include:douyu
 include:eleme
+include:erji
 include:ganji
 include:gcores
 include:gitv
@@ -47,6 +48,7 @@ include:meituan
 include:meizu
 include:mihoyo
 include:netease
+include:nga
 include:oneplus
 include:oppo
 include:pinduoduo
@@ -111,7 +113,6 @@ mojichina.com
 1637.com
 16rd.com
 17173.com
-178.com
 178linux.com
 17989.com
 17cdn.com
@@ -711,8 +712,6 @@ netbian.com
 newasp.net
 newbandeng.com
 newyx.net
-ngabbs.com
-ngacn.cc
 nowcoder.com
 nowscore.com
 nruan.com
@@ -866,7 +865,6 @@ tianjin-air.com
 tianqi.com
 tietuku.com
 tiexue.net
-tieyou.com
 timedoo.com
 tingyun.com
 tjjt360.com
@@ -877,7 +875,6 @@ tongdun.net
 topthink.com
 travelsky.com
 trustutn.org
-ttpod.com
 tudou.com
 tudouui.com
 tuer123.com
