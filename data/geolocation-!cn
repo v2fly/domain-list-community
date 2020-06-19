@@ -123,7 +123,7 @@ include:wordpress
 include:zeplin
 include:zoho
 
-# Bank
+# Bank & Finance
 include:mastercard
 
 # Communications
