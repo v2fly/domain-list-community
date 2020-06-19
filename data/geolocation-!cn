@@ -25,6 +25,7 @@ include:category-dev
 
 # Tech companies & Orginations
 include:adobe
+include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
@@ -99,6 +100,7 @@ include:netlify
 include:notion
 include:osdn
 include:patreon
+include:picsee
 include:pinterest
 include:protonmail
 include:quip
@@ -121,7 +123,7 @@ include:wordpress
 include:zeplin
 include:zoho
 
-# Bank
+# Bank & Finance
 include:mastercard
 
 # Communications
@@ -147,6 +149,7 @@ include:disney
 include:epicgames
 include:hbo
 include:hulu
+include:imdb
 include:kingkonglive
 include:litv
 include:moov
@@ -199,4 +202,3 @@ include:tsquare
 include:windy
 include:xdty
 include:xingrz
-
