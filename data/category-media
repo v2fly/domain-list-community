@@ -5,6 +5,7 @@ include:ap
 include:appledaily
 include:bbc
 include:boxun
+include:breitbart
 include:cabletv
 include:caijinglengyan
 include:chinadecoding
@@ -15,6 +16,7 @@ include:cup
 include:d100
 include:dw
 include:fox
+include:freebeacon
 include:globalvoices
 include:guo
 include:hk01
@@ -35,6 +37,7 @@ include:now
 include:ntd
 include:nytimes
 include:passiontimes
+include:qmap
 include:realvision
 include:reuters
 include:rfa
@@ -55,3 +58,4 @@ include:watchout
 include:wenzhao
 include:zaobao
 include:zerohedge
+include:zoomingin
