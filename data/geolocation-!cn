@@ -25,6 +25,7 @@ include:category-dev
 
 # Tech companies & Orginations
 include:adobe
+include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
