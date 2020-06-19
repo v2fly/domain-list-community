@@ -99,6 +99,7 @@ include:netlify
 include:notion
 include:osdn
 include:patreon
+include:picsee
 include:pinterest
 include:protonmail
 include:quip
@@ -199,4 +200,3 @@ include:tsquare
 include:windy
 include:xdty
 include:xingrz
-
