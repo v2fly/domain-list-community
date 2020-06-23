@@ -140,13 +140,15 @@ include:ebay
 include:nike
 include:shopee
 
-# Entertainment & Videos & Games & Music
+# Entertainment & Videos & Games & Music & Podcasts
 include:archiveofourown
 include:attwatchtv
 include:bandcamp
+include:castro
 include:deviantart
 include:disney
 include:epicgames
+include:fireside
 include:hbo
 include:hulu
 include:imdb
@@ -156,8 +158,10 @@ include:moov
 include:netflix
 include:niconico
 include:nintendo
+include:overcast
 include:pixiv
 include:playstation
+include:pocketcasts
 include:soundcloud
 include:spotify
 include:steam
