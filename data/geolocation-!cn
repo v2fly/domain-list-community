@@ -42,6 +42,7 @@ include:nvidia
 include:oracle
 include:salesforce
 include:samsung
+include:sony
 include:twitter
 include:uber
 include:yahoo
@@ -162,6 +163,7 @@ include:overcast
 include:pixiv
 include:playstation
 include:pocketcasts
+include:sonypictures
 include:soundcloud
 include:spotify
 include:steam
