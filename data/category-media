@@ -15,6 +15,7 @@ include:cnn
 include:cup
 include:d100
 include:dw
+include:epochmediagroup
 include:fox
 include:freebeacon
 include:globalvoices
