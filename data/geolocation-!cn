@@ -126,6 +126,7 @@ include:zoho
 
 # Bank & Finance
 include:mastercard
+include:visa
 
 # Communications
 include:discord
