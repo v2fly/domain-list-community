@@ -25,6 +25,7 @@ include:category-dev
 
 # Tech companies & Orginations
 include:adobe
+include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
@@ -41,6 +42,7 @@ include:nvidia
 include:oracle
 include:salesforce
 include:samsung
+include:sony
 include:twitter
 include:uber
 include:yahoo
@@ -99,6 +101,7 @@ include:netlify
 include:notion
 include:osdn
 include:patreon
+include:picsee
 include:pinterest
 include:protonmail
 include:quip
@@ -121,6 +124,9 @@ include:wordpress
 include:zeplin
 include:zoho
 
+# Bank & Finance
+include:mastercard
+
 # Communications
 include:discord
 include:line
@@ -135,22 +141,31 @@ include:ebay
 include:nike
 include:shopee
 
-# Entertainment & Videos & Games & Music
+# Entertainment & Videos & Games & Music & Podcasts
 include:archiveofourown
 include:attwatchtv
 include:bandcamp
+include:castro
 include:deviantart
 include:disney
 include:epicgames
+include:fireside
 include:hbo
 include:hulu
+include:imdb
 include:kingkonglive
 include:litv
+include:megaphone
 include:moov
 include:netflix
+include:niconico
 include:nintendo
+include:overcast
 include:pixiv
 include:playstation
+include:pocketcasts
+include:sling
+include:sonypictures
 include:soundcloud
 include:spotify
 include:steam
@@ -196,4 +211,3 @@ include:tsquare
 include:windy
 include:xdty
 include:xingrz
-
