@@ -3,11 +3,18 @@ humblebundle.com
 playartifact.com
 steam-chat.com
 steamcommunity.com
+steamcontent.com
 steamgames.com
 steampowered.com
 steamstatic.com
+steamusercontent.com
 underlords.com
 valvesoftware.com
 
 full:steamcdn-a.akamaihd.net
 full:steamcommunity-a.akamaihd.net
+full:st.dl.eccdnx.com @cdn
+full:st.dl.bscstorage.net @cdn
+full:st.dl.pinyuncloud.com @cdn
+full:dl.steam.ksyna.com @cdn
+full:cdn.mileweb.cs.steampowered.com.8686c.com @cdn
