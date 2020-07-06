@@ -15,6 +15,7 @@ include:cnn
 include:cup
 include:d100
 include:dw
+include:epochmediagroup
 include:fox
 include:freebeacon
 include:globalvoices
@@ -23,6 +24,7 @@ include:hk01
 include:hkcnews
 include:hkopentv
 include:hongkongfp
+include:huffpost
 include:inmediahk
 include:jfengtime
 include:landofhope

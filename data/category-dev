@@ -30,6 +30,7 @@ include:github
 include:gitlab
 include:gnu
 include:golang
+include:hashicorp
 include:haskell
 include:homebrew
 include:ius
@@ -89,7 +90,6 @@ include:ubuntu
 include:unity
 include:unpkg
 include:v8
-include:vagrant
 include:vim
 include:wireshark
 include:x-org

@@ -29,6 +29,7 @@ include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
+include:cloudcone
 include:facebook
 include:godaddy
 include:google
@@ -126,6 +127,7 @@ include:zoho
 
 # Bank & Finance
 include:mastercard
+include:visa
 
 # Communications
 include:discord
@@ -155,6 +157,7 @@ include:hulu
 include:imdb
 include:kingkonglive
 include:litv
+include:megaphone
 include:moov
 include:netflix
 include:niconico
@@ -163,6 +166,7 @@ include:overcast
 include:pixiv
 include:playstation
 include:pocketcasts
+include:sling
 include:sonypictures
 include:soundcloud
 include:spotify
