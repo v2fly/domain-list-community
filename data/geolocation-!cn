@@ -124,6 +124,7 @@ include:wix
 include:wordpress
 include:zeplin
 include:zoho
+include:zoom
 
 # Bank & Finance
 include:mastercard
