@@ -19,8 +19,8 @@ jobs:
 
       - name: Set $GOPATH and more variables
         run: |
-          echo "::set-env name=RELEASE_NAME::$(date +%Y%m%d%H%M)"
-          echo "::set-env name=TAG_NAME::$(date +%Y%m%d%H%M)"
+          echo "::set-env name=RELEASE_NAME::$(date +%Y%m%d%H%M%S)"
+          echo "::set-env name=TAG_NAME::$(date +%Y%m%d%H%M%S)"
           echo "::set-env name=REPO_URL::github.com/${{ github.repository }}"
           echo "::set-env name=GOPATH::$(dirname $GITHUB_WORKSPACE)"
           echo "::add-path::$(dirname $GITHUB_WORKSPACE)/bin"
