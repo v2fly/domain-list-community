@@ -37,6 +37,7 @@ include:ius
 include:java
 include:jenkins
 include:jetbrains
+include:jfrog
 include:jquery
 include:js-org
 include:jupyter

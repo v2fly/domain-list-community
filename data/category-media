@@ -4,6 +4,7 @@ include:americasvoice
 include:ap
 include:appledaily
 include:bbc
+include:bbgwatch
 include:boxun
 include:breitbart
 include:cabletv
@@ -24,6 +25,7 @@ include:hk01
 include:hkcnews
 include:hkopentv
 include:hongkongfp
+include:huffpost
 include:inmediahk
 include:jfengtime
 include:landofhope

@@ -29,6 +29,7 @@ include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
+include:cloudcone
 include:facebook
 include:godaddy
 include:google
@@ -123,9 +124,11 @@ include:wix
 include:wordpress
 include:zeplin
 include:zoho
+include:zoom
 
 # Bank & Finance
 include:mastercard
+include:visa
 
 # Communications
 include:discord
