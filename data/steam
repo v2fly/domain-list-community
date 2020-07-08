@@ -11,14 +11,18 @@ steamusercontent.com
 underlords.com
 valvesoftware.com
 
-cdn.mileweb.cs.steampowered.com.8686c.com @cdn
 csgo.wmsj.cn @cdn
 dl.steam.ksyna.com @cdn
 dota2.wmsj.cn @cdn
 st.dl.bscstorage.net @cdn
 st.dl.eccdnx.com @cdn
 st.dl.pinyuncloud.com @cdn
+steampowered.com.8686c.com @cdn
+steamstatic.com.8686c.com @cdn
 
+full:steambroadcast.akamaized.net
 full:steamcdn-a.akamaihd.net
 full:steamcommunity-a.akamaihd.net
 full:steamstore-a.akamaihd.net
+full:steamusercontent-a.akamaihd.net
+full:steamuserimages-a.akamaihd.net
