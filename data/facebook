@@ -1,4 +1,3 @@
-cdninstagram.com
 facebook.br
 facebook.com
 facebook.design
@@ -11,8 +10,6 @@ fb.com
 fb.me
 fbcdn.net
 fbsbx.com
-instagram.com
-instagram-press.com
 m.me
 messenger.com
 oculus.com
@@ -23,3 +20,5 @@ whatsapp.com
 whatsapp.net
 
 full:fbcdn-a.akamaihd.net
+
+include:instagram

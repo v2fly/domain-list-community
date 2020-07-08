@@ -4,7 +4,9 @@ include:americasvoice
 include:ap
 include:appledaily
 include:bbc
+include:bbgwatch
 include:boxun
+include:breitbart
 include:cabletv
 include:caijinglengyan
 include:chinadecoding
@@ -14,13 +16,16 @@ include:cnn
 include:cup
 include:d100
 include:dw
+include:epochmediagroup
 include:fox
+include:freebeacon
 include:globalvoices
 include:guo
 include:hk01
 include:hkcnews
 include:hkopentv
 include:hongkongfp
+include:huffpost
 include:inmediahk
 include:jfengtime
 include:landofhope
@@ -35,6 +40,7 @@ include:now
 include:ntd
 include:nytimes
 include:passiontimes
+include:qmap
 include:realvision
 include:reuters
 include:rfa
@@ -50,8 +56,10 @@ include:thestandnews
 include:udn
 include:unwire
 include:voanews
+include:voxmedia
 include:washingtonpost
 include:watchout
 include:wenzhao
 include:zaobao
 include:zerohedge
+include:zoomingin

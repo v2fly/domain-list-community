@@ -10,6 +10,7 @@ include:baidu
 include:bilibili
 include:bytedance
 include:cas
+include:cctv
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
@@ -37,6 +38,7 @@ include:jiemian
 include:jinrishici
 include:jinshuju
 include:jsdelivr
+include:keep
 include:kuaishou
 include:lagou
 include:landian
@@ -232,6 +234,7 @@ aiops.com
 aipai.com
 airchangan.com
 airguilin.com
+aisee.tv # 粤ICP备10217959号-12
 aiskycn.com
 aiyunxiao.com
 aizhan.com
@@ -297,8 +300,6 @@ cankaoxiaoxi.com
 cardbaobao.com
 carnoc.com
 ccb.com
-cctv.com
-cctvpic.com
 cdn20.com
 cebbank.com
 cecdc.com
@@ -495,6 +496,7 @@ gucheng.com
 guigu.org
 guokr.com
 gupzs.com
+gushiwen.org
 guzhangting.com
 gwdang.com
 gxairlines.com
@@ -565,8 +567,8 @@ imooc.com
 indienova.com
 infoq.com
 infoqstatic.com
-ip138.com
 ip-cdn.com
+ip138.com
 ipinyou.com
 ipip.net
 iranshao.com
@@ -769,6 +771,7 @@ onlinesjtu.com
 opdown.com
 oray.com
 oschina.net
+ottcn.com # 津ICP备12004891号-2
 oupeng.com
 p2peye.com
 p5w.net
