@@ -63,6 +63,7 @@ include:sina
 include:sinopec
 include:sogou
 include:stage1st
+include:steam@cdn
 include:suning
 include:taptap
 include:tencent
