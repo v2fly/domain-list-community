@@ -36,6 +36,7 @@ include:google
 include:hinet
 include:hp
 include:ibm
+include:intel
 include:linkedin
 include:microsoft
 include:mozilla
