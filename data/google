@@ -12,9 +12,53 @@ include:polymer
 include:v8
 include:youtube
 
-# All .google and .goog domains
-google
+# All .and domains
+
+and
+
+# All .chrome domains
+
+chrome
+
+# All .dclk domains
+
+dclk
+
+# All .gbiz domains
+
+gbiz
+
+# All .gle domains
+
+gle
+
+# All .gmail domains
+
+gmail
+
+# All .goo domains
+
+goo
+
+# All .goog domains
+
 goog
+
+# All .google domains
+
+google
+
+# All .guge domains
+
+guge
+
+# All .hangout domains
+
+hangout
+
+# All .nexus domains
+
+nexus
 
 # Source: https://www.google.com/supported_domains
 google.ad
