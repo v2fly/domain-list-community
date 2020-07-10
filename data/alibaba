@@ -18,6 +18,7 @@ include:alibaba-ads
 include:alibabacloud
 include:aliyun
 include:dingtalk
+include:eleme
 include:teambition
 include:umeng
 
