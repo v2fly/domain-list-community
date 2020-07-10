@@ -1,3 +1,19 @@
+# All .alibaba domains
+
+alibaba
+
+# All .alipay domains
+
+alipay
+
+# All .taobao domains
+
+taobao
+
+# All .tmall domains
+
+tmall
+
 include:alibaba-ads
 include:alibabacloud
 include:aliyun
