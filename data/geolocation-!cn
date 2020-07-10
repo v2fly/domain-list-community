@@ -29,6 +29,7 @@ include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
+include:canon
 include:cloudcone
 include:facebook
 include:godaddy
