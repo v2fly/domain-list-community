@@ -29,6 +29,7 @@ include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
+include:canon
 include:cloudcone
 include:facebook
 include:godaddy
@@ -36,6 +37,7 @@ include:google
 include:hinet
 include:hp
 include:ibm
+include:intel
 include:linkedin
 include:microsoft
 include:mozilla
@@ -141,6 +143,7 @@ include:telegram
 include:bestbuy
 include:dmm
 include:ebay
+include:gucci
 include:nike
 include:shopee
 
@@ -208,6 +211,7 @@ include:taboola
 include:fonts
 include:hkedcity
 include:huanghuagang
+include:mcdonalds
 include:rarbg
 include:starbucks
 include:tsquare
