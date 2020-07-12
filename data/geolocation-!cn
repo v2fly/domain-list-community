@@ -12,13 +12,28 @@ include:category-porn
 # News & Press & Media
 include:category-media
 
-# Science & Technology & Knowledge & Scholar & Press
+# Science & Technology & Knowledge & Scholar & Press & E-learning
 include:category-scholar-!cn
+include:betterexplained
+include:brilliant
 include:cern
 include:chinapower
+include:code
+include:codecademy
+include:coursera
 include:edx
+include:egghead
+include:khanacademy
 include:knovel
+include:laracasts
+include:masterclass
+include:mzed
+include:sitepoint
+include:skillshare
 include:ted
+include:udacity
+include:udemy
+include:w3schools
 
 # Software development related
 include:category-dev
