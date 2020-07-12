@@ -30,6 +30,7 @@ include:amazon
 include:apple
 include:atlassian
 include:cloudcone
+include:dell
 include:facebook
 include:godaddy
 include:google
