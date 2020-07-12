@@ -31,11 +31,9 @@ Each file in the `data/` directory can be used as a rule in this format: `geosit
       "type": "field",
       "outboundTag": "Direct",
       "domain": [
-        "domain:v2ex.com",
         "domain:icloud.com",
         "domain:icloud-content.com",
         "domain:cdn-apple.com",
-        "geosite:jsdelivr",
         "geosite:cn"
       ]
     },
