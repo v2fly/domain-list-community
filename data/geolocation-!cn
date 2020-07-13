@@ -157,6 +157,7 @@ include:slack
 include:telegram
 
 # E-commerce
+include:adidas
 include:bestbuy
 include:dmm
 include:ebay
