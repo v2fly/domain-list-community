@@ -12,13 +12,28 @@ include:category-porn
 # News & Press & Media
 include:category-media
 
-# Science & Technology & Knowledge & Scholar & Press
+# Science & Technology & Knowledge & Scholar & Press & E-learning
 include:category-scholar-!cn
+include:betterexplained
+include:brilliant
 include:cern
 include:chinapower
+include:code
+include:codecademy
+include:coursera
 include:edx
+include:egghead
+include:khanacademy
 include:knovel
+include:laracasts
+include:masterclass
+include:mzed
+include:sitepoint
+include:skillshare
 include:ted
+include:udacity
+include:udemy
+include:w3schools
 
 # Software development related
 include:category-dev
@@ -30,13 +45,16 @@ include:amazon
 include:apple
 include:atlassian
 include:bmw
+include:canon
 include:cloudcone
+include:dell
 include:facebook
 include:godaddy
 include:google
 include:hinet
 include:hp
 include:ibm
+include:intel
 include:linkedin
 include:microsoft
 include:mozilla
@@ -142,6 +160,7 @@ include:telegram
 include:bestbuy
 include:dmm
 include:ebay
+include:gucci
 include:nike
 include:shopee
 
@@ -209,6 +228,7 @@ include:taboola
 include:fonts
 include:hkedcity
 include:huanghuagang
+include:mcdonalds
 include:rarbg
 include:starbucks
 include:tsquare
