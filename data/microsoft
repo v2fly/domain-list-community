@@ -149,6 +149,7 @@ office365.com
 onedrive.com
 onenote.com
 onenote.net
+onestore.ms
 outlook.com
 passport.net
 powerappscdn.net
@@ -192,3 +193,7 @@ xbox.com
 xboxab.com
 xboxlive.com
 yammer.com
+
+full:img-prod-cms-rt-microsoft-com.akamaized.net
+full:mwf-service.akamaized.net
+full:officecdn-microsoft-com.akamaized.net
