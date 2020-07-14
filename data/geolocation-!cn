@@ -1,5 +1,8 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
+# TLD
+include:tld-!cn
+
 # VPN services
 include:category-vpnservices
 
