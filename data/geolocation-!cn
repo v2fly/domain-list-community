@@ -1,5 +1,8 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
+# TLD
+include:tld-!cn
+
 # VPN services
 include:category-vpnservices
 
@@ -39,6 +42,7 @@ include:w3schools
 include:category-dev
 
 # Tech companies & Orginations
+include:acer
 include:adobe
 include:alibabacloud
 include:amazon
@@ -49,6 +53,7 @@ include:canon
 include:cloudcone
 include:dell
 include:facebook
+include:gigabyte
 include:godaddy
 include:google
 include:hinet
@@ -65,6 +70,7 @@ include:samsung
 include:sony
 include:twitter
 include:uber
+include:westerndigital
 include:yahoo
 include:yandex
 
