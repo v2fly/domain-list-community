@@ -1,3 +1,29 @@
+include:amazon-ads
+
+# All .aws domains
+aws
+
+# All .amazon domains
+amazon
+
+# All .imdb domains
+imdb
+
+# All .kindle domains
+kindle
+
+# All .アマゾン domains
+xn--cckwcxetd
+
+# All .亚马逊 domains
+xn--jlq480n2rg
+
+# All .yamaxun domains
+yamaxun
+
+# All .zappos domains
+zappos
+
 amazon.ae
 amazon.ca
 amazon.co.jp
@@ -32,29 +58,3 @@ elasticbeanstalk.com
 # Prime Video
 amazonvideo.com
 primevideo.com
-
-# All .aws domains
-aws
-
-# All .amazon domains
-amazon
-
-# All .imdb domains
-imdb
-
-# All .kindle domains
-kindle
-
-# All .アマゾン domains
-xn--cckwcxetd
-
-# All .亚马逊 domains
-xn--jlq480n2rg
-
-# All .yamaxun domains
-yamaxun
-
-# All .zappos domains
-zappos
-
-include:amazon-ads
