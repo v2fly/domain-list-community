@@ -1,3 +1,7 @@
+include:icloud
+include:itunes
+include:swift
+
 # All .apple domains
 apple
 
@@ -407,7 +411,3 @@ push-apple.com.akadns.net
 apple-dns.net
 
 cups.org
-
-include:icloud
-include:itunes
-include:swift
