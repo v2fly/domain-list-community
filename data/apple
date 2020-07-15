@@ -435,3 +435,9 @@ webobjects.eu
 full:apple.com.akadns.net
 full:courier-push-apple.com.akadns.net
 full:push-apple.com.akadns.net
+
+# For developers
+developer.apple.com @dev
+devimages-cdn.apple.com @dev
+devstreaming-cdn.apple.com @dev
+playgrounds-cdn.apple.com @dev
