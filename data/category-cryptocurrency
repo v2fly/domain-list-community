@@ -1,0 +1,24 @@
+# Reference: https://bitcoin.org/en/exchanges
+
+include:asproex
+include:binance
+include:bitbank
+include:bitcoin
+include:bitfinex
+include:bitflyer
+include:bitmex
+include:bitquick
+include:bitsquare
+include:bitstamp
+include:bittrex
+include:btcbox
+include:cex
+include:coinbase
+include:coinone
+include:ethereum
+include:huobi
+include:kraken
+include:localbitcoins
+include:okex
+include:paxful
+include:zb
