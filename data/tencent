@@ -1,3 +1,6 @@
+include:tencent-ads
+include:dnspod
+
 apcdns.net
 foxmail.com
 foxmail.com.cn
@@ -28,5 +31,3 @@ tenpay.com
 wechat.com
 wegame.com
 weiyun.com
-
-include:tencent-ads
