@@ -12,6 +12,9 @@ include:category-anticensorship
 # Porn
 include:category-porn
 
+# Cryptocurrency
+include:category-cryptocurrency
+
 # News & Press & Media
 include:category-media
 
@@ -50,6 +53,7 @@ include:apple
 include:atlassian
 include:bmw
 include:canon
+include:cisco
 include:cloudcone
 include:dell
 include:facebook
@@ -61,10 +65,12 @@ include:hp
 include:ibm
 include:intel
 include:linkedin
+include:logitech
 include:microsoft
 include:mozilla
 include:nvidia
 include:oracle
+include:razer
 include:salesforce
 include:samsung
 include:sony
@@ -85,6 +91,7 @@ include:stackpath
 # Reference: https://en.wikipedia.org/wiki/Certificate_authority
 include:buypass
 include:comodo
+include:cybertrust
 include:digicert
 include:entrust
 include:globalsign
@@ -172,6 +179,7 @@ include:nike
 include:shopee
 
 # Entertainment & Videos & Games & Music & Podcasts
+include:abema
 include:archiveofourown
 include:attwatchtv
 include:bandcamp
