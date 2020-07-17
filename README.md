@@ -31,11 +31,9 @@ Each file in the `data/` directory can be used as a rule in this format: `geosit
       "type": "field",
       "outboundTag": "Direct",
       "domain": [
-        "domain:v2ex.com",
         "domain:icloud.com",
         "domain:icloud-content.com",
         "domain:cdn-apple.com",
-        "geosite:jsdelivr",
         "geosite:cn"
       ]
     },
@@ -65,6 +63,14 @@ Each file in the `data/` directory can be used as a rule in this format: `geosit
   ]
 }
 ```
+
+## Generate `dlc.dat` manually
+
+- Install `golang` and `git`
+- Download and install project code: `go get -u -v --insecure github.com/v2ray/domain-list-community`
+- Generate `dlc.dat` (without `datapath` option means to use `data` directory of this repository in `$GOPATH`):
+  - `$(go env GOPATH)/bin/domain-list-community`
+  - `$(go env GOPATH)/bin/domain-list-community --datapath=/path/to/your/custom/data/directory`
 
 ## Structure of data
 

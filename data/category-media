@@ -1,5 +1,6 @@
 include:9news
 include:afp
+include:aljazeera
 include:americasvoice
 include:ap
 include:appledaily
@@ -15,6 +16,7 @@ include:cnbc
 include:cnn
 include:cup
 include:d100
+include:dailymail
 include:dw
 include:epochmediagroup
 include:fox
@@ -57,6 +59,7 @@ include:udn
 include:unwire
 include:voanews
 include:voxmedia
+include:warroom
 include:washingtonpost
 include:watchout
 include:wenzhao

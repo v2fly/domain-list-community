@@ -1,5 +1,8 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
+# TLD
+include:tld-!cn
+
 # VPN services
 include:category-vpnservices
 
@@ -9,43 +12,71 @@ include:category-anticensorship
 # Porn
 include:category-porn
 
+# Cryptocurrency
+include:category-cryptocurrency
+
 # News & Press & Media
 include:category-media
 
-# Science & Technology & Knowledge & Scholar & Press
+# Science & Technology & Knowledge & Scholar & Press & E-learning
 include:category-scholar-!cn
+include:betterexplained
+include:brilliant
 include:cern
 include:chinapower
+include:code
+include:codecademy
+include:coursera
 include:edx
+include:egghead
+include:khanacademy
 include:knovel
+include:laracasts
+include:masterclass
+include:mzed
+include:sitepoint
+include:skillshare
 include:ted
+include:udacity
+include:udemy
+include:w3schools
 
 # Software development related
 include:category-dev
 
 # Tech companies & Orginations
+include:acer
 include:adobe
 include:alibabacloud
 include:amazon
 include:apple
 include:atlassian
+include:bmw
+include:canon
+include:cisco
 include:cloudcone
+include:dell
 include:facebook
+include:gigabyte
 include:godaddy
 include:google
 include:hinet
 include:hp
 include:ibm
+include:intel
 include:linkedin
+include:logitech
 include:microsoft
 include:mozilla
 include:nvidia
 include:oracle
+include:razer
 include:salesforce
 include:samsung
 include:sony
 include:twitter
 include:uber
+include:westerndigital
 include:yahoo
 include:yandex
 
@@ -60,6 +91,7 @@ include:stackpath
 # Reference: https://en.wikipedia.org/wiki/Certificate_authority
 include:buypass
 include:comodo
+include:cybertrust
 include:digicert
 include:entrust
 include:globalsign
@@ -138,13 +170,16 @@ include:slack
 include:telegram
 
 # E-commerce
+include:adidas
 include:bestbuy
 include:dmm
 include:ebay
+include:gucci
 include:nike
 include:shopee
 
 # Entertainment & Videos & Games & Music & Podcasts
+include:abema
 include:archiveofourown
 include:attwatchtv
 include:bandcamp
@@ -193,6 +228,7 @@ include:reddit
 include:archive
 include:change
 include:csis
+include:emojipedia
 include:globalsecurity
 include:ruleoflaw
 include:un
@@ -208,6 +244,7 @@ include:taboola
 include:fonts
 include:hkedcity
 include:huanghuagang
+include:mcdonalds
 include:rarbg
 include:starbucks
 include:tsquare

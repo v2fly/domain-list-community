@@ -5,6 +5,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"go/build"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -15,7 +16,10 @@ import (
 	"v2ray.com/core/app/router"
 )
 
-var dataPath = flag.String("datapath", "", "Path to the custom data folder")
+var (
+	dataPath        = flag.String("datapath", "", "Path to your custom 'data' directory")
+	defaultDataPath = filepath.Join("src", "github.com", "v2ray", "domain-list-community", "data")
+)
 
 type Entry struct {
 	Type  string
@@ -145,13 +149,13 @@ func parseEntry(line string) (Entry, error) {
 func DetectPath(path string) (string, error) {
 	arrPath := strings.Split(path, string(filepath.ListSeparator))
 	for _, content := range arrPath {
-		fullPath := filepath.Join(content, "src", "github.com", "v2ray", "domain-list-community", "data")
+		fullPath := filepath.Join(content, defaultDataPath)
 		_, err := os.Stat(fullPath)
 		if err == nil || os.IsExist(err) {
 			return fullPath, nil
 		}
 	}
-	err := errors.New("No file found in GOPATH")
+	err := fmt.Errorf("directory '%s' not found in '$GOPATH'", defaultDataPath)
 	return "", err
 }
 
@@ -218,6 +222,45 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 	return pl, nil
 }
 
+func envFile() (string, error) {
+	if file := os.Getenv("GOENV"); file != "" {
+		if file == "off" {
+			return "", fmt.Errorf("GOENV=off")
+		}
+		return file, nil
+	}
+	dir, err := os.UserConfigDir()
+	if err != nil {
+		return "", err
+	}
+	if dir == "" {
+		return "", fmt.Errorf("missing user-config dir")
+	}
+	return filepath.Join(dir, "go", "env"), nil
+}
+
+func getRuntimeEnv(key string) (string, error) {
+	file, err := envFile()
+	if err != nil {
+		return "", err
+	}
+	if file == "" {
+		return "", fmt.Errorf("missing runtime env file")
+	}
+	var data []byte
+	var runtimeEnv string
+	data, err = ioutil.ReadFile(file)
+	envStrings := strings.Split(string(data), "\n")
+	for _, envItem := range envStrings {
+		envItem = strings.TrimSuffix(envItem, "\r")
+		envKeyValue := strings.Split(envItem, "=")
+		if strings.ToLower(envKeyValue[0]) == strings.ToLower(key) {
+			runtimeEnv = envKeyValue[1]
+		}
+	}
+	return runtimeEnv, nil
+}
+
 func main() {
 	flag.Parse()
 
@@ -226,12 +269,23 @@ func main() {
 	if *dataPath != "" {
 		dir = *dataPath
 	} else {
-		dir, err = DetectPath(os.Getenv("GOPATH"))
+		goPath, envErr := getRuntimeEnv("GOPATH")
+		if envErr != nil {
+			fmt.Println("Failed: please set '$GOPATH' manually, or use 'datapath' option to specify the path to your custom 'data' directory")
+			return
+		}
+		if goPath == "" {
+			goPath = build.Default.GOPATH
+		}
+		fmt.Println("Use $GOPATH:", goPath)
+		fmt.Printf("Searching directory '%s' in '%s'...\n", defaultDataPath, goPath)
+		dir, err = DetectPath(goPath)
 	}
 	if err != nil {
 		fmt.Println("Failed: ", err)
 		return
 	}
+	fmt.Println("Use domain lists in", dir)
 
 	ref := make(map[string]*List)
 	err = filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
@@ -275,6 +329,6 @@ func main() {
 	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0777); err != nil {
 		fmt.Println("Failed: ", err)
 	} else {
-		fmt.Println("dlc.dat has been generated successfully.")
+		fmt.Println("dlc.dat has been generated successfully in the directory. You can rename 'dlc.dat' to 'geosite.dat' and use it in V2Ray.")
 	}
 }

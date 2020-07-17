@@ -24,12 +24,14 @@ include:dedao
 include:douyu
 include:eleme
 include:erji
+include:everbright
 include:ganji
 include:gcores
 include:gitv
 include:huawei
 include:hupu
 include:huya
+include:icbc
 include:ifanr
 include:iqiyi
 include:jd
@@ -42,6 +44,7 @@ include:keep
 include:kuaishou
 include:lagou
 include:landian
+include:lanzou
 include:liepin
 include:mafengwo
 include:manmanbuy
@@ -64,6 +67,7 @@ include:sinopec
 include:sogou
 include:stage1st
 include:suning
+include:taikang
 include:taomee
 include:taptap
 include:tencent
@@ -76,14 +80,18 @@ include:unionpay
 include:wanfang
 include:wjx
 include:xiaomi
+include:ximalaya
+include:xueersi
 include:xueqiu
 include:xunlei
 include:ynet
 include:youku
 include:youzan
+include:yuanfudao
 include:yunfanjiasu
 include:zhihu
 include:zhihuishu
+include:ziroom
 
 # CDNs
 ksyun.com # 金山云
@@ -326,7 +334,6 @@ cardbaobao.com
 carnoc.com
 ccb.com
 cdn20.com
-cebbank.com
 cecdc.com
 cecport.com
 centanet.com

@@ -12,9 +12,44 @@ include:polymer
 include:v8
 include:youtube
 
-# All .google and .goog domains
-google
+# All .and domains
+and
+
+# All .chrome domains
+chrome
+
+# All .dclk domains
+dclk
+
+# All .gbiz domains
+gbiz
+
+# All .gle domains
+gle
+
+# All .gmail domains
+gmail
+
+# All .goo domains
+goo
+
+# All .goog domains
 goog
+
+# All .google domains
+google
+
+# All .guge domains
+guge
+
+# All .hangout domains
+hangout
+
+# All .nexus domains
+nexus
+
+# All .グーグル domains
+xn--qcka1pmc
 
 # Source: https://www.google.com/supported_domains
 google.ad
@@ -42,7 +77,6 @@ google.ch
 google.ci
 google.cl
 google.cm
-google.cn
 google.co.ao
 google.co.bw
 google.co.ck
@@ -289,7 +323,6 @@ gerritcodereview.com
 getbumptop.com
 ggoogle.com
 gipscorp.com
-gkecnapps.cn
 globaledu.org
 gmail.com
 gmodules.com
@@ -307,7 +340,6 @@ google.net
 google.org
 google.ventures
 googleacquisitionmigration.com
-googleapis.cn
 googleapis.com
 googleapps.com
 googlearth.com
@@ -315,7 +347,6 @@ googleblog.com
 googlebot.com
 googlecapital.com
 googlecert.net
-googlecnapps.cn
 googlecode.com
 googlecommerce.com
 googlecompare.co.uk
@@ -343,9 +374,7 @@ goolge.com
 gooogle.com
 gridaware.app
 gsrc.io
-gstatic.cn
 gstatic.com
-gstaticcnapps.cn
 gsuite.com
 gv.com
 gvt0.com
