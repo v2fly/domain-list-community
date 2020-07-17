@@ -65,6 +65,7 @@ include:microsoft
 include:mozilla
 include:nvidia
 include:oracle
+include:razer
 include:salesforce
 include:samsung
 include:sony
