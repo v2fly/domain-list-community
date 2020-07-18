@@ -30,12 +30,14 @@ include:github
 include:gitlab
 include:gnu
 include:golang
+include:hashicorp
 include:haskell
 include:homebrew
 include:ius
 include:java
 include:jenkins
 include:jetbrains
+include:jfrog
 include:jquery
 include:js-org
 include:jupyter
@@ -89,7 +91,6 @@ include:ubuntu
 include:unity
 include:unpkg
 include:v8
-include:vagrant
 include:vim
 include:wireshark
 include:x-org
