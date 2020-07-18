@@ -1,3 +1,4 @@
+include:apple-dev
 include:beats
 include:icloud
 include:itunes
@@ -16,6 +17,7 @@ apple.ch
 apple.cl
 apple.cm
 apple.cn
+apple.co
 apple.co.cr
 apple.co.hu
 apple.co.jp
@@ -333,6 +335,8 @@ applemusicfestival.com
 musickit.net
 
 # Apple News
+apple.comscoreresearch.com
+apple.news
 appleenews.com
 applenews.berlin
 applenews.hamburg
@@ -582,7 +586,6 @@ apple-hk.com
 apple-ibooks.cn
 apple-inc.net
 apple-livephotoskit.com
-apple-mapkit.com
 apple-maps.cn
 apple-usa.net
 appleaustralia.com
@@ -730,7 +733,6 @@ mac.rs
 macappsto.re
 macreach.com
 macreach.net
-me.com
 mobileme.dk
 mr-apple.com.tw
 mzstatic.com
@@ -773,9 +775,3 @@ xn--ruq8a011kt6y.xn--hxt814e # 苹果保修.网店
 full:apple.com.akadns.net
 full:courier-push-apple.com.akadns.net
 full:push-apple.com.akadns.net
-
-# For developers
-developer.apple.com @dev
-devimages-cdn.apple.com @dev
-devstreaming-cdn.apple.com @dev
-playgrounds-cdn.apple.com @dev
