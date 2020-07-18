@@ -1,3 +1,4 @@
+include:beats
 include:icloud
 include:itunes
 include:swift
@@ -66,6 +67,7 @@ apple.in
 apple.is
 apple.it
 apple.jo
+apple.jp
 apple.kr
 apple.lk
 apple.lt
@@ -89,11 +91,17 @@ apple.si
 apple.sk
 apple.so
 apple.tt
+apple.tw
 apple.uk
+apple.xn--czr694b # apple.商标
+apple.xn--fiqs8s # apple.中国
 apple.xyz
 
 # Apple Store
+apple-store.cn
+apple-store.wang
 applestore.bg
+applestore.cc
 applestore.ch
 applestore.cm
 applestore.cn
@@ -126,15 +134,25 @@ applestore.net.gr
 applestore.ph
 applestore.qa
 applestore.sg
+applestore.wang
+applestoreonline.com
 applestorepro.eu
 
 # App Store
+app-store.wang
+appe-store.com
+apple-appstore.cn
+appleappstore.cn
+appleappstore.net
+appleappstore.tv
 appsto.re
 appstore.co.id
 appstore.hk
 appstore.my
 appstore.ph
+appstoreapple.cn
 asto.re
+tvappstore.net
 
 # iMac
 imac-apple.com
@@ -150,11 +168,13 @@ imacapple.com
 imacapplecomputer.com
 
 # iPad
+ebookforipad.com
 euroipad.com
 indiaipad.com
 ipad.co.kr
 ipad.de
 ipad.host
+ipad.wang
 ipad3.com
 ipadair.cl
 ipadair.cm
@@ -174,6 +194,27 @@ ukipad.com
 
 # iPhone
 appleiphone.hu
+appleiphone.net
+bestiphonestuff.com
+cooliphonecasesstore.com
+custom-iphonecase.com
+designeriphonescases.com
+dl-iphone.com
+fundaiphone5s.com
+hebiphone.com
+hf-iphone.com
+iphone-8.com.cn
+iphone-cd.com
+iphone-cn.com
+iphone-sh.com
+iphone-vip1.com
+iphone-vip2.com
+iphone-vip3.com
+iphone-vip4.com
+iphone-vip5.com
+iphone-x.tv
+iphone-yh.com
+iphone-zh.com
 iphone.cm
 iphone.com
 iphone.com.au
@@ -184,15 +225,30 @@ iphone.net.gr
 iphone.pt
 iphone.rs
 iphone.ru
+iphone.wang
 iphone4.com
 iphone4.com.br
 iphone4s.com
+iphone5casescovers.com
+iphone5s5case.com
 iphoneacessorios.com.br
+iphonecase2013.com
+iphonecase5.com
+iphonecases100.com
+iphonecases5.com
 iphoneclaro.com.br
+iphonecollcase.com
 iphonefc.com
 iphonegermany.com
+iphonehangzhou.com
+iphoneplus.wang
+iphonese.tv
+iphoneunlockimei.com
+iphonexs.tv
+onlyiphone5case.com
 
 # iPod
+downloadsforipod.com
 ipod.ca
 ipod.ch
 ipod.cm
@@ -206,6 +262,7 @@ ipod.com.cn
 ipod.com.fr
 ipod.com.hk
 ipod.com.sg
+ipod.com.tw
 ipod.de
 ipod.es
 ipod.eu
@@ -220,18 +277,26 @@ ipod.ru
 ipod.tw
 ipodcentre.nl
 ipodcleaner.com
+ipoditouch.com
 ipodnano.com
+ipodnano.net
 ipodprices.com
 ipodrip.ca
 ipodrocks.com.au
 ipods.com
 ipodshop.com.au
 ipodtouch.co
+simplyipod.com
 
 # MacBook
+imacsources.com
+launchpad.wang
+mac.wang
 macbook.co
 macbook.hk
 macbook.tw
+macbook.wang
+macbookair.cn
 macbookair.co.kr
 macbookair.co.uk
 macbookair.com
@@ -247,28 +312,60 @@ macbookpro.com
 macbookpro.com.au
 macbookpro.us
 
+# Apple Watch
+apple-watch.com.ru
+applewatch.hk
+applewatch.tv
+applewatch.tw
+applewatch.wang
+applewatchedition.com
+applewatchseries3.net
+applewatchsport.com
+
 # Apple Music
 applemusic.berlin
 applemusic.com
 applemusic.com.au
 applemusic.hamburg
+applemusic.wang
+applemusicconnect.com
 applemusicfestival.com
+musickit.net
 
 # Apple News
 appleenews.com
 applenews.berlin
 applenews.hamburg
+applenews.tv
+applenewsformat.com
 
 # Apple Pay
+apple-pay.com
 apple-pay.rs
+apple-pay.wang
 applepay.berlin
 applepay.co.rs
+applepay.com.tw
 applepay.hamburg
+applepay.hk
 applepay.info
+applepay.jp
 applepay.rs
+applepay.tv
+applepaycash.cn
+applepaycash.com.cn
+applepaycash.net
+applepaycash.tv
 applepaymerchantsupplies.info
 applepaysupplies.berlin
+applepaysupplies.cn
+applepaysupplies.com
+applepaysupplies.com.cn
 applepaysupplies.info
+applepaysupplies.net
+applepaysupplies.tv
+applewallet.com
+applewallet.tv
 
 # iBook
 ibook.co.nz
@@ -279,6 +376,7 @@ ibookpartner.com
 iphoto.eu
 iphoto.no
 iphoto.se
+iphoto.wang
 
 # iMovie
 imovie.eu
@@ -290,6 +388,14 @@ applecare.berlin
 applecare.cc
 applecare.eu
 applecare.hamburg
+applecare.wang
+
+# macOS
+appledarwin.com
+appledarwin.net
+darwinsource.com
+darwinsource.org
+darwinsourcecode.com
 
 # Others
 1to1computing.com.au
@@ -427,19 +533,242 @@ macintosh.eu
 macintoshsoftware.com
 macos.com.au
 macosforge.org
+macossierra.com
 macosx.info
+
+# Apple ID
+appleaccount.net
+appleid-applemx.com
+appleid-applemx.us
+appleid-iclou.com
+appleid-uk.us
+appleid.berlin
+appleid.hamburg
+appleid.hk
+ids-apple.com
+
+# Apple TV
+appletv.fr
+appletv.wang
+appletv4.cn
+appletv4.com.cn
+appletvapp.apple
+
+# Others
+1to1computing.com.au
+1to1conference.com.au
+5lml.com
+a0pple.net
+aapl.tw
+airport.brussels
+airport.eu
+airsupportapp.com
+airtunes.info
+alchemysynth.com
+ap0le.com
+appl4e.com
+apple-cloudkit.com
+apple-darwin.com
+apple-darwin.net
+apple-darwin.org
+apple-dns.cn
+apple-dns.com
+apple-dns.com.cn
+apple-dns.net
+apple-enews.com
+apple-expo.com
+apple-expo.eu
+apple-hk.com
+apple-ibooks.cn
+apple-inc.net
+apple-livephotoskit.com
+apple-mapkit.com
+apple-maps.cn
+apple-usa.net
+appleaustralia.com
+appleaustralia.com.au
+appleaustralia.net.au
+applebk.net
+applecarbon.com
+applecard.tv
+applecare.wang
+applecentar.co.rs
+applecentar.rs
+applecenter.cn
+applecenter.com.cn
+applecentre.com.au
+applecentre.info
+appleclub.com.hk
+applecom.com
+applecomputer-imac.com
+applecomputer.cn
+applecomputer.co.in
+applecomputer.co.nz
+applecomputer.com.cn
+applecomputer.com.hk
+applecomputer.com.tw
+applecomputer.hu
+applecomputer.kr
+applecomputerimac.com
+applecomputerinc.info
+applecomputers.co.nz
+appledns.cn
+appledns.com.cn
+appleexpo.eu
+appleexpo.info
+applefilmaker.com
+applefilmmaker.com
+applefinalcutproworld.com
+applefinalcutproworld.net
+applefinalcutproworld.org
+applehongkong.com
+applehongkong.com.hk
+appleinclegal.com
+appleipodsettlement.com
+appleiservices.com
+applelink.com
+applemagickeyboard.com
+applemalaysia.com.my
+applemasters.info
+appleos.tv
+applepencil.net
+applepodcasts.com
+applepremiumreseller.com.au
+applepremiumresellers.com.au
+applereach.com
+applereach.net
+apples-msk.ru
+applescreensavers.com
+applescript.info
+appleshare.info
+appleshop.co.uk
+applesiri.cn
+appletaiwan.com
+appletips.net
+appleweb.net
+applexpo.net
+applezh.com
+applfe.com
+appmediagroup.com
+beddit.tv
+braeburncapital.com
+burstly.net
+burstlyrewards.com
+buyaapl.com
+buyaapl.net
+buyaple.com
+calendarserver.org
+camelphat.com
+camelspaceeffect.com
+carekit.org
+catalina.hk
+cdn-apple.com
+chomp.com
+coreml.net
+cups.org
+dashwood360.com
+desktopmovie.com
+desktopmovie.net
+desktopmovie.org
+desktopmovies.net
+desktopmovies.org
+developer-advisor.com
+device-manager.us
+digitalhub.com
+discussionsapple.com
+dot-mac.de
+dotmac.de
+dvdstudiopro.biz
+dvdstudiopro.com
+dvdstudiopro.info
+dvdstudiopro.net
+dvdstudiopro.org
+dvdstudiopro.us
+earpod.net
+ecgapp.com.cn
+ecgapp.net
+edu-research.org
+emac.co.in
+emac.in
+emagic.de
+faceid99.com
+faceid99.net
+faceidglobal.com
+faceshift.cn
+find-apple.com
+firewire.cl
+firewire.eu
+geoport.com
+homepod.cn
+hopstop.tv
+ichat.co.in
+idvd.eu
+ikids.com
+ilecture.co.nz
+ilife.eu
+ilife.gr
+ilife.wang
+imessage.tv
+insidear.cn
+insidemacintosh.com
+iosinthecar.com
+ipa-iphone.net
+ischool.com
+itools.info
+iwork.se
+iwork.wang
+jetfuelapp.com
+jetfuelapps.com
+latticedata.com
+livephotos.cn
+livephotos.com.cn
+livephotos.tv
+lojaiphone.com.br
+mac.com.au
+mac.eu
+mac.rs
+macappsto.re
 macreach.com
 macreach.net
+me.com
 mobileme.dk
+mr-apple.com.tw
 mzstatic.com
+overapple.com
 powerbook.eu
+pullstring.net
+quatrowireless.com
 quicktime.com.au
 quicktime.eu
+reform-apple.com
+researchkit.cn
+researchkit.com.cn
+researchkit.hk
+researchkit.net
 researchkit.org
+researchkit.tv
+services-apple.net
+spektral.cc
+touchid.tv
+touchid.wang
+tracking-location.com
 truedepth3d.com
+tryrating.com
 webobjects.co.uk
 webobjects.de
 webobjects.eu
+wuxiapple.com
+wwapple.net
+www-sms-apple.com
+wwwapple.net
+wwwlapple.com
+xn--fiqs8sxootzz.xn--hxt814e # 苹果中国.网店
+xn--gtvq61aiijy0b.xn--hxt814e # 苹果电脑.网店
+xn--gtvz22d.wang # 苹果.wang
+xn--gtvz22d.xn--hxt814e # 苹果.网店
+xn--hxtr4rozx.xn--czr694b # 苹果店.商标
+xn--kput3imi374g.xn--hxt814e # 苹果手机.网店
+xn--ruq8a011kt6y.xn--hxt814e # 苹果保修.网店
 
 full:apple.com.akadns.net
 full:courier-push-apple.com.akadns.net
