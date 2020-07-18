@@ -45,8 +45,13 @@ amazon.nl
 amazon.sg
 amazontrust.com
 amzn.com
+amzn.to
 media-amazon.com
+siege-amazon.com
 ssl-images-amazon.com
+yamaxun.cn
+yamaxun.com
+z.cn
 
 # AWS
 amazonaws.com
@@ -55,6 +60,18 @@ awsstatic.com
 awstrust.com
 cloudfront.net
 elasticbeanstalk.com
+
+# Kindle
+kindle.cn
+kindle.co.jp
+kindle.co.uk
+kindle.com
+kindle.de
+kindle.es
+kindle.fr
+kindle.in
+kindle.it
+kindle.jp
 
 # Prime Video
 amazonvideo.com
