@@ -230,6 +230,7 @@ include:reddit
 # Organizations
 include:archive
 include:change
+include:creativecommons
 include:csis
 include:emojipedia
 include:globalsecurity
