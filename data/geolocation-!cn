@@ -232,6 +232,7 @@ include:csis
 include:emojipedia
 include:globalsecurity
 include:nist
+include:openstreetmap
 include:ruleoflaw
 include:un
 include:who
