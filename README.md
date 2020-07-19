@@ -121,6 +121,7 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 
 ## Contribution guideline
 
+* Fork this repo, make modifications to your own repo, file a PR.
 * Please begin with small size PRs, say modification in a single file.
 * A PR must be reviewed and approved by another member.
 * After a few successful PRs, you may apply for manager access of this repository.
