@@ -13,7 +13,7 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 ## Usage example
 
-Each file in the `data/` directory can be used as a rule in this format: `geosite:filename`.
+Each file in the `data` directory can be used as a rule in this format: `geosite:filename`.
 
 ```json
 "routing": {
@@ -74,18 +74,18 @@ Each file in the `data/` directory can be used as a rule in this format: `geosit
 
 ## Structure of data
 
-All data are under `data/` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
+All data are under `data` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
 
 ```
 # comments
 include:another-file
-domain:google.com @attr1 @att2
+domain:google.com @attr1 @attr2
 keyword:google
 regex:www\.google\.com
 full:www.google.com
 ```
 
-Syntax:
+**Syntax:**
 
 * Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
 * Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
@@ -97,7 +97,7 @@ Syntax:
 
 ## How it works
 
-The entire data directory will be built into an external `geosite` file for Project V. Each file in the directory represents a section in the generated file.
+The entire `data` directory will be built into an external `geosite` file for Project V. Each file in the directory represents a section in the generated file.
 
 To generate a section:
 
@@ -117,7 +117,7 @@ Theoretically any string can be used as the name, as long as it is a valid file 
 
 ### Attributes
 
-Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of "google" domains may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute "@ads", and can be used as "geosite:google@ads" in V2Ray routing.
+Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of `google` domains may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute `@ads`, and can be used as `geosite:google@ads` in V2Ray routing.
 
 ## Contribution guideline
 
