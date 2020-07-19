@@ -164,6 +164,7 @@ include:visa
 
 # Communications
 include:discord
+include:freenode
 include:line
 include:signal
 include:slack
