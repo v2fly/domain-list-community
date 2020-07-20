@@ -68,6 +68,7 @@ include:linkedin
 include:logitech
 include:microsoft
 include:mozilla
+include:neuralink
 include:nvidia
 include:oracle
 include:razer
