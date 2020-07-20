@@ -239,6 +239,7 @@ include:csis
 include:emojipedia
 include:globalsecurity
 include:nist
+include:openai
 include:openstreetmap
 include:ruleoflaw
 include:un
