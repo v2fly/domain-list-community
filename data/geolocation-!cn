@@ -69,12 +69,16 @@ include:linkedin
 include:logitech
 include:microsoft
 include:mozilla
+include:neuralink
 include:nvidia
 include:oracle
 include:razer
 include:salesforce
 include:samsung
 include:sony
+include:spacex
+include:tesla
+include:theboringcompany
 include:twitter
 include:uber
 include:westerndigital
