@@ -3,6 +3,7 @@ include:amp
 include:anaconda
 include:android
 include:apache
+include:apple-dev
 include:archlinux
 include:atom
 include:bootstrap
@@ -86,7 +87,6 @@ include:scientificlinux
 include:sqlite
 include:stackexchange
 include:sublimetext
-include:swift
 include:ubuntu
 include:unity
 include:unpkg
