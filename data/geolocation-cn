@@ -10,11 +10,11 @@ include:baidu
 include:bilibili
 include:bytedance
 include:cas
+include:category-scholar-cn
 include:cctv
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
-include:cnki
 include:coding
 include:coolapk
 include:cowtransfer
@@ -35,8 +35,8 @@ include:icbc
 include:ifanr
 include:iqiyi
 include:jd
-include:jiguang
 include:jiemian
+include:jiguang
 include:jinrishici
 include:jinshuju
 include:jsdelivr
@@ -396,7 +396,6 @@ cofool.com
 coindog.com
 contentchina.com
 cpppf.org
-cqvip.com
 cr173.com
 crsky.com
 csbew.com
