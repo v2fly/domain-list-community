@@ -1,3 +1,4 @@
+include:apple-ads
 include:apple-dev
 include:beats
 include:icloud
@@ -432,7 +433,6 @@ airtunes.info
 alchemysynth.com
 ap0le.com
 appl4e.com
-apple-cloudkit.com
 apple-darwin.com
 apple-darwin.net
 apple-darwin.org
@@ -521,15 +521,12 @@ burstlyrewards.com
 buyaapl.com
 buyaapl.net
 buyaple.com
-calendarserver.org
 camelphat.com
 camelspaceeffect.com
-carekit.org
 catalina.hk
 cdn-apple.com
 chomp.com
 coreml.net
-cups.org
 dashwood360.com
 desktopmovie.com
 desktopmovie.net
@@ -598,7 +595,6 @@ machos.net
 macintosh.eu
 macintoshsoftware.com
 macos.com.au
-macosforge.org
 macossierra.com
 macosx.info
 macreach.com
@@ -613,12 +609,6 @@ quatrowireless.com
 quicktime.com.au
 quicktime.eu
 reform-apple.com
-researchkit.cn
-researchkit.com.cn
-researchkit.hk
-researchkit.net
-researchkit.org
-researchkit.tv
 services-apple.net
 spektral.cc
 touchid.tv
