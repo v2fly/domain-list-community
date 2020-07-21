@@ -26,6 +26,7 @@ include:fontawesome
 include:freebsd
 include:gentoo
 include:getcomposer
+include:git
 include:gitbook
 include:github
 include:gitlab
