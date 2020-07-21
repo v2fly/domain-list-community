@@ -98,3 +98,4 @@ include:x-org
 include:xda
 include:xposed
 include:yarnpkg
+include:zsh
