@@ -237,6 +237,7 @@ include:quora
 include:reddit
 
 # Organizations
+include:aomedia
 include:archive
 include:change
 include:creativecommons
