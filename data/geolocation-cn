@@ -10,7 +10,12 @@ include:baidu
 include:bilibili
 include:bytedance
 include:cas
+include:category-bank-cn
+include:category-collaborate-cn
+include:category-hospital-cn
+include:category-mooc-cn
 include:category-scholar-cn
+include:category-wiki-cn
 include:cctv
 include:chinamobile
 include:chinatelecom
@@ -31,7 +36,6 @@ include:gitv
 include:huawei
 include:hupu
 include:huya
-include:icbc
 include:ifanr
 include:iqiyi
 include:jd
@@ -76,7 +80,6 @@ include:tipdm
 include:tmtpost
 include:tongcheng
 include:umeng
-include:unionpay
 include:wanfang
 include:wjx
 include:xiaomi
@@ -99,14 +102,16 @@ ksyungslb.com # 金山云
 ourdvsss.com # 网宿科技
 
 
-# Bank of China
-abchina.com
-boc.cn
-whccb.com
-
 # Moji Weather
 moji.com
 mojichina.com
+
+# 在线工具书
+guoxuedashi.com
+guoxuemi.com
+
+# 餐饮类
+haidilao.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -821,7 +826,6 @@ miusi.co
 mjia.cc
 mmbang.com
 mmbang.info
-moegirl.org
 mofang.com
 mofazhu.com
 mogu.com
