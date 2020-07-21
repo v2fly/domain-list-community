@@ -1,13 +1,19 @@
-mozilla.community
-mozilla.net # short for domain download-installer.cdn.mozilla.net
-mozilla.org
-
-# Sub projects
-bugzilla.org
-getpocket.com
-seamonkey-project.org
-thunderbird.net
-
 include:firefox
 include:mdn
 include:rust
+
+mozilla.community
+mozilla.net
+mozilla.org
+
+# Bugzilla
+bugzilla.org
+
+# Pocket
+getpocket.com
+
+# SeaMonkey
+seamonkey-project.org
+
+# Thunderbird
+thunderbird.net
