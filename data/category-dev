@@ -44,10 +44,8 @@ include:jquery
 include:js-org
 include:jupyter
 include:kali
-include:kernel
 include:kotlin
 include:kubernetes
-include:linux
 include:linuxfromscratch
 include:linuxmint
 include:lua
@@ -89,6 +87,7 @@ include:scientificlinux
 include:sqlite
 include:stackexchange
 include:sublimetext
+include:thelinuxfoundation
 include:ubuntu
 include:unity
 include:unpkg
