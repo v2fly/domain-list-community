@@ -165,6 +165,7 @@ include:zoom
 
 # Bank & Finance
 include:mastercard
+include:softbank
 include:visa
 
 # Communications
