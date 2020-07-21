@@ -18,7 +18,7 @@ import (
 
 var (
 	dataPath        = flag.String("datapath", "", "Path to your custom 'data' directory")
-	defaultDataPath = filepath.Join("src", "github.com", "v2ray", "domain-list-community", "data")
+	defaultDataPath = filepath.Join("src", "github.com", "v2fly", "domain-list-community", "data")
 )
 
 type Entry struct {
