@@ -43,6 +43,7 @@ include:jetbrains
 include:jfrog
 include:jquery
 include:js-org
+include:jsdelivr
 include:jupyter
 include:kali
 include:kotlin
