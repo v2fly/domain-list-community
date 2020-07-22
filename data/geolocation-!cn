@@ -19,9 +19,9 @@ include:category-cryptocurrency
 include:category-media
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning
-include:category-scholar-!cn
 include:betterexplained
 include:brilliant
+include:category-scholar-!cn
 include:cern
 include:chinapower
 include:code
@@ -29,6 +29,7 @@ include:codecademy
 include:coursera
 include:edx
 include:egghead
+include:freecodecamp
 include:khanacademy
 include:knovel
 include:laracasts
@@ -152,6 +153,7 @@ include:sourceforge
 include:startpage
 include:steemit
 include:stripe
+include:tex
 include:tinyurl
 include:trello
 include:tumblr
