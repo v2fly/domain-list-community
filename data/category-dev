@@ -21,6 +21,7 @@ include:elrepo
 include:erlang
 include:fastlane
 include:fedora
+include:ffmpeg
 include:flutter
 include:fontawesome
 include:freebsd
