@@ -59,6 +59,7 @@ include:oppo
 include:pinduoduo
 include:pptv
 include:qihoo360
+include:qiniu
 include:ruanmei
 include:sf-express
 include:sfacg
@@ -921,10 +922,6 @@ qingdaochina.org
 qingdaonews.com
 qingting.fm
 qingsongchou.com
-qiniu.com
-qiniucdn.com
-qiniudn.com
-qiniudns.com
 qiumibao.com
 qizuang.com
 qqddc.com
