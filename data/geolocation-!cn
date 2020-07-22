@@ -165,6 +165,7 @@ include:zoom
 
 # Bank & Finance
 include:mastercard
+include:paypal
 include:softbank
 include:visa
 
