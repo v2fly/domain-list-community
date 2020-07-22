@@ -59,7 +59,6 @@ include:nixos
 include:nodejs
 include:nodesource
 include:notepad
-include:npmjs
 include:openai
 include:openresty
 include:openssl
