@@ -237,15 +237,19 @@ include:quora
 include:reddit
 
 # Organizations
+include:aomedia
 include:archive
 include:change
 include:creativecommons
 include:csis
 include:emojipedia
 include:globalsecurity
+include:ieee
+include:itu
 include:nist
 include:openstreetmap
 include:ruleoflaw
+include:smpte
 include:un
 include:who
 include:wikimedia
