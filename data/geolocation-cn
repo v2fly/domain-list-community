@@ -1,102 +1,13 @@
 # List of all domains that have access point in China
 
-include:4399
-include:51job
-include:58tongcheng
-include:acfun
-include:acplay
-include:alibaba
-include:baidu
-include:bilibili
-include:bytedance
-include:cas
-include:category-bank-cn
-include:category-collaborate-cn
-include:category-hospital-cn
-include:category-mooc-cn
-include:category-scholar-cn
-include:category-wiki-cn
-include:cctv
-include:chinamobile
-include:chinatelecom
-include:chinaunicom
-include:coding
-include:coolapk
-include:cowtransfer
-include:csdn
-include:ctrip
-include:dedao
-include:douyu
-include:eleme
-include:erji
-include:everbright
-include:ganji
-include:gcores
-include:gitv
-include:huawei
-include:hupu
-include:huya
-include:ifanr
-include:iqiyi
-include:jd
-include:jiemian
+# Advertisment & Analytics
 include:jiguang
-include:jinrishici
-include:jinshuju
-include:keep
-include:kuaishou
-include:lagou
-include:landian
-include:lanzou
-include:liepin
-include:mafengwo
-include:manmanbuy
-include:meitu
-include:meituan
-include:meizu
-include:mihoyo
-include:netease
-include:nga
-include:oneplus
-include:oppo
-include:pinduoduo
-include:pptv
-include:qihoo360
-include:qiniu
-include:ruanmei
-include:sf-express
-include:sfacg
-include:sina
-include:sinopec
-include:sogou
-include:stage1st
-include:suning
-include:taikang
-include:taomee
-include:taptap
-include:tencent
-include:tiancity
-include:tipdm
-include:tmtpost
-include:tongcheng
 include:umeng
-include:wanfang
-include:wjx
-include:xiaomi
-include:ximalaya
-include:xueersi
-include:xueqiu
-include:xunlei
-include:ynet
-include:youku
-include:youzan
-include:yuanfudao
-include:yunfanjiasu
-include:zhihu
-include:zhihuishu
-include:ziroom
 
-# CDNs
+# CDN companies & Services
+include:qiniu
+include:yunfanjiasu
+
 ## 金山云
 ksyun.com
 ksyungslb.com
@@ -107,10 +18,126 @@ cdn.jsdelivr.net
 ## 网宿科技
 ourdvsss.com
 
+# Bank & Finance & Insurance
+include:category-bank-cn
+include:everbright
+include:taikang
+include:xueqiu
+
+# E-commerce
+include:58tongcheng
+include:ctrip
+include:eleme
+include:ganji
+include:jd
+include:manmanbuy
+include:meituan
+include:pinduoduo
+include:suning
+include:tongcheng
+include:youzan
+include:ziroom
+
+# Entertainment & Videos & Games & Music & Podcasts
+include:4399
+include:acfun
+include:acplay
+include:bilibili
+include:dedao
+include:douyu
+include:gcores
+include:gitv
+include:huya
+include:iqiyi
+include:kuaishou
+include:mihoyo
+include:pptv
+include:sfacg
+include:taomee
+include:taptap
+include:tiancity
+include:ximalaya
+include:youku
+
+# Forums
+include:erji
+include:nga
+include:stage1st
+include:zhihu
+
+# Logistics
+include:sf-express
 
 # Moji Weather
 moji.com
 mojichina.com
+
+# News & Press & Media
+include:hupu
+include:ifanr
+include:cctv
+include:jiemian
+include:landian
+include:ruanmei
+include:tmtpost
+include:ynet
+
+# Others
+include:sinopec
+
+# Organizations
+include:cas
+include:category-hospital-cn
+
+# Services & Softwares
+include:51job
+include:category-collaborate-cn
+include:coolapk
+include:cowtransfer
+include:keep
+include:jinshuju
+include:lagou
+include:lanzou
+include:liepin
+include:mafengwo
+include:meitu
+include:wjx
+
+# Science & Technology & Knowledge & Scholar & Press & E-learning
+include:category-mooc-cn
+include:category-scholar-cn
+include:category-wiki-cn
+include:wanfang
+include:xueersi
+include:yuanfudao
+include:zhihuishu
+
+# Software development related
+include:coding
+include:csdn
+include:jinrishici
+include:tipdm
+
+# Tech companies & Orginations
+include:bytedance
+include:alibaba
+include:baidu
+include:huawei
+include:meizu
+include:netease
+include:oppo
+include:oneplus
+include:qihoo360
+include:sina
+include:sogou
+include:tencent
+include:xiaomi
+include:xunlei
+
+# Telecommunication
+include:chinamobile
+include:chinatelecom
+include:chinaunicom
 
 # 在线工具书
 guoxuedashi.com
