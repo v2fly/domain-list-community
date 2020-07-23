@@ -1,5 +1,8 @@
+include:typekit
+
 adobe.com
 adobe.io
+adobe.ly
 adobeaemcloud.com
 adobeaemcloud.net
 adobeccstatic.com
@@ -12,4 +15,4 @@ behance.net
 edgefonts.net
 omtrdc.net
 
-include:typekit
+full:adobe.tt.omtrdc.net

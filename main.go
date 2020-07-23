@@ -18,7 +18,7 @@ import (
 
 var (
 	dataPath        = flag.String("datapath", "", "Path to your custom 'data' directory")
-	defaultDataPath = filepath.Join("src", "github.com", "v2ray", "domain-list-community", "data")
+	defaultDataPath = filepath.Join("src", "github.com", "v2fly", "domain-list-community", "data")
 )
 
 type Entry struct {
@@ -100,10 +100,10 @@ func parseDomain(domain string, entry *Entry) error {
 	return errors.New("Invalid format: " + domain)
 }
 
-func parseAttribute(attr string) (router.Domain_Attribute, error) {
+func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 	var attribute router.Domain_Attribute
 	if len(attr) == 0 || attr[0] != '@' {
-		return attribute, errors.New("invalid attribute: " + attr)
+		return &attribute, errors.New("invalid attribute: " + attr)
 	}
 
 	attr = attr[0:]
@@ -115,11 +115,11 @@ func parseAttribute(attr string) (router.Domain_Attribute, error) {
 		attribute.Key = strings.ToLower(parts[0])
 		intv, err := strconv.Atoi(parts[1])
 		if err != nil {
-			return attribute, errors.New("invalid attribute: " + attr + ": " + err.Error())
+			return &attribute, errors.New("invalid attribute: " + attr + ": " + err.Error())
 		}
 		attribute.TypedValue = &router.Domain_Attribute_IntValue{IntValue: int64(intv)}
 	}
-	return attribute, nil
+	return &attribute, nil
 }
 
 func parseEntry(line string) (Entry, error) {
@@ -140,7 +140,7 @@ func parseEntry(line string) (Entry, error) {
 		if err != nil {
 			return entry, err
 		}
-		entry.Attrs = append(entry.Attrs, &attr)
+		entry.Attrs = append(entry.Attrs, attr)
 	}
 
 	return entry, nil

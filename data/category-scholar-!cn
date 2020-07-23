@@ -6,19 +6,23 @@ include:clarivate
 include:doi
 include:elsevier
 include:google-scholar
+include:knovel
 include:mit
 include:oup
+include:proquest
 include:sciencedirect
 include:springer
 include:taylorfrancis
 
 aclweb.org
 acm.org
+altmetric.com
 analytictech.com
 annualreviews.org
 arxiv.org
 asha.org
 berkeley.edu
+biomedcentral.com # BMC
 biorxiv.org
 brill.com
 cell.com
@@ -26,13 +30,23 @@ computingreviews.com
 degruyter.com
 dentalhypotheses.com
 elifesciences.org
+europepmc.org
 frontiersin.org
+gale.com # Gale 平台
+galegroup.com # Gale 平台
+ggsrv.com # Gale 平台
 hindawi.com
-ieee.org
+informs.org
 isca-speech.org
+jamanetwork.com
+japanknowledge.com # Japan Knowledge Lib（日本知识库）数据库
+jbe-platform.com # e-content platform of John Benjamins Publishing Company
 jmlr.org
 jneurosci.org
 jstor.org
+kuke.com # KUKE数字音乐图书馆
+lawdata.com.tw # 台湾月旦知识库
+literatumonline.com # Wiley Online Library@https://pericles.pericles-prod.literatumonline.com/
 mdpi.com
 nature.com
 nejm.org
@@ -51,6 +65,7 @@ scholarpedia.org
 sciencemag.org
 scientificamerican.com
 scitation.org
+silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
 spiedigitallibrary.org
 statsmakemecry.com
 thelancet.com

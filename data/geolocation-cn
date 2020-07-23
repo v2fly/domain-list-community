@@ -10,11 +10,16 @@ include:baidu
 include:bilibili
 include:bytedance
 include:cas
+include:category-bank-cn
+include:category-collaborate-cn
+include:category-hospital-cn
+include:category-mooc-cn
+include:category-scholar-cn
+include:category-wiki-cn
 include:cctv
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
-include:cnki
 include:coding
 include:coolapk
 include:cowtransfer
@@ -31,12 +36,11 @@ include:gitv
 include:huawei
 include:hupu
 include:huya
-include:icbc
 include:ifanr
 include:iqiyi
 include:jd
-include:jiguang
 include:jiemian
+include:jiguang
 include:jinrishici
 include:jinshuju
 include:jsdelivr
@@ -59,6 +63,7 @@ include:oppo
 include:pinduoduo
 include:pptv
 include:qihoo360
+include:qiniu
 include:ruanmei
 include:sf-express
 include:sfacg
@@ -76,7 +81,6 @@ include:tipdm
 include:tmtpost
 include:tongcheng
 include:umeng
-include:unionpay
 include:wanfang
 include:wjx
 include:xiaomi
@@ -99,14 +103,16 @@ ksyungslb.com # 金山云
 ourdvsss.com # 网宿科技
 
 
-# Bank of China
-abchina.com
-boc.cn
-whccb.com
-
 # Moji Weather
 moji.com
 mojichina.com
+
+# 在线工具书
+guoxuedashi.com
+guoxuemi.com
+
+# 餐饮类
+haidilao.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -396,7 +402,6 @@ cofool.com
 coindog.com
 contentchina.com
 cpppf.org
-cqvip.com
 cr173.com
 crsky.com
 csbew.com
@@ -822,7 +827,6 @@ miusi.co
 mjia.cc
 mmbang.com
 mmbang.info
-moegirl.org
 mofang.com
 mofazhu.com
 mogu.com
@@ -921,10 +925,6 @@ qingdaochina.org
 qingdaonews.com
 qingting.fm
 qingsongchou.com
-qiniu.com
-qiniucdn.com
-qiniudn.com
-qiniudns.com
 qiumibao.com
 qizuang.com
 qqddc.com
