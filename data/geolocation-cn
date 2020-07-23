@@ -8,10 +8,6 @@ include:umeng
 include:qiniu
 include:yunfanjiasu
 
-## 金山云
-ksyun.com
-ksyungslb.com
-
 ## jsDelivr
 cdn.jsdelivr.net
 
