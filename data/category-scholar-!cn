@@ -6,6 +6,7 @@ include:clarivate
 include:doi
 include:elsevier
 include:google-scholar
+include:knovel
 include:mit
 include:oup
 include:proquest
