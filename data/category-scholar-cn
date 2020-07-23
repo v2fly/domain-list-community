@@ -1,6 +1,8 @@
 # This list contains scholarly domains that have access point in China Mainland.
 
+include:cas
 include:cnki
+include:wanfang
 
 apabi.com
 cnthinkers.com
