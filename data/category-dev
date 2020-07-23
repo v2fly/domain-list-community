@@ -1,5 +1,4 @@
 include:alpinelinux
-include:amp
 include:anaconda
 include:android
 include:apache
@@ -41,7 +40,6 @@ include:java
 include:jenkins
 include:jetbrains
 include:jfrog
-include:jquery
 include:js-org
 include:jsdelivr
 include:jupyter
@@ -58,7 +56,6 @@ include:mongodb
 include:mysql
 include:nginx
 include:nixos
-include:nodejs
 include:nodesource
 include:notepad
 include:openai
