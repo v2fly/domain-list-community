@@ -1,5 +1,7 @@
-# All .baidu domains
+include:baidu-ads
+include:zuoyebang
 
+# All .baidu domains
 baidu
 
 91.com
@@ -14,6 +16,7 @@ baidupcs.com
 baidustatic.com
 baifae.com
 baifubao.com
+bcebos.com
 bdimg.com
 bdstatic.com
 bdtjrcv.com
@@ -38,6 +41,3 @@ tieba.com
 tiebaimg.com
 xianfae.com
 xiaodutv.com
-
-include:baidu-ads
-include:zuoyebang
