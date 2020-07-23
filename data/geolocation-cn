@@ -8,8 +8,18 @@ include:umeng
 include:qiniu
 include:yunfanjiasu
 
+## AMP
+full:cdn.ampproject.org
+
 ## jsDelivr
-cdn.jsdelivr.net
+full:cdn.jsdelivr.net
+
+## Google
+recaptcha.net
+full:fonts.googleapis.com
+full:fonts.gstatic.com
+full:safebrowsing.googleapis.com
+full:storage.googleapis.com
 
 ## 网宿科技
 ourdvsss.com
@@ -119,6 +129,7 @@ include:bytedance
 include:alibaba
 include:baidu
 include:huawei
+include:kingsoft
 include:meizu
 include:netease
 include:oppo
