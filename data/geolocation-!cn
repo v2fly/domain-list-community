@@ -162,6 +162,7 @@ include:tex
 include:tinyurl
 include:trello
 include:tumblr
+include:typography
 include:vercel
 include:webflow
 include:wix
