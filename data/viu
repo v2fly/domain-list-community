@@ -1,5 +1,10 @@
-viu.com
+# viu.tv
 viu.tv
-d1k2us671qcoau.cloudfront.net
-d2anahhhmp1ffz.cloudfront.net
-dfp6rglgjqszk.cloudfront.net
+api.viu.now.com
+regex:^ewcdn[0-9]{2}\.nowe\.com$
+
+#viu.com
+viu.com
+full:dfp6rglgjqszk.cloudfront.net
+full:d1k2us671qcoau.cloudfront.net
+full:d2anahhhmp1ffz.cloudfront.net
