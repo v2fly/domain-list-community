@@ -1,6 +1,6 @@
 # viu.tv
 viu.tv
-api.viu.now.com
+full:api.viu.now.com
 regex:^ewcdn[0-9]{2}\.nowe\.com$
 
 #viu.com
