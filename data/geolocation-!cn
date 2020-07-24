@@ -81,6 +81,7 @@ include:yahoo
 include:yandex
 
 # CDN companies & Services
+include:akamai
 include:cloudflare
 include:fastly
 include:pagecdn
