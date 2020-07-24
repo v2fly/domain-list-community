@@ -1,6 +1,5 @@
 # List of all domains being operated by Google Inc.
 
-include:amp
 include:android
 include:blogspot
 include:dart
