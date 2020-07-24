@@ -94,10 +94,12 @@ include:category-hospital-cn
 # Services & Softwares
 include:51job
 include:category-collaborate-cn
+include:chinaz
 include:coolapk
 include:cowtransfer
-include:keep
+include:ipip
 include:jinshuju
+include:keep
 include:lagou
 include:lanzou
 include:liepin
@@ -405,8 +407,6 @@ chinatranslation.net
 chinaunix.net
 chinaweiyu.com
 chinawutong.com
-chinaz.com
-chinaz.net
 chinazns.com
 chiphell.com
 chongdiantou.com # 粤ICP备15002070号-1

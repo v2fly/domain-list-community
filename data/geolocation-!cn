@@ -142,11 +142,13 @@ include:notion
 include:osdn
 include:patreon
 include:picsee
+include:pingpe
 include:pinterest
 include:protonmail
 include:quip
 include:rebrandly
 include:reurl
+include:sb
 include:sharethis
 include:shopify
 include:shorturl
@@ -154,6 +156,7 @@ include:sourceforge
 include:startpage
 include:steemit
 include:stripe
+include:test-ipv6
 include:tex
 include:tinyurl
 include:trello
