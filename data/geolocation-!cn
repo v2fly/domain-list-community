@@ -198,6 +198,7 @@ include:walmart
 include:abema
 include:archiveofourown
 include:attwatchtv
+include:bahamut
 include:bandcamp
 include:castro
 include:deviantart
@@ -235,7 +236,6 @@ include:viu
 include:weverse
 include:yande
 include:yyets
-include:bahamut
 
 # Forums
 include:dcard
