@@ -6,6 +6,7 @@ include:umeng
 
 # CDN companies & Services
 include:qiniu
+include:staticfile
 include:yunfanjiasu
 
 ## AMP
@@ -1048,7 +1049,6 @@ sspai.com
 ssports.com
 starbaby.cc
 starbaby.com
-staticfile.org
 stockstar.com
 sun0769.com
 sunrtb.com
