@@ -130,6 +130,7 @@ include:faststone
 include:feedly
 include:figma
 include:fontsinuse
+include:glyphs
 include:gofundme
 include:gravatar
 include:heroku
