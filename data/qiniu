@@ -1,3 +1,5 @@
+include:staticfile
+
 qiniu.com
 qiniucdn.com
 qiniudn.com
