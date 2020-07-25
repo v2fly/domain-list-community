@@ -67,7 +67,7 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 ## Generate `dlc.dat` manually
 
 - Install `golang` and `git`
-- Download and install project code: `go get -u -v --insecure github.com/v2fly/domain-list-community`
+- Download and install project code: `go get -v --insecure github.com/v2fly/domain-list-community`
 - Generate `dlc.dat` (without `datapath` option means to use `data` directory of this repository in `$GOPATH`):
   - `${GOPATH:-$(go env GOPATH)}/bin/domain-list-community`
   - `${GOPATH:-$(go env GOPATH)}/bin/domain-list-community --datapath=/path/to/your/custom/data/directory`
