@@ -92,6 +92,7 @@ include:cas
 include:category-hospital-cn
 
 # Services & Softwares
+include:3type
 include:51job
 include:category-collaborate-cn
 include:chinaz
