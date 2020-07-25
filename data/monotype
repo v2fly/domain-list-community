@@ -1,3 +1,4 @@
+include:fontexplorer
 include:fonts
 include:fontshop
 include:linotype
@@ -5,3 +6,9 @@ include:myfonts
 
 monotype.com
 monotypeimaging.com
+
+# Bitstream
+bitstream.com
+
+# International Typeface Corporation
+itcfonts.com
