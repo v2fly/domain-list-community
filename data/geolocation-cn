@@ -92,11 +92,14 @@ include:cas
 include:category-hospital-cn
 
 # Services & Softwares
+include:3type
 include:51job
 include:category-collaborate-cn
 include:chinaz
 include:coolapk
 include:cowtransfer
+include:hanyi
+include:foundertype
 include:ipip
 include:jinshuju
 include:keep

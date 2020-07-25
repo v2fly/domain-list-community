@@ -115,6 +115,7 @@ include:verisign
 include:addthis
 include:addtoany
 include:apkpure
+include:arphic
 include:bitly
 include:bitwarden
 include:cuttly
@@ -122,11 +123,14 @@ include:digitalocean
 include:disqus
 include:dropbox
 include:duckduckgo
+include:dyna
 include:entermediadb
 include:evernote
 include:faststone
 include:feedly
 include:figma
+include:fontsinuse
+include:glyphs
 include:gofundme
 include:gravatar
 include:heroku
@@ -134,9 +138,12 @@ include:imgur
 include:infrapedia
 include:inoreader
 include:isgd
+include:jiyukobo
 include:jwplayer
 include:linguee
 include:mega
+include:monotype
+include:morisawa
 include:netlify
 include:notion
 include:osdn
@@ -146,6 +153,7 @@ include:pingpe
 include:pinterest
 include:protonmail
 include:quip
+include:realtype
 include:rebrandly
 include:reurl
 include:sb
@@ -161,8 +169,11 @@ include:tex
 include:tinyurl
 include:trello
 include:tumblr
+include:typenetwork
+include:typography
 include:vercel
 include:webflow
+include:webtype
 include:wix
 include:wordpress
 include:zeplin
@@ -247,6 +258,7 @@ include:reddit
 # Organizations
 include:aomedia
 include:archive
+include:atypi
 include:change
 include:creativecommons
 include:csis
@@ -259,6 +271,7 @@ include:openstreetmap
 include:ruleoflaw
 include:smpte
 include:un
+include:w3c
 include:who
 include:wikimedia
 include:wto
