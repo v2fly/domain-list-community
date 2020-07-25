@@ -6,6 +6,7 @@ include:apple-dev
 include:archlinux
 include:atom
 include:bootstrap
+include:cdnjs
 include:centos
 include:chocolatey
 include:clojure

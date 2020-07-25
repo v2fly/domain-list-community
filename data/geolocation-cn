@@ -5,8 +5,10 @@ include:jiguang
 include:umeng
 
 # CDN companies & Services
+include:bootcss
+include:maocloud
 include:qiniu
-include:staticfile
+include:upai
 include:yunfanjiasu
 
 ## AMP
@@ -335,7 +337,6 @@ bangongziyuan.com
 bankcomm.com
 bankofchina.com
 baofeng.com
-baomitu.com
 baoxianshichang.com
 bcy.net
 bearychat.com
@@ -365,7 +366,6 @@ bobo.com
 bojianger.com
 bokecc.com
 boosj.com
-bootcss.com
 btcfans.com
 btgtravel.com
 bthhotels.com
@@ -1101,8 +1101,6 @@ u17.com
 ucbug.com
 uggame.com
 uoko.com
-upaiyun.com
-upyun.com
 urselect.com
 urumqi-air.com
 useso.com
