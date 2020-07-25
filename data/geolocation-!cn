@@ -90,6 +90,7 @@ include:yandex
 include:akamai
 include:cloudflare
 include:fastly
+include:imgix
 include:pagecdn
 include:quantil
 include:stackpath
