@@ -5,6 +5,7 @@ include:jiguang
 include:umeng
 
 # CDN companies & Services
+include:bootcss
 include:qiniu
 include:staticfile
 include:yunfanjiasu
@@ -362,7 +363,6 @@ bobo.com
 bojianger.com
 bokecc.com
 boosj.com
-bootcss.com
 btcfans.com
 btgtravel.com
 bthhotels.com
