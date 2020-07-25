@@ -123,6 +123,7 @@ include:digitalocean
 include:disqus
 include:dropbox
 include:duckduckgo
+include:dyna
 include:entermediadb
 include:evernote
 include:faststone
