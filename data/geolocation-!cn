@@ -118,6 +118,7 @@ include:apkpure
 include:arphic
 include:bitly
 include:bitwarden
+include:brightcove
 include:cuttly
 include:digitalocean
 include:disqus
