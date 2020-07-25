@@ -28,7 +28,7 @@ jobs:
 
       - name: Go get project code
         run: |
-          go get -u -v -insecure $REPO_URL
+          go get -v -insecure $REPO_URL
 
       - name: Build dlc.dat file
         run: |
