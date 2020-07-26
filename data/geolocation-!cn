@@ -127,6 +127,7 @@ include:dropbox
 include:duckduckgo
 include:dyna
 include:entermediadb
+include:esri
 include:evernote
 include:faststone
 include:feedly
