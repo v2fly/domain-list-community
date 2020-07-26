@@ -61,6 +61,7 @@ include:iqiyi
 include:ku6
 include:kuaishou
 include:kugou
+include:le
 include:mihoyo
 include:pptv
 include:sfacg
@@ -769,7 +770,6 @@ laomaotao.net
 laomaotao.org
 lascn.net
 lawxp.com
-le.com
 leanote.com
 ledu.com
 leetcode-cn.com
@@ -778,9 +778,6 @@ leiphone.com
 leiting.com
 leju.com
 leturich.org
-letv.com
-letvcdn.com
-letvimg.com
 lianjia.com
 lianmishu.com
 liantu.com
