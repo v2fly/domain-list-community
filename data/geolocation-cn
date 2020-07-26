@@ -143,6 +143,7 @@ include:zhihuishu
 # Software development related
 include:coding
 include:csdn
+include:gitee
 include:jinrishici
 include:tipdm
 
@@ -578,7 +579,6 @@ getui.com
 gezida.com
 gfan.com
 giocdn.com
-gitee.com
 globrand.com
 gm86.com
 gmallbio.com
