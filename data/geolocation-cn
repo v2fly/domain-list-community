@@ -78,6 +78,7 @@ include:sf-express
 
 # News & Press & Media
 include:36kr
+include:dgtle
 include:hupu
 include:ifanr
 include:caixin
@@ -108,6 +109,7 @@ include:chinaz
 include:colorfulclouds
 include:coolapk
 include:cowtransfer
+include:geetest
 include:hanyi
 include:foundertype
 include:ipip
@@ -571,7 +573,6 @@ gdjdxy.com
 gdliontech.com
 gdrc.com
 geekpark.net
-geetest.com
 geilicdn.com
 genelinkout.com
 getui.com
