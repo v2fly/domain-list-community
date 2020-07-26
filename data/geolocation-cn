@@ -69,6 +69,7 @@ include:youku
 
 # Forums
 include:chiphell
+include:douban
 include:erji
 include:nga
 include:stage1st
@@ -493,9 +494,6 @@ donews.com
 dongao.com
 dongguantoday.com
 dopa.com
-douban.com
-douban.fm
-doubanio.com
 douxie.com
 downcc.com
 downxia.com
