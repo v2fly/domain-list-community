@@ -91,6 +91,7 @@ include:jiemian
 include:landian
 include:ruanmei
 include:tmtpost
+include:weiphone
 include:ynet
 
 # Others
@@ -545,7 +546,6 @@ fanxian.com
 fastapi.net
 feihuo.com
 feiniaomy.com
-feng.com
 fengkongcloud.com
 fengniao.com
 fengxian110.com
