@@ -91,6 +91,7 @@ include:ubuntu
 include:unity
 include:unpkg
 include:v8
+include:videojs
 include:videolan
 include:vim
 include:wireshark

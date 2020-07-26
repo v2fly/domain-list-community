@@ -90,6 +90,7 @@ include:yandex
 include:akamai
 include:cloudflare
 include:fastly
+include:imgix
 include:pagecdn
 include:quantil
 include:stackpath
@@ -118,6 +119,7 @@ include:apkpure
 include:arphic
 include:bitly
 include:bitwarden
+include:brightcove
 include:cuttly
 include:digitalocean
 include:disqus
@@ -125,6 +127,7 @@ include:dropbox
 include:duckduckgo
 include:dyna
 include:entermediadb
+include:esri
 include:evernote
 include:faststone
 include:feedly
@@ -141,6 +144,7 @@ include:isgd
 include:jiyukobo
 include:jwplayer
 include:linguee
+include:mapbox
 include:mega
 include:monotype
 include:morisawa
