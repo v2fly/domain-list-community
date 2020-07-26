@@ -8,6 +8,7 @@ include:umeng
 include:bootcss
 include:maocloud
 include:qiniu
+include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
