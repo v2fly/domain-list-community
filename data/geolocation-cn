@@ -125,6 +125,7 @@ include:geetest
 include:hanyi
 include:foundertype
 include:ipip
+include:jianshu
 include:jinshuju
 include:keep
 include:lagou
@@ -697,8 +698,6 @@ jdair.net
 jia.com
 jiameng.com
 jianbihua.com
-jianshu.com
-jianshu.io
 jianzhi8.com
 jiaodong.net
 jiaoyimao.com
