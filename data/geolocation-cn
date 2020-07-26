@@ -9,6 +9,7 @@ include:bootcss
 include:maocloud
 include:qiniu
 include:upai
+include:wangsu
 include:yunfanjiasu
 
 ## AMP
@@ -16,9 +17,6 @@ full:cdn.ampproject.org
 
 ## jsDelivr
 full:cdn.jsdelivr.net
-
-## 网宿科技
-ourdvsss.com
 
 # Bank & Finance & Insurance
 include:category-bank-cn
@@ -271,7 +269,6 @@ haidilao.com
 7xdown.com
 818ps.com
 84399.com
-8686c.com
 885.com
 88cdn.com
 900.la
