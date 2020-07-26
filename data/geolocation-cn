@@ -62,6 +62,7 @@ include:ximalaya
 include:youku
 
 # Forums
+include:chiphell
 include:erji
 include:nga
 include:stage1st
@@ -113,6 +114,7 @@ include:liepin
 include:mafengwo
 include:meitu
 include:moji
+include:vaptcha
 include:wjx
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning
@@ -400,7 +402,6 @@ chinaunix.net
 chinaweiyu.com
 chinawutong.com
 chinazns.com
-chiphell.com
 chongdiantou.com # 粤ICP备15002070号-1
 chouti.com
 chuangxin.com
