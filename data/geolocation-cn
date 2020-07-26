@@ -15,6 +15,10 @@ include:yunfanjiasu
 ## AMP
 full:cdn.ampproject.org
 
+## Bing
+cn.bing.com
+cn.bing.net
+
 ## jsDelivr
 full:cdn.jsdelivr.net
 
