@@ -58,6 +58,7 @@ include:gcores
 include:gitv
 include:huya
 include:iqiyi
+include:ku6
 include:kuaishou
 include:mihoyo
 include:pptv
@@ -756,9 +757,6 @@ koudai.com
 koudai8.com
 kq7.com
 ksord.com
-ku6.com
-ku6cdn.com
-ku6img.com
 kuaaa.com
 kuaidi100.com
 kuaihou.com
