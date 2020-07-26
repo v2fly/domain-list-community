@@ -76,6 +76,7 @@ include:hupu
 include:ifanr
 include:caixin
 include:cctv
+include:chinanews
 include:jiemian
 include:landian
 include:ruanmei
@@ -96,6 +97,7 @@ include:51job
 include:antutu
 include:bitauto
 include:category-collaborate-cn
+include:chinaso
 include:chinaz
 include:colorfulclouds
 include:coolapk
@@ -389,7 +391,6 @@ chinadongchu.com
 chinafph.com
 chinakaoyan.com
 chinalawedu.com
-chinanews.com
 chinapay.com
 chinapp.net
 chinapubmed.net
