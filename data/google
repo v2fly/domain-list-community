@@ -11,6 +11,12 @@ include:polymer
 include:v8
 include:youtube
 
+# Available on China mainland
+recaptcha.net @cn
+full:fonts.googleapis.com @cn
+full:fonts.gstatic.com @cn
+full:safebrowsing.googleapis.com @cn
+
 # All .and domains
 and
 
@@ -446,7 +452,6 @@ publishproxy.com
 questvisual.com
 quickoffice.com
 quiksee.com
-recaptcha.net
 revolv.com
 ridepenguin.com
 run.app
