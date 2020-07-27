@@ -272,7 +272,7 @@ func main() {
 		goPath, envErr := getRuntimeEnv("GOPATH")
 		if envErr != nil {
 			fmt.Println("Failed: please set '$GOPATH' manually, or use 'datapath' option to specify the path to your custom 'data' directory")
-			return
+			os.Exit(1)
 		}
 		if goPath == "" {
 			goPath = build.Default.GOPATH
@@ -283,7 +283,7 @@ func main() {
 	}
 	if err != nil {
 		fmt.Println("Failed: ", err)
-		return
+		os.Exit(1)
 	}
 	fmt.Println("Use domain lists in", dir)
 
@@ -304,19 +304,19 @@ func main() {
 	})
 	if err != nil {
 		fmt.Println("Failed: ", err)
-		return
+		os.Exit(1)
 	}
 	protoList := new(router.GeoSiteList)
 	for _, list := range ref {
 		pl, err := ParseList(list, ref)
 		if err != nil {
 			fmt.Println("Failed: ", err)
-			return
+			os.Exit(1)
 		}
 		site, err := pl.toProto()
 		if err != nil {
 			fmt.Println("Failed: ", err)
-			return
+			os.Exit(1)
 		}
 		protoList.Entry = append(protoList.Entry, site)
 	}
@@ -324,11 +324,12 @@ func main() {
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {
 		fmt.Println("Failed:", err)
-		return
+		os.Exit(1)
 	}
-	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0777); err != nil {
+	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0644); err != nil {
 		fmt.Println("Failed: ", err)
+		os.Exit(1)
 	} else {
-		fmt.Println("dlc.dat has been generated successfully in the directory. You can rename 'dlc.dat' to 'geosite.dat' and use it in V2Ray.")
+		fmt.Println("dlc.dat has been generated successfully in current directory. You can rename 'dlc.dat' to 'geosite.dat' and use it in V2Ray.")
 	}
 }
