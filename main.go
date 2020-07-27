@@ -106,7 +106,7 @@ func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 		return &attribute, errors.New("invalid attribute: " + attr)
 	}
 
-	attr = attr[0:]
+	attr = attr[1:]
 	parts := strings.Split(attr, "=")
 	if len(parts) == 1 {
 		attribute.Key = strings.ToLower(parts[0])
