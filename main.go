@@ -18,6 +18,7 @@ import (
 
 var (
 	dataPath        = flag.String("datapath", "", "Path to your custom 'data' directory")
+	exportLists     = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
 	defaultDataPath = filepath.Join("src", "github.com", "v2fly", "domain-list-community", "data")
 )
 
@@ -36,6 +37,25 @@ type ParsedList struct {
 	Name      string
 	Inclusion map[string]bool
 	Entry     []Entry
+}
+
+func (l *ParsedList) toPlainText(listName string) error {
+	var entryBytes []byte
+	for _, entry := range l.Entry {
+		var attrString string
+		if entry.Attrs != nil {
+			for _, attr := range entry.Attrs {
+				attrString += "@" + attr.GetKey() + ","
+			}
+			attrString = strings.TrimRight(attrString, ",")
+		}
+		// Entry output format is: type:domain.tld:@attr1,@attr2
+		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+":"+attrString+"\n")...)
+	}
+	if err := ioutil.WriteFile(listName+".txt", entryBytes, 0644); err != nil {
+		return fmt.Errorf(err.Error())
+	}
+	return nil
 }
 
 func (l *ParsedList) toProto() (*router.GeoSite, error) {
@@ -75,6 +95,18 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 	return site, nil
 }
 
+func exportPlainTextList(list []string, refName string, pl *ParsedList) {
+	for _, listName := range list {
+		if strings.ToUpper(refName) == strings.ToUpper(listName) {
+			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
+				fmt.Println("Failed: ", err)
+				continue
+			}
+			fmt.Printf("'%s' has been generated successfully in current directory.\n", listName)
+		}
+	}
+}
+
 func removeComment(line string) string {
 	idx := strings.Index(line, "#")
 	if idx == -1 {
@@ -106,6 +138,7 @@ func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 		return &attribute, errors.New("invalid attribute: " + attr)
 	}
 
+	// Trim attribute prefix `@` character
 	attr = attr[1:]
 	parts := strings.Split(attr, "=")
 	if len(parts) == 1 {
@@ -307,7 +340,8 @@ func main() {
 		os.Exit(1)
 	}
 	protoList := new(router.GeoSiteList)
-	for _, list := range ref {
+	var existList []string
+	for refName, list := range ref {
 		pl, err := ParseList(list, ref)
 		if err != nil {
 			fmt.Println("Failed: ", err)
@@ -319,6 +353,27 @@ func main() {
 			os.Exit(1)
 		}
 		protoList.Entry = append(protoList.Entry, site)
+
+		// Flatten and export plaintext list
+		if *exportLists != "" {
+			if existList != nil {
+				exportPlainTextList(existList, refName, pl)
+			} else {
+				exportedListSlice := strings.Split(*exportLists, ",")
+				for _, exportedListName := range exportedListSlice {
+					fileName := filepath.Join(dir, exportedListName)
+					_, err := os.Stat(fileName)
+					if err == nil || os.IsExist(err) {
+						existList = append(existList, exportedListName)
+					} else {
+						fmt.Printf("'%s' list does not exist in '%s' directory.\n", exportedListName, dir)
+					}
+				}
+				if existList != nil {
+					exportPlainTextList(existList, refName, pl)
+				}
+			}
+		}
 	}
 
 	protoBytes, err := proto.Marshal(protoList)
