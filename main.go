@@ -197,10 +197,10 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 		hasInclude := false
 		for _, entry := range entryList {
 			if entry.Type == "include" {
-				if pl.Inclusion[entry.Value] {
+				refName := strings.ToUpper(entry.Value)
+				if pl.Inclusion[refName] {
 					continue
 				}
-				refName := strings.ToUpper(entry.Value)
 				pl.Inclusion[refName] = true
 				r := ref[refName]
 				if r == nil {
