@@ -47,10 +47,10 @@ func (l *ParsedList) toPlainText(listName string) error {
 			for _, attr := range entry.Attrs {
 				attrString += "@" + attr.GetKey() + ","
 			}
-			attrString = strings.TrimRight(attrString, ",")
+			attrString = strings.TrimRight(":"+attrString, ",")
 		}
 		// Entry output format is: type:domain.tld:@attr1,@attr2
-		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+":"+attrString+"\n")...)
+		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+attrString+"\n")...)
 	}
 	if err := ioutil.WriteFile(listName+".txt", entryBytes, 0644); err != nil {
 		return fmt.Errorf(err.Error())
