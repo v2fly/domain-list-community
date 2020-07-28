@@ -32,7 +32,7 @@ jobs:
 
       - name: Build dlc.dat file
         run: |
-          domain-list-community --datapath=${{ env.GOPATH }}/src/${{ env.REPO_URL }}/data
+          domain-list-community --datapath=${{ env.GOPATH }}/src/${{ env.REPO_URL }}/data --exportlists=cn,category-ads-all,geolocation-\!cn
 
       - name: Generate dlc.dat sha256 hash
         run: |
@@ -44,7 +44,7 @@ jobs:
           git config --local user.name "actions"
           git config --local user.email "action@github.com"
           git checkout -b release
-          git add dlc.dat dlc.dat.sha256sum
+          git add dlc.dat dlc.dat.sha256sum *.txt
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
