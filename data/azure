@@ -4,7 +4,7 @@ azure-dns.net
 azure-dns.org
 azure-mobile.net
 azure-test.net
-azure.cn
+azure.cn @cn
 azure.com
 azure.net
 azurecomcdn.net
@@ -16,8 +16,8 @@ azureedge.net
 azureiotsolutions.com
 azureiotsuite.com
 azurewebsites.net
-chinacloudapi.cn
-chinacloudapp.cn
-chinacloudsites.cn
+chinacloudapi.cn @cn
+chinacloudapp.cn @cn
+chinacloudsites.cn @cn
 windowsazure.com
-windowsazure.cn
+windowsazure.cn @cn
