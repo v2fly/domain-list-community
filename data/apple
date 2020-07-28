@@ -5,6 +5,9 @@ include:icloud
 include:itunes
 include:swift
 
+# Available in China mainland
+include:apple-direct
+
 # All .apple domains
 apple
 
