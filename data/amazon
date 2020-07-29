@@ -24,7 +24,7 @@ yamaxun
 # All .zappos domains
 zappos
 
-aboutamazon.cn
+aboutamazon.cn @cn
 aboutamazon.co.uk
 aboutamazon.com
 aboutamazon.com.au
@@ -36,8 +36,8 @@ aboutamazon.in
 aboutamazon.it
 aboutamazon.jp
 aboutamazon.pl
-alexafund.cn
-alexafund.com.cn
+alexafund.cn @cn
+alexafund.com.cn @cn
 amaaozn.com
 amazon-fashions.com
 amazon-jp-recruiting.com
@@ -45,7 +45,7 @@ amazon-lantern.com
 amazon-launchpad.com
 amazon.ae
 amazon.ca
-amazon.cn
+amazon.cn @cn
 amazon.co.jp
 amazon.co.uk
 amazon.com
@@ -65,28 +65,28 @@ amazon.red
 amazon.sg
 amazonalexavoxcon.com
 amazonauthorinsights.com
-amazonbusiness.cn
-amazonbusiness.com.cn
+amazonbusiness.cn @cn
+amazonbusiness.com.cn @cn
 amazonbusiness.org
 amazonbusinessblog.com
-amazonchoice.cn
-amazonchoice.com.cn
-amazonchoices.cn
-amazonchoices.com.cn
+amazonchoice.cn @cn
+amazonchoice.com.cn @cn
+amazonchoices.cn @cn
+amazonchoices.com.cn @cn
 amazondevicesupport.com
 amazonfctours.com
 amazonianblog.com
 amazonimages.com
-amazoninspire.cn
-amazoninspire.com.cn
-amazonlaunchpad.cn
+amazoninspire.cn @cn
+amazoninspire.com.cn @cn
+amazonlaunchpad.cn @cn
 amazonlaunchpad.com
-amazonlaunchpad.com.cn
-amazonlending.com.cn
+amazonlaunchpad.com.cn @cn
+amazonlending.com.cn @cn
 amazonliterarypartnership.com
 amazonlumberyard.wang
-amazonnow.cn
-amazonnow.com.cn
+amazonnow.cn @cn
+amazonnow.com.cn @cn
 amazonsdi.com
 amazonstudiosguilds.com
 amazontrust.com
@@ -97,15 +97,15 @@ amznl.com
 gameon-masters.com
 gdansk-amazon.com
 media-amazon.com
-primeday.cn
-primeday.com.cn
+primeday.cn @cn
+primeday.com.cn @cn
 primeday.info
 siege-amazon.com
 ssl-images-amazon.com
 ueberamazon.de
-yamaxun.cn
+yamaxun.cn @cn
 yamaxun.com
-z.cn
+z.cn @cn
 
 # AWS
 acmvalidations.com
@@ -114,9 +114,9 @@ aesworkshops.com
 amazonaws-china.com
 amazonaws.com
 amazonaws.tv
-amazonworkdocs.cn
+amazonworkdocs.cn @cn
 amazonworkdocs.com
-amazonworkdocs.com.cn
+amazonworkdocs.com.cn @cn
 amplifyapp.com
 amplifyframework.com
 aws-iot-hackathon.com
@@ -151,7 +151,7 @@ regex:.+\.awsdns-cn-[0-9][0-9]\.com$
 regex:.+\.awsdns-cn-[0-9][0-9]\.net$
 
 # Kindle
-kindle.cn
+kindle.cn @cn
 kindle.co.jp
 kindle.co.uk
 kindle.com
@@ -161,9 +161,9 @@ kindle.fr
 kindle.in
 kindle.it
 kindle.jp
-kindleoasis.cn
+kindleoasis.cn @cn
 kindleoasis.com
-kindleoasis.com.cn
+kindleoasis.com.cn @cn
 kindleoasis.info
 kindleoasis.jp
 kindleoasis.org
@@ -172,8 +172,8 @@ kindleoasisnews.com
 kindleproject.com
 
 # Prime Video
-amazonprimevideo.cn
-amazonprimevideo.com.cn
+amazonprimevideo.cn @cn
+amazonprimevideo.com.cn @cn
 amazonprimevideos.com
 amazonvideo.cc
 amazonvideo.com
