@@ -9,11 +9,15 @@ include:apple-ads
 include:applovin-ads
 include:atom-data-ads
 include:baidu-ads
+include:bytedance-ads
 include:clearbitjs-ads
 include:dmm-ads
 include:emogi-ads
 include:flurry-ads
 include:google-ads
+include:growingio-ads
+include:hiido-ads
+include:hotjar-ads
 include:hunantv-ads
 include:inner-active-ads
 include:iqiyi-ads
@@ -25,14 +29,18 @@ include:mixpanel-ads
 include:mopub-ads
 include:mxplayer-ads
 include:netease-ads
+include:newrelic-ads
 include:ogury-ads
 include:onesignal-ads
 include:ookla-speedtest-ads
+include:pocoiq-ads
 include:pubmatic-ads
 include:segment-ads
+include:sensorsdata-ads
 include:sina-ads
 include:sohu-ads
 include:supersonic-ads
+include:tagtic-ads
 include:tappx-ads
 include:tencent-ads
 include:uberads-ads
@@ -70,13 +78,31 @@ shhs-ydd8x2.yjrmss.cn
 static.javhd.com
 trafficfactory.biz
 
-# Ads serving for httpool.com
+# 36Kr
+adx.36kr.com
+
+# ali213
+click.ali213.net
+pbmp.ali213.net
+
+# Caixin
+regex:^pinggai\d\.caixin\.com$
+
+# Chinaso
+adq.chinaso.com
+stat.chinaso.com
+
+# Httpool
 toboads.com
 
-# Ads serving for unimhk.com
+# Qiniu
+dn-growing.qbox.me
+
+# UNI Marketing
 ad.unimhk.com
 
-ysm.yahoo.com
+# UCloud
+das-rpt-log.ucloud.cn
 
 adxprtz.com
 exoclick.com

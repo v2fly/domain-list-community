@@ -85,6 +85,7 @@ include:scala
 include:scientificlinux
 include:sqlite
 include:stackexchange
+include:strikingly
 include:sublimetext
 include:thelinuxfoundation
 include:ubuntu

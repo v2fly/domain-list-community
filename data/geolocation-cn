@@ -8,17 +8,23 @@ include:umeng
 include:bootcss
 include:maocloud
 include:qiniu
+include:ucloud
 include:upai
+include:wangsu
 include:yunfanjiasu
 
 ## AMP
 full:cdn.ampproject.org
 
+## Apple
+mzstatic.com
+
+## Bing
+cn.bing.com
+cn.bing.net
+
 ## jsDelivr
 full:cdn.jsdelivr.net
-
-## 网宿科技
-ourdvsss.com
 
 # Bank & Finance & Insurance
 include:category-bank-cn
@@ -29,39 +35,59 @@ include:xueqiu
 # E-commerce
 include:58tongcheng
 include:ctrip
+include:dangdang
 include:eleme
 include:ganji
 include:jd
+include:lianjia
 include:manmanbuy
 include:meituan
 include:pinduoduo
+include:smzdm
 include:suning
 include:tongcheng
 include:youzan
 include:ziroom
 
 # Entertainment & Videos & Games & Music & Podcasts
+include:3dm
 include:4399
 include:acfun
 include:acplay
+include:ali213
 include:bilibili
 include:dedao
+include:dmzj
 include:douyu
+include:gamersky
 include:gcores
 include:gitv
 include:huya
 include:iqiyi
+include:ku6
 include:kuaishou
+include:kugou
+include:le
+include:miaopai
 include:mihoyo
 include:pptv
+include:qingtingfm
 include:sfacg
 include:taomee
 include:taptap
+include:tgbus
 include:tiancity
+include:vgtime
 include:ximalaya
 include:youku
+include:yy
+
+# Food & Drink
+include:heytea
 
 # Forums
+include:chiphell
+include:douban
 include:erji
 include:nga
 include:stage1st
@@ -71,16 +97,26 @@ include:zhihu
 include:sf-express
 
 # News & Press & Media
+include:36kr
+include:dgtle
 include:hupu
 include:ifanr
+include:caixin
 include:cctv
+include:chinanews
+include:geekpark
 include:jiemian
 include:landian
+include:phoenix
 include:ruanmei
+include:sohu
+include:sspai
 include:tmtpost
+include:weiphone
 include:ynet
 
 # Others
+include:hainanairlines
 include:sinopec
 
 # Organizations
@@ -88,15 +124,23 @@ include:cas
 include:category-hospital-cn
 
 # Services & Softwares
+include:115
 include:3type
+include:4paradigm
 include:51job
+include:antutu
+include:bitauto
 include:category-collaborate-cn
+include:chinaso
 include:chinaz
+include:colorfulclouds
 include:coolapk
 include:cowtransfer
+include:geetest
 include:hanyi
 include:foundertype
 include:ipip
+include:jianshu
 include:jinshuju
 include:keep
 include:lagou
@@ -105,12 +149,16 @@ include:liepin
 include:mafengwo
 include:meitu
 include:moji
+include:polyv
+include:renren
+include:vaptcha
 include:wjx
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning
 include:category-mooc-cn
 include:category-scholar-cn
 include:category-wiki-cn
+include:guokr
 include:wanfang
 include:xueersi
 include:yuanfudao
@@ -119,13 +167,19 @@ include:zhihuishu
 # Software development related
 include:coding
 include:csdn
+include:gitee
 include:jinrishici
+include:oschina
+include:rubychina
+include:sxl
+include:segmentfault
 include:tipdm
 
 # Tech companies & Orginations
 include:bytedance
 include:alibaba
 include:baidu
+include:didi
 include:huawei
 include:kingsoft
 include:meizu
@@ -165,7 +219,6 @@ haidilao.com
 114chn.com
 114piaowu.com
 114shouji.com
-115.com
 119you.com
 123juzi.com
 123juzi.net
@@ -211,14 +264,12 @@ haidilao.com
 360zhyx.com
 365azw.com
 365dmp.com
-36kr.com
 37.com
 3733.com
 3839.com
 39.net
 3conline.com
 3d66.com
-3dmgame.com
 3elife.net
 3h3.com
 3yx.com
@@ -271,7 +322,6 @@ haidilao.com
 7xdown.com
 818ps.com
 84399.com
-8686c.com
 885.com
 88cdn.com
 900.la
@@ -293,7 +343,6 @@ aardio.com # 皖ICP备09012014号
 adxvip.com
 afzhan.com
 agrantsem.com
-aicdn.com
 aiemy.com
 aiketour.com
 aiops.com
@@ -304,7 +353,6 @@ aisee.tv # 粤ICP备10217959号-12
 aiskycn.com
 aiyunxiao.com
 aizhan.com
-ali213.net
 alittle-tea.com
 allyes.com
 anfensi.com
@@ -323,13 +371,11 @@ babytreeimg.com
 baidufree.com
 baifendian.com
 baihe.com
-baike.com
 baixing.com
 baixing.net
 bamenzhushou.com
 bangongziyuan.com
 bankcomm.com
-bankofchina.com
 baofeng.com
 baoxianshichang.com
 bcy.net
@@ -351,8 +397,6 @@ bio4p.com
 bio-equip.com
 biodiscover.com
 bishijie.com
-bitauto.com
-bitautoimg.com
 bitecoin.com
 biyehome.net
 bjcathay.com
@@ -366,9 +410,7 @@ bthhotels.com
 btime.com
 cabbagebox.com
 caijingwu.com
-caixin.com
 caiyun.com
-caiyunapp.com
 cang.com
 cankaoxiaoxi.com
 cardbaobao.com
@@ -395,7 +437,6 @@ chinadongchu.com
 chinafph.com
 chinakaoyan.com
 chinalawedu.com
-chinanews.com
 chinapay.com
 chinapp.net
 chinapubmed.net
@@ -405,7 +446,6 @@ chinaunix.net
 chinaweiyu.com
 chinawutong.com
 chinazns.com
-chiphell.com
 chongdiantou.com # 粤ICP备15002070号-1
 chouti.com
 chuangxin.com
@@ -417,7 +457,6 @@ city8.com
 cjol.com
 clouddn.com
 cloudxns.com
-cmbchina.com
 cn.bing.com
 cnanzhi.com
 cnbeta.com
@@ -460,14 +499,12 @@ dajie.com
 dajieimg.com
 dalongyun.com
 dangbei.com
-dangdang.com
 danji100.com
 danji6.com
 daocloud.io
 daovoice.io
 dayukaoshi.com
 dazijia.com
-dbank.com
 dcdkjx.com
 dd373.com
 ddooo.com
@@ -475,17 +512,14 @@ dedecms.com
 develenv.com
 dginfo.com
 dgphospital.com
-dgtle.com
 dianchacha.com
 diandian.com
 diandianqi.com
 dianwannan.com
-didichuxing.com
 dingxiang-inc.com
 diopic.net
 diyiyou.com
 dj99.com
-dmzj.com
 docin.com
 dockerone.com
 dockone.io
@@ -494,9 +528,6 @@ donews.com
 dongao.com
 dongguantoday.com
 dopa.com
-douban.com
-douban.fm
-doubanio.com
 douxie.com
 downcc.com
 downxia.com
@@ -511,7 +542,6 @@ duokanbox.com
 duomai.com
 duoshuo.com
 duote.com
-duowan.com
 dxpmedia.com
 dxycdn.com
 dyhjw.com
@@ -548,7 +578,6 @@ fanxian.com
 fastapi.net
 feihuo.com
 feiniaomy.com
-feng.com
 fengkongcloud.com
 fengniao.com
 fengxian110.com
@@ -566,22 +595,18 @@ fyxz.com
 game234.com
 gameabc.com
 gamemei.com
-gamersky.com
 gaodun.com
 gaoshouyou.com
 gaoxiaojob.com
 gdjdxy.com
 gdliontech.com
 gdrc.com
-geekpark.net
-geetest.com
 geilicdn.com
 genelinkout.com
 getui.com
 gezida.com
 gfan.com
 giocdn.com
-gitee.com
 globrand.com
 gm86.com
 gmallbio.com
@@ -602,7 +627,6 @@ guanaitong.com
 guanhaobio.com
 gucheng.com
 guigu.org
-guokr.com
 guoxinmac.com
 gupzs.com
 gushiwen.org
@@ -627,13 +651,11 @@ henha.com
 henkuai.com
 herostart.com
 hexun.com
-heytea.com
 hiido.com
 hitv.com
 hiyd.com
 hktheone.com
 hn-cbec.com
-hnair.com
 hnrcsc.com
 hntv.tv
 hnyuyuhui.com
@@ -662,16 +684,11 @@ ibaotu.com
 ibuychem.com
 icaidao.com
 ichangtou.com
-iciba.com
 idongdong.com
-idqqimg.com
-ifeng.com
-ifengimg.com
 iflytek.com
 igao7.com
 iheima.com
 ijiandao.com
-ijinshan.com
 ikafan.com
 im2maker.com
 im-cc.com
@@ -702,8 +719,6 @@ jdair.net
 jia.com
 jiameng.com
 jianbihua.com
-jianshu.com
-jianshu.io
 jianzhi8.com
 jiaodong.net
 jiaoyimao.com
@@ -751,7 +766,6 @@ kaopu001.com
 keboyunxiao.com
 kejet.net
 kf5.com
-kgimg.com
 kimiss.com
 kingdee.com
 kkzj.com
@@ -762,15 +776,11 @@ koudai.com
 koudai8.com
 kq7.com
 ksord.com
-ku6.com
-ku6cdn.com
-ku6img.com
 kuaaa.com
 kuaidi100.com
 kuaihou.com
 kuaikanmanhua.com
 kuaizhan.com
-kugou.com
 kuqin.com
 kuyiso.com
 lady8844.com
@@ -778,7 +788,6 @@ laomaotao.net
 laomaotao.org
 lascn.net
 lawxp.com
-le.com
 leanote.com
 ledu.com
 leetcode-cn.com
@@ -787,10 +796,6 @@ leiphone.com
 leiting.com
 leju.com
 leturich.org
-letv.com
-letvcdn.com
-letvimg.com
-lianjia.com
 lianmishu.com
 liantu.com
 liantu.me
@@ -850,7 +855,6 @@ meishij.net
 mengtuoshi.wang
 mgtv.com
 miaobolive.com
-miaopai.com
 miaozhen.com
 miercn.com
 mikecrm.com
@@ -879,7 +883,6 @@ mydrivers.com
 myshow360.net
 myyx618.com
 myzaker.com
-mzstatic.com
 naixuecha.com
 netbian.com
 newasp.net
@@ -908,7 +911,6 @@ onlinesjtu.com
 onlylady.com
 opdown.com
 oray.com
-oschina.net
 ottcn.com # 津ICP备12004891号-2
 oupeng.com
 p2peye.com
@@ -934,7 +936,6 @@ pipaw.net
 pptbest.com
 psbc.com
 pubyun.com
-qbox.me
 qc188.com
 qcc.com
 qcds.com
@@ -955,7 +956,6 @@ qijiayoudao.net
 qingcloud.com
 qingdaochina.org
 qingdaonews.com
-qingting.fm
 qingsongchou.com
 qiumibao.com
 qizuang.com
@@ -971,14 +971,11 @@ qunar.com
 qunarzz.com
 qyer.com
 readnovel.com
-renren.com
-renren-inc.com
 rfchost.com
 rockyenglish.com
 rong360.com
 rtbasia.com
 ruan8.com
-ruby-china.org
 runoob.com
 rzrc114.com
 saibo.com
@@ -989,7 +986,6 @@ scoregg.com
 sczsxx.com
 sdo.com
 sec-wiki.com
-segmentfault.com
 sencdn.com
 seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
@@ -1023,13 +1019,10 @@ sinesafe.com
 sjwyx.com
 skycn.com
 sllssrq.com
-smzdm.com
 snimay.com
 sobot.com
 sofreight.com
 softwhy.com
-sohu.com
-sohucs.com
 sojson.com
 somode.com
 soso.com
@@ -1037,7 +1030,6 @@ souqian.com
 southmoney.com
 sparkletour.com
 springtour.com
-sspai.com
 ssports.com
 starbaby.cc
 starbaby.com
@@ -1059,7 +1051,6 @@ tao123.com
 taoche.com
 te5.com
 tenxcloud.com
-tgbus.com
 tianjimedia.com
 tianjin-air.com
 tianlailive.com
@@ -1109,7 +1100,6 @@ vcimg.com
 vdolady.com
 veryhuo.com
 veryzhun.com
-vgtime.com
 vic18.com
 videojj.com
 vijos.org
@@ -1131,7 +1121,6 @@ weicaifu.com
 weidian.com
 weilaicaijing.com
 weilaiyunxiao.com
-weiphone.com
 weiphone.net
 weixing.com
 weiyangx.com
@@ -1209,7 +1198,6 @@ yahui.cc
 yaolan.com
 yaoyl.com
 yaozh.com
-yccdn.com
 ycgame.com
 yeepay.com
 yeshen.com
@@ -1269,7 +1257,6 @@ yupoo.com
 yuzua.com
 yxbao.com
 yxdown.com
-yy.com
 yytcdn.com
 zampda.net
 zampdsp.com
@@ -1277,7 +1264,6 @@ zastatic.com
 zbjimg.com
 zczj.com
 zdfans.com
-zdmimg.com
 zgjm.org
 zgjsks.com
 zglxw.com
