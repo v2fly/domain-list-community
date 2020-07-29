@@ -45,7 +45,6 @@ include:js-org
 include:jsdelivr
 include:jupyter
 include:kali
-include:kotlin
 include:kubernetes
 include:linuxfromscratch
 include:linuxmint
