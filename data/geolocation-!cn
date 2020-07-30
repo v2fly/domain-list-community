@@ -53,7 +53,6 @@ include:amazon
 include:amd
 include:apple
 include:atlassian
-include:bmw
 include:canon
 include:cisco
 include:cloudcone
@@ -78,7 +77,6 @@ include:salesforce
 include:samsung
 include:sony
 include:spacex
-include:tesla
 include:theboringcompany
 include:twitter
 include:uber
@@ -285,6 +283,11 @@ include:wto
 # Advertisment & Analytics
 include:pubmatic
 include:taboola
+
+# Automobile
+include:bmw
+include:bridgestone
+include:tesla
 
 # Others
 include:fonts
