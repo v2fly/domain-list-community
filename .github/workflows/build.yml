@@ -32,7 +32,7 @@ jobs:
 
       - name: Build dlc.dat file
         run: |
-          domain-list-community --datapath=${{ env.GOPATH }}/src/${{ env.REPO_URL }}/data --exportlists=cn,category-ads-all,geolocation-\!cn
+          domain-list-community --datapath=${{ env.GOPATH }}/src/${{ env.REPO_URL }}/data --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
 
       - name: Generate dlc.dat sha256 hash
         run: |
