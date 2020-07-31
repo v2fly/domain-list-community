@@ -7,6 +7,7 @@ include:fastlane
 include:flutter
 include:golang
 include:google-ads
+include:google-scholar
 include:polymer
 include:v8
 include:youtube
@@ -372,7 +373,6 @@ googlepagecreator.com
 googlephotos.com
 googleplay.com
 googleplus.com
-googlescholar.com
 googlesource.com
 googlestore.com
 googlesverige.com
