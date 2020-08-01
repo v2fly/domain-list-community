@@ -19,6 +19,7 @@ include:docker
 include:elixir
 include:elrepo
 include:erlang
+include:facebook-dev
 include:fastlane
 include:fedora
 include:ffmpeg
