@@ -119,6 +119,7 @@ include:arphic
 include:bitly
 include:bitwarden
 include:brightcove
+include:cloudconvert
 include:cuttly
 include:digitalocean
 include:disqus
