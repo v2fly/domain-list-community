@@ -18,6 +18,7 @@ include:deno
 include:docker
 include:elixir
 include:elrepo
+include:embedly
 include:erlang
 include:facebook-dev
 include:fastlane
