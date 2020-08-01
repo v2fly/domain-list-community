@@ -292,6 +292,9 @@ include:bmw
 include:bridgestone
 include:tesla
 
+# Wiki
+include:fandom
+
 # Others
 include:fonts
 include:hkedcity
