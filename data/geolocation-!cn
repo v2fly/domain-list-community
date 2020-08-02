@@ -111,6 +111,7 @@ include:trustwave
 include:verisign
 
 # Services & Softwares
+include:0x0
 include:addthis
 include:addtoany
 include:apkpure
@@ -118,6 +119,7 @@ include:arphic
 include:bitly
 include:bitwarden
 include:brightcove
+include:cloudconvert
 include:cuttly
 include:digitalocean
 include:disqus
@@ -149,6 +151,7 @@ include:morisawa
 include:netlify
 include:notion
 include:osdn
+include:pastebin
 include:patreon
 include:picsee
 include:pingpe
@@ -165,6 +168,7 @@ include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
+include:streamable
 include:stripe
 include:test-ipv6
 include:tex
