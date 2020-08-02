@@ -53,6 +53,7 @@ include:linuxmint
 include:lua
 include:macports
 include:mariadb
+include:microsoft-dev
 include:mingw
 include:mongodb
 include:mysql
