@@ -4,8 +4,6 @@ include:yahoo-ads
 # All .yahoo domains
 yahoo
 
-myguide.hk
-yahoo-news.com.hk
 yahoo.ae
 yahoo.am
 yahoo.as
@@ -155,6 +153,9 @@ yahoo.tm
 yahoo.tn
 yahoo.vg
 yahoo.ws
+
+myguide.hk
+yahoo-news.com.hk
 yahooapis.com
 yahoodns.net
 yahoofinance.com
