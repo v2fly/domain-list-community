@@ -1,4 +1,6 @@
-# Reference: https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+include:flickr
+include:yahoo-ads
+
 # All .yahoo domains
 yahoo
 
@@ -161,6 +163,3 @@ yahoomusic.com
 yahoosportsbook.com
 yimg.com
 ymail.com
-
-include:flickr
-include:yahoo-ads
