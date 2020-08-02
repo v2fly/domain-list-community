@@ -230,7 +230,6 @@ include:internationalsaimoe
 include:kingkonglive
 include:litv
 include:megaphone
-include:mojang
 include:moov
 include:netflix
 include:niconico
@@ -254,6 +253,7 @@ include:vimeo
 include:visualarts
 include:viu
 include:weverse
+include:xbox
 include:yande
 include:yyets
 
