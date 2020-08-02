@@ -280,7 +280,6 @@ include:smpte
 include:un
 include:w3c
 include:who
-include:wikimedia
 include:wto
 
 # Advertisment & Analytics
@@ -296,6 +295,7 @@ include:tesla
 include:fandom
 include:miraheze
 include:wikihow
+include:wikimedia
 
 # Others
 include:fonts
