@@ -3,87 +3,23 @@
 # TLD
 include:tld-!cn
 
-# VPN services
-include:category-vpnservices
+# Advertisment & Analytics
+include:pubmatic
+include:taboola
 
-# VPN tools & Privacy protection & Anti-GFW & Anti-censorship
+# Anti-censorship & Anti-GFW & Privacy protection & VPN tools
 include:category-anticensorship
 
-# Porn
-include:category-porn
+# Automobile
+include:bmw
+include:bridgestone
+include:tesla
 
-# Cryptocurrency
-include:category-cryptocurrency
-
-# News & Press & Media
-include:category-media
-
-# Science & Technology & Knowledge & Scholar & Press & E-learning
-include:betterexplained
-include:brilliant
-include:category-scholar-!cn
-include:cern
-include:chinapower
-include:code
-include:codecademy
-include:coursera
-include:edx
-include:egghead
-include:freecodecamp
-include:khanacademy
-include:knovel
-include:laracasts
-include:masterclass
-include:mzed
-include:sitepoint
-include:skillshare
-include:ted
-include:udacity
-include:udemy
-include:w3schools
-
-# Software development related
-include:category-dev
-
-# Tech companies & Orginations
-include:acer
-include:adobe
-include:alibabacloud
-include:amazon
-include:amd
-include:apple
-include:atlassian
-include:canon
-include:cisco
-include:cloudcone
-include:dell
-include:facebook
-include:gigabyte
-include:godaddy
-include:google
-include:hinet
-include:hp
-include:ibm
-include:intel
-include:linkedin
-include:logitech
-include:microsoft
-include:mozilla
-include:neuralink
-include:nvidia
-include:oracle
-include:razer
-include:salesforce
-include:samsung
-include:sony
-include:spacex
-include:theboringcompany
-include:twitter
-include:uber
-include:verizon
-include:westerndigital
-include:yahoo
-include:yandex
+# Bank & Finance
+include:mastercard
+include:paypal
+include:softbank
+include:visa
 
 # CDN companies & Services
 include:akamai
@@ -110,6 +46,143 @@ include:swisssign
 include:telekom
 include:trustwave
 include:verisign
+
+# Communications
+include:discord
+include:freenode
+include:line
+include:signal
+include:slack
+include:telegram
+
+# Cryptocurrency
+include:category-cryptocurrency
+
+# E-commerce
+include:adidas
+include:bestbuy
+include:dmm
+include:ebay
+include:farfetch
+include:gucci
+include:nike
+include:shopee
+include:walmart
+
+# E-learning & Knowledge & Press & Scholar & Science & Technology
+include:betterexplained
+include:brilliant
+include:category-scholar-!cn
+include:cern
+include:chinapower
+include:code
+include:codecademy
+include:coursera
+include:edx
+include:egghead
+include:freecodecamp
+include:khanacademy
+include:knovel
+include:laracasts
+include:masterclass
+include:mzed
+include:sitepoint
+include:skillshare
+include:ted
+include:udacity
+include:udemy
+include:w3schools
+
+# Entertainment & Games & Music & Podcasts & Videos
+include:abema
+include:archiveofourown
+include:attwatchtv
+include:bahamut
+include:bandcamp
+include:castro
+include:deviantart
+include:disney
+include:epicgames
+include:fireside
+include:hbo
+include:hulu
+include:imdb
+include:internationalsaimoe
+include:kingkonglive
+include:litv
+include:megaphone
+include:moov
+include:netflix
+include:niconico
+include:nintendo
+include:op
+include:overcast
+include:pixiv
+include:playstation
+include:pocketcasts
+include:riot
+include:sling
+include:sonypictures
+include:soundcloud
+include:spotify
+include:steam
+include:steamunlocked
+include:tiktok
+include:twitch
+include:ubi
+include:vimeo
+include:visualarts
+include:viu
+include:weverse
+include:xbox
+include:yande
+include:yyets
+
+# Forums
+include:dcard
+include:lihkg
+include:pincong
+include:quora
+include:reddit
+
+# Media & News & Press
+include:category-media
+
+# Organizations
+include:aomedia
+include:archive
+include:atypi
+include:change
+include:creativecommons
+include:csis
+include:emojipedia
+include:globalsecurity
+include:ieee
+include:itu
+include:nist
+include:openstreetmap
+include:ruleoflaw
+include:smpte
+include:un
+include:w3c
+include:who
+include:wto
+
+# Others
+include:fonts
+include:hkedcity
+include:huanghuagang
+include:mcdonalds
+include:rarbg
+include:rb
+include:starbucks
+include:tsquare
+include:windy
+include:xdty
+include:xingrz
+
+# Porn
+include:category-porn
 
 # Services & Softwares
 include:0x0
@@ -187,127 +260,54 @@ include:zeplin
 include:zoho
 include:zoom
 
-# Bank & Finance
-include:mastercard
-include:paypal
-include:softbank
-include:visa
+# Software development
+include:category-dev
 
-# Communications
-include:discord
-include:freenode
-include:line
-include:signal
-include:slack
-include:telegram
+# Tech companies & Organizations
+include:acer
+include:adobe
+include:alibabacloud
+include:amazon
+include:amd
+include:apple
+include:atlassian
+include:canon
+include:cisco
+include:cloudcone
+include:dell
+include:facebook
+include:gigabyte
+include:godaddy
+include:google
+include:hinet
+include:hp
+include:ibm
+include:intel
+include:linkedin
+include:logitech
+include:microsoft
+include:mozilla
+include:neuralink
+include:nvidia
+include:oracle
+include:razer
+include:salesforce
+include:samsung
+include:sony
+include:spacex
+include:theboringcompany
+include:twitter
+include:uber
+include:verizon
+include:westerndigital
+include:yahoo
+include:yandex
 
-# E-commerce
-include:adidas
-include:bestbuy
-include:dmm
-include:ebay
-include:farfetch
-include:gucci
-include:nike
-include:shopee
-include:walmart
-
-# Entertainment & Videos & Games & Music & Podcasts
-include:abema
-include:archiveofourown
-include:attwatchtv
-include:bahamut
-include:bandcamp
-include:castro
-include:deviantart
-include:disney
-include:epicgames
-include:fireside
-include:hbo
-include:hulu
-include:imdb
-include:internationalsaimoe
-include:kingkonglive
-include:litv
-include:megaphone
-include:moov
-include:netflix
-include:niconico
-include:nintendo
-include:op
-include:overcast
-include:pixiv
-include:playstation
-include:pocketcasts
-include:riot
-include:sling
-include:sonypictures
-include:soundcloud
-include:spotify
-include:steam
-include:steamunlocked
-include:tiktok
-include:twitch
-include:ubi
-include:vimeo
-include:visualarts
-include:viu
-include:weverse
-include:xbox
-include:yande
-include:yyets
-
-# Forums
-include:dcard
-include:lihkg
-include:pincong
-include:quora
-include:reddit
-
-# Organizations
-include:aomedia
-include:archive
-include:atypi
-include:change
-include:creativecommons
-include:csis
-include:emojipedia
-include:globalsecurity
-include:ieee
-include:itu
-include:nist
-include:openstreetmap
-include:ruleoflaw
-include:smpte
-include:un
-include:w3c
-include:who
-include:wto
-
-# Advertisment & Analytics
-include:pubmatic
-include:taboola
-
-# Automobile
-include:bmw
-include:bridgestone
-include:tesla
+# VPN services
+include:category-vpnservices
 
 # Wiki
 include:fandom
 include:miraheze
 include:wikihow
 include:wikimedia
-
-# Others
-include:fonts
-include:hkedcity
-include:huanghuagang
-include:mcdonalds
-include:rarbg
-include:rb
-include:starbucks
-include:tsquare
-include:windy
-include:xdty
-include:xingrz
