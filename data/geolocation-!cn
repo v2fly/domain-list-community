@@ -295,6 +295,7 @@ include:tesla
 # Wiki
 include:fandom
 include:miraheze
+include:wikihow
 
 # Others
 include:fonts
