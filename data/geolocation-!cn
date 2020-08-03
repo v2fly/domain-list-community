@@ -32,21 +32,7 @@ include:quantil
 include:stackpath
 
 # Certificate authorities
-# Reference: https://en.wikipedia.org/wiki/Certificate_authority
-include:buypass
-include:comodo
-include:cybertrust
-include:digicert
-include:entrust
-include:globalsign
-include:identrust
-include:letsencrypt
-include:secom
-include:sectigo
-include:swisssign
-include:telekom
-include:trustwave
-include:verisign
+include:category-cas
 
 # Communications
 include:discord
