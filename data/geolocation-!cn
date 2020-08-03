@@ -1,6 +1,6 @@
 # This list contains domains that don't have access point in China. This is opposite to geolocation-cn.
 
-# TLD
+# TLDs (Top Level Domains) used outside China mainland
 include:tld-!cn
 
 # Advertisment & Analytics
@@ -169,19 +169,6 @@ include:w3c
 include:who
 include:wto
 
-# Others
-include:fonts
-include:hkedcity
-include:huanghuagang
-include:mcdonalds
-include:rarbg
-include:rb
-include:starbucks
-include:tsquare
-include:windy
-include:xdty
-include:xingrz
-
 # Porn
 include:category-porn
 
@@ -312,3 +299,16 @@ include:fandom
 include:miraheze
 include:wikihow
 include:wikimedia
+
+# Others
+include:fonts
+include:hkedcity
+include:huanghuagang
+include:mcdonalds
+include:rarbg
+include:rb
+include:starbucks
+include:tsquare
+include:windy
+include:xdty
+include:xingrz
