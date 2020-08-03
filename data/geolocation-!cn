@@ -205,6 +205,7 @@ include:inoreader
 include:isgd
 include:jiyukobo
 include:jwplayer
+include:kindle4rss
 include:linguee
 include:mapbox
 include:mega
@@ -220,6 +221,7 @@ include:pingpe
 include:pinterest
 include:protonmail
 include:quip
+include:reabble
 include:realtype
 include:rebrandly
 include:reurl
