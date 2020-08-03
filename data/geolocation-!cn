@@ -32,21 +32,7 @@ include:quantil
 include:stackpath
 
 # Certificate authorities
-# Reference: https://en.wikipedia.org/wiki/Certificate_authority
-include:buypass
-include:comodo
-include:cybertrust
-include:digicert
-include:entrust
-include:globalsign
-include:identrust
-include:letsencrypt
-include:secom
-include:sectigo
-include:swisssign
-include:telekom
-include:trustwave
-include:verisign
+include:category-cas
 
 # Communications
 include:discord
@@ -95,49 +81,7 @@ include:udemy
 include:w3schools
 
 # Entertainment & Games & Music & Podcasts & Videos
-include:abema
-include:archiveofourown
-include:attwatchtv
-include:bahamut
-include:bandcamp
-include:castro
-include:deviantart
-include:disney
-include:epicgames
-include:fireside
-include:hbo
-include:hulu
-include:imdb
-include:internationalsaimoe
-include:kingkonglive
-include:litv
-include:megaphone
-include:moov
-include:netflix
-include:niconico
-include:nintendo
-include:op
-include:overcast
-include:pixiv
-include:playstation
-include:pocketcasts
-include:riot
-include:sling
-include:sonypictures
-include:soundcloud
-include:spotify
-include:steam
-include:steamunlocked
-include:tiktok
-include:twitch
-include:ubi
-include:vimeo
-include:visualarts
-include:viu
-include:weverse
-include:xbox
-include:yande
-include:yyets
+include:category-entertainment
 
 # Forums
 include:dcard
@@ -150,24 +94,7 @@ include:reddit
 include:category-media
 
 # Organizations
-include:aomedia
-include:archive
-include:atypi
-include:change
-include:creativecommons
-include:csis
-include:emojipedia
-include:globalsecurity
-include:ieee
-include:itu
-include:nist
-include:openstreetmap
-include:ruleoflaw
-include:smpte
-include:un
-include:w3c
-include:who
-include:wto
+include:category-orgs
 
 # Porn
 include:category-porn
@@ -253,45 +180,8 @@ include:zoom
 # Software development
 include:category-dev
 
-# Tech companies & Organizations
-include:acer
-include:adobe
-include:alibabacloud
-include:amazon
-include:amd
-include:apple
-include:atlassian
-include:canon
-include:cisco
-include:cloudcone
-include:dell
-include:facebook
-include:gigabyte
-include:godaddy
-include:google
-include:hinet
-include:hp
-include:ibm
-include:intel
-include:linkedin
-include:logitech
-include:microsoft
-include:mozilla
-include:neuralink
-include:nvidia
-include:oracle
-include:razer
-include:salesforce
-include:samsung
-include:sony
-include:spacex
-include:theboringcompany
-include:twitter
-include:uber
-include:verizon
-include:westerndigital
-include:yahoo
-include:yandex
+# Tech companies
+include:category-companies
 
 # VPN services
 include:category-vpnservices

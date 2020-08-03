@@ -1,0 +1,17 @@
+# This list contains well-known Certificate Authorities (CA) outside China mainland.
+
+# Reference: https://en.wikipedia.org/wiki/Certificate_authority
+include:buypass
+include:comodo
+include:cybertrust
+include:digicert
+include:entrust
+include:globalsign
+include:identrust
+include:letsencrypt
+include:secom
+include:sectigo
+include:swisssign
+include:telekom
+include:trustwave
+include:verisign
