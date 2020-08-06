@@ -1,5 +1,4 @@
 # List of all domains being operated by Google Inc.
-
 include:android
 include:blogspot
 include:dart
@@ -11,12 +10,6 @@ include:google-scholar
 include:polymer
 include:v8
 include:youtube
-
-# Available on China mainland
-recaptcha.net @cn
-full:fonts.googleapis.com @cn
-full:fonts.gstatic.com @cn
-full:safebrowsing.googleapis.com @cn
 
 # All .and domains
 and
@@ -516,3 +509,65 @@ xn--9trs65b.com # 咕果.com
 xn--flw351e.com # 谷歌.com
 xplr.co
 zukunftswerkstatt.de
+
+# Domains and services below are available in China mainland
+# Reference: https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
+# Use in config file like this: "geosite:google@cn"
+full:265.com @cn
+full:2mdn.net @cn
+full:adservice.google.com @cn
+full:app-measurement.com @cn
+full:beacons.gcp.gvt2.com @cn
+full:beacons.gvt2.com @cn
+full:beacons3.gvt2.com @cn
+full:c.admob.com @cn
+full:c.android.clients.google.com @cn
+full:cache.pack.google.com @cn
+full:checkin.gstatic.com @cn
+full:clickserve.dartsearch.net @cn
+full:clientservices.googleapis.com @cn
+full:connectivitycheck.gstatic.com @cn
+full:corp.google.com @cn
+full:crl.pki.goog @cn
+full:csi.gstatic.com @cn
+full:dl.google.com @cn
+full:dl.l.google.com @cn
+full:doubleclick.net @cn
+full:fonts.googleapis.com @cn
+full:fonts.gstatic.com @cn
+full:google-analytics.com @cn
+full:googleadservices.com @cn
+full:googleanalytics.com @cn
+full:googlesyndication.com @cn
+full:googletagmanager.com @cn
+full:googletagservices.com @cn
+full:gtm.oasisfeng.com @cn
+full:imasdk.googleapis.com @cn
+full:kh.google.com @cn
+full:khm.google.com @cn
+full:khm.googleapis.com @cn
+full:khm0.google.com @cn
+full:khm0.googleapis.com @cn
+full:khm1.google.com @cn
+full:khm1.googleapis.com @cn
+full:khm2.google.com @cn
+full:khm2.googleapis.com @cn
+full:khm3.google.com @cn
+full:khm3.googleapis.com @cn
+full:khmdb.google.com @cn
+full:khmdb.googleapis.com @cn
+full:ocsp.pki.goog @cn
+full:pagead-googlehosted.l.google.com @cn
+full:recaptcha.net @cn
+full:redirector.gvt1.com @cn
+full:safebrowsing-cache.google.com @cn
+full:safebrowsing.googleapis.com @cn
+full:ssl-google-analytics.l.google.com @cn
+full:ssl.gstatic.com @cn
+full:toolbarqueries.google.com @cn
+full:tools.google.com @cn
+full:tools.l.google.com @cn
+full:translate.googleapis.com @cn
+full:update.googleapis.com @cn
+full:www-googletagmanager.l.google.com @cn
+full:www.gstatic.com @cn
