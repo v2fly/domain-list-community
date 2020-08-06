@@ -13,19 +13,6 @@ include:upai
 include:wangsu
 include:yunfanjiasu
 
-## AMP
-full:cdn.ampproject.org
-
-## Apple
-mzstatic.com
-
-## Bing
-cn.bing.com
-cn.bing.net
-
-## jsDelivr
-full:cdn.jsdelivr.net
-
 # Bank & Finance & Insurance
 include:category-bank-cn
 include:everbright

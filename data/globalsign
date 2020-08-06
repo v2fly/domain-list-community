@@ -11,3 +11,7 @@ globalsign.eu
 globalsign.fr
 globalsign.net
 globalsign.nl
+
+full:secure.globalsign.com @cn
+full:ocsp.globalsign.com @cn
+full:ocsp2.globalsign.com @cn
