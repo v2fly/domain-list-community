@@ -9,6 +9,7 @@ include:csis
 include:emojipedia
 include:globalsecurity
 include:ieee
+include:ietf
 include:itu
 include:nist
 include:openstreetmap
