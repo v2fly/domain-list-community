@@ -641,12 +641,16 @@ full:a4.mzstatic.com @cn
 full:a5.mzstatic.com @cn
 full:adcdownload.apple.com.akadns.net @cn
 full:adcdownload.apple.com @cn
+full:amp-api.apps.apple.com @cn
 full:aod.itunes.apple.com @cn
+full:api-edge.apps.apple.com @cn
 full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:apps.apple.com @cn
 full:apps.mzstatic.com @cn
 full:bag.itunes.apple.com @cn
+full:bookkeeper.itunes.apple.com @cn
+full:books.apple.com @cn
 full:cdn-cn1.apple-mapkit.com @cn
 full:cdn-cn2.apple-mapkit.com @cn
 full:cdn-cn3.apple-mapkit.com @cn
@@ -677,6 +681,7 @@ full:clientflow.apple.com @cn
 full:cma.itunes.apple.com @cn
 full:configuration.apple.com.akadns.net @cn
 full:configuration.apple.com @cn
+full:communities.apple.com @cn
 full:cstat.apple.com @cn
 full:dd-cdn.origin-apple.com.akadns.net @cn
 full:download.developer.apple.com @cn
@@ -725,6 +730,7 @@ full:itunes-apple.com.akadns.net @cn
 full:itunes.apple.com @cn
 full:itunesconnect.apple.com @cn
 full:js-cdn.music.apple.com @cn
+full:km.support.apple.com @cn
 full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
@@ -747,8 +753,10 @@ full:s4.mzstatic.com @cn
 full:s5.mzstatic.com @cn
 full:se2.itunes.apple.com @cn
 full:search.itunes.apple.com @cn
+full:sf-api-token-service.itunes.apple.com @cn
 full:sp.itunes.apple.com @cn
 full:stocks-sparkline-lb.apple.com.akadns.net @cn
+full:stocks-sparkline.apple.com @cn
 full:store.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:store.apple.com.edgekey.net @cn
 full:store.apple.com @cn
