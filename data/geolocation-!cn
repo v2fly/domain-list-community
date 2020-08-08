@@ -110,6 +110,7 @@ include:bitly
 include:bitwarden
 include:brightcove
 include:cloudconvert
+include:contentful
 include:cuttly
 include:digitalocean
 include:disqus
