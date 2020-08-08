@@ -140,6 +140,7 @@ include:polyv
 include:renren
 include:vaptcha
 include:wjx
+include:zdns
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning
 include:category-mooc-cn
