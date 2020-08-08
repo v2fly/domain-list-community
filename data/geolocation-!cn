@@ -126,6 +126,7 @@ include:fontsinuse
 include:glyphs
 include:gofundme
 include:gravatar
+include:hcaptcha
 include:heroku
 include:imgur
 include:infrapedia
