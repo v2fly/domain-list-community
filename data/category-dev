@@ -24,6 +24,7 @@ include:facebook-dev
 include:fastlane
 include:fedora
 include:ffmpeg
+include:flatpak
 include:flutter
 include:fontawesome
 include:freebsd
