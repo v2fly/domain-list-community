@@ -263,17 +263,18 @@ yammer.com
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"
+cdn.office.net @cn
+dl.delivery.mp.microsoft.com @cn
+download.windowsupdate.com @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
 full:cdn.marketplaceimages.windowsphone.com @cn
 full:cn.windowssearch.com @cn
 full:ctldl.windowsupdate.com @cn
 full:developer.microsoft.com @cn
-full:dl.delivery.mp.microsoft.com @cn
 full:docs.microsoft.com @cn
 full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
-full:download.windowsupdate.com @cn
 full:fs.microsoft.com @cn
 full:msgr.dlservice.microsoft.com @cn
 full:msgruser.dlservice.microsoft.com @cn
@@ -283,7 +284,6 @@ full:sdx.microsoft.com @cn
 full:silverlight.dlservice.microsoft.com @cn
 full:slupdate.dlservice.microsoft.com @cn
 full:storeedgefd.dsx.mp.microsoft.com @cn
-full:tlu.dl.delivery.mp.microsoft.com @cn
 full:wl.dlservice.microsoft.com @cn
 full:wscont1.apps.microsoft.com @cn
 full:wscont2.apps.microsoft.com @cn
@@ -294,3 +294,4 @@ full:img-prod-cms-rt-microsoft-com.akamaized.net
 full:img-s-msn-com.akamaized.net
 full:mwf-service.akamaized.net
 full:officecdn-microsoft-com.akamaized.net
+full:statics-marketingsites-wcus-ms-com.akamaized.net

@@ -545,18 +545,6 @@ full:googletagservices.com @cn
 full:gtm.oasisfeng.com @cn
 full:imasdk.googleapis.com @cn
 full:kh.google.com @cn
-full:khm.google.com @cn
-full:khm.googleapis.com @cn
-full:khm0.google.com @cn
-full:khm0.googleapis.com @cn
-full:khm1.google.com @cn
-full:khm1.googleapis.com @cn
-full:khm2.google.com @cn
-full:khm2.googleapis.com @cn
-full:khm3.google.com @cn
-full:khm3.googleapis.com @cn
-full:khmdb.google.com @cn
-full:khmdb.googleapis.com @cn
 full:ocsp.pki.goog @cn
 full:pagead-googlehosted.l.google.com @cn
 full:recaptcha.net @cn
@@ -572,3 +560,4 @@ full:translate.googleapis.com @cn
 full:update.googleapis.com @cn
 full:www-googletagmanager.l.google.com @cn
 full:www.gstatic.com @cn
+regex:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
