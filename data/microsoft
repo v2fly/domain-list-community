@@ -1,5 +1,6 @@
 include:azure
 include:bing
+include:github
 include:microsoft-dev
 include:msn
 include:xbox
