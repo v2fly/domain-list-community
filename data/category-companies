@@ -8,6 +8,7 @@ include:amd
 include:apple
 include:atlassian
 include:att
+include:bandwagonhost
 include:canon
 include:cisco
 include:cloudcone
