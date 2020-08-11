@@ -76,6 +76,7 @@ include:heytea
 include:chiphell
 include:douban
 include:erji
+include:hacpai
 include:nga
 include:stage1st
 include:zhihu
@@ -166,6 +167,7 @@ include:tipdm
 # Tech companies & Orginations
 include:bytedance
 include:alibaba
+include:b3log
 include:baidu
 include:didi
 include:huawei
