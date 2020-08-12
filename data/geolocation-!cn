@@ -48,13 +48,18 @@ include:category-cryptocurrency
 # E-commerce
 include:adidas
 include:bestbuy
+include:costco
 include:dmm
 include:ebay
 include:farfetch
 include:gucci
+include:hm
+include:ikea
 include:miniso
+include:muji
 include:nike
 include:shopee
+include:target
 include:walmart
 
 # E-learning & Knowledge & Press & Scholar & Science & Technology
@@ -196,6 +201,7 @@ include:wikihow
 include:wikimedia
 
 # Others
+include:familymart
 include:fonts
 include:hkedcity
 include:huanghuagang

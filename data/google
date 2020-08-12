@@ -316,6 +316,7 @@ foofle.com
 froogle.com
 fuchsia.dev
 g-tun.com
+g.cn @cn
 g.co
 g.dev
 g.page
@@ -530,6 +531,7 @@ full:clientservices.googleapis.com @cn
 full:connectivitycheck.gstatic.com @cn
 full:corp.google.com @cn
 full:crl.pki.goog @cn
+full:csi-china.l.google.com @cn
 full:csi.gstatic.com @cn
 full:dl.google.com @cn
 full:dl.l.google.com @cn
@@ -547,6 +549,7 @@ full:imasdk.googleapis.com @cn
 full:kh.google.com @cn
 full:ocsp.pki.goog @cn
 full:pagead-googlehosted.l.google.com @cn
+full:pki-goog.l.google.com @cn
 full:recaptcha.net @cn
 full:redirector.gvt1.com @cn
 full:safebrowsing-cache.google.com @cn

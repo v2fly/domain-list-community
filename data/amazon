@@ -1,4 +1,5 @@
 include:amazon-ads
+include:wholefoodsmarket
 
 # All .aws domains
 aws
@@ -108,6 +109,9 @@ ueberamazon.de
 yamaxun.cn @cn
 yamaxun.com
 z.cn @cn
+
+# Audible
+audible.com
 
 # AWS
 acmvalidations.com
