@@ -37,10 +37,12 @@ include:ltn
 include:matters
 include:medium
 include:myradio
+include:newsmax
 include:newyorker
 include:nikkei
 include:now
 include:nytimes
+include:oan
 include:passiontimes
 include:qmap
 include:realvision
