@@ -29,6 +29,7 @@ include:jd
 include:lianjia
 include:manmanbuy
 include:meituan
+include:mogujie
 include:pinduoduo
 include:smzdm
 include:suning
@@ -165,10 +166,10 @@ include:segmentfault
 include:tipdm
 
 # Tech companies & Orginations
-include:bytedance
 include:alibaba
 include:b3log
 include:baidu
+include:bytedance
 include:didi
 include:huawei
 include:kingsoft
