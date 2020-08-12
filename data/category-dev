@@ -39,6 +39,7 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
+include:intel-dev
 include:ius
 include:java
 include:jenkins
