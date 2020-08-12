@@ -1,17 +1,13 @@
 # All .alibaba domains
-
 alibaba
 
 # All .alipay domains
-
 alipay
 
 # All .taobao domains
-
 taobao
 
 # All .tmall domains
-
 tmall
 
 include:alibaba-ads
@@ -37,7 +33,6 @@ alibabagroup.com
 alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
-aliexpress.com
 alifanyi.com
 alihealth.com.cn
 alihealth.hk
@@ -112,6 +107,10 @@ yunos.com
 yushanfang.com
 zuodao.com
 
+# AliExpress
+aliexpress.com
+aliexpress.ru
+
 # 神马搜索
 sm.cn
 
@@ -143,6 +142,7 @@ tb.cn
 tbcache.com
 tburl.in
 tmall.com
+tmall.ru
 tmalltv.com
 tmjl.ai
 
