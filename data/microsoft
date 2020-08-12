@@ -3,6 +3,7 @@ include:bing
 include:github
 include:microsoft-dev
 include:msn
+include:onedrive
 include:xbox
 
 # All .microsoft domains
@@ -69,8 +70,6 @@ femalefounderscomp.com
 m12.vc
 
 # Others
-1drv.com
-1drv.ms
 aka.ms
 ankarazirvesi2018.com
 applicationinsights.io
@@ -196,12 +195,6 @@ o365weve.com
 office.com
 office.net
 office365.com
-onedrive.co
-onedrive.co.uk
-onedrive.com
-onedrive.eu
-onedrive.net
-onedrive.org
 onenote.com
 onenote.net
 onestore.ms
@@ -222,6 +215,8 @@ s-msn.com
 sfbassets.com
 sfbassets.net
 sfx.ms
+sharepoint.cn @cn
+sharepoint.com
 sharepointonline.com
 skype.com
 skype.net
