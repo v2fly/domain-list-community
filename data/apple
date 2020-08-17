@@ -645,6 +645,7 @@ full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:apps.apple.com @cn
 full:apps.mzstatic.com @cn
+full:apptrailers.itunes.apple.com @cn
 full:bag.itunes.apple.com @cn
 full:bookkeeper.itunes.apple.com @cn
 full:books.apple.com @cn
@@ -713,6 +714,7 @@ full:ocsp-lb.apple.com.akadns.net @cn
 full:ocsp.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
+full:osxapps.itunes.apple.com @cn
 full:pancake.apple.com @cn
 full:pancake.cdn-apple.com.akadns.net @cn
 full:pd.itunes.apple.com @cn
