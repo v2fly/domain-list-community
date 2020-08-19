@@ -565,4 +565,4 @@ full:translate.googleapis.com @cn
 full:update.googleapis.com @cn
 full:www-googletagmanager.l.google.com @cn
 full:www.gstatic.com @cn
-regex:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
+regexp:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
