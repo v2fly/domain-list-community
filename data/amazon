@@ -147,14 +147,14 @@ elasticbeanstalk.com
 thinkboxsoftware.com
 
 # AWS DNS
-regex:.+\.awsdns-[0-9][0-9]\.co\.uk$
-regex:.+\.awsdns-[0-9][0-9]\.com$
-regex:.+\.awsdns-[0-9][0-9]\.net$
-regex:.+\.awsdns-[0-9][0-9]\.org$
-regex:.+\.awsdns-cn-[0-9][0-9]\.biz$
-regex:.+\.awsdns-cn-[0-9][0-9]\.cn$
-regex:.+\.awsdns-cn-[0-9][0-9]\.com$
-regex:.+\.awsdns-cn-[0-9][0-9]\.net$
+regexp:.+\.awsdns-[0-9][0-9]\.co\.uk$
+regexp:.+\.awsdns-[0-9][0-9]\.com$
+regexp:.+\.awsdns-[0-9][0-9]\.net$
+regexp:.+\.awsdns-[0-9][0-9]\.org$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.biz$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.cn$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.com$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.net$
 
 # Kindle
 kindle.cn @cn

@@ -70,7 +70,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
-		case "regex":
+		case "regexp":
 			site.Domain = append(site.Domain, &router.Domain{
 				Type:      router.Domain_Regex,
 				Value:     entry.Value,

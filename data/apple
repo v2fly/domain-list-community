@@ -844,12 +844,12 @@ full:weather-data.apple.com @cn
 full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:www.apple.com.edgekey.net @cn
 full:www.apple.com @cn
-regex:^a[1-5]\.mzstatic\.com$ @cn
-regex:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
-regex:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$ @cn
-regex:^cl[1-5]\.apple\.com$ @cn
-regex:^is[1-5](-ssl)?\.mzstatic\.com$ @cn
-regex:^s[1-5]?\.mzstatic\.com$ @cn
+regexp:^a[1-5]\.mzstatic\.com$ @cn
+regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
+regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$ @cn
+regexp:^cl[1-5]\.apple\.com$ @cn
+regexp:^is[1-5](-ssl)?\.mzstatic\.com$ @cn
+regexp:^s[1-5]?\.mzstatic\.com$ @cn
 
 full:apple.com.akadns.net
 full:courier-push-apple.com.akadns.net
