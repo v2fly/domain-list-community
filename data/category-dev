@@ -6,6 +6,7 @@ include:apple-dev
 include:archlinux
 include:atom
 include:bootstrap
+include:canonical
 include:cdnjs
 include:centos
 include:chocolatey
@@ -93,7 +94,6 @@ include:stackexchange
 include:strikingly
 include:sublimetext
 include:thelinuxfoundation
-include:ubuntu
 include:unity
 include:unpkg
 include:v8

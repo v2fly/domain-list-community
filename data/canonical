@@ -1,0 +1,5 @@
+include:launchpad
+include:snapcraft
+include:ubuntu
+
+canonical.com
