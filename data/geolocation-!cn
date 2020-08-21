@@ -48,12 +48,15 @@ include:category-cryptocurrency
 # E-commerce
 include:adidas
 include:bestbuy
+include:booking
 include:costco
+include:craigslist
 include:dmm
 include:ebay
 include:farfetch
 include:gucci
 include:hm
+include:homedepot
 include:ikea
 include:miniso
 include:muji
@@ -89,7 +92,16 @@ include:w3schools
 # Entertainment & Games & Music & Podcasts & Videos
 include:category-entertainment
 
+# File host & Image host
+include:0x0
+include:dropbox
+include:gfycat
+include:imgur
+include:streamable
+
 # Forums
+include:4chan
+include:5ch
 include:dcard
 include:lihkg
 include:pincong
@@ -106,7 +118,7 @@ include:category-orgs
 include:category-porn
 
 # Services & Softwares
-include:0x0
+include:accuweather
 include:addthis
 include:addtoany
 include:apkpure
@@ -119,7 +131,6 @@ include:contentful
 include:cuttly
 include:digitalocean
 include:disqus
-include:dropbox
 include:duckduckgo
 include:dyna
 include:entermediadb
@@ -134,7 +145,6 @@ include:gofundme
 include:gravatar
 include:hcaptcha
 include:heroku
-include:imgur
 include:infrapedia
 include:inoreader
 include:isgd
@@ -167,7 +177,6 @@ include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
-include:streamable
 include:stripe
 include:test-ipv6
 include:tex
