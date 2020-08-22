@@ -1,0 +1,10 @@
+gog.com
+gog-statics.com
+
+full:gog.qtlglb.com @cn
+full:gogalaxy.gog-statics.com @cn
+full:menu-static.gog-statics.com @cn
+full:productcard.gog-statics.com @cn
+full:static-login.gog-statics.com @cn
+full:www4-static.gog-statics.com @cn
+regexp:^images(-\d)?\.gog-statics\.com$ @cn

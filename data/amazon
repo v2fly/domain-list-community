@@ -1,4 +1,5 @@
 include:amazon-ads
+include:wholefoodsmarket
 
 # All .aws domains
 aws
@@ -94,6 +95,8 @@ amazonvideodirect.com
 amzn.com
 amzn.to
 amznl.com
+assoc-amazon.cn @cn
+associates-amazon.com
 gameon-masters.com
 gdansk-amazon.com
 media-amazon.com
@@ -106,6 +109,9 @@ ueberamazon.de
 yamaxun.cn @cn
 yamaxun.com
 z.cn @cn
+
+# Audible
+audible.com
 
 # AWS
 acmvalidations.com
@@ -141,14 +147,14 @@ elasticbeanstalk.com
 thinkboxsoftware.com
 
 # AWS DNS
-regex:.+\.awsdns-[0-9][0-9]\.co\.uk$
-regex:.+\.awsdns-[0-9][0-9]\.com$
-regex:.+\.awsdns-[0-9][0-9]\.net$
-regex:.+\.awsdns-[0-9][0-9]\.org$
-regex:.+\.awsdns-cn-[0-9][0-9]\.biz$
-regex:.+\.awsdns-cn-[0-9][0-9]\.cn$
-regex:.+\.awsdns-cn-[0-9][0-9]\.com$
-regex:.+\.awsdns-cn-[0-9][0-9]\.net$
+regexp:.+\.awsdns-[0-9][0-9]\.co\.uk$
+regexp:.+\.awsdns-[0-9][0-9]\.com$
+regexp:.+\.awsdns-[0-9][0-9]\.net$
+regexp:.+\.awsdns-[0-9][0-9]\.org$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.biz$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.cn$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.com$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.net$
 
 # Kindle
 kindle.cn @cn
@@ -183,3 +189,6 @@ primevideo.com
 primevideo.info
 primevideo.org
 primevideo.tv
+
+full:images-cn.ssl-images-amazon.com @cn
+full:images-cn-8.ssl-images-amazon.com @cn

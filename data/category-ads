@@ -86,7 +86,7 @@ click.ali213.net
 pbmp.ali213.net
 
 # Caixin
-regex:^pinggai\d\.caixin\.com$
+regexp:^pinggai\d\.caixin\.com$
 
 # Chinaso
 adq.chinaso.com

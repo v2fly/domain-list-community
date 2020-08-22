@@ -6,7 +6,10 @@ include:alibabacloud
 include:amazon
 include:amd
 include:apple
+include:asus
 include:atlassian
+include:att
+include:bandwagonhost
 include:canon
 include:cisco
 include:cloudcone
@@ -35,6 +38,7 @@ include:theboringcompany
 include:twitter
 include:uber
 include:verizon
+include:vk
 include:westerndigital
 include:yahoo
 include:yandex

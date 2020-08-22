@@ -29,10 +29,12 @@ include:jd
 include:lianjia
 include:manmanbuy
 include:meituan
+include:mogujie
 include:pinduoduo
 include:smzdm
 include:suning
 include:tongcheng
+include:vancl
 include:youzan
 include:ziroom
 
@@ -76,6 +78,7 @@ include:heytea
 include:chiphell
 include:douban
 include:erji
+include:hacpai
 include:nga
 include:stage1st
 include:zhihu
@@ -115,6 +118,7 @@ include:115
 include:3type
 include:4paradigm
 include:51job
+include:agora
 include:antutu
 include:bitauto
 include:category-collaborate-cn
@@ -140,6 +144,7 @@ include:polyv
 include:renren
 include:vaptcha
 include:wjx
+include:zdns
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning
 include:category-mooc-cn
@@ -163,9 +168,10 @@ include:segmentfault
 include:tipdm
 
 # Tech companies & Orginations
-include:bytedance
 include:alibaba
+include:b3log
 include:baidu
+include:bytedance
 include:didi
 include:huawei
 include:kingsoft
@@ -1075,9 +1081,6 @@ uzzf.com
 v5875.com
 value500.com
 vamaker.com
-vancl.com
-vanclimg.com
-vcimg.com
 vdolady.com
 veryhuo.com
 veryzhun.com

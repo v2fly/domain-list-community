@@ -9,6 +9,6 @@ spyjinx.com
 unrealengine.com
 unrealtournament.com
 
-regex:^epicgames-download\d\.akamaized\.net$
-regex:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
-regex:^epicgames-download\d-\d+\.file\.myqcloud\.com$
+regexp:^cdn\d-epicgames-\d+\.file\.myqcloud\.com$ @cn
+regexp:^epicgames-download\d\.akamaized\.net$
+regexp:^epicgames-download\d-\d+\.file\.myqcloud\.com$ @cn
