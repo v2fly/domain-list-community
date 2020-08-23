@@ -13,6 +13,18 @@ include:category-anticensorship
 # Art & Design
 include:artstation
 include:dribbble
+include:dyna
+include:fonts
+include:fontsinuse
+include:glyphs
+include:jiyukobo
+include:monotype
+include:morisawa
+include:pinterest
+include:realtype
+include:typenetwork
+include:typography
+include:webtype
 
 # Automobile
 include:bmw
@@ -24,6 +36,7 @@ include:volvo
 include:mastercard
 include:paypal
 include:softbank
+include:stripe
 include:visa
 
 # CDN companies & Services
@@ -137,15 +150,12 @@ include:cuttly
 include:digitalocean
 include:disqus
 include:duckduckgo
-include:dyna
 include:entermediadb
 include:esri
 include:evernote
 include:faststone
 include:feedly
 include:figma
-include:fontsinuse
-include:glyphs
 include:gofundme
 include:gravatar
 include:hcaptcha
@@ -153,14 +163,11 @@ include:heroku
 include:infrapedia
 include:inoreader
 include:isgd
-include:jiyukobo
 include:jwplayer
 include:kindle4rss
 include:linguee
 include:mapbox
 include:mega
-include:monotype
-include:morisawa
 include:netlify
 include:notion
 include:osdn
@@ -168,11 +175,9 @@ include:pastebin
 include:patreon
 include:picsee
 include:pingpe
-include:pinterest
 include:protonmail
 include:quip
 include:reabble
-include:realtype
 include:rebrandly
 include:reurl
 include:sb
@@ -182,17 +187,13 @@ include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
-include:stripe
 include:test-ipv6
 include:tex
 include:tinyurl
 include:trello
 include:tumblr
-include:typenetwork
-include:typography
 include:vercel
 include:webflow
-include:webtype
 include:wix
 include:wordpress
 include:zeplin
@@ -216,7 +217,6 @@ include:wikimedia
 
 # Others
 include:familymart
-include:fonts
 include:hkedcity
 include:huanghuagang
 include:mcdonalds
