@@ -10,6 +10,9 @@ include:taboola
 # Anti-censorship & Anti-GFW & Privacy protection & VPN tools
 include:category-anticensorship
 
+# Art & Design
+include:dribbble
+
 # Automobile
 include:bmw
 include:bridgestone
