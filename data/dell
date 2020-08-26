@@ -1,5 +1,6 @@
-# All .dell domains
+include:vmware
 
+# All .dell domains
 dell
 
 dell-brand.com
