@@ -89,7 +89,7 @@ include:zhihu
 # Logistics
 include:sf-express
 
-# News & Press & Media
+# Media & News & Press
 include:36kr
 include:dgtle
 include:hupu
@@ -103,6 +103,7 @@ include:landian
 include:phoenix
 include:ruanmei
 include:sohu
+include:solidot
 include:sspai
 include:tmtpost
 include:weiphone

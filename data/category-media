@@ -7,10 +7,12 @@ include:appledaily
 include:asahi
 include:bbc
 include:bbgwatch
+include:bloomberg
 include:boxun
 include:breitbart
 include:cabletv
 include:caijinglengyan
+include:cbs
 include:chinadecoding
 include:chinadigitaltimes
 include:cnbc
@@ -20,8 +22,10 @@ include:d100
 include:dailymail
 include:dw
 include:epochmediagroup
+include:forbes
 include:fox
 include:freebeacon
+include:gannett
 include:globalvoices
 include:guo
 include:hk01
@@ -30,6 +34,7 @@ include:hkopentv
 include:hongkongfp
 include:huffpost
 include:inmediahk
+include:insider
 include:jfengtime
 include:landofhope
 include:localpresshk
@@ -37,6 +42,8 @@ include:ltn
 include:matters
 include:medium
 include:myradio
+include:nbcuniversal
+include:newscorp
 include:newsmax
 include:newyorker
 include:nikkei
@@ -50,11 +57,14 @@ include:reuters
 include:rfa
 include:rfi
 include:rsf
+include:rt
 include:rthk
 include:scmp
 include:shuziyimin
 include:sinoinsider
+include:sky
 include:soundofhope
+include:theguardian
 include:theinitium
 include:thenationalpulse
 include:thestandnews
