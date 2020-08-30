@@ -538,6 +538,7 @@ full:csi.gstatic.com @cn
 full:dl.google.com @cn
 full:dl.l.google.com @cn
 full:doubleclick.net @cn
+full:firebase-settings.crashlytics.com @cn
 full:fonts.googleapis.com @cn
 full:fonts.gstatic.com @cn
 full:google-analytics.com @cn
@@ -556,6 +557,7 @@ full:recaptcha.net @cn
 full:redirector.gvt1.com @cn
 full:safebrowsing-cache.google.com @cn
 full:safebrowsing.googleapis.com @cn
+full:settings.crashlytics.com @cn
 full:ssl-google-analytics.l.google.com @cn
 full:ssl.gstatic.com @cn
 full:toolbarqueries.google.com @cn
