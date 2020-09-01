@@ -163,6 +163,7 @@ include:gofundme
 include:gravatar
 include:hcaptcha
 include:heroku
+include:iina
 include:infrapedia
 include:inoreader
 include:isgd
