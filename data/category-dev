@@ -90,6 +90,7 @@ include:ruby
 include:scala
 include:scientificlinux
 include:scoop
+include:shields
 include:sqlite
 include:stackexchange
 include:strikingly
