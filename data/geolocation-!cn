@@ -120,6 +120,7 @@ include:streamable
 # Forums
 include:4chan
 include:5ch
+include:avsforum
 include:dcard
 include:doom9
 include:lihkg
