@@ -26,6 +26,7 @@ include:linkedin
 include:logitech
 include:microsoft
 include:mozilla
+include:naver
 include:neuralink
 include:nvidia
 include:oracle
