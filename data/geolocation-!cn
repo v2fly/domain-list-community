@@ -172,6 +172,7 @@ include:mapbox
 include:mega
 include:netlify
 include:notion
+include:opencollective
 include:osdn
 include:pastebin
 include:patreon
