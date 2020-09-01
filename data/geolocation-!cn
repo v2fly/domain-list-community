@@ -147,6 +147,7 @@ include:bitly
 include:bitwarden
 include:blender
 include:brightcove
+include:buymeacoffee
 include:cloudconvert
 include:contentful
 include:cuttly
@@ -170,6 +171,7 @@ include:isgd
 include:jwplayer
 include:kindle4rss
 include:kodi
+include:liberapay
 include:linguee
 include:madshi
 include:mapbox
@@ -177,6 +179,7 @@ include:mega
 include:mpv
 include:netlify
 include:notion
+include:opencollective
 include:osdn
 include:pastebin
 include:patreon
@@ -197,6 +200,7 @@ include:steemit
 include:svp
 include:test-ipv6
 include:tex
+include:tidelift
 include:tinyurl
 include:trello
 include:tumblr
