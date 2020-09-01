@@ -192,6 +192,7 @@ include:startpage
 include:steemit
 include:test-ipv6
 include:tex
+include:tidelift
 include:tinyurl
 include:trello
 include:tumblr
