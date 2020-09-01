@@ -30,6 +30,7 @@ include:flatpak
 include:flutter
 include:fontawesome
 include:freebsd
+include:gemfury
 include:gentoo
 include:getcomposer
 include:git
