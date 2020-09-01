@@ -120,7 +120,9 @@ include:streamable
 # Forums
 include:4chan
 include:5ch
+include:avsforum
 include:dcard
+include:doom9
 include:lihkg
 include:pincong
 include:quora
@@ -143,6 +145,7 @@ include:apkpure
 include:arphic
 include:bitly
 include:bitwarden
+include:blender
 include:brightcove
 include:cloudconvert
 include:contentful
@@ -160,14 +163,18 @@ include:gofundme
 include:gravatar
 include:hcaptcha
 include:heroku
+include:iina
 include:infrapedia
 include:inoreader
 include:isgd
 include:jwplayer
 include:kindle4rss
+include:kodi
 include:linguee
+include:madshi
 include:mapbox
 include:mega
+include:mpv
 include:netlify
 include:notion
 include:osdn
@@ -187,6 +194,7 @@ include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
+include:svp
 include:test-ipv6
 include:tex
 include:tinyurl
