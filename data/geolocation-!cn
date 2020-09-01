@@ -194,6 +194,7 @@ include:shorturl
 include:sourceforge
 include:startpage
 include:steemit
+include:svp
 include:test-ipv6
 include:tex
 include:tinyurl
