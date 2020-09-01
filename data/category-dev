@@ -6,6 +6,7 @@ include:apple-dev
 include:archlinux
 include:atom
 include:bootstrap
+include:braveux
 include:canonical
 include:cdnjs
 include:centos
@@ -29,6 +30,7 @@ include:flatpak
 include:flutter
 include:fontawesome
 include:freebsd
+include:gemfury
 include:gentoo
 include:getcomposer
 include:git
@@ -89,6 +91,7 @@ include:ruby
 include:scala
 include:scientificlinux
 include:scoop
+include:shields
 include:sqlite
 include:stackexchange
 include:strikingly
