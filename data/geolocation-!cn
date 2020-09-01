@@ -169,6 +169,7 @@ include:kodi
 include:linguee
 include:mapbox
 include:mega
+include:mpv
 include:netlify
 include:notion
 include:osdn
