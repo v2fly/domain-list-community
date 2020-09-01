@@ -6,6 +6,7 @@ include:apple-dev
 include:archlinux
 include:atom
 include:bootstrap
+include:braveux
 include:canonical
 include:cdnjs
 include:centos
