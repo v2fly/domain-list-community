@@ -228,6 +228,9 @@ include:category-vpnservices
 # Wiki
 include:fandom
 include:miraheze
+include:scp
+include:translatewiki
+include:wikidot
 include:wikihow
 include:wikimedia
 
