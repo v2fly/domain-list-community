@@ -156,6 +156,7 @@ include:cuttly
 include:digitalocean
 include:disqus
 include:duckduckgo
+include:easylist
 include:entermediadb
 include:esri
 include:evernote
