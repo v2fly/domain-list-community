@@ -287,8 +287,8 @@ func getRuntimeEnv(key string) (string, error) {
 	for _, envItem := range envStrings {
 		envItem = strings.TrimSuffix(envItem, "\r")
 		envKeyValue := strings.Split(envItem, "=")
-		if strings.ToLower(envKeyValue[0]) == strings.ToLower(key) {
-			runtimeEnv = envKeyValue[1]
+		if strings.EqualFold(strings.TrimSpace(envKeyValue[0]), strings.TrimSpace(key)) {
+			runtimeEnv = strings.TrimSpace(envKeyValue[1])
 		}
 	}
 	return runtimeEnv, nil
