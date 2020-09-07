@@ -567,4 +567,5 @@ full:translate.googleapis.com @cn
 full:update.googleapis.com @cn
 full:www-googletagmanager.l.google.com @cn
 full:www.gstatic.com @cn
+full:www.recaptcha.net @cn
 regexp:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
