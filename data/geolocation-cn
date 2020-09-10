@@ -165,6 +165,7 @@ include:zhihuishu
 # Software development related
 include:coding
 include:csdn
+include:deepin
 include:gitee
 include:jinrishici
 include:juejin
