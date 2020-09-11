@@ -12,6 +12,7 @@ include:cdnjs
 include:centos
 include:chocolatey
 include:clojure
+include:cnpmjs
 include:cygwin
 include:cython
 include:dart
