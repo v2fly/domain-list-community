@@ -5,6 +5,7 @@ include:apache
 include:apple-dev
 include:archlinux
 include:atom
+include:badgen
 include:bootstrap
 include:braveux
 include:canonical
