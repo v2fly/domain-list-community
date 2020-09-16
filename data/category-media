@@ -1,9 +1,11 @@
 include:9news
+include:9to5
 include:afp
 include:aljazeera
 include:americasvoice
 include:ap
 include:appledaily
+include:appleinsider
 include:asahi
 include:bbc
 include:bbgwatch
@@ -39,6 +41,7 @@ include:jfengtime
 include:landofhope
 include:localpresshk
 include:ltn
+include:macrumors
 include:matters
 include:medium
 include:myradio
@@ -63,6 +66,7 @@ include:rtings
 include:scmp
 include:shuziyimin
 include:sinoinsider
+include:slashdot
 include:sky
 include:soundofhope
 include:theguardian
@@ -79,6 +83,7 @@ include:warroom
 include:washingtonpost
 include:watchout
 include:wenzhao
+include:ycombinator
 include:zaobao
 include:zerohedge
 include:zoomingin
