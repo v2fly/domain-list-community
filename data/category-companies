@@ -22,6 +22,7 @@ include:hinet
 include:hp
 include:ibm
 include:intel
+include:lg
 include:linkedin
 include:logitech
 include:microsoft
