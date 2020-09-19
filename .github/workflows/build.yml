@@ -43,6 +43,7 @@ jobs:
           sha256sum dlc.dat.zip > dlc.dat.zip.sha256sum
 
       - name: Generate XZ
+        run: |
           xz -z -9 -k dlc.dat
           sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
 
