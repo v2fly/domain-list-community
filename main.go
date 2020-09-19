@@ -61,7 +61,7 @@ func (l *ParsedList) toPlainText(listName string) error {
 
 func (l *ParsedList) toGfwList() error {
 	var entryBytes []byte
-	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]")...)
+	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
 	for _, entry := range l.Entry {
 		switch entry.Type {
 		case "domain":
