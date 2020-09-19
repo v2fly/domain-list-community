@@ -2,6 +2,8 @@ package main
 
 import (
 	"bufio"
+	"bytes"
+	"compress/gzip"
 	"errors"
 	"flag"
 	"fmt"
@@ -93,6 +95,17 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 		}
 	}
 	return site, nil
+}
+
+func toGzip(data []byte) ([]byte, error) {
+	var buf bytes.Buffer
+	w := gzip.NewWriter(&buf)
+	defer w.Close()
+	_, err := w.Write(data)
+	if err != nil {
+		return nil, err
+	}
+	return buf.Bytes(), nil
 }
 
 func exportPlainTextList(list []string, refName string, pl *ParsedList) {
@@ -381,7 +394,12 @@ func main() {
 		fmt.Println("Failed:", err)
 		os.Exit(1)
 	}
-	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0644); err != nil {
+	gzipBytes, err := toGzip(protoBytes)
+	if err != nil {
+		fmt.Println("Failed: ", err)
+		os.Exit(1)
+	}
+	if err := ioutil.WriteFile("dlc.dat", gzipBytes, 0644); err != nil {
 		fmt.Println("Failed: ", err)
 		os.Exit(1)
 	} else {
