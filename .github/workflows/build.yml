@@ -14,7 +14,7 @@ jobs:
       - name: Setup Go 1.x.y
         uses: actions/setup-go@v2
         with:
-          go-version: "^1.14.4"
+          go-version: ^1.15
 
       - name: Set $GOPATH and more variables
         run: |
@@ -27,7 +27,7 @@ jobs:
 
       - name: Go get project code
         run: |
-          go get -v -insecure $REPO_URL
+          go get -v $REPO_URL
 
       - name: Build dlc.dat file
         run: |
@@ -37,13 +37,22 @@ jobs:
         run: |
           sha256sum dlc.dat > dlc.dat.sha256sum
 
+      - name: Generate Zip
+        run: |
+          zip -9 dlc.dat.zip dlc.dat
+          sha256sum dlc.dat.zip > dlc.dat.zip.sha256sum
+
+      - name: Generate XZ
+          xz -z -9 -k dlc.dat
+          sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
+
       - name: Git push assets to "release" branch
         run: |
           git init
           git config --local user.name "actions"
           git config --local user.email "action@github.com"
           git checkout -b release
-          git add dlc.dat dlc.dat.sha256sum *.txt
+          git add *.txt dlc.dat dlc.dat.sha256sum dlc.dat.zip dlc.dat.zip.sha256sum dlc.dat.xz dlc.dat.xz.sha256sum
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
@@ -77,4 +86,44 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./dlc.dat.sha256sum
           asset_name: dlc.dat.sha256sum
+          asset_content_type: text/plain
+
+      - name: Upload dlc.dat.zip
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dlc.dat.zip
+          asset_name: dlc.dat.zip
+          asset_content_type: application/octet-stream
+
+      - name: Upload dlc.dat.zip sha256sum
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dlc.dat.zip.sha256sum
+          asset_name: dlc.dat.zip.sha256sum
+          asset_content_type: text/plain
+
+      - name: Upload dlc.dat.xz
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dlc.dat.xz
+          asset_name: dlc.dat.xz
+          asset_content_type: application/octet-stream
+
+      - name: Upload dlc.dat sha256sum
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./dlc.dat.xz.sha256sum
+          asset_name: dlc.dat.xz.sha256sum
           asset_content_type: text/plain
