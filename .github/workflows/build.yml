@@ -48,8 +48,8 @@ jobs:
           sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
 
       - name: Generate gfwlist.txt sha256 hash
-          run: |
-            sha256sum gfwlist.txt > gfwlist.txt.sha256sum
+        run: |
+          sha256sum gfwlist.txt > gfwlist.txt.sha256sum
 
       - name: Git push assets to "release" branch
         run: |
