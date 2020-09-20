@@ -59,39 +59,6 @@ func (l *ParsedList) toPlainText(listName string) error {
 	return nil
 }
 
-func (l *ParsedList) toGfwList() error {
-	var entryBytes []byte
-	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
-	for _, entry := range l.Entry {
-		switch entry.Type {
-		case "domain":
-			entryBytes = append(entryBytes, []byte("||"+entry.Value+"\n")...)
-		case "full":
-			entryBytes = append(entryBytes, []byte("|http://"+entry.Value+"\n")...)
-			entryBytes = append(entryBytes, []byte("|https://"+entry.Value+"\n")...)
-		case "keyword":
-			entryBytes = append(entryBytes, []byte(entry.Type+entry.Value+"\n")...)
-		case "regexp":
-			entryBytes = append(entryBytes, []byte("/"+entry.Value+"/\n")...)
-		default:
-			return errors.New("unknown domain type: " + entry.Type)
-		}
-	}
-
-	f, err := os.OpenFile("gfwlist.pac", os.O_RDWR|os.O_CREATE, 0644)
-	if err != nil {
-		return err
-	}
-	encoder := base64.NewEncoder(base64.StdEncoding, f)
-	if _, err = encoder.Write(entryBytes); err != nil {
-		return err
-	}
-	if err = encoder.Close(); err != nil {
-		return err
-	}
-	return nil
-}
-
 func (l *ParsedList) toProto() (*router.GeoSite, error) {
 	site := &router.GeoSite{
 		CountryCode: l.Name,
@@ -131,22 +98,47 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 
 func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 	for _, listName := range list {
-		refName = strings.ToUpper(refName)
-		listName = strings.ToUpper(listName)
-		if refName == listName {
+		if strings.ToUpper(refName) == strings.ToUpper(listName) {
 			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
 				fmt.Println("Failed: ", err)
 				continue
 			}
-			if refName == "GEOLOCATION-!CN" {
-				if err := pl.toGfwList(); err != nil {
-					fmt.Println("Failed: ", err)
-					continue
-				}
-			}
 			fmt.Printf("'%s' has been generated successfully in current directory.\n", listName)
 		}
 	}
+}
+
+func exportGfwList(pl *ParsedList) error {
+	var entryBytes []byte
+	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
+	for _, entry := range pl.Entry {
+		switch entry.Type {
+		case "domain":
+			entryBytes = append(entryBytes, []byte("||"+entry.Value+"\n")...)
+		case "full":
+			entryBytes = append(entryBytes, []byte("|http://"+entry.Value+"\n")...)
+			entryBytes = append(entryBytes, []byte("|https://"+entry.Value+"\n")...)
+		case "keyword":
+			entryBytes = append(entryBytes, []byte(entry.Value+"\n")...)
+		case "regexp":
+			entryBytes = append(entryBytes, []byte("/"+entry.Value+"/\n")...)
+		default:
+			return errors.New("unknown domain type: " + entry.Type)
+		}
+	}
+
+	f, err := os.OpenFile("gfwlist.txt", os.O_RDWR|os.O_CREATE, 0644)
+	if err != nil {
+		return err
+	}
+	encoder := base64.NewEncoder(base64.StdEncoding, f)
+	if _, err = encoder.Write(entryBytes); err != nil {
+		return err
+	}
+	if err = encoder.Close(); err != nil {
+		return err
+	}
+	return nil
 }
 
 func removeComment(line string) string {
@@ -414,6 +406,14 @@ func main() {
 				if existList != nil {
 					exportPlainTextList(existList, refName, pl)
 				}
+			}
+		}
+
+		// Export GfwList
+		if refName == "GEOLOCATION-!CN" {
+			if err := exportGfwList(pl); err != nil {
+				fmt.Println("Failed: ", err)
+				os.Exit(1)
 			}
 		}
 	}
