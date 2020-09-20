@@ -47,13 +47,17 @@ jobs:
           xz -z -9 -k dlc.dat
           sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
 
+      - name: Generate gfwlist.txt sha256 hash
+        run: |
+          sha256sum gfwlist.txt > gfwlist.txt.sha256sum
+
       - name: Git push assets to "release" branch
         run: |
           git init
           git config --local user.name "actions"
           git config --local user.email "action@github.com"
           git checkout -b release
-          git add *.txt dlc.dat dlc.dat.sha256sum dlc.dat.zip dlc.dat.zip.sha256sum dlc.dat.xz dlc.dat.xz.sha256sum
+          git add *.txt dlc.dat dlc.dat.sha256sum dlc.dat.zip dlc.dat.zip.sha256sum dlc.dat.xz dlc.dat.xz.sha256sum gfwlist.txt gfwlist.txt.sha256sum
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
@@ -119,7 +123,7 @@ jobs:
           asset_name: dlc.dat.xz
           asset_content_type: application/octet-stream
 
-      - name: Upload dlc.dat sha256sum
+      - name: Upload dlc.dat.xz sha256sum
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -127,4 +131,24 @@ jobs:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./dlc.dat.xz.sha256sum
           asset_name: dlc.dat.xz.sha256sum
+          asset_content_type: text/plain
+
+      - name: Upload gfwlist.txt
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./gfwlist.txt
+          asset_name: gfwlist.txt
+          asset_content_type: text/plain
+
+      - name: Upload gfwlist.txt sha256sum
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./gfwlist.txt.sha256sum
+          asset_name: gfwlist.txt.sha256sum
           asset_content_type: text/plain

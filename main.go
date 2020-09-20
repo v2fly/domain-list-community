@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"encoding/base64"
 	"errors"
 	"flag"
 	"fmt"
@@ -105,6 +106,39 @@ func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 			fmt.Printf("'%s' has been generated successfully in current directory.\n", listName)
 		}
 	}
+}
+
+func exportGfwList(pl *ParsedList) error {
+	var entryBytes []byte
+	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
+	for _, entry := range pl.Entry {
+		switch entry.Type {
+		case "domain":
+			entryBytes = append(entryBytes, []byte("||"+entry.Value+"\n")...)
+		case "full":
+			entryBytes = append(entryBytes, []byte("|http://"+entry.Value+"\n")...)
+			entryBytes = append(entryBytes, []byte("|https://"+entry.Value+"\n")...)
+		case "keyword":
+			entryBytes = append(entryBytes, []byte(entry.Value+"\n")...)
+		case "regexp":
+			entryBytes = append(entryBytes, []byte("/"+entry.Value+"/\n")...)
+		default:
+			return errors.New("unknown domain type: " + entry.Type)
+		}
+	}
+
+	f, err := os.OpenFile("gfwlist.txt", os.O_RDWR|os.O_CREATE, 0644)
+	if err != nil {
+		return err
+	}
+	encoder := base64.NewEncoder(base64.StdEncoding, f)
+	if _, err = encoder.Write(entryBytes); err != nil {
+		return err
+	}
+	if err = encoder.Close(); err != nil {
+		return err
+	}
+	return nil
 }
 
 func removeComment(line string) string {
@@ -372,6 +406,14 @@ func main() {
 				if existList != nil {
 					exportPlainTextList(existList, refName, pl)
 				}
+			}
+		}
+
+		// Export GfwList
+		if refName == "GEOLOCATION-!CN" {
+			if err := exportGfwList(pl); err != nil {
+				fmt.Println("Failed: ", err)
+				os.Exit(1)
 			}
 		}
 	}
