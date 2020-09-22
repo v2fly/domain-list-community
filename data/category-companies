@@ -32,6 +32,7 @@ include:neuralink
 include:nvidia
 include:oracle
 include:panasonic
+include:qualcomm
 include:razer
 include:salesforce
 include:samsung
