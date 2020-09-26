@@ -9,6 +9,9 @@ localhost
 # example
 # invalid
 
+# OpenWrt LuCI Web Interface
+openwrt.lan
+
 # QQ Loopback
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
