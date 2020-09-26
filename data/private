@@ -1,26 +1,24 @@
-# https://tools.ietf.org/html/rfc6762
-local
-
-# https://tools.ietf.org/html/rfc2606
-localhost
-
-# Also defined in rfc2606
-test
-example
-invalid
-
 # References:
 # https://www.iana.org/assignments/special-use-domain-names/special-use-domain-names.xhtml
 # https://unix.stackexchange.com/questions/92441/whats-the-difference-between-local-home-and-lan
-localdomain
 lan
+localdomain
+
+# https://tools.ietf.org/html/rfc2606
+# https://tools.ietf.org/html/rfc6761
+example
+invalid
+localhost
+test
+
+# https://tools.ietf.org/html/rfc6762
+local
+
+# https://tools.ietf.org/html/rfc8375
 home.arpa
 
 # Dotless domains
 regexp:^[^.]+$
-
-# OpenWrt LuCI Web Interface
-openwrt.lan
 
 # QQ Loopback
 localhost.sec.qq.com
