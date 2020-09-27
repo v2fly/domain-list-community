@@ -6,6 +6,7 @@ include:fastlane
 include:flutter
 include:golang
 include:google-ads
+include:google-registry
 include:google-scholar
 include:polymer
 include:v8
