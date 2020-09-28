@@ -12,6 +12,7 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/golang/protobuf/proto"
 	"v2ray.com/core/app/router"
@@ -98,7 +99,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 
 func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 	for _, listName := range list {
-		if strings.ToUpper(refName) == strings.ToUpper(listName) {
+		if strings.EqualFold(refName, listName) {
 			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
 				fmt.Println("Failed: ", err)
 				continue
@@ -108,10 +109,31 @@ func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 	}
 }
 
-func exportGfwList(pl *ParsedList) error {
+func exportGFWList(pl *ParsedList) error {
 	var entryBytes []byte
+	timeString := fmt.Sprintf("! Last Modified: %s\n", time.Now())
 	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
+	entryBytes = append(entryBytes, []byte(timeString)...)
+	entryBytes = append(entryBytes, []byte("! Expires: 24h\n")...)
+	entryBytes = append(entryBytes, []byte("! HomePage: https://github.com/v2fly/domain-list-community\n")...)
+	entryBytes = append(entryBytes, []byte("! GitHub URL: https://raw.githubusercontent.com/v2fly/domain-list-community/release/gfwlist.txt\n")...)
+	entryBytes = append(entryBytes, []byte("! jsdelivr URL: https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@release/gfwlist.txt\n")...)
+
 	for _, entry := range pl.Entry {
+		exclude := false
+		if attrs := entry.Attrs; len(attrs) > 0 {
+			// exclude rules that have '@cn' attribute
+			for _, attr := range attrs {
+				if strings.EqualFold(attr.GetKey(), "cn") {
+					exclude = true
+					break
+				}
+			}
+		}
+		if exclude {
+			fmt.Printf("Exclude '%s' from gfwlist.txt because it has '@cn' attribute\n", entry.Value)
+			continue
+		}
 		switch entry.Type {
 		case "domain":
 			entryBytes = append(entryBytes, []byte("||"+entry.Value+"\n")...)
@@ -135,6 +157,7 @@ func exportGfwList(pl *ParsedList) error {
 	if _, err = encoder.Write(entryBytes); err != nil {
 		return err
 	}
+	fmt.Println("gfwlist.txt has been generated successfully in current directory.")
 	if err = encoder.Close(); err != nil {
 		return err
 	}
@@ -411,7 +434,7 @@ func main() {
 
 		// Export GfwList
 		if refName == "GEOLOCATION-!CN" {
-			if err := exportGfwList(pl); err != nil {
+			if err := exportGFWList(pl); err != nil {
 				fmt.Println("Failed: ", err)
 				os.Exit(1)
 			}
