@@ -40,6 +40,7 @@ include:insider
 include:jfengtime
 include:landofhope
 include:localpresshk
+include:londonreal
 include:ltn
 include:macrumors
 include:matters
@@ -66,8 +67,8 @@ include:rtings
 include:scmp
 include:shuziyimin
 include:sinoinsider
-include:slashdot
 include:sky
+include:slashdot
 include:soundofhope
 include:theguardian
 include:theinitium
@@ -85,5 +86,6 @@ include:watchout
 include:wenzhao
 include:ycombinator
 include:zaobao
+include:zee
 include:zerohedge
 include:zoomingin
