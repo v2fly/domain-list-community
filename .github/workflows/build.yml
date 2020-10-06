@@ -18,11 +18,11 @@ jobs:
 
       - name: Set $GOPATH and more variables
         run: |
-          echo "::set-env name=RELEASE_NAME::$(date +%Y%m%d%H%M%S)"
-          echo "::set-env name=TAG_NAME::$(date +%Y%m%d%H%M%S)"
-          echo "::set-env name=REPO_URL::github.com/${{ github.repository }}"
-          echo "::set-env name=GOPATH::$(dirname $GITHUB_WORKSPACE)"
-          echo "::add-path::$(dirname $GITHUB_WORKSPACE)/bin"
+          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "REPO_URL=github.com/${{ github.repository }}" >> $GITHUB_ENV
+          echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
+          echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
         shell: bash
 
       - name: Go get project code
