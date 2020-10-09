@@ -25,6 +25,7 @@ include:intel
 include:lg
 include:linkedin
 include:logitech
+include:mailru
 include:microsoft
 include:mozilla
 include:naver
