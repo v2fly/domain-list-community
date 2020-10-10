@@ -25,6 +25,7 @@ include:intel
 include:lg
 include:linkedin
 include:logitech
+include:mailru
 include:microsoft
 include:mozilla
 include:naver
@@ -36,6 +37,7 @@ include:qualcomm
 include:razer
 include:salesforce
 include:samsung
+include:snap
 include:sony
 include:spacex
 include:theboringcompany
