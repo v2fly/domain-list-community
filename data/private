@@ -20,6 +20,12 @@ home.arpa
 # Dotless domains
 regexp:^[^.]+$
 
+# ASUS router
+full:router.asus.com
+
 # QQ Loopback
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
+
+# Windows
+msftconnecttest.com
