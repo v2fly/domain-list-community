@@ -7,6 +7,7 @@ include:umeng
 # CDN companies & Services
 include:bootcss
 include:maocloud
+include:pkoplink
 include:qiniu
 include:ucloud
 include:upai
