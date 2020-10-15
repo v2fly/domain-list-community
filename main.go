@@ -1,455 +1,133 @@
 package main
 
 import (
-	"bufio"
 	"encoding/base64"
-	"errors"
 	"flag"
 	"fmt"
-	"go/build"
 	"io/ioutil"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
-	"time"
 
 	"google.golang.org/protobuf/proto"
-	"v2ray.com/core/app/router"
 )
 
 var (
-	dataPath        = flag.String("datapath", "", "Path to your custom 'data' directory")
-	exportLists     = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
-	defaultDataPath = filepath.Join("src", "github.com", "v2fly", "domain-list-community", "data")
+	dataPath     = flag.String("datapath", filepath.Join("./", "data"), "Path to your custom 'data' directory")
+	outputPath   = flag.String("outputpath", "./", "Output path to the generated files")
+	exportLists  = flag.String("exportlists", "", "Lists to be exported in plaintext format, separated by ',' comma")
+	excludeAttrs = flag.String("excludeattrs", "", "Exclude rules with certain attributes in certain lists, seperated by ',' comma, support multiple attributes in one list. Example: geolocation-!cn@cn@ads,geolocation-cn@!cn")
+	toGFWList    = flag.String("togfwlist", "geolocation-!cn", "List to be exported in GFWList format")
 )
-
-type Entry struct {
-	Type  string
-	Value string
-	Attrs []*router.Domain_Attribute
-}
-
-type List struct {
-	Name  string
-	Entry []Entry
-}
-
-type ParsedList struct {
-	Name      string
-	Inclusion map[string]bool
-	Entry     []Entry
-}
-
-func (l *ParsedList) toPlainText(listName string) error {
-	var entryBytes []byte
-	for _, entry := range l.Entry {
-		var attrString string
-		if entry.Attrs != nil {
-			for _, attr := range entry.Attrs {
-				attrString += "@" + attr.GetKey() + ","
-			}
-			attrString = strings.TrimRight(":"+attrString, ",")
-		}
-		// Entry output format is: type:domain.tld:@attr1,@attr2
-		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+attrString+"\n")...)
-	}
-	if err := ioutil.WriteFile(listName+".txt", entryBytes, 0644); err != nil {
-		return fmt.Errorf(err.Error())
-	}
-	return nil
-}
-
-func (l *ParsedList) toProto() (*router.GeoSite, error) {
-	site := &router.GeoSite{
-		CountryCode: l.Name,
-	}
-	for _, entry := range l.Entry {
-		switch entry.Type {
-		case "domain":
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Domain,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-		case "regexp":
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Regex,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-		case "keyword":
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Plain,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-		case "full":
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Full,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-		default:
-			return nil, errors.New("unknown domain type: " + entry.Type)
-		}
-	}
-	return site, nil
-}
-
-func exportPlainTextList(list []string, refName string, pl *ParsedList) {
-	for _, listName := range list {
-		if strings.EqualFold(refName, listName) {
-			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
-				fmt.Println("Failed: ", err)
-				continue
-			}
-			fmt.Printf("'%s' has been generated successfully in current directory.\n", listName)
-		}
-	}
-}
-
-func exportGFWList(pl *ParsedList) error {
-	var entryBytes []byte
-	timeString := fmt.Sprintf("! Last Modified: %s\n", time.Now())
-	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
-	entryBytes = append(entryBytes, []byte(timeString)...)
-	entryBytes = append(entryBytes, []byte("! Expires: 24h\n")...)
-	entryBytes = append(entryBytes, []byte("! HomePage: https://github.com/v2fly/domain-list-community\n")...)
-	entryBytes = append(entryBytes, []byte("! GitHub URL: https://raw.githubusercontent.com/v2fly/domain-list-community/release/gfwlist.txt\n")...)
-	entryBytes = append(entryBytes, []byte("! jsdelivr URL: https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@release/gfwlist.txt\n")...)
-
-	for _, entry := range pl.Entry {
-		exclude := false
-		if attrs := entry.Attrs; len(attrs) > 0 {
-			// exclude rules that have '@cn' attribute
-			for _, attr := range attrs {
-				if strings.EqualFold(attr.GetKey(), "cn") {
-					exclude = true
-					break
-				}
-			}
-		}
-		if exclude {
-			fmt.Printf("Exclude '%s' from gfwlist.txt because it has '@cn' attribute\n", entry.Value)
-			continue
-		}
-		switch entry.Type {
-		case "domain":
-			entryBytes = append(entryBytes, []byte("||"+entry.Value+"\n")...)
-		case "full":
-			entryBytes = append(entryBytes, []byte("|http://"+entry.Value+"\n")...)
-			entryBytes = append(entryBytes, []byte("|https://"+entry.Value+"\n")...)
-		case "keyword":
-			entryBytes = append(entryBytes, []byte(entry.Value+"\n")...)
-		case "regexp":
-			entryBytes = append(entryBytes, []byte("/"+entry.Value+"/\n")...)
-		default:
-			return errors.New("unknown domain type: " + entry.Type)
-		}
-	}
-
-	f, err := os.OpenFile("gfwlist.txt", os.O_RDWR|os.O_CREATE, 0644)
-	if err != nil {
-		return err
-	}
-	encoder := base64.NewEncoder(base64.StdEncoding, f)
-	if _, err = encoder.Write(entryBytes); err != nil {
-		return err
-	}
-	fmt.Println("gfwlist.txt has been generated successfully in current directory.")
-	if err = encoder.Close(); err != nil {
-		return err
-	}
-	return nil
-}
-
-func removeComment(line string) string {
-	idx := strings.Index(line, "#")
-	if idx == -1 {
-		return line
-	}
-	return strings.TrimSpace(line[:idx])
-}
-
-func parseDomain(domain string, entry *Entry) error {
-	kv := strings.Split(domain, ":")
-	if len(kv) == 1 {
-		entry.Type = "domain"
-		entry.Value = strings.ToLower(kv[0])
-		return nil
-	}
-
-	if len(kv) == 2 {
-		entry.Type = strings.ToLower(kv[0])
-		entry.Value = strings.ToLower(kv[1])
-		return nil
-	}
-
-	return errors.New("Invalid format: " + domain)
-}
-
-func parseAttribute(attr string) (*router.Domain_Attribute, error) {
-	var attribute router.Domain_Attribute
-	if len(attr) == 0 || attr[0] != '@' {
-		return &attribute, errors.New("invalid attribute: " + attr)
-	}
-
-	// Trim attribute prefix `@` character
-	attr = attr[1:]
-	parts := strings.Split(attr, "=")
-	if len(parts) == 1 {
-		attribute.Key = strings.ToLower(parts[0])
-		attribute.TypedValue = &router.Domain_Attribute_BoolValue{BoolValue: true}
-	} else {
-		attribute.Key = strings.ToLower(parts[0])
-		intv, err := strconv.Atoi(parts[1])
-		if err != nil {
-			return &attribute, errors.New("invalid attribute: " + attr + ": " + err.Error())
-		}
-		attribute.TypedValue = &router.Domain_Attribute_IntValue{IntValue: int64(intv)}
-	}
-	return &attribute, nil
-}
-
-func parseEntry(line string) (Entry, error) {
-	line = strings.TrimSpace(line)
-	parts := strings.Split(line, " ")
-
-	var entry Entry
-	if len(parts) == 0 {
-		return entry, errors.New("empty entry")
-	}
-
-	if err := parseDomain(parts[0], &entry); err != nil {
-		return entry, err
-	}
-
-	for i := 1; i < len(parts); i++ {
-		attr, err := parseAttribute(parts[i])
-		if err != nil {
-			return entry, err
-		}
-		entry.Attrs = append(entry.Attrs, attr)
-	}
-
-	return entry, nil
-}
-
-func DetectPath(path string) (string, error) {
-	arrPath := strings.Split(path, string(filepath.ListSeparator))
-	for _, content := range arrPath {
-		fullPath := filepath.Join(content, defaultDataPath)
-		_, err := os.Stat(fullPath)
-		if err == nil || os.IsExist(err) {
-			return fullPath, nil
-		}
-	}
-	err := fmt.Errorf("directory '%s' not found in '$GOPATH'", defaultDataPath)
-	return "", err
-}
-
-func Load(path string) (*List, error) {
-	file, err := os.Open(path)
-	if err != nil {
-		return nil, err
-	}
-	defer file.Close()
-
-	list := &List{
-		Name: strings.ToUpper(filepath.Base(path)),
-	}
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		line = removeComment(line)
-		if len(line) == 0 {
-			continue
-		}
-		entry, err := parseEntry(line)
-		if err != nil {
-			return nil, err
-		}
-		list.Entry = append(list.Entry, entry)
-	}
-
-	return list, nil
-}
-
-func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
-	pl := &ParsedList{
-		Name:      list.Name,
-		Inclusion: make(map[string]bool),
-	}
-	entryList := list.Entry
-	for {
-		newEntryList := make([]Entry, 0, len(entryList))
-		hasInclude := false
-		for _, entry := range entryList {
-			if entry.Type == "include" {
-				refName := strings.ToUpper(entry.Value)
-				if pl.Inclusion[refName] {
-					continue
-				}
-				pl.Inclusion[refName] = true
-				r := ref[refName]
-				if r == nil {
-					return nil, errors.New(entry.Value + " not found.")
-				}
-				newEntryList = append(newEntryList, r.Entry...)
-				hasInclude = true
-			} else {
-				newEntryList = append(newEntryList, entry)
-			}
-		}
-		entryList = newEntryList
-		if !hasInclude {
-			break
-		}
-	}
-	pl.Entry = entryList
-
-	return pl, nil
-}
-
-func envFile() (string, error) {
-	if file := os.Getenv("GOENV"); file != "" {
-		if file == "off" {
-			return "", fmt.Errorf("GOENV=off")
-		}
-		return file, nil
-	}
-	dir, err := os.UserConfigDir()
-	if err != nil {
-		return "", err
-	}
-	if dir == "" {
-		return "", fmt.Errorf("missing user-config dir")
-	}
-	return filepath.Join(dir, "go", "env"), nil
-}
-
-func getRuntimeEnv(key string) (string, error) {
-	file, err := envFile()
-	if err != nil {
-		return "", err
-	}
-	if file == "" {
-		return "", fmt.Errorf("missing runtime env file")
-	}
-	var data []byte
-	var runtimeEnv string
-	data, err = ioutil.ReadFile(file)
-	envStrings := strings.Split(string(data), "\n")
-	for _, envItem := range envStrings {
-		envItem = strings.TrimSuffix(envItem, "\r")
-		envKeyValue := strings.Split(envItem, "=")
-		if strings.EqualFold(strings.TrimSpace(envKeyValue[0]), strings.TrimSpace(key)) {
-			runtimeEnv = strings.TrimSpace(envKeyValue[1])
-		}
-	}
-	return runtimeEnv, nil
-}
 
 func main() {
 	flag.Parse()
 
-	var dir string
-	var err error
-	if *dataPath != "" {
-		dir = *dataPath
-	} else {
-		goPath, envErr := getRuntimeEnv("GOPATH")
-		if envErr != nil {
-			fmt.Println("Failed: please set '$GOPATH' manually, or use 'datapath' option to specify the path to your custom 'data' directory")
-			os.Exit(1)
-		}
-		if goPath == "" {
-			goPath = build.Default.GOPATH
-		}
-		fmt.Println("Use $GOPATH:", goPath)
-		fmt.Printf("Searching directory '%s' in '%s'...\n", defaultDataPath, goPath)
-		dir, err = DetectPath(goPath)
-	}
-	if err != nil {
-		fmt.Println("Failed: ", err)
-		os.Exit(1)
-	}
-	fmt.Println("Use domain lists in", dir)
+	dir := GetDataDir()
+	listInfoMap := make(ListInfoMap)
 
-	ref := make(map[string]*List)
-	err = filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
+	if err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
 		if info.IsDir() {
 			return nil
 		}
-		list, err := Load(path)
-		if err != nil {
+		if err := listInfoMap.Marshal(path); err != nil {
 			return err
 		}
-		ref[list.Name] = list
 		return nil
-	})
-	if err != nil {
-		fmt.Println("Failed: ", err)
-		os.Exit(1)
-	}
-	protoList := new(router.GeoSiteList)
-	var existList []string
-	for refName, list := range ref {
-		pl, err := ParseList(list, ref)
-		if err != nil {
-			fmt.Println("Failed: ", err)
-			os.Exit(1)
-		}
-		site, err := pl.toProto()
-		if err != nil {
-			fmt.Println("Failed: ", err)
-			os.Exit(1)
-		}
-		protoList.Entry = append(protoList.Entry, site)
-
-		// Flatten and export plaintext list
-		if *exportLists != "" {
-			if existList != nil {
-				exportPlainTextList(existList, refName, pl)
-			} else {
-				exportedListSlice := strings.Split(*exportLists, ",")
-				for _, exportedListName := range exportedListSlice {
-					fileName := filepath.Join(dir, exportedListName)
-					_, err := os.Stat(fileName)
-					if err == nil || os.IsExist(err) {
-						existList = append(existList, exportedListName)
-					} else {
-						fmt.Printf("'%s' list does not exist in '%s' directory.\n", exportedListName, dir)
-					}
-				}
-				if existList != nil {
-					exportPlainTextList(existList, refName, pl)
-				}
-			}
-		}
-
-		// Export GfwList
-		if refName == "GEOLOCATION-!CN" {
-			if err := exportGFWList(pl); err != nil {
-				fmt.Println("Failed: ", err)
-				os.Exit(1)
-			}
-		}
-	}
-
-	protoBytes, err := proto.Marshal(protoList)
-	if err != nil {
+	}); err != nil {
 		fmt.Println("Failed:", err)
 		os.Exit(1)
 	}
-	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0644); err != nil {
-		fmt.Println("Failed: ", err)
+
+	if err := listInfoMap.FlattenAndGenUniqueDomainList(); err != nil {
+		fmt.Println("Failed:", err)
 		os.Exit(1)
+	}
+
+	// Process and split *excludeRules
+	excludeAttrsInFile := make(map[fileName]map[attribute]bool)
+	if *excludeAttrs != "" {
+		exFilenameAttrSlice := strings.Split(*excludeAttrs, ",")
+		for _, exFilenameAttr := range exFilenameAttrSlice {
+			exFilenameAttr = strings.TrimSpace(exFilenameAttr)
+			exFilenameAttrMap := strings.Split(exFilenameAttr, "@")
+			filename := fileName(strings.ToUpper(strings.TrimSpace(exFilenameAttrMap[0])))
+			excludeAttrsInFile[filename] = make(map[attribute]bool)
+			for _, attr := range exFilenameAttrMap[1:] {
+				attr = strings.TrimSpace(attr)
+				if len(attr) > 0 {
+					excludeAttrsInFile[filename][attribute(attr)] = true
+				}
+			}
+		}
+	}
+
+	// Process and split *exportLists
+	var exportListsSlice []string
+	if *exportLists != "" {
+		tempSlice := strings.Split(*exportLists, ",")
+		for _, exportList := range tempSlice {
+			exportList = strings.TrimSpace(exportList)
+			if len(exportList) > 0 {
+				exportListsSlice = append(exportListsSlice, exportList)
+			}
+		}
+	}
+
+	// Generate dlc.dat
+	if geositeList := listInfoMap.ToProto(excludeAttrsInFile); geositeList != nil {
+		protoBytes, err := proto.Marshal(geositeList)
+		if err != nil {
+			fmt.Println("Failed:", err)
+			os.Exit(1)
+		}
+		if err := os.MkdirAll(*outputPath, 0755); err != nil {
+			fmt.Println("Failed:", err)
+			os.Exit(1)
+		}
+		if err := ioutil.WriteFile(filepath.Join(*outputPath, "dlc.dat"), protoBytes, 0644); err != nil {
+			fmt.Println("Failed:", err)
+			os.Exit(1)
+		} else {
+			fmt.Printf("dlc.dat has been generated successfully in '%s'. You can rename 'dlc.dat' to 'geosite.dat' and use it in V2Ray.\n", *outputPath)
+		}
+	}
+
+	// Generate plaintext list files
+	if filePlainTextBytesMap, err := listInfoMap.ToPlainText(exportListsSlice); err == nil {
+		for filename, plaintextBytes := range filePlainTextBytesMap {
+			filename += ".txt"
+			if err := ioutil.WriteFile(filepath.Join(*outputPath, filename), plaintextBytes, 0644); err != nil {
+				fmt.Println("Failed:", err)
+				os.Exit(1)
+			} else {
+				fmt.Printf("%s has been generated successfully in '%s'.\n", filename, *outputPath)
+			}
+		}
 	} else {
-		fmt.Println("dlc.dat has been generated successfully in current directory. You can rename 'dlc.dat' to 'geosite.dat' and use it in V2Ray.")
+		fmt.Println("Failed:", err)
+		os.Exit(1)
+	}
+
+	// Generate gfwlist.txt
+	if gfwlistBytes, err := listInfoMap.ToGFWList(*toGFWList); err == nil {
+		if f, err := os.OpenFile(filepath.Join(*outputPath, "gfwlist.txt"), os.O_RDWR|os.O_CREATE, 0644); err != nil {
+			fmt.Println("Failed:", err)
+			os.Exit(1)
+		} else {
+			encoder := base64.NewEncoder(base64.StdEncoding, f)
+			defer encoder.Close()
+			if _, err := encoder.Write(gfwlistBytes); err != nil {
+				fmt.Println("Failed:", err)
+				os.Exit(1)
+			}
+			fmt.Printf("gfwlist.txt has been generated successfully in '%s'.\n", *outputPath)
+		}
+	} else {
+		fmt.Println("Failed:", err)
+		os.Exit(1)
 	}
 }
