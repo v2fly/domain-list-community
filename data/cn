@@ -2,3 +2,4 @@
 
 include:tld-cn
 include:geolocation-cn
+include:geolocation-!cn@cn
