@@ -89,13 +89,13 @@ full:www.google.com
 
 > The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **Not** copy and paste directly.
 
-* Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
-* Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
-* Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
-* Keyword begins with `keyword:`, followed by a string.
-* Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
-* Full domain begins with `full:`, followed by a complete and valid domain name.
-* Domains (including `domain`, `keyword`, `regexp` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
+- Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
+- Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
+- Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
+- Keyword begins with `keyword:`, followed by a string.
+- Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
+- Full domain begins with `full:`, followed by a complete and valid domain name.
+- Domains (including `domain`, `keyword`, `regexp` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
 
 ## How it works
 
@@ -123,7 +123,9 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 
 ## Contribution guideline
 
-* Fork this repo, make modifications to your own repo, file a PR.
-* Please begin with small size PRs, say modification in a single file.
-* A PR must be reviewed and approved by another member.
-* After a few successful PRs, you may apply for manager access to this repository.
+- Fork this repo, make modifications to your own repo, file a PR.
+- Please begin with small size PRs, say modification in a single file.
+- Do not create a new list file for company/organization have rules less than 5.
+- Run `sort * | uniq -dc` to check duplicate rules before commit. (Recommend)
+- A PR must be reviewed and approved by another member.
+- After a few successful PRs, you may apply for manager access to this repository.
