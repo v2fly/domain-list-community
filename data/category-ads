@@ -39,6 +39,7 @@ include:segment-ads
 include:sensorsdata-ads
 include:sina-ads
 include:sohu-ads
+include:spotify-ads
 include:supersonic-ads
 include:tagtic-ads
 include:tappx-ads
