@@ -29,6 +29,7 @@ include:forbes
 include:fox
 include:freebeacon
 include:gannett
+include:gatewaypundit
 include:globalvoices
 include:guo
 include:hk01
@@ -59,6 +60,7 @@ include:nytimes
 include:oan
 include:passiontimes
 include:qmap
+include:realclear
 include:realvision
 include:reuters
 include:rfa
