@@ -1,3 +1,6 @@
 abema.io
 abema.tv
 ameba.jp
+
+# Abema TV CDN FQDN
+full:ds-linear-abematv.akamaized.net
