@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"google.golang.org/protobuf/proto"
 	"v2ray.com/core/app/router"
 )
 
