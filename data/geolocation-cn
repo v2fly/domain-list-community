@@ -1,4 +1,4 @@
-# List of all domains that have access point in China
+# List of all domains that have access point in China mainland
 
 # Advertisment & Analytics
 include:jiguang
@@ -7,6 +7,7 @@ include:umeng
 # CDN companies & Services
 include:bootcss
 include:maocloud
+include:pkoplink
 include:qiniu
 include:ucloud
 include:upai
@@ -89,7 +90,7 @@ include:zhihu
 # Logistics
 include:sf-express
 
-# News & Press & Media
+# Media & News & Press
 include:36kr
 include:dgtle
 include:hupu
@@ -103,6 +104,7 @@ include:landian
 include:phoenix
 include:ruanmei
 include:sohu
+include:solidot
 include:sspai
 include:tmtpost
 include:weiphone
@@ -121,6 +123,7 @@ include:115
 include:3type
 include:4paradigm
 include:51job
+include:afdian
 include:agora
 include:antutu
 include:bitauto
@@ -146,6 +149,7 @@ include:moji
 include:polyv
 include:renren
 include:vaptcha
+include:wiwide
 include:wjx
 include:zdns
 
@@ -162,13 +166,17 @@ include:zhihuishu
 # Software development related
 include:coding
 include:csdn
+include:deepin
 include:gitee
 include:jinrishici
+include:juejin
 include:oschina
+include:pgyer
 include:rubychina
 include:sxl
 include:segmentfault
 include:tipdm
+include:xueyuanjun
 
 # Tech companies & Orginations
 include:alibaba
@@ -197,6 +205,7 @@ include:chinaunicom
 # 在线工具书
 guoxuedashi.com
 guoxuemi.com
+jikipedia.com
 
 # 餐饮类
 haidilao.com
@@ -560,6 +569,7 @@ enterdesk.com
 eoeandroid.com
 excelhome.net
 expreview.com
+extfans.com
 f.cx
 faloo.com
 famulei.com
@@ -686,6 +696,7 @@ imedao.com
 imgo.tv
 imooc.com
 indienova.com
+infinitynewtab.com
 infoq.com
 infoqstatic.com
 ip-cdn.com

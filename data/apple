@@ -457,6 +457,20 @@ appletv4.cn @cn
 appletv4.com.cn @cn
 appletvapp.apple
 
+# Apple One
+appleone.audio
+appleone.blog
+appleone.chat
+appleone.cloud
+appleone.club
+appleone.community
+appleone.film
+appleone.guide
+appleone.host
+appleone.space
+appleone.tech
+appleone.website
+
 # Shazam
 shazam.com
 
@@ -753,6 +767,7 @@ full:configuration.apple.com @cn
 full:communities.apple.com @cn
 full:cstat.apple.com @cn
 full:dd-cdn.origin-apple.com.akadns.net @cn
+full:discussionschinese.apple.com @cn
 full:download.developer.apple.com @cn
 full:fides-pol.apple.com @cn
 full:gs-loc-cn.apple.com @cn
@@ -795,6 +810,7 @@ full:itunes.apple.com @cn
 full:itunesconnect.apple.com @cn
 full:js-cdn.music.apple.com @cn
 full:km.support.apple.com @cn
+full:maps.apple.com @cn
 full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn

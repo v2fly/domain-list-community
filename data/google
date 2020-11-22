@@ -6,6 +6,7 @@ include:fastlane
 include:flutter
 include:golang
 include:google-ads
+include:google-registry
 include:google-scholar
 include:polymer
 include:v8
@@ -280,12 +281,13 @@ bumptop.org
 bumptunes.com
 campuslondon.com
 certificate-transparency.org
-chat.gle
 chrome.com
 chromebook.com
 chromecast.com
 chromeos.dev
 chromium.org
+chronicle.security
+chroniclesec.com
 cloudburstresearch.com
 cloudfunctions.net
 cloudrobotics.com
@@ -322,6 +324,7 @@ g.cn @cn
 g.co
 g.dev
 g.page
+gateway.dev
 gerritcodereview.com
 getbumptop.com
 ggoogle.com
@@ -393,7 +396,6 @@ gvt6.com
 gvt7.com
 gvt9.com
 hdrplusdata.org
-hey.gle
 hindiweb.com
 howtogetmo.co.uk
 html5rocks.com
@@ -420,7 +422,6 @@ near.by
 nest.com
 nomulus.foo
 oauthz.com
-ok.gle
 on.here
 on2.com
 onefifteen.net
@@ -441,6 +442,7 @@ picasaweb.net
 picasaweb.org
 picnik.com
 pittpatt.com
+pixate.com
 postini.com
 projectara.com
 projectbaseline.com
@@ -508,9 +510,13 @@ womenwill.in
 womenwill.mx
 x.company
 x.team
-xn--9kr7l.com   # 古博.com
-xn--9trs65b.com # 咕果.com
-xn--flw351e.com # 谷歌.com
+xn--9kr7l.com       # 古博.com
+xn--9trs65b.com     # 咕果.com
+xn--flw351e.com     # 谷歌.com
+xn--ggle-55da.com   # gооgle.com
+xn--gogl-0nd52e.com # gοoglе.com
+xn--gogl-1nd42e.com # goοglе.com
+xn--ngstr-lra8j.com # google play 应用下载时涉及
 xplr.co
 zukunftswerkstatt.de
 
@@ -527,19 +533,16 @@ full:beacons3.gvt2.com @cn
 full:c.admob.com @cn
 full:c.android.clients.google.com @cn
 full:cache.pack.google.com @cn
-full:checkin.gstatic.com @cn
 full:clickserve.dartsearch.net @cn
 full:clientservices.googleapis.com @cn
-full:connectivitycheck.gstatic.com @cn
 full:corp.google.com @cn
 full:crl.pki.goog @cn
 full:csi-china.l.google.com @cn
-full:csi.gstatic.com @cn
 full:dl.google.com @cn
 full:dl.l.google.com @cn
 full:doubleclick.net @cn
+full:firebase-settings.crashlytics.com @cn
 full:fonts.googleapis.com @cn
-full:fonts.gstatic.com @cn
 full:google-analytics.com @cn
 full:googleadservices.com @cn
 full:googleanalytics.com @cn
@@ -556,13 +559,13 @@ full:recaptcha.net @cn
 full:redirector.gvt1.com @cn
 full:safebrowsing-cache.google.com @cn
 full:safebrowsing.googleapis.com @cn
+full:settings.crashlytics.com @cn
 full:ssl-google-analytics.l.google.com @cn
-full:ssl.gstatic.com @cn
 full:toolbarqueries.google.com @cn
 full:tools.google.com @cn
 full:tools.l.google.com @cn
 full:translate.googleapis.com @cn
 full:update.googleapis.com @cn
 full:www-googletagmanager.l.google.com @cn
-full:www.gstatic.com @cn
+full:www.recaptcha.net @cn
 regexp:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
