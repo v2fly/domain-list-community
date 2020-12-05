@@ -15,11 +15,14 @@ include:wangsu
 include:yunfanjiasu
 include:qingcloud
 
-# Bank & Finance & Insurance
+# Bank & Finance & Insurance & Securities
 include:category-bank-cn
+include:category-securities-cn
+include:citic
+include:eastmoney
 include:everbright
+include:pingan
 include:taikang
-include:xueqiu
 
 # E-commerce
 include:58tongcheng
@@ -93,24 +96,7 @@ include:zhihu
 include:sf-express
 
 # Media & News & Press
-include:36kr
-include:dgtle
-include:hupu
-include:ifanr
-include:caixin
-include:cctv
-include:chinanews
-include:geekpark
-include:jiemian
-include:landian
-include:phoenix
-include:ruanmei
-include:sohu
-include:solidot
-include:sspai
-include:tmtpost
-include:weiphone
-include:ynet
+include:category-media-cn
 
 # Others
 include:hainanairlines
@@ -379,7 +365,6 @@ baixing.com
 baixing.net
 bamenzhushou.com
 bangongziyuan.com
-bankcomm.com
 baofeng.com
 baoxianshichang.com
 bcy.net
@@ -419,7 +404,6 @@ cang.com
 cankaoxiaoxi.com
 cardbaobao.com
 carnoc.com
-ccb.com
 cdn20.com
 cecdc.com
 cecport.com
@@ -466,9 +450,7 @@ cnbeta.com
 cnbetacdn.com
 cnblogs.com
 cnepub.com
-cnfol.com
 cnlaw.net
-cnstock.com
 cnzz.com
 cocodiy.com
 code666.com
@@ -554,7 +536,6 @@ dzwww.com
 easesale.com
 easiu.com
 eastday.com
-eastmoney.com
 eastsoo.com
 eayyou.com
 ebico.com
@@ -654,7 +635,6 @@ heisha.net
 henha.com
 henkuai.com
 herostart.com
-hexun.com
 hiido.com
 hitv.com
 hiyd.com
@@ -801,7 +781,6 @@ leju.com
 leturich.org
 lianmishu.com
 liantu.com
-liantu.me
 lianzhuli.com
 liaoxuefeng.com
 liba.com
@@ -833,7 +812,6 @@ lunwengo.net
 luyouqi.com
 lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
-lxdns.com
 lxway.com
 magedu.com
 maisanqi.com
@@ -928,7 +906,6 @@ peccn.com
 pgzs.com
 pharmacodia.com
 piaoliang.com
-pingan.com
 pingplusplus.com
 pingwest.com
 pingxx.com
@@ -936,7 +913,6 @@ pintu360.com
 pipaw.com
 pipaw.net
 pptbest.com
-psbc.com
 pubyun.com
 qc188.com
 qcc.com
@@ -1099,7 +1075,6 @@ vijos.org
 vip.com
 vobao.com
 vpgame.com
-wallstreetcn.com
 wangyangyang.vip
 wannianli8.com
 wanplus.com
@@ -1193,7 +1168,6 @@ yeepay.com
 yeshen.com
 yesky.com
 yh31.com
-yicai.com
 yigao.com
 yigoonet.com
 yihedoors.com

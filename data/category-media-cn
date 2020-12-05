@@ -1,0 +1,78 @@
+include:36kr
+include:caixin
+include:cctv
+include:chinanews
+include:dgtle
+include:geekpark
+include:hupu
+include:ifanr
+include:jiemian
+include:landian
+include:phoenix
+include:ruanmei
+include:sohu
+include:solidot
+include:sspai
+include:tmtpost
+include:weiphone
+include:ynet
+include:xueqiu
+
+# 证券时报网
+stcn.com
+
+# 财经网
+caijing.com.cn
+
+# 和讯
+hexun.com
+
+# 中金在线
+cnfol.com
+cnfolimg.com
+
+# 证券日报
+zqrb.cn
+
+# 每日经济新闻报社
+nbd.com.cn
+
+# 上海证券报
+cnstock.com
+
+# 21世纪经济报
+21jingji.com
+
+# 第一财经
+yicai.com
+
+# 中证网
+cs.com.cn
+
+# 证券之星
+ssajax.cn
+ssimg.cn
+stockstar.com
+
+# 金融界
+jrj.com.cn
+jrjimg.cn
+
+# 财联社
+cls.cn
+cailianpress.com
+
+# 华尔街见闻
+wallstreetcn.com
+jianyuweb.com
+wallstcn.com
+
+# 同花顺
+10jqka.com.cn
+thsi.cn
+ths123.com
+
+# 大智慧
+dzh.com.cn
+gw.com.cn
+yundzh.com
