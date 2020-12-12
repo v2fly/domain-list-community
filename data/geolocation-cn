@@ -191,6 +191,9 @@ include:chinamobile
 include:chinatelecom
 include:chinaunicom
 
+# 语言能力测试
+include:j-test
+
 # 在线工具书
 guoxuedashi.com
 guoxuemi.com
