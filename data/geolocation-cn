@@ -14,6 +14,7 @@ include:qingcloud
 include:qiniu
 include:ucloud
 include:upai
+include:verycloud
 include:wangsu
 include:yunfanjiasu
 
