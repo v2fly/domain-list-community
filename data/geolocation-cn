@@ -7,6 +7,7 @@ include:umeng
 # CDN companies & Services
 include:bootcss
 include:dwion
+include:knownsec
 include:maocloud
 include:nsfocus
 include:pkoplink
@@ -356,7 +357,6 @@ aizhan.com
 alittle-tea.com
 allyes.com
 anfensi.com
-anquan.org
 anruan.com
 aotrip.net
 aoyou.com
@@ -715,7 +715,6 @@ jianzhi8.com
 jiaodong.net
 jiaoyimao.com
 jiasuhui.com
-jiasule.com
 jiathis.com
 jiayuan.com
 jiazhao.com
@@ -1212,7 +1211,6 @@ ypppt.com
 yslyhr.com
 ysten.com
 yuewen.com
-yunaq.com
 yunba.io
 yundaex.com
 yundasys.com
