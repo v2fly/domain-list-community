@@ -8,6 +8,7 @@ include:umeng
 include:bootcss
 include:dwion
 include:maocloud
+include:nsfocus
 include:pkoplink
 include:qingcloud
 include:qiniu
