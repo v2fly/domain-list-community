@@ -6,14 +6,15 @@ include:umeng
 
 # CDN companies & Services
 include:bootcss
+include:dwion
 include:maocloud
 include:pkoplink
+include:qingcloud
 include:qiniu
 include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
-include:qingcloud
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
