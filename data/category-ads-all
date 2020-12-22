@@ -1,9 +1,28 @@
 # This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
 
-advertserve.com
-httpool.com
-mgid.com
-unimhk.com
+
+7box.vip @ads
+ad-delivery.net @ads
+adinplay.com @ads
+adnxs.com @ads
+ads.trafficjunky.net @ads
+advertserve.com @ads
+casalemedia.com @ads
+contextual.media.net @ads
+cpmstar.com @ads
+demdex.net @ads
+httpool.com @ads
+lijit.com @ads
+1rx.io @ads
+mfadsrvr.com @ads
+mgid.com @ads
+ns1p.net @ads
+openx.net @ads
+pubmatic.com @ads
+spotxchange.com @ads
+unimhk.com @ads
+upapi.net @ads
+
 
 include:taboola
 include:category-ads

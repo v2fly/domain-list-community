@@ -5,12 +5,15 @@ include:apache
 include:apple-dev
 include:archlinux
 include:atom
+include:badgen
 include:bootstrap
+include:braveux
 include:canonical
 include:cdnjs
 include:centos
 include:chocolatey
 include:clojure
+include:cnpmjs
 include:cygwin
 include:cython
 include:dart
@@ -29,6 +32,7 @@ include:flatpak
 include:flutter
 include:fontawesome
 include:freebsd
+include:gemfury
 include:gentoo
 include:getcomposer
 include:git
@@ -89,6 +93,7 @@ include:ruby
 include:scala
 include:scientificlinux
 include:scoop
+include:shields
 include:sqlite
 include:stackexchange
 include:strikingly

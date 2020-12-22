@@ -1,6 +1,8 @@
+2mdn.net @ads
 admob.com @ads
 adsense.com @ads
-adservice.google.com @ads
+adsensecustomsearchads.com @ads
+adsenseformobileapps.com @ads
 advertisercommunity.com @ads
 advertiserscommunity.com @ads
 adwords-community.com @ads
@@ -20,3 +22,5 @@ googletagmanager.com @ads
 googletagservices.com @ads
 googletraveladservices.com @ads
 urchin.com @ads
+
+regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads

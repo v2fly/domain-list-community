@@ -1,4 +1,4 @@
-# List of all domains that have access point in China
+# List of all domains that have access point in China mainland
 
 # Advertisment & Analytics
 include:jiguang
@@ -6,18 +6,24 @@ include:umeng
 
 # CDN companies & Services
 include:bootcss
+include:dwion
 include:maocloud
+include:pkoplink
+include:qingcloud
 include:qiniu
 include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
 
-# Bank & Finance & Insurance
+# Bank & Finance & Insurance & Securities
 include:category-bank-cn
+include:category-securities-cn
+include:citic
+include:eastmoney
 include:everbright
+include:pingan
 include:taikang
-include:xueqiu
 
 # E-commerce
 include:58tongcheng
@@ -53,7 +59,9 @@ include:gcores
 include:gitv
 include:huya
 include:iqiyi
+include:jinjiang
 include:ku6
+include:kuaikan
 include:kuaishou
 include:kugou
 include:le
@@ -66,10 +74,12 @@ include:taomee
 include:taptap
 include:tgbus
 include:tiancity
+include:u17
 include:vgtime
 include:ximalaya
 include:youku
 include:yy
+include:zhanqi
 
 # Food & Drink
 include:heytea
@@ -86,27 +96,12 @@ include:zhihu
 # Logistics
 include:sf-express
 
-# News & Press & Media
-include:36kr
-include:dgtle
-include:hupu
-include:ifanr
-include:caixin
-include:cctv
-include:chinanews
-include:geekpark
-include:jiemian
-include:landian
-include:phoenix
-include:ruanmei
-include:sohu
-include:sspai
-include:tmtpost
-include:weiphone
-include:ynet
+# Media & News & Press
+include:category-media-cn
 
 # Others
 include:hainanairlines
+include:jibencaozuo
 include:sinopec
 
 # Organizations
@@ -118,6 +113,7 @@ include:115
 include:3type
 include:4paradigm
 include:51job
+include:afdian
 include:agora
 include:antutu
 include:bitauto
@@ -127,6 +123,7 @@ include:chinaz
 include:colorfulclouds
 include:coolapk
 include:cowtransfer
+include:dida365
 include:geetest
 include:hanyi
 include:foundertype
@@ -143,6 +140,7 @@ include:moji
 include:polyv
 include:renren
 include:vaptcha
+include:wiwide
 include:wjx
 include:zdns
 
@@ -150,6 +148,7 @@ include:zdns
 include:category-mooc-cn
 include:category-scholar-cn
 include:category-wiki-cn
+include:cugbonline
 include:guokr
 include:wanfang
 include:xueersi
@@ -159,13 +158,17 @@ include:zhihuishu
 # Software development related
 include:coding
 include:csdn
+include:deepin
 include:gitee
 include:jinrishici
+include:juejin
 include:oschina
+include:pgyer
 include:rubychina
 include:sxl
 include:segmentfault
 include:tipdm
+include:xueyuanjun
 
 # Tech companies & Orginations
 include:alibaba
@@ -191,9 +194,16 @@ include:chinamobile
 include:chinatelecom
 include:chinaunicom
 
+# 语言能力测试
+include:j-test
+
 # 在线工具书
 guoxuedashi.com
 guoxuemi.com
+mojidict.com
+
+# Wiki
+jikipedia.com
 
 # 餐饮类
 haidilao.com
@@ -364,7 +374,6 @@ baixing.com
 baixing.net
 bamenzhushou.com
 bangongziyuan.com
-bankcomm.com
 baofeng.com
 baoxianshichang.com
 bcy.net
@@ -404,7 +413,6 @@ cang.com
 cankaoxiaoxi.com
 cardbaobao.com
 carnoc.com
-ccb.com
 cdn20.com
 cecdc.com
 cecport.com
@@ -451,9 +459,7 @@ cnbeta.com
 cnbetacdn.com
 cnblogs.com
 cnepub.com
-cnfol.com
 cnlaw.net
-cnstock.com
 cnzz.com
 cocodiy.com
 code666.com
@@ -539,7 +545,6 @@ dzwww.com
 easesale.com
 easiu.com
 eastday.com
-eastmoney.com
 eastsoo.com
 eayyou.com
 ebico.com
@@ -557,6 +562,7 @@ enterdesk.com
 eoeandroid.com
 excelhome.net
 expreview.com
+extfans.com
 f.cx
 faloo.com
 famulei.com
@@ -638,7 +644,6 @@ heisha.net
 henha.com
 henkuai.com
 herostart.com
-hexun.com
 hiido.com
 hitv.com
 hiyd.com
@@ -651,7 +656,6 @@ hollycrm.com
 homeinns.com
 homekoo.com
 hongsanban.com
-hongxiu.com
 houdao.com
 houyuantuan.com
 hteacher.net
@@ -684,6 +688,7 @@ imedao.com
 imgo.tv
 imooc.com
 indienova.com
+infinitynewtab.com
 infoq.com
 infoqstatic.com
 ip-cdn.com
@@ -726,7 +731,6 @@ jisuanke.com
 jisuxia.com
 jiuzhilan.com
 jj20.com
-jjwxc.net
 jkbl.com
 jmstatic.com
 job5588.com
@@ -767,11 +771,11 @@ ksord.com
 kuaaa.com
 kuaidi100.com
 kuaihou.com
-kuaikanmanhua.com
 kuaizhan.com
 kuqin.com
 kuyiso.com
 lady8844.com
+lanhuapp.com
 laomaotao.net
 laomaotao.org
 lascn.net
@@ -786,7 +790,6 @@ leju.com
 leturich.org
 lianmishu.com
 liantu.com
-liantu.me
 lianzhuli.com
 liaoxuefeng.com
 liba.com
@@ -810,7 +813,6 @@ longtugame.com
 longzhu.com
 lotpc.com
 loupan.com
-lrts.me
 lu.com
 luckyair.net
 lufax.com
@@ -819,7 +821,6 @@ lunwengo.net
 luyouqi.com
 lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
-lxdns.com
 lxway.com
 magedu.com
 maisanqi.com
@@ -845,6 +846,7 @@ mgtv.com
 miaobolive.com
 miaozhen.com
 miercn.com
+mijisou.com
 mikecrm.com
 minhangshi.com
 miusi.co
@@ -913,7 +915,6 @@ peccn.com
 pgzs.com
 pharmacodia.com
 piaoliang.com
-pingan.com
 pingplusplus.com
 pingwest.com
 pingxx.com
@@ -921,14 +922,12 @@ pintu360.com
 pipaw.com
 pipaw.net
 pptbest.com
-psbc.com
 pubyun.com
 qc188.com
 qcc.com
 qcds.com
 qd8.com
 qd-metro.com
-qdmm.com
 qh24.com
 qiangbus.com
 qianjia.com
@@ -936,11 +935,9 @@ qianlima.com
 qianzhan.com
 qiaobutang.com
 qichacha.com
-qidian.com
 qie.tv
 qifeiye.com
 qijiayoudao.net
-qingcloud.com
 qingdaochina.org
 qingdaonews.com
 qingsongchou.com
@@ -957,7 +954,6 @@ qugame.com
 qunar.com
 qunarzz.com
 qyer.com
-readnovel.com
 rfchost.com
 rockyenglish.com
 rong360.com
@@ -1069,7 +1065,6 @@ tutuapp.com
 tuwan.com
 tuwanjun.com
 u.tools
-u17.com
 ucbug.com
 uggame.com
 uoko.com
@@ -1090,7 +1085,6 @@ vijos.org
 vip.com
 vobao.com
 vpgame.com
-wallstreetcn.com
 wangyangyang.vip
 wannianli8.com
 wanplus.com
@@ -1172,7 +1166,6 @@ xue51.com
 xuekanba.com
 xuexicha.com
 xundupdf.com
-xxsy.net
 xycdn.com
 xywy.com
 xzking.com
@@ -1185,7 +1178,6 @@ yeepay.com
 yeshen.com
 yesky.com
 yh31.com
-yicai.com
 yigao.com
 yigoonet.com
 yihedoors.com
@@ -1249,9 +1241,9 @@ zglxw.com
 zgzcw.com
 zhanbuba.com
 zhangyoubao.com
-zhanqi.tv
 zhanzhang.net
 zhaodanji.com
+zhaokao.net
 zhaopin.com
 zhcw.com
 zhenai.com
