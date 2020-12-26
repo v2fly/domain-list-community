@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"encoding/base64"
 	"errors"
 	"flag"
 	"fmt"
@@ -12,7 +11,6 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
-	"time"
 
 	"google.golang.org/protobuf/proto"
 	"v2ray.com/core/app/router"
@@ -107,61 +105,6 @@ func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 			fmt.Printf("'%s' has been generated successfully in current directory.\n", listName)
 		}
 	}
-}
-
-func exportGFWList(pl *ParsedList) error {
-	var entryBytes []byte
-	timeString := fmt.Sprintf("! Last Modified: %s\n", time.Now())
-	entryBytes = append(entryBytes, []byte("[AutoProxy 0.2.9]\n")...)
-	entryBytes = append(entryBytes, []byte(timeString)...)
-	entryBytes = append(entryBytes, []byte("! Expires: 24h\n")...)
-	entryBytes = append(entryBytes, []byte("! HomePage: https://github.com/v2fly/domain-list-community\n")...)
-	entryBytes = append(entryBytes, []byte("! GitHub URL: https://raw.githubusercontent.com/v2fly/domain-list-community/release/gfwlist.txt\n")...)
-	entryBytes = append(entryBytes, []byte("! jsdelivr URL: https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@release/gfwlist.txt\n")...)
-
-	for _, entry := range pl.Entry {
-		exclude := false
-		if attrs := entry.Attrs; len(attrs) > 0 {
-			// exclude rules that have '@cn' attribute
-			for _, attr := range attrs {
-				if strings.EqualFold(attr.GetKey(), "cn") {
-					exclude = true
-					break
-				}
-			}
-		}
-		if exclude {
-			fmt.Printf("Exclude '%s' from gfwlist.txt because it has '@cn' attribute\n", entry.Value)
-			continue
-		}
-		switch entry.Type {
-		case "domain":
-			entryBytes = append(entryBytes, []byte("||"+entry.Value+"\n")...)
-		case "full":
-			entryBytes = append(entryBytes, []byte("|http://"+entry.Value+"\n")...)
-			entryBytes = append(entryBytes, []byte("|https://"+entry.Value+"\n")...)
-		case "keyword":
-			entryBytes = append(entryBytes, []byte(entry.Value+"\n")...)
-		case "regexp":
-			entryBytes = append(entryBytes, []byte("/"+entry.Value+"/\n")...)
-		default:
-			return errors.New("unknown domain type: " + entry.Type)
-		}
-	}
-
-	f, err := os.OpenFile("gfwlist.txt", os.O_RDWR|os.O_CREATE, 0644)
-	if err != nil {
-		return err
-	}
-	encoder := base64.NewEncoder(base64.StdEncoding, f)
-	if _, err = encoder.Write(entryBytes); err != nil {
-		return err
-	}
-	fmt.Println("gfwlist.txt has been generated successfully in current directory.")
-	if err = encoder.Close(); err != nil {
-		return err
-	}
-	return nil
 }
 
 func removeComment(line string) string {
@@ -429,14 +372,6 @@ func main() {
 				if existList != nil {
 					exportPlainTextList(existList, refName, pl)
 				}
-			}
-		}
-
-		// Export GfwList
-		if refName == "GEOLOCATION-!CN" {
-			if err := exportGFWList(pl); err != nil {
-				fmt.Println("Failed: ", err)
-				os.Exit(1)
 			}
 		}
 	}
