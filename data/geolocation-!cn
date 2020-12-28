@@ -217,6 +217,7 @@ include:vercel
 include:webflow
 include:wix
 include:wordpress
+include:zendesk
 include:zeplin
 include:zoho
 include:zoom
