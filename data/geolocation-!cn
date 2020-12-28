@@ -10,12 +10,14 @@ include:taboola
 # Anti-censorship & Anti-GFW & Privacy protection & VPN tools
 include:category-anticensorship
 
-# Art & Design
+# Art & Design & Photography
 include:artstation
 include:dribbble
 include:dyna
+include:flickr
 include:fonts
 include:fontsinuse
+include:gettyimages
 include:glyphs
 include:jiyukobo
 include:monotype
@@ -125,6 +127,7 @@ include:5ch
 include:avsforum
 include:dcard
 include:doom9
+include:hkgolden
 include:lihkg
 include:pincong
 include:quora
