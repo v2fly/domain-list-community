@@ -1,21 +1,22 @@
 # This list contains organizations outside China mainland.
 
-include:aomedia
 include:archive
-include:atypi
-include:change
 include:creativecommons
 include:csis
 include:emojipedia
-include:globalsecurity
 include:ieee
-include:ietf
-include:itu
 include:nist
 include:openstreetmap
 include:ruleoflaw
-include:smpte
-include:un
-include:w3c
-include:who
-include:wto
+
+aomedia.org
+atypi.org
+change.org
+globalsecurity.org
+ietf.org
+itu.int
+smpte.org
+un.org
+w3.org
+who.int
+wto.org
