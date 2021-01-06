@@ -1,5 +1,3 @@
-include:videojs
-
 bcove.video
 bcovlive.io
 bcvp0rtal.com
@@ -8,6 +6,7 @@ brightcove.com
 brightcove.net
 brightcove.services
 brightcovecdn.com
+videojs.com
 
 full:bcovlive-a.akamaihd.net
 full:bcsecure01-a.akamaihd.net
