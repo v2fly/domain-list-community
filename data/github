@@ -1,6 +1,6 @@
-include:atom
 include:npmjs
 
+atom.io
 dependabot.com
 git.io
 github.blog
