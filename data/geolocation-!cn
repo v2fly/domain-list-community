@@ -95,24 +95,28 @@ include:w3schools
 # Entertainment & Games & Music & Podcasts & Videos
 include:category-entertainment
 
-# File host & Image host
+# File & Image & Video hosting
 include:0x0
 include:dropbox
 include:gfycat
 include:imgur
+include:rumble
 include:streamable
 
-# Forums
+# Forums & Social network
 include:4chan
 include:5ch
 include:avsforum
 include:dcard
 include:doom9
+include:gab
 include:hkgolden
 include:lihkg
+include:parler
 include:pincong
 include:quora
 include:reddit
+include:safechat
 
 # Media & News & Press
 include:category-media
@@ -172,7 +176,6 @@ include:notion
 include:ok
 include:opencollective
 include:osdn
-include:parler
 include:pastebin
 include:patreon
 include:picsee
