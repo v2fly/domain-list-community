@@ -121,6 +121,7 @@ include:safechat
 
 # Media & News & Press
 include:category-media
+include:pugpig
 
 # Organizations
 include:category-orgs
