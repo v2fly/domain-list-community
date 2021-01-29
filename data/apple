@@ -736,8 +736,51 @@ xn--ohq11k7pl25iyo8a.cn @cn # 苹果专卖店.cn
 xn--ruq8a011kt6y.xn--hxt814e # 苹果保修.网店
 
 # Domains and services below are available in China mainland
-# Reference: https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
 # Use in config file like this: "geosite:apple@cn"
+full:amp-api-search-edge.apps.apple.com @cn
+full:amp-api.apps.apple.com @cn
+full:aod.itunes.apple.com @cn
+full:api-edge.apps.apple.com @cn
+full:apptrailers.itunes.apple.com @cn
+full:bag.itunes.apple.com @cn
+full:bookkeeper.itunes.apple.com @cn
+full:books.apple.com @cn
+full:client-api.itunes.apple.com @cn
+full:cma.itunes.apple.com @cn
+full:communities.apple.com @cn
+full:discussionschinese.apple.com @cn
+full:fides-pol.apple.com @cn
+full:gspe11-2-cn-ssl.ls.apple.com @cn
+full:gspe12-cn-ssl.ls.apple.com @cn
+full:gspe85-cn-ssl.ls.apple.com @cn
+full:init.itunes.apple.com @cn
+full:iosapps.itunes.apple.com @cn
+full:js-cdn.music.apple.com @cn
+full:km.support.apple.com @cn
+full:maps.apple.com @cn
+full:osxapps.itunes.apple.com @cn
+full:pd.itunes.apple.com @cn
+full:play.itunes.apple.com @cn
+full:se-edge.itunes.apple.com @cn
+full:se2.itunes.apple.com @cn
+full:search.itunes.apple.com @cn
+full:sf-api-token-service.itunes.apple.com @cn
+full:sp.itunes.apple.com @cn
+full:stocks-sparkline.apple.com @cn
+full:streamingaudio.itunes.apple.com @cn
+full:su.itunes.apple.com @cn
+full:sync.itunes.apple.com @cn
+full:upp.itunes.apple.com @cn
+full:weather-data.apple.com @cn
+
+regexp:^a[1-5]\.mzstatic\.com$ @cn
+regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
+regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$ @cn
+regexp:^cl[1-5]\.apple\.com$ @cn
+regexp:^is[1-5](-ssl)?\.mzstatic\.com$ @cn
+regexp:^s[1-5]?\.mzstatic\.com$ @cn
+
+# The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
 full:a1.mzstatic.com @cn
 full:a2.mzstatic.com @cn
 full:a3.mzstatic.com @cn
@@ -860,3 +903,7 @@ full:valid.origin-apple.com.akadns.net @cn
 full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:www.apple.com.edgekey.net @cn
 full:www.apple.com @cn
+
+full:apple.com.akadns.net
+full:courier-push-apple.com.akadns.net
+full:push-apple.com.akadns.net
