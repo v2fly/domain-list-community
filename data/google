@@ -522,8 +522,13 @@ xplr.co
 zukunftswerkstatt.de
 
 # Domains and services below are available in China mainland
-# Reference: https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
 # Use in config file like this: "geosite:google@cn"
+full:csi-china.l.google.com @cn
+full:kh.google.com @cn
+full:www.recaptcha.net @cn
+regexp:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
+
+# The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
 full:265.com @cn
 full:2mdn.net @cn
 full:adservice.google.com @cn
