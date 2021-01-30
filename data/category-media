@@ -39,7 +39,6 @@ include:newscorp
 include:newsmax
 include:nikkei
 include:now
-include:nypost
 include:nytimes
 include:oan
 include:realclear
@@ -50,7 +49,6 @@ include:sky
 include:soundofhope
 include:theguardian
 include:theinitium
-include:thesun
 include:thetype
 include:thomsonreuters
 include:tvb
