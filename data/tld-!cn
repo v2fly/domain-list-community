@@ -4,6 +4,10 @@
 
 # Used by U.S. federal government
 gov
+# Used by U.S. DoD.
+mil
+# Used by U.S. Higher Education.
+edu
 
 # ccTLD
 ac # Ascension Island
