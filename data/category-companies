@@ -19,6 +19,7 @@ include:gigabyte
 include:godaddy
 include:google
 include:hinet
+include:hkbn
 include:hp
 include:ibm
 include:intel
@@ -38,6 +39,7 @@ include:qualcomm
 include:razer
 include:salesforce
 include:samsung
+include:smartone
 include:snap
 include:sony
 include:spacex
