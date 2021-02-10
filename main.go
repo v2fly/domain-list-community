@@ -219,6 +219,45 @@ func Load(path string) (*List, error) {
 	return list, nil
 }
 
+func isMatchAttr(Attrs []*router.Domain_Attribute, includeKey string) bool {
+	isMatch := false
+	mustMatch := true
+	matchName := includeKey
+	if strings.HasPrefix(includeKey, "!") {
+		isMatch = true
+		mustMatch = false
+		matchName = strings.TrimLeft(includeKey, "!")
+	}
+
+	for _, Attr := range Attrs {
+		attrName := Attr.Key
+		if mustMatch {
+			if matchName == attrName {
+				isMatch = true
+				break
+			}
+		} else {
+			if matchName == attrName {
+				isMatch = false
+				break
+			}
+		}
+	}
+	return isMatch
+}
+
+func createIncludeAttrEntrys(list *List, matchAttr *router.Domain_Attribute) []Entry {
+	newEntryList := make([]Entry, 0, len(list.Entry))
+	matchName := matchAttr.Key
+	for _, entry := range list.Entry {
+		matched := isMatchAttr(entry.Attrs, matchName)
+		if matched {
+			newEntryList = append(newEntryList, entry)
+		}
+	}
+	return newEntryList
+}
+
 func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 	pl := &ParsedList{
 		Name:      list.Name,
@@ -231,15 +270,35 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 		for _, entry := range entryList {
 			if entry.Type == "include" {
 				refName := strings.ToUpper(entry.Value)
-				if pl.Inclusion[refName] {
-					continue
+				if entry.Attrs != nil {
+					for _, attr := range entry.Attrs {
+						InclusionName := strings.ToUpper(refName + "@" + attr.Key)
+						if pl.Inclusion[InclusionName] {
+							continue
+						}
+						pl.Inclusion[InclusionName] = true
+
+						refList := ref[refName]
+						if refList == nil {
+							return nil, errors.New(entry.Value + " not found.")
+						}
+						attrEntrys := createIncludeAttrEntrys(refList, attr)
+						if len(attrEntrys) != 0 {
+							newEntryList = append(newEntryList, attrEntrys...)
+						}
+					}
+				} else {
+					InclusionName := refName
+					if pl.Inclusion[InclusionName] {
+						continue
+					}
+					pl.Inclusion[InclusionName] = true
+					refList := ref[refName]
+					if refList == nil {
+						return nil, errors.New(entry.Value + " not found.")
+					}
+					newEntryList = append(newEntryList, refList.Entry...)
 				}
-				pl.Inclusion[refName] = true
-				r := ref[refName]
-				if r == nil {
-					return nil, errors.New(entry.Value + " not found.")
-				}
-				newEntryList = append(newEntryList, r.Entry...)
 				hasInclude = true
 			} else {
 				newEntryList = append(newEntryList, entry)

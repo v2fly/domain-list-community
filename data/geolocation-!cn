@@ -35,6 +35,7 @@ include:tesla
 include:volvo
 
 # Bank & Finance
+include:dowjones
 include:mastercard
 include:paypal
 include:softbank
@@ -65,26 +66,7 @@ include:telegram
 include:category-cryptocurrency
 
 # E-commerce
-include:adidas
-include:bestbuy
-include:booking
-include:costco
-include:craigslist
-include:dmm
-include:ebay
-include:farfetch
-include:gfashion
-include:gucci
-include:hm
-include:homedepot
-include:ikea
-include:miniso
-include:muji
-include:nike
-include:nordstrom
-include:shopee
-include:target
-include:walmart
+include:category-ecommerce
 
 # E-learning & Knowledge & Press & Scholar & Science & Technology
 include:betterexplained
@@ -114,27 +96,34 @@ include:w3schools
 # Entertainment & Games & Music & Podcasts & Videos
 include:category-entertainment
 
-# File host & Image host
+# File & Image & Video hosting
 include:0x0
 include:dropbox
 include:gfycat
 include:imgur
+include:rumble
 include:streamable
 
-# Forums
+# Forums & Social network
 include:4chan
 include:5ch
 include:avsforum
 include:dcard
 include:doom9
+include:gab
 include:hkgolden
 include:lihkg
+include:mewe
+include:parler
 include:pincong
+include:pixnet
 include:quora
 include:reddit
+include:safechat
 
 # Media & News & Press
 include:category-media
+include:pugpig
 
 # Organizations
 include:category-orgs
@@ -191,7 +180,6 @@ include:notion
 include:ok
 include:opencollective
 include:osdn
-include:parler
 include:pastebin
 include:patreon
 include:picsee
@@ -251,6 +239,7 @@ include:huanghuagang
 include:mcdonalds
 include:rarbg
 include:rb
+include:reagroup
 include:starbucks
 include:tsquare
 include:windy
