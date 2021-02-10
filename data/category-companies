@@ -19,6 +19,7 @@ include:gigabyte
 include:godaddy
 include:google
 include:hinet
+include:hkbn
 include:hp
 include:ibm
 include:intel
