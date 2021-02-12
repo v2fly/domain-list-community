@@ -55,6 +55,7 @@ include:stackpath
 include:category-cas
 
 # Communications
+include:clubhouse
 include:discord
 include:freenode
 include:line
