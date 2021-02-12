@@ -349,7 +349,6 @@ google.org
 google.ventures
 googleacquisitionmigration.com
 googleapis.cn @cn
-full:services.googleapis.cn @blockbycn
 googleapis.com
 googleapps.com
 googlearth.com
@@ -521,6 +520,8 @@ xn--gogl-1nd42e.com # goοglе.com
 xn--ngstr-lra8j.com # google play 应用下载时涉及
 xplr.co
 zukunftswerkstatt.de
+
+full:services.googleapis.cn @blockbycn
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
