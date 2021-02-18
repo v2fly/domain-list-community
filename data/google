@@ -525,7 +525,6 @@ zukunftswerkstatt.de
 # Use in config file like this: "geosite:google@cn"
 full:csi-china.l.google.com @cn
 full:www.recaptcha.net @cn
-regexp:^khm([0-3]|db)?\.google(apis)?\.com$ @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
 full:265.com @cn
