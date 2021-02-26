@@ -34,6 +34,7 @@ include:neuralink
 include:nvidia
 include:oracle
 include:panasonic
+include:pearson
 include:pccw
 include:qualcomm
 include:razer
