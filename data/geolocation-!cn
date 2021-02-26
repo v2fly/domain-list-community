@@ -55,6 +55,7 @@ include:stackpath
 include:category-cas
 
 # Communications
+include:clubhouse
 include:discord
 include:freenode
 include:line
@@ -171,6 +172,7 @@ include:kindle4rss
 include:kodi
 include:liberapay
 include:linguee
+include:localizejs
 include:madshi
 include:mapbox
 include:mega
@@ -196,6 +198,7 @@ include:sharethis
 include:shopify
 include:shorturl
 include:sourceforge
+include:squareup
 include:startpage
 include:steemit
 include:svp
