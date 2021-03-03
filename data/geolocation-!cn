@@ -59,6 +59,7 @@ include:clubhouse
 include:discord
 include:freenode
 include:line
+include:matrix
 include:signal
 include:slack
 include:telegram
@@ -209,6 +210,7 @@ include:tidelift
 include:tinyurl
 include:trello
 include:tumblr
+include:tutanota
 include:vercel
 include:webflow
 include:wix
