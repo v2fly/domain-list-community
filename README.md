@@ -34,7 +34,8 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
         "domain:icloud.com",
         "domain:icloud-content.com",
         "domain:cdn-apple.com",
-        "geosite:cn"
+        "geosite:cn",
+        "geosite:private"
       ]
     },
     {
