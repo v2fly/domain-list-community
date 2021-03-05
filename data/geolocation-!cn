@@ -44,6 +44,7 @@ include:visa
 
 # CDN companies & Services
 include:akamai
+include:cdn77
 include:cloudflare
 include:fastly
 include:imgix
