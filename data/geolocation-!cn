@@ -58,6 +58,7 @@ include:category-cas
 include:clubhouse
 include:discord
 include:freenode
+include:intercom
 include:line
 include:matrix
 include:signal
