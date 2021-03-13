@@ -736,6 +736,10 @@ xn--kput3imi374g.xn--hxt814e # 苹果手机.网店
 xn--ohq11k7pl25iyo8a.cn @cn # 苹果专卖店.cn
 xn--ruq8a011kt6y.xn--hxt814e # 苹果保修.网店
 
+full:apple.com.akadns.net
+full:courier-push-apple.com.akadns.net
+full:push-apple.com.akadns.net
+
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:apple@cn"
 full:amp-api-search-edge.apps.apple.com @cn
@@ -904,7 +908,3 @@ full:valid.origin-apple.com.akadns.net @cn
 full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:www.apple.com.edgekey.net @cn
 full:www.apple.com @cn
-
-full:apple.com.akadns.net
-full:courier-push-apple.com.akadns.net
-full:push-apple.com.akadns.net
