@@ -527,6 +527,8 @@ full:csi-china.l.google.com @cn
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
+# Revision: da8ad1d1af59e168244931694887ca4043137c0c
+# Use in config file like this: "geosite:google@cn"
 full:265.com @cn
 full:2mdn.net @cn
 full:adservice.google.com @cn
