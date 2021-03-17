@@ -1,0 +1,15 @@
+domain:cn
+domain:citic
+domain:baidu
+domain:unicom
+domain:sohu
+domain:xn--fiqs8s
+domain:xn--fiqz9s
+domain:xn--1qqw23a
+domain:xn--xhq521b
+domain:xn--8y0a063a
+domain:xn--6frz82g
+domain:xn--fiq64b
+domain:xn--estv75g
+domain:xn--vuq861b
+domain:xn--zfr164b
