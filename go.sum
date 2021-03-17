@@ -171,8 +171,8 @@ github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5Cc
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
 github.com/v2fly/VSign v0.0.0-20201108000810-e2adc24bf848/go.mod h1:p80Bv154ZtrGpXMN15slDCqc9UGmfBuUzheDFBYaW/M=
-github.com/v2fly/v2ray-core/v4 v4.36.0 h1:soEBCSNcjRnM3qgogjhBB3ZBu/977vDDeuiQD63+4g0=
-github.com/v2fly/v2ray-core/v4 v4.36.0/go.mod h1:Q0J1b2q/Ptt9GYd0nYSol/ZOEdR42TPSutMff05sXEw=
+github.com/v2fly/v2ray-core/v4 v4.36.2 h1:JrA3N5BdIc7+rtWgmP9zqw341BmimYmEtuU4lVBFgHY=
+github.com/v2fly/v2ray-core/v4 v4.36.2/go.mod h1:Q0J1b2q/Ptt9GYd0nYSol/ZOEdR42TPSutMff05sXEw=
 github.com/viant/assertly v0.4.8/go.mod h1:aGifi++jvCrUaklKEKT0BU95igDNaqkvz+49uaYMPRU=
 github.com/viant/toolbox v0.24.0/go.mod h1:OxMCG57V0PXuIP2HNQrtJf2CjqdmbrOx5EkMILuUhzM=
 go.opencensus.io v0.18.0/go.mod h1:vKdFvxhtzZ9onBp9VKHK8z/sRpBMnKAsufL7wlDrCOA=
