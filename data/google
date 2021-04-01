@@ -524,6 +524,7 @@ zukunftswerkstatt.de
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
 full:csi-china.l.google.com @cn
+full:gstaticadssl.l.google.com @cn
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
