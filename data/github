@@ -2,6 +2,7 @@ include:npmjs
 
 atom.io
 dependabot.com
+ghcr.io
 git.io
 github.blog
 github.com
