@@ -111,21 +111,7 @@ include:rumble
 include:streamable
 
 # Forums & Social network
-include:4chan
-include:5ch
-include:avsforum
-include:dcard
-include:doom9
-include:gab
-include:hkgolden
-include:lihkg
-include:mewe
-include:parler
-include:pincong
-include:pixnet
-include:quora
-include:reddit
-include:safechat
+include:category-forums
 
 # Media & News & Press
 include:category-media
