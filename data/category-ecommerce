@@ -1,6 +1,7 @@
 include:adidas
 include:bestbuy
 include:booking
+include:books
 include:costco
 include:craigslist
 include:dmm
@@ -12,9 +13,12 @@ include:hm
 include:homedepot
 include:ikea
 include:miniso
+include:momo
 include:muji
 include:nike
 include:nordstrom
+include:pchome
+include:ruten
 include:shopee
 include:target
 include:walmart
