@@ -14,6 +14,7 @@ include:proquest
 include:sciencedirect
 include:springer
 include:taylorfrancis
+include:ieee
 
 aclweb.org
 acm.org
