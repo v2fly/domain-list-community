@@ -16,6 +16,7 @@ include:aliyun
 include:dingtalk
 include:eleme
 include:teambition
+include:uc
 include:umeng
 
 25pp.com
