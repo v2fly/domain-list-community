@@ -3,6 +3,7 @@ include:bestbuy
 include:booking
 include:books
 include:costco
+include:coupang
 include:craigslist
 include:dmm
 include:ebay
@@ -23,3 +24,4 @@ include:ruten
 include:shopee
 include:target
 include:walmart
+include:wish
