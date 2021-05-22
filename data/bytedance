@@ -1,18 +1,26 @@
 include:juejin
+include:lark
+include:tiktok
 
 bytecdn.cn
+byted-static.com
 bytedance.com
 bytedance.net
 bytedns.net
+bytednsdoc.com
 byteimg.com
-byteoversea.com
-douyin.com
+byteoversea.com @!cn
+bytexservice.com
 huaxiong.com
-ibytedtos.com
-jokecommunity.com
-neihanshequ.com
+ibytedtos.com @!cn
+ibyteimg.com @!cn
 pstatp.com
 snssdk.com
+zijiecdn.com
+zijiecdn.net
+zjcdn.com
+
+# 今日头条
 toutiao.com
 toutiaocdn.com
 toutiaocloud.com
@@ -23,18 +31,53 @@ toutiaoimg.cn
 toutiaoimg.com
 toutiaoimg.net
 toutiaopage.com
-wukong.com
-wukongwenda.cn
-wukongwenda.com
-zijiecdn.com
-zijiecdn.net
-zjcdn.com
+toutiaostatic.com
 
-# Baike
-baike.com
+# 抖音
+douyinstatic.com
+douyin.com
 
-#西瓜视频
+# 抖音火山版
+huoshan.com
+huoshanzhibo.com
+
+# 西瓜视频
 ixigua.com
 ixiguavideo.com
 ixgvideo.com
+bdxiguaimg.com
+
+# 快懂百科
+baike.com
+
+# 飞书
+feishu.cn
+feishucdn.com
+
+# 悟空问答
+wukong.com
+wukongwenda.cn
+wukongwenda.com
+
+# 懂车帝
+dongchedi.com
+
+# 阳关宽频网
 365yg.com
+
+# GoGoKid
+gogokid.com.cn
+gogokid.com
+
+# 皮皮虾
+pipix.com
+
+# 番茄小说
+muyewx.com
+changdunovel.com
+
+# faceu
+faceu.com
+
+# 轻颜相机
+ulikecam.com
