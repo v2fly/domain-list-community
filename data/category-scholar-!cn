@@ -91,3 +91,7 @@ yale.edu
 zenodo.org
 
 full:elib.maruzen.co.jp # Maruzen e-Book Library（MEL）
+
+# 日经TELECOM数据库
+full:t21.nikkei.co.jp
+full:t21ipau.nikkei.co.jp
