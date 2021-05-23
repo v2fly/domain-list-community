@@ -15,7 +15,6 @@ include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
-
 funcdn.com
 
 # Bank & Finance & Insurance & Securities
@@ -101,11 +100,6 @@ include:sf-express
 
 # Media & News & Press
 include:category-media-cn
-
-# Others
-include:hainanairlines
-include:jibencaozuo
-include:sinopec
 
 # Organizations
 include:cas
@@ -211,6 +205,12 @@ jikipedia.com
 
 # 餐饮类
 haidilao.com
+
+# Others
+include:8btc
+include:hainanairlines
+include:jibencaozuo
+include:sinopec
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
