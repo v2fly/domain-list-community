@@ -11,6 +11,7 @@ include:maocloud
 include:pkoplink
 include:qingcloud
 include:qiniu
+include:snodehome
 include:ucloud
 include:upai
 include:wangsu
