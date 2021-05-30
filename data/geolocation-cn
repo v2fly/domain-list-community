@@ -11,12 +11,12 @@ include:maocloud
 include:pkoplink
 include:qingcloud
 include:qiniu
+include:snodehome
 include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
 funcdn.com
-include:snodehome
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
