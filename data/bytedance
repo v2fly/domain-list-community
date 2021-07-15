@@ -2,15 +2,19 @@ include:juejin
 include:lark
 include:tiktok
 
+amemv.com
 bytecdn.cn
 byted-static.com
 bytedance.com
 bytedance.net
 bytedns.net
 bytednsdoc.com
+bytegoofy.com
 byteimg.com
 byteoversea.com @!cn
+bytescm.com
 bytexservice.com
+feelgood.cn
 huaxiong.com
 ibytedtos.com @!cn
 ibyteimg.com @!cn
@@ -34,11 +38,14 @@ toutiaopage.com
 toutiaostatic.com
 
 # 抖音
-douyinstatic.com
 douyin.com
+douyinpic.com
+douyinstatic.com
+douyinvod.com
 
 # 抖音火山版
 huoshan.com
+huoshanstatic.com
 huoshanzhibo.com
 
 # 西瓜视频
