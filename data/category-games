@@ -1,4 +1,5 @@
 include:blizzard
+include:curseforge
 include:ea
 include:epicgames
 include:garena
@@ -16,3 +17,4 @@ include:xbox
 
 fanatical.com
 humblebundle.com
+planetminecraft.com
