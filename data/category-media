@@ -27,6 +27,7 @@ include:huffpost
 include:infowars
 include:insider
 include:kanzhongguo
+include:linetv
 include:londonreal
 include:ltn
 include:manorama
@@ -42,6 +43,7 @@ include:nikkei
 include:now
 include:nytimes
 include:oan
+include:primevideo
 include:realclear
 include:rthk
 include:scmp
