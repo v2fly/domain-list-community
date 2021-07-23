@@ -87,6 +87,7 @@ include:edx
 include:egghead
 include:embl
 include:freecodecamp
+include:kaggle
 include:khanacademy
 include:knovel
 include:laracasts
