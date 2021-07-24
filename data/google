@@ -8,6 +8,7 @@ include:golang
 include:google-ads
 include:google-registry
 include:google-scholar
+include:kaggle
 include:polymer
 include:v8
 include:youtube
