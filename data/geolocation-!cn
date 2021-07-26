@@ -234,6 +234,7 @@ include:wikimedia
 # Others
 include:espressif
 include:familymart
+include:fzdm
 include:hkedcity
 include:huanghuagang
 include:mcdonalds
