@@ -1,14 +1,12 @@
 include:amazon-ads
 include:aws
+include:imdb
 include:kindle
 include:primevideo
 include:wholefoodsmarket
 
 # All .amazon domains
 amazon
-
-# All .imdb domains
-imdb
 
 # All .アマゾン domains
 xn--cckwcxetd
