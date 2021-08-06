@@ -2,6 +2,12 @@ include:dnspod
 include:tencent-ads
 include:yuewen
 
+# qq.中国
+qq.xn--fiqs8s
+
+# 腾讯.中国
+xn--r70as2s.xn--fiqs8s
+
 apcdns.net
 cdn-go.cn
 cdntips.com
