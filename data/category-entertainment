@@ -6,6 +6,7 @@ include:attwatchtv
 include:bahamut
 include:bandcamp
 include:category-games
+include:dandanzan
 include:dazn
 include:deviantart
 include:disney
@@ -14,6 +15,7 @@ include:hulu
 include:imdb
 include:kingkonglive
 include:kkbox
+include:mudvod
 include:mytvsuper
 include:netflix
 include:niconico
