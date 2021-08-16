@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 
@@ -371,6 +372,11 @@ func main() {
 			}
 		}
 	}
+
+	// Sort protoList so the marshaled list is reproducible
+	sort.SliceStable(protoList.Entry, func(i, j int) bool {
+		return protoList.Entry[i].CountryCode < protoList.Entry[j].CountryCode
+	})
 
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {
