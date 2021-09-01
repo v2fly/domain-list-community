@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Go 1.x.y
+      - name: Setup Go
         uses: actions/setup-go@v2
         with:
-          go-version: ^1.16
+          go-version: 1.17
 
       - name: Set variables
         run: |
@@ -23,7 +23,7 @@ jobs:
         shell: bash
 
       - name: Checkout codebase
-        uses: actions/checkout@v2.3.4
+        uses: actions/checkout@v2
         with:
           path: code
 
