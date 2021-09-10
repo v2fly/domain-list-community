@@ -14,6 +14,7 @@ include:canon
 include:cisco
 include:cloudcone
 include:dell
+include:digitalocean
 include:facebook
 include:gigabyte
 include:godaddy
@@ -48,6 +49,7 @@ include:twitter
 include:uber
 include:verizon
 include:vk
+include:vultr
 include:westerndigital
 include:yahoo
 include:yandex
