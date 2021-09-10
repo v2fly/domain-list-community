@@ -30,13 +30,6 @@ steampipe.steamcontent.tnkjmec.com @cn
 # 网宿
 steampowered.com.8686c.com @cn
 steamstatic.com.8686c.com @cn
-cdn-ws.content.steamchina.com
-
-# 腾讯云（仅在蒸汽中国，但可用于国际版）
-cdn-qc.content.steamchina.com
-
-# 阿里云（仅在蒸汽中国，但可用于国际版）
-cdn-ali.content.steamchina.com
 
 full:steambroadcast.akamaized.net
 full:steamcdn-a.akamaihd.net
@@ -45,3 +38,6 @@ full:steamstore-a.akamaihd.net
 full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
+
+# 蒸汽中国
+steamchina.com @cn
