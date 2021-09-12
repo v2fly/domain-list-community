@@ -1,7 +1,5 @@
 # List of all domains being used in log collection or monitor.
 
-include:category-ads
-
 analytics.map.qq.com
 app-measurement.com
 in.appcenter.ms
