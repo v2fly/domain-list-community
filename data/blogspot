@@ -1,3 +1,7 @@
+# Main domain which weblogs are registered in
+blogger.com
+
+# Subdomains which weblogs can be accessed from
 blogspot.ae
 blogspot.al
 blogspot.am
