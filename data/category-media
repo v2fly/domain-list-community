@@ -18,6 +18,7 @@ include:economist
 include:epochmediagroup
 include:forbes
 include:fox
+include:ftv
 include:gannett
 include:globalvoices
 include:guo
@@ -45,6 +46,7 @@ include:oan
 include:realclear
 include:rthk
 include:scmp
+include:setn
 include:singtaonewscorp
 include:sky
 include:soundofhope
@@ -57,6 +59,7 @@ include:tver
 include:udn
 include:voanews
 include:voxmedia
+include:wantmedia
 include:watchout
 include:ycombinator
 include:zaobao
@@ -76,12 +79,8 @@ caijinglengyan.com
 chinadecoding.com
 chinadigitaltimes.net
 chinaeconomicreview.com
-chinatimes.com
-chinatimes.com.tw
 cna.com.tw
 cnyes.com
-ctee.com.tw
-ctwant.com
 cup.com.hk
 cw.com.tw
 d100.net
@@ -91,8 +90,6 @@ ettoday.net
 factwire.org
 fortuneinsight.com
 freebeacon.com
-ftv.com.tw
-ftvnews.com.tw
 hk01.com
 hkcitizenmedia.com
 hkcnews.com
@@ -122,8 +119,6 @@ rfi.fr
 rsf.org
 rt.com
 rtings.com
-setn.com
-settv.com.tw
 shuziyimin.org
 singpao.com.hk
 sinoinsider.com
