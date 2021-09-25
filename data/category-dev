@@ -44,6 +44,7 @@ include:ruby
 include:scala
 include:stackexchange
 include:strikingly
+include:termux
 include:thelinuxfoundation
 include:unity
 include:v8

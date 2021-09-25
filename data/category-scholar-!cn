@@ -53,6 +53,7 @@ japanknowledge.com # Japan Knowledge Lib（日本知识库）数据库
 jbe-platform.com # e-content platform of John Benjamins Publishing Company
 jmlr.org
 jneurosci.org
+jstage.jst.go.jp # Japan Science and Technology Information Aggregator, Electronic, J-STAGE (日本Free Access学术期刊)
 jstor.org
 kuke.com # KUKE数字音乐图书馆
 lawdata.com.tw # 台湾月旦知识库
@@ -62,6 +63,7 @@ medrxiv.org
 nature.com
 nejm.org
 neurology.org
+nii.ac.jp # CiNii学术信息导航
 ovid.com
 peerj.com
 physiology.org
@@ -77,6 +79,7 @@ scholarpedia.org
 sciencemag.org
 scientificamerican.com
 scitation.org
+semanticscholar.org
 silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
 spiedigitallibrary.org
 statsmakemecry.com
@@ -87,3 +90,10 @@ umass.edu
 wiley.com
 yale.edu
 zenodo.org
+
+full:database.asahi.com # 朝日新闻数据库（闻藏II Visual）
+full:elib.maruzen.co.jp # Maruzen e-Book Library（MEL）
+
+# 日经TELECOM数据库
+full:t21.nikkei.co.jp
+full:t21ipau.nikkei.co.jp
