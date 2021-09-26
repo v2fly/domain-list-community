@@ -29,6 +29,7 @@ include:soundcloud
 include:spotify
 include:tidal
 include:tiktok
+include:tmdb
 include:tver
 include:twitch
 include:vimeo
