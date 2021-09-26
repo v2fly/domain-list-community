@@ -91,10 +91,12 @@ include:kaggle
 include:khanacademy
 include:knovel
 include:laracasts
+include:libgen
 include:masterclass
 include:mzed
 include:oreilly
 include:pearson
+include:sci-hub
 include:sitepoint
 include:skillshare
 include:ted
