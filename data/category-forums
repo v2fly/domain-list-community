@@ -5,6 +5,7 @@ include:ck101
 include:dcard
 include:hkgolden
 include:lihkg
+include:mobile01
 include:pixnet
 include:ptt
 include:quora
