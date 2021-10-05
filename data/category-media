@@ -18,6 +18,7 @@ include:economist
 include:epochmediagroup
 include:forbes
 include:fox
+include:ft
 include:ftv
 include:gannett
 include:globalvoices
@@ -28,8 +29,10 @@ include:huffpost
 include:infowars
 include:insider
 include:kanzhongguo
+include:kyodonews
 include:londonreal
 include:ltn
+include:mainichi
 include:manorama
 include:matters
 include:mediachinesegroup
@@ -39,12 +42,14 @@ include:nbcuniversal
 include:neowin
 include:newscorp
 include:newsmax
+include:nikkan-gendai
 include:nikkei
 include:now
 include:nytimes
 include:oan
 include:realclear
 include:rthk
+include:sankei
 include:scmp
 include:setn
 include:singtaonewscorp
@@ -54,6 +59,7 @@ include:theguardian
 include:theinitium
 include:thetype
 include:thomsonreuters
+include:tokyo-sports
 include:tvb
 include:tver
 include:udn
@@ -62,6 +68,7 @@ include:voxmedia
 include:wantmedia
 include:watchout
 include:ycombinator
+include:yomiuri
 include:zaobao
 include:zee
 
