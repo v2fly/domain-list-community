@@ -33,6 +33,7 @@ include:newrelic-ads
 include:ogury-ads
 include:onesignal-ads
 include:ookla-speedtest-ads
+include:penzai-list
 include:pocoiq-ads
 include:pubmatic-ads
 include:segment-ads
