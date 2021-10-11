@@ -110,6 +110,7 @@ include:category-entertainment
 include:0x0
 include:dropbox
 include:gfycat
+include:imgbb
 include:imgur
 include:rumble
 include:streamable
@@ -222,6 +223,9 @@ include:category-dev
 include:category-companies
 
 # Torrent websites
+include:1337x
+include:btdig
+include:demonoid
 include:nyaa
 include:piratebay
 include:rarbg
@@ -247,6 +251,7 @@ include:huanghuagang
 include:mcdonalds
 include:rb
 include:reagroup
+include:scenesource
 include:starbucks
 include:tsquare
 include:windy

@@ -32,6 +32,7 @@ include:subscene
 include:tidal
 include:tiktok
 include:tmdb
+include:tvdb
 include:tver
 include:twitch
 include:vimeo
