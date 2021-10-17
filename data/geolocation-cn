@@ -5,6 +5,7 @@ include:jiguang
 include:umeng
 
 # CDN companies & Services
+include:baijiayun
 include:bootcss
 include:dwion
 include:maocloud
@@ -56,6 +57,7 @@ include:bilibili
 include:dedao
 include:dmzj
 include:douyu
+include:duitang
 include:gamersky
 include:gcores
 include:gitv
@@ -117,6 +119,7 @@ include:agora
 include:antutu
 include:bitauto
 include:category-collaborate-cn
+include:category-documents-cn
 include:capitalonline
 include:chinaso
 include:chinaz
@@ -151,6 +154,7 @@ include:category-scholar-cn
 include:category-wiki-cn
 include:cugbonline
 include:guokr
+include:koolearn
 include:wanfang
 include:xueersi
 include:yuanfudao
@@ -197,6 +201,7 @@ include:chinaunicom
 
 # 语言能力测试
 include:j-test
+include:nat-test
 
 # 在线工具书
 guoxuedashi.com
@@ -525,7 +530,6 @@ dingxiang-inc.com
 diopic.net
 diyiyou.com
 dj99.com
-docin.com
 dockerone.com
 dockone.io
 dogedoge.com
@@ -776,7 +780,6 @@ kimiss.com
 kingdee.com
 kkzj.com
 kongfz.com
-koolearn.com
 kouclo.com
 koudai.com
 koudai8.com
