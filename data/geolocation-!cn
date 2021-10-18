@@ -75,11 +75,13 @@ include:category-cryptocurrency
 include:category-ecommerce
 
 # E-learning & Knowledge & Press & Scholar & Science & Technology
+include:anandtech
 include:betterexplained
 include:brilliant
 include:category-scholar-!cn
 include:cern
 include:chinapower
+include:cnet
 include:code
 include:codecademy
 include:coursera
@@ -92,12 +94,15 @@ include:khanacademy
 include:knovel
 include:laracasts
 include:libgen
+include:lifewire
 include:masterclass
 include:mzed
 include:oreilly
 include:pearson
 include:sitepoint
 include:skillshare
+include:spiceworks
+include:techtimes
 include:ted
 include:udacity
 include:udemy
@@ -110,6 +115,8 @@ include:category-entertainment
 include:0x0
 include:dropbox
 include:gfycat
+include:imagecurl
+include:imageshack
 include:imgbb
 include:imgur
 include:rumble
@@ -244,11 +251,13 @@ include:wikihow
 include:wikimedia
 
 # Others
+include:avaxhome
 include:espressif
 include:familymart
 include:fzdm
 include:hkedcity
 include:huanghuagang
+include:lavteam
 include:mcdonalds
 include:rb
 include:reagroup

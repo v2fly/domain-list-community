@@ -14,6 +14,7 @@ include:cbs
 include:cnbc
 include:cnn
 include:dailymail
+include:dw
 include:economist
 include:epochmediagroup
 include:forbes
@@ -95,7 +96,6 @@ coolloud.org.tw
 cup.com.hk
 cw.com.tw
 d100.net
-dw.com
 ebc.net.tw
 ettoday.net
 eventsinfocus.org
