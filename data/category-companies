@@ -17,6 +17,7 @@ include:cloudcone
 include:dell
 include:digitalocean
 include:facebook
+include:faronics
 include:gigabyte
 include:godaddy
 include:google
