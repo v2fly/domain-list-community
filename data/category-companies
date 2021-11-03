@@ -17,6 +17,7 @@ include:cloudcone
 include:dell
 include:digitalocean
 include:facebook
+include:faronics
 include:gigabyte
 include:godaddy
 include:google
@@ -46,6 +47,7 @@ include:snap
 include:sony
 include:spacex
 include:theboringcompany
+include:tonec
 include:twitter
 include:uber
 include:verizon
