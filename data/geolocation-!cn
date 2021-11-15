@@ -150,6 +150,7 @@ include:apkmirror
 include:apkpure
 include:aptoide
 include:arphic
+include:authy
 include:bitly
 include:bitwarden
 include:blender
