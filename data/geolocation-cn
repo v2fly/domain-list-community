@@ -221,6 +221,12 @@ include:hainanairlines
 include:jibencaozuo
 include:sinopec
 
+# 流利说
+liulishuo.com
+llsapp.com
+llscdn.com
+llsserver.com
+
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
 
@@ -820,15 +826,11 @@ linkvans.com
 linsn.com
 linuxidc.com
 liulanqi.net
-liulishuo.com
 liuxiaoer.com
 live800.com
 liweijia.com
 lixinger.com
 lkkbrand.com
-llsapp.com
-llscdn.com
-llsserver.com
 longhoo.net
 longre.com
 longtugame.com
