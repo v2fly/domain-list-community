@@ -214,18 +214,18 @@ jikipedia.com
 # 餐饮类
 haidilao.com
 
+# 流利说
+liulishuo.com
+llsapp.com
+llscdn.com
+llsserver.com
+
 # Others
 include:8btc
 include:chinaexpressair
 include:hainanairlines
 include:jibencaozuo
 include:sinopec
-
-# 流利说
-liulishuo.com
-llsapp.com
-llscdn.com
-llsserver.com
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
