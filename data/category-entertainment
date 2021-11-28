@@ -1,6 +1,7 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
 include:abema
+include:anime
 include:archiveofourown
 include:attwatchtv
 include:bahamut
@@ -10,7 +11,6 @@ include:dandanzan
 include:dazn
 include:deviantart
 include:disney
-include:gogoanime
 include:hbo
 include:hulu
 include:imdb
