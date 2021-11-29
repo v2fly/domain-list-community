@@ -5,7 +5,6 @@ cbs
 showtime
 
 cbs.com
-cbsaavideo.com
 cbscorporation.com
 cbsi.com
 cbsi.video
@@ -27,3 +26,14 @@ viacomcbspressexpress.com
 
 # Paramount
 paramount.com
+
+# Paramount Plus
+amlg.io
+cbsaavideo.com
+mtvnservices.com
+paramountplus.com
+pplusstatic.com 
+full:cbsi.live.ott.irdeto.com
+full:cbsplaylistserver.aws.syncbak.com
+full:cbsservice.aws.syncbak.com
+full:link.theplatform.com
