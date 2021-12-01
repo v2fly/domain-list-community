@@ -113,6 +113,7 @@ include:category-entertainment
 
 # File & Image & Video hosting
 include:0x0
+include:casimages
 include:dropbox
 include:gfycat
 include:imagebam
@@ -122,6 +123,7 @@ include:imagetwist
 include:imgbb
 include:imgur
 include:pixhost
+include:postimages
 include:pstorage
 include:rumble
 include:streamable
