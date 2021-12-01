@@ -114,6 +114,7 @@ include:category-entertainment
 # File & Image & Video hosting
 include:0x0
 include:casimages
+include:cloudinary
 include:dropbox
 include:gfycat
 include:imagebam
