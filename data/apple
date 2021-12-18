@@ -753,6 +753,7 @@ full:client-api.itunes.apple.com @cn
 full:cma.itunes.apple.com @cn
 full:communities.apple.com @cn
 full:discussionschinese.apple.com @cn
+full:downloaddispatch.itunes.apple.com @cn
 full:fides-pol.apple.com @cn
 full:gspe11-2-cn-ssl.ls.apple.com @cn
 full:gspe12-cn-ssl.ls.apple.com @cn
@@ -797,6 +798,7 @@ full:adcdownload.apple.com @cn
 full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:apps.mzstatic.com @cn
+full:api-cn.apple-mapkit.com @cn
 full:cdn-cn1.apple-mapkit.com @cn
 full:cdn-cn2.apple-mapkit.com @cn
 full:cdn-cn3.apple-mapkit.com @cn
