@@ -36,6 +36,7 @@ include:openwrt
 include:perl
 include:polymer
 include:python
+include:python-community
 include:qt
 include:readthedocs
 include:redis
