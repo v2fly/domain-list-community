@@ -1,8 +1,8 @@
 # All .youtube domains
 youtube
 
-# Usㄍ regular expression to match gvt1.com, gvt2.com......and more.
-regexp:\.gvt*\.com$
+# Use regular expression to match gvt1.com, gvt2.com......and more.
+regexp:(.+\.)?gvt[0-9]+\.com$
 
 ggpht.cn @cn
 ggpht.com
