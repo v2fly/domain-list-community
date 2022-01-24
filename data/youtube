@@ -1,11 +1,12 @@
 # All .youtube domains
 youtube
 
+# Usㄍ regular expression to match gvt1.com, gvt2.com......and more.
+regexp:\.gvt*\.com$
+
 ggpht.cn @cn
 ggpht.com
 googlevideo.com
-gvt1.com
-gvt2.com
 withyoutube.com
 youtu.be
 youtube-nocookie.com
@@ -176,5 +177,4 @@ youtubei.googleapis.com
 youtubekids.com
 youtubemobilesupport.com
 yt.be
-yt3.ggpht.com
 ytimg.com
