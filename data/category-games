@@ -5,6 +5,7 @@ include:ea
 include:epicgames
 include:garena
 include:gog
+include:mihoyo
 include:nintendo
 include:op
 include:playstation
@@ -15,7 +16,6 @@ include:steam
 include:steamunlocked
 include:ubisoft
 include:xbox
-include:mihoyo
 
 fanatical.com
 humblebundle.com
