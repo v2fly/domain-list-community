@@ -108,7 +108,6 @@ include:sf-express
 include:category-media-cn
 
 # Organizations
-include:cas
 include:category-hospital-cn
 
 # Services & Softwares
