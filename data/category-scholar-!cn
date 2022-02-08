@@ -17,39 +17,72 @@ include:sciencedirect
 include:springer
 include:taylorfrancis
 
+aacrjournals.org # AACR 美国癌症研究学会
 aclweb.org
 acm.org
 acs.org
+aiaa.org # AIAA 美国航空航天学会
 
 # 華藝學術
 airiti.com
 airitilibrary.com
 
 altmetric.com
+alexanderstreet.com # Alexander Street
+amdigital.co.uk # Adam Matthew Digital 历史与文化珍稀史料数据库集成
+ams.org # 美国数学学会
 analytictech.com
 annualreviews.org
 aps.org # American Physical Society Sites
+artstor.org # ARTstor Digital Library 艺术图像数据库
 arxiv.org
+ascelibrary.org # American Society of Civil Engineers 美国土木工程师学会
 asha.org
+asm.org # The American Society for Microbiology 美国微生物学会
+asme.org # American Society of Mechanical Engineers 美国机械工程师学会
+asminternational.org # ASM 材料信息协会
+aspenpublishing.com # ASPEN Digital Library 法律
+astm.org # ASTM 美国材料与试验协会
 berkeley.edu
 biomedcentral.com # BMC
 biorxiv.org
+bloomsburydesignlibrary.com # BLOOMSBURY Design Library 工业设计图书馆
+bmj.com # BMJ 英国医学会期刊
+booksinprint.com # Global Books In Print
+brepolis.net # Brepolis系列数据库
 brill.com
+bvdinfo.com # BvD系列数据库（Bank Focus、Osiris、ORBIS、Orbis Intellectual Property、Zephyr、EIU Countrydata）
+cairn.info # Cairn 法语数据库
+capitaliq.com # Capital IQ
+cas.org # American Chemical Society
 cell.com
 cmu.edu
 computingreviews.com
 degruyter.com
 dentalhypotheses.com
+ebsco.com # EBSCO 检索平台
+ebscohost.com
 elifesciences.org
+emerald.com # Emerald 管理学期刊库、工程学期刊库、电子书
+ems-ph.org # European Mathematical Society Publishing House
 europepmc.org
+facultyopinions.com # Faculty Opinions
 frontiersin.org
 gale.com # Gale 平台
 galegroup.com # Gale 平台
 ggsrv.com # Gale 平台
+global-sci.org # Global Science Press GSP电子期刊
+heinonline.org # HeinOnline 法律全文数据库
+highwirepress.com # HighWire Press 电子期刊
 hindawi.com
+icevirtuallibrary.com # 英国土木工程师学会 ICE Virtual Library
+icsd.fiz-karlsruhe.de # Inorganic Crystal Structure Database
+igi-global.com # IGI Global 平台
+igpublish.com # iG Publishing电子图书
 informs.org
 iop.org
 isca-speech.org
+iwaponline.com # IWA(国际水协会) 电子期刊
 jamanetwork.com
 japanknowledge.com # Japan Knowledge Lib（日本知识库）数据库
 jbe-platform.com # e-content platform of John Benjamins Publishing Company
@@ -59,6 +92,7 @@ jstage.jst.go.jp # Japan Science and Technology Information Aggregator, Electron
 jstor.org
 kuke.com # KUKE数字音乐图书馆
 lawdata.com.tw # 台湾月旦知识库
+lexisnexis.com # Lexis 法律全文数据库
 literatumonline.com # Wiley Online Library@https://pericles.pericles-prod.literatumonline.com/
 mdpi.com
 medrxiv.org
@@ -67,11 +101,12 @@ naturemag.org
 nejm.org
 neurology.org
 nii.ac.jp # CiNii学术信息导航
+opg.optica.org # OSA—Optical Society of America 美国光学学会全文数据库
 ovid.com
 peerj.com
 physiology.org
 plos.org
-pnas.org
+pnas.org # Proceedings of the National Academy of Sciences of the United States of America 美国科学院报
 princeton.edu
 researchgate.net
 routledgehandbooks.com
@@ -85,13 +120,20 @@ sciencemag.org
 scientificamerican.com
 scitation.org
 semanticscholar.org
+siam.org # Society for Industry and Applied Mathematics 美国工业和应用数学学会
 silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
 spiedigitallibrary.org
 statsmakemecry.com
 thelancet.com
+
+# Thieme Gruppe
+thieme.de
+thieme-connect.de
+
 uchicago.edu
 ucla.edu
 umass.edu
+westlaw.com
 wiley.com
 yale.edu
 zenodo.org
