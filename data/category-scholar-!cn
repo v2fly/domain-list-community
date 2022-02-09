@@ -22,6 +22,7 @@ aclweb.org
 acm.org
 acs.org
 aiaa.org # AIAA 美国航空航天学会
+aimsciences.org # AIMS 美国科学数学协会期刊库
 
 # 華藝學術
 airiti.com
@@ -41,6 +42,7 @@ asha.org
 asm.org # The American Society for Microbiology 美国微生物学会
 asme.org # American Society of Mechanical Engineers 美国机械工程师学会
 asminternational.org # ASM 材料信息协会
+aspbjournals.org # ASPB 美国植物生物学家学会全文期刊库
 aspenpublishing.com # ASPEN Digital Library 法律
 astm.org # ASTM 美国材料与试验协会
 berkeley.edu
@@ -55,16 +57,22 @@ bvdinfo.com # BvD系列数据库（Bank Focus、Osiris、ORBIS、Orbis Intellect
 cairn.info # Cairn 法语数据库
 capitaliq.com # Capital IQ
 cas.org # American Chemical Society
-cell.com
+choicereviews.org
+cios.org
 cmu.edu
+cochranelibrary.com
 computingreviews.com
 degruyter.com
 dentalhypotheses.com
 ebsco.com # EBSCO 检索平台
 ebscohost.com
+electrochem.org
+elgaronline.com
 elifesciences.org
+embase.com
 emerald.com # Emerald 管理学期刊库、工程学期刊库、电子书
 ems-ph.org # European Mathematical Society Publishing House
+eurekaselect.com # Bentham Science期刊库
 europepmc.org
 facultyopinions.com # Faculty Opinions
 frontiersin.org
@@ -135,9 +143,11 @@ ucla.edu
 umass.edu
 westlaw.com
 wiley.com
+worldscientific.com
 yale.edu
 zenodo.org
 
+full:databank.worldbank.org # World DataBank 世界经济学数据库
 full:database.asahi.com # 朝日新闻数据库（闻藏II Visual）
 full:elib.maruzen.co.jp # Maruzen e-Book Library（MEL）
 
