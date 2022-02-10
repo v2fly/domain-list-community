@@ -18,6 +18,7 @@ include:springer
 include:taylorfrancis
 
 aacrjournals.org # AACR 美国癌症研究学会
+academic.eb.com # Britannica Academic
 aclweb.org
 acm.org
 acs.org
@@ -32,9 +33,11 @@ altmetric.com
 alexanderstreet.com # Alexander Street
 amdigital.co.uk # Adam Matthew Digital 历史与文化珍稀史料数据库集成
 ams.org # 美国数学学会
+anatomy.tv # digital human anatomy and physiology content
 analytictech.com
 annualreviews.org
 aps.org # American Physical Society Sites
+arabidopsis.org
 artstor.org # ARTstor Digital Library 艺术图像数据库
 arxiv.org
 ascelibrary.org # American Society of Civil Engineers 美国土木工程师学会
@@ -42,12 +45,16 @@ asha.org
 asm.org # The American Society for Microbiology 美国微生物学会
 asme.org # American Society of Mechanical Engineers 美国机械工程师学会
 asminternational.org # ASM 材料信息协会
+asn-online.org # ASN 美国肾脏病学会期刊
 aspbjournals.org # ASPB 美国植物生物学家学会全文期刊库
 aspenpublishing.com # ASPEN Digital Library 法律
 astm.org # ASTM 美国材料与试验协会
 berkeley.edu
+biologists.com # COB期刊
 biomedcentral.com # BMC
+bioone.org # BioOne
 biorxiv.org
+bloomsburycollections.com # Bloomsbury Publishing
 bloomsburydesignlibrary.com # BLOOMSBURY Design Library 工业设计图书馆
 bmj.com # BMJ 英国医学会期刊
 booksinprint.com # Global Books In Print
@@ -57,6 +64,7 @@ bvdinfo.com # BvD系列数据库（Bank Focus、Osiris、ORBIS、Orbis Intellect
 cairn.info # Cairn 法语数据库
 capitaliq.com # Capital IQ
 cas.org # American Chemical Society
+chemnetbase.com # CRC Handbook of Chemistry and Physics
 choicereviews.org
 cios.org
 cmu.edu
@@ -96,30 +104,38 @@ japanknowledge.com # Japan Knowledge Lib（日本知识库）数据库
 jbe-platform.com # e-content platform of John Benjamins Publishing Company
 jmlr.org
 jneurosci.org
+jove.com
 jstage.jst.go.jp # Japan Science and Technology Information Aggregator, Electronic, J-STAGE (日本Free Access学术期刊)
 jstor.org
+karger.com
 kuke.com # KUKE数字音乐图书馆
 lawdata.com.tw # 台湾月旦知识库
 lexisnexis.com # Lexis 法律全文数据库
 literatumonline.com # Wiley Online Library@https://pericles.pericles-prod.literatumonline.com/
 mdpi.com
 medrxiv.org
+morganclaypool.com
 nature.com
 naturemag.org
 nejm.org
 neurology.org
 nii.ac.jp # CiNii学术信息导航
-opg.optica.org # OSA—Optical Society of America 美国光学学会全文数据库
+oecd-ilibrary.org # Organisation for Economic Co-operation and Development
+optica.org # OSA 美国光学学会全文数据库
+osapublishing.org # OSA
 ovid.com
 peerj.com
 physiology.org
 plos.org
 pnas.org # Proceedings of the National Academy of Sciences of the United States of America 美国科学院报
 princeton.edu
+projecteuclid.org # Project Euclid Mathematics and Statistics Online
 researchgate.net
 routledgehandbooks.com
 royalsocietypublishing.org
 rsc.org
+rupress.org
+sae.org
 sagepub.com
 scholarpedia.org
 science.com
@@ -136,21 +152,32 @@ thelancet.com
 
 # Thieme Gruppe
 thieme.de
+thieme-connect.com
 thieme-connect.de
+full:medone-education.thieme.com
 
+totalmateria.com # Total Materia
 uchicago.edu
 ucla.edu
 umass.edu
 westlaw.com
 wiley.com
+wolterskluwer.com
 worldscientific.com
 yale.edu
 zenodo.org
 
+full:beck-online.beck.de # Beck-Online数据库
+full:dl.begellhouse.com # Begell Digital Library
 full:databank.worldbank.org # World DataBank 世界经济学数据库
 full:database.asahi.com # 朝日新闻数据库（闻藏II Visual）
 full:elib.maruzen.co.jp # Maruzen e-Book Library（MEL）
+full:firstsearch.oclc.org # OCLC FirstSearch
+full:muse.jhu.edu # Project MUSE
 
 # 日经TELECOM数据库
 full:t21.nikkei.co.jp
 full:t21ipau.nikkei.co.jp
+
+full:ulrichsweb.serialssolutions.com
+full:wrds-www.wharton.upenn.edu # Compustat 财务与价格数据库
