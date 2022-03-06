@@ -22,6 +22,7 @@ academic.eb.com # Britannica Academic
 aclweb.org
 acm.org
 acs.org
+agu.org # American Geophysical Union
 aiaa.org # AIAA 美国航空航天学会
 aimsciences.org # AIMS 美国科学数学协会期刊库
 
@@ -64,6 +65,7 @@ bvdinfo.com # BvD系列数据库（Bank Focus、Osiris、ORBIS、Orbis Intellect
 cairn.info # Cairn 法语数据库
 capitaliq.com # Capital IQ
 cas.org # American Chemical Society
+ceicdata.com # CEIC 经济数据库
 chemnetbase.com # CRC Handbook of Chemistry and Physics
 choicereviews.org
 cios.org
@@ -86,6 +88,7 @@ facultyopinions.com # Faculty Opinions
 frontiersin.org
 gale.com # Gale 平台
 galegroup.com # Gale 平台
+geolytics.com # Time Series Research Package（美国人口普查数据库）
 ggsrv.com # Gale 平台
 global-sci.org # Global Science Press GSP电子期刊
 heinonline.org # HeinOnline 法律全文数据库
@@ -95,6 +98,11 @@ icevirtuallibrary.com # 英国土木工程师学会 ICE Virtual Library
 icsd.fiz-karlsruhe.de # Inorganic Crystal Structure Database
 igi-global.com # IGI Global 平台
 igpublish.com # iG Publishing电子图书
+
+#  漢珍數字圖書股份有限公司
+hanzhen.xmulib.org # 厦门大学汉珍数位
+infolinker.com.tw
+
 informs.org
 iop.org
 isca-speech.org
@@ -139,9 +147,13 @@ rupress.org
 sae.org
 sagepub.com
 scholarpedia.org
+
+# Science Online From AAAS
 science.com
 science.org
 sciencemag.org
+scienceonline.org
+
 scientificamerican.com
 scitation.org
 semanticscholar.org
@@ -150,6 +162,7 @@ silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcem
 spiedigitallibrary.org
 statsmakemecry.com
 thelancet.com
+tickdata.com # Tick Data-Futures and Indices Historical Data
 
 # Thieme Gruppe
 thieme.de
