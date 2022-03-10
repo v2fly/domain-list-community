@@ -8,6 +8,7 @@ benghuai.com
 
 # 崩坏3
 bh3.com
+honkaiimpact3.com
 
 # 星穹鐵道
 honkaistarrail.com
@@ -17,3 +18,6 @@ hoyolab.com
 
 # 原神
 yuanshen.com
+
+# Akamai
+regexp:^.+-mihayo\.akamaized\.net$
