@@ -16,6 +16,7 @@ include:aliyun
 include:dingtalk
 include:eleme
 include:teambition
+include:uc
 include:umeng
 
 25pp.com
@@ -43,6 +44,7 @@ alimebot.com
 alimei.com
 alios.cn
 alipay.com
+alipaydns.com
 alipayobjects.com
 aliplus.com
 aliresearch.com
@@ -111,6 +113,10 @@ zuodao.com
 aliexpress.com
 aliexpress.ru
 
+# 阿里云盘
+alicloudccp.com
+aliyundrive.com
+
 # 神马搜索
 sm.cn
 
@@ -164,3 +170,9 @@ gaode.com
 xiami.com
 xiami.fm
 xiami.net
+
+# 口碑
+koubei.com
+
+# npmmirror 中国镜像站
+npmmirror.com

@@ -1,0 +1,46 @@
+# All .aws domains
+aws
+
+# AWS
+acmvalidations.com
+acmvalidationsaws.com
+aesworkshops.com
+amazonaws-china.com
+amazonaws.co.uk
+amazonaws.com
+amazonaws.tv
+amazonworkdocs.cn @cn
+amazonworkdocs.com
+amazonworkdocs.com.cn @cn
+amplifyapp.com
+amplifyframework.com
+aws-iot-hackathon.com
+awsautopilot.com
+awsautoscaling.com
+awsbraket.com
+awscommandlineinterface.com
+awsedstart.com
+awseducate.com
+awseducate.net
+awseducate.org
+awsloft-johannesburg.com
+awsloft-stockholm.com
+awssecworkshops.com
+awsstatic.com
+awsthinkbox.com
+awstrust.com
+cdkworkshop.com
+cloudfront.net
+containersonaws.com
+elasticbeanstalk.com
+thinkboxsoftware.com
+
+# AWS DNS
+regexp:.+\.awsdns-[0-9][0-9]\.co\.uk$
+regexp:.+\.awsdns-[0-9][0-9]\.com$
+regexp:.+\.awsdns-[0-9][0-9]\.net$
+regexp:.+\.awsdns-[0-9][0-9]\.org$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.biz$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.cn$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.com$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.net$

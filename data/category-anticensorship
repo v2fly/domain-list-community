@@ -1,5 +1,4 @@
 include:citizenlab
-include:gfw
 include:greatfire
 include:haveibeenpwned
 include:lantern
@@ -18,6 +17,7 @@ ffprofile.com
 freenetproject.org
 fteproxy.org
 geti2p.net
+gfw.report
 guardianproject.info
 ipfs.io
 jitsi.org

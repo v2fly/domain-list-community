@@ -44,11 +44,14 @@ include:visa
 
 # CDN companies & Services
 include:akamai
+include:cdn77
 include:cloudflare
 include:fastly
 include:imgix
+include:limelight
 include:pagecdn
 include:quantil
+include:scaleflex
 include:stackpath
 
 # Certificate authorities
@@ -58,7 +61,9 @@ include:category-cas
 include:clubhouse
 include:discord
 include:freenode
+include:intercom
 include:line
+include:matrix
 include:signal
 include:slack
 include:telegram
@@ -70,26 +75,34 @@ include:category-cryptocurrency
 include:category-ecommerce
 
 # E-learning & Knowledge & Press & Scholar & Science & Technology
+include:anandtech
 include:betterexplained
 include:brilliant
 include:category-scholar-!cn
 include:cern
 include:chinapower
+include:cnet
 include:code
 include:codecademy
 include:coursera
 include:edx
 include:egghead
+include:embl
 include:freecodecamp
+include:kaggle
 include:khanacademy
 include:knovel
 include:laracasts
+include:libgen
+include:lifewire
 include:masterclass
 include:mzed
 include:oreilly
 include:pearson
 include:sitepoint
 include:skillshare
+include:spiceworks
+include:techtimes
 include:ted
 include:udacity
 include:udemy
@@ -100,28 +113,24 @@ include:category-entertainment
 
 # File & Image & Video hosting
 include:0x0
+include:casimages
+include:cloudinary
 include:dropbox
 include:gfycat
+include:imagebam
+include:imagecurl
+include:imageshack
+include:imagetwist
+include:imgbb
 include:imgur
+include:pixhost
+include:postimages
+include:pstorage
 include:rumble
 include:streamable
 
 # Forums & Social network
-include:4chan
-include:5ch
-include:avsforum
-include:dcard
-include:doom9
-include:gab
-include:hkgolden
-include:lihkg
-include:mewe
-include:parler
-include:pincong
-include:pixnet
-include:quora
-include:reddit
-include:safechat
+include:category-forums
 
 # Media & News & Press
 include:category-media
@@ -140,13 +149,17 @@ include:adblockplus
 include:addthis
 include:addtoany
 include:adguard
+include:apkmirror
 include:apkpure
+include:aptoide
 include:arphic
+include:authy
 include:bitly
 include:bitwarden
 include:blender
 include:brightcove
 include:buymeacoffee
+include:chatango
 include:cloudconvert
 include:contentful
 include:cuttly
@@ -181,6 +194,7 @@ include:mpv
 include:netlify
 include:notion
 include:ok
+include:okaapps
 include:opencollective
 include:osdn
 include:pastebin
@@ -198,6 +212,7 @@ include:setapp
 include:sharethis
 include:shopify
 include:shorturl
+include:slideshare
 include:sourceforge
 include:squareup
 include:startpage
@@ -209,6 +224,7 @@ include:tidelift
 include:tinyurl
 include:trello
 include:tumblr
+include:tutanota
 include:vercel
 include:webflow
 include:wix
@@ -224,6 +240,14 @@ include:category-dev
 # Tech companies
 include:category-companies
 
+# Torrent websites
+include:1337x
+include:btdig
+include:demonoid
+include:nyaa
+include:piratebay
+include:rarbg
+
 # VPN services
 include:category-vpnservices
 
@@ -237,13 +261,17 @@ include:wikihow
 include:wikimedia
 
 # Others
+include:avaxhome
+include:espressif
 include:familymart
+include:fzdm
 include:hkedcity
 include:huanghuagang
+include:lavteam
 include:mcdonalds
-include:rarbg
 include:rb
 include:reagroup
+include:scenesource
 include:starbucks
 include:tsquare
 include:windy

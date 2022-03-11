@@ -36,6 +36,7 @@ include:openwrt
 include:perl
 include:polymer
 include:python
+include:python-community
 include:qt
 include:readthedocs
 include:redis
@@ -44,6 +45,7 @@ include:ruby
 include:scala
 include:stackexchange
 include:strikingly
+include:termux
 include:thelinuxfoundation
 include:unity
 include:v8

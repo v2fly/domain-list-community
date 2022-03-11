@@ -8,6 +8,7 @@ include:golang
 include:google-ads
 include:google-registry
 include:google-scholar
+include:kaggle
 include:polymer
 include:v8
 include:youtube
@@ -269,8 +270,6 @@ bazel.build
 bdn.dev
 beatthatquote.com
 blink.org
-blogblog.com
-blogger.com
 brocaproject.com
 brotli.org
 bumpshare.com
@@ -445,6 +444,7 @@ picnik.com
 pittpatt.com
 pixate.com
 postini.com
+privacysandbox.com
 projectara.com
 projectbaseline.com
 publishproxy.com
@@ -524,15 +524,19 @@ zukunftswerkstatt.de
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
 full:csi-china.l.google.com @cn
+full:gstaticadssl.l.google.com @cn
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
+# Revision: 72a0845284d0cba5545b610b2c601c2426fdb6ae
+# Use in config file like this: "geosite:google@cn"
 full:265.com @cn
 full:2mdn.net @cn
 full:adservice.google.com @cn
 full:app-measurement.com @cn
 full:beacons.gcp.gvt2.com @cn
 full:beacons.gvt2.com @cn
+full:beacons2.gvt2.com @cn
 full:beacons3.gvt2.com @cn
 full:c.admob.com @cn
 full:c.android.clients.google.com @cn
@@ -550,12 +554,15 @@ full:doubleclick.net @cn
 full:firebase-settings.crashlytics.com @cn
 full:fonts.googleapis.com @cn
 full:fonts.gstatic.com @cn
+full:g1.gstatic.com @cn
+full:g2.gstatic.com @cn
 full:google-analytics.com @cn
 full:googleadservices.com @cn
 full:googleanalytics.com @cn
 full:googlesyndication.com @cn
 full:googletagmanager.com @cn
 full:googletagservices.com @cn
+full:gstaticadssl.l.google.com @cn
 full:gtm.oasisfeng.com @cn
 full:imasdk.googleapis.com @cn
 full:ocsp.pki.goog @cn
@@ -563,6 +570,7 @@ full:pagead-googlehosted.l.google.com @cn
 full:pki-goog.l.google.com @cn
 full:recaptcha.net @cn
 full:redirector.gvt1.com @cn
+full:regioninfo-pa.googleapis.com @cn
 full:safebrowsing-cache.google.com @cn
 full:safebrowsing.googleapis.com @cn
 full:settings.crashlytics.com @cn
@@ -572,6 +580,8 @@ full:toolbarqueries.google.com @cn
 full:tools.google.com @cn
 full:tools.l.google.com @cn
 full:translate.googleapis.com @cn
+full:translation.googleapis.com @cn
 full:update.googleapis.com @cn
+full:www-google-analytics.l.google.com @cn
 full:www-googletagmanager.l.google.com @cn
 full:www.gstatic.com @cn

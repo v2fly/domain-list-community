@@ -1,8 +1,11 @@
 include:blizzard
+include:curseforge
+include:cygames
 include:ea
 include:epicgames
 include:garena
 include:gog
+include:mihoyo
 include:nintendo
 include:op
 include:playstation
@@ -11,8 +14,10 @@ include:riot
 include:rockstar
 include:steam
 include:steamunlocked
-include:ubi
+include:ubisoft
 include:xbox
 
 fanatical.com
 humblebundle.com
+loverslab.com
+planetminecraft.com

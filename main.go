@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 
@@ -329,7 +330,10 @@ func main() {
 
 	// Create output directory if not exist
 	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
-		os.Mkdir(*outputDir, 0755)
+		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
+			fmt.Println("Failed: ", mkErr)
+			os.Exit(1)
+		}
 	}
 
 	protoList := new(router.GeoSiteList)
@@ -368,6 +372,11 @@ func main() {
 			}
 		}
 	}
+
+	// Sort protoList so the marshaled list is reproducible
+	sort.SliceStable(protoList.Entry, func(i, j int) bool {
+		return protoList.Entry[i].CountryCode < protoList.Entry[j].CountryCode
+	})
 
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {

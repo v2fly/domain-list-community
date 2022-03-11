@@ -5,16 +5,19 @@ include:jiguang
 include:umeng
 
 # CDN companies & Services
+include:baijiayun
 include:bootcss
 include:dwion
 include:maocloud
 include:pkoplink
 include:qingcloud
 include:qiniu
+include:snodehome
 include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
+funcdn.com
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
@@ -54,6 +57,7 @@ include:bilibili
 include:dedao
 include:dmzj
 include:douyu
+include:duitang
 include:gamersky
 include:gcores
 include:gitv
@@ -65,8 +69,10 @@ include:kuaikan
 include:kuaishou
 include:kugou
 include:le
+include:lizhi
 include:miaopai
 include:mihoyo
+include:muwai
 include:pptv
 include:qingtingfm
 include:sfacg
@@ -76,6 +82,7 @@ include:tgbus
 include:tiancity
 include:u17
 include:vgtime
+include:xiaohongshu
 include:ximalaya
 include:youku
 include:yy
@@ -89,6 +96,7 @@ include:chiphell
 include:douban
 include:erji
 include:hacpai
+include:kechuang
 include:nga
 include:stage1st
 include:zhihu
@@ -99,13 +107,7 @@ include:sf-express
 # Media & News & Press
 include:category-media-cn
 
-# Others
-include:hainanairlines
-include:jibencaozuo
-include:sinopec
-
 # Organizations
-include:cas
 include:category-hospital-cn
 
 # Services & Softwares
@@ -118,6 +120,8 @@ include:agora
 include:antutu
 include:bitauto
 include:category-collaborate-cn
+include:category-documents-cn
+include:capitalonline
 include:chinaso
 include:chinaz
 include:colorfulclouds
@@ -133,6 +137,7 @@ include:jinshuju
 include:keep
 include:lagou
 include:lanzou
+include:ldmnq
 include:liepin
 include:mafengwo
 include:meitu
@@ -142,6 +147,8 @@ include:renren
 include:vaptcha
 include:wiwide
 include:wjx
+include:wolai
+include:yinxiang
 include:zdns
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning
@@ -150,6 +157,7 @@ include:category-scholar-cn
 include:category-wiki-cn
 include:cugbonline
 include:guokr
+include:koolearn
 include:wanfang
 include:xueersi
 include:yuanfudao
@@ -196,6 +204,7 @@ include:chinaunicom
 
 # 语言能力测试
 include:j-test
+include:nat-test
 
 # 在线工具书
 guoxuedashi.com
@@ -207,6 +216,19 @@ jikipedia.com
 
 # 餐饮类
 haidilao.com
+
+# 流利说
+liulishuo.com
+llsapp.com
+llscdn.com
+llsserver.com
+
+# Others
+include:8btc
+include:chinaexpressair
+include:hainanairlines
+include:jibencaozuo
+include:sinopec
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
@@ -322,12 +344,14 @@ haidilao.com
 7x24cc.com
 7xdown.com
 818ps.com
+8264.com
 84399.com
 885.com
 900.la
 917.com
 91danji.com
 91yunxiao.com
+95508.com
 9553.com
 962.net
 9718.com
@@ -353,6 +377,7 @@ aisee.tv # 粤ICP备10217959号-12
 aiskycn.com
 aiyunxiao.com
 aizhan.com
+aldwx.com # 京ICP备17030349号-1
 alittle-tea.com
 allyes.com
 anfensi.com
@@ -440,7 +465,6 @@ chinapubmed.net
 chinasspp.com
 chinatranslation.net
 chinaunix.net
-chinauos.com # 统信UOS
 chinaweiyu.com
 chinawutong.com
 chinazns.com
@@ -504,6 +528,7 @@ dcdkjx.com
 dd373.com
 ddooo.com
 dedecms.com
+deepinos.org
 develenv.com
 dginfo.com
 dgphospital.com
@@ -515,7 +540,6 @@ dingxiang-inc.com
 diopic.net
 diyiyou.com
 dj99.com
-docin.com
 dockerone.com
 dockone.io
 dogedoge.com
@@ -633,6 +657,7 @@ gzwanju.com
 h5uc.com
 hack520.com
 hackhome.com
+hackinn.com # 浙ICP备12044216号-3
 haishun.com
 hanboshi.com
 handanjob.com
@@ -642,6 +667,8 @@ haote.com
 haoyouyinxiang.com
 hefei.cc
 heisha.net
+hellobike.com
+hello-inc.com
 henha.com
 henkuai.com
 herostart.com
@@ -713,6 +740,7 @@ jdair.net
 jia.com
 jiameng.com
 jianbihua.com
+jianguoyun.com
 jianzhi8.com
 jiaodong.net
 jiaoyimao.com
@@ -763,7 +791,6 @@ kimiss.com
 kingdee.com
 kkzj.com
 kongfz.com
-koolearn.com
 kouclo.com
 koudai.com
 koudai8.com
@@ -781,6 +808,7 @@ laomaotao.net
 laomaotao.org
 lascn.net
 lawxp.com
+leangoo.com
 leanote.com
 ledu.com
 leetcode-cn.com
@@ -954,6 +982,7 @@ qudong.com
 qugame.com
 qunar.com
 qunarzz.com
+qunjielong.com # 桂ICP备14006138号-2
 qyer.com
 rfchost.com
 rockyenglish.com
@@ -974,9 +1003,11 @@ sencdn.com
 seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
 sgamer.com
+shanbay.com
 shang360.com
 shangc.net
 shanghairc.com
+shangshi360.com # 桂ICP备14006138号-1
 shangzhibo.tv
 shanshuihotel.com
 sharejs.com
@@ -992,6 +1023,7 @@ shmetro.com
 shoujihuifu.com
 shouyoubus.com
 shrbank.com
+shssp.org # 沪ICP备16053588号
 shuidichou.com
 shuidihuzhu.com
 shumensy.com
@@ -1051,6 +1083,7 @@ tom.com
 tongdun.net
 topthink.com
 touqikan.com
+touzid.com
 travelsky.com
 trunktech.com
 trustexporter.com
@@ -1065,7 +1098,9 @@ tuniu.com
 tutuapp.com
 tuwan.com
 tuwanjun.com
+txrjy.com # 沪ICP备12002292号
 u.tools
+ubuntukylin.com # 津ICP备15002470号-2 优麒麟
 ucbug.com
 uggame.com
 uoko.com
@@ -1112,12 +1147,14 @@ win8.net
 windows10zj.com
 windows7en.com
 windowszj.com
+winegame.net    # 京ICP备18041936号-2
 winwin7.com
 wishdown.com
 wmzhe.com
 wnhuifu.com
 wodingche.com
 womai.com
+wondercv.com # 超级简历
 wonnder.com
 wooyun.org
 worktile.com
@@ -1125,7 +1162,6 @@ woyaogexing.com
 woyoo.com
 wqiis.com
 wrating.com
-wscdns.com
 wtown.com
 wumii.com
 wuming.com
@@ -1135,14 +1171,13 @@ xafc.com
 xbiao.com
 xdwan.com
 xfdown.com
-xhscdn.com
 xiachufang.com
 xiaobaixitong.com
 xiaoe-tech.com
 xiaogouh5.com
-xiaohongshu.com
 xiaoka.tv
 xiaokaxiu.com
+xiaomiflash.com
 xiaomingtaiji.com
 xiaoxiongxitong.com
 xiaoyuxitong.com
@@ -1167,7 +1202,6 @@ xue51.com
 xuekanba.com
 xuexicha.com
 xundupdf.com
-xycdn.com
 xywy.com
 xzking.com
 yahui.cc
@@ -1186,7 +1220,6 @@ yikaochacha.com
 yikexue.com
 yingjia360.com
 yinhang123.net
-yinxiang.com
 yinyuetai.com
 yinzhaowang.com
 yiqifa.com
@@ -1221,6 +1254,7 @@ yunba.io
 yundaex.com
 yundasys.com
 yundun.com
+yunkanpan.com # 京ICP备15036006号-3
 yunqishi.net
 yunshipei.com
 yunxiao.com
