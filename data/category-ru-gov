@@ -6,11 +6,10 @@ gov.ru
 gosuslugi.ru
 gu-st.ru
 
-# Moscow Public Services
-mos.ru
-
-# Moscow Region (Province) Public Services
-mosreg.ru
+# Public Services
+mos.ru     #Moscow 
+mosreg.ru  #Moscow Region (Province)
+spb.ru     #St Petersburg
 
 # Federal Healthcare Services
 emias.info
