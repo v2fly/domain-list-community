@@ -229,6 +229,7 @@ include:chinaexpressair
 include:hainanairlines
 include:jibencaozuo
 include:sinopec
+include:variflight
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
