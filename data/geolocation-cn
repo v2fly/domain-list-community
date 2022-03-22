@@ -223,13 +223,24 @@ llsapp.com
 llscdn.com
 llsserver.com
 
+# Aviation
+include:hainanairlines # 海南航空
+
+airchina.com.cn # 中国国际航空
+caac.gov.cn # 中国民航局
+ceair.com # 中国东方航空
+chinaexpressair.com # 华夏航空
+csair.com # 中国南方航空
+flycua.com # 中国联合航空
+juneyaoair.com # 吉祥航空
+sichuanair.com # 四川航空
+tibetairlines.com.cn # 西藏航空
+variflight.com
+
 # Others
 include:8btc
-include:chinaexpressair
-include:hainanairlines
 include:jibencaozuo
 include:sinopec
-include:variflight
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
