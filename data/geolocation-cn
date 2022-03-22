@@ -224,8 +224,8 @@ llscdn.com
 llsserver.com
 
 # Aviation
-include:hainanairlines # 海南航空
 include:airchina # 中国国际航空
+include:hainanairlines # 海南航空
 
 caac.gov.cn # 中国民航局
 ceair.com # 中国东方航空
