@@ -224,18 +224,22 @@ llscdn.com
 llsserver.com
 
 # Aviation
+include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
 
-airchina.com.cn # 中国国际航空
 caac.gov.cn # 中国民航局
 ceair.com # 中国东方航空
 chinaexpressair.com # 华夏航空
 csair.com # 中国南方航空
 flycua.com # 中国联合航空
+hbhk.com.cn # 河北航空
+jdair.net # 首都航空
 juneyaoair.com # 吉祥航空
+luckyair.net # 祥鹏航空
 sichuanair.com # 四川航空
 tibetairlines.com.cn # 西藏航空
-variflight.com
+variflight.com # 飞常准
+xiamenair.com # 厦门航空
 
 # Others
 include:8btc
