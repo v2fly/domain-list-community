@@ -1,0 +1,131 @@
+# https://support.apple.com/en-us/HT210060
+
+# Device setup
+albert.apple.com
+captive.apple.com
+gs.apple.com
+humb.apple.com
+static.ips.apple.com
+sq-device.apple.com @cn
+tbsc.apple.com
+time-ios.apple.com @cn
+time.apple.com @cn
+time-macos.apple.com @cn
+
+# Device Management
+full:push.apple.com @cn
+deviceenrollment.apple.com @cn
+deviceservices-external.apple.com @cn
+gdmf.apple.com @cn
+identity.apple.com
+iprofiles.apple.com
+mdmenrollment.apple.com
+setup.icloud.com @cn
+vpp.itunes.apple.com
+
+# Apple School Manager and Apple Business Manager
+full:business.apple.com @cn
+full:school.apple.com @cn
+upload.appleschoolcontent.com
+ws-ee-maidsvc.icloud.com @cn
+
+# Apple Business Essentials device management
+axm-adm-enroll.apple.com @cn
+axm-adm-mdm.apple.com @cn
+axm-adm-scep.apple.com @cn
+axm-app.apple.com @cn
+
+# Software updates
+# macOS, iOS, iPadOS, watchOS, and tvOS
+appldnld.apple.com @cn
+configuration.apple.com @cn
+gg.apple.com
+gnf-mdn.apple.com
+gnf-mr.apple.com
+gs.apple.com
+ig.apple.com
+mesu.apple.com @cn
+ns.itunes.apple.com
+oscdn.apple.com @cn
+osrecovery.apple.com @cn
+skl.apple.com @cn
+swcdn.apple.com @cn
+swdist.apple.com @cn
+swdownload.apple.com
+swscan.apple.com @cn
+updates-http.cdn-apple.com @cn
+updates.cdn-apple.com @cn
+xp.apple.com
+
+# App Store
+full:itunes.apple.com
+full:apps.apple.com
+full:mzstatic.com @cn
+ppq.apple.com @cn
+
+# Carrier updates
+appldnld.apple.com.edgesuite.net @cn
+itunes.com @cn
+
+# Content caching
+lcdn-registration.apple.com
+suconfig.apple.com @cn
+xp-cdn.apple.com
+lcdn-locator.apple.com @cn
+serverstatus.apple.com @cn
+
+# Apple Developer
+appattest.apple.com @cn
+
+# Feedback Assistant
+bpapi.apple.com
+cssubmissions.apple.com
+fba.apple.com
+
+# Apple diagnostics
+diagassets.apple.com
+
+# Domain Name System resolution
+doh.dns.apple.com
+
+# Certificate validation
+certs.apple.com @cn
+crl.apple.com @cn
+crl.entrust.net @cn
+crl3.digicert.com @cn
+crl4.digicert.com @cn
+ocsp.apple.com @cn
+ocsp.digicert.cn @cn
+ocsp.digicert.com @cn
+ocsp.entrust.net @cn
+ocsp2.apple.com @cn
+valid.apple.com
+
+# Apple ID
+appleid.apple.com
+appleid.cdn-apple.com
+idmsa.apple.com
+gsa.apple.com
+
+# iCloud
+full:apple-cloudkit.com @cn
+full:apple-livephotoskit.com @cn
+full:apzones.com @cn
+full:cdn-apple.com @cn
+full:gc.apple.com @cn
+full:icloud.com @cn
+full:icloud.com.cn @cn
+full:icloud.apple.com @cn
+full:icloud-content.com @cn
+full:iwork.apple.com @cn
+mask.icloud.com @cn
+mask-h2.icloud.com @cn
+mask-api.icloud.com
+
+# Additional content
+audiocontentdownload.apple.com @cn
+devimages-cdn.apple.com @cn
+download.developer.apple.com @cn
+playgrounds-assets-cdn.apple.com @cn
+playgrounds-cdn.apple.com @cn
+sylvan.apple.com @cn
