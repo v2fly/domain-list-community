@@ -6,76 +6,76 @@ captive.apple.com
 gs.apple.com
 humb.apple.com
 static.ips.apple.com
-sq-device.apple.com @cn
+sq-device.apple.com 
 tbsc.apple.com
-time-ios.apple.com @cn
-time.apple.com @cn
-time-macos.apple.com @cn
+time-ios.apple.com 
+time.apple.com 
+time-macos.apple.com 
 
 # Device Management
-full:push.apple.com @cn
-deviceenrollment.apple.com @cn
-deviceservices-external.apple.com @cn
-gdmf.apple.com @cn
+full:push.apple.com 
+deviceenrollment.apple.com 
+deviceservices-external.apple.com 
+gdmf.apple.com 
 identity.apple.com
 iprofiles.apple.com
 mdmenrollment.apple.com
-setup.icloud.com @cn
+setup.icloud.com 
 vpp.itunes.apple.com
 
 # Apple School Manager and Apple Business Manager
-full:business.apple.com @cn
-full:school.apple.com @cn
+full:business.apple.com 
+full:school.apple.com 
 upload.appleschoolcontent.com
-ws-ee-maidsvc.icloud.com @cn
+ws-ee-maidsvc.icloud.com 
 
 # Apple Business Essentials device management
-axm-adm-enroll.apple.com @cn
-axm-adm-mdm.apple.com @cn
-axm-adm-scep.apple.com @cn
-axm-app.apple.com @cn
+axm-adm-enroll.apple.com 
+axm-adm-mdm.apple.com 
+axm-adm-scep.apple.com 
+axm-app.apple.com 
 
 # Software updates
 # macOS, iOS, iPadOS, watchOS, and tvOS
-appldnld.apple.com @cn
-configuration.apple.com @cn
+appldnld.apple.com 
+configuration.apple.com 
 gg.apple.com
 gnf-mdn.apple.com
 gnf-mr.apple.com
 gs.apple.com
 ig.apple.com
-mesu.apple.com @cn
+mesu.apple.com 
 ns.itunes.apple.com
-oscdn.apple.com @cn
-osrecovery.apple.com @cn
-skl.apple.com @cn
-swcdn.apple.com @cn
-swdist.apple.com @cn
+oscdn.apple.com 
+osrecovery.apple.com 
+skl.apple.com 
+swcdn.apple.com 
+swdist.apple.com 
 swdownload.apple.com
-swscan.apple.com @cn
-updates-http.cdn-apple.com @cn
-updates.cdn-apple.com @cn
+swscan.apple.com 
+updates-http.cdn-apple.com 
+updates.cdn-apple.com 
 xp.apple.com
 
 # App Store
 full:itunes.apple.com
 full:apps.apple.com
-full:mzstatic.com @cn
-ppq.apple.com @cn
+full:mzstatic.com 
+ppq.apple.com 
 
 # Carrier updates
-appldnld.apple.com.edgesuite.net @cn
-itunes.com @cn
+appldnld.apple.com.edgesuite.net 
+itunes.com 
 
 # Content caching
 lcdn-registration.apple.com
-suconfig.apple.com @cn
+suconfig.apple.com 
 xp-cdn.apple.com
-lcdn-locator.apple.com @cn
-serverstatus.apple.com @cn
+lcdn-locator.apple.com 
+serverstatus.apple.com 
 
 # Apple Developer
-appattest.apple.com @cn
+appattest.apple.com 
 
 # Feedback Assistant
 bpapi.apple.com
@@ -89,16 +89,16 @@ diagassets.apple.com
 doh.dns.apple.com
 
 # Certificate validation
-certs.apple.com @cn
-crl.apple.com @cn
-crl.entrust.net @cn
-crl3.digicert.com @cn
-crl4.digicert.com @cn
-ocsp.apple.com @cn
-ocsp.digicert.cn @cn
-ocsp.digicert.com @cn
-ocsp.entrust.net @cn
-ocsp2.apple.com @cn
+certs.apple.com 
+crl.apple.com 
+crl.entrust.net 
+crl3.digicert.com 
+crl4.digicert.com 
+ocsp.apple.com 
+ocsp.digicert.cn 
+ocsp.digicert.com 
+ocsp.entrust.net 
+ocsp2.apple.com 
 valid.apple.com
 
 # Apple ID
@@ -108,24 +108,24 @@ idmsa.apple.com
 gsa.apple.com
 
 # iCloud
-full:apple-cloudkit.com @cn
-full:apple-livephotoskit.com @cn
-full:apzones.com @cn
-full:cdn-apple.com @cn
-full:gc.apple.com @cn
-full:icloud.com @cn
-full:icloud.com.cn @cn
-full:icloud.apple.com @cn
-full:icloud-content.com @cn
-full:iwork.apple.com @cn
-mask.icloud.com @cn
-mask-h2.icloud.com @cn
+full:apple-cloudkit.com 
+full:apple-livephotoskit.com 
+full:apzones.com 
+full:cdn-apple.com 
+full:gc.apple.com 
+full:icloud.com 
+full:icloud.com.cn 
+full:icloud.apple.com 
+full:icloud-content.com 
+full:iwork.apple.com 
+mask.icloud.com 
+mask-h2.icloud.com 
 mask-api.icloud.com
 
 # Additional content
-audiocontentdownload.apple.com @cn
-devimages-cdn.apple.com @cn
-download.developer.apple.com @cn
-playgrounds-assets-cdn.apple.com @cn
-playgrounds-cdn.apple.com @cn
-sylvan.apple.com @cn
+audiocontentdownload.apple.com 
+devimages-cdn.apple.com 
+download.developer.apple.com 
+playgrounds-assets-cdn.apple.com 
+playgrounds-cdn.apple.com 
+sylvan.apple.com 
