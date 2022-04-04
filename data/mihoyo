@@ -1,23 +1,2 @@
-# 米哈游
-hoyoverse.com
-mihayou.com
-mihoyo.com
-
-# 崩坏2
-benghuai.com
-
-# 崩坏3
-bh3.com
-honkaiimpact3.com
-
-# 星穹鐵道
-honkaistarrail.com
-
-# HoYoLAB
-hoyolab.com
-
-# 原神
-yuanshen.com
-
-# Akamai
-regexp:^.+-mihayo\.akamaized\.net$
+include:hoyoverse
+include:mihoyo-cn
