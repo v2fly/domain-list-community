@@ -1,0 +1,131 @@
+# https://support.apple.com/en-us/HT210060
+
+# Device setup
+albert.apple.com
+captive.apple.com
+gs.apple.com
+humb.apple.com
+static.ips.apple.com
+sq-device.apple.com 
+tbsc.apple.com
+time-ios.apple.com 
+time.apple.com 
+time-macos.apple.com 
+
+# Device Management
+full:push.apple.com 
+deviceenrollment.apple.com 
+deviceservices-external.apple.com 
+gdmf.apple.com 
+identity.apple.com
+iprofiles.apple.com
+mdmenrollment.apple.com
+setup.icloud.com 
+vpp.itunes.apple.com
+
+# Apple School Manager and Apple Business Manager
+full:business.apple.com 
+full:school.apple.com 
+upload.appleschoolcontent.com
+ws-ee-maidsvc.icloud.com 
+
+# Apple Business Essentials device management
+axm-adm-enroll.apple.com 
+axm-adm-mdm.apple.com 
+axm-adm-scep.apple.com 
+axm-app.apple.com 
+
+# Software updates
+# macOS, iOS, iPadOS, watchOS, and tvOS
+appldnld.apple.com 
+configuration.apple.com 
+gg.apple.com
+gnf-mdn.apple.com
+gnf-mr.apple.com
+gs.apple.com
+ig.apple.com
+mesu.apple.com 
+ns.itunes.apple.com
+oscdn.apple.com 
+osrecovery.apple.com 
+skl.apple.com 
+swcdn.apple.com 
+swdist.apple.com 
+swdownload.apple.com
+swscan.apple.com 
+updates-http.cdn-apple.com 
+updates.cdn-apple.com 
+xp.apple.com
+
+# App Store
+full:itunes.apple.com
+full:apps.apple.com
+full:mzstatic.com 
+ppq.apple.com 
+
+# Carrier updates
+appldnld.apple.com.edgesuite.net 
+itunes.com 
+
+# Content caching
+lcdn-registration.apple.com
+suconfig.apple.com 
+xp-cdn.apple.com
+lcdn-locator.apple.com 
+serverstatus.apple.com 
+
+# Apple Developer
+appattest.apple.com 
+
+# Feedback Assistant
+bpapi.apple.com
+cssubmissions.apple.com
+fba.apple.com
+
+# Apple diagnostics
+diagassets.apple.com
+
+# Domain Name System resolution
+doh.dns.apple.com
+
+# Certificate validation
+certs.apple.com 
+crl.apple.com 
+crl.entrust.net 
+crl3.digicert.com 
+crl4.digicert.com 
+ocsp.apple.com 
+ocsp.digicert.cn 
+ocsp.digicert.com 
+ocsp.entrust.net 
+ocsp2.apple.com 
+valid.apple.com
+
+# Apple ID
+appleid.apple.com
+appleid.cdn-apple.com
+idmsa.apple.com
+gsa.apple.com
+
+# iCloud
+full:apple-cloudkit.com 
+full:apple-livephotoskit.com 
+full:apzones.com 
+full:cdn-apple.com 
+full:gc.apple.com 
+full:icloud.com 
+full:icloud.com.cn 
+full:icloud.apple.com 
+full:icloud-content.com 
+full:iwork.apple.com 
+mask.icloud.com 
+mask-h2.icloud.com 
+mask-api.icloud.com
+
+# Additional content
+audiocontentdownload.apple.com 
+devimages-cdn.apple.com 
+download.developer.apple.com 
+playgrounds-assets-cdn.apple.com 
+playgrounds-cdn.apple.com 
+sylvan.apple.com 
