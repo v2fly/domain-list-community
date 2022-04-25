@@ -1,0 +1,151 @@
+# Federal Gov.
+government.ru
+gov.ru
+
+# Federal Public Services
+gosuslugi.ru
+gu-st.ru
+
+# Federal Healthcare Services
+emias.info
+mgfoms.ru
+
+# Federal Educational Services
+edu.ru
+
+# Other Federal Resources
+cbr.ru          # Central Bank of Russia
+nalog.ru        # Federal Tax Service
+
+#
+# Regional sites and Public Services
+# Reminder on federal subjects naming:
+# | English name        | RU transliteration    | RU naming         |
+# | Region, Province    | Oblast                | Область           |
+# | Territory           | Krai                  | Край              |
+# | Autonomous Region,  | Avtonomniy Okrug      | Автономный Округ  |
+# | Autonomous Area     |                       |                   |
+#
+# Moscow, St. Petersburg, Sevastopol — are separate federal subjects,
+# meaning that e.g. Moscow is not part of Moscow Region.
+#
+
+# Federal Cities (Cities of Federal Importance)
+mos.ru          # Moscow 
+mosreg.ru       # Moscow Region
+spb.ru          # St. Petersburg
+sevastopol.ru   # Sevastopol
+sev.ru          # Sevastopol
+
+# Republics
+adygeya.ru      # Republic of Adygea
+bashkiria.ru    # Republic of Bashkortostan
+buryatia.ru     # Republic of Buryatia
+chuvashia.ru    # Chuvash Republic
+crimea.ru       # Republic of Crimea
+dagestan.ru     # Republic of Dagestan
+grozny.ru       # Grozny City, Chechen Republic
+i-ola.ru        # Yoshkar-Ola City, Republic of Mari El
+izhevsk.ru      # Izhevsk City, Republic of Udmurtia
+kalmykia.ru     # Republic of Kalmykia
+karelia.ru      # Republic of Karelia
+kazan.ru        # Kazan City, Republic of Tatarstan
+kchr.ru         # Karachay-Cherkessia
+khakassia.ru    # Republic of Khakassia
+mari-el.ru      # Republic of Mari El
+mari.ru         # Republic of Mari El
+mordovia.ru     # Republic of Mordovi
+nalchik.ru      # Nalchik City, Kabardino-Balkarian Republic
+ptz.ru          # Petrozavodsk City, Republic of Karelia
+rkomi.ru        # Republic of Komi
+tatarstan.ru    # Republic of Tatarstan
+tuva.ru         # Republic of Tuva
+udm.ru          # Republic of Udmurtia
+udmurtia.ru     # Republic of Udmurtia
+ulan-ude.ru     # Ulan-Ude City, Republic of Buryatia
+vladikavkaz.ru  # Vladikavkaz City, Republic of North Ossetia-Alania
+yakutia.ru      # Republic of Yakutia
+
+# Territories (Krai)
+altai.ru        # Altai Territory
+chita.ru        # Chita City, Zabaykalsky Territory
+kamchatka.ru    # Kamchatka Territory
+khabarovsk.ru   # Khabarovsk Territory
+khv.ru          # Khabarovsk Territory
+krasnodar.su    # Krasnodar Territory / Kuban
+krasnoyarsk.ru  # Krasnoyarsk Territory
+kuban.ru        # Krasnodar Territory / Kuban
+marine.ru       # Primorye Territory
+perm.ru         # Perm Territory
+stavropol.ru    # Stavropol Territory
+stv.ru          # Stavropol Territory
+vl.ru           # Vladivostok City, Primorye Territory
+vladivostok.ru  # Vladivostok City, Primorye Territory
+
+# Regions / Provinces (Oblast)
+amur.ru         # Amur Region
+arkhangelsk.ru  # Arkhangelsk Region
+astrakhan.ru    # Astrakhan Region
+belgorod.ru     # Belgorod Region
+bir.ru          # Birobidzhan City, Jewish Autonomous Region
+bryansk.ru      # Bryansk Region
+cbg.ru          # Voronezh Region
+chel.ru         # Chelyabinsk Region
+chelyabinsk.ru  # Chelyabinsk Region
+ekburg.ru       # Ekaterinburg City, Sverdlovsk Region
+xn--80acgfbsl1azdqr.xn--p1ai # екатеринбург.рф / Ekaterinburg City, Sverdlovsk Region
+irk.ru          # Irkutsk Region
+irkutsk.ru      # Irkutsk Region
+ivanovo.ru      # Ivanovo Region
+jar.ru          # Birobidzhan City, Jewish Autonomous Region
+kaluga.ru       # Kaluga Region
+kemerovo.ru     # Kemerovo Region
+kirov.ru        # Kirov Region
+koenig.ru       # Kaliningrad Region
+kostroma.ru     # Kostroma Region
+kurgan.ru       # Kurgan Region
+kursk.ru        # Kursk Region
+lipetsk.ru      # Lipetsk Region
+magadan.ru      # Magadan Region
+murmansk.ru     # Murmansk Region
+nn.ru           # Nizhny Novgorod Region
+nov.ru          # Novgorod Region
+novosibirsk.ru  # Novosibirsk Region
+nsk.ru          # Novosibirsk Region
+omsk.ru         # Omsk Region
+orb.ru          # Orenburg Region
+oryol.ru        # Orel Region
+penza.ru        # Penza Region
+psk             # Pskov's local TLD
+psk.ru          # Pskov Region
+pskov.ru        # Pskov Region
+rnd.ru          # Rostov-on-Don City, Rostov Region
+ryazan.ru       # Ryazan Region
+sakhalin.ru     # Sakhalin Region
+samara.ru       # Samara Region
+saratov.ru      # Saratov Region
+simbirsk.ru     # Ulyanovsk Region
+smolensk.ru     # Smolensk Region
+tambov.ru       # Tambov Region
+tom.ru          # Tomsk Region
+tomsk.ru        # Tomsk Region
+tsaritsyn.ru    # Volgograd Region
+tsk.ru          # Tomsk Region
+tula.ru         # Tula Region
+tver.ru         # Tver Region
+tyumen.ru       # Tyumen Region
+vladimir.ru     # Vladimir Region
+vlg.ru          # Volgograd Region
+volgograd.ru    # Volgograd Region
+vologda.ru      # Vologda Region
+voronezh.ru     # Voronezh Region
+vrn.ru          # Voronezh Region
+vyatka.ru       # Kirov Region
+yaroslavl.ru    # Yaroslavl Region
+yuzhno-sakhalinsk.ru # Yuzhno-Sakhalinsk City, Sakhalin Region
+
+# Autonomous areas
+chukotka.ru     # Chukotka Autonomous Area
+jamal.ru        # Yamal-Nenets Autonomous Area
+surgut.ru       # Khanty-Mansi Autonomous Area – Yugra
+yamal.ru        # Yamal-Nenets Autonomous Area
