@@ -1,6 +1,7 @@
 # This list contains scholarly domains that have access point in China Mainland.
 
 include:cas
+include:chaoxing
 include:cnki
 include:wanfang
 
