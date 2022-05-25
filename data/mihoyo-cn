@@ -1,24 +1,24 @@
 # 米哈游
-mhyurl.cn
-mihayo.com
-mihayou.com
-mihoyo.com
-mihoyocg.com
-mihoyogift.com
-mihoyomall.com
-miyoushe.com
+mhyurl.cn @cn
+mihayo.com @cn
+mihayou.com @cn
+mihoyo.com @cn
+mihoyocg.com @cn
+mihoyogift.com @cn
+mihoyomall.com @cn
+miyoushe.com @cn
 
 # 崩坏2
-benghuai.com
+benghuai.com @cn
 
 # 崩坏3
-bh3.com
+bh3.com @cn
 
 # 未定事件簿
-themisweeps.com
+themisweeps.com @cn
 
 # 原神
-yuanshen.com
+yuanshen.com @cn
 
 # Akamai
-regexp:^.+-mihayo\.akamaized\.net$
+regexp:^.+-mihayo\.akamaized\.net$ @cn
