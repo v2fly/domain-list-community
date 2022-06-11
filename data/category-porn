@@ -115,7 +115,6 @@ include:youjizz
 7mm.tv
 7mmtv.tv
 7tb.cc
-803.tv
 85st.com
 85tube.com
 88gals.com
@@ -2087,4 +2086,4 @@ zzcartoon.com
 zzgays.com
 zzitube.com
 
-regexp:^803[a-z]\.tv
+regexp:^803[a-z]{0,2}\.tv
