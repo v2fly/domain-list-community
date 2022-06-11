@@ -2087,10 +2087,10 @@ zzitube.com
 
 # Using regular expression to match some domains.
 
-regexp:803[a-z]{0,2}\.tv$
-regexp:989[a-z]?\.tv$
-regexp:douyintt[0-9]\.me$
-regexp:h5ccav[1-5]\.com$
-regexp:ksyp0[1-9]\.com$
-regexp:sg11[3-9]\.me$
-regexp:zh9[0-7]\.net$
+regexp:(^|\.)803[a-z]{0,2}\.tv$
+regexp:(^|\.)989[a-z]?\.tv$
+regexp:(^|\.)douyintt[0-9]\.me$
+regexp:(^|\.)h5ccav[1-5]\.com$
+regexp:(^|\.)ksyp0[1-9]\.com$
+regexp:(^|\.)sg11[3-9]\.me$
+regexp:(^|\.)zh9[0-7]\.net$
