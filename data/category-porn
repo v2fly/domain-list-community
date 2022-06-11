@@ -94,6 +94,8 @@ include:youjizz
 52hyse.com
 5fang.cc
 5mb48g.com
+5mo.fun
+5q5zu9f1.me
 6-ar.com
 61jxbs42.xyz
 62fh1bnj.me
@@ -106,6 +108,7 @@ include:youjizz
 69vj.com
 6arabs.com
 6asianporn.com
+6e8xr2gk.me
 6japaneseporn.com
 6mature9.com
 6neek.com
@@ -137,7 +140,6 @@ include:youjizz
 98916.tv
 99thz.cc
 99thz.com
-Real-ThaiPussy.com
 a-hentai.tv
 a.91gay.me
 a.kslive.tv
@@ -316,6 +318,7 @@ bangkokstreetwhores.com
 batsa.me
 bb33.net
 bbwmilftube.com
+bdawnvr.xyz
 bdsmlibrary.com
 beastiegals.com
 beastysexlinks.com
@@ -403,11 +406,14 @@ camvideos.tv
 camwhores.tv
 camwhoreshd.com
 candypleasure.com
+ccav69.info
 caribbeancom.com
 caribbeancompr.com
 cartoonpornvideos.com
 cartoontube.com
 cashvideotube.com
+ccav69.me
+ccav691api.com
 cenkei.com
 centervillage.co.jp
 cerdas.com
@@ -465,6 +471,7 @@ cumfox.com
 cumteenporn.com
 cuntempire.com
 curvyerotic.com
+cyyeshb.com
 czechav.com
 czechcasting.com
 czechhunter.com
@@ -486,6 +493,7 @@ darknun.com
 datawav.club
 dato.porn
 deasians.com
+demfhz.xyz
 desipornfilms.com
 deutschsex.com
 deviantclip.com
@@ -883,6 +891,7 @@ hqdesexo.com
 hqporner.com
 hqtube.xxx
 hqxxxmovies.com
+hshsxkj.com
 hsxhr.cc
 hugesex.tv
 huluhuluhuluhulu10.work
@@ -1027,6 +1036,7 @@ justporno.es
 justporno.sex
 justporno.tv
 justusboys.com
+jwkcgd.xyz
 k9vidz.com
 kampalaexclusiveescorts.com
 karupsha.com
@@ -1058,6 +1068,7 @@ kphimsex.net
 kristenbjorn.com
 ksd235qw.com
 ksescortclub.com
+ksyp10.com
 ladybaba.net
 ladyboygold.com
 lanasbigboobs.com
@@ -1178,7 +1189,11 @@ mitnaka.com
 mixasiansex.com
 mixmaturesex.com
 mixvintagesex.com
+mm9c63ae.xyz
 mmaaxx.com
+moapi.site
+moapi1.club
+moapi1.online
 mobilevrxxx.com
 modeloswebcambogota.com
 moeimg.net
@@ -1328,6 +1343,7 @@ petardas.com
 petardashd.com.ve
 petiteamateurteen.com
 petitehdporn.com
+pejyyah.com
 pigav.com
 pingxiangpuer.com
 pinkpussy.tv
@@ -1470,8 +1486,11 @@ pussyporntubes.com
 pussyspace.com
 pyhapp.com
 qingse.one
+qdiehzz7.me
+qkjuyet.com
 qmov.com
 qmov.net
+qmttqg3k.me
 qombol.com
 r18.com
 r18lu.com
@@ -1479,6 +1498,7 @@ randyblue.com
 rapefilms.net
 rapetube.me
 rat.xxx
+real-thaipussy.com
 realdoll.com
 realgfporn.com
 realitykings.com
@@ -1823,6 +1843,7 @@ vjav.com
 vnanchoi.ca
 voyeurstyle.com
 voyeurweb.com
+vpejey.xyz
 vporn.com
 vpornvideos.com
 vrfdgswx.xyz
@@ -1862,6 +1883,7 @@ whoreasianporn.com
 whoreslag.com
 whoreteensex.com
 whorevintagesex.com
+whvuxtub.com
 whynotbi.com
 wifemovies.net
 wikisexguide.com
@@ -1869,6 +1891,7 @@ wildcamporn.com
 wildxxxhardcore.com
 willyporn.com
 winning11.com
+wldfnjh.com
 wnacg.com
 wnacg.link
 wnacg.org
@@ -1887,6 +1910,7 @@ x-art.com
 x18r.com
 x6av.com
 x99av.com
+xacmbq.xyz
 xanimeporn.com
 xbabe.com
 xbahis33.com
@@ -1999,6 +2023,7 @@ yeyuehuachao11.com
 yeyuehuachao12.com
 yeyuehuachao13.com
 ygugu4.com
+yieamnd.com
 youav.com
 youflix.is
 youjizz.com
@@ -2025,9 +2050,10 @@ ypmate.com
 yuvutu.com
 ywbclx.top
 ywoos.com
+yy55.tv
 z00.world
 zbporn.com
-zh91.net
+zh99.net
 zishy.com
 zobry.site
 zoig.com
@@ -2061,7 +2087,10 @@ zzitube.com
 
 # Using regular expression to match some domains.
 
-regexp:^803[a-z]{0,2}\.tv
-regexp:^989[a-z]?\.tv
-regexp:^douyintt[0-9]\.me
-regexp:^sg11[3-9]\.me
+regexp:(^|\.)803[a-z]{0,2}\.tv$
+regexp:(^|\.)989[a-z]?\.tv$
+regexp:(^|\.)douyintt[0-9]\.me$
+regexp:(^|\.)h5ccav[1-5]\.com$
+regexp:(^|\.)ksyp0[1-9]\.com$
+regexp:(^|\.)sg11[3-9]\.me$
+regexp:(^|\.)zh9[0-7]\.net$
