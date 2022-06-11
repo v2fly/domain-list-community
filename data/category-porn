@@ -512,16 +512,7 @@ dopaminegirl.com
 dotfreesex.com
 doujin-eromanga.com
 doujin-freee.com
-douyintt1.me
 douyintt10.me
-douyintt2.me
-douyintt3.me
-douyintt4.me
-douyintt5.me
-douyintt6.me
-douyintt7.me
-douyintt8.me
-douyintt9.me
 download.91porn005.me
 download.i91av.org
 dreammovies.com
@@ -2062,3 +2053,4 @@ zzitube.com
 
 regexp:^803[a-z]{0,2}\.tv
 regexp:^989[a-z]?\.tv
+regexp:^douyintt[0-9]\.me
