@@ -2049,6 +2049,8 @@ zzcartoon.com
 zzgays.com
 zzitube.com
 
+# Using regular expression to match some domains.
+
 regexp:^803[a-z]{0,2}\.tv
 regexp:^989[a-z]?\.tv
 regexp:^douyintt[0-9]\.me
