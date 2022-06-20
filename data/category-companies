@@ -21,6 +21,7 @@ include:faronics
 include:gigabyte
 include:godaddy
 include:google
+include:hetzner
 include:hinet
 include:hkbn
 include:hp
