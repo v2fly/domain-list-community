@@ -24,6 +24,6 @@ netflixdnstest8.com
 netflixdnstest9.com
 netflixdnstest10.com
 
-＃regular expression
-regexp:dualstack\.apiproxy-.+\.amazonaws\.com$
-regexp:dualstack\.ichnaea-web-.+\.amazonaws\.com$
+＃ regular_expression
+regexp:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
+regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
