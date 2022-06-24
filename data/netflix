@@ -10,8 +10,8 @@ nflximg.net
 nflxsearch.net
 nflxso.net
 nflxvideo.net
-dualstack.apiproxy-
-dualstack.ichnaea-web-
+regexp:dualstack\.apiproxy-.*\.amazonaws\.com$
+regexp:dualstack\.ichnaea-web-.*\.amazonaws\.com$
 full:netflix.com.edgesuite.net
 
 # DNS test
