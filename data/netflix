@@ -11,11 +11,6 @@ nflxsearch.net
 nflxso.net
 nflxvideo.net
 
-regexp:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
-regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
-
-full:netflix.com.edgesuite.net
-
 # DNS test
 netflixdnstest1.com
 netflixdnstest2.com
@@ -27,3 +22,10 @@ netflixdnstest7.com
 netflixdnstest8.com
 netflixdnstest9.com
 netflixdnstest10.com
+
+# regular expression
+regexp:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
+regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
+
+# Full
+full:netflix.com.edgesuite.net
