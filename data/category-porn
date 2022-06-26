@@ -1523,9 +1523,6 @@ qmov.com
 qmov.net
 qmttqg3k.me
 qombol.com
-qqsp01.com
-qqsp02.com
-qqsp03.com
 r18.com
 r18lu.com
 rabbitscams.com
@@ -2150,6 +2147,7 @@ regexp:(^|\.)douyintt[0-9]\.me$
 regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
 regexp:(^|\.)ksyp0[1-9]\.com$
+regexp:(^|\.)qqsp0[1-3]\.com$
 regexp:(^|\.)sg11[3-9]\.me$
 regexp:(^|\.)youyuapi\..+$
 regexp:(^|\.)zh9[0-7]\.net$
