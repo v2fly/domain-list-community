@@ -93,6 +93,7 @@ porn
 4pig.com
 4porn.com
 4tubefree.net
+50dh.app
 51dh.site
 51luoli.info
 51mh.app
@@ -670,6 +671,8 @@ flash-xxx.com
 flashtranny.com
 flirt4free.com
 flirtyhoookup.com
+fljmh.com
+fljmh1.com
 flydiv.com
 flyflv.com
 flyingjizz.com
@@ -976,6 +979,7 @@ japanesegirlspictures.com
 japanxxxfilms.com
 jasmin.com
 jav-1080.com
+jav-legend.com
 jav.guru
 jav.land
 jav.place
@@ -1681,6 +1685,7 @@ sonorousporn.com
 sora6.com
 sorairi.info
 south-plus.net
+sp.cool
 spankbang.com
 spankwire.com
 spermyporn.com
@@ -2095,6 +2100,7 @@ yourvoyeurvideos.com
 youskbe.com
 youtrannytube.com
 youx.xxx
+youyu.services
 ypmate.com
 yuvutu.com
 ywbclx.top
@@ -2139,7 +2145,10 @@ zzitube.com
 regexp:(^|\.)803[a-z]{0,2}\.tv$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)douyintt[0-9]\.me$
+regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
 regexp:(^|\.)ksyp0[1-9]\.com$
+regexp:(^|\.)qqsp0[1-3]\.com$
 regexp:(^|\.)sg11[3-9]\.me$
+regexp:(^|\.)youyuapi\..+$
 regexp:(^|\.)zh9[0-7]\.net$
