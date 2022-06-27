@@ -280,24 +280,6 @@ avpanda.cc
 avsee01.tv
 avseesee.com
 avstar.me
-avstar01.com
-avstar01.me
-avstar02.com
-avstar02.me
-avstar03.com
-avstar03.me
-avstar04.com
-avstar04.me
-avstar05.com
-avstar05.me
-avstar06.com
-avstar06.me
-avstar07.com
-avstar07.me
-avstar08.com
-avstar08.me
-avstar09.com
-avstar09.me
 aziani.com
 aznude.com
 b3boos.com
@@ -2165,6 +2147,8 @@ zzitube.com
 
 regexp:(^|\.)803[a-z]{0,2}\.tv$
 regexp:(^|\.)989[a-z]?\.tv$
+regexp:(^|\.)avstar0[1-9]\.com$
+regexp:(^|\.)avstar0[1-9]\.me$
 regexp:(^|\.)douyintt[0-9]\.me$
 regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
