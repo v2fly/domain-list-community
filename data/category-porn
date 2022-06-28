@@ -801,9 +801,12 @@ hardsex8.com
 hardsextube.com
 harvard.xxx
 hclips.com
+hdb1.app
 hdgaytube.xxx
 hdhole.com
 hdjavonline.com
+hdouban.com
+hdouban2.com
 hdouga.com
 hdpornfree.xxx
 hdpornt.com
@@ -920,6 +923,7 @@ iknowthatgirl.com
 iloveprettylolimm.com
 imagefap.com
 imagepost.com
+imaypb.com
 imhentai.xxx
 imilfs.com
 imlive.com
@@ -1324,6 +1328,7 @@ okkisokuho.com
 oldje.com
 onahodouga.com
 onani-daisuki.com
+one889.app
 onejav.com
 onindiansex.com
 onlinefucktube.com
@@ -1651,6 +1656,7 @@ sexyhub.com
 sexykittenporn.com
 sexzy4.com
 sg120.me
+sgp1.fun
 shahvani.com
 shahvani.site
 shahvatsaraa.com
@@ -1697,6 +1703,7 @@ spermyporn.com
 spicystory.net
 spizoo.com
 spreadporn.org
+ss7.app
 sss.xxx
 staxus.com
 stepmaturesex.com
@@ -2019,6 +2026,7 @@ xvideosx.com.br
 xvidzz.com
 xwebporn.com
 xx159.com.cn
+xx9.app
 xxeronetxx.info
 xxgasm.com
 xxindianporn.com
@@ -2148,8 +2156,8 @@ zzitube.com
 
 regexp:(^|\.)803[a-z]{0,2}\.tv$
 regexp:(^|\.)989[a-z]?\.tv$
-regexp:(^|\.)avstar0[1-9]\.com$
-regexp:(^|\.)avstar0[1-9]\.me$
+regexp:(^|\.)avstar0[1-9]\.(com|me)$
+regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
 regexp:(^|\.)douyintt[0-9]\.me$
 regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
