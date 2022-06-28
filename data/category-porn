@@ -2154,7 +2154,6 @@ zzitube.com
 
 # Using regular expression to match some domains.
 
-regexp:(^|\.)803[a-z]{0,2}\.tv$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
