@@ -2042,9 +2042,6 @@ xl-gaytube.com
 xlovecam.com
 xmalay.com
 xmissy.nl
-xn--cck4d8b3009a.com
-xn--r8jwklh769h2mc880dk1o431a.com
-xn--urs05q.jp
 xnostars.com
 xnxx-teens.com
 xnxxarabsex.com
@@ -2198,7 +2195,6 @@ zzcartoon.com
 zzgays.com
 zzitube.com
 
-
 # Using regular expression to match some domains.
 
 regexp:(^|\.)989[a-z]?\.tv$
@@ -2212,3 +2208,9 @@ regexp:(^|\.)qqsp0[1-3]\.com$
 regexp:(^|\.)sg11[3-9]\.me$
 regexp:(^|\.)youyuapi\..+$
 regexp:(^|\.)zh9[0-7]\.net$
+
+# Internationalized Domain Name
+
+xn--cck4d8b3009a.com
+xn--r8jwklh769h2mc880dk1o431a.com
+xn--urs05q.jp
