@@ -204,6 +204,7 @@ alljapanesepass.com
 allmomsex.com
 allover30.com
 allpasswords.com
+allpornsitespass.com
 alohatube.com
 alt.com
 amakings.com
@@ -686,7 +687,6 @@ fetishshrine.com
 fi11.cn
 fi11.com
 fi11av1.com
-fi11sm34.com
 fi11tv1.com
 finehub.com
 finevids.xxx
@@ -1097,7 +1097,6 @@ jmcomic.mobi
 jmcomic1.mobi
 johren.games
 johren.net
-join.allpornsitespass.com
 jokerlu1.cc
 jokerlu1.info
 joysporn.com
@@ -2268,6 +2267,7 @@ regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
 regexp:(^|\.)douyintt[0-9]\.me$
+regexp:(^|\.)fi11sm([0-9]+)?\.com+$
 regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
 regexp:(^|\.)hkfg[1-7]\.xyz$
