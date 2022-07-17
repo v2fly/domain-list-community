@@ -152,6 +152,7 @@ porn
 91porn005.me
 91qk41rf.com
 91se.fun
+91sesex.xyz
 91tv.tw
 920share.com
 97dounai.top
@@ -171,6 +172,7 @@ adanaatikhaber.com
 adbkm.com
 adorevids.com
 adult-sex-games.com
+adultblogranking.com
 adultdvdmarketplace.com
 adultdvdtalk.com
 adulterfree.com
@@ -545,6 +547,7 @@ dirtyleague.com
 divas.com.uy
 dkk37.com
 dmm.co.jp
+dmmrex.com
 dogcumshot.net
 dogfart.com
 dogfartnetwork.com
@@ -607,6 +610,7 @@ ero-kawa.com
 ero-labs.com
 erocurves.com
 erodougazo.com
+eroero69.work
 erogames.com
 erogazo-jp.net
 erogazo-ngo.com
@@ -779,6 +783,7 @@ gdsrx888.com
 geinoueroch.com
 gelbooru.com
 gelbooru.me
+genkai-hounyo.com
 genshin-porn.com
 getporn.tv
 gfarchive.com
@@ -969,6 +974,7 @@ ichineseporn.com
 ideal-teens.com
 igayporn.tv
 igetnaughty.com
+igkbroker.com
 iijav.com
 iknowthatgirl.com
 iloveprettylolimm.com
@@ -1175,6 +1181,7 @@ lezpoo.com
 lifeselector.com
 lightxxxtube.com
 lihksnap.com
+likeseiyu.com
 lilhumpers.com
 lilith-soft.com
 limer.tw
@@ -1302,6 +1309,7 @@ mofos.com
 mofosex.com
 mofosnetwork.com
 mom50.com
+momon-ga.com
 momsbangteens.com
 momsteachsex.com
 momtube.club
@@ -1494,10 +1502,12 @@ porndisk.com
 porndoe.com
 porndoepremium.com
 porndr.com
+porndude2.com
 pornerbros.com
 pornfidelity.com
 pornfu.tv
 porngames.games
+porngeek.com
 porngladiator.com
 pornhat.com
 pornhd.com
@@ -1555,6 +1565,7 @@ pornqd.com
 pornrabbit.com
 pornrips.cc
 pornscum.com
+pornsites.com
 pornsocket.com
 pornsoldiers.com
 pornsos.com
@@ -1867,6 +1878,7 @@ thenewgirlspooping.com
 thenewporn.com
 thepornbet.com
 theporndude.com
+theporndude.vip
 thepornlist.com
 thepornscat.com
 theyxxx.com
@@ -2255,10 +2267,13 @@ zzitube.com
 # Internationalized Domain Name
 
 xn--cck4d8b3009a.com
+xn--hckl3e1e8a8ajin0czf.net
 xn--mtswd61ejxq.com
 xn--r8jwklh769h2mc880dk1o431a.com
 xn--uis17aj9kmuf.com
 xn--urs05q.jp
+xn--x-qeu1ji09tzlg.biz
+xn--x-qeu1ji09tzlg.net
 
 # Using regular expression to match some domains.
 
@@ -2274,6 +2289,8 @@ regexp:(^|\.)hkfg[1-7]\.xyz$
 regexp:(^|\.)jdyy[1-9]?.me$
 regexp:(^|\.)kimoav([1-9][0-9]?)?\.com$
 regexp:(^|\.)ksyp0[1-9]\.com$
+regexp:(^|\.)mimi\.(cfd|lol|onl|sbs|so|vc)$
+regexp:(^|\.)mimi[0-9]{3}\.com$
 regexp:(^|\.)mitao[1-3]\.tv$
 regexp:(^|\.)qqsp0[1-3]\.com$
 regexp:(^|\.)sg11[3-9]\.me$
