@@ -2289,6 +2289,7 @@ regexp:(^|\.)hkfg[1-7]\.xyz$
 regexp:(^|\.)jdyy[1-9]?.me$
 regexp:(^|\.)kimoav([1-9][0-9]?)?\.com$
 regexp:(^|\.)ksyp0[1-9]\.com$
+regexp:(^|\.)mimi[0-9]{3}\.com$
 regexp:(^|\.)mitao[1-3]\.tv$
 regexp:(^|\.)qqsp0[1-3]\.com$
 regexp:(^|\.)sg11[3-9]\.me$
