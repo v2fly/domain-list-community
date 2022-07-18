@@ -271,6 +271,88 @@ polo # Ralph Lauren Corporation
 redstone # Redstone Haute Couture Co., Ltd.
 swatch # The Swatch Group Ltd
 
+# Geographic top-level domains
+
+## Africa
+africa     # Africa
+capetown   # Cape Town, South Africa
+durban     # Durban, South Africa
+joburg     # Johannesburg, South Africa
+
+## Asia
+abudhabi   # Abu Dhabi
+arab       # Leagueof Arab States
+asia       # Asia-Pacific region
+doha       # Doha
+dubai      # Dubai
+krd        # Kurdistan
+kyoto      # Kyoto, Japan
+nagoya     # Nagoya, Japan
+okinawa    # Okinawa, Japan
+osaka      # Osaka, Japan
+ryukyu     # Ryukyu Islands, Japan
+taipei     # Taipei, Republic of China (Taiwan)
+tatar      # Tatar peoples and places
+tokyo      # Tokyo, Japan
+yokohama   # Yokohama, Japan
+
+## Europe
+alsace     # Alsace, France
+amsterdam  # Amsterdam, Netherlands
+bar        # Bar, Montenegro
+barcelona  # Barcelona, Spain
+bayern     # Bavaria, Germany
+bcn        # Barcelona, Spain
+berlin     # Berlin, Germany
+brussels   # Brussels, Belgium
+budapest   # Budapest, Hungary
+bzh        # Brittany, France
+cat        # Catalonia, Spain
+conlogne   # Cologne, Germany
+corsica    # Corsica, France
+cymru      # Wales, United Kingdom
+eus        # Basque
+frl        # Friesland, Netherlands
+gal        # Galicia, Spain
+gent       # Ghent, Belgium
+hamburg    # Hamburg, Germany
+helsinki   # Helsinki, Finland
+irish      # Ireland
+ist        # İstanbul, Turkey
+istanbul   # İstanbul, Turkey
+koeln      # Cologne, Germany
+london     # London, United Kingdom
+madrid     # Madrid, Spain
+moscow     # Moscow, Russia
+nrw        # North Rhine-Westphalia, Germany
+paris      # Paris, France
+ruhr       # Ruhr, Germany
+saarland   # Saarland, Germany
+scot       # Scotland, United Kingdom
+stockholm  # Stockholm, Sweden
+swiss      # Switzerland
+tirol      # Tyrol, Austria
+vlaanderen # Flanders, Belgium
+wales      # Wales, United Kingdom
+wien       # Vienna, Austria
+zuerich    # Zurich, Switzerland
+
+## North America
+boston     # Boston, Massachusetts, United States of America
+miami      # Miami, Florida, United States of America
+nyc        # New York City, New York, United States of America
+quebec     # Quebec, Canada
+vegas      # Las Vegas, Nevada, United States of America
+
+## Oceania
+kiwi       # New Zealanders
+melbourne  # Melbourne, Australia
+sydney     # Sydney, Australia
+
+## South America
+lat        # Latin America
+rio        # Rio de Janeiro, Brazil
+
 # Health & Wellness Domains
 aarp # Health Wellness Domains
 abbott # Abbott Laboratories
