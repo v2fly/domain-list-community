@@ -2288,7 +2288,6 @@ regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
 regexp:(^|\.)hkfg[1-7]\.xyz$
 regexp:(^|\.)jdyy[1-9]?.me$
-regexp:(^|\.)jrrd([1-9]|1[0-9]|2[0-9]|3[0-9])\.pw$
 regexp:(^|\.)kimoav([1-9][0-9]?)?\.com$
 regexp:(^|\.)ksyp0[1-9]\.com$
 regexp:(^|\.)mimi\.(cfd|lol|onl|sbs|so|vc)$
