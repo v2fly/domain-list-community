@@ -249,6 +249,7 @@ xiamenair.com # 厦门航空
 include:8btc
 include:jibencaozuo
 include:sinopec
+include:category-enterprise-query-platform-cn
 
 suzuki-china.com # 铃木中国官网
 
@@ -985,7 +986,6 @@ pipaw.net
 pptbest.com
 pubyun.com
 qc188.com
-qcc.com
 qcds.com
 qd8.com
 qd-metro.com
@@ -1343,11 +1343,6 @@ zuhaowan.com
 zuidaima.com
 zuowen8.com
 zuowenwang.net
-
-# 京ICP备14061319号-2
-jindidata.com
-tianyancha.com
-zhuanxiandai.com
 
 # 京ICP备12006877号-1
 fm3838.com
