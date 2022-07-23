@@ -1038,6 +1038,7 @@ istripper.com
 ithaisex.com
 itsfuck.com
 ivintageporn.com
+iw8j.cc
 iwantporn.net
 iwara.tv
 ixxx.com
@@ -2106,6 +2107,7 @@ watersex.com
 wawatv.net
 wbvm4s.com
 wearehairy.com
+weav.xyz
 webcamjackers.com
 webcammedellin.co
 wellmaturetube.com
@@ -2356,6 +2358,7 @@ xn--x-qeu1ji09tzlg.net
 
 # Using regular expression to match some domains.
 
+regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)8dgo[1-57-9]\.com$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
