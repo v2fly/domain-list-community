@@ -7,5 +7,6 @@ full:menu-static.gog-statics.com @cn
 full:productcard.gog-statics.com @cn
 full:static-login.gog-statics.com @cn
 full:www4-static.gog-statics.com @cn
-regexp:^cdn-akamai-.+\.gog-services\.com$
+regexp:^cdn-akamai-.+\.gog-services\.com$ @cn
+regexp:^gog-cdn-.+\.footprint\.net$ @cn
 regexp:^images(-\d)?\.gog-statics\.com$ @cn
