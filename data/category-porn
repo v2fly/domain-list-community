@@ -2414,7 +2414,7 @@ regexp:(^|\.)99pp[1-9][0-9]\.com$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
 regexp:(^|\.)douyintt[0-9]\.me$
-regexp:(^|\.)fi11sm([0-9]+)?\.com+$
+regexp:(^|\.)fi11sm([0-9]+)?\.com$
 regexp:(^|\.)fiftymvapi\..+$
 regexp:(^|\.)h5ccav[1-5]\.com$
 regexp:(^|\.)hkfg[1-7]\.xyz$
