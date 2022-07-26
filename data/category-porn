@@ -2381,6 +2381,7 @@ xn--x-qeu1ji09tzlg.net
 
 # Using regular expression to match some domains.
 
+regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)8dgo[1-57-9]\.com$
 regexp:(^|\.)989[a-z]?\.tv$
