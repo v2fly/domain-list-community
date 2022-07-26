@@ -2424,6 +2424,7 @@ regexp:(^|\.)mimi\.(cfd|lol|onl|sbs|so|vc)$
 regexp:(^|\.)mimi[0-9]{3}\.com$
 regexp:(^|\.)mitao[1-3]\.tv$
 regexp:(^|\.)mmwz\.(fun|in|la|me|one|pro|pw|run|tv|ws)$
+regexp:(^|\.)putaozy([1-9][0-9]?)?\.com$
 regexp:(^|\.)qqsp0[1-3]\.com$
 regexp:(^|\.)sg11[3-9]\.me$
 regexp:(^|\.)syjc1[1-6]\.xyz$
