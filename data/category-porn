@@ -525,7 +525,6 @@ cool18.com
 coolinet.net
 coqnu.com
 corbinfisher.com
-cosaae.cyou
 cpz.to
 crabporn.com
 crazylivecams.com
@@ -2464,6 +2463,7 @@ regexp:(^|\.)99pp[1-9][0-9]\.com$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)banyinjia[0-9]?\.com$
 regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
+regexp:(^|\.)cosaa[a-z]\.cyou$
 regexp:(^|\.)douyintt[0-9]\.me$
 regexp:(^|\.)fi11sm([0-9]+)?\.com$
 regexp:(^|\.)fiftymvapi\..+$
