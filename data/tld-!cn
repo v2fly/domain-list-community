@@ -238,7 +238,7 @@ vista # Vistaprint Limited
 wtc # World Trade Centers Association, Inc.
 xerox # Business Products Services Domains
 
-# Country Top domain (Internationalized Domain Name)
+# Top domain of Country or Region (Internationalized Domain Name)
 
 xn--lgbbat1ad8j  #  الجزائر Algeria
 xn--y9a3aq  #  հայ Armenia
@@ -298,9 +298,9 @@ xn--fzc2c9e2c  #  ලංකා Sri Lanka
 xn--mgbpl2fh  #  سودان Sudan
 xn--ogbpf8fl  #  سورية Syrian Arab Republic
 xn--mgbtf8fl  #  سوريا Syrian Arab Republic
-xn--kpry57d  #  台灣 Taiwan Province, People's Republic of China
-xn--kprw13d  #  台湾 Taiwan Province, People's Republic of China
-xn--nnx388a  #  臺灣 Taiwan Province, People's Republic of China
+xn--kpry57d  #  台灣 Taiwan Province, Republic of China
+xn--kprw13d  #  台湾 Taiwan Province, Republic of China
+xn--nnx388a  #  臺灣 Taiwan Province, Republic of China
 xn--o3cw4h  #  ไทย Thailand
 xn--pgbs0dh  #  تونس Tunisia
 xn--j1amh  #  укр Ukraine
