@@ -238,75 +238,6 @@ vista # Vistaprint Limited
 wtc # World Trade Centers Association, Inc.
 xerox # Business Products Services Domains
 
-# Country Top domain (Internationalized Domain Name)
-
-xn--lgbbat1ad8j  #  الجزائر Algeria
-xn--y9a3aq  #  հայ Armenia
-xn--mgbcpq6gpa1a  #  البحرين Bahrain
-xn--54b7fta0cc  #  বাংলা Bangladesh
-xn--90ais  #  бел Belarus
-xn--90ae  #  бг Bulgaria
-xn--wgbh1c  #  مصر Egypt
-xn--e1a4c  #  ею European Union
-xn--qxa6a  #  ευ European Union
-xn--node  #  გე Georgia
-xn--qxam  #  ελ Greece
-xn--j6w193g  #  香港 Hong Kong SAR, People's Republic of China
-xn--4dbrk0ce  #  ישראל Israel
-xn--h2brj9c  #  भारत India
-xn--mgbbh1a71e  #  بھارت India
-xn--fpcrj9c3d  #  భారత్ India
-xn--gecrj9c  #  ભારત India
-xn--s9brj9c  #  ਭਾਰਤ India
-xn--45brj9c  #  ভারত India
-xn--xkc2dl3a5ee0h  #  இந்தியா India
-xn--2scrj9c  #  ಭಾರತ India
-xn--rvc1e0am3e  #  ഭാരതം India
-xn--45br5cyl  #  ভাৰত India
-xn--3hcrj9c  #  ଭାରତ India
-xn--mgbbh1a  #  بارت India
-xn--h2breg3eve  #  भारतम् India
-xn--h2brj9c8c  #  भारोत India
-xn--mgbgu82a  #  ڀارت India
-xn--mgba3a4f16a  #  ایران Iran
-xn--mgba3a4fra  #  ايران Iran
-xn--mgbtx2b  #  عراق Iran
-xn--mgbayh7gpa  #  الاردن Jordan
-xn--80ao21a  #  қаз Kazakhstan
-xn--3e0b707e  #  한국 Korea
-xn--q7ce6a  #  ລາວ Laos
-xn--mix891f  #  澳門 Macao SAR, People's Republic of China
-xn--mix082f  #  澳门 Macao SAR, People's Republic of China
-xn--d1alf  #  мкд North Macedonia
-xn--mgbx4cd0ab  #  مليسيا. Malaysia
-xn--mgbah1a3hjkrd  #  موريتانيا Mauritania
-xn--l1acc  #  мон Mongolia
-xn--mgbc0a9azcg  #  المغرب Morocco
-xn--mgb9awbf  #  عمان Oman
-xn--mgbai9azgqp6j  #  پاکستان Pakistan
-xn--mgbai9a5eva00b  #  پاكستان Pakistan
-xn--ygbi2ammx  #  فلسطين Palestine
-xn--wgbl6a  #  قطر Qatar
-xn--p1ai  #  рф Russian Federation
-xn--mgberp4a5d4ar  #  السعودية Saudi Arabia
-xn--mgberp4a5d4a87g  #  السعودیة Saudi Arabia
-xn--mgbqly7c0a67fbc  #  السعودیۃ Saudi Arabia
-xn--mgbqly7cvafr  #  السعوديه Saudi Arabia
-xn--90a3ac  #  срб Serbia
-xn--yfro4i67o  #  新加坡 Singapore
-xn--fzc2c9e2c  #  ලංකා Sri Lanka
-xn--mgbpl2fh  #  سودان Sudan
-xn--ogbpf8fl  #  سورية Syrian Arab Republic
-xn--mgbtf8fl  #  سوريا Syrian Arab Republic
-xn--kpry57d  #  台灣 Taiwan Province, People's Republic of China
-xn--kprw13d  #  台湾 Taiwan Province, People's Republic of China
-xn--nnx388a  #  臺灣 Taiwan Province, People's Republic of China
-xn--o3cw4h  #  ไทย Thailand
-xn--pgbs0dh  #  تونس Tunisia
-xn--j1amh  #  укр Ukraine
-xn--mgbaam7a8h  #  امارات United Arab Emirates
-xn--mgb2ddes  #  اليمن Yemen
-
 # Fashion Domains
 athleta # The Gap, Inc.
 bananarepublic # The Gap, Inc.
@@ -544,6 +475,75 @@ dhl # Deutsche Post AG
 epost # Deutsche Post AG
 fedex # Federal Express Corporation
 pitney # Pitney Bowe Inc.#ups # UPS Market Driver, Inc.
+
+# Top domain of Country or Region (Internationalized Domain Name)
+
+xn--lgbbat1ad8j  #  الجزائر Algeria
+xn--y9a3aq  #  հայ Armenia
+xn--mgbcpq6gpa1a  #  البحرين Bahrain
+xn--54b7fta0cc  #  বাংলা Bangladesh
+xn--90ais  #  бел Belarus
+xn--90ae  #  бг Bulgaria
+xn--wgbh1c  #  مصر Egypt
+xn--e1a4c  #  ею European Union
+xn--qxa6a  #  ευ European Union
+xn--node  #  გე Georgia
+xn--qxam  #  ελ Greece
+xn--j6w193g  #  香港 Hong Kong SAR, People's Republic of China
+xn--4dbrk0ce  #  ישראל Israel
+xn--h2brj9c  #  भारत India
+xn--mgbbh1a71e  #  بھارت India
+xn--fpcrj9c3d  #  భారత్ India
+xn--gecrj9c  #  ભારત India
+xn--s9brj9c  #  ਭਾਰਤ India
+xn--45brj9c  #  ভারত India
+xn--xkc2dl3a5ee0h  #  இந்தியா India
+xn--2scrj9c  #  ಭಾರತ India
+xn--rvc1e0am3e  #  ഭാരതം India
+xn--45br5cyl  #  ভাৰত India
+xn--3hcrj9c  #  ଭାରତ India
+xn--mgbbh1a  #  بارت India
+xn--h2breg3eve  #  भारतम् India
+xn--h2brj9c8c  #  भारोत India
+xn--mgbgu82a  #  ڀارت India
+xn--mgba3a4f16a  #  ایران Iran
+xn--mgba3a4fra  #  ايران Iran
+xn--mgbtx2b  #  عراق Iran
+xn--mgbayh7gpa  #  الاردن Jordan
+xn--80ao21a  #  қаз Kazakhstan
+xn--3e0b707e  #  한국 Korea
+xn--q7ce6a  #  ລາວ Laos
+xn--mix891f  #  澳門 Macao SAR, People's Republic of China
+xn--mix082f  #  澳门 Macao SAR, People's Republic of China
+xn--d1alf  #  мкд North Macedonia
+xn--mgbx4cd0ab  #  مليسيا. Malaysia
+xn--mgbah1a3hjkrd  #  موريتانيا Mauritania
+xn--l1acc  #  мон Mongolia
+xn--mgbc0a9azcg  #  المغرب Morocco
+xn--mgb9awbf  #  عمان Oman
+xn--mgbai9azgqp6j  #  پاکستان Pakistan
+xn--mgbai9a5eva00b  #  پاكستان Pakistan
+xn--ygbi2ammx  #  فلسطين Palestine
+xn--wgbl6a  #  قطر Qatar
+xn--p1ai  #  рф Russian Federation
+xn--mgberp4a5d4ar  #  السعودية Saudi Arabia
+xn--mgberp4a5d4a87g  #  السعودیة Saudi Arabia
+xn--mgbqly7c0a67fbc  #  السعودیۃ Saudi Arabia
+xn--mgbqly7cvafr  #  السعوديه Saudi Arabia
+xn--90a3ac  #  срб Serbia
+xn--yfro4i67o  #  新加坡 Singapore
+xn--fzc2c9e2c  #  ලංකා Sri Lanka
+xn--mgbpl2fh  #  سودان Sudan
+xn--ogbpf8fl  #  سورية Syrian Arab Republic
+xn--mgbtf8fl  #  سوريا Syrian Arab Republic
+xn--kpry57d  #  台灣 Taiwan Province, Republic of China
+xn--kprw13d  #  台湾 Taiwan Province, Republic of China
+xn--nnx388a  #  臺灣 Taiwan Province, Republic of China
+xn--o3cw4h  #  ไทย Thailand
+xn--pgbs0dh  #  تونس Tunisia
+xn--j1amh  #  укр Ukraine
+xn--mgbaam7a8h  #  امارات United Arab Emirates
+xn--mgb2ddes  #  اليمن Yemen
 
 # Automotive Domains
 aaa # American Automobile Association
