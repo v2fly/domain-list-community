@@ -48,3 +48,5 @@ windowsazure.com
 
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
+
+regexp:.+\.azure-dns-([1-9]|10)\.cn$ @cn
