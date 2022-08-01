@@ -1,5 +1,6 @@
 include:apple-ads
 include:apple-dev
+include:apple-pki
 include:beats
 include:icloud
 include:itunes
@@ -878,8 +879,6 @@ full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
 full:music.apple.com @cn
-full:ocsp-lb.apple.com.akadns.net @cn
-full:ocsp.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
 full:pancake.apple.com @cn
