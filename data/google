@@ -8,6 +8,7 @@ include:golang
 include:google-ads
 include:google-registry
 include:google-scholar
+include:google-trust-services
 include:kaggle
 include:opensourceinsights
 include:polymer
@@ -551,7 +552,6 @@ full:clickserve.dartsearch.net @cn
 full:clientservices.googleapis.com @cn
 full:connectivitycheck.gstatic.com @cn
 full:corp.google.com @cn
-full:crl.pki.goog @cn
 full:csi.gstatic.com @cn
 full:dl.google.com @cn
 full:dl.l.google.com @cn
@@ -570,7 +570,6 @@ full:googletagservices.com @cn
 full:gstaticadssl.l.google.com @cn
 full:gtm.oasisfeng.com @cn
 full:imasdk.googleapis.com @cn
-full:ocsp.pki.goog @cn
 full:pagead-googlehosted.l.google.com @cn
 full:pki-goog.l.google.com @cn
 full:recaptcha.net @cn

@@ -1,3 +1,4 @@
+alphassl.com
 globalsign-media.com
 globalsign.be
 globalsign.ch
@@ -12,6 +13,8 @@ globalsign.fr
 globalsign.net
 globalsign.nl
 
-full:secure.globalsign.com @cn
+full:crl2.alphassl.com @cn
 full:ocsp.globalsign.com @cn
 full:ocsp2.globalsign.com @cn
+full:secure.globalsign.com @cn
+full:secure2.alphassl.com @cn

@@ -1,4 +1,5 @@
 include:amazon-ads
+include:amazontrust
 include:aws
 include:imdb
 include:kindle
@@ -88,7 +89,6 @@ amazonpay.com
 amazonpay.in
 amazonsdi.com
 amazonstudiosguilds.com
-amazontrust.com
 amazonvideodirect.com
 amzn.asia
 amzn.com
