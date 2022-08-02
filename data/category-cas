@@ -17,6 +17,7 @@ include:hinet-eca
 include:hongkongpost
 include:identrust
 include:letsencrypt
+include:microsoft-pki
 include:secom
 include:sectigo
 include:sslcom
