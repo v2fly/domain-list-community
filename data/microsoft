@@ -2,6 +2,7 @@ include:azure
 include:bing
 include:github
 include:microsoft-dev
+include:microsoft-pki
 include:msn
 include:onedrive
 include:xbox
@@ -185,7 +186,6 @@ msfteducation.ca
 msftnet.org
 msgamesresearch.com
 msocdn.com
-msocsp.com
 msturing.org
 msudalosti.com
 mymicrosoft.com
@@ -287,7 +287,6 @@ full:storeedgefd.dsx.mp.microsoft.com @cn
 full:wl.dlservice.microsoft.com @cn
 full:wscont1.apps.microsoft.com @cn
 full:wscont2.apps.microsoft.com @cn
-full:www.microsoft.com @cn
 full:xb.dlservice.microsoft.com @cn
 
 full:img-prod-cms-rt-microsoft-com.akamaized.net
