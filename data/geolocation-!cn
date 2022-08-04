@@ -267,6 +267,7 @@ include:wikimedia
 
 # Others
 include:avaxhome
+include:dlsite
 include:espressif
 include:familymart
 include:fzdm
