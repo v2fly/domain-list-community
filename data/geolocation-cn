@@ -247,6 +247,10 @@ tibetairlines.com.cn # 西藏航空
 variflight.com # 飞常准
 xiamenair.com # 厦门航空
 
+# Android Emulator
+lsplayer.com
+yeshen.com
+
 # Others
 include:8btc
 include:jibencaozuo
@@ -1244,7 +1248,6 @@ yaoyl.com
 yaozh.com
 ycgame.com
 yeepay.com
-yeshen.com
 yesky.com
 yh31.com
 yigao.com
