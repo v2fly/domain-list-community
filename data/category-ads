@@ -3,6 +3,7 @@
 include:acfun-ads
 include:adcolony-ads
 include:adjust-ads
+include:adobe-ads
 include:alibaba-ads
 include:amazon-ads
 include:apple-ads
@@ -80,11 +81,14 @@ go2.global
 img-bss.csdn.net
 imglnkc.com
 imglnkd.com
+innovid.com
 ja2.gamersky.com
 jl3.yjaxa.top
 juicyads.com
 kepler-37b.com
 lqc006.com
+moat.com
+moatads.com
 realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
@@ -118,3 +122,4 @@ ad.unimhk.com
 
 # UCloud
 das-rpt-log.ucloud.cn
+
