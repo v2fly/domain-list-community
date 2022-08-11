@@ -240,6 +240,8 @@ include:zeplin
 include:zoho
 include:zoom
 
+bromite.org
+
 # Software development
 include:category-dev
 
@@ -265,6 +267,8 @@ include:translatewiki
 include:wikidot
 include:wikihow
 include:wikimedia
+
+touhouwiki.net
 
 # Others
 include:avaxhome
