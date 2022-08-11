@@ -146,6 +146,8 @@ include:category-porn
 include:falungong
 
 # Services & Softwares
+include: category-browser-!cn
+
 include:accuweather
 include:adblock
 include:adblockplus
@@ -239,8 +241,6 @@ include:zendesk
 include:zeplin
 include:zoho
 include:zoom
-
-bromite.org
 
 # Software development
 include:category-dev
