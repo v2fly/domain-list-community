@@ -229,6 +229,9 @@ llsapp.com
 llscdn.com
 llsserver.com
 
+# 门户网站
+moulem.com
+
 # Aviation
 include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
