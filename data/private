@@ -137,13 +137,17 @@ peiluyou.com
 phicomm.me
 router.ctc
 routerlogin.com
-tendawifi.com
-tplinkwifi.net
 zte.home
 
 # QQ Loopback
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
+
+# Tenda router
+tendawifi.com
+
+# TP-Link router
+tplinkwifi.net
 
 # Windows
 msftconnecttest.com
