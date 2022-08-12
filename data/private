@@ -137,7 +137,6 @@ peiluyou.com
 phicomm.me
 router.ctc
 routerlogin.com
-zte.home
 
 # QQ Loopback
 localhost.sec.qq.com
@@ -152,3 +151,6 @@ tplinkwifi.net
 # Windows
 msftconnecttest.com
 msftncsi.com
+
+# 中興路由器
+zte.home
