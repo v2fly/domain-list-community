@@ -1,5 +1,8 @@
 # List of all domains that have access point in China mainland
 
+# 123云盘
+123pan.com
+
 # Advertisment & Analytics
 include:jiguang
 include:umeng
@@ -102,11 +105,20 @@ include:nga
 include:stage1st
 include:zhihu
 
+# 苦力怕论坛
+klpbbs.com
+
 # 快对作业
 kuaiduizuoye.com
 
 # Logistics
 include:sf-express
+
+# MCBBS论坛
+mcbbs.net
+
+# MC百科
+mcmod.cn
 
 # Media & News & Press
 include:category-media-cn
@@ -358,6 +370,7 @@ suzuki-china.com # 铃木中国官网
 52hxw.com
 52miji.com
 52pk.com
+52pojie.cn
 52z.com
 53kf.com
 55.com
@@ -773,9 +786,11 @@ ishumei.com
 it165.net
 it168.com
 it610.com
+itdog.cn
 iteye.com
 itjuzi.com
 itmop.com
+itsk.com
 iyiou.com
 iyunxiao.com
 izuche.com
