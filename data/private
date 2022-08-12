@@ -121,13 +121,36 @@ b.e.f.ip6.arpa
 # Dotless domains
 regexp:^[^.]+$
 
+# Aruba router
+full:instant.arubanetworks.com
+full:setmeup.arubanetworks.com
+
 # ASUS router
 full:router.asus.com
+
+# Other router
+hiwifi.com
+leike.cc
+miwifi.com
+my.router
+peiluyou.com
+phicomm.me
+router.ctc
+routerlogin.com
 
 # QQ Loopback
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
 
+# Tenda router
+tendawifi.com
+
+# TP-Link router
+tplinkwifi.net
+
 # Windows
 msftconnecttest.com
 msftncsi.com
+
+# 中興路由器
+zte.home
