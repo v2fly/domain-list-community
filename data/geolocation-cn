@@ -105,11 +105,20 @@ include:nga
 include:stage1st
 include:zhihu
 
+# 苦力怕论坛
+klpbbs.com
+
 # 快对作业
 kuaiduizuoye.com
 
 # Logistics
 include:sf-express
+
+# MCBBS论坛
+mcbbs.net
+
+# MC百科
+mcmod.cn
 
 # Media & News & Press
 include:category-media-cn
@@ -842,7 +851,6 @@ kimiss.com
 kingdee.com
 kiyuu.club # 沪ICP备2022004023号-1
 kkzj.com
-klpbbs.com #苦力怕论坛
 kongfz.com
 kouclo.com
 koudai.com
@@ -914,7 +922,6 @@ mapbar.com
 mayi.com
 mayihr.com
 mcbang.com
-mcbbs.net #MCBBS论坛
 mcmod.cn #MC百科
 mdpda.com
 mechina.org
