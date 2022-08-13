@@ -117,9 +117,6 @@ aliexpress.ru
 alicloudccp.com
 aliyundrive.com
 
-# 神马搜索
-sm.cn
-
 # 菜鸟
 cainiao.com
 cainiao.com.cn
@@ -131,6 +128,9 @@ hemamax.com
 hemaos.com
 hemashare.cn
 shyhhema.com
+
+# 神马搜索
+sm.cn
 
 # 淘宝
 1688.com
@@ -151,6 +151,9 @@ tmall.com
 tmall.ru
 tmalltv.com
 tmjl.ai
+
+#夸克云盘
+quark.cn
 
 # 飞猪
 alitrip.com
