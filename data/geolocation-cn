@@ -105,20 +105,26 @@ include:nga
 include:stage1st
 include:zhihu
 
-# 苦力怕论坛
-klpbbs.com
+#itdog网站工具箱
+itdog.cn
 
 # 快对作业
 kuaiduizuoye.com
 
+#论坛
+52pojie.cn #吾爱破解
+klpbbs.com #苦力怕论坛
+mcbbs.net #MCBBS论坛
+itsk.com #IT天空论坛
+
 # Logistics
 include:sf-express
 
-# MCBBS论坛
-mcbbs.net
-
 # MC百科
 mcmod.cn
+
+# 门户网站
+moulem.com
 
 # Media & News & Press
 include:category-media-cn
@@ -244,9 +250,6 @@ llsapp.com
 llscdn.com
 llsserver.com
 
-# 门户网站
-moulem.com
-
 # Aviation
 include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
@@ -278,6 +281,9 @@ include:8btc
 include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
+
+#优启通官网
+upe.net
 
 suzuki-china.com # 铃木中国官网
 
@@ -370,7 +376,6 @@ suzuki-china.com # 铃木中国官网
 52hxw.com
 52miji.com
 52pk.com
-52pojie.cn
 52z.com
 53kf.com
 55.com
@@ -786,11 +791,9 @@ ishumei.com
 it165.net
 it168.com
 it610.com
-itdog.cn
 iteye.com
 itjuzi.com
 itmop.com
-itsk.com
 iyiou.com
 iyunxiao.com
 izuche.com
