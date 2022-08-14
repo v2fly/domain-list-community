@@ -3463,9 +3463,10 @@ full:anime-rule34-world.b-cdn.net
 
 # Using regular expression to match some domains.
 
+regexp:(^|\.)[1-5]gaoap.com$
+regexp:(^|\.)[1-9]00caocao\.com$
 regexp:(^|\.)[3-9]0000sao\.com$
 regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
-regexp:(^|\.)[1-9]00caocao\.com$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)8dgo[1-57-9]\.com$
 regexp:(^|\.)91porn[0-9]{3}\.me
