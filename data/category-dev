@@ -45,6 +45,7 @@ include:ruby
 include:scala
 include:stackexchange
 include:strikingly
+include:tencent-dev
 include:termux
 include:thelinuxfoundation
 include:unity
