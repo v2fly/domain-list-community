@@ -1,5 +1,6 @@
 include:dnspod
 include:tencent-ads
+include:tencent-dev
 include:yuewen
 
 # qq.中国
