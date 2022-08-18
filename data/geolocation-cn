@@ -105,6 +105,9 @@ include:nga
 include:stage1st
 include:zhihu
 
+# Fofa网站测绘
+fofa.info
+
 # itdog网站工具箱
 itdog.cn
 
