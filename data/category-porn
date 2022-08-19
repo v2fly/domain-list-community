@@ -3679,3 +3679,4 @@ regexp:(^|\.)yiren[1-9][0-9]\.com$
 regexp:(^|\.)youyuapi\..+$
 regexp:(^|\.)yrrj[1-9]?\.buzz$
 regexp:(^|\.)zh9[0-7]\.net$
+regexp:(^|\.)zzz[1-9][0-9]\.top$
