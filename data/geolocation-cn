@@ -21,6 +21,7 @@ include:upai
 include:wangsu
 include:yunfanjiasu
 funcdn.com
+bootcdn.net
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
@@ -222,6 +223,7 @@ include:baidu
 include:bytedance
 include:didi
 include:huawei
+include:iflytek
 include:kingsoft
 include:meizu
 include:netease
@@ -780,7 +782,6 @@ ibuychem.com
 icaidao.com
 ichangtou.com
 idongdong.com
-iflytek.com
 igao7.com
 iheima.com
 ijiandao.com
