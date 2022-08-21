@@ -9,6 +9,7 @@ include:umeng
 
 # CDN companies & Services
 include:baijiayun
+include:bootcdn
 include:bootcss
 include:dwion
 include:maocloud
