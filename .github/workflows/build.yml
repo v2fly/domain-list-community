@@ -1,5 +1,8 @@
 name: Build dlc.dat
 on:
+  pull_request:
+    branches:
+    - master
   push:
     branches:
       - master
