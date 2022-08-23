@@ -1,0 +1,44 @@
+cdnhwcibv122.com
+hc-cdn.cn
+huaweicloud-dns.cn
+huaweicloud-dns.com
+huaweicloud-dns.net @!cn
+huaweicloud-dns.org @!cn
+huaweicloud.com
+huaweicloudapis.cn
+huaweicloudapis.com
+huaweiyun.cn
+hwclouds-dns.cn
+hwclouds-dns.com
+hwclouds-dns.net
+myhuaweicloud.cn
+myhwclouds.com
+powerapp.io
+
+af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡
+ap-southeast-1.myhuaweicloud.com @!cn   #中国-香港
+ap-southeast-2.myhuaweicloud.com @!cn   #亚太-曼谷
+ap-southeast-3.myhuaweicloud.com @!cn   #亚太-新加坡
+cn-east-2.myhuaweicloud.com             #华东-上海二
+cn-east-3.myhuaweicloud.com             #华东-上海一
+cn-north-1.myhuaweicloud.com            #华北-北京一
+cn-north-2.myhuaweicloud.com            #华北-北京二
+cn-north-3.myhuaweicloud.com            #华北-北京三
+cn-north-4.myhuaweicloud.com            #华北-北京四
+cn-north-5.myhuaweicloud.com            #华北-乌兰察布二零一
+cn-north-6.myhuaweicloud.com            #华北-乌兰察布二零二
+cn-north-9.myhuaweicloud.com            #华北-乌兰察布一
+cn-northeast-1.myhuaweicloud.com        #东北-大连
+cn-south-1.myhuaweicloud.com            #华南-广州
+cn-south-2.myhuaweicloud.com            #华南-深圳
+cn-south-4.myhuaweicloud.com            #华南-广州-友好用户环境
+cn-southwest-2.myhuaweicloud.com        #西南-贵阳一
+eu-west-0.myhuaweicloud.com @!cn        #欧洲-巴黎
+la-north-2.myhuaweicloud.com @!cn       #拉美-墨西哥城二
+la-south-2.myhuaweicloud.com @!cn       #拉美-圣地亚哥
+na-mexico-1.myhuaweicloud.com @!cn      #拉美-墨西哥城一
+ru-northwest-2.myhuaweicloud.com @!cn   #俄罗斯-莫斯科二
+sa-brazil-1.myhuaweicloud.com @!cn      #拉美-圣保罗一
+
+regexp:.+\.cdnhwc([1-9]|10)\.cn$
+regexp:.+\.cdnhwc([1-9]|10)\.com$
