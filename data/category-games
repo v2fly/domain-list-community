@@ -6,9 +6,11 @@ include:ea
 include:epicgames
 include:garena
 include:gog
+include:illusion
 include:mihoyo
 include:nintendo
 include:op
+include:pinkcore
 include:playstation
 include:purikonejp
 include:riot
@@ -25,8 +27,6 @@ modrinth.com
 nexusmods.com
 papermc.io
 planetminecraft.com
-pinkcore.com
-pinkcore.net
 protondb.com
 speedrun.com
 steamdb.info
