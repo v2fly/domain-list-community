@@ -1,3 +1,4 @@
+include:discuz
 include:dnspod
 include:tencent-ads
 include:tencent-dev
@@ -26,7 +27,10 @@ qcloud.com
 qcloudimg.com
 qlogo.cn
 qpic.cn
+qq.cn.com
 qq.com
+qq.com.cn
+qq.wang
 qqmail.com
 qzone.com
 rtx.com.cn
@@ -34,9 +38,11 @@ servicewechat.com
 smtcdns.com
 smtcdns.net
 tencent.cn
+tencent.co.id @!cn
 tencent.com
 tencent.com.cn
 tencent.com.hk
+tencent.net
 tencent.net.cn
 tencent-cloud.com
 tencent-cloud.net
