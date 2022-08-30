@@ -2,6 +2,7 @@ include:discuz
 include:dnspod
 include:tencent-ads
 include:tencent-dev
+include:tencent-games
 include:yuewen
 
 # qq.中国
@@ -52,8 +53,6 @@ tencentmusic.com
 tencentyun.com
 tenpay.com
 wechat.com
-wegame.com
-wegame.com.cn
 weiyun.com
 
 
