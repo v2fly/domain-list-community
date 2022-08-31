@@ -17,7 +17,7 @@ include:riot
 include:rockstar
 include:steam
 include:steamunlocked
-include:tencent-games @cn
+include:tencent-games
 include:ubisoft
 include:xbox
 
