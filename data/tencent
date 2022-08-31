@@ -1,5 +1,4 @@
-include:discuz
-include:dnspod
+include:qcloud #腾讯云
 include:tencent-ads
 include:tencent-dev
 include:tencent-games
@@ -13,8 +12,6 @@ xn--r70as2s.xn--fiqs8s
 
 apcdns.net
 cdn-go.cn
-cdntip.com
-cdntips.com
 foxmail.com
 foxmail.com.cn
 gtimg.cn
@@ -23,9 +20,6 @@ gtimg.com.cn
 idqqimg.com
 imqq.com
 myapp.com
-myqcloud.com
-qcloud.com
-qcloudimg.com
 qlogo.cn
 qpic.cn
 qq.cn.com
@@ -36,8 +30,6 @@ qqmail.com
 qzone.com
 rtx.com.cn
 servicewechat.com
-smtcdns.com
-smtcdns.net
 tencent.cn
 tencent.co.id @!cn
 tencent.com
@@ -45,12 +37,7 @@ tencent.com.cn
 tencent.com.hk
 tencent.net
 tencent.net.cn
-tencent-cloud.com
-tencent-cloud.net
-tencentcloudapi.com
-tencentcs.com
 tencentmusic.com
-tencentyun.com
 tenpay.com
 wechat.com
 weiyun.com
