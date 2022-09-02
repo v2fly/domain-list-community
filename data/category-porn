@@ -17,7 +17,6 @@ include:jable
 include:javbus
 include:javcc
 include:javdb
-include:javfinder
 include:javwide
 include:johren
 include:metart
@@ -1713,8 +1712,6 @@ javdoe.com
 javdove.com
 javdove8.xyz
 javextreme.net
-javfinder.is
-javfinder.to
 javfor.me
 javfree.me
 javfree.sh
