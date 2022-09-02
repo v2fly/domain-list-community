@@ -34,5 +34,5 @@ jobs:
       - name: Upload Test-dlc.dat
         uses: actions/upload-artifact@v3
         with:
-          name: Test-dlc.dat
+          name: Test-${{ github.run_number }}-dlc.dat
           path: dlc.dat
