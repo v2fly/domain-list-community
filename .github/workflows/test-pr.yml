@@ -31,7 +31,7 @@ jobs:
           go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
           cd ../ && rm -rf code
           
-      - name: Upload Test-dlc.dat
+      - name: Upload Test-${{ github.run_number }}-dlc.dat
         uses: actions/upload-artifact@v3
         with:
           name: Test-${{ github.run_number }}-dlc.dat
