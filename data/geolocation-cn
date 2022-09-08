@@ -198,6 +198,9 @@ include:xueersi
 include:yuanfudao
 include:zhihuishu
 
+# Social Media
+include:category-social-media-cn
+
 # Software development related
 include:coding
 include:csdn
