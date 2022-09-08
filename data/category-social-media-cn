@@ -2,3 +2,13 @@
 
 include:sina
 include:zhihu
+include:douban
+
+weixin.qq.com
+xiaohongshu.com
+tieba.baidu.com
+tieba.com
+
+include:douyu
+include:kuaishou
+douyin.com
