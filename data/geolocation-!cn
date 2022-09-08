@@ -132,6 +132,7 @@ include:streamable
 
 # Forums & Social network
 include:category-forums
+include:category-social-media-!cn
 
 # Media & News & Press
 include:category-media
