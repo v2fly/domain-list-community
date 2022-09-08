@@ -16,6 +16,7 @@ include:sci-hub
 include:sciencedirect
 include:springer
 include:taylorfrancis
+include:z-library
 
 aacrjournals.org # AACR 美国癌症研究学会
 academic.eb.com # Britannica Academic
