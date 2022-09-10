@@ -134,6 +134,9 @@ include:streamable
 include:category-forums
 include:category-social-media-!cn
 
+# IPFS
+include:category-ipfs
+
 # Media & News & Press
 include:category-media
 include:pugpig
