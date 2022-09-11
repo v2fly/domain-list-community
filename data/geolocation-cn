@@ -47,6 +47,7 @@ include:jd
 include:lianjia
 include:manmanbuy
 include:meituan
+include:miaomiaozhe
 include:mogujie
 include:pinduoduo
 include:smzdm
@@ -192,7 +193,6 @@ include:guokr
 include:hujiang
 include:ihuman
 include:koolearn
-include:miaomiaozhe
 include:shanbay
 include:wanfang
 include:xueersi
