@@ -30,6 +30,7 @@ include:intel
 include:lg
 include:logitech
 include:mailru
+include:meta
 include:microsoft
 include:mozilla
 include:musixmatch
