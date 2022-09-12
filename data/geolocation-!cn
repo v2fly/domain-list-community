@@ -44,6 +44,7 @@ include:visa
 
 # CDN companies & Services
 include:akamai
+include:awempire
 include:cdn77
 include:cloudflare
 include:fastly
@@ -132,6 +133,10 @@ include:streamable
 
 # Forums & Social network
 include:category-forums
+include:category-social-media-!cn
+
+# IPFS
+include:category-ipfs
 
 # Media & News & Press
 include:category-media

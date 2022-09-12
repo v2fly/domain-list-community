@@ -47,6 +47,7 @@ include:jd
 include:lianjia
 include:manmanbuy
 include:meituan
+include:miaomiaozhe
 include:mogujie
 include:pinduoduo
 include:smzdm
@@ -192,10 +193,14 @@ include:guokr
 include:hujiang
 include:ihuman
 include:koolearn
+include:shanbay
 include:wanfang
 include:xueersi
 include:yuanfudao
 include:zhihuishu
+
+# Social Media
+include:category-social-media-cn
 
 # Software development related
 include:coding
@@ -1247,6 +1252,7 @@ wooyun.org
 worktile.com
 woyaogexing.com
 woyoo.com
+wo1wan.com
 wqiis.com
 wrating.com
 wtown.com

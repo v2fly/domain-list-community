@@ -17,7 +17,6 @@ include:cloudcone
 include:collabora
 include:dell
 include:digitalocean
-include:facebook
 include:faronics
 include:gigabyte
 include:godaddy
@@ -29,9 +28,9 @@ include:hp
 include:ibm
 include:intel
 include:lg
-include:linkedin
 include:logitech
 include:mailru
+include:meta
 include:microsoft
 include:mozilla
 include:musixmatch
@@ -52,10 +51,8 @@ include:sony
 include:spacex
 include:theboringcompany
 include:tonec
-include:twitter
 include:uber
 include:verizon
-include:vk
 include:vultr
 include:westerndigital
 include:yahoo
