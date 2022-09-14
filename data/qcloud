@@ -59,12 +59,14 @@ hr-welink.com
 idcgcloudcs.com
 iemiq.com
 igtm.pub
+intltencentcos.com @!cn
 isd.com
 ispqcloud.com
 itopsdk.com
 jrzk.net.cn
 my-qcloud.com
 myelasticsearch.com
+myqcloud.com
 onexmail.com
 openapp.run
 ovscdns.com
@@ -172,7 +174,9 @@ tencentcloudmarket.com
 tencentcloudns.com
 tencentcloudsec.com
 tencentcloudses.com
+tencentcos.cn
 tencentcos.com
+tencentcos.com.cn
 tencentcs.com
 tencentdayu.com
 tencentdb.com
@@ -221,17 +225,7 @@ yufuid.com.cn
 yufuid.net
 yunjitele.com
 
-# COS 使用到的地域与可用区，参见 https://cloud.tencent.com/document/product/436/6224
-ap-beijing-1.myqcloud.com           #北京一区
-ap-beijing.myqcloud.com             #北京
-ap-nanjing.myqcloud.com             #南京
-ap-shanghai.myqcloud.com            #上海
-ap-guangzhou.myqcloud.com           #广州
-ap-chengdu.myqcloud.com             #成都
-ap-chongqing.myqcloud.com           #重庆
-ap-shenzhen-fsi.myqcloud.com        #深圳金融
-ap-shanghai-fsi.myqcloud.com        #上海金融
-ap-beijing-fsi.myqcloud.com         #北京金融
+# COS 使用到的非中国大陆的地域与可用区，参见 https://cloud.tencent.com/document/product/436/6224
 ap-hongkong.myqcloud.com @!cn       #中国香港
 ap-singapore.myqcloud.com @!cn      #新加坡
 ap-mumbai.myqcloud.com @!cn         #孟买
@@ -246,7 +240,21 @@ sa-saopaulo.myqcloud.com @!cn       #圣保罗
 eu-frankfurt.myqcloud.com @!cn      #法兰克福
 eu-moscow.myqcloud.com @!cn         #莫斯科
 
-# Formerly COS Download Domain 
+regexp:.+\.ap-hongkong\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #中国香港
+regexp:.+\.ap-singapore\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #新加坡
+regexp:.+\.ap-mumbai\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #孟买
+regexp:.+\.ap-jakarta\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #雅加达
+regexp:.+\.ap-seoul\.tencentcos\.(cn|com(\.cn)?)$ @!cn          #首尔
+regexp:.+\.ap-bangkok\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #曼谷
+regexp:.+\.ap-tokyo\.tencentcos\.(cn|com(\.cn)?)$ @!cn          #东京
+regexp:.+\.na-siliconvalley\.tencentcos\.(cn|com(\.cn)?)$ @!cn  #硅谷（美西）
+regexp:.+\.na-ashburn\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #弗吉尼亚（美东）
+regexp:.+\.na-toronto\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #多伦多
+regexp:.+\.sa-saopaulo\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #圣保罗
+regexp:.+\.eu-frankfurt\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #法兰克福
+regexp:.+\.eu-moscow\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #莫斯科
+
+# Formerly COS Download Domain
 costj.myqcloud.com                  #北京一区（华北）
 cosbj.myqcloud.com                  #北京
 cossh.myqcloud.com                  #上海（华东）
@@ -257,7 +265,7 @@ cossgp.myqcloud.com @!cn            #新加坡
 cosca.myqcloud.com @!cn             #多伦多
 cosger.myqcloud.com @!cn            #法兰克福
 
-# Formerly COS Upload Domain 
+# Formerly COS Upload Domain
 tj.file.myqcloud.com                #北京一区（华北）
 bj.file.myqcloud.com                #北京
 sh.file.myqcloud.com                #上海（华东）
