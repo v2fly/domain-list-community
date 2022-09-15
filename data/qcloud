@@ -29,18 +29,6 @@ cloudsite.vip
 cncqcloud.com
 computeinit.com
 coolsite.vip
-dnse0.cn
-dnse0.com
-dnse1.cn
-dnse1.com
-dnse2.cn
-dnse2.com
-dnse3.cn
-dnse3.com
-dnse4.cn
-dnse4.com
-dnse5.cn
-dnse5.com
 dnsv1.com
 dnsv1.com.cn
 dothework.cn
@@ -72,9 +60,9 @@ openapp.run
 ovscdns.com
 ovscdns.net
 pn1waq.com
+qcloud-edumall.com
 qcloud.com
 qcloud.la
-qcloud-edumall.com
 qcloudapps.com
 qcloudcdn.com
 qcloudcdntest.cn
@@ -132,26 +120,6 @@ tcloudhw.com
 tcloudhw.net
 tcloudscdn.com
 tcloudscdn.net
-tdnsv10.com
-tdnsv10.net
-tdnsv12.com
-tdnsv13.com
-tdnsv13.net
-tdnsv14.com
-tdnsv14.net
-tdnsv15.net
-tdnsv2.com
-tdnsv4.com
-tdnsv4.net
-tdnsv5.com
-tdnsv5.net
-tdnsv6.com
-tdnsv6.net
-tdnsv7.com
-tdnsv7.net
-tdnsv8.com
-tdnsv9.com
-tdnsv9.net
 tdnsx1.com
 techo.chat
 tefscloud.com
@@ -224,6 +192,9 @@ yufuid.com
 yufuid.com.cn
 yufuid.net
 yunjitele.com
+
+regexp:.+\.dnse[0-5]\.(cn|com)$
+regexp:.+\.tdnsv([1-9]|1[0-5])\.(com|net)$
 
 # COS 使用到的非中国大陆的地域与可用区，参见 https://cloud.tencent.com/document/product/436/6224
 ap-hongkong.myqcloud.com @!cn       #中国香港
