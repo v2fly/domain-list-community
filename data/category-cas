@@ -21,6 +21,7 @@ include:microsoft-pki
 include:secom
 include:sectigo
 include:sslcom
+include:starfieldtech
 include:swisssign
 include:telekom
 include:trustwave
