@@ -249,6 +249,7 @@ include:xiaomi
 include:xunlei
 
 # Telecommunication
+include:chinabroadnet 
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
