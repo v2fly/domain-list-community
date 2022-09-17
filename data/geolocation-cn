@@ -42,7 +42,6 @@ include:58tongcheng
 include:ctrip
 include:dangdang
 include:eleme
-include:ganji
 include:jd
 include:lianjia
 include:manmanbuy
@@ -249,6 +248,7 @@ include:xiaomi
 include:xunlei
 
 # Telecommunication
+include:chinabroadnet 
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
