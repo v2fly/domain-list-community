@@ -42,11 +42,11 @@ include:58tongcheng
 include:ctrip
 include:dangdang
 include:eleme
-include:ganji
 include:jd
 include:lianjia
 include:manmanbuy
 include:meituan
+include:miaomiaozhe
 include:mogujie
 include:pinduoduo
 include:smzdm
@@ -248,6 +248,7 @@ include:xiaomi
 include:xunlei
 
 # Telecommunication
+include:chinabroadnet 
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
@@ -1251,6 +1252,7 @@ wooyun.org
 worktile.com
 woyaogexing.com
 woyoo.com
+wo1wan.com
 wqiis.com
 wrating.com
 wtown.com
