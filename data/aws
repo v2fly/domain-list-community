@@ -2,21 +2,28 @@
 aws
 
 # AWS
+a2z.org.cn @cn
 acmvalidations.com
 acmvalidationsaws.com
 aesworkshops.com
-amazonaws-china.com
+amazonaws.cn @cn
 amazonaws.co.uk
 amazonaws.com
+amazonaws.com.cn @cn
 amazonaws.tv
+amazonaws-china.com
+amazonwebservices.com.cn @cn
 amazonworkdocs.cn @cn
 amazonworkdocs.com
 amazonworkdocs.com.cn @cn
 amplifyapp.com
 amplifyframework.com
-aws-iot-hackathon.com
+asfiovnxocqpcry.com.cn @cn
+awsapps.cn @cn
+awsapps.com.cn @cn
 awsautopilot.com
 awsautoscaling.com
+aws-border.cn @cn
 awsbraket.com
 awscommandlineinterface.com
 awsedstart.com
@@ -24,15 +31,27 @@ awseducate.com
 awseducate.net
 awseducate.org
 awsglobalaccelerator.com
+aws-icp-domain-manager.cn @cn
+aws-iot-hackathon.com
 awsloft-johannesburg.com
 awsloft-stockholm.com
 awssecworkshops.com
+awsstatic.cn @cn
 awsstatic.com
 awsthinkbox.com
 cdkworkshop.com
+cloudfront.cn @cn
 cloudfront.net
+cloudfront-cn.net @cn
+cloudfront-test.cn @cn
 containersonaws.com
 elasticbeanstalk.com
+nwcdcloud.cn @cn
+nwcdcloud.com.cn @cn
+nwcddns.cn @cn
+nwcdinfosec.cn @cn
+route53.cn @cn
+sagemaker.com.cn @cn
 thinkboxsoftware.com
 
 # AWS DNS
@@ -41,6 +60,7 @@ regexp:.+\.awsdns-[0-9][0-9]\.com$
 regexp:.+\.awsdns-[0-9][0-9]\.net$
 regexp:.+\.awsdns-[0-9][0-9]\.org$
 regexp:.+\.awsdns-cn-[0-9][0-9]\.biz$
-regexp:.+\.awsdns-cn-[0-9][0-9]\.cn$
+regexp:.+\.awsdns-cn-[0-9][az-0-9]\.cn$
 regexp:.+\.awsdns-cn-[0-9][0-9]\.com$
 regexp:.+\.awsdns-cn-[0-9][0-9]\.net$
+regexp:.+\.awsdns-cn-[0-9][0-9]\.top$
