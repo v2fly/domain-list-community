@@ -3,7 +3,7 @@
 # 123云盘
 123pan.com
 
-#一起作业
+# 一起作业
 17zuoye.cn
 17zuoye.net
 17zuoye.com
@@ -97,7 +97,6 @@ include:ximalaya
 include:youku
 include:yy
 include:zhanqi
-
 wo1wan.com
 
 # Food & Drink
@@ -105,13 +104,11 @@ include:heytea
 
 # Forums
 include:chiphell
-include:douban
 include:erji
 include:hacpai
 include:kechuang
 include:nga
 include:stage1st
-include:zhihu
 
 # Fofa网站测绘
 fofa.info
@@ -201,7 +198,7 @@ include:yuanfudao
 include:zhihuishu
 
 # Social Media
-# include:category-social-media-cn
+include:category-social-media-cn
 
 # Software development related
 include:coding
@@ -487,7 +484,6 @@ bamenzhushou.com
 bangongziyuan.com
 baofeng.com
 baoxianshichang.com
-bcy.net
 bearychat.com
 beihaidc.com
 beijing-lipin.com
