@@ -1,0 +1,7 @@
+# bilibili2 is a pornographic website. Do not add bilibili domain in here.
+
+bili2.cc
+bili888.com
+bili999.com
+
+regexp:(^|\.)bilibili3(0[1-9]|1[0-2])\.xyz$
