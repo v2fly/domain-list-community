@@ -23,6 +23,7 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
+include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
