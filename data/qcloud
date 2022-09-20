@@ -196,6 +196,14 @@ yunjitele.com
 regexp:.+\.dnse[0-5]\.(cn|com)$
 regexp:.+\.tdnsv([1-9]|1[0-5])\.(com|net)$
 
+regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$             #北京
+regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$             #南京
+regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$            #上海
+regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$           #广州
+regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$             #成都
+regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$           #重庆
+regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$            #深圳
+
 # COS 使用到的非中国大陆的地域与可用区，参见 https://cloud.tencent.com/document/product/436/6224
 ap-hongkong.myqcloud.com @!cn       #中国香港
 ap-singapore.myqcloud.com @!cn      #新加坡
