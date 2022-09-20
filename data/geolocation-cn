@@ -13,6 +13,7 @@ include:jiguang
 include:umeng
 
 # CDN companies & Services
+include:aws-cn
 include:baijiayun
 include:bootcdn
 include:bootcss
