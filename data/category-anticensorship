@@ -4,6 +4,7 @@ include:haveibeenpwned
 include:lantern
 include:softether
 include:v2ray
+include:vpngate
 
 ahmia.fi
 akasha.world
@@ -40,7 +41,6 @@ tribler.org
 tunsafe.com
 twister.net.co
 uproxy.org
-vpngate.org
 vuvuzela.io
 whonix.org
 wikileaks.org
