@@ -196,6 +196,15 @@ yunjitele.com
 regexp:.+\.dnse[0-5]\.(cn|com)$
 regexp:.+\.tdnsv([1-9]|1[0-5])\.(com|net)$
 
+# myqcloud inside mainland China
+regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$             #北京
+regexp:\.(.+-)?ap-nanjing(-.+)?\.myqcloud\.com$             #南京
+regexp:\.(.+-)?ap-shanghai(-.+)?\.myqcloud\.com$            #上海
+regexp:\.(.+-)?ap-guangzhou(-.+)?\.myqcloud\.com$           #广州
+regexp:\.(.+-)?ap-chengdu(-.+)?\.myqcloud\.com$             #成都
+regexp:\.(.+-)?ap-chongqing(-.+)?\.myqcloud\.com$           #重庆
+regexp:\.(.+-)?ap-shenzhen(-.+)?\.myqcloud\.com$            #深圳
+
 # COS 使用到的非中国大陆的地域与可用区，参见 https://cloud.tencent.com/document/product/436/6224
 ap-hongkong.myqcloud.com @!cn       #中国香港
 ap-singapore.myqcloud.com @!cn      #新加坡
@@ -211,6 +220,16 @@ sa-saopaulo.myqcloud.com @!cn       #圣保罗
 eu-frankfurt.myqcloud.com @!cn      #法兰克福
 eu-moscow.myqcloud.com @!cn         #莫斯科
 
+# tencentcos inside mainland China
+regexp:\.(.+-)?ap-beijing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   #北京
+regexp:\.(.+-)?ap-nanjing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   #南京
+regexp:\.(.+-)?ap-shanghai(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  #上海
+regexp:\.(.+-)?ap-guangzhou(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ #广州
+regexp:\.(.+-)?ap-chengdu(-.+)?\.tencentcos\.(cn|com(\.cn)?)$   #成都
+regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ #重庆
+regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  #深圳
+
+# tencentcos outside mainland China
 regexp:.+\.ap-hongkong\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #中国香港
 regexp:.+\.ap-singapore\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #新加坡
 regexp:.+\.ap-mumbai\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #孟买
