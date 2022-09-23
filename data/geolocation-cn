@@ -113,6 +113,11 @@ include:kechuang
 include:nga
 include:stage1st
 
+52pojie.cn # 吾爱破解
+itsk.com # IT天空论坛
+klpbbs.com # 苦力怕论坛
+mcbbs.net # MCBBS论坛
+
 # Fofa网站测绘
 fofa.info
 
@@ -121,12 +126,6 @@ itdog.cn
 
 # 快对作业
 kuaiduizuoye.com
-
-# 论坛
-52pojie.cn # 吾爱破解
-klpbbs.com # 苦力怕论坛
-mcbbs.net # MCBBS论坛
-itsk.com # IT天空论坛
 
 # Logistics
 include:sf-express
