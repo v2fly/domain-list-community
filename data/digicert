@@ -1,5 +1,5 @@
-# It is worth noting that although its domain name contains the word cn, it does not actually resolve to servers located in mainland China.
-digicert-cn.com
+digicert-cn.com # Not in Chinese Mainland
+
 digicert.cn @cn
 digicert.com
 digitalcertvalidation.com
@@ -9,3 +9,9 @@ rapidssl.com
 thawte.com
 thawte.de
 thawte.fr
+
+# Quovadis
+quovadisglobal.com
+
+# Public Trust
+public-trust.com

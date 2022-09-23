@@ -7,3 +7,9 @@ sectigo.com
 trust-provider.cn @cn
 trust-provider.com
 usertrust.com
+
+# Sub brand
+aoc.cat
+catcert.cat
+incommon-rsa.org
+netsolssl.com
