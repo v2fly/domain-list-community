@@ -1,7 +1,11 @@
-# 一起作业
-17zuoye.cn
-17zuoye.net
-17zuoye.com
+include:17zuoye
+include:applysquare
+include:hujiang
+include:koolearn
+include:shanbay
+include:xueersi
+include:yuanfudao
+include:zhihuishu
 
 # 云校
 91yunxiao.com
@@ -11,10 +15,6 @@ aiyunxiao.com
 haofenshu.com
 iyunxiao.com
 yunxiao.com
-
-# 申请方/教学立方
-applysquare.com
-applysquare.net
 
 # 课播云校
 keboyunxiao.com
@@ -27,10 +27,3 @@ pigai.org
 
 # 未来云校
 weilaiyunxiao.com
-
-include:hujiang
-include:koolearn
-include:shanbay
-include:xueersi
-include:yuanfudao
-include:zhihuishu
