@@ -8,6 +8,7 @@ include:coinone
 include:ethereum
 include:huobi
 include:localbitcoins
+include:wisekey
 include:zb
 
 bitbank.cc
