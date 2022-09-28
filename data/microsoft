@@ -10,9 +10,6 @@ include:xbox
 # All .microsoft domains
 microsoft
 
-# All .azure domains
-azure
-
 # All .hotmail domains
 hotmail
 
@@ -24,9 +21,6 @@ skype
 
 # All .windows domains
 windows
-
-# All .xbox domains
-xbox
 
 microsoft.az
 microsoft.be
@@ -81,6 +75,7 @@ asp.net
 aspnetcdn.com
 binads.com
 bluehatil.com
+boswp.com
 brazilpartneruniversity.com
 breakdown.me
 centralvalidation.com
@@ -96,7 +91,7 @@ crossborderexpansion.com
 docs.com
 dynamics.com
 efproject.net
-azuredigitaltwin.com
+engkoo.com @cn
 fasttrackreadysupport.com
 fluidpreview.com
 gameuxmasterguide.com
@@ -123,6 +118,7 @@ ingads.com
 intunewiki.com
 iotinactionevents.com
 kidgrid.tv
+kumo.com
 latampartneruniversity.com
 live.com
 live.com.au
@@ -186,11 +182,15 @@ msfteducation.ca
 msftnet.org
 msgamesresearch.com
 msocdn.com
+mspil.cn @cn
+msra.cn @cn
 msturing.org
 msudalosti.com
 mymicrosoft.com
 nextechafrica.net
 nxta.org
+o365cn.com @cn
+o365files.cn @cn
 o365weve-dev.com
 o365weve-ppe.com
 o365weve.com
@@ -216,6 +216,7 @@ projectmurphy.net
 projectsangam.com
 pxt.io
 s-microsoft.com
+s-msft.com
 s-msn.com
 sfbassets.com
 sfbassets.net
@@ -293,5 +294,6 @@ full:img-prod-cms-rt-microsoft-com.akamaized.net
 full:img-s-msn-com.akamaized.net
 full:mwf-service.akamaized.net
 full:officecdn-microsoft-com.akamaized.net
+full:statics-marketingsites-eas-ms-com.akamaized.net
 full:statics-marketingsites-eus-ms-com.akamaized.net
 full:statics-marketingsites-wcus-ms-com.akamaized.net

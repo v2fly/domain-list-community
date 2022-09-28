@@ -1,6 +1,9 @@
 include:bethesda
 include:mojang
 
+# All .xbox domains
+xbox
+
 forzamotorsport.net
 forzaracingchampionship.com
 forzarc.com
