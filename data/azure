@@ -101,7 +101,7 @@ windowsazure.cn @cn
 windowsazure.com
 windowsazurestatus.cn @cn
 
-regexp:.+\.azchcdn[a-s]\.cn$ @cn
+regexp:.+\.azchcdn[a-s]\.com$ @cn
 
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
