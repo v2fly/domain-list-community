@@ -1,10 +1,8 @@
 # All .azure domains
 azure
 
-azure-dns.com
-azure-dns.info
-azure-dns.net
-azure-dns.org
+azure-devices-int.net
+azure-devices.net
 azure-mobile.net
 azure-sphere.com
 azure-test.net
@@ -52,5 +50,11 @@ windowsazure.com
 
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
+
+# Azure DNS
+azure-dns.com
+azure-dns.info
+azure-dns.net
+azure-dns.org
 
 regexp:.+\.azure-dns-([1-9]|10)\.cn$ @cn
