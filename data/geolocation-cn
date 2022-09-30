@@ -15,6 +15,7 @@ include:bootcss
 include:dwion
 include:maocloud
 include:pkoplink
+include:qcc
 include:qingcloud
 include:qiniu
 include:snodehome
