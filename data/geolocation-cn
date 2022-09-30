@@ -108,6 +108,10 @@ include:kechuang
 include:nga
 include:stage1st
 
+#  企业查询
+include:qcc
+include:tianyancha
+
 52pojie.cn # 吾爱破解
 itsk.com # IT天空论坛
 klpbbs.com # 苦力怕论坛
