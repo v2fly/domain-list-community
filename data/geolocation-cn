@@ -255,6 +255,10 @@ include:chinaunicom
 include:j-test
 include:nat-test
 
+#  企业查询
+include:qcc
+include:tianyancha
+
 # 在线工具书
 guoxuedashi.com
 guoxuemi.com
