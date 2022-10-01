@@ -530,61 +530,58 @@ zukunftswerkstatt.de
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
-full:csi-china.l.google.com @cn
-full:gstaticadssl.l.google.com @cn
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
-# Revision: 72a0845284d0cba5545b610b2c601c2426fdb6ae
+# Revision: 6d2f0fdca03aee8de974c346247b03e2dfcdd37c
 # Use in config file like this: "geosite:google@cn"
 full:265.com @cn
+full:2mdn-cn.net @cn
 full:2mdn.net @cn
-full:adservice.google.com @cn
+full:admob-cn.com @cn
+full:app-measurement-cn.com @cn
 full:app-measurement.com @cn
 full:beacons.gcp.gvt2.com @cn
 full:beacons.gvt2.com @cn
 full:beacons2.gvt2.com @cn
 full:beacons3.gvt2.com @cn
 full:c.admob.com @cn
-full:c.android.clients.google.com @cn
-full:cache.pack.google.com @cn
 full:checkin.gstatic.com @cn
 full:clickserve.dartsearch.net @cn
 full:clientservices.googleapis.com @cn
 full:connectivitycheck.gstatic.com @cn
-full:corp.google.com @cn
-full:csi.gstatic.com @cn
-full:dl.google.com @cn
-full:dl.l.google.com @cn
+full:dartsearch-cn.net @cn
+full:doubleclick-cn.net @cn
 full:doubleclick.net @cn
 full:firebase-settings.crashlytics.com @cn
 full:fonts.googleapis.com @cn
 full:fonts.gstatic.com @cn
 full:g1.gstatic.com @cn
 full:g2.gstatic.com @cn
+full:google-analytics-cn.com @cn
 full:google-analytics.com @cn
+full:googleadservices-cn.com @cn
 full:googleadservices.com @cn
 full:googleanalytics.com @cn
+full:googleapis-cn.com @cn
+full:googleapps-cn.com @cn
+full:googleflights-cn.net @cn
+full:googleoptimize-cn.com @cn
+full:googleoptimize.com @cn
+full:googlesyndication-cn.com @cn
 full:googlesyndication.com @cn
-full:googletagmanager.com @cn
+full:googletagmanager-cn.com @cn
+full:googletagservices-cn.com @cn
 full:googletagservices.com @cn
-full:gstaticadssl.l.google.com @cn
-full:gtm.oasisfeng.com @cn
+full:googletraveladservices-cn.com @cn
+full:googlevads-cn.com @cn
+full:gvt1-cn.com @cn
+full:gvt2-cn.com @cn
 full:imasdk.googleapis.com @cn
-full:pagead-googlehosted.l.google.com @cn
-full:pki-goog.l.google.com @cn
 full:recaptcha.net @cn
 full:redirector.gvt1.com @cn
 full:regioninfo-pa.googleapis.com @cn
-full:safebrowsing-cache.google.com @cn
 full:safebrowsing.googleapis.com @cn
-full:settings.crashlytics.com @cn
-full:ssl-google-analytics.l.google.com @cn
 full:ssl.gstatic.com @cn
-full:toolbarqueries.google.com @cn
-full:tools.google.com @cn
-full:tools.l.google.com @cn
 full:update.googleapis.com @cn
-full:www-google-analytics.l.google.com @cn
-full:www-googletagmanager.l.google.com @cn
 full:www.gstatic.com @cn
