@@ -353,7 +353,6 @@ google.net
 google.org
 google.ventures
 googleacquisitionmigration.com
-googleapis.cn @cn
 googleapis.com
 googleapps.com
 googlearth.com
@@ -548,13 +547,11 @@ full:beacons3.gvt2.com @cn
 full:c.admob.com @cn
 full:checkin.gstatic.com @cn
 full:clickserve.dartsearch.net @cn
-full:clientservices.googleapis.com @cn
 full:connectivitycheck.gstatic.com @cn
 full:dartsearch-cn.net @cn
 full:doubleclick-cn.net @cn
 full:doubleclick.net @cn
 full:firebase-settings.crashlytics.com @cn
-full:fonts.googleapis.com @cn
 full:fonts.gstatic.com @cn
 full:g1.gstatic.com @cn
 full:g2.gstatic.com @cn
@@ -563,7 +560,6 @@ full:google-analytics.com @cn
 full:googleadservices-cn.com @cn
 full:googleadservices.com @cn
 full:googleanalytics.com @cn
-full:googleapis-cn.com @cn
 full:googleapps-cn.com @cn
 full:googleflights-cn.net @cn
 full:googleoptimize-cn.com @cn
@@ -577,11 +573,7 @@ full:googletraveladservices-cn.com @cn
 full:googlevads-cn.com @cn
 full:gvt1-cn.com @cn
 full:gvt2-cn.com @cn
-full:imasdk.googleapis.com @cn
 full:recaptcha.net @cn
 full:redirector.gvt1.com @cn
-full:regioninfo-pa.googleapis.com @cn
-full:safebrowsing.googleapis.com @cn
 full:ssl.gstatic.com @cn
-full:update.googleapis.com @cn
 full:www.gstatic.com @cn
