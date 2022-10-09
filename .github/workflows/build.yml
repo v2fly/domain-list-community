@@ -1,5 +1,6 @@
 name: Build dlc.dat
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
