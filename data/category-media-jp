@@ -1,0 +1,41 @@
+include:dmm
+include:dlsite
+include:abema
+include:niconico
+include:telasa
+include:musicjp
+include:unext
+include:tver
+
+# fuji
+fujitv.co.jp
+stream.ne.jp
+
+# Radiko
+radiko.jp
+radionikkei.jp
+smartstream.ne.jp
+
+# Karaoke@DAM
+clubdam.com
+
+# Games
+cygames.jp
+konosubafd.jp
+colorfulpalette.org
+cds1.clubdam.com
+api.worldflipper.jp
+
+# J:com On Demand
+id.zaq.ne.jp
+
+# other
+paravi.jp
+gyao.yahoo.co.jp
+wowow.co.jp
+syosetu.com
+syosetu.org
+kakuyomu.jp
+slib.net
+de-view.net
+alphapolis.co.jp
