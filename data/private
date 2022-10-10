@@ -10,6 +10,8 @@ example
 invalid
 localhost
 test
+ip6-localhost
+ip6-loopback
 
 # https://tools.ietf.org/html/rfc6762
 local
