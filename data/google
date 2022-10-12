@@ -571,7 +571,6 @@ full:content.googleadapis.com @cn
 full:corp.google.com @cn
 full:corp.googleapis.com @cn
 full:crashlyticsreports-pa.googleapis.com @cn
-full:crl.pki.goog @cn
 full:csi.gstatic.com @cn
 full:dartsearch-cn.net @cn
 full:dg-meta.video.google.com @cn
@@ -631,10 +630,8 @@ full:imasdk.googleapis.com @cn
 full:monitoring.qatp1.net @cn
 full:monitoring.qcpp1.net @cn
 full:monitoring.qpdp1.net @cn
-full:ocsp.pki.goog @cn
 full:pagead-googlehosted.l.google.com @cn
 full:performanceparameters.googleapis.com @cn
-full:pki-goog.l.google.com @cn
 full:play.1ucrs.com @cn
 full:prod-controlbe.floonet.goog @cn
 full:prod-databe.floonet.goog @cn
