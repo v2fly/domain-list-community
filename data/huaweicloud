@@ -164,4 +164,3 @@ cdnhwcojn124.cn
 cdnhwcscc123.cn
 
 regexp:.+\.cdnhwc([1-9]|10)\.(cn|com)$
-regexp:.+\.cdnhwc[a-z]{3}[0-9]{2,3}\.(cn|com)$
