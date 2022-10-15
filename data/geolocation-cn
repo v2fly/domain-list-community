@@ -99,6 +99,8 @@ wo1wan.com
 
 # Food & Drink
 include:heytea
+include:baicaowei
+include:liangpinpuzi
 
 # Forums
 include:chiphell
@@ -212,6 +214,8 @@ include:sxl
 include:segmentfault
 include:tipdm
 include:xueyuanjun
+include:aixcoder
+include:51cto
 
 # 信息学
 include:51nod
