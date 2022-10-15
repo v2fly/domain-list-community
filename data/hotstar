@@ -3,4 +3,4 @@ hotstar-cdn.net
 hotstarext.com
 hsprepack.akamaized.net
 
-regexp:^hses[1-7]?.akamaized.net$|^hses\s?.akamaized.net$
+regexp:^hses[1-7]?.akamaized.net$
