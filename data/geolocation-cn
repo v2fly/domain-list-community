@@ -98,7 +98,7 @@ include:zhanqi
 wo1wan.com
 
 # Food & Drink
-include:heytea
+include:category-food-cn
 
 # Forums
 include:chiphell
@@ -264,9 +264,6 @@ mojidict.com
 jikipedia.com
 qiuwen.wiki
 shidianbaike.com
-
-# 餐饮类
-include:category-food-cn
 
 # 流利说
 liulishuo.com
