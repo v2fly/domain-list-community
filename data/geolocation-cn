@@ -266,7 +266,7 @@ qiuwen.wiki
 shidianbaike.com
 
 # 餐饮类
-haidilao.com
+include:category-food-cn
 
 # 流利说
 liulishuo.com
@@ -306,9 +306,7 @@ include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
 
-# 优启通官网
-upe.net
-
+upe.net # 优启通官网
 suzuki-china.com # 铃木中国官网
 
 # The following domains are carried over from geosite:cn.
