@@ -197,19 +197,6 @@ include:category-social-media-cn
 
 # Software development related
 include:category-dev-cn
-include:coding
-include:csdn
-include:deepin
-include:gitee
-include:jinrishici
-include:juejin
-include:oschina
-include:pgyer
-include:rubychina
-include:sxl
-include:segmentfault
-include:tipdm
-include:xueyuanjun
 
 # 信息学
 include:51nod
