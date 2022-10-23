@@ -14,6 +14,7 @@ include:opensourceinsights
 include:polymer
 include:v8
 include:youtube
+include:googlefcm
 
 # All .and domains
 and
