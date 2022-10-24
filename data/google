@@ -9,12 +9,12 @@ include:google-ads
 include:google-registry
 include:google-scholar
 include:google-trust-services
+include:googlefcm
 include:kaggle
 include:opensourceinsights
 include:polymer
 include:v8
 include:youtube
-include:googlefcm
 
 # All .and domains
 and
