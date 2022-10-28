@@ -1,25 +1,41 @@
 playartifact.com
 s.team
+steam-api.com
 steam-chat.com
 steamcommunity.com
 steamcontent.com
+steamdeck.com
 steamgames.com
 steampowered.com
+steamserver.net
 steamstatic.com
 steamusercontent.com
 underlords.com
 valvesoftware.com
+
+# 完美
+csgo.wmsj.cn @cn
+dota2.wmsj.cn @cn
 wmsjsteam.com @cn
 
-csgo.wmsj.cn @cn
+# 金山云
+dl.steam.clngaa.com @cn
 dl.steam.ksyna.com @cn
-dota2.wmsj.cn @cn
+
+# 白山云
 st.dl.bscstorage.net @cn
 st.dl.eccdnx.com @cn
 st.dl.pinyuncloud.com @cn
+
+# 华为云
 steampipe.steamcontent.tnkjmec.com @cn
+
+# 网宿
 steampowered.com.8686c.com @cn
 steamstatic.com.8686c.com @cn
+
+# 阿里云
+full:xz.pphimalayanrt.com @cn
 
 full:steambroadcast.akamaized.net
 full:steamcdn-a.akamaihd.net
@@ -27,3 +43,7 @@ full:steamcommunity-a.akamaihd.net
 full:steamstore-a.akamaihd.net
 full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
+full:steamvideo-a.akamaihd.net
+
+# 蒸汽中国
+steamchina.com @cn

@@ -3,6 +3,7 @@
 include:acfun-ads
 include:adcolony-ads
 include:adjust-ads
+include:adobe-ads
 include:alibaba-ads
 include:amazon-ads
 include:apple-ads
@@ -58,6 +59,8 @@ include:zynga-ads
 51y5.net
 a.adtng.com
 aaxads.com
+addthisedge.com
+adtrue.com
 ad-srv.net
 ad.api.moji.com
 ad.wang502.com
@@ -74,16 +77,23 @@ ero-advertising.com
 eroadvertising.com
 exoclick.com
 exosrv.com
+go2.global
 img-bss.csdn.net
 imglnkc.com
 imglnkd.com
+innovid.com
 ja2.gamersky.com
 jl3.yjaxa.top
+juicyads.com
 kepler-37b.com
 lqc006.com
+moat.com
+moatads.com
+realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
 static.javhd.com
+tm-banners.gamingadult.com
 trafficfactory.biz
 tsyndicate.com
 
@@ -112,3 +122,4 @@ ad.unimhk.com
 
 # UCloud
 das-rpt-log.ucloud.cn
+

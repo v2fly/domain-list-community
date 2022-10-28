@@ -1,17 +1,13 @@
 include:amazon-ads
+include:amazontrust
+include:aws
+include:imdb
+include:kindle
+include:primevideo
 include:wholefoodsmarket
-
-# All .aws domains
-aws
 
 # All .amazon domains
 amazon
-
-# All .imdb domains
-imdb
-
-# All .kindle domains
-kindle
 
 # All .アマゾン domains
 xn--cckwcxetd
@@ -93,8 +89,8 @@ amazonpay.com
 amazonpay.in
 amazonsdi.com
 amazonstudiosguilds.com
-amazontrust.com
 amazonvideodirect.com
+amzn.asia
 amzn.com
 amzn.to
 amznl.com
@@ -120,85 +116,8 @@ alexa.com
 # Audible
 audible.com
 
-# AWS
-acmvalidations.com
-acmvalidationsaws.com
-aesworkshops.com
-amazonaws-china.com
-amazonaws.com
-amazonaws.tv
-amazonworkdocs.cn @cn
-amazonworkdocs.com
-amazonworkdocs.com.cn @cn
-amplifyapp.com
-amplifyframework.com
-aws-iot-hackathon.com
-awsautopilot.com
-awsautoscaling.com
-awsbraket.com
-awscommandlineinterface.com
-awsedstart.com
-awseducate.com
-awseducate.net
-awseducate.org
-awsloft-johannesburg.com
-awsloft-stockholm.com
-awssecworkshops.com
-awsstatic.com
-awsthinkbox.com
-awstrust.com
-cdkworkshop.com
-cloudfront.net
-containersonaws.com
-elasticbeanstalk.com
-thinkboxsoftware.com
-
-# AWS DNS
-regexp:.+\.awsdns-[0-9][0-9]\.co\.uk$
-regexp:.+\.awsdns-[0-9][0-9]\.com$
-regexp:.+\.awsdns-[0-9][0-9]\.net$
-regexp:.+\.awsdns-[0-9][0-9]\.org$
-regexp:.+\.awsdns-cn-[0-9][0-9]\.biz$
-regexp:.+\.awsdns-cn-[0-9][0-9]\.cn$
-regexp:.+\.awsdns-cn-[0-9][0-9]\.com$
-regexp:.+\.awsdns-cn-[0-9][0-9]\.net$
-
 # CreateSpace
 createspace.com
-
-# Kindle
-kindle.cn @cn
-kindle.co.jp
-kindle.co.uk
-kindle.com
-kindle.de
-kindle.es
-kindle.fr
-kindle.in
-kindle.it
-kindle.jp
-kindleoasis.cn @cn
-kindleoasis.com
-kindleoasis.com.cn @cn
-kindleoasis.info
-kindleoasis.jp
-kindleoasis.org
-kindleoasis.us
-kindleoasisnews.com
-kindleproject.com
-
-# Prime Video
-amazonprimevideo.cn @cn
-amazonprimevideo.com.cn @cn
-amazonprimevideos.com
-amazonvideo.cc
-amazonvideo.com
-prime-video.com
-primevideo.cc
-primevideo.com
-primevideo.info
-primevideo.org
-primevideo.tv
 
 full:images-cn.ssl-images-amazon.com @cn
 full:images-cn-8.ssl-images-amazon.com @cn

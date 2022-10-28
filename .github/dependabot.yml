@@ -13,3 +13,12 @@ updates:
       time: "10:00"
     pull-request-branch-name:
       separator: "-"
+
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      timezone: "Asia/Shanghai"
+      time: "10:00"
+    pull-request-branch-name:
+      separator: "-"

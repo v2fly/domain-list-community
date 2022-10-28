@@ -23,6 +23,7 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
+include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
@@ -36,6 +37,7 @@ include:openwrt
 include:perl
 include:polymer
 include:python
+include:python-community
 include:qt
 include:readthedocs
 include:redis
@@ -44,7 +46,10 @@ include:ruby
 include:scala
 include:stackexchange
 include:strikingly
+include:tencent-dev
+include:termux
 include:thelinuxfoundation
+include:topcoder
 include:unity
 include:v8
 include:vim
@@ -73,6 +78,7 @@ ffmpeg.org
 freebsd.org
 gentoo.org
 getcomposer.org
+getzola.org
 git-scm.com
 gnu.org
 
@@ -114,9 +120,11 @@ postgresql.org
 r-project.org
 raspberrypi.org
 raspbian.org
+regex101.com
 rpmfusion.org
 scientificlinux.org
 scoop.sh
+shellcheck.net
 shields.io
 sqlite.org
 sublimetext.com

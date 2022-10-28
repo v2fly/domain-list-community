@@ -11,27 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Go 1.x.y
-        uses: actions/setup-go@v2
+      - name: Setup Go
+        uses: actions/setup-go@v3
         with:
-          go-version: ^1.15
+          go-version: 1.18
 
-      - name: Set $GOPATH and more variables
+      - name: Set variables
         run: |
           echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-          echo "REPO_URL=github.com/${{ github.repository }}" >> $GITHUB_ENV
-          echo "GOPATH=$(dirname $GITHUB_WORKSPACE)" >> $GITHUB_ENV
-          echo "$(dirname $GITHUB_WORKSPACE)/bin" >> $GITHUB_PATH
         shell: bash
 
-      - name: Go get project code
-        run: |
-          go get -v -insecure $REPO_URL
+      - name: Checkout codebase
+        uses: actions/checkout@v3
+        with:
+          path: code
 
       - name: Build dlc.dat file
         run: |
-          domain-list-community --datapath=${{ env.GOPATH }}/src/${{ env.REPO_URL }}/data --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          cd code || exit 1
+          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          cd ../ && rm -rf code
 
       - name: Generate dlc.dat sha256 hash
         run: |
@@ -50,10 +50,10 @@ jobs:
       - name: Git push assets to "release" branch
         run: |
           git init
-          git config --local user.name "actions"
-          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b release
-          git add *.txt dlc.dat dlc.dat.sha256sum dlc.dat.zip dlc.dat.zip.sha256sum dlc.dat.xz dlc.dat.xz.sha256sum
+          git add *.txt *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release

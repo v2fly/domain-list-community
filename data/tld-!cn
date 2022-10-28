@@ -271,6 +271,88 @@ polo # Ralph Lauren Corporation
 redstone # Redstone Haute Couture Co., Ltd.
 swatch # The Swatch Group Ltd
 
+# Geographic top-level domains
+
+## Africa
+africa     # Africa
+capetown   # Cape Town, South Africa
+durban     # Durban, South Africa
+joburg     # Johannesburg, South Africa
+
+## Asia
+abudhabi   # Abu Dhabi
+arab       # Leagueof Arab States
+asia       # Asia-Pacific region
+doha       # Doha
+dubai      # Dubai
+krd        # Kurdistan
+kyoto      # Kyoto, Japan
+nagoya     # Nagoya, Japan
+okinawa    # Okinawa, Japan
+osaka      # Osaka, Japan
+ryukyu     # Ryukyu Islands, Japan
+taipei     # Taipei, Republic of China (Taiwan)
+tatar      # Tatar peoples and places
+tokyo      # Tokyo, Japan
+yokohama   # Yokohama, Japan
+
+## Europe
+alsace     # Alsace, France
+amsterdam  # Amsterdam, Netherlands
+bar        # Bar, Montenegro
+barcelona  # Barcelona, Spain
+bayern     # Bavaria, Germany
+bcn        # Barcelona, Spain
+berlin     # Berlin, Germany
+brussels   # Brussels, Belgium
+budapest   # Budapest, Hungary
+bzh        # Brittany, France
+cat        # Catalonia, Spain
+conlogne   # Cologne, Germany
+corsica    # Corsica, France
+cymru      # Wales, United Kingdom
+eus        # Basque
+frl        # Friesland, Netherlands
+gal        # Galicia, Spain
+gent       # Ghent, Belgium
+hamburg    # Hamburg, Germany
+helsinki   # Helsinki, Finland
+irish      # Ireland
+ist        # İstanbul, Turkey
+istanbul   # İstanbul, Turkey
+koeln      # Cologne, Germany
+london     # London, United Kingdom
+madrid     # Madrid, Spain
+moscow     # Moscow, Russia
+nrw        # North Rhine-Westphalia, Germany
+paris      # Paris, France
+ruhr       # Ruhr, Germany
+saarland   # Saarland, Germany
+scot       # Scotland, United Kingdom
+stockholm  # Stockholm, Sweden
+swiss      # Switzerland
+tirol      # Tyrol, Austria
+vlaanderen # Flanders, Belgium
+wales      # Wales, United Kingdom
+wien       # Vienna, Austria
+zuerich    # Zurich, Switzerland
+
+## North America
+boston     # Boston, Massachusetts, United States of America
+miami      # Miami, Florida, United States of America
+nyc        # New York City, New York, United States of America
+quebec     # Quebec, Canada
+vegas      # Las Vegas, Nevada, United States of America
+
+## Oceania
+kiwi       # New Zealanders
+melbourne  # Melbourne, Australia
+sydney     # Sydney, Australia
+
+## South America
+lat        # Latin America
+rio        # Rio de Janeiro, Brazil
+
 # Health & Wellness Domains
 aarp # Health Wellness Domains
 abbott # Abbott Laboratories
@@ -350,23 +432,57 @@ zara # Inditex, SA
 zippo # Zadco Company
 
 # Miscellaneous Domains
+africamagic # Electronic Media Network Limited
 agakhan # Aga Khan Foundation
 akdn # Aga Khan Foundation
 ansons # CBM Creative Brands Marken GmbH
+baby # Baby
+bar # A place which provide liquor
 bharti # Bharti Enterprises
+bingo # Bingo
+casino # Online Casino
+chat # Chat
+dating # Dating
+domains # Domain Name Register
 extraspace # Extra Space Storage LLC
+gay # Homosexuality
+gcc # short for Gulf Cooperation Council
 genting # Resorts World Inc Pte. Ltd.
 glean # Scripps Networks Interactive, Inc.
+hot # No specific purpose
 ikano # Ikano S.A.
 imamat # Aga Khan Foundation
 ladbrokes # Ladbrokes International PLC
+lgbt # Lesbian, Gay, Bisexual, Transgender
 livestrong # Lance Armstrong Foundation
 maif # Mutuelle Assurance Instituteur France (MAIF)
 mattel # Mattel Sites, Inc.
+persiangulf # persian gulf
+poker # Poker
+sas # SAS institute
 shell # Shell Information Technology International Inc
+shia # Shia Muslim community
+style # though the comment actually seems to be about .tattoo
+sucks # Vox Populi Registry
+tatar # Limited Liability Company "Coordination Center of Regional Domain of Tatarstan Republic"
+tattoo # Tattoo
+tennic # Tennis
 transformers # Hasbro International, Inc.
 vana # Scripps Networks Interactive, Inc.
+virgin # Virgin Enterprises Limited
+vodka # Alcohol
+wine # Alcohol
 wme # William Morris Endeavor Entertainment, LLC
+wtf # What the fuck
+
+# Religion
+bible # Bible
+catholic # Catholic
+halal # It means lawful (food and service) in Arabic.
+islam # Muslim
+ismaili # a Shiite sect
+ummah # An Arabic word meaning "community"
+xn--mgbi4ecexp # Arabic for Catholic
 
 # Research & Science Domains
 astrium # Astrium SAS
@@ -386,6 +502,13 @@ teva # Teva Pharmaceutical Industries Limited
 toray # Toray Industries, Inc.
 weather # The Weather Channel LLC
 
+# Sex & Porn
+adult # Adult content
+porn # Pornographic website
+sex # Sex
+sexy # Sexy
+xxx # Pornographic website
+
 # Shipping & Delivery Domains
 auspost # Australian Postal Corporation
 deutschepost # Deutsche Post AG
@@ -393,6 +516,75 @@ dhl # Deutsche Post AG
 epost # Deutsche Post AG
 fedex # Federal Express Corporation
 pitney # Pitney Bowe Inc.#ups # UPS Market Driver, Inc.
+
+# Top domain of Country or Region (Internationalized Domain Name)
+
+xn--lgbbat1ad8j  #  الجزائر Algeria
+xn--y9a3aq  #  հայ Armenia
+xn--mgbcpq6gpa1a  #  البحرين Bahrain
+xn--54b7fta0cc  #  বাংলা Bangladesh
+xn--90ais  #  бел Belarus
+xn--90ae  #  бг Bulgaria
+xn--wgbh1c  #  مصر Egypt
+xn--e1a4c  #  ею European Union
+xn--qxa6a  #  ευ European Union
+xn--node  #  გე Georgia
+xn--qxam  #  ελ Greece
+xn--j6w193g  #  香港 Hong Kong SAR, People's Republic of China
+xn--4dbrk0ce  #  ישראל Israel
+xn--h2brj9c  #  भारत India
+xn--mgbbh1a71e  #  بھارت India
+xn--fpcrj9c3d  #  భారత్ India
+xn--gecrj9c  #  ભારત India
+xn--s9brj9c  #  ਭਾਰਤ India
+xn--45brj9c  #  ভারত India
+xn--xkc2dl3a5ee0h  #  இந்தியா India
+xn--2scrj9c  #  ಭಾರತ India
+xn--rvc1e0am3e  #  ഭാരതം India
+xn--45br5cyl  #  ভাৰত India
+xn--3hcrj9c  #  ଭାରତ India
+xn--mgbbh1a  #  بارت India
+xn--h2breg3eve  #  भारतम् India
+xn--h2brj9c8c  #  भारोत India
+xn--mgbgu82a  #  ڀارت India
+xn--mgba3a4f16a  #  ایران Iran
+xn--mgba3a4fra  #  ايران Iran
+xn--mgbtx2b  #  عراق Iran
+xn--mgbayh7gpa  #  الاردن Jordan
+xn--80ao21a  #  қаз Kazakhstan
+xn--3e0b707e  #  한국 Korea
+xn--q7ce6a  #  ລາວ Laos
+xn--mix891f  #  澳門 Macao SAR, People's Republic of China
+xn--mix082f  #  澳门 Macao SAR, People's Republic of China
+xn--d1alf  #  мкд North Macedonia
+xn--mgbx4cd0ab  #  مليسيا. Malaysia
+xn--mgbah1a3hjkrd  #  موريتانيا Mauritania
+xn--l1acc  #  мон Mongolia
+xn--mgbc0a9azcg  #  المغرب Morocco
+xn--mgb9awbf  #  عمان Oman
+xn--mgbai9azgqp6j  #  پاکستان Pakistan
+xn--mgbai9a5eva00b  #  پاكستان Pakistan
+xn--ygbi2ammx  #  فلسطين Palestine
+xn--wgbl6a  #  قطر Qatar
+xn--p1ai  #  рф Russian Federation
+xn--mgberp4a5d4ar  #  السعودية Saudi Arabia
+xn--mgberp4a5d4a87g  #  السعودیة Saudi Arabia
+xn--mgbqly7c0a67fbc  #  السعودیۃ Saudi Arabia
+xn--mgbqly7cvafr  #  السعوديه Saudi Arabia
+xn--90a3ac  #  срб Serbia
+xn--yfro4i67o  #  新加坡 Singapore
+xn--fzc2c9e2c  #  ලංකා Sri Lanka
+xn--mgbpl2fh  #  سودان Sudan
+xn--ogbpf8fl  #  سورية Syrian Arab Republic
+xn--mgbtf8fl  #  سوريا Syrian Arab Republic
+xn--kpry57d  #  台灣 Taiwan Province, Republic of China
+xn--kprw13d  #  台湾 Taiwan Province, Republic of China
+xn--nnx388a  #  臺灣 Taiwan Province, Republic of China
+xn--o3cw4h  #  ไทย Thailand
+xn--pgbs0dh  #  تونس Tunisia
+xn--j1amh  #  укр Ukraine
+xn--mgbaam7a8h  #  امارات United Arab Emirates
+xn--mgb2ddes  #  اليمن Yemen
 
 # Automotive Domains
 aaa # American Automobile Association

@@ -5,21 +5,22 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"go/build"
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"sort"
 	"strconv"
 	"strings"
 
+	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
 	"google.golang.org/protobuf/proto"
-	"v2ray.com/core/app/router"
 )
 
 var (
-	dataPath        = flag.String("datapath", "", "Path to your custom 'data' directory")
-	exportLists     = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
-	defaultDataPath = filepath.Join("src", "github.com", "v2fly", "domain-list-community", "data")
+	dataPath    = flag.String("datapath", "./data", "Path to your custom 'data' directory")
+	outputName  = flag.String("outputname", "dlc.dat", "Name of the generated dat file")
+	outputDir   = flag.String("outputdir", "./", "Directory to place all generated files")
+	exportLists = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
 )
 
 type Entry struct {
@@ -52,7 +53,7 @@ func (l *ParsedList) toPlainText(listName string) error {
 		// Entry output format is: type:domain.tld:@attr1,@attr2
 		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+attrString+"\n")...)
 	}
-	if err := ioutil.WriteFile(listName+".txt", entryBytes, 0644); err != nil {
+	if err := ioutil.WriteFile(filepath.Join(*outputDir, listName+".txt"), entryBytes, 0644); err != nil {
 		return fmt.Errorf(err.Error())
 	}
 	return nil
@@ -66,7 +67,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 		switch entry.Type {
 		case "domain":
 			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Domain,
+				Type:      router.Domain_RootDomain,
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
@@ -102,7 +103,7 @@ func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 				fmt.Println("Failed: ", err)
 				continue
 			}
-			fmt.Printf("'%s' has been generated successfully in current directory.\n", listName)
+			fmt.Printf("'%s' has been generated successfully.\n", listName)
 		}
 	}
 }
@@ -177,19 +178,6 @@ func parseEntry(line string) (Entry, error) {
 	}
 
 	return entry, nil
-}
-
-func DetectPath(path string) (string, error) {
-	arrPath := strings.Split(path, string(filepath.ListSeparator))
-	for _, content := range arrPath {
-		fullPath := filepath.Join(content, defaultDataPath)
-		_, err := os.Stat(fullPath)
-		if err == nil || os.IsExist(err) {
-			return fullPath, nil
-		}
-	}
-	err := fmt.Errorf("directory '%s' not found in '$GOPATH'", defaultDataPath)
-	return "", err
 }
 
 func Load(path string) (*List, error) {
@@ -314,73 +302,14 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 	return pl, nil
 }
 
-func envFile() (string, error) {
-	if file := os.Getenv("GOENV"); file != "" {
-		if file == "off" {
-			return "", fmt.Errorf("GOENV=off")
-		}
-		return file, nil
-	}
-	dir, err := os.UserConfigDir()
-	if err != nil {
-		return "", err
-	}
-	if dir == "" {
-		return "", fmt.Errorf("missing user-config dir")
-	}
-	return filepath.Join(dir, "go", "env"), nil
-}
-
-func getRuntimeEnv(key string) (string, error) {
-	file, err := envFile()
-	if err != nil {
-		return "", err
-	}
-	if file == "" {
-		return "", fmt.Errorf("missing runtime env file")
-	}
-	var data []byte
-	var runtimeEnv string
-	data, err = ioutil.ReadFile(file)
-	envStrings := strings.Split(string(data), "\n")
-	for _, envItem := range envStrings {
-		envItem = strings.TrimSuffix(envItem, "\r")
-		envKeyValue := strings.Split(envItem, "=")
-		if strings.EqualFold(strings.TrimSpace(envKeyValue[0]), strings.TrimSpace(key)) {
-			runtimeEnv = strings.TrimSpace(envKeyValue[1])
-		}
-	}
-	return runtimeEnv, nil
-}
-
 func main() {
 	flag.Parse()
 
-	var dir string
-	var err error
-	if *dataPath != "" {
-		dir = *dataPath
-	} else {
-		goPath, envErr := getRuntimeEnv("GOPATH")
-		if envErr != nil {
-			fmt.Println("Failed: please set '$GOPATH' manually, or use 'datapath' option to specify the path to your custom 'data' directory")
-			os.Exit(1)
-		}
-		if goPath == "" {
-			goPath = build.Default.GOPATH
-		}
-		fmt.Println("Use $GOPATH:", goPath)
-		fmt.Printf("Searching directory '%s' in '%s'...\n", defaultDataPath, goPath)
-		dir, err = DetectPath(goPath)
-	}
-	if err != nil {
-		fmt.Println("Failed: ", err)
-		os.Exit(1)
-	}
+	dir := *dataPath
 	fmt.Println("Use domain lists in", dir)
 
 	ref := make(map[string]*List)
-	err = filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
+	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -398,6 +327,15 @@ func main() {
 		fmt.Println("Failed: ", err)
 		os.Exit(1)
 	}
+
+	// Create output directory if not exist
+	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
+		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
+			fmt.Println("Failed: ", mkErr)
+			os.Exit(1)
+		}
+	}
+
 	protoList := new(router.GeoSiteList)
 	var existList []string
 	for refName, list := range ref {
@@ -435,15 +373,20 @@ func main() {
 		}
 	}
 
+	// Sort protoList so the marshaled list is reproducible
+	sort.SliceStable(protoList.Entry, func(i, j int) bool {
+		return protoList.Entry[i].CountryCode < protoList.Entry[j].CountryCode
+	})
+
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {
 		fmt.Println("Failed:", err)
 		os.Exit(1)
 	}
-	if err := ioutil.WriteFile("dlc.dat", protoBytes, 0644); err != nil {
+	if err := ioutil.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
 		fmt.Println("Failed: ", err)
 		os.Exit(1)
 	} else {
-		fmt.Println("dlc.dat has been generated successfully in current directory. You can rename 'dlc.dat' to 'geosite.dat' and use it in V2Ray.")
+		fmt.Println(*outputName, "has been generated successfully.")
 	}
 }

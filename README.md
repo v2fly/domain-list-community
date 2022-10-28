@@ -8,8 +8,8 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 ## Download links
 
-- **dlc.dat**：[https://github.com/v2fly/domain-list-community/raw/release/dlc.dat](https://github.com/v2fly/domain-list-community/raw/release/dlc.dat)
-- **dlc.dat.sha256sum**：[https://github.com/v2fly/domain-list-community/raw/release/dlc.dat.sha256sum](https://github.com/v2fly/domain-list-community/raw/release/dlc.dat.sha256sum)
+- **dlc.dat**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat)
+- **dlc.dat.sha256sum**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat.sha256sum](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat.sha256sum)
 
 ## Usage example
 
@@ -34,7 +34,8 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
         "domain:icloud.com",
         "domain:icloud-content.com",
         "domain:cdn-apple.com",
-        "geosite:cn"
+        "geosite:cn",
+        "geosite:private"
       ]
     },
     {
@@ -67,10 +68,14 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 ## Generate `dlc.dat` manually
 
 - Install `golang` and `git`
-- Download and install project code: `go get -v --insecure github.com/v2fly/domain-list-community`
-- Generate `dlc.dat` (without `datapath` option means to use `data` directory of this repository in `$GOPATH`):
-  - `${GOPATH:-$(go env GOPATH)}/bin/domain-list-community`
-  - `${GOPATH:-$(go env GOPATH)}/bin/domain-list-community --datapath=/path/to/your/custom/data/directory`
+- Clone project code: `git clone https://github.com/v2fly/domain-list-community.git`
+- Navigate to project root directory: `cd domain-list-community`
+- Install project dependencies: `go mod download`
+- Generate `dlc.dat` (without `datapath` option means to use domain lists in `data` directory of current working directory):
+  - `go run ./`
+  - `go run ./ --datapath=/path/to/your/custom/data/directory`
+
+Run `go run ./ --help` for more usage information.
 
 ## Structure of data
 
@@ -126,4 +131,5 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 * Fork this repo, make modifications to your own repo, file a PR.
 * Please begin with small size PRs, say modification in a single file.
 * A PR must be reviewed and approved by another member.
+* A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Action label to get detailed information if you didn't pass it. We also provide the file which has been generated to make you test.
 * After a few successful PRs, you may apply for manager access to this repository.
