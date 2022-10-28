@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/v2fly/v2ray-core/v4/app/router"
+	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -67,7 +67,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 		switch entry.Type {
 		case "domain":
 			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Domain,
+				Type:      router.Domain_RootDomain,
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})

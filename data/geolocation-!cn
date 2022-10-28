@@ -44,6 +44,7 @@ include:visa
 
 # CDN companies & Services
 include:akamai
+include:awempire
 include:cdn77
 include:cloudflare
 include:fastly
@@ -89,6 +90,7 @@ include:chinapower
 include:cnet
 include:code
 include:codecademy
+include:codeforces
 include:coursera
 include:edx
 include:egghead
@@ -118,17 +120,28 @@ include:category-entertainment
 
 # File & Image & Video hosting
 include:0x0
+include:casimages
+include:cloudinary
 include:dropbox
 include:gfycat
+include:imagebam
 include:imagecurl
 include:imageshack
+include:imagetwist
 include:imgbb
 include:imgur
+include:pixhost
+include:postimages
+include:pstorage
 include:rumble
 include:streamable
 
 # Forums & Social network
 include:category-forums
+include:category-social-media-!cn
+
+# IPFS
+include:category-ipfs
 
 # Media & News & Press
 include:category-media
@@ -140,7 +153,12 @@ include:category-orgs
 # Porn
 include:category-porn
 
+# Religion
+include:falungong
+
 # Services & Softwares
+include:category-browser-!cn
+
 include:accuweather
 include:adblock
 include:adblockplus
@@ -151,11 +169,13 @@ include:apkmirror
 include:apkpure
 include:aptoide
 include:arphic
+include:authy
 include:bitly
 include:bitwarden
 include:blender
 include:brightcove
 include:buymeacoffee
+include:chatango
 include:cloudconvert
 include:contentful
 include:cuttly
@@ -173,6 +193,7 @@ include:gofundme
 include:gravatar
 include:hcaptcha
 include:heroku
+include:hurricaneelectric
 include:iina
 include:infrapedia
 include:inoreader
@@ -190,12 +211,15 @@ include:mpv
 include:netlify
 include:notion
 include:ok
+include:okaapps
 include:opencollective
+include:organicmaps
 include:osdn
 include:pastebin
 include:patreon
 include:picsee
 include:pingpe
+include:playcover
 include:protonmail
 include:quip
 include:reabble
@@ -229,6 +253,9 @@ include:zeplin
 include:zoho
 include:zoom
 
+# Aurora Open Source Software (https://gitlab.com/AuroraOSS)
+auroraoss.com
+
 # Software development
 include:category-dev
 
@@ -255,8 +282,11 @@ include:wikidot
 include:wikihow
 include:wikimedia
 
+touhouwiki.net
+
 # Others
 include:avaxhome
+include:dlsite
 include:espressif
 include:familymart
 include:fzdm

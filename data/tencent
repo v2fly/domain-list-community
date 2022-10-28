@@ -1,5 +1,7 @@
-include:dnspod
+include:qcloud #腾讯云
 include:tencent-ads
+include:tencent-dev
+include:tencent-games
 include:yuewen
 
 # qq.中国
@@ -9,8 +11,6 @@ qq.xn--fiqs8s
 xn--r70as2s.xn--fiqs8s
 
 apcdns.net
-cdn-go.cn
-cdntips.com
 foxmail.com
 foxmail.com.cn
 gtimg.cn
@@ -19,34 +19,53 @@ gtimg.com.cn
 idqqimg.com
 imqq.com
 myapp.com
-myqcloud.com
-qcloud.com
-qcloudimg.com
 qlogo.cn
 qpic.cn
+qq.cn.com
 qq.com
+qq.com.cn
+qq.wang
 qqmail.com
 qzone.com
 rtx.com.cn
 servicewechat.com
-smtcdns.com
-smtcdns.net
 tencent.cn
+tencent.co.id @!cn
 tencent.com
 tencent.com.cn
 tencent.com.hk
+tencent.net
 tencent.net.cn
-tencent-cloud.com
-tencent-cloud.net
 tencentmusic.com
-tencentyun.com
 tenpay.com
 wechat.com
-wegame.com
-wegame.com.cn
 weiyun.com
 
 
 alloyteam.com
 imweb.io
 ivweb.io
+
+# 腾讯枫叶
+fyeds.com
+fyeds0.com
+fyeds1.com
+fyeds3.com
+fyeds4.com
+fyeds5.com
+fyeds6.com
+fyeds7.com
+fyeds8.com
+fyeds9.com
+fymall0.com
+fymall1.com
+fymall4.com
+fymall7.com
+fymall9.com
+fymallqa0.com
+fymallqa1.com
+fymallqa2.com
+fymallqa3.com
+fymallqa4.com
+fymallqa7.com
+fymallqa9.com

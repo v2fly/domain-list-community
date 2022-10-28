@@ -1,21 +1,28 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
 include:abema
+include:anime
 include:archiveofourown
 include:attwatchtv
 include:bahamut
 include:bandcamp
 include:category-games
+include:category-novel
 include:dandanzan
 include:dazn
 include:deviantart
+include:discoveryplus
 include:disney
-include:gogoanime
+include:dlsite
+include:goodreads
+include:hamivideo
 include:hbo
 include:hulu
 include:imdb
 include:kingkonglive
 include:kkbox
+include:manhuagui
+include:mihoyo
 include:mudvod
 include:mytvsuper
 include:netflix
@@ -38,7 +45,9 @@ include:twitch
 include:vimeo
 include:visualarts
 include:viu
+include:volmoe
 include:wwe
+include:youtube
 include:zeetv
 
 blubrry.com
@@ -46,6 +55,7 @@ castro.fm
 egta.com
 fireside.fm
 gbnews.uk
+gimy.cc
 internationalsaimoe.com
 joox.com
 linetv.tw
@@ -53,6 +63,8 @@ litv.tv
 megaphone.fm
 moov.hk
 odysee.com
+omobi.cc
+oranum.com
 overcast.fm
 syosetu.com
 thetvdb.com

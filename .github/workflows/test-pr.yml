@@ -1,0 +1,39 @@
+name: Test PR
+on:
+  pull_request:
+    branches:
+    - master
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.18
+
+      - name: Set variables
+        run: |
+          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Checkout codebase
+        uses: actions/checkout@v3
+        with:
+          path: code
+
+      - name: Build dlc.dat file
+        run: |
+          cd code || exit 1
+          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          cd ../ && rm -rf code
+          mv dlc.dat TEST-${{ github.run_number }}-dlc.dat
+          
+      - name: Upload TEST-${{ github.run_number }}-dlc.dat
+        uses: actions/upload-artifact@v3
+        with:
+          name: TEST-${{ github.run_number }}-dlc.dat
+          path: TEST-${{ github.run_number }}-dlc.dat

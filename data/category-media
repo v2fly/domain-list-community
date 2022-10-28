@@ -1,3 +1,4 @@
+include:6park
 include:9news
 include:9to5
 include:afp
@@ -75,6 +76,11 @@ include:yomiuri
 include:zaobao
 include:zee
 
+
+# cnBeta
+cnbeta.com
+cnbetacdn.com
+
 881903.com
 am730.com.hk
 americasvoice.news
@@ -103,6 +109,7 @@ eventsinfocus.org
 factwire.org
 fortuneinsight.com
 freebeacon.com
+ganjingworld.com
 hk01.com
 hkcitizenmedia.com
 hkcnews.com
@@ -164,6 +171,7 @@ wealth.com.tw
 weiyuksj.com
 wenzhao.ca
 ydn.com.tw
+yibaochina.com
 youlucky.com
 zerohedge.com
 zoomingin.tv

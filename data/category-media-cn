@@ -1,5 +1,4 @@
 include:36kr
-include:caixin
 include:cctv
 include:chinanews
 include:dgtle
@@ -76,3 +75,26 @@ ths123.com
 dzh.com.cn
 gw.com.cn
 yundzh.com
+
+# 财新网
+caixin.com
+
+# Xinhua News Agency
+news.cn
+xinhuanet.com
+
+# 人民网
+people.cn
+people.com.cn
+
+# 超能网
+expreview.com
+
+# 锋潮科技
+anzhuo.cn
+
+# 中国IDC圈
+idcquan.com
+
+# 站长网
+admin5.com

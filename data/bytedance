@@ -4,9 +4,12 @@ include:tiktok
 
 amemv.com
 bytecdn.cn
+bytetcc.com
+bytetos.com
 byted-static.com
 bytedance.com
 bytedance.net
+bytedanceapi.com
 bytedns.net
 bytednsdoc.com
 bytegoofy.com
@@ -16,12 +19,16 @@ bytescm.com
 bytexservice.com
 feelgood.cn
 huaxiong.com
+ibytedapm.com
 ibytedtos.com @!cn
 ibyteimg.com @!cn
 pstatp.com
 snssdk.com
+wtturl.cn
 zijiecdn.com
 zijiecdn.net
+zijieapi.com
+zjbyte.cn
 zjcdn.com
 
 # 今日头条
@@ -53,6 +60,7 @@ ixigua.com
 ixiguavideo.com
 ixgvideo.com
 bdxiguaimg.com
+bdxiguastatic.com
 
 # 快懂百科
 baike.com
@@ -67,7 +75,14 @@ wukongwenda.cn
 wukongwenda.com
 
 # 懂车帝
+dcarapi.com
+dcarimg.com
+dcarlive.com
+dcarstatic.com
+dcarvod.com
+dcdapp.com
 dongchedi.com
+dongchediapp.com
 
 # 阳关宽频网
 365yg.com

@@ -1,10 +1,13 @@
 playartifact.com
 s.team
+steam-api.com
 steam-chat.com
 steamcommunity.com
 steamcontent.com
+steamdeck.com
 steamgames.com
 steampowered.com
+steamserver.net
 steamstatic.com
 steamusercontent.com
 underlords.com
@@ -30,6 +33,9 @@ steampipe.steamcontent.tnkjmec.com @cn
 # 网宿
 steampowered.com.8686c.com @cn
 steamstatic.com.8686c.com @cn
+
+# 阿里云
+full:xz.pphimalayanrt.com @cn
 
 full:steambroadcast.akamaized.net
 full:steamcdn-a.akamaihd.net
