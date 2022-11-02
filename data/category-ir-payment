@@ -1,13 +1,13 @@
 # Iranian payment websites which will not open without an Iranian IP
 # Use to make them direct connections so they open inside Iran
 
-shaparak.ir @payment
-zarinpal.ir @payment
-mydigipay.com @payment
-payping.ir @payment
-sep.ir @payment
-pec.ir @payment
-pep.co.ir @payment
-behpardakht.com @payment
-sadadpsp.ir @payment
-iranicard.ir @payment
+shaparak.ir
+zarinpal.ir
+mydigipay.com
+payping.ir
+sep.ir
+pec.ir
+pep.co.ir
+behpardakht.com
+sadadpsp.ir
+iranicard.ir
