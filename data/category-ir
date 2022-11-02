@@ -3,14 +3,14 @@
 
 include:category-ir-bank
 include:category-ir-bourse
-include:category-ir-entertainment
 include:category-ir-gov
 include:category-ir-insurance
+include:category-ir-media
 include:category-ir-payment
+include:category-ir-scholar
 include:category-ir-shopping
 include:category-ir-tech
 include:category-ir-travel
-include:category-ir-university
 
 # Maps
 neshan.org
