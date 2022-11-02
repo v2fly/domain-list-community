@@ -1,41 +1,40 @@
-# Iranian stock exchange websites which will not open without an Iranian IP
-# Use to make them direct connections so they open inside Iran
+# Iranian stock exchange websites 
 
 # Bourse
-tsetmc.ir
-ime.co.ir
-irenex.ir
-ifb.ir
-tse.ir
-talarebourse.com
-sukuk.ir
-farasahm.ir
-codal.ir
 arman-ati.com
 bourseiness.com
+codal.ir
+farasahm.ir
+ifb.ir
+ime.co.ir
+irenex.ir
+sukuk.ir
+talarebourse.com
+tse.ir
+tsetmc.ir
 
 # Brokers
 abanbroker.com
-bkisecurities.com
-novinbourse.com
-saderatbourse.com
-sepahbourse.com
-bmibourse.com
 bahmanbroker.com
-rbc.ir
-sdbhouse.com
-tadbirgar.com
-kmsco.ir
+bkisecurities.com
+bmibourse.com
+bt-broker.com
+danabroker.com
 emofid.com
 etminansahm.com
-omidsahm.com
-oibroker.com
-bt-broker.com
-samanbourse.com
+hafezbourse.com
+irfarabi.com
+kmsco.ir
 maskanbourse.com
 mellatbroker.com
-sahandbroker.com
-irfarabi.com
 nobitex.ir
-hafezbourse.com
-danabroker.com
+novinbourse.com
+oibroker.com
+omidsahm.com
+rbc.ir
+saderatbourse.com
+sahandbroker.com
+samanbourse.com
+sdbhouse.com
+sepahbourse.com
+tadbirgar.com
