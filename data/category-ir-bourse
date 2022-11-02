@@ -1,0 +1,41 @@
+# Iranian stock exchange websites which will not open without an Iranian IP
+# Use to make them direct connections so they open inside Iran
+
+# Bourse
+tsetmc.ir @bourse
+ime.co.ir @bourse
+irenex.ir @bourse
+ifb.ir @bourse
+tse.ir @bourse
+talarebourse.com @bourse
+sukuk.ir @bourse
+farasahm.ir @bourse
+codal.ir @bourse
+arman-ati.com @bourse
+bourseiness.com @bourse
+
+# Brokers
+abanbroker.com @bourse
+bkisecurities.com @bourse
+novinbourse.com @bourse
+saderatbourse.com @bourse
+sepahbourse.com @bourse
+bmibourse.com @bourse
+bahmanbroker.com @bourse
+rbc.ir @bourse
+sdbhouse.com @bourse
+tadbirgar.com @bourse
+kmsco.ir @bourse
+emofid.com @bourse
+etminansahm.com @bourse
+omidsahm.com @bourse
+oibroker.com @bourse
+bt-broker.com @bourse
+samanbourse.com @bourse
+maskanbourse.com @bourse
+mellatbroker.com @bourse
+sahandbroker.com @bourse
+irfarabi.com @bourse
+nobitex.ir @bourse
+hafezbourse.com @bourse
+danabroker.com @bourse
