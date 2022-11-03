@@ -1,0 +1,20 @@
+# Iranian websites which will not open without an Iranian IP
+# Use to make them direct connections so they open inside Iran
+
+include:category-ir-bank
+include:category-ir-bourse
+include:category-ir-gov
+include:category-ir-insurance
+include:category-ir-media
+include:category-ir-payment
+include:category-ir-scholar
+include:category-ir-shopping
+include:category-ir-tech
+include:category-ir-travel
+
+# Maps
+balad.ir
+neshan.org
+
+# Sport
+varzesh3.com
