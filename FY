@@ -1,0 +1,2 @@
+translate.google.com
+translate.googleapis.com
