@@ -43,6 +43,7 @@ include:readthedocs
 include:redis
 include:remirepo
 include:ruby
+include:rust
 include:scala
 include:stackexchange
 include:strikingly
