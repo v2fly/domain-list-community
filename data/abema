@@ -1,5 +1,6 @@
 abema.io
 abema.tv
+abema-tv.com
 adx.promo
 ameba.jp
 amebame.com
@@ -19,3 +20,6 @@ full:ds-linear-abematv.akamaized.net
 full:ds-vod-abematv.akamaized.net
 full:linear-abematv.akamaized.net
 full:vod-abematv.akamaized.net
+
+# Abema Push API
+full:api.growthpush.com
