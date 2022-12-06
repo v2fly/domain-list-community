@@ -21,6 +21,7 @@ include:javcc
 include:javdb
 include:javwide
 include:johren
+include:kubakuba
 include:lethalhardcore
 include:metart
 include:moxing
