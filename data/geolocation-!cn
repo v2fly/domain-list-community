@@ -152,7 +152,7 @@ include:category-porn
 include:falungong
 
 # Services & Softwares
-include:category-mobile-app-download
+include:category-android-app-download
 include:category-browser-!cn
 
 include:accuweather
@@ -161,8 +161,6 @@ include:adblockplus
 include:addthis
 include:addtoany
 include:adguard
-include:apkmirror
-include:apkpure
 include:aptoide
 include:arphic
 include:authy
@@ -175,6 +173,7 @@ include:chatango
 include:cloudconvert
 include:contentful
 include:cuttly
+include:decryptipastore
 include:digitalocean
 include:disqus
 include:duckduckgo
