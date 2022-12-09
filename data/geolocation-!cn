@@ -152,7 +152,9 @@ include:category-porn
 include:falungong
 
 # Services & Softwares
+include:category-android-app-download
 include:category-browser-!cn
+include:decryptipastore # iOS
 
 include:accuweather
 include:adblock
@@ -160,8 +162,6 @@ include:adblockplus
 include:addthis
 include:addtoany
 include:adguard
-include:apkmirror
-include:apkpure
 include:aptoide
 include:arphic
 include:authy
