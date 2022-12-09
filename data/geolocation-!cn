@@ -65,9 +65,11 @@ include:freenode
 include:intercom
 include:line
 include:matrix
+include:messenger
 include:signal
 include:slack
 include:telegram
+include:whatsapp
 
 # Cryptocurrency
 include:category-cryptocurrency
