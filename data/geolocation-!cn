@@ -154,6 +154,7 @@ include:falungong
 # Services & Softwares
 include:category-android-app-download
 include:category-browser-!cn
+include:decryptipastore # iOS
 
 include:accuweather
 include:adblock
@@ -173,7 +174,6 @@ include:chatango
 include:cloudconvert
 include:contentful
 include:cuttly
-include:decryptipastore
 include:digitalocean
 include:disqus
 include:duckduckgo
