@@ -8,6 +8,7 @@ include:coinone
 include:ethereum
 include:huobi
 include:localbitcoins
+include:okx
 include:wisekey
 include:zb
 
@@ -29,7 +30,6 @@ dogecoin.com
 infura.io
 mytokenapi.com
 kraken.com
-okex.com
 opensea.io
 paxful.com
 truefi.io
