@@ -2,6 +2,7 @@
 
 include:bcy
 include:douban
+include:gracg
 include:sina
 include:xiaohongshu
 include:zhihu
