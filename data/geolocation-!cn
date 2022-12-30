@@ -250,6 +250,10 @@ include:zeplin
 include:zoho
 include:zoom
 
+# Online LaTeX Editor
+cloudlatex.io
+overleaf.com
+
 # Aurora Open Source Software (https://gitlab.com/AuroraOSS)
 auroraoss.com
 

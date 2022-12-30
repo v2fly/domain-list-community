@@ -20,6 +20,7 @@ include:z-library
 
 aacrjournals.org # AACR 美国癌症研究学会
 academic.eb.com # Britannica Academic
+acaric.co.jp # 株式会社アカリク
 aclweb.org
 acm.org
 acs.org
@@ -183,9 +184,6 @@ wolterskluwer.com
 worldscientific.com
 yale.edu
 zenodo.org
-
-# Overleaf 使用 latex 撰写学术论文的工具
-overleaf.com 
 
 full:angle.com.tw # 元照出版
 full:beck-online.beck.de # Beck-Online数据库
