@@ -281,6 +281,11 @@ winhec.com
 winhec.net
 yammer.com
 
+# Skype CDN
+edge-skype-com.s-0001.s-msedge.net
+skype-edf.akadns.net
+skypedata.akadns.net
+
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"
 dl.delivery.mp.microsoft.com @cn
