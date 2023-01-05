@@ -15,4 +15,5 @@ vimeoondemand.com
 vimeostatus.com
 livestream.com
 
-regexp:^[0-9]+vod-adaptive\.akamaized\.net$
+full:1vod-adaptive.akamaized.net
+full:71vod-adaptive.akamaized.net
