@@ -14,3 +14,5 @@ vimeogoods.com
 vimeoondemand.com
 vimeostatus.com
 livestream.com
+
+regexp:^[0-9]+vod-adaptive\.akamaized\.net$
