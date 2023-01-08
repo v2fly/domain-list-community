@@ -1,173 +1,365 @@
-# list of ads and tracking company in Iran.
-# thanks to adblock-iran project
-# https://github.com/farrokhi/adblock-iran
+# List of ads and tracking company in Iran.
+# Thanks to PersianBlocker project
+# https://raw.githubusercontent.com/MasterKia/PersianBlocker/main/PersianBlockerHosts.txt
 
-1000click.ir
-a.clickyab.com
-ad-push.ir
-ad.adtube.ir
-ad.anetwork.ir
-ad.cafebazaar.ir
-ad.nowaroos.com
-ad.utop.ir
-ad2ad.ir
-adad.ir
-adment.space
+#-------------------------v Persian Ads/Trackers/Annoyances Filters v-----------------------#
+# >> A <<
+analyt.ir
+
+scripts-ads.s3.ir-thr-at1.arvanstorage.com
+error-tracking.arvancloud.com
+
+adexo.ir
+adskav.com
+advn.ir
+
+amaroid.net
+lnk.amaroid.net
+
+analytics.aasaam.com
+analytics-2.aasaam.com
+analytics-3.aasaam.com
+analytics-*.aasaam.com
+
+adwised.com
+adwisedfs.com
+adwised.azureedge.net
+# TODO: Remove adwised.azureedge.net, but navatv.com and baran-music.com still links to it
+
+adivery.com
 adnegah.net
-adplaces.ir
 adpulse.ir
-adro.co
-ads.4ml.ir
-ads.aranesh.ir
-ads.baadesaba.ir
-ads.boozar.ir
-ads.lll5.ir
-ads.rade.ir
-ads.rzb.ir
-ads.sahandar.com
-ads2.tweetna.ir
-adserver.adad.ir
 adsima.net
-adtube.ir
-advert.setno.ir
-adziran.gq
+adtrace.io
+affili.ir
+amarfa.ir
+ayyaar.ir
+# ^ Used by irna.ir
+
+adro.co
 affstat.adro.co
-analytics.metrix.ir
-androidads.ir
-anetwork.ir
-api.appsharj.com
-api.mediaad.org
-api.sanjagh.com
-api.tapsell.ir
-app.clickyab.com
-appsharj.com
-audience.yektanet.com
-balootads.ir
-banner.dabi.ir
-bannerclick.lll1.ir
-bfetch.yektanet.com
-box.mediaad.org
-c.clickyab.com
-cashback.takhfifan.com
-cdn.iranweb.click
-cdn.yektanet.com
-ck.yektanet.com
-click.baburnadir.com
-clickbux.ir
-clickyab.com
-coding.1100011.ir
-congoro.com
-core.clix.ir
-counter.popupplus.ir
-dariconline.ir
-deema.agency
-e.weclick.ir
-fastclick.click
-fastclick.co
-fastclick.ir
-footprint.anetwork.ir
-foxpush.net
-gostats.ir
-hackerz.ir
-impressions.ir
-ip.adro.co
-ipopup.ir
-iprank.ir
-ipsell.ir
-irandigitalads.com
-iranjo.cf
-iranweb.click
-iranwebads.com
-irblue.ml
-irclick.net
-irgreen.ml
-irjo.ga
-irpopup.ir
-js.foxpush.com
-kaprila.com
-khf.nz
-kimexa.com
-l.clickyab.com
-laleh.itrc.ac.ir
-landyab.com
-magnetadservices.com
-media.yektanet.com
-mediaad.org
-mediacdn.mediaad.org
-merita.ir
-mesearch.xyz
-metrix.ir
-mihanclick.info
-monster.gostats.ir
-mostatil.cdn.yektanet.com
-mostatil.yektanet.com
-najva.com
-native.adnegah.net
-native.yektanet.com
-netbina.com
-netbina.net
-networksara.com
-nextads.ir
-nfetch.yektanet.com
-nfetch.yektanet.net
-notificationclick.ir
-nutnet.ir
-p30rank.ir
-paypop.org
-persianrank.ir
-persianstat.com
-persianstat.ir
-poparya.com
-popbox.skinak.ir
-popfa.ir
-popland.info
-popmaster.ir
-popupads.ir
-popupaval.ir
-popupha.com
-popupme.net
-popupplus.ir
-prod.yektanet.com
-push.yektanet.com
-qoo.sh
-r.hitplus.ir
+affstat.digikala.com
+affiliate.digikala.com
+
+# >> B <<
+behinava.com
 radar.bayan.ir
-randewoo.ir
-rfetch.yektanet.com
-rfetch.yektanet.net
-rtb.adtube.ir
-rzb.ir
-s.adad.ir
-s.adnegah.net
-s.hitplus.ir
-s1.mediaad.org
-s2.mediaad.org
-sabavision.com
+backority.ir
+
+# >> C <<
+cayot.ir
+# Example: tamasha.com/v/DDlMB
+
+chavosh.org
+ck.chavosh.org
+
+clickaval.com
+clickyab.com
+chabok.io
+
+congoro.com
+congoro.ir
+
+# >> D <<
+24d.ir
+l.24d.ir
+
+denutility.com
+davedbux.ir
+
+deemanetwork.com
+deema.agency
+deemaagency.ir
+
+# https://forum.adguard.com/index.php?threads/vigiato-net-resolved.44366/
+# https://github.com/AdguardTeam/AdguardFilters/issues/79983
+click.digiato.com
+# ^ Used by Digiato, Vigiato, Rooziato
+
+# >> E <<
+
+# >> F <<
+facepop.org
+farsbux.ir
+fastclick.ir
+
+farakav.com
+ads.farakav.com
+#  TODO: Check for breakages (used by tamasha.com), investigate into more tracking
+
+# >> G <<
+
+# >> H <<
+sentry.hamravesh.com
+# Example: behtarino.com
+
+hantana.org
+
+# >> I <<
+intrack.ir
+geoip.imber.live
+
+# >> J <<
+jetbux.ir
+
+# >> K <<
+api.karpishe.com
+# Example: asrakhbar.com
+
+kajads.com
+ads.karzar.net
+kaprila.com
+
+# >> L <<
+analytics.labbayk.ir
+linkfars.com
+landyab.com
+linksaz.net
+linkyar.com
+
+# >> M <<
+ir.mihanstore.net
+# Example: uploadgoogle.com
+
+metrix.ir
+trc.metrix.ir
+# ^ Used by digikala.com
+
+mediaad.org
+magnetadservices.com
+merita.ir
+mitrarank.ir
+
+# >> N <<
+analytics.nastooh.ir
+# Example: sahebkhabar.ir
+
+newswidget.net
+vidomusic.org
+pantatec.ae
+
+najva.com
+netbina.com
+
+# >> O <<
+on-click.ir
+
+# >> P <<
+phonroid.com
+# ^ Example: par30games.net
+
+popina.ir
+
+popunder.ir
+# TODO: Remove it, Used by marzfun.com
+
+popupdl.ir
+#  TODO: Remove it, Used by dlfox.com
+
+popland.info
+
+peyvandha.ir
+10.10.34.35
+10.10.34.36
+10.10.34.
+10.10.34.*
+# ^ Example: imovie-dl.org
+
+phoenixad.io
+
+partclick.ir
+persianrank.ir
+popgozar.com
+popupplus.ir
+popupme.net
+pushe.co
+p30rank.ir
+publica.ir
+
+# >> Q <<
+
+# >> R <<
+rankirani.ir
+rssbank.ir
+
+# >> S <<
+offers.sapra.ir
+# Example: gapfilm.ir
+
+statsfa.com
+
+sendword.ir
+# Used by i-video.ir
+
 sanjagh.com
 sanjagh.net
-scrapper.yektanet.com
-sigmaad.com
-ssads.net
-ssl.vatanclick.ir
-static-cdn.anetwork.ir
-static.clix.ir
-tapsell.ir
-tavoos.net
+
+ads.safarme.ir
+# ^ Used by kojaro.com
+
+sabavision.com
+
+# >> T <<
+trustseal.e-rasaneh.ir
+# Example: anaj.ir
+
+triboon.net
 te1.ir
+talapop.ir
+tabligheirani.ir
+tbli.ir
+
+# tavoos.net
+# ^ Example: film.tebyan.net
+# OISD maintainer: If a domain is used for ads, but also is required for "wanted content" (like video playback) it should not be blocked by domain/hosts lists. But rather left to handle by content blockers instead. (uBlock Origin, etc).
+
+cashback.takhfifan.com
+# TODO: Investigate 
+
+tapsell.ir
 toppopup.com
-trc.metrix.ir
-ua.yektanet.com
-up.video-learn.net
-uploado.xyz
+counter.toolsir.com
+
+# >> U <<
+userfriendly.ir
+# ^ Used by bils.ir
+
+utopclick.com
 utop.ir
+
+# >> V <<
 vatanclick.ir
-vista.ir
-webgozar.ir
-weclick.ir
-widget.congoro.com
-widgets.takhfifan.com
-wikiforosh.ir
-xar-pay.ml
-yasell.biz
+
+# >> W <<
+# webgozar.com
+# webgozar.ir
+# ^ They have tracking, but they also have polls
+
+wideads.com
+
+# >> X <<
+xjs.lol
+xmlx.lol
+# avaz-kurd.ir, power-music.ir
+
+# >> Y <<
+yelloadwise.ir
 yektanet.com
+yekbux.com
+
+# >> Z <<
 zarpop.com
+zanboor.net
+# TODO: Remove zanboor.net, but some websites still link to it
+
+#-------------------------^ Persian Ads/Trackers/Annoyances Filters ^-----------------------#
+
+#-------------------------v Site-Specific Filters v-----------------------#
+
+# >> A <<
+analytics.asiatech.ir
+dsp.aparat.com
+
+ads.akairan.com
+ads.akaup.com
+
+ads.alaatv.com
+
+# >> B <<
+metrix.behtarino.com
+apm.bama.ir
+
+# >> C <<
+sentry.cafebazaar.org
+
+# >> D <<
+tadv.didestan.net
+
+analytics.dunro.com
+
+ads.dabi.ir
+
+tracker.digikala.com
+new-sentry.digikala.com
+# analytics.digikala.com
+# ^ Shows online visitors
+
+sentry-new.divar.ir
+ammaar.delivery.zeerak.cloud
+
+# >> E <<
+
+# >> F <<
+# https://github.com/MasterKia/PersianBlocker/issues/107
+analytics.football360.ir
+
+fb-gw.bef.rest
+sentry.footballiapp.com
+
+analysis.faradars.org
+
+tracker.farsnews.ir
+# >> G <<
+
+# >> H <<
+hiads.hidoctor.ir
+
+# >> I <<
+ipsite.ir
+
+analytics.irancell.ir
+
+websocket.ilna.ir
+# >> J <<
+
+# >> K <<
+! https://github.com/MasterKia/PersianBlocker/issues/101
+websocket.khanefootball.com
+
+# >> L <<
+
+# >> M <<
+analytic.magland.ir
+
+affiliate.malltina.com
+sentry.malltina.com
+
+# >> N <<
+sentry.namava.ir
+
+stc.ninisite.com
+# >> O <<
+# https://github.com/MasterKia/PersianBlocker/issues/93
+websocket.55online.news
+
+# >> P <<
+
+# >> Q <<
+sentry.quera.org
+
+# >> R <<
+
+# >> S <<
+linkdoni.soft98.ir
+
+# >> T <<
+ad.technews-iran.com
+
+adengine.telewebion.com
+rokhdad.telewebion.com
+
+# >> U <<
+
+# >> V <<
+news-view-api.varzesh3.com
+video-view-api.varzesh3.com
+
+# >> W <<
+
+# >> X <<
+
+# >> Y <<
+
+# >> Z <<
+analytics.zoomit.ir
+#-------------------------^ Site-Specific Filters ^-----------------------#
