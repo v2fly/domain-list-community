@@ -19,7 +19,6 @@ lnk.amaroid.net
 analytics.aasaam.com
 analytics-2.aasaam.com
 analytics-3.aasaam.com
-analytics-*.aasaam.com
 
 adwised.com
 adwisedfs.com
@@ -161,8 +160,7 @@ popland.info
 peyvandha.ir
 10.10.34.35
 10.10.34.36
-10.10.34.
-10.10.34.*
+
 # ^ Example: imovie-dl.org
 
 phoenixad.io
