@@ -61,6 +61,11 @@ microsoft.ua
 microsoft.uz
 microsoft.vn
 
+# Network Connectivity Status Indicator (NCSI)
+# https://learn.microsoft.com/en-US/troubleshoot/windows-client/networking/internet-explorer-edge-open-connect-corporate-public-network
+msftncsi.com
+msftconnecttest.com
+
 # M12
 femalefounderscomp.com
 m12.vc
