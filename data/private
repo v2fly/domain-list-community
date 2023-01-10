@@ -119,7 +119,7 @@ b.e.f.ip6.arpa
 127.100.in-addr.arpa
 
 # Dotless domains
-regexp:^[^.]+$
+regexp:^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$
 
 # Aruba router
 full:instant.arubanetworks.com
