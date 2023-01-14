@@ -42,6 +42,7 @@ include:oracle
 include:panasonic
 include:pccw
 include:qualcomm
+include:qwant
 include:razer
 include:salesforce
 include:samsung
