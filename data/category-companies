@@ -37,6 +37,7 @@ include:musixmatch
 include:naver
 include:neuralink
 include:nvidia
+include:openai
 include:openweather
 include:oracle
 include:panasonic
