@@ -37,11 +37,13 @@ include:musixmatch
 include:naver
 include:neuralink
 include:nvidia
+include:openai
 include:openweather
 include:oracle
 include:panasonic
 include:pccw
 include:qualcomm
+include:qwant
 include:razer
 include:salesforce
 include:samsung
