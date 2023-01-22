@@ -22,6 +22,7 @@ include:hotjar-ads
 include:hunantv-ads
 include:inner-active-ads
 include:iqiyi-ads
+include:ir-ads
 include:jd-ads
 include:kuaishou-ads
 include:leanplum-ads
@@ -54,7 +55,6 @@ include:xiaomitv-ads
 include:yahoo-ads
 include:youku-ads
 include:zynga-ads
-include:ir-ads
 
 # Other domains for ads serving
 51y5.net
