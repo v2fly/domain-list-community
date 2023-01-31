@@ -128,6 +128,9 @@ full:setmeup.arubanetworks.com
 # ASUS router
 full:router.asus.com
 
+# KDE
+networkcheck.kde.org
+
 # Other router
 hiwifi.com
 leike.cc
