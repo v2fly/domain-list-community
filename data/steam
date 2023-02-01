@@ -14,26 +14,26 @@ underlords.com
 valvesoftware.com
 
 # edgecast
-full:edge.steam-dns.top.comcast.net
+edge.steam-dns.top.comcast.net
 
 # 网宿(国际)
-full:steam.apac.qtlglb.com
-full:steam.eca.qtlglb.com
-full:steam.naeu.qtlglb.com
-full:steam.ru.qtlglb.com
+steam.apac.qtlglb.com
+steam.eca.qtlglb.com
+steam.naeu.qtlglb.com
+steam.ru.qtlglb.com
 
 # HIGHWINDS
 full:f3b7q2p3.ssl.hwcdn.net
 
 # internode
-full:steam.cdn.on.net
+steam.cdn.on.net
 
 # orcon
-full:steam.cdn.orcon.net.nz
-full:steam.cdn.slingshot.co.nz
+steam.cdn.orcon.net.nz
+steam.cdn.slingshot.co.nz
 
 # webra
-full:steam.cdn.webra.ru
+steam.cdn.webra.ru
 
 # Akamai
 full:steambroadcast.akamaized.net
