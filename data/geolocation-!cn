@@ -113,6 +113,7 @@ include:udemy
 include:w3schools
 
 # Entertainment & Games & Music & Podcasts & Videos
+include:category-acg
 include:category-entertainment
 
 # File & Image & Video hosting
