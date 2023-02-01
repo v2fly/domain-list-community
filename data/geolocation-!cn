@@ -3,6 +3,9 @@
 # TLDs (Top Level Domains) used outside China mainland
 include:tld-!cn
 
+# Anime, Comics & Games
+include:category-acg
+
 # Advertisment & Analytics
 include:pubmatic
 include:taboola
@@ -283,6 +286,7 @@ include:wikidot
 include:wikihow
 include:wikimedia
 
+atwiki.jp
 touhouwiki.net
 
 # Others
