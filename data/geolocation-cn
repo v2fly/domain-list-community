@@ -7,11 +7,12 @@
 include:jiguang
 include:umeng
 
-# CDN companies & Services
+# CDN Companies & Services
 include:aws-cn
 include:baijiayun
 include:bootcdn
 include:bootcss
+include:cloudflare-cn
 include:dwion
 include:maocloud
 include:pkoplink
