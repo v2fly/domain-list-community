@@ -1,3 +1,5 @@
+include:cloudflare-cn
+
 argotunnel.com
 cf-ipfs.com
 cloudflare-dns.com
@@ -28,19 +30,3 @@ trycloudflare.com
 videodelivery.net
 warp.plus
 workers.dev
-
-# Cloudflare in Mainland China
-cf-ns.com @cn
-cf-ns.net @cn
-cf-ns.tech @cn
-cf-ns.site @cn
-cftest5.cn @cn
-cftest6.cn @cn
-cftest7.com @cn
-cftest8.com @cn
-cloudflare-cn.com @cn
-cloudflarecn.net @cn
-cloudflareinsights-cn.com @cn
-cloudflareprod.com @cn
-cloudflarestaging.com @cn
-cloudflarestoragegw.com @cn
