@@ -105,7 +105,7 @@ apple.xyz
 
 # Apple Store
 aplestore.com
-apple-store.cn @cn
+apple-store.cn
 apple-store.net
 apple-store.wang
 applestor.com
@@ -113,7 +113,7 @@ applestore.bg
 applestore.cc
 applestore.ch
 applestore.cm
-applestore.cn @cn
+applestore.cn
 applestore.co.hu
 applestore.co.jp
 applestore.co.ug
@@ -121,7 +121,7 @@ applestore.co.uk
 applestore.com
 applestore.com.au
 applestore.com.bn
-applestore.com.cn @cn
+applestore.com.cn
 applestore.com.ee
 applestore.com.eg
 applestore.com.gr
@@ -153,8 +153,8 @@ onlineapplestore.com
 # App Store
 app-store.wang
 appe-store.com
-apple-appstore.cn @cn
-appleappstore.cn @cn
+apple-appstore.cn
+appleappstore.cn
 appleappstore.net
 appleappstore.tv
 appsto.re
@@ -162,7 +162,7 @@ appstore.co.id
 appstore.hk
 appstore.my
 appstore.ph
-appstoreapple.cn @cn
+appstoreapple.cn
 asto.re
 tvappstore.net
 
@@ -220,7 +220,7 @@ fundaiphone5s.com
 hebiphone.com
 hf-iphone.com
 iphine.com
-iphone-8.com.cn @cn
+iphone-8.com.cn
 iphone-cd.com
 iphone-cn.com
 iphone-sh.com
@@ -280,7 +280,7 @@ ipod.co.uk
 ipod.co.za
 ipod.com
 ipod.com.au
-ipod.com.cn @cn
+ipod.com.cn
 ipod.com.fr
 ipod.com.hk
 ipod.com.sg
@@ -323,12 +323,12 @@ macbook.co
 macbook.hk
 macbook.tw
 macbook.wang
-macbookair.cn @cn
+macbookair.cn
 macbookair.co.kr
 macbookair.co.uk
 macbookair.com
 macbookair.com.au
-macbookair.com.cn @cn
+macbookair.com.cn
 macbookair.com.es
 macbookair.es
 macbookair.hk
@@ -388,15 +388,15 @@ applepay.info
 applepay.jp
 applepay.rs
 applepay.tv
-applepaycash.cn @cn
-applepaycash.com.cn @cn
+applepaycash.cn
+applepaycash.com.cn
 applepaycash.net
 applepaycash.tv
 applepaymerchantsupplies.info
 applepaysupplies.berlin
-applepaysupplies.cn @cn
+applepaysupplies.cn
 applepaysupplies.com
-applepaysupplies.com.cn @cn
+applepaysupplies.com.cn
 applepaysupplies.info
 applepaysupplies.net
 applepaysupplies.tv
@@ -455,8 +455,8 @@ myappleid.com
 appletv.com
 appletv.fr
 appletv.wang
-appletv4.cn @cn
-appletv4.com.cn @cn
+appletv4.cn
+appletv4.com.cn
 appletvapp.apple
 
 # Apple One
@@ -509,10 +509,10 @@ apple-enews.com
 apple-expo.com
 apple-expo.eu
 apple-hk.com
-apple-ibooks.cn @cn
+apple-ibooks.cn
 apple-inc.net
 apple-livephotoskit.com
-apple-maps.cn @cn
+apple-maps.cn
 apple-online.com
 apple-usa.net
 appleafrica.com
@@ -525,18 +525,18 @@ applecarbon.com
 applecard.tv
 applecentar.co.rs
 applecentar.rs
-applecenter.cn @cn
-applecenter.com.cn @cn
+applecenter.cn
+applecenter.com.cn
 applecentre.com.au
 applecentre.info
 appleclub.com.hk
 applecom.com
 applecomputer-imac.com
-applecomputer.cn @cn
+applecomputer.cn
 applecomputer.co.in
 applecomputer.co.nz
 applecomputer.com
-applecomputer.com.cn @cn
+applecomputer.com.cn
 applecomputer.com.hk
 applecomputer.com.tw
 applecomputer.hu
@@ -578,7 +578,7 @@ applescreensavers.com
 applescript.info
 appleshare.info
 appleshop.co.uk
-applesiri.cn @cn
+applesiri.cn
 applesurveys.com
 appletaiwan.com
 appletips.net
@@ -626,7 +626,7 @@ dvdstudiopro.net
 dvdstudiopro.org
 dvdstudiopro.us
 earpod.net
-ecgapp.com.cn @cn
+ecgapp.com.cn
 ecgapp.net
 edu-research.org
 emac.co.in
@@ -636,14 +636,14 @@ eworld.com
 faceid99.com
 faceid99.net
 faceidglobal.com
-faceshift.cn @cn
+faceshift.cn
 facetime.net
 finalcutpro.com
 find-apple.com
 firewire.cl
 firewire.eu
 geoport.com
-homepod.cn @cn
+homepod.cn
 hopstop.tv
 ichat.co.in
 idvd.eu
@@ -653,7 +653,7 @@ ilife.eu
 ilife.gr
 ilife.wang
 imessage.tv
-insidear.cn @cn
+insidear.cn
 insidemacintosh.com
 iosinthecar.com
 ipa-iphone.net
@@ -666,8 +666,8 @@ iwork.wang
 jetfuelapp.com
 jetfuelapps.com
 latticedata.com
-livephotos.cn @cn
-livephotos.com.cn @cn
+livephotos.cn
+livephotos.com.cn
 livephotos.tv
 lojaiphone.com.br
 mac-mini.com
@@ -734,7 +734,7 @@ xn--gtvz22d.wang # 苹果.wang
 xn--gtvz22d.xn--hxt814e # 苹果.网店
 xn--hxtr4rozx.xn--czr694b # 苹果店.商标
 xn--kput3imi374g.xn--hxt814e # 苹果手机.网店
-xn--ohq11k7pl25iyo8a.cn @cn # 苹果专卖店.cn
+xn--ohq11k7pl25iyo8a.cn # 苹果专卖店.cn
 xn--ruq8a011kt6y.xn--hxt814e # 苹果保修.网店
 
 full:apple.com.akadns.net
