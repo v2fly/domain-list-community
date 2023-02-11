@@ -7,11 +7,12 @@
 include:jiguang
 include:umeng
 
-# CDN companies & Services
+# CDN Companies & Services
 include:aws-cn
 include:baijiayun
 include:bootcdn
 include:bootcss
+include:cloudflare-cn
 include:dwion
 include:maocloud
 include:pkoplink
@@ -92,7 +93,6 @@ include:vgtime
 include:xiaohongshu
 include:ximalaya
 include:youku
-include:youngmoe
 include:yy
 include:zhanqi
 
@@ -323,6 +323,12 @@ include:bjyouth
 include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
+
+# 明源云
+fdcyun.com
+mingyuanyun.com
+mypaas.com
+mypaas.com.cn
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
