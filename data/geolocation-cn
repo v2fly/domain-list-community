@@ -330,6 +330,9 @@ mingyuanyun.com
 mypaas.com
 mypaas.com.cn
 
+# 瑞幸咖啡
+include:lkcoffee
+
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
 
