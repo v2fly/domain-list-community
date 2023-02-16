@@ -11,21 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v3
+        with:
+          path: code
+
       - name: Setup Go
         uses: actions/setup-go@v3
         with:
-          go-version-file: go.mod
+          go-version-file: code/go.mod
 
       - name: Set variables
         run: |
           echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
-
-      - name: Checkout codebase
-        uses: actions/checkout@v3
-        with:
-          path: code
 
       - name: Build dlc.dat file
         run: |
