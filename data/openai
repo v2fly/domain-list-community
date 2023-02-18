@@ -1,2 +1,12 @@
 # Main domain
 openai.com
+ai.com
+
+# Api
+auth0.com
+sentry.io
+unpkg.com
+
+# CDN
+full:openaiapi-site.azureedge.net
+full:challenges.cloudflare.com
