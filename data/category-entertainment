@@ -53,6 +53,7 @@ include:zeetv
 
 777tv.net
 blubrry.com
+buzzsprout.com
 castro.fm
 egta.com
 fireside.fm
@@ -70,3 +71,8 @@ syosetu.com
 thetvdb.com
 weverse.io
 yande.re
+
+# Apple Podcast
+bag.itunes.apple.com
+amp-api.podcast.apple.com
+bookeeper.itunes.apple.com
