@@ -45,7 +45,6 @@ include:thescoregroup
 include:tokyo-toshokan
 include:truyen-hentai
 include:uu-chat
-include:wozipai
 include:xhamster
 include:xingkongwuxianmedia
 include:xnxx
@@ -5146,6 +5145,8 @@ full:anime-rule34-world.b-cdn.net
 # Using regular expression to match some domains.
 
 regexp:(^|\.)[1-5]gaoap\.com$
+regexp:(^|\.)[1-9]+aipai\.(com|net)$
+regexp:(^|\.)[1-9]+zipai\.(com|net)$
 regexp:(^|\.)[1-9]00caocao\.com$
 regexp:(^|\.)[3-9]0000sao\.com$
 regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
