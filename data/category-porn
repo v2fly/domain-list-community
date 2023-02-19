@@ -50,6 +50,7 @@ include:xingkongwuxianmedia
 include:xnxx
 include:xvideos
 include:youjizz
+include:zhimeishe
 
 
 # The top domains of the pornographic website.
@@ -5158,6 +5159,7 @@ regexp:(^|\.)99pp[1-9][0-9]\.com$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)banyinjia[0-9]?\.com$
 regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
+regexp:(^|\.)cgbb([1-9]|1[0-9]|20)\.com$
 regexp:(^|\.)cosaa[a-z]\.cyou$
 regexp:(^|\.)douyintt[0-9]\.me$
 regexp:(^|\.)fi11sm([0-9]+)?\.com$
