@@ -1,8 +1,11 @@
 azurecr.io
 docker.io
+ecr.aws
 gcr.io
 ghcr.io
 mcr.microsoft.com
 quay.io
-regexp:ecr.*.amazonaws.com
 registry.k8s.io
+
+
+regexp:.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$
