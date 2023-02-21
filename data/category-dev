@@ -5,6 +5,7 @@ include:archlinux
 include:bootstrap
 include:braveux
 include:canonical
+include:category-container
 include:dart
 include:debian
 include:docker
@@ -123,7 +124,6 @@ php.net
 putty.org
 
 postgresql.org
-quay.io
 r-project.org
 raspberrypi.org
 raspbian.org

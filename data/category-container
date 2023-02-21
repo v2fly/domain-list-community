@@ -1,0 +1,8 @@
+azurecr.io
+docker.io
+gcr.io
+ghcr.io
+mcr.microsoft.com
+quay.io
+regexp:ecr.*.amazonaws.com
+registry.k8s.io
