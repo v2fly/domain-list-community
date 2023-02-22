@@ -1,6 +1,6 @@
 # Main domain
-openai.com
 ai.com
+openai.com
 
 # CDN
 full:openaiapi-site.azureedge.net
