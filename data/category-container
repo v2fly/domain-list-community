@@ -8,4 +8,5 @@ quay.io
 registry.gitlab.com
 registry.k8s.io
 
+
 regexp:.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$
