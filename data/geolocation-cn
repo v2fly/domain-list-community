@@ -61,6 +61,7 @@ include:acfun
 include:acplay
 include:ali213
 include:bilibili
+include:ciweimao
 include:dedao
 include:dmzj
 include:douyu
@@ -329,6 +330,7 @@ fdcyun.com
 mingyuanyun.com
 mypaas.com
 mypaas.com.cn
+myypark.com
 
 # 瑞幸咖啡
 include:lkcoffee
