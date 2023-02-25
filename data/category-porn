@@ -5208,7 +5208,7 @@ regexp:(^|\.)[1-9]+zipai\.(com|net)$
 regexp:(^|\.)[1-9]00caocao\.com$
 regexp:(^|\.)[3-9]0000sao\.com$
 regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
-regexp:(^|\.).*fulibl.*\.(cc|com|org|net|xyz)$
+regexp:(^|\.)[a-z]fulibl\.(cc|com|org|net|xyz)$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)8dgo[1-57-9]\.com$
 regexp:(^|\.)91porn[0-9]{3}\.me$
