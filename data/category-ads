@@ -14,7 +14,6 @@ include:bytedance-ads
 include:clearbitjs-ads
 include:dmm-ads
 include:emogi-ads
-include:ir-ads
 include:flurry-ads
 include:google-ads
 include:growingio-ads
@@ -23,6 +22,7 @@ include:hotjar-ads
 include:hunantv-ads
 include:inner-active-ads
 include:iqiyi-ads
+include:ir-ads
 include:jd-ads
 include:kuaishou-ads
 include:leanplum-ads
