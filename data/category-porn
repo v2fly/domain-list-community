@@ -5266,6 +5266,7 @@ regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
 regexp:(^|\.)[a-z]?fulibl\.(cc|com|org|net|xyz)$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)8dgo[1-57-9]\.com$
+regexp:(^|\.)91p[1-9][0-9]?\.com$
 regexp:(^|\.)91porn[0-9]{3}\.me$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)99pp[1-9][0-9]\.com$
