@@ -24,6 +24,7 @@ include:inner-active-ads
 include:iqiyi-ads
 include:jd-ads
 include:kuaishou-ads
+include:kugou-ads
 include:leanplum-ads
 include:letv-ads
 include:mixpanel-ads
@@ -51,6 +52,7 @@ include:unity-ads
 include:wteam-ads
 include:xhamster-ads
 include:xiaomitv-ads
+include:ximalaya-ads
 include:yahoo-ads
 include:youku-ads
 include:zynga-ads
