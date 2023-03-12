@@ -5192,7 +5192,6 @@ youx.xxx
 youyu.services
 ypmate.com
 ysporn.com
-yswet.com
 yuraku.8v8.be
 yusjb.com
 yuvutu.com
@@ -5325,5 +5324,6 @@ regexp:(^|\.)xnkl[3-8]\.cn$
 regexp:(^|\.)yiren[1-9][0-9]\.com$
 regexp:(^|\.)youyuapi\..+$
 regexp:(^|\.)yrrj[1-9]?\.buzz$
+regexp:(^|\.)y(s|y)[a-z]{3}\.com$
 regexp:(^|\.)zh9[0-7]\.net$
 regexp:(^|\.)zzz[1-9][0-9]\.top$
