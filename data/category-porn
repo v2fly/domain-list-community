@@ -5322,9 +5322,9 @@ regexp:(^|\.)twseb([1-9][0-9]?)?\.com$
 regexp:(^|\.)uu[a-z][1-9][0-9]?\.com$
 regexp:(^|\.)wyfuli[1-9]\.net$
 regexp:(^|\.)xnkl[3-8]\.cn$
+regexp:(^|\.)y(s|y)[a-z]{3}\.com$
 regexp:(^|\.)yiren[1-9][0-9]\.com$
 regexp:(^|\.)youyuapi\..+$
 regexp:(^|\.)yrrj[1-9]?\.buzz$
-regexp:(^|\.)y(s|y)[a-z]{3}\.com$
 regexp:(^|\.)zh9[0-7]\.net$
 regexp:(^|\.)zzz[1-9][0-9]\.top$
