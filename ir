@@ -1,7 +1,7 @@
 # list of domains that are not and will not be blocked by Iran government. because these websites are hosted in Iran or have iran top level domain.
 
 # No .ir domain has been blocked in Iran. Because the Iranian government can take back .ir domains from their owners instead of blocking them.
-regexp:.+\.ir$
+ir
 
 # thanks to iran-hosted-domains project
 # https://github.com/SamadiPour/iran-hosted-domains/
