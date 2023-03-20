@@ -7,6 +7,7 @@ include:attwatchtv
 include:bahamut
 include:bandcamp
 include:boomerang
+include:catchplay
 include:category-games
 include:category-novel
 include:dandanzan
@@ -23,6 +24,8 @@ include:hulu
 include:imdb
 include:kingkonglive
 include:kkbox
+include:kktv
+include:litv
 include:manhuagui
 include:mihoyo
 include:mudvod
