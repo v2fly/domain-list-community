@@ -3,4 +3,5 @@ ai.com
 openai.com
 
 # CDN
+full:chat.openai.com.cdn.cloudflare.net
 full:openaiapi-site.azureedge.net
