@@ -126,22 +126,24 @@ full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
 
 # ASUS router
-full:router.asus.com
+router.asus.com
+asusrouter.com
 
 # KDE
 networkcheck.kde.org
 
+# Netgear router
+routerlogin.com
+
 # Other router
 hiwifi.com
 leike.cc
-miwifi.com
 my.router
 peiluyou.com
 phicomm.me
 router.ctc
-routerlogin.com
 
-# QQ Loopback
+# QQ SSO for quick login
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
 
@@ -150,10 +152,14 @@ tendawifi.com
 
 # TP-Link router
 tplinkwifi.net
+tplogin.cn
 
 # Windows
 msftconnecttest.com
 msftncsi.com
 
-# 中興路由器
+# Xiaomi router
+miwifi.com
+
+# ZTE router
 zte.home
