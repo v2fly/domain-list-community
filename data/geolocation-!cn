@@ -170,7 +170,6 @@ include:adguard
 include:aptoide
 include:arphic
 include:authy
-include:biliplus
 include:bitly
 include:bitwarden
 include:blender
@@ -252,6 +251,8 @@ include:zendesk
 include:zeplin
 include:zoho
 include:zoom
+
+biliplus.com
 
 # Online LaTeX Editor
 cloudlatex.io
