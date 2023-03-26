@@ -147,6 +147,9 @@ include:category-media-cn
 # Organizations
 include:category-hospital-cn
 
+# Network Security
+include:category-network-security
+
 # Services & Softwares
 include:115
 include:3type
