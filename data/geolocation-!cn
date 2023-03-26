@@ -86,7 +86,6 @@ include:betterexplained
 include:brilliant
 include:category-scholar-!cn
 include:cern
-include:chemequations
 include:chinapower
 include:cnet
 include:code
@@ -115,6 +114,8 @@ include:ted
 include:udacity
 include:udemy
 include:w3schools
+
+chemequations.com
 
 # Entertainment & Games & Music & Podcasts & Videos
 include:category-entertainment
