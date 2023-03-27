@@ -126,14 +126,16 @@ full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
 
 # ASUS router
+full:asusrouter.com
 full:router.asus.com
-asusrouter.com
+full:www.asusrouter.com
 
 # KDE
 networkcheck.kde.org
 
 # Netgear router
-routerlogin.com
+full:routerlogin.com
+full:www.routerlogin.com
 
 # Other router
 hiwifi.com
@@ -159,7 +161,8 @@ msftconnecttest.com
 msftncsi.com
 
 # Xiaomi router
-miwifi.com
+full:miwifi.com
+full:www.mifiwi.com
 
 # ZTE router
 zte.home
