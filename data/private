@@ -126,6 +126,7 @@ full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
 
 # ASUS router
+# Reference: https://www.asus.com/support/FAQ/1005263/
 full:asusrouter.com
 full:router.asus.com
 full:www.asusrouter.com
@@ -134,6 +135,8 @@ full:www.asusrouter.com
 networkcheck.kde.org
 
 # Netgear router
+# Reference: https://kb.netgear.com/27199/I-can-t-access-my-router-what-do-I-do
+# https://www.netgear.com/business/services/aplogincom/
 full:routerlogin.com
 full:www.routerlogin.com
 
@@ -145,6 +148,10 @@ peiluyou.com
 phicomm.me
 router.ctc
 
+# Plex Media Server
+# Reference: https://support.plex.tv/articles/206225077-how-to-use-secure-server-connections/
+plex.direct
+
 # QQ SSO for quick login
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
@@ -153,6 +160,7 @@ localhost.ptlogin2.qq.com
 tendawifi.com
 
 # TP-Link router
+# Reference: https://resource.tp-link.com.cn/m/productClass/product_document?id=1655112502304621
 tplinkwifi.net
 full:tplogin.cn
 
@@ -161,6 +169,7 @@ msftconnecttest.com
 msftncsi.com
 
 # Xiaomi router
+# Reference: https://www1.miwifi.com/miwifi_faq.html
 full:miwifi.com
 full:www.mifiwi.com
 
