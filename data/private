@@ -126,7 +126,7 @@ full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
 
 # ASUS router
-router.asus.com
+full:router.asus.com
 asusrouter.com
 
 # KDE
