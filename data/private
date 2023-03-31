@@ -128,6 +128,9 @@ full:setmeup.arubanetworks.com
 # ASUS router
 full:router.asus.com
 
+# Apple
+captive.apple.com
+
 # KDE
 networkcheck.kde.org
 
