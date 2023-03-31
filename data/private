@@ -125,11 +125,14 @@ regexp:^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$
 full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
 
-# ASUS router
-full:router.asus.com
-
 # Apple
 captive.apple.com
+
+# Android
+connectivitycheck.gstatic.com
+
+# ASUS router
+full:router.asus.com
 
 # KDE
 networkcheck.kde.org
