@@ -1,6 +1,7 @@
 include:apple-ads
 include:apple-dev
 include:apple-pki
+include:apple-update
 include:beats
 include:icloud
 include:itunes
