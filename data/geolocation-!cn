@@ -159,6 +159,7 @@ include:falungong
 # Services & Softwares
 include:category-android-app-download
 include:category-browser-!cn
+include:category-enhance-gaming
 include:decryptipastore # iOS
 
 include:accuweather
