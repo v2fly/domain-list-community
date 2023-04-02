@@ -132,22 +132,33 @@ captive.apple.com
 connectivitycheck.gstatic.com
 
 # ASUS router
+# Reference: https://www.asus.com/support/FAQ/1005263/
+full:asusrouter.com
 full:router.asus.com
+full:www.asusrouter.com
 
 # KDE
 networkcheck.kde.org
 
+# Netgear router
+# Reference: https://kb.netgear.com/27199/I-can-t-access-my-router-what-do-I-do
+# https://www.netgear.com/business/services/aplogincom/
+full:routerlogin.com
+full:www.routerlogin.com
+
 # Other router
 hiwifi.com
 leike.cc
-miwifi.com
 my.router
 peiluyou.com
 phicomm.me
 router.ctc
-routerlogin.com
 
-# QQ Loopback
+# Plex Media Server
+# Reference: https://support.plex.tv/articles/206225077-how-to-use-secure-server-connections/
+plex.direct
+
+# QQ SSO for quick login
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
 
@@ -155,11 +166,18 @@ localhost.ptlogin2.qq.com
 tendawifi.com
 
 # TP-Link router
+# Reference: https://resource.tp-link.com.cn/m/productClass/product_document?id=1655112502304621
 tplinkwifi.net
+full:tplogin.cn
 
 # Windows
 msftconnecttest.com
 msftncsi.com
 
-# 中興路由器
+# Xiaomi router
+# Reference: https://www1.miwifi.com/miwifi_faq.html
+full:miwifi.com
+full:www.mifiwi.com
+
+# ZTE router
 zte.home
