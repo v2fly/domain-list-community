@@ -25,6 +25,7 @@ include:hetzner
 include:hinet
 include:hkbn
 include:hp
+include:hubblephone
 include:ibm
 include:intel
 include:lg
@@ -63,4 +64,3 @@ include:yahoo
 include:yandex
 
 porkbun.com
-tsi.ai
