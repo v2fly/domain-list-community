@@ -12,68 +12,91 @@ edu
 # ccTLD
 ac # Ascension Island
 ad # Andorra
-ae # United Arab Emirates
+ae # United Arab Emirates (UAE)
 af # Afghanistan
 ag # Antigua and Barbuda
+ai # Anguilla
 al # Albania
 am # Armenia
-an # Antilles (Netherlands)
 ao # Angola
 aq # Antarctica
 ar # Argentina
+as # American Samoa
 at # Austria
 au # Australia
 aw # Aruba
 ax # Aland Islands
 az # Azerbaijan
 ba # Bosnia and Herzegovina
+bb # Barbados
+bd # Bangladesh
+be # Belgium
+bf # Burkina Faso
 bg # Bulgaria
 bh # Bahrain
 bi # Burundi
 bj # Benin
+bl # Saint Barthélemy (informally also referred to as Saint Barth’s or Saint Barts)
 bm # Bermuda
-bn # Brunei Darussalam
+bn # Brunei
 bo # Bolivia
 br # Brazil
 bs # Bahamas
+bt # Bhutan
 bv # Bouvet Island
 bw # Botswana
 by # Belarus
 bz # Belize
 ca # Canada
-cd # Democratic Republic of the Congo
-cg # Republic of Congo
+cc # Cocos (Keeling) Islands
+cd # Congo, Democratic Republic of the (Congo-Kinshasa)
+cf # Central African Republic
+cg # Congo, Republic of the (Congo-Brazzaville)
+ch # Switzerland
+ci # Côte d’Ivoire (Ivory Coast)
+ck # Cook Islands
 cl # Chile
 cm # Cameroon
+co # Colombia
 cr # Costa Rica
 cu # Cuba
+cv # Cape Verde (Cabo Verde)
 cw # Curaçao
 cx # Christmas Island
 cy # Cyprus
-cz # Czech Republic
+cz # Czechia (Czech Republic)
 de # Germany
+dj # Djibouti
 dk # Denmark
+dm # Dominica
+do # Dominican Republic
 dz # Algeria
 ec # Ecuador
+ee # Estonia
 eg # Egypt
 eh # Western Sahara
 er # Eritrea
 es # Spain
+et # Ethiopia
 eu # European Union
 fi # Finland
 fj # Fiji
-fk # Falkland Islands (Malvinas)
-fo # Faroe Islands
+fk # Falkland Islands
+fm # Federated States of Micronesia
+fo # Faeroe Islands
 fr # France
-ga # Gabon
-gb # United Kingdom
+ga # Gabon (Gabonese Republic)
+gb # The United Kingdom of Great Britain and Northern Ireland
 gd # Grenada
 ge # Georgia
+gf # French Guiana
+gg # Guernsey
 gh # Ghana
 gi # Gibraltar
 gl # Greenland
 gm # Gambia
 gn # Guinea
+gp # Guadeloupe
 gr # Greece
 gs # South Georgia and the South Sandwich Islands
 gt # Guatemala
@@ -81,27 +104,37 @@ gu # Guam
 gw # Guinea-Bissau
 gy # Guyana
 hk # Hong Kong
+hm # Heard Island and McDonald Islands
 hn # Honduras
+hr # Croatia
 ht # Haiti
 hu # Hungary
+id # Indonesia
 ie # Ireland
 il # Israel
+im # Isle of Man
 in # India
+io # British Indian Ocean Territory
 iq # Iraq
-ir # Islamic Republic of Iran
+ir # Iran
+is # Iceland
+it # Italy
 je # Jersey
 jm # Jamaica
 jo # Jordan
 jp # Japan
 ke # Kenya
+kg # Kyrgyzstan
 kh # Cambodia
 ki # Kiribati
+km # Comoros
 kn # Saint Kitts and Nevis
 kp # Democratic People's Republic of Korea
 kr # Republic of Korea
 kw # Kuwait
-ky # Caymen Islands
+ky # Cayman Islands
 kz # Kazakhstan
+la # Laos
 lb # Lebanon
 lc # Saint Lucia
 li # Liechtenstein
@@ -110,21 +143,27 @@ lr # Liberia
 ls # Lesotho
 lt # Lithuania
 lu # Luxembourg
+lv # Latvia
 ly # Libya
 ma # Morocco
 mc # Monaco
-md # Republic of Moldova
-mf # Saint Martin
+md # Moldova
+me # Montenegro
+mf # Saint Martin (officially the Collectivity of Saint Martin)
 mg # Madagascar
 mh # Marshall Islands
-mk # Macedonia
+mk # Macedonia, Republic of
+ml # Mali
+mm # Myanmar
 mn # Mongolia
 mo # Macau
 mp # Northern Mariana Islands
 mq # Martinique
 mr # Mauritania
+ms # Montserrat
 mt # Malta
 mu # Mauritius
+mv # Maldives
 mw # Malawi
 mx # Mexico
 my # Malaysia
@@ -147,61 +186,78 @@ pe # Peru
 pf # French Polynesia
 pg # Papua New Guinea
 ph # Philippines
+pk # Pakistan
 pl # Poland
-pn # Pitcairn
-re # Reunion
+pm # Saint-Pierre and Miquelon
+pn # Pitcairn Islands
+pr # Puerto Rico
+ps # Gaza Strip (Gaza)
+ps # Palestine
+pt # Portugal
+pw # Palau
+py # Paraguay
+qa # Qatar
+re # Réunion Island
 ro # Romania
+rs # Serbia
 ru # Russia
 rw # Rwanda
 sa # Saudi Arabia
+sb # Solomon Islands
 sc # Seychelles
 sd # Sudan
 se # Sweden
 sg # Singapore
+sh # Saint Helena
 si # Slovenia
-sj # Svalbard and Jan Mayen
+sj # Svalbard and Jan Mayen Islands
 sk # Slovakia
 sl # Sierra Leone
+sm # San Marino
 sn # Senegal
+so # Somalia
+so # Somaliland
 sr # Suriname
 ss # South Sudan
-st # Sao Tome and Principe
-su # Soviet Union
+st # São Tomé and Príncipe
+su # The Union of Soviet Socialist Republic
 sv # El Salvador
 sx # Sint Maarten
 sy # Syria
 sz # Swaziland
 tc # Turks and Caicos Islands
 td # Chad
-tf # French Southern Territories
+tf # French Southern and Antarctic Lands
+tg # Togo
 th # Thailand
 tj # Tajikistan
 tk # Tokelau
-tl # Timor-Leste
+tl # East Timor (Timor-Leste)
 tm # Turkmenistan
 tn # Tunisia
 to # Tonga
-tp # Portuguese Timor
 tr # Turkey
-tt # Trinidad and Tobago
-tw # Taiwan
+tt # Trinidad & Tobago
+tv # Tuvalu
+tw # Taiwan (Republic of China)
 tz # Tanzania
 ua # Ukraine
 ug # Uganda
-uk # United Kingdom
-um # United States Minor Outlying Islands
-us # United States
+uk # United Kingdom (UK)
+us # United States of America (USA)
 uy # Uruguay
 uz # Uzbekistan
 va # Vatican City
 vc # Saint Vincent and the Grenadines
 ve # Venezuela
 vg # British Virgin Islands
-vi # US Virgin Islands
+vi # United States Virgin Islands
 vn # Vietnam
-vu # US Virgin Islands
+vu # Vanuatu
 wf # Wallis and Futuna
-yt # Mayote
+ws # Samoa
+ye # Yemen
+yt # Mayotte
 za # South Africa
 zm # Zambia
 zw # Zimbabwe
