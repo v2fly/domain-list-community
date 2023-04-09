@@ -293,6 +293,10 @@ include:wikimedia
 atwiki.jp
 touhouwiki.net
 
+#Nebula Emby
+web.nebula-emby.com
+api.nebula-emby.com
+
 # Others
 include:avaxhome
 include:dlsite
