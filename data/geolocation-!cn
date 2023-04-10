@@ -293,9 +293,9 @@ include:wikimedia
 atwiki.jp
 touhouwiki.net
 
-#Nebula Emby
-web.nebula-emby.com
+# Nebula Emby
 api.nebula-emby.com
+web.nebula-emby.com
 
 # Others
 include:avaxhome
