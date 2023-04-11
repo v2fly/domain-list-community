@@ -62,17 +62,7 @@ include:stackpath
 include:category-cas
 
 # Communications
-include:clubhouse
-include:discord
-include:freenode
-include:intercom
-include:line
-include:matrix
-include:messenger
-include:signal
-include:slack
-include:telegram
-include:whatsapp
+include:category-communication
 
 # Cryptocurrency
 include:category-cryptocurrency
