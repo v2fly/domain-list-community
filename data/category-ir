@@ -3,6 +3,8 @@
 
 include:category-ir-bank
 include:category-ir-bourse
+include:category-ir-education
+include:category-ir-forums
 include:category-ir-gov
 include:category-ir-insurance
 include:category-ir-media
@@ -37,3 +39,7 @@ saipacorp.com
 # Misc
 porsline.ir
 time.ir
+
+# Jobs
+jobinja.com
+jobinja.ir

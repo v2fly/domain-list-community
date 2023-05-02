@@ -11,6 +11,7 @@ include:atlassian
 include:att
 include:autodesk
 include:bandwagonhost
+include:blurams
 include:canon
 include:cisco
 include:cloudcone
