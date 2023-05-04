@@ -64,4 +64,8 @@ include:wisekey
 include:yahoo
 include:yandex
 
+# Remote Control
+
+include:category-remote-control
+
 porkbun.com
