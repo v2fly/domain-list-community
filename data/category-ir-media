@@ -1,7 +1,9 @@
 # Iranian media websites
+include:aparat
+include:filimo
 
-aparat.com
-filimo.com
+cinematicket.org
+filmnet.ir
 irib.ir
 iribtv.ir
 irinn.ir
