@@ -112,6 +112,7 @@ include:stage1st
 itsk.com # IT天空论坛
 klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
+uiwow.com # 魔兽有爱论坛
 
 # Fofa网站测绘
 fofa.info
@@ -240,6 +241,8 @@ include:sogou
 include:tencent
 include:xiaomi
 include:xunlei
+
+ezpro.pro # 小马路由
 
 # Telecommunication
 include:chinabroadnet

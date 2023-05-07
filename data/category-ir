@@ -1,21 +1,21 @@
 # Iranian websites which will not open without an Iranian IP
 # Use to make them direct connections so they open inside Iran
 
-include:category-ir-bank
-include:category-ir-bourse
-include:category-ir-education
-include:category-ir-forums
-include:category-ir-gov
-include:category-ir-insurance
-include:category-ir-media
-include:category-ir-news
-include:category-ir-payment
-include:category-ir-scholar
-include:category-ir-shopping
-include:category-ir-social-media
-include:category-ir-tech
-include:category-ir-travel
-include:category-ir-other
+include:category-bank-ir
+include:category-bourse-ir
+include:category-education-ir
+include:category-forums-ir
+include:category-gov-ir
+include:category-insurance-ir
+include:category-media-ir
+include:category-news-ir
+include:category-payment-ir
+include:category-scholar-ir
+include:category-shopping-ir
+include:category-social-media-ir
+include:category-tech-ir
+include:category-travel-ir
+include:category-other-ir
 
 # Maps
 balad.ir
