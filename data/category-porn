@@ -155,6 +155,7 @@ porn
 10musume.com
 110xnxx.com
 114av.xyz
+11jav.com
 123sex.top
 123videos.tv
 128100.xyz
@@ -513,6 +514,7 @@ aipa553.com
 airav.cc
 airav.wiki
 airsextube.com
+aisejushi.com
 ajsjx.com
 akiba-online.com
 akiba-web.com
@@ -2635,6 +2637,7 @@ jav9999.com
 javbabe.net
 javbangers.com
 javbobo.com
+javbooks.com
 javbraze.com
 javbuz.com
 javcl.com
@@ -2743,7 +2746,6 @@ javxspot.com
 javxxx.me
 javynow.com
 jayspov.net
-jbk005.com
 jdavsp.asia
 jdavsp.pw
 jdforum.net
@@ -5747,11 +5749,13 @@ regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
 regexp:(^|\.)[a-z]?fulibl\.(cc|com|org|net|xyz)$
 regexp:(^|\.)69bag[0-1][1-9]?\.com$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
+regexp:(^|\.)7mm0([0-1][0-9]?)?\.com$
 regexp:(^|\.)8dgo[1-57-9]\.com$
 regexp:(^|\.)91p[0-9][0-9]?\.com$
 regexp:(^|\.)91porn[0-9]{3}\.me$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)99pp[1-9][0-9]\.com$
+regexp:(^|\.)aisejushi(2|3|5|6)\.com$
 regexp:(^|\.)avcc1[0-9]\.com$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)banyinjia[0-9]?\.com$
@@ -5765,6 +5769,7 @@ regexp:(^|\.)gaogediao\.(com|me|net|org)$
 regexp:(^|\.)h5ccav[1-5]\.com$
 regexp:(^|\.)hkfg[1-7]\.xyz$
 regexp:(^|\.)jav777\.(cc|tv|work)$
+regexp:(^|\.)jbk0([0-1][0-9]?)?\.com$
 regexp:(^|\.)jdyy[1-9]?\.me$
 regexp:(^|\.)kimoav([1-9][0-9]?)?\.com$
 regexp:(^|\.)ksyp0[1-9]\.com$
