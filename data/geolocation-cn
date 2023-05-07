@@ -242,6 +242,8 @@ include:tencent
 include:xiaomi
 include:xunlei
 
+ezpro.pro # 小马路由
+
 # Telecommunication
 include:chinabroadnet
 include:chinamobile
@@ -697,7 +699,6 @@ eoeandroid.com
 eolink.com
 excelhome.net
 extfans.com
-ezpro.pro # 粤ICP备14061825号-2 小马路由
 f.cx
 faloo.com
 famulei.com
