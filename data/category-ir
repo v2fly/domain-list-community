@@ -15,12 +15,12 @@ include:category-shopping-ir
 include:category-social-media-ir
 include:category-tech-ir
 include:category-travel-ir
+include:snapp
 
 # Maps
 balad.ir
 neshan.org
 raah.ir
-snappmaps.ir
 
 # Sport
 varzesh3.com
@@ -37,9 +37,6 @@ karnameh.com
 khodro45.com
 saipacorp.com
 
-# Hotel
-snapproom.com
-
 # Misc
 porsline.ir
 time.ir
@@ -48,11 +45,3 @@ time.ir
 jobinja.com
 jobinja.ir
 jobinjacdn.com
-
-# Other
-cdnsnapptrip.com
-snapp-box.com
-snapp.doctor
-snapp.ninja
-snappcloud.io
-snapptrip.com
