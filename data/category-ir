@@ -16,10 +16,13 @@ include:category-social-media-ir
 include:category-tech-ir
 include:category-travel-ir
 
+# Conglomerate company
+include:snapp
+
 # Maps
 balad.ir
-raah.ir
 neshan.org
+raah.ir
 
 # Sport
 varzesh3.com
