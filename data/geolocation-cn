@@ -7,6 +7,9 @@
 include:jiguang
 include:umeng
 
+# Blogs
+include:category-blog-cn
+
 # CDN Companies & Services
 include:aws-cn
 include:baijiayun
