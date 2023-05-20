@@ -34,6 +34,7 @@ include:logitech
 include:mailru
 include:meta
 include:microsoft
+include:mikrotik
 include:mindgeek
 include:mozilla
 include:musixmatch
