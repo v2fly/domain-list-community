@@ -10,7 +10,7 @@ include:umeng
 # Blogs
 include:category-blog-cn
 
-# CDN Companies & Services
+# CDN or SDWAN
 include:aws-cn
 include:baijiayun
 include:bootcdn
