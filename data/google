@@ -251,6 +251,13 @@ google.vg
 google.vu
 google.ws
 
+# firebase
+firebase.io
+firebaseapp.com
+firebaseio.com
+
+full:firebase-settings.crashlytics.com @cn
+
 # Others
 0emm.com
 1e100.net
@@ -320,8 +327,6 @@ episodic.com
 feedburner.com
 fflick.com
 financeleadsonline.com
-firebaseapp.com
-firebaseio.com
 foofle.com
 froogle.com
 fuchsia.dev
@@ -590,7 +595,6 @@ full:download.qcpp1.net @cn
 full:download.qpdp1.net @cn
 full:download.tensorflow.google.com @cn
 full:emmapplecodevice.googleapis.com @cn
-full:firebase-settings.crashlytics.com @cn
 full:fontfiles.googleadapis.com @cn
 full:fontfiles.googleapis.com @cn
 full:fonts.googleadapis.com @cn
