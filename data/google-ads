@@ -25,4 +25,6 @@ googletagservices.com @ads
 googletraveladservices.com @ads
 urchin.com @ads
 
+full:analytics.google.com @ads
+
 regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
