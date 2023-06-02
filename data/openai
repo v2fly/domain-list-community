@@ -1,6 +1,19 @@
 # Main domain
 ai.com
 openai.com
+mandrillapp.com
+auth0.com
+deepl.com
+statsigapi.net
+intercom.io
+intercomcdn.com
+link.com
+stripe.com
+stripecdn.com
+hcaptcha.com
+intercom.io
+sentry.io
+sentry.com
 
 # CDN & API
 full:chat.openai.com.cdn.cloudflare.net
@@ -12,3 +25,8 @@ full:production-openaicom-storage.azureedge.net
 # tracking
 full:o33249.ingest.sentry.io @ads
 full:openaicom.imgix.net @ads
+
+# all
+keyword:openai
+keyword:sentry
+keyword:stripe
