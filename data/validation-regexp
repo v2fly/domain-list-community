@@ -1,1 +1,1 @@
-regexp:ip\\d{3}.cn
+regexp:ip\d{3}.cn
