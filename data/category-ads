@@ -11,6 +11,7 @@ include:applovin-ads
 include:atom-data-ads
 include:baidu-ads
 include:bytedance-ads
+include:category-ads-ir
 include:clearbitjs-ads
 include:dmm-ads
 include:emogi-ads
