@@ -1,14 +1,41 @@
 # List of all domains that have access point in China mainland
 
-# 123云盘
-123pan.com
-
 # Advertisment & Analytics
 include:jiguang
 include:umeng
 
+# Aviation
+include:airchina # 中国国际航空
+include:hainanairlines # 海南航空
+
+caac.gov.cn # 中国民航局
+ceair.com # 中国东方航空
+chinaexpressair.com # 华夏航空
+csair.com # 中国南方航空
+flycua.com # 中国联合航空
+hbhk.com.cn # 河北航空
+jdair.net # 首都航空
+juneyaoair.com # 吉祥航空
+luckyair.net # 祥鹏航空
+sichuanair.com # 四川航空
+tibetairlines.com.cn # 西藏航空
+variflight.com # 飞常准
+xiamenair.com # 厦门航空
+
+# Bank & Finance & Insurance & Securities
+include:category-bank-cn
+include:category-securities-cn
+include:citic
+include:eastmoney
+include:everbright
+include:pingan
+include:taikang
+
 # Blogs
 include:category-blog-cn
+
+# 餐饮类
+include:category-food-cn
 
 # CDN or SDWAN
 include:aws-cn
@@ -30,18 +57,6 @@ include:yunfanjiasu
 funcdn.com
 leigod.cn
 
-# Game Accelerator
-include:category-game-accelerator-cn
-
-# Bank & Finance & Insurance & Securities
-include:category-bank-cn
-include:category-securities-cn
-include:citic
-include:eastmoney
-include:everbright
-include:pingan
-include:taikang
-
 # E-commerce
 include:58tongcheng
 include:ctrip
@@ -60,6 +75,14 @@ include:tongcheng
 include:vancl
 include:youzan
 include:ziroom
+
+# Enhance Gaming
+heavenlywind.cc
+steampp.net
+
+# Android Emulator
+lsplayer.com
+yeshen.com
 
 # Entertainment & Videos & Games & Music & Podcasts
 include:3dm
@@ -124,12 +147,8 @@ uiwow.com # 魔兽有爱论坛
 # Fofa网站测绘
 fofa.info
 
-# 在线工具
-itdog.cn # itdog网站工具箱
-webmasterhome.cn # 站长之家
-
-# 快对作业
-kuaiduizuoye.com
+# Game Accelerator
+include:category-game-accelerator-cn
 
 # IP 定位网站
 include:ipip
@@ -141,23 +160,55 @@ inftab.com
 ip138.com
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
 
+# 快对作业
+kuaiduizuoye.com
+
+# 流利说
+liulishuo.com
+llsapp.com
+llscdn.com
+llsserver.com
+
 # Logistics
 include:sf-express
 
 # MC百科
 mcmod.cn
 
+# Media & News & Press
+include:category-media-cn
+
 # 门户网站
 moulem.com
 
-# Media & News & Press
-include:category-media-cn
+# 明源云
+fdcyun.com
+mingyuanyun.com
+mypaas.com
+mypaas.com.cn
+myypark.com
+
+# Netdisk
+include:category-netdisk-cn
+
+# Network Security
+include:category-network-security-cn
 
 # Organizations
 include:category-hospital-cn
 
-# Network Security
-include:category-network-security-cn
+# 瑞幸咖啡
+include:lkcoffee
+
+# Science & Technology & Knowledge & Scholar & Press & E-learning & Education
+include:category-education-cn
+include:category-mooc-cn
+include:category-scholar-cn
+include:category-wiki-cn
+include:cugbonline
+include:guokr
+include:ihuman
+include:wanfang
 
 # Services & Softwares
 include:115
@@ -203,33 +254,11 @@ include:zdns
 
 mihuashi.com # 米畫師
 
-# Science & Technology & Knowledge & Scholar & Press & E-learning & Education
-include:category-education-cn
-include:category-mooc-cn
-include:category-scholar-cn
-include:category-wiki-cn
-include:cugbonline
-include:guokr
-include:ihuman
-include:wanfang
-
 # Social Media
 include:category-social-media-cn
 
 # Software development related
 include:category-dev-cn
-
-# 信息学
-include:51nod
-
-acwing.com
-hihocoder.com
-jisuanke.com
-luogu.com.cn
-oi-wiki.com
-openjudge.cn
-uoj.ac
-vijos.org
 
 # Tech companies & Orginations
 include:alibaba
@@ -259,54 +288,35 @@ include:chinamobile
 include:chinatelecom
 include:chinaunicom
 
-# 语言能力测试
-include:j-test
-include:nat-test
-
-# 在线工具书
-guoxuedashi.com
-guoxuemi.com
-mojidict.com
-
 # Wiki
 jikipedia.com
 qiuwen.wiki
 shidianbaike.com
 
-# 餐饮类
-include:category-food-cn
+# 信息学
+include:51nod
 
-# 流利说
-liulishuo.com
-llsapp.com
-llscdn.com
-llsserver.com
+acwing.com
+hihocoder.com
+jisuanke.com
+luogu.com.cn
+oi-wiki.com
+openjudge.cn
+uoj.ac
+vijos.org
 
-# Aviation
-include:airchina # 中国国际航空
-include:hainanairlines # 海南航空
+# 语言能力测试
+include:j-test
+include:nat-test
 
-caac.gov.cn # 中国民航局
-ceair.com # 中国东方航空
-chinaexpressair.com # 华夏航空
-csair.com # 中国南方航空
-flycua.com # 中国联合航空
-hbhk.com.cn # 河北航空
-jdair.net # 首都航空
-juneyaoair.com # 吉祥航空
-luckyair.net # 祥鹏航空
-sichuanair.com # 四川航空
-tibetairlines.com.cn # 西藏航空
-variflight.com # 飞常准
-xiamenair.com # 厦门航空
+# 在线工具
+itdog.cn # itdog网站工具箱
+webmasterhome.cn # 站长之家
 
-# Enhance Gaming
-heavenlywind.cc
-steampp.net
-
-## Android Emulator
-lsplayer.com
-yeshen.com
+# 在线工具书
+guoxuedashi.com
+guoxuemi.com
+mojidict.com
 
 # Others
 include:8btc
@@ -340,16 +350,6 @@ include:bjyouth
 include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
-
-# 明源云
-fdcyun.com
-mingyuanyun.com
-mypaas.com
-mypaas.com.cn
-myypark.com
-
-# 瑞幸咖啡
-include:lkcoffee
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
