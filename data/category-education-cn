@@ -5,8 +5,24 @@ include:koolearn
 include:shanbay
 include:xueersi
 include:yuanfudao
-include:yuketang
 include:zhihuishu
+
+
+# 雨课堂
+include:yuketang
+
+## 雨豆课堂
+yudou.cn
+
+## 雨实验
+yushiyan.net
+
+## 学堂在线
+xuetangx.com
+
+# 时代行云
+x-cloud.cc
+
 
 # 莞教通
 dgjy.net
