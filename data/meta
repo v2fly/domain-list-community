@@ -3,6 +3,7 @@ include:facebook-dev
 include:instagram
 include:messenger
 include:oculus
+include:threads
 include:whatsapp
 
 meta.com
