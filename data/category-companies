@@ -13,6 +13,7 @@ include:autodesk
 include:bandwagonhost
 include:blurams
 include:canon
+include:chegg
 include:cisco
 include:cloudcone
 include:collabora
@@ -29,6 +30,7 @@ include:hp
 include:hubblephone
 include:ibm
 include:intel
+include:kakao
 include:lg
 include:logitech
 include:mailru
