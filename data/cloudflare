@@ -3,6 +3,7 @@ include:cloudflare-cn
 argotunnel.com
 cf-ipfs.com
 cloudflare-dns.com
+cloudflare-gateway.com
 cloudflare-ipfs.com
 cloudflare-quic.com
 cloudflare.com
@@ -14,6 +15,7 @@ cloudflarebolt.com
 cloudflareclient.com
 cloudflareinsights.com
 cloudflareok.com
+cloudflareportal.com
 cloudflarepreview.com
 cloudflareresolve.com
 cloudflaressl.com
