@@ -28,6 +28,7 @@ include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
+include:jetbrains-ai
 include:jfrog
 include:jsdelivr
 include:kubernetes
