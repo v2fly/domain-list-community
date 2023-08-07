@@ -48,6 +48,7 @@ include:openweather
 include:oracle
 include:panasonic
 include:pccw
+include:qnap
 include:qualcomm
 include:qwant
 include:razer
