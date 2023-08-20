@@ -1,3 +1,5 @@
+include:ipip
+
 checkip.amazonaws.com
 checkip.dyndns.org
 diagnostic.opendns.com
