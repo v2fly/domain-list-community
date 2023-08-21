@@ -47,6 +47,7 @@ include:redis
 include:remirepo
 include:ruby
 include:rust
+include:redhat
 include:scala
 include:stackexchange
 include:strikingly
