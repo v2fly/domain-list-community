@@ -1,6 +1,0 @@
-include:kernel
-include:linux
-include:openjsfoundation
-
-lfai.foundation
-linuxfoundation.org

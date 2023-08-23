@@ -1,8 +1,0 @@
-full:certs-lb.apple.com.akadns.net @cn
-full:certs.apple.com @cn
-full:crl-lb.apple.com.akadns.net @cn
-full:crl.apple.com @cn
-full:ocsp-lb.apple.com.akadns.net @cn
-full:ocsp.apple.com @cn
-full:ocsp2-lb.apple.com.akadns.net @cn
-full:ocsp2.apple.com @cn
