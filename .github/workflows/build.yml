@@ -34,7 +34,6 @@ jobs:
         run: |
           cd code || exit 1
           go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
-          mv -f gfwlist.txt ../
           cd ../ && rm -rf code
           ls
 
@@ -51,10 +50,6 @@ jobs:
         run: |
           xz -z -9 -k dlc.dat
           sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
-
-      - name: Generate gfwlist.txt sha256 hash
-        run: |
-          sha256sum gfwlist.txt > gfwlist.txt.sha256sum
 
       - name: Git push assets to "release" branch
         run: |
