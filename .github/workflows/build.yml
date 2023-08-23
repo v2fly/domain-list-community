@@ -1,5 +1,8 @@
 name: Build dlc.dat
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
   push:
     branches:
       - master
@@ -31,7 +34,9 @@ jobs:
         run: |
           cd code || exit 1
           go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          mv -f gfwlist.txt ../
           cd ../ && rm -rf code
+          ls
 
       - name: Generate dlc.dat sha256 hash
         run: |
@@ -47,6 +52,10 @@ jobs:
           xz -z -9 -k dlc.dat
           sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
 
+      - name: Generate gfwlist.txt sha256 hash
+        run: |
+          sha256sum gfwlist.txt > gfwlist.txt.sha256sum
+
       - name: Git push assets to "release" branch
         run: |
           git init
@@ -57,9 +66,3 @@ jobs:
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
-
-      - name: Release and upload assets
-        run: |
-          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.*
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
