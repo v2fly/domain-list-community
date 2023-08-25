@@ -28,6 +28,7 @@ include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
+include:jetbrains-ai
 include:jfrog
 include:jsdelivr
 include:kubernetes
@@ -46,6 +47,7 @@ include:redis
 include:remirepo
 include:ruby
 include:rust
+include:redhat
 include:scala
 include:stackexchange
 include:strikingly
