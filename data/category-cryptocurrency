@@ -9,6 +9,7 @@ include:ethereum
 include:huobi
 include:localbitcoins
 include:okx
+include:onekey
 include:wisekey
 include:zb
 

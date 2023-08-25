@@ -10,6 +10,7 @@ include:boomerang
 include:catchplay
 include:category-games
 include:category-novel
+include:dailymotion
 include:dandanzan
 include:dazn
 include:deviantart
@@ -22,6 +23,7 @@ include:hamivideo
 include:hbo
 include:hulu
 include:imdb
+include:iyf
 include:kingkonglive
 include:kkbox
 include:kktv

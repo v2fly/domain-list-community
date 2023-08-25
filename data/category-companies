@@ -13,11 +13,13 @@ include:autodesk
 include:bandwagonhost
 include:blurams
 include:canon
+include:chegg
 include:cisco
 include:cloudcone
 include:collabora
 include:dell
 include:digitalocean
+include:duolingo
 include:faronics
 include:gigabyte
 include:godaddy
@@ -28,7 +30,9 @@ include:hkbn
 include:hp
 include:hubblephone
 include:ibm
+include:inshot
 include:intel
+include:kakao
 include:lg
 include:logitech
 include:mailru
@@ -46,6 +50,7 @@ include:openweather
 include:oracle
 include:panasonic
 include:pccw
+include:qnap
 include:qualcomm
 include:qwant
 include:razer

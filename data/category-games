@@ -1,5 +1,7 @@
 include:2kgames
+include:bilibili-game
 include:blizzard
+include:bluearchive
 include:curseforge
 include:cygames
 include:ea
@@ -7,11 +9,13 @@ include:epicgames
 include:garena
 include:gog
 include:illusion
+include:lowiro
 include:mihoyo
 include:nintendo
 include:op
 include:pandanet
 include:pinkcore
+include:projectsekai
 include:playstation
 include:purikonejp
 include:riot
