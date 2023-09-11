@@ -21,6 +21,7 @@ include:dell
 include:digitalocean
 include:duolingo
 include:faronics
+include:giffgaff
 include:gigabyte
 include:godaddy
 include:google
@@ -30,6 +31,7 @@ include:hkbn
 include:hp
 include:hubblephone
 include:ibm
+include:inshot
 include:intel
 include:kakao
 include:lg
