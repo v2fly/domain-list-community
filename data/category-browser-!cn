@@ -1,12 +1,12 @@
 include:ceno
+include:epicbrowser
 include:firefox
-
+include:torproject
 
 # chromium
 chrome
 chrome.com
 chromium.org
-
 
 basilisk-browser.org
 brave.com
