@@ -4,6 +4,7 @@ include:epicbrowser
 include:greatfire
 include:haveibeenpwned
 include:lantern
+include:paskoocheh
 include:softether
 include:torproject
 include:v2ray
