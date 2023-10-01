@@ -4,6 +4,7 @@ include:archive
 include:creativecommons
 include:csis
 include:emojipedia
+include:f-droid
 include:ieee
 include:nist
 include:openstreetmap
@@ -13,7 +14,6 @@ include:ruleoflaw
 aomedia.org
 atypi.org
 change.org
-f-droid.org
 globalsecurity.org
 iana.org
 ietf.org
