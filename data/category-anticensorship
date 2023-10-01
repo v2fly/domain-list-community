@@ -9,6 +9,7 @@ include:softether
 include:torproject
 include:v2ray
 include:vpngate
+include:category-ipfs
 
 ahmia.fi
 akasha.world
@@ -25,7 +26,6 @@ geti2p.net
 getoutline.org
 gfw.report
 guardianproject.info
-ipfs.io
 jitsi.org
 lokinet.org
 ntc.party
