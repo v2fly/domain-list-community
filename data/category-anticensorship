@@ -1,3 +1,4 @@
+include:category-ipfs
 include:ceno
 include:citizenlab
 include:epicbrowser
@@ -9,7 +10,6 @@ include:softether
 include:torproject
 include:v2ray
 include:vpngate
-include:category-ipfs
 
 ahmia.fi
 akasha.world
