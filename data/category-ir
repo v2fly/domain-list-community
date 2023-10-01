@@ -1,6 +1,9 @@
 # Iranian websites which will not open without an Iranian IP
 # Use to make them direct connections so they open inside Iran
 
+# Iran TLDs
+include:tld-ir
+
 include:category-bank-ir
 include:category-bourse-ir
 include:category-education-ir
