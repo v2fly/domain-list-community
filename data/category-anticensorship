@@ -1,9 +1,11 @@
 include:ceno
 include:citizenlab
+include:epicbrowser
 include:greatfire
 include:haveibeenpwned
 include:lantern
 include:softether
+include:torproject
 include:v2ray
 include:vpngate
 
@@ -15,7 +17,6 @@ censorship.ai
 dat.foundation
 democracy.earth
 eff.org
-epicbrowser.com
 ffprofile.com
 freenetproject.org
 fteproxy.org
@@ -37,7 +38,6 @@ shadowsocks.org
 sspanel.net
 stunnel.org
 telex.cc
-torproject.org
 tribler.org
 tunsafe.com
 twister.net.co
