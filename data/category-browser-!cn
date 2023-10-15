@@ -1,14 +1,30 @@
+include:ceno
+include:epicbrowser
 include:firefox
-
+include:torproject
 
 # chromium
 chrome
 chrome.com
 chromium.org
 
-
+basilisk-browser.org
 brave.com
 bromite.org
+browser.kagi.com # Orion Browser
+cromite.org
+decentr.net
+dothq.org
+floorp.app
+iridiumbrowser.de
+kiwibrowser.com
+kmeleonbrowser.org
+librewolf.net
+minbrowser.org
+netsurf-browser.org
 opera.com
+palemoon.org
+pulsebrowser.app
+qutebrowser.org
 vivaldi.com
 waterfox.net
