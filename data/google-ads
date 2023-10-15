@@ -10,22 +10,15 @@ advertiserscommunity.com @ads
 adwords-community.com @ads
 adwords.com @ads
 adwordsexpress.com @ads
-app-measurement.com @ads
 clickserver.googleads.com @ads
 doubleclick.com @ads
 doubleclick.net @ads
-google-analytics.com @ads
 googleadapis.com @ads
 googleadservices.com @ads
-googleanalytics.com @ads
 googleoptimize.com @ads
 googlesyndication.com @ads
-googletagmanager.com @ads
-googletagservices.com @ads
 googletraveladservices.com @ads
 marketingplatform.google.com @ads
 urchin.com @ads
-
-full:analytics.google.com @ads
 
 regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
