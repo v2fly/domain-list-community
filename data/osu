@@ -1,1 +1,3 @@
-ppy.sh
+osu.ppy.sh
+lazer.ppy.sh
+regexp:bm([1-9]|[1-9][0-9])\.ppy\.sh$ 
