@@ -36,6 +36,7 @@ include:newrelic-ads
 include:ogury-ads
 include:onesignal-ads
 include:ookla-speedtest-ads
+include:openx-ads
 include:pocoiq-ads
 include:pubmatic-ads
 include:segment-ads
