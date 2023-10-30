@@ -797,6 +797,7 @@ regexp:^s[1-5]?\.mzstatic\.com$ @cn
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
 # Revision: db49c15abc364a7a041aa95a8f763cf1a957b0de
 # Use in config file like this: "geosite:apple@cn"
+# According to the consensus in #503, do not include the domain name apps.apple.com directly.
 full:a1.mzstatic.com @cn
 full:a2.mzstatic.com @cn
 full:a3.mzstatic.com @cn
@@ -808,7 +809,6 @@ full:app-site-association.cdn-apple.com @cn
 full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:appleid.cdn-apple.com @cn
-full:apps.apple.com @cn
 full:apps.mzstatic.com @cn
 full:cdn-cn1.apple-mapkit.com @cn
 full:cdn-cn2.apple-mapkit.com @cn
