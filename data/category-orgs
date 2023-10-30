@@ -8,6 +8,7 @@ include:f-droid
 include:ieee
 include:nist
 include:openstreetmap
+include:peppy
 include:paskoocheh
 include:ruleoflaw
 
