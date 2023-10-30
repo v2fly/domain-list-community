@@ -1,11 +1,11 @@
 # osu
-osu.ppy.sh
-assets.ppy.sh
-a.ppy.sh
-c.ppy.sh
-m1.ppy.sh
+full:osu.ppy.sh
+full:assets.ppy.sh
+full:a.ppy.sh
+full:c.ppy.sh
+full:m1.ppy.sh
 # osu lazer
-lazer.ppy.sh
-spectator.ppy.sh
-sentry.ppy.sh
-notify.ppy.sh
+full:lazer.ppy.sh
+full:spectator.ppy.sh
+full:sentry.ppy.sh
+full:notify.ppy.sh
