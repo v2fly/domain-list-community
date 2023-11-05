@@ -2,6 +2,7 @@ include:firefox
 include:mdn
 include:rust
 
+mozgcp.net
 mozilla.com
 mozilla.community
 mozilla.net
