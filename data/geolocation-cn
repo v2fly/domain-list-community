@@ -264,6 +264,7 @@ include:category-dev-cn
 include:alibaba
 include:b3log
 include:baidu
+include:bluepoch
 include:bytedance
 include:didi
 include:huawei
@@ -1435,3 +1436,6 @@ zoomyou.cn
 
 # 沪ICP备2021017807号-4
 ecombdapi.com
+
+include:fengxing
+include:suishouji
