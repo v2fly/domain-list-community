@@ -17,7 +17,7 @@ include:cnn
 include:dailymail
 include:dw
 include:economist
-include:epochmediagroup
+include:falungong
 include:forbes
 include:fox
 include:ft
@@ -30,7 +30,6 @@ include:hkopentv
 include:huffpost
 include:infowars
 include:insider
-include:kanzhongguo
 include:kyodonews
 include:londonreal
 include:ltn
@@ -58,7 +57,6 @@ include:scmp
 include:setn
 include:singtaonewscorp
 include:sky
-include:soundofhope
 include:theguardian
 include:theinitium
 include:thetype
@@ -76,10 +74,6 @@ include:yomiuri
 include:zaobao
 include:zee
 
-
-# cnBeta
-cnbeta.com
-cnbetacdn.com
 
 881903.com
 am730.com.hk

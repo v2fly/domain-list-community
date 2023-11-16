@@ -36,6 +36,7 @@ include:newrelic-ads
 include:ogury-ads
 include:onesignal-ads
 include:ookla-speedtest-ads
+include:openx-ads
 include:pocoiq-ads
 include:pubmatic-ads
 include:segment-ads
@@ -81,6 +82,9 @@ eroadvertising.com
 exoclick.com
 exosrv.com
 go2.global
+gozendata.com
+gzads.com
+gz-data.com
 img-bss.csdn.net
 imglnkc.com
 imglnkd.com
@@ -93,6 +97,7 @@ kepler-37b.com
 lqc006.com
 moat.com
 moatads.com
+mobwithad.com
 realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
@@ -100,6 +105,7 @@ static.javhd.com
 tm-banners.gamingadult.com
 trafficfactory.biz
 tsyndicate.com
+wwads.cn
 
 # 36Kr
 adx.36kr.com

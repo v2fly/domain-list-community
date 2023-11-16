@@ -137,6 +137,12 @@ full:asusrouter.com
 full:router.asus.com
 full:www.asusrouter.com
 
+# Cloudflare
+full:cp.cloudflare.com
+
+# Firefox
+full:detectportal.firefox.com
+
 # KDE
 networkcheck.kde.org
 
@@ -181,3 +187,8 @@ full:www.mifiwi.com
 
 # ZTE router
 zte.home
+
+
+# Tailscale Magic DNS
+# Reference: https://tailscale.com/kb/1081/magicdns/#fully-qualified-domain-names-vs-machine-names
+ts.net
