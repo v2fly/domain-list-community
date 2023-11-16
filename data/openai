@@ -1,6 +1,7 @@
 # Main domain
 openai.com
 oaistatic.com
+oaiusercontent.com
 
 # CDN & API
 full:chat.openai.com.cdn.cloudflare.net
