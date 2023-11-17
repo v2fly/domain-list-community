@@ -1,6 +1,8 @@
 # Main domain
-openai.com
+chatgpt.com
 oaistatic.com
+oaiusercontent.com
+openai.com
 
 # CDN & API
 full:chat.openai.com.cdn.cloudflare.net
