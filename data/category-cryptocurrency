@@ -6,6 +6,7 @@ include:bitflyer
 include:bitsquare
 include:bybit
 include:coinone
+include:deribit
 include:ethereum
 include:huobi
 include:localbitcoins
