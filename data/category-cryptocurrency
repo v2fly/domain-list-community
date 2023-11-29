@@ -3,6 +3,7 @@
 include:asproex
 include:binance
 include:bitflyer
+include:bybit
 include:bitsquare
 include:coinone
 include:ethereum
