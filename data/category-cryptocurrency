@@ -4,7 +4,9 @@ include:asproex
 include:binance
 include:bitflyer
 include:bitsquare
+include:bybit
 include:coinone
+include:deribit
 include:ethereum
 include:gateio
 include:huobi
