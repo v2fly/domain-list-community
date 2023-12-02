@@ -6,6 +6,7 @@ include:bitflyer
 include:bitsquare
 include:coinone
 include:ethereum
+include:gateio
 include:huobi
 include:localbitcoins
 include:okx
@@ -32,7 +33,6 @@ cryptocompare.com
 curve.fi
 debank.com
 dogecoin.com
-gate.io
 infura.io
 mexc.com
 mexcsensors.com
