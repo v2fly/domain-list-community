@@ -353,6 +353,9 @@ include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
 
+# 百合会
+include:yamibo
+
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
 
@@ -1322,7 +1325,6 @@ xundupdf.com
 xywy.com
 xzking.com
 yahui.cc
-yamibo.com
 yaolan.com
 yaoyl.com
 yaozh.com
