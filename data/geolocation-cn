@@ -124,6 +124,7 @@ include:u17
 include:vgtime
 include:xiaohongshu
 include:ximalaya
+include:yamibo
 include:youku
 include:yy
 include:zhanqi
@@ -352,9 +353,6 @@ include:bjyouth
 include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
-
-# 百合会
-include:yamibo
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
