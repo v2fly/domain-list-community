@@ -1,9 +1,9 @@
 # Reference: https://ipfs.github.io/public-gateway-checker/
 
+include:cloudflare-ipfs
+
 4everland.io
 c4rex.co
-cf-ipfs.com
-cloudflare-ipfs.com
 crustwebsites.net
 dweb.link
 gateway.pinata.cloud
@@ -16,6 +16,7 @@ ipfs.fleek.co
 ipfs.io
 ipfs.lain.la
 ipfs.runfission.com
+ipfs.tech
 ipns.co
 jorropo.net
 nftstorage.link

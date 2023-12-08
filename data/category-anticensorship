@@ -1,8 +1,13 @@
+include:category-ipfs
+include:ceno
 include:citizenlab
+include:epicbrowser
 include:greatfire
 include:haveibeenpwned
 include:lantern
+include:paskoocheh
 include:softether
+include:torproject
 include:v2ray
 include:vpngate
 
@@ -14,7 +19,6 @@ censorship.ai
 dat.foundation
 democracy.earth
 eff.org
-epicbrowser.com
 ffprofile.com
 freenetproject.org
 fteproxy.org
@@ -22,7 +26,7 @@ geti2p.net
 getoutline.org
 gfw.report
 guardianproject.info
-ipfs.io
+hiddify.com
 jitsi.org
 lokinet.org
 ntc.party
@@ -36,9 +40,9 @@ shadowsocks.org
 sspanel.net
 stunnel.org
 telex.cc
-torproject.org
 tribler.org
 tunsafe.com
+turkeyblocks.org
 twister.net.co
 uproxy.org
 vuvuzela.io

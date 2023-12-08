@@ -117,13 +117,14 @@ include:pptv
 include:qingtingfm
 include:sfacg
 include:taomee
-include:taptap
 include:tgbus
 include:tiancity
 include:u17
 include:vgtime
+include:xd
 include:xiaohongshu
 include:ximalaya
+include:yamibo
 include:youku
 include:yy
 include:zhanqi
@@ -264,13 +265,16 @@ include:category-dev-cn
 include:alibaba
 include:b3log
 include:baidu
+include:bluepoch
 include:bytedance
 include:didi
+include:dji
 include:huawei
 include:iflytek
 include:kingsoft
 include:meizu
 include:netease
+include:nubia
 include:oppo
 include:oneplus
 include:qihoo360
@@ -1140,7 +1144,6 @@ shixiseng.com
 shmetro.com
 shoujihuifu.com
 shouyoubus.com
-shrbank.com
 shssp.org # 沪ICP备16053588号
 shuidichou.com
 shuidihuzhu.com
@@ -1433,3 +1436,9 @@ runsheng.com
 vzuu.com
 zoom3g.com
 zoomyou.cn
+
+# 沪ICP备2021017807号-4
+ecombdapi.com
+
+include:fengxing
+include:suishouji
