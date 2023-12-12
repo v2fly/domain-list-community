@@ -285,6 +285,7 @@ winhec.com
 winhec.net
 yammer.com
 
+
 # Skype CDN
 edge-skype-com.s-0001.s-msedge.net
 skype-edf.akadns.net
@@ -294,6 +295,7 @@ skypedata.akadns.net
 # Use in config file like this: "geosite:microsoft@cn"
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
+full:res.cdn.office.net @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
 full:cdn.marketplaceimages.windowsphone.com @cn
