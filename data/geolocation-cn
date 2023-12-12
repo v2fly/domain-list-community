@@ -271,6 +271,7 @@ include:didi
 include:dji
 include:huawei
 include:iflytek
+include:jushuitan
 include:kingsoft
 include:meizu
 include:netease
@@ -354,6 +355,7 @@ include:bjyouth
 include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
+
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
