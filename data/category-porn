@@ -1005,9 +1005,6 @@ bffshd.com
 biaoqs.xyz
 biaoqs1.xyz
 biaoqs2.xyz
-bibeidh16.cc
-bibeidh17.cc
-bibeidh18.cc
 bidong25.com
 bidong9.com
 bigassporn.tv
@@ -6283,6 +6280,7 @@ regexp:(^|\.)avcc1[0-9]\.com$
 regexp:(^|\.)avstar0[1-9]\.(com|me)$
 regexp:(^|\.)awjd[1-9]?\.tv$
 regexp:(^|\.)banyinjia[0-9]?\.com$
+regexp:(^|\.)bibeidh1[6-8]\.cc$
 regexp:(^|\.)bjini[0-9]{2}\.buzz
 regexp:(^|\.)byyum([3589]|2[235689]|3[34]|4[1-9]|5[1-79]|6[0134679])?\.com$
 regexp:(^|\.)cgbb([1-9]|1[0-9]|20)\.com$
