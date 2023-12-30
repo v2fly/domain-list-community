@@ -140,7 +140,9 @@ include:nga
 include:stage1st
 
 52pojie.cn # 吾爱破解
+kafan.cn # 卡饭论坛
 itsk.com # IT天空论坛
+wuyou.net # 无忧启动论坛
 klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
 uiwow.com # 魔兽有爱论坛
@@ -169,6 +171,19 @@ liulishuo.com
 llsapp.com
 llscdn.com
 llsserver.com
+
+# 百词斩
+baicizhan.org
+
+# Burning Vocabulary
+burningvocabulary.cn
+burningvocabulary.com
+
+# 423Down
+423down.com
+
+# 果核剥壳
+ghxi.com
 
 # Logistics
 include:sf-express
