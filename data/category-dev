@@ -50,6 +50,7 @@ include:ruby
 include:rust
 include:redhat
 include:scala
+include:sourcehut
 include:stackexchange
 include:strikingly
 include:tencent-dev
