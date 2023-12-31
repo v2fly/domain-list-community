@@ -117,13 +117,14 @@ include:pptv
 include:qingtingfm
 include:sfacg
 include:taomee
-include:taptap
 include:tgbus
 include:tiancity
 include:u17
 include:vgtime
+include:xd
 include:xiaohongshu
 include:ximalaya
+include:yamibo
 include:youku
 include:yy
 include:zhanqi
@@ -139,7 +140,9 @@ include:nga
 include:stage1st
 
 52pojie.cn # 吾爱破解
+kafan.cn # 卡饭论坛
 itsk.com # IT天空论坛
+wuyou.net # 无忧启动论坛
 klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
 uiwow.com # 魔兽有爱论坛
@@ -168,6 +171,19 @@ liulishuo.com
 llsapp.com
 llscdn.com
 llsserver.com
+
+# 百词斩
+baicizhan.org
+
+# Burning Vocabulary
+burningvocabulary.cn
+burningvocabulary.com
+
+# 423Down
+423down.com
+
+# 果核剥壳
+ghxi.com
 
 # Logistics
 include:sf-express
@@ -236,7 +252,6 @@ include:jianshu
 include:jinshuju
 include:keep
 include:lagou
-include:lanzou
 include:ldmnq
 include:liepin
 include:mafengwo
@@ -264,19 +279,24 @@ include:category-dev-cn
 include:alibaba
 include:b3log
 include:baidu
+include:bluepoch
 include:bytedance
 include:didi
+include:dji
 include:huawei
 include:iflytek
+include:jushuitan
 include:kingsoft
 include:meizu
 include:netease
+include:nubia
 include:oppo
 include:oneplus
 include:qihoo360
 include:sina
 include:sogou
 include:tencent
+include:vivo
 include:xiaomi
 include:xunlei
 
@@ -350,6 +370,7 @@ include:bjyouth
 include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
+
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains

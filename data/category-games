@@ -2,6 +2,7 @@ include:2kgames
 include:bilibili-game
 include:blizzard
 include:bluearchive
+include:bluepoch-games
 include:curseforge
 include:cygames
 include:ea
@@ -11,6 +12,7 @@ include:gog
 include:illusion
 include:lowiro
 include:mihoyo
+include:nexon
 include:nintendo
 include:nikke
 include:op

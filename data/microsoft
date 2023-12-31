@@ -285,6 +285,7 @@ winhec.com
 winhec.net
 yammer.com
 
+
 # Skype CDN
 edge-skype-com.s-0001.s-msedge.net
 skype-edf.akadns.net
@@ -294,24 +295,34 @@ skypedata.akadns.net
 # Use in config file like this: "geosite:microsoft@cn"
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
+full:res.cdn.office.net @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
+full:build.microsoft.com @cn
 full:cdn.marketplaceimages.windowsphone.com @cn
 full:cn.windowssearch.com @cn
 full:ctldl.windowsupdate.com @cn
+full:devblogs.microsoft.com @cn
 full:developer.microsoft.com @cn
 full:docs.microsoft.com @cn
 full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
 full:fs.microsoft.com @cn
+full:learn.microsoft.com @cn
 full:msgr.dlservice.microsoft.com @cn
 full:msgruser.dlservice.microsoft.com @cn
+full:myvs.download.prss.microsoft.com @cn
+full:oemsoc.download.prss.microsoft.com @cn
 full:officecdn.microsoft.com @cn
 full:qh.dlservice.microsoft.com @cn
 full:sdx.microsoft.com @cn
 full:silverlight.dlservice.microsoft.com @cn
 full:slupdate.dlservice.microsoft.com @cn
+full:software.download.prss.microsoft.com @cn
 full:storeedgefd.dsx.mp.microsoft.com @cn
+full:surface.downloads.prss.microsoft.com @cn
+full:vscode.download.prss.microsoft.com @cn
+full:vz.download.prss.microsoft.com @cn
 full:wl.dlservice.microsoft.com @cn
 full:wscont1.apps.microsoft.com @cn
 full:wscont2.apps.microsoft.com @cn

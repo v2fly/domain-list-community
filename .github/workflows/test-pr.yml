@@ -15,7 +15,7 @@ jobs:
           path: code
 
       - name: Setup Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version-file: code/go.mod
 
@@ -33,7 +33,7 @@ jobs:
           mv dlc.dat TEST-${{ github.run_number }}-dlc.dat
 
       - name: Upload TEST-${{ github.run_number }}-dlc.dat
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: TEST-${{ github.run_number }}-dlc.dat
           path: TEST-${{ github.run_number }}-dlc.dat
