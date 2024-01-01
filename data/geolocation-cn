@@ -156,6 +156,9 @@ include:category-game-accelerator-cn
 # IP 定位网站
 include:ipip
 
+# HTTPDNS
+include:category-httpdns
+
 # Infinity Pro
 infinitynewtab.com
 inftab.com
