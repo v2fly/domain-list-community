@@ -25,3 +25,5 @@ pool.ntp.org
 time.cloudflare.com
 time.nrc.ca
 time.windows.com
+
+include:category-ntp-cn
