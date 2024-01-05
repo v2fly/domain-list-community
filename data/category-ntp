@@ -16,10 +16,10 @@ regexp:^ntp[0-7].ntp-servers.net$
 clock.isc.org
 ntp.fiord.ru
 ntp.nat.ms
-ntp.neu.edu.cn
+ntp.neu.edu.cn @cn
 ntp.nic.cz
 ntp.nict.jp
-ntp.ntsc.ac.cn
+ntp.ntsc.ac.cn @cn
 ntp.ripe.net
 ntp.se
 ntp.ufe.cz
