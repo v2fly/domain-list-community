@@ -22,5 +22,8 @@ opensource.guide
 repo.new
 thegithubshop.com
 
+# GitHub Actions Artifacts
+blob.core.windows.net
+
 full:github-cloud.s3.amazonaws.com
 regexp:github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com
