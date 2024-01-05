@@ -26,6 +26,8 @@ netflixdnstest10.com
 # regular expression
 regexp:(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
 regexp:(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
+regexp:(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$
+regexp:(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$
 
 # Full
 full:netflix.com.edgesuite.net
