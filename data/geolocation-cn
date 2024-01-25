@@ -146,6 +146,7 @@ wuyou.net # 无忧启动论坛
 klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
 uiwow.com # 魔兽有爱论坛
+right.com.cn # 恩山论坛
 
 # Fofa网站测绘
 fofa.info
@@ -240,6 +241,7 @@ include:antutu
 include:bitauto
 include:category-collaborate-cn
 include:category-documents-cn
+include:category-ntp-cn
 include:capitalonline
 include:chinaso
 include:chinaz
@@ -1462,3 +1464,16 @@ ecombdapi.com
 
 include:fengxing
 include:suishouji
+
+# 云鲸科技
+include:narwal
+
+# 石头科技
+include:roborock
+
+# 花瓣网 稿定（厦门）信息服务有限公司 闽ICP备2021013850号-2
+huaban.com
+dancf.com
+
+# 酷家乐 杭州群核信息技术有限公司 浙ICP备12022366号-6
+kujiale.com

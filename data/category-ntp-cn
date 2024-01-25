@@ -1,0 +1,10 @@
+# Aliyun
+regexp:^ntp([1-7])?.aliyun.com$ @cn
+
+# Tencent
+regexp:^ntp([1-5])?.tencent.com$ @cn
+
+cn.pool.ntp.org @cn
+ntp.neu.edu.cn @cn
+ntp.ntsc.ac.cn @cn
+ntp.org.cn @cn

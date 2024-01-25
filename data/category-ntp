@@ -1,0 +1,29 @@
+# Apple
+regexp:^time(.euro)?.apple.com$
+
+# Facebook
+regexp:^time([1-5])?.facebook.com$
+
+# Google
+regexp:^time([1-4])?.google.com$
+
+# NIST: https://tf.nist.gov/tf-cgi/servers.cgi
+regexp:^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?)).nist.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?)).colorado.edu)$
+
+# NTP-servers: https://ntp-servers.net/servers.html
+regexp:^ntp[0-7].ntp-servers.net$
+
+clock.isc.org
+ntp.fiord.ru
+ntp.nat.ms
+ntp.nic.cz
+ntp.nict.jp
+ntp.ripe.net
+ntp.se
+ntp.ufe.cz
+pool.ntp.org
+time.cloudflare.com
+time.nrc.ca
+time.windows.com
+
+include:category-ntp-cn
