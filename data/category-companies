@@ -51,6 +51,7 @@ include:openweather
 include:oracle
 include:panasonic
 include:pccw
+include:perplexity
 include:qnap
 include:qualcomm
 include:qwant
