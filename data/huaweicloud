@@ -72,8 +72,7 @@ powerapp.io
 
 # Huaweicloud Endpoint, source: https://developer.huaweicloud.com/endpoint
 ae-ad-1.myhuaweicloud.com @!cn          #中东-阿布扎比-OP5
-af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡
-af-south-1.myhuaweicloud.com @!cn       #南非-约翰内斯堡
+af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡 #南非-约翰内斯堡
 ap-southeast-1.myhuaweicloud.com @!cn   #中国-香港
 ap-southeast-2.myhuaweicloud.com @!cn   #亚太-曼谷
 ap-southeast-3.myhuaweicloud.com @!cn   #亚太-新加坡
