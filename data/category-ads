@@ -14,6 +14,7 @@ include:bytedance-ads
 include:category-ads-ir
 include:clearbitjs-ads
 include:dmm-ads
+include:duolingo-ads
 include:emogi-ads
 include:flurry-ads
 include:google-ads
@@ -110,6 +111,12 @@ wwads.cn
 # 36Kr
 adx.36kr.com
 
+# AdHub
+hubcloud.com.cn
+
+# AdScope
+beizi.biz
+
 # ali213
 click.ali213.net
 pbmp.ali213.net
@@ -132,4 +139,11 @@ ad.unimhk.com
 
 # UCloud
 das-rpt-log.ucloud.cn
+
+# 数字精准广告
+telecome.cn
+unioncom.cc
+
+# 数字联盟(device ad id)
+shuzilm.cn
 
