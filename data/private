@@ -146,6 +146,9 @@ full:detectportal.firefox.com
 # KDE
 networkcheck.kde.org
 
+# Mozilla Location Service
+location.services.mozilla.com
+
 # Netgear router
 # Reference: https://kb.netgear.com/27199/I-can-t-access-my-router-what-do-I-do
 # https://www.netgear.com/business/services/aplogincom/
