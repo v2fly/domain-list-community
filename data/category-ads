@@ -14,6 +14,7 @@ include:bytedance-ads
 include:category-ads-ir
 include:clearbitjs-ads
 include:dmm-ads
+include:duolingo-ads
 include:emogi-ads
 include:flurry-ads
 include:google-ads
