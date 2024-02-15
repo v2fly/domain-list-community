@@ -13,6 +13,7 @@ include:embedly
 include:facebook-dev
 include:fastlane
 include:fedora
+include:firebase
 include:flatpak
 include:flutter
 include:fontawesome
