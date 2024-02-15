@@ -1,4 +1,5 @@
 ami-alliance.org.cn
+b2bgo.com
 eduapaashwc.com
 hc-cdn.cn
 hc-cdn.com
@@ -69,13 +70,18 @@ pagescube.cn
 pagescube.com
 powerapp.io
 
+# Huaweicloud Endpoint, source: https://developer.huaweicloud.com/endpoint
+ae-ad-1.myhuaweicloud.com @!cn          #中东-阿布扎比-OP5
 af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡
 ap-southeast-1.myhuaweicloud.com @!cn   #中国-香港
 ap-southeast-2.myhuaweicloud.com @!cn   #亚太-曼谷
 ap-southeast-3.myhuaweicloud.com @!cn   #亚太-新加坡
+ap-southeast-4.myhuaweicloud.com @!cn   #亚太-雅加达
 cn-east-2.myhuaweicloud.com             #华东-上海二
 cn-east-3.myhuaweicloud.com             #华东-上海一
+cn-east-5.myhuaweicloud.com             #华东-青岛
 cn-north-1.myhuaweicloud.com            #华北-北京一
+cn-north-11.myhuaweicloud.com           #华北-乌兰察布-汽车一
 cn-north-2.myhuaweicloud.com            #华北-北京二
 cn-north-3.myhuaweicloud.com            #华北-北京三
 cn-north-4.myhuaweicloud.com            #华北-北京四
@@ -88,11 +94,14 @@ cn-south-2.myhuaweicloud.com            #华南-深圳
 cn-south-4.myhuaweicloud.com            #华南-广州-友好用户环境
 cn-southwest-2.myhuaweicloud.com        #西南-贵阳一
 eu-west-0.myhuaweicloud.com @!cn        #欧洲-巴黎
+eu-west-101.myhuaweicloud.com @!cn      #欧洲-都柏林
 la-north-2.myhuaweicloud.com @!cn       #拉美-墨西哥城二
 la-south-2.myhuaweicloud.com @!cn       #拉美-圣地亚哥
+me-east-1.myhuaweicloud.com @!cn        #中东-利雅得
 na-mexico-1.myhuaweicloud.com @!cn      #拉美-墨西哥城一
 ru-northwest-2.myhuaweicloud.com @!cn   #俄罗斯-莫斯科二
 sa-brazil-1.myhuaweicloud.com @!cn      #拉美-圣保罗一
+tr-west-1.myhuaweicloud.com @!cn        #土耳其-伊斯坦布尔
 
 # 华为云 CDN CNAME 域名，按 ICP 备案序号排列
 cdnhwchcg02.com
@@ -230,6 +239,5 @@ cza84.cn
 8gcdp.cn
 kma1g.cn
 576nt.cn
-b2bgo.com
 
 regexp:.+\.cdnhwc([1-9]|10)\.(cn|com)$
