@@ -178,6 +178,7 @@ llsserver.com
 
 # 百词斩
 baicizhan.org
+baicizhan.com
 
 # Burning Vocabulary
 burningvocabulary.cn
@@ -265,12 +266,14 @@ include:moji
 include:nowcoder
 include:polyv
 include:renren
+include:tendcloud
 include:vaptcha
 include:wiwide
 include:wjx
 include:wolai
 include:yinxiang
 include:zdns
+include:zhangtao
 
 mihuashi.com # 米畫師
 
