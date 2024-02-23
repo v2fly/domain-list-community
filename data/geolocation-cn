@@ -335,6 +335,10 @@ openjudge.cn
 uoj.ac
 vijos.org
 
+# LeetCode 中国站
+leetcode.cn
+leetcode-cn.com
+
 # 语言能力测试
 include:j-test
 include:nat-test
@@ -957,7 +961,6 @@ lawxp.com
 leangoo.com
 leanote.com
 ledu.com
-leetcode-cn.com
 leikeji.com
 leiphone.com
 leiting.com
