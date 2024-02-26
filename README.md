@@ -1,6 +1,6 @@
 # Domain list community
 
-This project manages a list of domains, to be used as geosites for routing purpose in Project V.
+This project manages a list of , to be used as geosites for routing purpose in Project V.
 
 ## Purpose of this project
 
