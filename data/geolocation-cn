@@ -177,7 +177,13 @@ llscdn.com
 llsserver.com
 
 # 百词斩
-baicizhan.org
+baicizhan.com
+baicizhan.org  
+bczcdn.com     
+bczeducation.cn
+
+# 小站教育
+zhan.com
 
 # Burning Vocabulary
 burningvocabulary.cn
@@ -265,14 +271,22 @@ include:moji
 include:nowcoder
 include:polyv
 include:renren
+include:tendcloud
 include:vaptcha
 include:wiwide
 include:wjx
 include:wolai
 include:yinxiang
 include:zdns
+include:zhangtao
 
 mihuashi.com # 米畫師
+
+# Tower 团队协作
+tower.im
+
+# 沃丰科技
+udesk.cn
 
 # Social Media
 include:category-social-media-cn
@@ -329,6 +343,13 @@ oi-wiki.com
 openjudge.cn
 uoj.ac
 vijos.org
+
+# LeetCode 中国站
+leetcode.cn
+leetcode-cn.com
+lingkou.xyz
+lingkou.com
+lingkou.cn
 
 # 语言能力测试
 include:j-test
@@ -952,7 +973,6 @@ lawxp.com
 leangoo.com
 leanote.com
 ledu.com
-leetcode-cn.com
 leikeji.com
 leiphone.com
 leiting.com
