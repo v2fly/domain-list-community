@@ -12,8 +12,8 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/h/Wwjteg=
 github.com/stretchr/testify v1.8.4 h1:CcVxjf3Q8PM0mHUKJCdn+eZZtm5yQwehR5yeSVQQcUk=
-github.com/v2fly/v2ray-core/v5 v5.13.0 h1:BDJfi3Ftx1NpQlZZPpeWJe3RDqRNyIVBs+YGG4RRMDU=
-github.com/v2fly/v2ray-core/v5 v5.13.0/go.mod h1:Bc3gmQWLr8UR7xBSCYI9FbfKuVvqA9lbkeBTWNRRAS4=
+github.com/v2fly/v2ray-core/v5 v5.14.1 h1:b+NPseG+3cvLMMccgX7zFdCye/NstVABGOyuhG4XLDg=
+github.com/v2fly/v2ray-core/v5 v5.14.1/go.mod h1:Z57o2Vp+xgrf7EDFMDlZsickQuImRdQoDcqrO690zT0=
 golang.org/x/sys v0.0.0-20211025201205-69cdffdb9359/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.15.0 h1:h48lPFYpsTvQJZF4EKyI4aLHaev3CxivZmv7yZig9pc=
 golang.org/x/sys v0.15.0/go.mod h1:/VUhepiaJMQUp4+oa/7Zr1D23ma6VTLIYjOOTFZPUcA=
