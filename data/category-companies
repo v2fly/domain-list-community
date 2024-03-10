@@ -63,6 +63,7 @@ include:snap
 include:sony
 include:spacex
 include:st
+include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
