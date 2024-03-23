@@ -308,7 +308,6 @@ include:kingsoft
 include:lenovo
 include:meizu
 include:netease
-include:nubia
 include:oppo
 include:oneplus
 include:qihoo360
@@ -318,6 +317,7 @@ include:tencent
 include:vivo
 include:xiaomi
 include:xunlei
+include:zte
 
 ezpro.pro # 小马路由
 
