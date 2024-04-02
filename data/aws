@@ -39,7 +39,4 @@ elasticbeanstalk.com
 thinkboxsoftware.com
 
 # AWS DNS
-regexp:.+\.awsdns-[0-9][0-9]\.co\.uk$
-regexp:.+\.awsdns-[0-9][0-9]\.com$
-regexp:.+\.awsdns-[0-9][0-9]\.net$
-regexp:.+\.awsdns-[0-9][0-9]\.org$
+regexp:.+\.awsdns-[0-9][0-9]\.(co\.uk|com|net|org)$
