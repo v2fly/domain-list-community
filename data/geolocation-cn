@@ -146,6 +146,7 @@ klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
 uiwow.com # 魔兽有爱论坛
 right.com.cn # 恩山论坛
+pcbeta.com # 远景论坛
 
 # Fofa网站测绘
 fofa.info
@@ -286,6 +287,9 @@ tower.im
 
 # 沃丰科技
 udesk.cn
+
+# xEdge 苏州星汉云联网络技术有限公司 苏ICP备2022017953号-1
+xedge.cc
 
 # Social Media
 include:category-social-media-cn
@@ -1105,7 +1109,6 @@ p5w.net
 paipaibang.com
 paopaoche.net
 pc6.com
-pcbeta.com
 pchome.net
 pcpop.com
 peccn.com
