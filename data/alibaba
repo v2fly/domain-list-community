@@ -189,10 +189,7 @@ fliggy.hk
 iuynfg.com
 
 # 高德地图
-amap.com
-amapauto.com
-autonavi.com
-gaode.com
+include:amap
 
 # 虾米音乐
 xiami.com
