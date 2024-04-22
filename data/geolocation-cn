@@ -318,6 +318,7 @@ include:qihoo360
 include:sina
 include:sogou
 include:tencent
+include:tongfang
 include:vivo
 include:xiaomi
 include:xunlei
@@ -405,6 +406,8 @@ zzdtec.com
 include:youquan
 # 叮哒出行(杭州金通互联科技有限公司)
 include:dingdatech
+# 北京聚通宝科技有限公司
+include:jutongbao
 
 
 # The following domains are carried over from geosite:cn.
@@ -1513,3 +1516,6 @@ hisensehitachi.com #海信日立官网
 
 #仟寻招聘
 moseeker.com
+
+# 东郊到家
+include:dongjiao
