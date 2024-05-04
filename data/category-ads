@@ -29,7 +29,6 @@ include:kuaishou-ads
 include:kugou-ads
 include:leanplum-ads
 include:letv-ads
-include:meta-ads
 include:mixpanel-ads
 include:mopub-ads
 include:mxplayer-ads
