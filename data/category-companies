@@ -19,6 +19,7 @@ include:cloudcone
 include:collabora
 include:dell
 include:digitalocean
+include:drweb
 include:duolingo
 include:faronics
 include:giffgaff
@@ -62,6 +63,7 @@ include:smartone
 include:snap
 include:sony
 include:spacex
+include:spaceship
 include:st
 include:tailscale
 include:theboringcompany
