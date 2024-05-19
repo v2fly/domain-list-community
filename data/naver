@@ -5,13 +5,16 @@ include:line
 naver.com
 naver.me
 naver.net
+naver.com.akadns.net
 navercorp.com
+nheos.com
 pstatic.net
 
 # Naver Cloud
 
 clova.ai
 navercloudcorp.com
+naverncp.com
 ncloud.com
 worksmobile.com
 
@@ -33,13 +36,14 @@ wattpad.com
 webtoons.com
 webtoonscorp.com
 
-
 # Other Services and Subsidiaries
 
 band.us
 grafolio.com
 modoo.at
 naver.jp
+naverads.com
+naverads.com.akadns.net
 naverlabs.com
 plug.game
 prismlive.com
