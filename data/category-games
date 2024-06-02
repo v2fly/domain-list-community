@@ -13,14 +13,14 @@ include:illusion
 include:lowiro
 include:mihoyo
 include:nexon
-include:nintendo
 include:nikke
+include:nintendo
 include:op
 include:osu
 include:pandanet
 include:pinkcore
-include:projectsekai
 include:playstation
+include:projectsekai
 include:purikonejp
 include:riot
 include:rockstar
@@ -31,8 +31,11 @@ include:ubisoft
 include:xbox
 include:ynoproject
 
+dodi-repacks.download
+dodi-repacks.site
 fanatical.com
 fitgirl-repacks.site
+game-repack.site
 humblebundle.com
 loverslab.com
 modrinth.com
