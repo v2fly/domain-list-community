@@ -183,9 +183,10 @@ func WriteAllToGob(dir string, gobName string) (err error) {
 }
 
 func main() {
-	rulePath := flag.String("rule-path", "./data", "router data path")
-	routerPath := flag.String("router-path", "rules.dat", "router data path")
-	if WriteAllToGob(*rulePath, *routerPath) == nil {
-		fmt.Printf("success build from %s to %s\n", *rulePath, *routerPath)
+	data := flag.String("data", "./data", "data dir path")
+	outPath := flag.String("out", "rules.dat", "output path")
+	flag.Parse()
+	if WriteAllToGob(*data, *outPath) == nil {
+		fmt.Printf("success build from %s to %s\n", *data, *outPath)
 	}
 }

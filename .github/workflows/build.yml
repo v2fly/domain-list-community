@@ -1,10 +1,11 @@
-name: Build dlc.dat
+name: Build rules.dat
 on:
   push:
     branches:
-      - master
+      - bpg
     paths-ignore:
       - "**/README.md"
+  workflow_dispatch:
 jobs:
   build:
     name: Build
@@ -27,39 +28,26 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
 
-      - name: Build dlc.dat file
+      - name: Build rules.dat file
         run: |
           cd code || exit 1
-          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
-          cd ../ && rm -rf code
+          go run ./ --data ./data --out ./rules.dat
 
-      - name: Generate dlc.dat sha256 hash
+      - name: Generate rules.dat sha256 hash
         run: |
-          sha256sum dlc.dat > dlc.dat.sha256sum
+          cd code || exit 1
+          sha256sum rules.dat > rules.dat.sha256sum
 
       - name: Generate Zip
         run: |
-          zip -9 dlc.dat.zip dlc.dat
-          sha256sum dlc.dat.zip > dlc.dat.zip.sha256sum
-
-      - name: Generate XZ
-        run: |
-          xz -z -9 -k dlc.dat
-          sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
-
-      - name: Git push assets to "release" branch
-        run: |
-          git init
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b release
-          git add *.txt *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz
-          git commit -m "${{ env.RELEASE_NAME }}"
-          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -f -u origin release
+          cd code || exit 1
+          zip -9 rules.dat.zip rules.dat
+          sha256sum rules.dat.zip > rules.dat.zip.sha256sum
 
       - name: Release and upload assets
         run: |
-          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.*
+          cd code || exit 1
+          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./rules.dat ./rules.dat.*
+          cd ../ && rm -rf code
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
