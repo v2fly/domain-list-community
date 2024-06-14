@@ -2,6 +2,7 @@ include:clubhouse
 include:discord
 include:freenode
 include:intercom
+include:keybase
 include:line
 include:matrix
 include:messenger
