@@ -5975,7 +5975,7 @@ regexp:(^|\.)69bag[0-1][1-9]?\.com$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)7mm0([0-1][0-9]?)?\.com$
 regexp:(^|\.)8dgo[1-57-9]\.com$
-regexp:(^|\.)91cg(?:[1-9]\d?|0[1-9]).com$
+regexp:(^|\.)91cg([1-9]|0[1-9])?.com$
 regexp:(^|\.)91p[0-9][0-9]?\.com$
 regexp:(^|\.)91porn\.(best|com|cool|group|party|plus|site|tw|work)$
 regexp:(^|\.)91porn[0-9]{3}\.me$
