@@ -38,7 +38,6 @@ bg # Bulgaria
 bh # Bahrain
 bi # Burundi
 bj # Benin
-bl # Saint Barthélemy (informally also referred to as Saint Barth’s or Saint Barts)
 bm # Bermuda
 bn # Brunei
 bo # Bolivia
@@ -74,7 +73,6 @@ dz # Algeria
 ec # Ecuador
 ee # Estonia
 eg # Egypt
-eh # Western Sahara
 er # Eritrea
 es # Spain
 et # Ethiopia
@@ -148,7 +146,6 @@ ly # Libya
 ma # Morocco
 mc # Monaco
 md # Moldova
-mf # Saint Martin (officially the Collectivity of Saint Martin)
 mg # Madagascar
 mh # Marshall Islands
 mk # Macedonia, Republic of
@@ -268,17 +265,10 @@ nfl # National Football League
 nra # National Rifle Association
 
 # Business Products & Services Domains
-avery # Avery Dennison Corporation
-bbb # Council of Better Business Bureaus, Inc.
-bcg # The Boston Consulting Group, Inc.
-ceb # The Corporate Executive Board Company
 crs # Federated Co operatives Limited
-dnb # The Dun & Bradstreet Corporation
 dnp # Dai Nippon Printing Co., Ltd.
-duns # The Dun & Bradstreet Corporation
 dvag # Deutsche Vermögensberatung Aktiengesellschaft DVAG
 erni # ERNI Group Holding AG
-globalx # GlobalX Information Services Pty Limited
 ice # IntercontinentalExchange, Inc.
 locus # Locus Analytics LLC
 mckinsey # McKinsey Holdings, Inc.
@@ -287,41 +277,23 @@ olayan # Olayan Investments Company Establishment
 praxi # Praxi S.p.A.
 sap # SAP AG
 seek # Seek Limited
-vistaprint # Vistaprint Limited
-vista # Vistaprint Limited
 wtc # World Trade Centers Association, Inc.
 xerox # Business Products Services Domains
 
 # Fashion Domains
 athleta # The Gap, Inc.
-bananarepublic # The Gap, Inc.
 bloomberg # Bloomberg IP Holdings LLC
-boots # The Boots Company PLC
 calvinklein # Calvin Klein
-cartier # Richemont DNS Inc.
-chloe # Richemont DNS Inc.
 gap # The Gap, Inc.
 gucci # Guccio Gucci S.p.a.
 hermes # Hermes Internatinoal
-iwc # Richemont DNS Inc.
-jlc # Richemont DNS Inc.
 lancaster # Fashion Domains
 lipsy # Lipsy Ltd
-loft # Annco, Inc.
 mango # Fashion Domains
-montblanc # Richemont DNS Inc.
-mrporter # Richemont DNS Inc.
-netaporter # Richemont DNS Inc.
 nextdirect # Next PLC
 next # Next PLC
 nike # Nike, Inc.
-oldnavy # The Gap, Inc.
 omega # The Swatch Group Ltd
-panerai # Richemont DNS Inc.
-patagonia # Patagonia, Inc.
-piaget # Richemont DNS Inc.
-piperlime # The Gap, Inc.
-polo # Ralph Lauren Corporation
 redstone # Redstone Haute Couture Co., Ltd.
 swatch # The Swatch Group Ltd
 
@@ -337,7 +309,6 @@ joburg     # Johannesburg, South Africa
 abudhabi   # Abu Dhabi
 arab       # Leagueof Arab States
 asia       # Asia-Pacific region
-doha       # Doha
 dubai      # Dubai
 krd        # Kurdistan
 kyoto      # Kyoto, Japan
@@ -359,10 +330,8 @@ bayern     # Bavaria, Germany
 bcn        # Barcelona, Spain
 berlin     # Berlin, Germany
 brussels   # Brussels, Belgium
-budapest   # Budapest, Hungary
 bzh        # Brittany, France
 cat        # Catalonia, Spain
-conlogne   # Cologne, Germany
 corsica    # Corsica, France
 cymru      # Wales, United Kingdom
 eus        # Basque
@@ -412,17 +381,11 @@ aarp # Health Wellness Domains
 abbott # Abbott Laboratories
 abbvie # Abbott Laboratories
 aetna # Aetna Life Insurance Company
-alcon # Alcon Laboratories, Inc.
-anthem # WellPoint, Inc.
 bms # Bristol-Myers Squibb Company
 boehringer # Boehringer Ingelheim Pharma GmbH & Co. KG
-caremore # WellPoint, Inc.
-cialis # Eli Lilly and Company
 dabur # Dabur India Limited
 fresenius # Fresenius Immobilien-Verwaltungs-GmbH
 jnj # Johnson & Johnson Services, Inc.
-merck # Merck KGaA
-mutuelle # Fédération Nationale de la Mutualité Française
 sanofi # Health Wellness Domains
 
 # Industrial Domains
@@ -430,66 +393,46 @@ aeg # Aktiebolaget Electrolux
 airbus # Airbus S.A.S.
 alstom # Industrial Domains
 aramco # Aramco Services Company
-blanco # Blanco GmbH & Co
 bosch # Robert Bosch GMBH
 bostik # Bostik SA
-chesapeake # Chesapeake Energy Corporation
-chk # Chesapeake Energy Corporation
 crown # Crown Equipment Corporation
-doosan # Doosan Corporation
 dupont # E.I. du Pont de Nemours and Company
 flir # FLIR Systems, Inc.
-fls # FLSmidth A/S
-flsmidth # FLSmidth A/S
-gecompany # General Electric Company
 grainger # Industrial Domains
 hitachi # Hitachi Ltd.
-honeywell # Honeywell GTLD LLC
 ifm # Ifm Electronic gmbh
 ipiranga # Ipiranga Produtos de Petroleo S.A.
 jio # Reliance Industries Limited
 komatsu # Komatsu Ltd.
-kone # Kone Corporation
-ksb # KSB Aktiengesellschaft
 kuokgroup # Kerry Trading Co. Limited
 leclerc # Industrial Domains
 lidl # Schwarzs und Services GmbH & Co. KG
-linde # Linde Aktiengesellschaft
 lotte # Lotte Holdings Co., Ltd.
 man # Man SE
 mtr # MTR Corporation Limited
 reliance # Reliance Industries Limited
 rexroth # Bosch Rexroth AG
 ril # Reliance Industries Limited
-rockwool # Rockwool International A/S
 rwe # Rwe AG
 sandvikcoromant # Sandvik AB
 sandvik # Sandvik AB
-sapphire # MiTek USA, Inc.
-sca # Svenska Cellulosa Aktiebolaget SCA
 schaeffler # Schaeffler Technologies AG & Co. KG
 schmidt # SALM S.A.S.
-schwarzgroup # Schwarzs und Services GmbH & Co. KG
 schwarz # Schwarzs und Services GmbH & Co. KG
 sener # Sener Ingeniería y Sistemas, S.A.
 sew # Sew Eurodrive
 sncf # Société Nationale des Chemins de fer Francais S N C F
-statoil # Statoil ASA
 total # Total SA
-vanish # Reckitt Benckiser N.V.
 walter # Sandvik AB
-warman # Weir Group IP Limited
 weber # Saint-Gobain Weber SA
 weir # Weir Group IP Limited
 woodside # Woodside Petroleum Limited
 zara # Inditex, SA
-zippo # Zadco Company
 
 # Miscellaneous Domains
 africamagic # Electronic Media Network Limited
 agakhan # Aga Khan Foundation
 akdn # Aga Khan Foundation
-ansons # CBM Creative Brands Marken GmbH
 baby # Baby
 bar # A place which provide liquor
 bharti # Bharti Enterprises
@@ -501,19 +444,14 @@ dating # Dating
 domains # Domain Name Register
 extraspace # Extra Space Storage LLC
 gay # Homosexuality
-gcc # short for Gulf Cooperation Council
 genting # Resorts World Inc Pte. Ltd.
-glean # Scripps Networks Interactive, Inc.
 hot # No specific purpose
 ikano # Ikano S.A.
 imamat # Aga Khan Foundation
-ladbrokes # Ladbrokes International PLC
 lgbt # Lesbian, Gay, Bisexual, Transgender
-livestrong # Lance Armstrong Foundation
 maif # Mutuelle Assurance Instituteur France (MAIF)
 mattel # Mattel Sites, Inc.
 moe # Japanese slang
-persiangulf # persian gulf
 poker # Poker
 sas # SAS institute
 shell # Shell Information Technology International Inc
@@ -522,8 +460,6 @@ style # though the comment actually seems to be about .tattoo
 sucks # Vox Populi Registry
 tatar # Limited Liability Company "Coordination Center of Regional Domain of Tatarstan Republic"
 tattoo # Tattoo
-tennic # Tennis
-transformers # Hasbro International, Inc.
 vana # Scripps Networks Interactive, Inc.
 virgin # Virgin Enterprises Limited
 vodka # Alcohol
@@ -534,23 +470,17 @@ wtf # What the fuck
 # Religion
 bible # Bible
 catholic # Catholic
-halal # It means lawful (food and service) in Arabic.
-islam # Muslim
 ismaili # a Shiite sect
-ummah # An Arabic word meaning "community"
 xn--mgbi4ecexp # Arabic for Catholic
 
 # Research & Science Domains
-astrium # Astrium SAS
 cern # European Organization for Nuclear Research
 emerck # Merck
 hisamitsu # Hisamitsu Pharmaceutical Co., Inc.
 lilly # Eli Lilly and Company
 lundbeck # H. Lundbeck A/S
-lupin # Lupin Limited
 merckmsd # Merck
 msd # Merck
-mtpc # Mitsubishi Tanabe Pharma Corporation
 otsuka # Otsuka Holdings Co., Ltd.
 pfizer # Pfizer Inc.
 stada # STADA Arzneimittel AG
@@ -567,11 +497,8 @@ xxx # Pornographic website
 
 # Shipping & Delivery Domains
 auspost # Australian Postal Corporation
-deutschepost # Deutsche Post AG
 dhl # Deutsche Post AG
-epost # Deutsche Post AG
 fedex # Federal Express Corporation
-pitney # Pitney Bowe Inc.#ups # UPS Market Driver, Inc.
 
 # Top domain of Country or Region (Internationalized Domain Name)
 
@@ -644,75 +571,49 @@ xn--mgb2ddes  #  اليمن Yemen
 
 # Automotive Domains
 aaa # American Automobile Association
-abarth # Fiat Industrial S.p.A
-adac # Allgemeiner Deutscher Automobil-Club e.V.
-alfaromeo # Fiat Industrial S.p.A
 audi # Automotive Domains
 bentley # Bentley Motors Limited
 bmw # Bayerische Motoren Werke AG
 bridgestone # Bridgestone Corporation
-bugatti # Bugatti International SA
-buick # General Motors
-cadillac # General Motors
 case # Fiat Industrial S.p.A
-caseih # Fiat Industrial S.p.A
-chevrolet # General Motors
-chevy # General Motors
-chrysler # Chrysler Group LLC.
 datsun # Nissan Motor Company
-dodge # Chrysler Group LLC.
 dunlop # The Goodyear Tire & Rubber Company
 ferrari # Fiat Industrial S.p.A
-fiat # Fiat Industrial S.p.A
 firestone # Bridgestone Corporation
 ford # Ford Motor Company
-gmc # General Motors
 goodyear # The Goodyear Tire & Rubber Company
 honda # Honda Motor Co., Ltd.
 hyundai # Hyundai Motor Company
 infiniti # Nissan Motor Company
-iveco # Fiat Industrial S.p.A
 jaguar # Jaguar Cars Limited
 jeep # Chrysler Group LLC.
 kia # Kia Motors Corporation
 lamborghini # Automobili Lamborghini S.p.A.
-lancia # Fiat Industrial S.p.A
 landrover # Land Rover
 lexus # Toyota
 lincoln # Ford Motor Company
-maserati # Fiat Industrial S.p.A
 mini # Bayerische Motoren Werke Aktiengesellschaft
 mitsubishi # Mitsubishi Corporation
-mopar # Chrysler Group LLC.
-newholland # Fiat Industrial S.p.A
 nissan # Nissan Motor Company
-ram # Chrysler Group LLC.
 seat # SEAT, S.A. (Sociedad Unipersonal)
-srt # Generic Domains
 suzuki # Suzuki Motor Corporation
 tatamotors # Tata Motors Ltd
 toyota # Automotive Domains
 tvs # T V Sundram Iyengar & Sons Limited
-uconnect # Chrysler Group LLC.
-volkswagen # Volkswagen Group of America Inc.
 volvo # Volvo Cars
 
 # Computers & Electronics Domains
-aigo # aigo Digital Technology
 android # Google
 apple # Apple Inc.
 bestbuy # BBY Solutions, Inc.
 brother # Brother Industries, Ltd.
 canon # Computers Electronics Domains
 dell # Dell Inc.
-digikey # Digi-Key Corporation
 fujitsu # Fujitsu Limited
-fujixerox # Xerox DNHC LLC
 goldpoint # Yodobashi Camera Co., LTD
 ibm # International Business Machines Corporation
 nikon # Nikon Corporation
 nokia # Nokia Corporation
-olympus # Olympus Corporation
 panasonic # Panasonic Corporation
 philips # Koninklijke Philips Electronics N.V.
 pioneer # Pioneer Corporation
@@ -724,34 +625,27 @@ yodobashi # Yodobashi Camera Co., LTD
 
 # Financial Services Domains
 allfinanz # Allfinanz Deutsche Vermögensberatung Aktiengesellschaft
-allfinanzberater # Allfinanz Deutsche Vermögensberatung Aktiengesellschaft
-allfinanzberatung # Allfinanz Deutsche Vermögensberatung Aktiengesellschaft
 ally # Ally Financial Inc.
 americanexpress # American Express
 amex # American Express
-amp # AMP Limited
 anz # Australia and New Zealand Banking Group Limited
 banamex # Citigroup, Inc.
 barclaycard # Barclays Bank
 barclays # Barclays Bank
 bbt # BB&T Corporation
 bbva # Banco Bilbao Vizcaya Argentaria, S.A.
-bnl # Banca Nazionale del Lavoro
 bnpparibas # BNP Paribas
 bofa # NMS Services, Inc.
 bradesco # Banco Bradesco S.A.
 capitalone # Capital One Financial Corporation
-cashbackbonus # Discover Financial Services
 cba # Commonwealth Bank of Australia
 cfa # CFA Institute
 chase # JPMorgan Chase & Co.
-cimb # CIMB Group Sdn Bhd
 citadel # Citadel, LLC
 citi # Citigroup Inc.
 commbank # Commonwealth Bank of Australia
 deloitte # Financial Services Domains
 discover # Discover Financial Services
-everbank # Financial Services Domains
 fidelity # Fidelity Brokerage Services, LLC
 hdfcbank # HDFC Bank Limited
 hdfc # Housing Development Finance Corporation Limited
@@ -759,19 +653,15 @@ hsbc # HSBC Bank
 itau # Itau Unibanco Holding S.A.
 jcb # JCB Co., Ltd.
 jll # Jones Lang LaSalle Incorporated
-jpmorganchase # JPMorgan Chase & Co.
 jpmorgan # JPMorgan Chase & Co.
 kfh # Kuwait Finance House
 kpmg # KPMG International Cooperative
 lacaixa # La Caixa
 lasalle # Jones Lang LaSalle Incorporated
-lixil # JS Group Corporation
 lplfinancial # LPL Financial
 lpl # LPL Financial
 nab # National Australia Bank Limited
-nadex # IG Group Holdings PLC
 netbank # Commonwealth Bank of Australia
-northwesternmutual # Northwestern Mutual Registry, LLC
 open # American Express Travel Related Services Company, Inc.
 pictet # Pictet Europe S.A.
 pnc # PNC Financial Services
@@ -783,12 +673,9 @@ pwc # PwC Business Trust
 saxo # Saxo Bank A/S
 sbi # State Bank of India
 scb # The Siam Commercial Bank Public Company Limited
-scor # SCOR Global
-shriram # Shriram Capital Ltd.
 softbank # Softbank Corporation
 statebank # State Bank of India
 temasek # Temasek Holdings Limtied
-transunion # Trans Union, LLC
 ubank # National Australia Bank Limited
 ubs # UBS AG
 vanguard # The Vanguard Group, Inc.
@@ -796,19 +683,10 @@ visa # Visa International Service Association
 wolterskluwer # Wolters Kluwer N.V.
 
 # Home & Garden Domains
-afamilycompany # Johnson Shareholdings, Inc.
 aquarelle # Aquarelle.com
 diy # Lifestyle Domain Holdings, Inc
-duck # Johnson Shareholdings, Inc.
-finish # Home Garden Domains
-glade # Johnson Shareholdings, Inc.
 homedepot # Homer TLC, Inc.
 homegoods # The TJX Companies, Inc.
-mrmuscle # Johnson Shareholdings, Inc.
-off # Johnson Shareholdings, Inc.
-raid # Johnson Shareholdings, Inc.
-rightathome # Johnson Shareholdings, Inc.
-scjohnson # Johnson Shareholdings, Inc.
 
 # Insurance Domains
 aig # American International Group, Inc.
@@ -817,95 +695,59 @@ americanfamily # AmFam, Inc.
 amfam # AmFam, Inc.
 amica # Amica Mutual Insurance Company
 axa # AXA SA
-chartis # American International Group, Inc.
-esurance # Esurance Insurance Company
 farmers # Farmers Insurance Exchange
-goodhands # Allstate Fire and Casualty Insurance Company
-guardian # Guardian News and Media Limited
-guardianlife # The Guardian Life Insurance Company of America
-iselect # iSelect Ltd
-metlife # MetLife Services and Solutions, LLC
 mma # MMA Cooperations
-mutual # Northwestern Mutual MU TLD Registry, LLC
-nationwide # Nationwide Mutual Insurance Company
 nissay # Nippon Life Insurance Company
-northlandinsurance # Travelers TLD, LLC
-onyourside # Nationwide Mutual Insurance Company
 progressive # Progressive Casualty Insurance Company
 redumbrella # Travelers TLD, LLC
 statefarm # State Farm Mutual Automobile Insurance Company
-swiftcover # Swiftcover Insurance Services Limited
-thehartford # Hartford Fire Insurance Company
 tiaa # Teachers Insurance and Annuity Association of America
 travelersinsurance # Travelers TLD, LLC
 travelers # Travelers TLD, LLC
-travelguard # American International Group, Inc.
 trv # Travelers TLD, LLC
 vig # Vienna Insurance Group
 
 # Music & Entertainment Domains
 beats # Beats Electronics, LLC
 blockbuster # Dish DBS Corporation
-bway # Key GTLD Holding Inc
 netflix # Netflix, Inc.
 playstation # Sony
-showtime # CBS Corporation
 tab # Tabcorp Holdings Limited
 williamhill # William Hill Organization Limited
 xbox # Microsoft
 
 # Retail Domains
 asda # Wal-Mart Stores, Inc.
-bloomingdales # Macys, Inc.
 george # Wal-Mart Stores, Inc.
 homesense # The TJX Companies, Inc.
-justforu # Safeway Inc.
 lego # LEGO Juris A/S
-macys # Macys, Inc.
 marshalls # The TJX Companies, Inc.
 obi # OBI Group Holding GmbH
-qvc # QVC, Inc.
-safeway # Safeway Inc.
 samsclub # Wal-Mart Stores, Inc.
-shopyourway # Shop Your Way, Inc.
 staples # Staples, Inc.
 target # Target Holdings, LLC
 thd # Homer TLC, Inc.
-tiffany # Tiffany and Company
 tjmaxx # The TJX Companies, Inc.
 tjx # The TJX Companies, Inc.
 tkmaxx # The TJX Companies, Inc.
-vons # Safeway Inc.
 walmart # Wal-Mart Stores, Inc.
 
 # Tech Domains
 abb # ABB Ltd.
 accenture # Accenture Global Services Limited
-acer # Acer Incorporated
 aco # ACO Severin Ahlmann GmbH & Co. KG
-active # The Active Network, Inc.
 airtel # Bharti Airtel Limited
 amazon # Technology Domains
-and # Google
 aol # AOL Inc.
 aws # Amazon
-axis # Saudi Telecom Company
 azure # Microsoft
-chatr # Rogers Communications Partnership
 chrome # Google
 cisco # Cisco Technology, Inc.
-comcast # Technology Domains
-connectors # MiTek USA, Inc
-csc # Alliance-One Services, Inc.
 dclk # Google
 dish # Dish DBS Corporation
-docomo # NTT DOCOMO, INC.
 dtv # Dish DBS Corporation
-dwg # Autodesk, Inc.
-emerson # Emerson Electric Co.
 epson # Seiko Epson Corporation
 ericsson # Telefonaktiebolaget L M Ericsson
-etisalat # Emirates Telecommunications Corporation
 fairwinds # FairWinds Partners, LLC
 fido # Rogers Communications Partnership
 flickr # Yahoo
@@ -923,43 +765,26 @@ godaddy # GoDaddy
 goog # Google
 google # Google
 goo # Google
-gree # GREE, Inc.
 guge # Google
 hangout # Google
 hkt # PCCW-HKT DataCom Services Limited
 hotmail # Microsoft
-htc # HTC corporation
 hughes # Hughes Satellite Systems Corporation
 ieee # .IEEE Global LLC
-iinet # Connect West Pty. Ltd. (iiNET)
-infosys # Infosys Limited
-infy # Infosys Limited
-intel # Intel Corporation
 intuit # Intuit Administrative Services, Inc.
 java # Oracle Corporation
-jcp # JCP Media, Inc.
 jmp # Matrix IP LLC
 jprs # Japan Registry Services Co., Ltd.
 juniper # Juniper Networks, Inc.
 kddi # Kddi Corporation
 kindle # Amazon
-konami # Konomi Corporation
 kpn # Technology Domains
 lanxess # LANXESS Corporation
-liaison # Liaison Technologies, Incorporated
 locker # Dish DBS Corporation
-meo # PT Comunicacoes S.A.
 microsoft # Microsoft
-mih # Myriad International Holdings B.V.
-mii # MiTek USA, Inc.
 mint # Intuit Administrative Services, Inc.
-mitek # MiTek USA, Inc.
 mit # Massachusetts Institute of Technology
-mobily # GreenTech Consultancy Company W.L.L.
-mozaic # Qatar Telecom
 mtn # MTN Dubai Limited
-multichoice # MultiChoice Africa
-naspers # Intelprop Limited
 nec # NEC Corporation
 neustar # Technology Domains
 nexus # Google
@@ -971,181 +796,104 @@ ollo # Dish DBS Corporation
 oracle # Oracle Corporation
 orange # Orange Brand Services Limited
 ovh # OVH SAS
-patch # AOL Inc.
-payu # MIH PayU B.V.
 pccw # PCCW Enterprises Limited
-qtel # Qatar Telecom
 quest # Quest ION Limited
 richardli # Pacific Century Asset Management (HK) Limited
 ricoh # Ricoh Company, Ltd.
 rogers # Rogers Communications Partnership
 sakura # Sakura Internet Inc.
-sapo # PT Comunicacoes S.A.
 sas # Scandinavian Airlines System Group
-ses # Technology Domains
 sfr # Societe Francaise du Radiotelephone
 shaw # Shaw Cablesystems G.P.
-skolkovo # Technology Domains
-skydrive # Microsoft
 skype # Microsoft
 sling # Hughes Satellite Systems Corporation
 smart # Smart Communications, Inc.
 stcgroup # Saudi Telecom Company
 stc # Saudi Telecom Company
-symantec # Symantec Corporation
-tata # Tata Sons Limited
 tci # Asia Green IT System Bilgisayar San. ve Tic.
 tdk # TDK Corporation
-telecity # TelecityGroup International Limited
-telefonica # Telefónica S.A.
-terra # Telefónica S.A.
-translations # Translations S.A.R.L.
-ultrabook # Intel Corporation
-unicorn # Unicorn a.s.
 uol # UBN Internet
 verisign # Technology Domains
 viva # Saudi Telecom Company
 vivo # Telefonica Brasil S.A.
 windows # Microsoft
-xfinity # Comcast
-xperia # Sony
 yahoo # Yahoo!
 yamaxun # Amazon
 yandex # Yandex, LLC
-yellowpages # Technology Domains
 youtube # Google
 zappos # Amazon
-
-# Beauty Domains
 chanel # Chanel International B.V.
 clinique # ELC Online Inc.
-garnier # L'Oréal
-kerastase # L'Oréal
-kiehls # L'Oréal
 lamer # ELC Online Inc.
-lancome # L'Oréal
-loreal # L'Oréal
-matrix # L'Oréal
-maybelline # L'Oréal
 natura # Natura Cosmeticos S.A.
 origins # ELC Online Inc.
-redken # L'Oréal
-svr # SVR Group
 
 # Consumables Domains
 barefoot # Gallo Vineyards, Inc.
-beknown # Monster Worldwide, Inc.
-cityeats # Scripps Networks Interactive, Inc.
-cookingchannel # Scripps Networks Interactive, Inc.
 cuisinella # SALM S.A.S.
-delmonte # Del Monte International GmbH
 edeka # EDEKA Verband kaufmännischer Genossenschaften e.V.
 fage # FAGE Dairy Industry S.A.
 ferrero # Ferrero Trading Lux S.A.
-foodnetwork # Scripps Networks Interactive, Inc.
 food # Scripps Networks Interactive, Inc
 gallo # Gallo Vineyards, Inc.
-heinz # H.J Heinz Company
-kinder # Ferrero Trading Lux S.A.
-mcd # McDonald’s Corporation
-mcdonalds # McDonald’s Corporation
-pamperedchef # The Pampered Chef, Ltd.
-rocher # Ferrero Trading Lux S.A.
-wilmar # Wilmar International Limited
 
 # Full - IDN Domains
-xn--3oq18vl8pn36a # .大众汽车 Volkswagen Investment Co., Ltd.
-xn--55qx5d8y0buji4b870u # .通用电气公司 GE GTLD Holdings LLC
 xn--5su34j936bgsg # .香格里拉 Shangri-La International Hotel Management Limited
 xn--b4w605ferd # .淡马锡 Temasek Holdings Limtied
 xn--cckwcxetd # .アマゾン Amazon
 xn--cg4bki # .삼성 Samsung SDS Co., LTD
-xn--dkwm73cwpn # .欧莱雅 L'Oréal
 xn--flw351e # .谷歌 Google
 xn--fzys8d69uvgm # .電訊盈科 PCCW Enterprises Limited
-xn--hxt035cmppuel # .盛貿飯店 Shangri-La International Hotel Management Limited
-xn--hxt035czzpffl # .盛贸饭店 Shangri-La International Hotel Management Limited
-xn--j6w470d71issc # .香港電訊 PCCW-HKT DataCom Services Limited
 xn--jlq480n2rg # .亚马逊 Amazon
-xn--jlq61u9w7b # .诺基亚 Nokia Corporation
 xn--kcrx77d1x4a # .飞利浦 Koninklijke Philips Electronics N.V.
-xn--kcrx7bb75ajk3b # .普利司通 Bridgestone Corporation
 xn--mgba3a3ejt # .ارامكو Aramco Services Company
 xn--mgba7c0bbn0a # .العليان Olayan Investments Company Establishment
-xn--mgbaakc7dvf # .اتصالات Emirates Telecommunications Corporation
-xn--mgbb9fbpob # .موبايلي GreenTech Consultancy Company W.L.L.
 xn--ngbe9e0a # .بيتك Kuwait Finance House
-xn--pgb3ceoj # .كيوتل Qatar Telecom
 xn--qcka1pmc # .グーグル Google
 xn--w4r85el8fhu5dnra # .嘉里大酒店 Kerry Trading Co. Limited
 xn--w4rs40l # .嘉里 Kerry Trading Co. Limited
 
 # Hotel & Travel Domains
-avianca # Aerovias del Continente Americano S.A. Avianca
 caravan # Caravan International, Inc.
-changiairport # Changi Airport Group Pte. Ltd
 cipriani # Hotel Cipriani
 clubmed # Club Méditerranée S.A.
 delta # Delta Air Lines, Inc.
 firmdale # Firmdale Holdings Limited
-hilton # HLT Stakis IP Limited
 hyatt # Hyatt Hotels Corporation
 kerryhotels # Kerry Trading Co. Limited
-kerrylogisitics # Kerry Trading Co. Limited
 kerryproperties # Kerry Trading Co. Limited
 marriott # Marriott Worldwide Corporation
-orientexpress # Orient-Express Hotels Ltd.
 shangrila # Shangri-La International Hotel Management Limited
-tradershotels # Shangri-La International Hotel Management Limited
 tui # TUI AG
 viking # Viking River Cruises
 virgin # Virgin Enterprises Limited
-webjet # Webjet Limited
 
 # Land & Buildings Domains
 able # Able Inc.
 cbre # CBRE, Inc.
 chintai # Chintai Corporation
-frontdoor # Scripps Networks Interactive, Inc.
 lefrak # LeFrak Organization, Inc.
 
 # News & Media Domains
 abc #  American Broadcasting Companies, Inc.
-africamagic #  Electronic Media Network Limited (M-Net)
 arte #  Association Relative à la Télévision Européenne
 bbc #  British Broadcasting Corporation
-canalplus #  Canal Plus
 cbn #  The Christian Broadcasting Network, Inc.
-cbs #  CBS Corporation
-dstv #  MultiChoice Africa
 eurovision #  European Broadcasting Union
 fox #  FOX Businesses
 gallup #  Gallup, Inc.
 globo #  Globo Comunicação e Participações S.A
-gotv #  MultiChoice Africa
-guardianmedia #  Guardian News and Media Limited
 hbo #  Home Box Office, Inc
-hgtv #  Media Domains
 imdb #  Amazon
 itv #  ITV Services Limited
-kyknet #  Electronic Media Network Limited (M-Net)
-mnet #  Electronic Media Network Limited (M-Net)
-movistar #  Telefonica Group
-mzansimagic #  Electronic Media Network Limited (M-Net)
 nhk #  Japan Broadcasting Corporation (NHK)
 nowtv #  Starbucks (HK) Limited
 sbs #  Special Broadcasting Service Corporation
 seven #  Seven West Media Ltd
 sky #  Sky IP International Ltd
-spiegel #  Media Domains
-starhub #  Media Domains
-supersport #  SuperSport International Holdings Limited
-theguardian #  Guardian News and Media Limited
-travelchannel #  Lifestyle Holdings, Inc.
 weatherchannel #  The Weather Channel, LLC
 
 # School & Training Domains
 bauhaus # Werkhaus GmbH
 latrobe # La Trobe University
 monash # Monash University
-rmit # Royal Melbourne Institute of Technology
