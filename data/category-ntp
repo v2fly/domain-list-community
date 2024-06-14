@@ -8,7 +8,7 @@ regexp:^time([1-5])?\.facebook\.com$
 regexp:^time([1-4])?.google.com$
 
 # NIST: https://tf.nist.gov/tf-cgi/servers.cgi
-^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?))\.nist\.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?))\.colorado\.edu)$
+regexp:^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?))\.nist\.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?))\.colorado\.edu)$
 
 # NTP-servers: https://ntp-servers.net/servers.html
 regexp:^ntp[0-7]\.ntp-servers\.net$
