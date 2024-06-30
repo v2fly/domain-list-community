@@ -143,8 +143,15 @@ full:cp.cloudflare.com
 # Firefox
 full:detectportal.firefox.com
 
+# H3C
+# https://wwwsg.h3c.com/cn/d_202007/1316557_30005_0.htm#_Toc46214911
+full:oasisauth.h3c.com
+
 # KDE
 networkcheck.kde.org
+
+# MIUI
+full:connect.rom.miui.com
 
 # Mozilla Location Service
 location.services.mozilla.com
