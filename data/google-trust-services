@@ -1,9 +1,20 @@
 pki.goog
 
+full:pki-goog.l.google.com @cn
+
+full:c.pki.goog @cn
+full:i.pki.goog @cn
+full:o.pki.goog @cn
+
+# Google Public CA API Endpoint
+full:publicca.googleapis.com
+full:preprod-publicca.googleapis.com
+
+# Deprecated earlier
 full:clients1.google.com
 full:pki.google.com
 
+# Deprecated recently
 full:crl.pki.goog @cn
 full:crls.pki.goog @cn
 full:ocsp.pki.goog @cn
-full:pki-goog.l.google.com @cn
