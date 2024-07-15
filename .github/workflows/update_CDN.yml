@@ -1,0 +1,34 @@
+name: Update CDN list from ruleset.skk.moe
+
+on:
+  schedule:
+    - cron: '0 0 1,15 * *'  # 每月1日/15日
+  workflow_dispatch:
+
+jobs:
+  update-cdn-file:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Download cdn.txt
+      run: curl -o cdn https://ruleset.skk.moe/Clash/domainset/cdn.txt
+
+    - name: Remove "+." characters
+      run: sed -i 's/+\.//g' cdn
+
+    - name: Create data directory if it doesn't exist
+      run: mkdir -p data
+
+    - name: Move file to data directory
+      run: mv cdn data/
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add data/cdn
+        git commit -m 'Update cdn by removing "+." characters'
+        git push origin main
