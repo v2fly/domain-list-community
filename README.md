@@ -133,3 +133,4 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 * A PR must be reviewed and approved by another member.
 * A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Action label to get detailed information if you didn't pass it. We also provide the file which has been generated to make you test.
 * After a few successful PRs, you may apply for manager access to this repository.
+
