@@ -1,0 +1,14 @@
+include:category-httpdns
+include:anti-ad
+include:category-ads-all
+include:skk-reject
+
+# nox ads
+appcenter-api.bignox.com
+bi.noxgroup.com
+# api-new.bignox.com
+api.bignox.com
+# ldplayer
+appstore.ldmnq.com
+apitw.ldmnq.com
+storetw.ldmnq.com

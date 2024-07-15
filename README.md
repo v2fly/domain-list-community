@@ -2,6 +2,23 @@
 
 This project manages a list of domain.
 
+
+## ある変更
+
+```geosite:cdn ```
+>  CDN domain list from [ruleset.skk.moe](https://ruleset.skk.moe/Clash/domainset/cdn.txt).
+
+```geosite:anti-ad```
+>  List ```anti-ad-domains.txt``` from [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD).
+
+```geosite:skk-reject```
+> List ```reject.txt``` from [ruleset.skk.moe](https://ruleset.skk.moe/Clash/domainset/reject.txt).
+
+## 個人用リスト
+```geosite:reject-list```
+> include : ```geosite:anti-ad``` ```geosite:category-ads-all``` ```geosite:skk-reject```  addblocker(personal clash rule)
+
+
 ## Generate `geosite.dat` manually
 
 - Install `golang` and `git`

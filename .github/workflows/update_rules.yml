@@ -1,4 +1,4 @@
-name: Update CDN list from ruleset.skk.moe
+name: Update list
 
 on:
   schedule:
@@ -16,9 +16,20 @@ jobs:
     - name: Download cdn.txt
       run: curl -o cdn https://ruleset.skk.moe/Clash/domainset/cdn.txt
 
-    - name: Remove "+." characters
-      run: sed -i 's/+\.//g' cdn
+    - name: Download list gfw
+      run: curl -o gfw https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/gfw.list
 
+    - name: Download list anti-ad
+      run: curl -o anti-ad https://github.com/privacy-protection-tools/anti-AD/raw/master/anti-ad-domains.txt
+
+    - name: Download list skk reject base
+      run: curl -o skk-reject https://ruleset.skk.moe/Clash/domainset/reject.txt
+
+    - name: Remove "+." characters
+      run: |
+        sed -i 's/+\.//g' cdn
+        sed -i 's/+\.//g' gfw
+        sed -i 's/+\.//g' skk-reject
     - name: Create data directory if it doesn't exist
       run: mkdir -p data
 
