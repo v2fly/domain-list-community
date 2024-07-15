@@ -35,15 +35,15 @@ jobs:
         run: |
           sha256sum geosite.dat > geosite.dat.sha256sum
 
-    #  - name: Generate Zip
-    #    run: |
-    #      zip -9 geosite.dat.zip geosite.dat
-    #      sha256sum geosite.dat.zip > geosite.dat.zip.sha256sum
+      - name: Generate Zip
+        run: |
+          zip -9 geosite.dat.zip geosite.dat
+          sha256sum geosite.dat.zip > geosite.dat.zip.sha256sum
 
-    #  - name: Generate XZ
-    #    run: |
-    #      xz -z -9 -k geosite.dat
-    #      sha256sum geosite.dat.xz > geosite.dat.xz.sha256sum
+      - name: Generate XZ
+        run: |
+          xz -z -9 -k geosite.dat
+          sha256sum geosite.dat.xz > geosite.dat.xz.sha256sum
 
       - name: Git push assets to "release" branch
         run: |
