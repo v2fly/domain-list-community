@@ -24,5 +24,8 @@ themisweeps.com @cn
 # 原神
 yuanshen.com @cn
 
+#绝区零
+juequling.com @cn
+
 # Akamai
 regexp:^.+-mihayo\.akamaized\.net$ @cn
