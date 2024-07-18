@@ -1,0 +1,582 @@
+# update 2024.7.14
+    # Netflix
+netflix.com
+netflix.net
+nflximg.com
+nflximg.net
+nflxvideo.net
+nflxext.com
+nflxso.net
+    # Disney+
+disney.api.edge.bamgrid.com
+disney-plus.net
+disneyplus.com
+dssott.com
+disneynow.com
+disneystreaming.com
+cdn.registerdisney.go.com
+    # Tiktok
+lf16-effectcdn.byteeffecttos-g.com
+lf16-pkgcdn.pitaya-clientai.com
+p16-tiktokcdn-com.akamaized.net
+bytedapm.com
+bytegecko-i18n.com
+byteoversea.com
+capcut.com
+ibytedtos.com
+ibyteimg.com
+ipstatp.com
+isnssdk.com
+muscdn.com
+musical.ly
+sgpstatp.com
+snssdk.com
+tik-tokapi.com
+tiktok.com
+tiktokcdn-us.com
+tiktokcdn.com
+tiktokd.net
+tiktokd.org
+tiktokmusic.app
+tiktokv.com
+tiktokv.us
+    # Bilibili TV
+bilibili.tv
+    # Viu
+cognito-identity.us-east-1.amazonaws.com
+d1k2us671qcoau.cloudfront.net
+d2anahhhmp1ffz.cloudfront.net
+dfp6rglgjqszk.cloudfront.net
+mobileanalytics.us-east-1.amazonaws.com
+viu.com
+viu.now.com
+    # Dazn
+dazn-api.com
+dazn.com
+dazndn.com
+indazn.com
+d151l6v8er5bdm.cloudfront.net
+d1sgwhnao7452x.cloudfront.net
+dcalivedazn.akamaized.net
+dcblivedazn.akamaized.net
+    # IQIYI
+cache.video.iqiyi.com
+inter.iqiyi.com
+intl-rcd.iqiyi.com
+intl-subscription.iqiyi.com
+intl.iqiyi.com
+iq.com
+    # TVBAnywhere+
+bcbolt446c5271-a.akamaihd.net
+edge.api.brightcove.com
+tvbtracking.azurewebsites.net
+tvb.com
+tvbanywhere.com
+tvbanywhere.com.sg
+    # Amazon Prime Video
+atv-ps.amazon.com
+avodmp4s3ww-a.akamaihd.net
+d1v5ir2lpwr8os.cloudfront.net
+d22qjgkvxw22r6.cloudfront.net
+d25xi40x97liuc.cloudfront.net
+d27xxe7juh1us6.cloudfront.net
+dmqdd6hw24ucf.cloudfront.net
+fls-na.amazon.com
+www.amazon.com
+aiv-cdn.net
+aiv-delivery.net
+amazonvideo.com
+media-amazon.com
+primevideo.com
+pv-cdn.net
+    # HBO GO
+44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+bcbolthboa-a.akamaihd.net
+dai3fd1oh325y.cloudfront.net
+hboasia1-i.akamaihd.net
+hboasia2-i.akamaihd.net
+hboasia3-i.akamaihd.net
+hboasia4-i.akamaihd.net
+hboasia5-i.akamaihd.net
+hboasialive.akamaized.net
+hbogoprod-vod.akamaized.net
+hbolb.onwardsmg.com
+hbounify-prod.evergent.com
+hbogoasia.com
+hbogoasia.hk
+    # KKTV
+kfs.io
+kktv-theater.kk.stream
+kkbox.com
+kkbox.com.tw
+kktv.com.tw
+kktv.me
+    # Litv
+litv.tv
+litvfreemobile-hichannel.cdn.hinet.net
+    # LineTV.TW
+d3c7rimkq79yfu.cloudfront.net
+linetv.tw
+    # MyTVSuper
+mytvsuper.com
+mytvsuperlimited.hb.omtrdc.net
+mytvsuperlimited.sc.omtrdc.net
+    # NowE
+nowe.com
+nowestatic.com
+    # Bahamut Anime
+bahamut.com.tw
+gamer.com.tw
+gamer-cds.cdn.hinet.net
+gamer2-cds.cdn.hinet.net
+    # Bilbili
+0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
+0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
+0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
+0gr4uqmtt8y41hcjsgrzdrctt.ourdvsss.com
+0gr4uqmtt8y41hcjsgrzdrctu.ourdvsss.com
+0gr4uqmtt8y41hcjz8yzdnc31.ourdvsss.com
+0gr4uqmtt8y41hcjz8yzdnc3t.ourdvsss.com
+0gr4uqmtt8y41hcjzgazdrpba.ourdvsss.com
+0gr4uqmtt8y41hcjzgazdrpbz.ourdvsss.com
+0gr4uqmtt8y41hcjzgazdrpjt.ourdvsss.com
+0gr5dgmttgha1hcj38yzdncb3.ourdvsss.com
+112-81-125-43.dhost.00cdn.com
+113-219-145-1.ksyungslb.com
+114-236-92-129.ksyungslb.com
+180-101-74-1.ksyungslb.com
+1geadrmttge3nhcjwgazdope.ourdvsss.com
+1geadrmttge3nhcjwgwzdqqe.ourdvsss.com
+1gr3uomttgr31hcjo8yzdnco.ourdvsss.com
+1gr3uomttgr31hcjo8yzdnpy.ourdvsss.com
+1gr3uomttgr31hcjtgezdkcy.ourdvsss.com
+1gr4uqmtt8y41hcjigazdqca.ourdvsss.com
+1gr4uqmtt8y41hcjigazdqce.ourdvsss.com
+1gr4uqmtt8y41hcjigazdqco.ourdvsss.com
+1gr4uqmtt8y41hcjigazdqpo.ourdvsss.com
+1gr4uqmtt8y41hcjzgwzdkqe.ourdvsss.com
+1gr5dgmttgha1hcj38yzdcca.ourdvsss.com
+1gr5dgmttgha1hcj38yzdcco.ourdvsss.com
+1gr5dgmttgha1hcj38yzdkca.ourdvsss.com
+1gr5dgmttgha1hcj38yzdkco.ourdvsss.com
+1gr5dgmttgha1hcj38yzdkpe.ourdvsss.com
+1gr5dgmttgha1hcj38yzdkpy.ourdvsss.com
+1gr5dgmttgha1hcj38yzdkqy.ourdvsss.com
+1gr5dgmttgha1hcj3gczdcpa.ourdvsss.com
+1gr5dgmttgha1hcj3gczdcpe.ourdvsss.com
+1gr5dgmttgha1hcj3gczdcpo.ourdvsss.com
+1gr5dgmttgha1hcj3gczdcqy.ourdvsss.com
+1gr5dgmttgha1hcttgrzdnpo.ourdvsss.com
+1graukmttga4nhcjtgozdgce.ourdvsss.com
+218-91-225-1.ksyungslb.com
+219-155-150-1.ksyungslb.com
+222-188-6-1.ksyungslb.com
+36-104-134-1.ksyungslb.com
+36-25-252-1.ksyungslb.com
+3ge3drmttga5nhcbqge3ur.ourdvsss.com
+3geauymtsgrzdnqbofa5do.ourdvsss.com
+3geauymtsgrzdnqbofa5dy.ourdvsss.com
+3geauymtsgrzdrcbzfahue.ourdvsss.com
+3geauymtsgrzdrcbzfahuk.ourdvsss.com
+4go41hcjtgazdoctqge4o.ourdvsss.com
+p-bstarstatic.akamaized.net
+p.bstarstatic.com
+upos-bstar-mirrorakam.akamaized.net
+upos-bstar1-mirrorakam.akamaized.net
+acg.tv
+acgvideo.com
+animetamashi.cn
+animetamashi.com
+anitama.cn
+anitama.net
+b23.tv
+baka.im
+bigfun.cn
+bigfunapp.cn
+bili22.cn
+bili2233.cn
+bili23.cn
+bili33.cn
+biliapi.com
+biliapi.net
+bilibili.cc
+bilibili.cn
+bilibili.co
+bilibili.com
+bilibili.net
+bilibili.tv
+bilibiligame.cn
+bilibiligame.co
+bilibiligame.net
+bilibilipay.cn
+bilibilipay.com
+bilicdn1.com
+bilicdn2.com
+bilicdn3.com
+bilicdn4.com
+bilicdn5.com
+bilicomics.com
+biligame.cn
+biligame.co
+biligame.com
+biligame.net
+biligo.com
+biliimg.com
+biliintl.co
+biliintl.com
+biliplus.com
+bilivideo.cn
+bilivideo.com
+bilivideo.net
+corari.com
+dreamcast.hk
+dyhgames.com
+hdslb.com
+hdslb.com.w.kunlunhuf.com
+hdslb.com.w.kunlunpi.com
+hdslb.net
+hdslb.org
+im9.com
+maoercdn.com
+mcbbs.net
+mincdn.com
+sharejoytech.com
+smtcdns.net
+upos-hz-mirrorakam.akamaized.net
+uposdash-302-bilivideo.yfcdn.net
+yo9.com
+    # CatchPlay
+catchplay.com
+d2ivmxp5z2ww0n.cloudfront.net
+ols-ww100-cp.akamaized.net
+tra-www000-cp.akamaized.net
+    # Abema
+abema.io
+abema.tv
+ds-linear-abematv.akamaized.net
+linear-abematv.akamaized.net
+ds-vod-abematv.akamaized.net
+vod-abematv.akamaized.net
+ameba.jp
+hayabusa.io
+mobile-collector.newrelic.com
+vod-abematv.akamaized.net
+bucketeer.jp
+abema.adx.promo
+hayabusa.media
+abema-tv.com
+    # DAM
+clubdam.com
+    # DMM
+dmm-extension.com
+dmm.co.jp
+dmm.com
+videomarket.jp
+p-smith.com
+vmdash-cenc.akamaized.net
+img.vm-movie.jp
+bam.nr-data.net
+    # FOD
+fujitv.co.jp
+stream.ne.jp
+    # Music.JP
+music.jp
+music-book.jp
+    # Niconico
+dmc.nico
+nicovideo.jp
+nimg.jp
+socdm.com
+    # Japan Games
+dmc.nico
+nicovideo.jp
+nimg.jp
+socdm.com
+cygames.jp
+konosubafd.jp
+colorfulpalette.org
+worldflipper.jp
+    # Tver
+tver.jp
+edge.api.brightcove.com
+gorin.jp
+screens-lab.jp
+tver.co.jp
+dogatch.jp
+    # VideoMarket
+videomarket.jp
+    # Radiko
+radiko.jp
+radionikkei.jp
+smartstream.ne.jp
+    # Telasa
+telasa.jp
+kddi-video.com
+videopass.jp
+d2lmsumy47c8as.cloudfront.net
+    # U-Next
+unext.jp
+nxtv.jp
+    # Discovery+
+content-ause1-ur-discovery1.uplynk.com
+disco-api.com
+discoveryplus.com
+x-default-stgec.uplynk.com
+discovery.com
+discoveryplus.co.uk
+getblueshift.com
+litix.io
+mobile-collector.newrelic.com
+discovery.uplynk.com
+    # ESPN+
+espn.api.edge.bamgrid.com
+espn.hb.omtrdc.net
+espndotcom.tt.omtrdc.net
+dtci.co
+dtci.technology
+espn.co.uk
+espn.com
+espn.net
+espncdn.com
+espnqa.com
+watchespn.com
+    # Fox
+x-live-fox-stgec.uplynk.com
+fox.com
+foxdcg.com
+theplatform.com
+cdn-fox-networks-group-green.akamaized.net
+d3cv4a9a9wh0bt.cloudfront.net
+foxsports01-i.akamaihd.net
+foxsports02-i.akamaihd.net
+foxsports03-i.akamaihd.net
+    # Fubo TV
+fubo.tv
+    # HBO MAX
+max.com
+cinemax.com
+forthethrone.com
+hbo.com
+hbomax.com
+hbomaxcdn.com
+maxgo.com
+    # Paramount+
+paramountplus.com
+cbsi.live.ott.irdeto.com
+cbsplaylistserver.aws.syncbak.com
+cbsservice.aws.syncbak.com
+link.theplatform.com
+cbsaavideo.com
+cbsi.com
+cbsivideo.com
+pplusstatic.com
+    # Peacock TV
+peacocktv.com
+peacock.com
+    # Star+
+starplus.com
+starott.com
+star.api.edge.bamgrid.com
+star.connections.edge.bamgrid.com
+star.content.edge.bamgrid.com
+star.playback.edge.bamgrid.com
+    # BritBox
+vod-dash-ntham-comm-live.akamaized.net
+vod-dash-ntham-comm.live.cf.md.bbci.co.uk
+vod-hls-ntham-comm-live.akamaized.net
+vod-hls-ntham-comm.live.cf.md.bbci.co.uk
+britbox.com
+d2z3p34itxwaj7.cloudfront.net
+    # FXNOW
+fxnow.fxnetworks.com
+    # Philo
+philo.com
+    # Shudder
+shudder.com
+    # TLC GO
+geolocation.onetrust.com
+    # BBC
+aod-dash-uk-live.akamaized.net
+aod-hls-uk-live.akamaized.net
+as-dash-uk-live.akamaized.net
+as-hls-uk-live.akamaized.net
+vod-dash-uk-live.akamaized.net
+vod-dash-ww-live.akamaized.net
+vod-hls-uk-live.akamaized.net
+vod-sub-uk-live.akamaized.net
+vod-thumb-uk-live.akamaized.net
+vod-thumb-ww-live.akamaized.net
+vs-cmaf-push-uk-live.akamaized.net
+bbc
+bbc.co
+bbc.co.uk
+bbc.com
+bbc.in
+bbc.net.uk
+bbcchinese.com
+bbcfmt.hs.llnwd.net
+bbcfmt.s.llnwi.net
+bbci.co
+bbci.co.uk
+bbcmedia.co.uk
+bbcpersian.com
+bbcverticals.com
+bidi.net.uk
+    # Channel 4
+channel4.com
+    # Channel 5
+channel5.com
+    # OpenAI
+openai.com
+oaistatic.com
+oaiusercontent.com
+chatgpt.com
+    # Spotify
+audio4-ak-spotify-com.akamaized.net
+cdn-spotify-experiments.conductrics.com
+heads-ak-spotify-com.akamaized.net
+spotify.com.edgesuite.net
+spotify.map.fastly.net
+spotify.map.fastlylb.net
+audio-ak-spotify-com.akamaized.net
+byspotify.com
+heads4-ak-spotify-com.akamaized.net
+pscdn.co
+scdn.co
+spoti.fi
+spotify-com.akamaized.net
+spotify-everywhere.com
+spotify.com
+spotify.design
+spotifycdn.com
+spotifycdn.net
+spotifycharts.com
+spotifycodes.com
+spotifyforbrands.com
+spotifyjobs.com
+spotifynewsroom.jp
+spotilocal.com
+tospotify.com
+    # ITV Hhb
+itvpnpmobile-a.akamaihd.net
+itv.com
+itvstatic.com
+    # HamiVideo
+cdn.hinet.net
+hamivideo.hinet.net
+scc.ott.hinet.net
+    # Wowow
+wowow.co.jp
+    # HuluJP
+happyon.jp
+hulu.jp
+prod.hjholdings.tv
+streaks.jp
+yb.uncn.jp
+hjholdings.jp
+    # Instagram Licensed Audio
+achat-followers-instagram.com
+acheter-followers-instagram.com
+acheterdesfollowersinstagram.com
+acheterfollowersinstagram.com
+bookstagram.com
+carstagram.com
+cdninstagram.com
+chickstagram.com
+ig.me
+igcdn.com
+igsonar.com
+igtv.com
+imstagram.com
+imtagram.com
+instaadder.com
+instachecker.com
+instafallow.com
+instafollower.com
+instagainer.com
+instagda.com
+instagify.com
+instagmania.com
+instagor.com
+instagram-brand.com
+instagram-engineering.com
+instagram-help.com
+instagram-press.com
+instagram-press.net
+instagram.com
+instagramci.com
+instagramcn.com
+instagramdi.com
+instagramhashtags.net
+instagramhilecim.com
+instagramhilesi.org
+instagramium.com
+instagramizlenme.com
+instagramkusu.com
+instagramlogin.com
+instagramm.com
+instagramn.com
+instagrampartners.com
+instagramphoto.com
+instagramq.com
+instagramsepeti.com
+instagramtakipcisatinal.net
+instagramtakiphilesi.com
+instagramtips.com
+instagramtr.com
+instagran.com
+instagranm.com
+instagrem.com
+instagrm.com
+instagtram.com
+instagy.com
+instamgram.com
+instangram.com
+instanttelegram.com
+instaplayer.net
+instastyle.tv
+instgram.com
+intagram.com
+intagrm.com
+intgram.com
+kingstagram.com
+lnstagram-help.com
+theinstagramhack.com
+oninstagram.com
+online-instagram.com
+onlineinstagram.com
+web-instagram.net
+wwwinstagram.com
+    # Play Store
+download.google.com
+down.google.com
+play.google.com
+    # Microsoft Copilot
+copilot.microsoft.com
+    # Claude AI
+claude.ai
+    # MyVideo
+myvideo.net.tw
+cdn.plyr.io
+    # KOCOWA
+kocowa.com
+    # A&E TV
+ccpa-service.sp-prod.net
+aetv.com
+    # Crave
+crave.ca
+9c9media.com
+    # Crunchyroll
+c.evidon.com
+    # Popcronfix
+popcornflix-prod.cloud.seachange.com
+popcornflix.com
+    # CWTV
+cwtv.com
+    # StarZ
+starz.com
+    # AnimeFesta
+animefesta.iowl.jp
+animefesta.hls.wseod.stream.ne.jp  
+animefesta-assets.cdnext.stream.ne.jp
+o122313.ingest.sentry.io

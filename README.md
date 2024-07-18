@@ -14,10 +14,17 @@ This project manages a list of domain.
 ```geosite:skk-reject```
 > List ```reject.txt``` from [ruleset.skk.moe](https://ruleset.skk.moe/Clash/domainset/reject.txt).
 
+```geosite:dns-unlock```
+> List of common domains for streaming unblocking services. from a certain unlocking service provider.
+> ### Check whether you have a valid corresponding unlocking service before use
+
 ## 個人用リスト
 ```geosite:reject-list```
-> include : ```geosite:anti-ad``` ```geosite:category-ads-all``` ```geosite:skk-reject```  addblocker(personal clash rule)
+> include : ```geosite:anti-ad``` ```geosite:category-ads-all``` 
 
+```geosite:skk-reject```  addblocker(personal clash rule)
+
+```geosite:dns-unlock```  streaming unblock
 
 ## Generate `geosite.dat` manually
 
