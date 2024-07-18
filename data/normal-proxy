@@ -1,0 +1,117 @@
+payload:
+##  访问加速用，可能不在gfwlist内
+##  PROXY 
+# gitbook.io //geosite:category-dev
+wemod.com
+appmedia.jp
+crates.io
+metacubex.one
+deepl.com
+catixs.net
+polocloud.xyz
+genymotion.com
+kemono.party
+novelai.net
+# jsdelivr.net
+skeb.jp
+## ？？？
+tagvpnglobal.com
+# dlercloud.com
+dler.io
+# nexitally.com
+amysecure.com
+tagss01.pro
+tagss.pro
+embyvip.xyz
+## > paiza.jp的小游戏
+vimeo.com
+paiza.jp
+## mastodon/pleroma
+shiina-rimo.cafe
+friends.cafe
+pawoo.net
+bangdream.space
+## > mastodon/pleroma/域名服务商
+hostdon.jp
+hostdon.ne.jp
+## bitdefender（test）
+bitdefender.net
+## piapro
+piapro.jp
+## 其它
+##  theinitium.com
+webcull.com
+vroid.com
+notepad-plus-plus.org
+kaspersky.com
+ashampoo.com
+ashampoo.net
+japanpost.jp
+doujinshi.org
+clcillinois.edu
+goodsync.com
+sakura-palace.co.jp
+vvault.jp
+stablebit.com
+stablebit.cloud
+2dfan.com
+##fosshub
+fosshub.com
+## 買い物
+jiku-chu.com
+melonbooks.co.jp
+melonbooks.akamaized.net
+# stripe.network
+# stripe.com
+## 游戏mod
+#curseforge.com
+##付费
+##  stripe.com
+porkbun.com
+shiina.cafe
+o3o.ca
+cmx.im
+mas.to
+bgme.me
+patchouli.today
+mastodon.social
+wxw.moe
+octodon.social
+vocalodon.net
+## > キントク
+# gamepedia.jp
+## > FANTIA
+fantia.jp
+## > textfree
+textfree.us
+## other
+ytms.one
+tapecontent.net
+cfeucdn.com
+streamtape.com
+seeautumn.com
+# adtidy.org
+# poe.com //geosite:quora
+# poecdn.net
+# sagernet.org
+greasyfork.org
+## Qooapp
+qoo-img.com
+qoo-apk.com
+qoo-app.com
+qooapp.io
+## Game DL
+# コンパス
+cps-down.hangame.co.jp
+##--
+mikocon.com
+## kagi
+kagi.com
+## bluesky
+bsky.social
+bsky.app
+bsky.network
+## misaka
+misaka.io
+## offcloud download
+offcloud.com

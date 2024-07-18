@@ -18,6 +18,11 @@ This project manages a list of domain.
 > List of common domains for streaming unblocking services. from a certain unlocking service provider.
 > ### Check whether you have a valid corresponding unlocking service before use
 
+```geosite:normal-proxy```
+> List from personal clash rule.
+
+```geosite:nojp-proxy```
+> List from personal clash rule. Recommended outside Japan.
 ## 個人用リスト
 ```geosite:reject-list```
 > include : ```geosite:anti-ad``` ```geosite:category-ads-all``` 
@@ -25,6 +30,10 @@ This project manages a list of domain.
 ```geosite:skk-reject```  addblocker(personal clash rule)
 
 ```geosite:dns-unlock```  streaming unblock
+
+```geosite:normal-proxy``` PROXY
+
+```geosite:nojp-proxy``` addproxy
 
 ## Generate `geosite.dat` manually
 
