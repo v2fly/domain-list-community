@@ -1,8 +1,5 @@
 # This list contains domains that don't have access point in China mainland. This is opposite to geolocation-cn.
 
-# Anime, Comics & Games
-include:category-acg
-
 # Advertisment & Analytics
 include:pubmatic
 include:taboola
