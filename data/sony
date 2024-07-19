@@ -4,6 +4,15 @@ include:sonypictures
 # All .sony domains
 sony
 
+# Sony Network Communications Inc.
+sonynetwork.co.jp
+nuro.jp
+so-net.ne.jp
+
+# Sony Semiconductor Solutions Corporation
+sony-semicon.co.jp
+sony-semicon.com
+
 ginzasonypark.jp
 sony-africa.com
 sony-asia.com
@@ -13,11 +22,11 @@ sony-latin.com
 sony-mea.com
 sony-olympus-medical.com
 sony-promotion.eu
-sony-semicon.co.jp
 sony.at
 sony.ba
 sony.be
 sony.bg
+sony.biz
 sony.ca
 sony.ch
 sony.cl
@@ -85,12 +94,13 @@ sonybo.co.jp
 sonybsc.com
 sonybuilding.jp
 sonydesign.com
-sonydna.com
+sonydna.com # Sony Digital Network Applications Inc.
 sonyglobalsolutions.jp
 sonykigyo.jp
 sonylatvija.com
 sonypcl.jp
 sonyprotechnosupport.co.jp
-sonystoragemedia.co.jp
+sonystoragemedia.co.jp # Sony Storage Media Solutions Corporation
 sonytc.co.jp
 sovec.net
+so-net.net.tw
