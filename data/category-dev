@@ -25,7 +25,6 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
-include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
@@ -55,7 +54,6 @@ include:scala
 include:sourcehut
 include:stackexchange
 include:strikingly
-include:tencent-dev
 include:termux
 include:thelinuxfoundation
 include:topcoder
