@@ -2,6 +2,7 @@
 
 # Anime, Comics & Games
 include:category-acg
+include:trackernetwork
 
 # Advertisment & Analytics
 include:pubmatic
@@ -38,7 +39,6 @@ include:volvo
 include:dowjones
 include:mastercard
 include:paypal
-include:softbank
 include:stripe
 include:visa
 
@@ -58,8 +58,9 @@ include:stackpath
 # Certificate authorities
 include:category-cas
 
-# Communications
-include:category-communication
+# Communication
+include:ntt
+include:softbank
 
 # Cryptocurrency
 include:category-cryptocurrency
@@ -129,6 +130,7 @@ include:streamable
 # Forums & Social network
 include:category-forums
 include:category-social-media-!cn
+include:category-communication
 
 # IPFS
 include:category-ipfs
