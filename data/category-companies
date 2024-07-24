@@ -17,8 +17,10 @@ include:chegg
 include:cisco
 include:cloudcone
 include:collabora
+include:corel
 include:dell
 include:digitalocean
+include:drweb
 include:duolingo
 include:faronics
 include:giffgaff
@@ -58,10 +60,12 @@ include:qwant
 include:razer
 include:salesforce
 include:samsung
+include:skyperfect
 include:smartone
 include:snap
 include:sony
 include:spacex
+include:spaceship
 include:st
 include:tailscale
 include:theboringcompany

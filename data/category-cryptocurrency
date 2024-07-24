@@ -14,6 +14,7 @@ include:localbitcoins
 include:okx
 include:onekey
 include:wisekey
+include:wynd
 include:zb
 
 1inch.io

@@ -19,6 +19,8 @@ home.arpa
 
 # References: https://www.iana.org/assignments/locally-served-dns-zones/locally-served-dns-zones.xhtml
 # https://www.rfc-editor.org/rfc/rfc6303.html
+0.in-addr.arpa
+2.0.192.in-addr.arpa
 10.in-addr.arpa
 16.172.in-addr.arpa
 17.172.in-addr.arpa
@@ -36,22 +38,21 @@ home.arpa
 29.172.in-addr.arpa
 30.172.in-addr.arpa
 31.172.in-addr.arpa
-168.192.in-addr.arpa
-0.in-addr.arpa
-127.in-addr.arpa
-254.169.in-addr.arpa
-2.0.192.in-addr.arpa
 100.51.198.in-addr.arpa
 113.0.203.in-addr.arpa
+127.in-addr.arpa
+168.192.in-addr.arpa
+254.169.in-addr.arpa
 255.255.255.255.in-addr.arpa
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-d.f.ip6.arpa
+8.b.d.0.1.0.0.2.ip6.arpa
 8.e.f.ip6.arpa
 9.e.f.ip6.arpa
 a.e.f.ip6.arpa
 b.e.f.ip6.arpa
-8.b.d.0.1.0.0.2.ip6.arpa
+d.f.ip6.arpa
+
 # https://www.rfc-editor.org/rfc/rfc7793.html
 64.100.in-addr.arpa
 65.100.in-addr.arpa
@@ -121,6 +122,9 @@ b.e.f.ip6.arpa
 # Dotless domains
 regexp:^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$
 
+# ArchLinux
+ping.archlinux.org
+
 # Aruba router
 full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
@@ -138,16 +142,26 @@ full:router.asus.com
 full:www.asusrouter.com
 
 # Cloudflare
-full:cp.cloudflare.com
+cp.cloudflare.com
 
 # Firefox
-full:detectportal.firefox.com
+detectportal.firefox.com
+
+# H3C
+# https://wwwsg.h3c.com/cn/d_202007/1316557_30005_0.htm#_Toc46214911
+full:oasisauth.h3c.com
 
 # KDE
 networkcheck.kde.org
 
+# MIUI
+full:connect.rom.miui.com
+
 # Mozilla Location Service
 location.services.mozilla.com
+
+# Mozilla Push Service
+push.services.mozilla.com
 
 # Netgear router
 # Reference: https://kb.netgear.com/27199/I-can-t-access-my-router-what-do-I-do
@@ -193,7 +207,6 @@ full:www.miwifi.com
 
 # ZTE router
 zte.home
-
 
 # Tailscale Magic DNS
 # Reference: https://tailscale.com/kb/1081/magicdns/#fully-qualified-domain-names-vs-machine-names

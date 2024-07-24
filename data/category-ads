@@ -48,13 +48,14 @@ include:spotify-ads
 include:supersonic-ads
 include:tagtic-ads
 include:tappx-ads
+include:television-ads
 include:tencent-ads
 include:uberads-ads
 include:umeng-ads
 include:unity-ads
 include:wteam-ads
 include:xhamster-ads
-include:xiaomitv-ads
+include:xiaomi-ads
 include:ximalaya-ads
 include:yahoo-ads
 include:youku-ads
