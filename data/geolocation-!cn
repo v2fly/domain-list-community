@@ -54,6 +54,7 @@ include:pagecdn
 include:quantil
 include:scaleflex
 include:stackpath
+include:wistia
 
 # Certificate authorities
 include:category-cas
