@@ -265,6 +265,7 @@ include:keep
 include:lagou
 include:ldmnq
 include:liepin
+include:linakesi
 include:mafengwo
 include:meitu
 include:moji
@@ -375,6 +376,7 @@ include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
 
+winos.me # WINOS 精简社区
 upe.net # 优启通官网
 suzuki-china.com # 铃木中国官网
 
@@ -408,6 +410,10 @@ include:youquan
 include:dingdatech
 # 北京聚通宝科技有限公司
 include:jutongbao
+# 杭州湖畔网络技术有限公司
+include:hupun
+# 北京艾斯酷科技有限公司
+include:aisiku
 
 
 # The following domains are carried over from geosite:cn.
@@ -1159,7 +1165,6 @@ qunar.com
 qunarzz.com
 qunjielong.com # 桂ICP备14006138号-2
 qyer.com
-rfchost.com
 rockyenglish.com
 rong360.com
 rtbasia.com

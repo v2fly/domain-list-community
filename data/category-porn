@@ -124,6 +124,7 @@ porn
 18doujin.com
 18doujinshi.xyz
 18exgfs.com
+18fby.com
 18h.mm-cg.com
 18h.tv
 18hmanga.click
@@ -138,7 +139,9 @@ porn
 18qt.com
 18sex.org
 18tube.xxx
+18ww.life
 18yiren.tv
+191porn.com
 1992qq.xyz
 1bigclub.com
 1bokeponline.top
@@ -316,6 +319,7 @@ porn
 8xxx.net
 90seconds.asia
 91avfuli.com
+91beiyong.com
 91cy.app
 91dy.club
 91fans.org
@@ -324,18 +328,7 @@ porn
 91md.me
 91moxiong.com
 91oo.xyz
-91porn.best
-91porn.com
-91porn.group
-91porn.party
-91porn.plus
-91porn.tw
-91porn.work
-91pornf.com
 91pornplus.com
-91pornv.com
-91pornx.com
-91porny.com
 91porny.store
 91qk41rf.com
 91quanji.com
@@ -345,6 +338,7 @@ porn
 91sesex.xyz
 91sew.xyz
 91sew40.buzz
+91vhome.com
 920share.com
 921bb.com
 922tp.com
@@ -647,6 +641,7 @@ apina.biz
 apornotube.net
 aporntv.com
 apornvideo.com
+app756.com
 appyq.com
 apyarstorybooks.blogspot.com
 aqdlt.net
@@ -765,6 +760,7 @@ avseesee.com
 avstar.me
 avwong.com
 avwto.com
+avxxc.com
 awflapp.top
 awjq.cc
 awwcn.buzz
@@ -1665,12 +1661,14 @@ fap666.com
 fapality.com
 fapcat.com
 fapdude.com
+fapello.com
 faperoni.com
 fapforfun.net
 faphdporn.com
 faphouse.com
 fapmovz.com
 fapnado.com
+fapomania.com
 fapopedia.net
 fappcelebs.com
 fappeningbook.com
@@ -2504,6 +2502,7 @@ hypnoporn.net
 hypnotube.com
 hzmn.net
 i69.com.tw
+i91dz.com
 iafd.com
 iavnight.com
 ibradome.com
@@ -2989,6 +2988,7 @@ lbfmaddiction.com
 lbtube.com
 lcgirls.com
 leakedmeat.com
+leakedzone.com
 leaksmodels.com
 leakxxx.com
 leliao1.com
@@ -3473,6 +3473,7 @@ naughtymachinima.com
 naughtysophie.com
 naughtywomenpics.com
 nbdh15.buzz
+nee4you.com
 needgayporn.com
 nekora.main.jp
 nekoxxx.com
@@ -3597,6 +3598,7 @@ nudistsexvideos.com
 nudistvoyeurbeach.com
 nudity911.com
 nudography.com
+nudostar.tv
 nuespournous.com
 nuita.net
 nukemanga.com
@@ -3816,6 +3818,7 @@ pmatehunter.com
 poisontube.com
 pojapp.cfd
 pojbayj1030.top
+pojie7.com
 pojiefuli20033.xyz
 pojiefuli9113.xyz
 ponyanimalsex.com
@@ -5152,6 +5155,7 @@ tw985.com
 twavking.com
 twcomix.com
 twhentai.com
+twidouga.net
 twifuli.com
 twinkboyfriends.tv
 twinkspornos.com
@@ -5966,6 +5970,7 @@ regexp:(^|\.)[a-z][1-9][0-9][a-z]\.com$
 regexp:(^|\.)[a-z]?fulibl\.(cc|com|org|net|xyz)$
 regexp:(^|\.)1[0-9]{2}\.one$
 regexp:(^|\.)13mei[5-7]\.buzz$
+regexp:(^|\.)18j[efg]\.life$
 regexp:(^|\.)18jmttios[0-9]{2}\.com$
 regexp:(^|\.)18tv[1-5]\.com$
 regexp:(^|\.)2024(3[0-9]|4[0-9]|6[0-9]|7[0-9])\.xyz$
@@ -5975,9 +5980,12 @@ regexp:(^|\.)69bag[0-1][1-9]?\.com$
 regexp:(^|\.)783([a-z][a-z]?)?\.tv$
 regexp:(^|\.)7mm0([0-1][0-9]?)?\.com$
 regexp:(^|\.)8dgo[1-57-9]\.com$
+regexp:(^|\.)91cg([1-9]|[0-9][1-9])?.com$
 regexp:(^|\.)91p[0-9][0-9]?\.com$
+regexp:(^|\.)91porn\.(best|com|cool|group|party|plus|site|tw|work)$
 regexp:(^|\.)91porn[0-9]{3}\.me$
 regexp:(^|\.)91porn[0-9]?\.store$
+regexp:(^|\.)91porn[fvxy]\.com$
 regexp:(^|\.)91sew1[1-6]\.buzz$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)99pp[1-9][0-9]\.com$
