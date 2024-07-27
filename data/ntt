@@ -9,8 +9,16 @@ ntt.com # NTT COMMUNICATIONS
 nttcom.co.jp # NTT COMWARE
 
 # Regional Communications Business
-ntt-east.co.jp # NTT東日本
-ntt-west.co.jp # NTT西日本
+## NTT東日本
+flets.com
+flets-east.jp # https://flets.com/next/setup.html
+ntt-east.co.jp
+v4flets-east.jp # https://flets.com/next/setup.html
+web116.jp
+
+## NTT西日本
+flets-w.com
+ntt-west.co.jp
 
 # Global Solutions Business
 nttdata.com #NTT DATA GROUP
