@@ -1,3 +1,6 @@
 # This tag 'speedtest' is for backward compatibility of 'geosite:speedtest' in V2Ray.
 
 include:ookla-speedtest
+
+speed.cloudflare.com
+fast.com
