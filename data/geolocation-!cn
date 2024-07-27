@@ -39,6 +39,7 @@ include:volvo
 include:dowjones
 include:mastercard
 include:paypal
+include:softbank
 include:stripe
 include:visa
 
@@ -58,9 +59,8 @@ include:stackpath
 # Certificate authorities
 include:category-cas
 
-# Communication
-include:ntt
-include:softbank
+# Communications
+include:category-communication
 
 # Cryptocurrency
 include:category-cryptocurrency
@@ -130,7 +130,6 @@ include:streamable
 # Forums & Social network
 include:category-forums
 include:category-social-media-!cn
-include:category-communication
 
 # IPFS
 include:category-ipfs
@@ -267,6 +266,9 @@ include:category-dev
 
 # Tech companies
 include:category-companies
+
+# Telecommunications
+include:ntt
 
 # Torrent websites
 include:1337x
