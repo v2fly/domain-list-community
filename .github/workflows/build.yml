@@ -7,11 +7,15 @@ on:
       - "**/README.md"
   pull_request:
     types: [synchronize]
+  workflow_dispatch:
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: code
+        shell: bash
     steps:
       - name: Checkout codebase
         uses: actions/checkout@v4
@@ -23,45 +27,21 @@ jobs:
         with:
           go-version-file: code/go.mod
 
-      - name: Set variables
-        run: |
-          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-        shell: bash
-
-      - name: Build dlc.dat file
-        run: |
-          cd code || exit 1
-          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
-          cd ../ && rm -rf code
-
-      - name: Generate dlc.dat sha256 hash
-        run: |
-          sha256sum dlc.dat > dlc.dat.sha256sum
-
-      - name: Generate Zip
-        run: |
-          zip -9 dlc.dat.zip dlc.dat
-          sha256sum dlc.dat.zip > dlc.dat.zip.sha256sum
-
-      - name: Generate XZ
-        run: |
-          xz -z -9 -k dlc.dat
-          sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
-
-      - name: Git push assets to "release" branch
-        run: |
-          git init
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b release
-          git add *.txt *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz
-          git commit -m "${{ env.RELEASE_NAME }}"
-          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -f -u origin release
+      - name: Build rules.dat file & Set variables
+        run: go run ./
 
       - name: Release and upload assets
-        run: |
-          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.*
+        run: gh release create $(date +%Y%m%d%H%M%S) --generate-notes --latest --title $(date +%Y%m%d%H%M%S) rules.dat
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: bad-proxy-go
+          path: rules.dat
+          overwrite: true
+      - name: Attest
+        uses: actions/attest-build-provenance@v1
+        with:
+          subject-path: 'rules.dat'
