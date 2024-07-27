@@ -15,11 +15,11 @@ import (
 type RuleType string
 
 const (
-	FULL    RuleType = "full"
 	DOMAIN  RuleType = "domain"
-	REGEXP  RuleType = "regexp"
 	INCLUDE RuleType = "include"
-	RULE    RuleType = "rule"
+	//REGEXP  RuleType = "regexp"
+	//FULL    RuleType = "full"
+	//RULE    RuleType = "rule"
 )
 
 type Entry struct {
@@ -152,15 +152,6 @@ func parseList(list *List, listRef map[string]*List) (*ParsedList, error) {
 	pl.Entry = entryList
 
 	return pl, nil
-}
-
-func readAllFromGob(gobName string) (allRules map[string]*ParsedList, err error) {
-	file, err := os.Open(gobName)
-	if err != nil {
-		return
-	}
-	err = gob.NewDecoder(file).Decode(&allRules)
-	return
 }
 
 func WriteAllToGob(dir string, gobName string) (err error) {
