@@ -322,6 +322,7 @@ episodic.com
 feedburner.com
 fflick.com
 financeleadsonline.com
+fitbit.com
 foofle.com
 froogle.com
 fuchsia.dev
@@ -626,8 +627,6 @@ full:goto.google.com @cn
 full:gstatic-cn.com @cn
 full:gstaticadssl.l.google.com @cn
 full:gtm.oasisfeng.com @cn
-full:gvt1-cn.com @cn
-full:gvt2-cn.com @cn
 full:imasdk.googleapis.com @cn
 full:monitoring.qatp1.net @cn
 full:monitoring.qcpp1.net @cn
@@ -734,3 +733,6 @@ full:uberproxy-with-cn.l.google.com @cn
 full:uberproxy-with-cn4.l.google.com @cn
 full:uberproxy-with-cn6.l.google.com @cn
 full:qiao-cn.com @cn
+
+gvt1-cn.com @cn
+gvt2-cn.com @cn

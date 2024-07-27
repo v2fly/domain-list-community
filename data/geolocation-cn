@@ -375,6 +375,7 @@ include:8btc
 include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
+include:haier
 
 winos.me # WINOS 精简社区
 upe.net # 优启通官网
@@ -414,6 +415,8 @@ include:jutongbao
 include:hupun
 # 北京艾斯酷科技有限公司
 include:aisiku
+# 上海圆贝信息科技有限公司
+include:yuanbei
 
 
 # The following domains are carried over from geosite:cn.
