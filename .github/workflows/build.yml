@@ -12,6 +12,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    permissions: write-all
     defaults:
       run:
         working-directory: code
@@ -39,9 +40,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: bad-proxy-go
-          path: rules.dat
+          path: code/rules.dat
           overwrite: true
       - name: Attest
         uses: actions/attest-build-provenance@v1
         with:
-          subject-path: 'rules.dat'
+          subject-path: code/rules.dat
