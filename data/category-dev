@@ -6,6 +6,7 @@ include:bootstrap
 include:braveux
 include:canonical
 include:category-container
+include:codeberg
 include:dart
 include:debian
 include:docker
@@ -25,7 +26,6 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
-include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
@@ -55,7 +55,6 @@ include:scala
 include:sourcehut
 include:stackexchange
 include:strikingly
-include:tencent-dev
 include:termux
 include:thelinuxfoundation
 include:topcoder
@@ -79,7 +78,6 @@ centos.org
 chocolatey.org
 clojure.org
 cnpmjs.org
-codeberg.org
 cygwin.com
 cython.org
 deno.land

@@ -5,7 +5,8 @@
 /domain-list-community.exe
 
 # Generated dat file.
-dlc.dat
+*.dat
+*.exe
 
 # Exported plaintext lists.
 /*.txt
