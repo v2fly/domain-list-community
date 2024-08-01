@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-07-10T08:20:30.072Z
-# Size: 2082
+# Last Updated: 2024-07-31T14:06:47.413Z
+# Size: 2096
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -10,6 +10,7 @@
 #########################################
 this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 s3.c.im
+img.m.mw
 s3.m.0x.mk
 i.mt.lv
 cdn.sc.gl
@@ -20,6 +21,7 @@ s3.acg.mn
 lain.bgm.tv
 registry.api.cnn.io
 ipfs.d.tube
+media.dev.to
 static.dw.com
 pl.ea.com
 cdn.mcr.ea.com
@@ -37,6 +39,8 @@ cdn.img.ly
 bot.ivy.ai
 webpack.js.org
 npmgraph.js.org
+storybook.js.org
+ipe-plugins.js.org
 npm.jsr.io
 gravity.jup.io
 static-cache.k2s.cc
@@ -59,8 +63,10 @@ cdn.s7s.ai
 images.spr.so
 ttl.sh
 static.ui.com
+cdn.ecomm.ui.com
 images.svc.ui.com
 cdn.pkg.svc.ui.com
+assets.ecomm.ui.com
 img.community.ui.com
 secure-uploads.ui.com
 account-cdn.svc.ui.com
@@ -91,7 +97,6 @@ seal-newyork.bbb.org
 cdn.bfe.dev
 static.bit.dev
 bmp.ovh
-formulae.brew.sh
 assets.bwbx.io
 ajax.cat.net
 cdnjs.cat.net
@@ -350,6 +355,7 @@ s3.arkjp.net
 static.arxiv.org
 cdn.auth0.com
 static-clst.avgle.com
+in.applicationinsights.azure.com
 amp.azure.net
 linuxiac.b-cdn.net
 panel-production-libs.b-cdn.net
@@ -462,6 +468,7 @@ assets.monei.com
 static.monei.net
 staticassets.music.com
 nest.land
+image-forwarder.notaku.so
 npmfs.com
 skimdb.npmjs.com
 static.npmjs.com
@@ -502,6 +509,7 @@ assets.safing.io
 cdn.sanity.io
 sb-cd.com
 cdn.sellix.io
+ingest.sentry.io
 cf.shopee.tw
 files.slack.com
 cdn.smooch.io
@@ -524,6 +532,7 @@ assets.upload.io
 fonts.upset.dev
 uvcdn.com
 v-cdn.net
+openapi.vercel.sh
 gitpkg-fork.vercel.sh
 api-frameworks.vercel.sh
 vetted.ai
@@ -980,6 +989,7 @@ stubdownloader.services.mozilla.com
 cdn.mozilla.net
 itsre-sumo.mozilla.net
 archive.mozilla.org
+versioncheck-bg.addons.mozilla.org
 cdn.myfonts.net
 ipfs.namebase.io
 iframe.nbcnews.com
@@ -988,10 +998,6 @@ netlify.app
 ngfiles.com
 i.nhentai.net
 t.nhentai.net
-t2.nhentai.net
-t3.nhentai.net
-t5.nhentai.net
-t7.nhentai.net
 static.nhentai.net
 nordcdn.com
 oktacdn.com
@@ -1005,7 +1011,6 @@ img.perfops.net
 permaweb.io
 cdn.pixabay.com
 www.pngmart.com
-polyfill.io
 pornimg.xyz
 pravatar.cc
 pstatic.net
@@ -1032,7 +1037,7 @@ sdk.snapkit.com
 static.snaptube.in
 sqspcdn.com
 static.srcspot.com
-cdn.sstatic.net
+sstatic.net
 assets.st-note.com
 stripst.com
 wpmedia.tealium.com
@@ -1088,6 +1093,7 @@ yelpcdn.com
 cdne-pics.youjizz.com
 img.youtube.com
 web-assets.zendesk.com
+ziglang.org
 zohocdn.com
 4everland.io
 static.addtoany.com
@@ -1356,6 +1362,7 @@ edgestorewebcdn.azureedge.net
 edgeassetservice.azureedge.net
 edge-mobile-static.azureedge.net
 edge-consumer-static.azureedge.net
+cdn.babylonjs.com
 secure.beer7live.com
 img.bigcloud.cyou
 js-cdn.blockchair.io
@@ -1482,6 +1489,7 @@ static.spankbang.com
 stackblitz.io
 content-prod-live.cert.starbucks.com
 proxy.startpage.com
+proxy2.startpage.com
 eu-proxy.startpage.com
 eu-browse.startpage.com
 statically.io
@@ -1548,6 +1556,7 @@ cdnjs.cloudflare.com
 static.dash.cloudflare.com
 cf-assets.www.cloudflare.com
 favicons.teams.cloudflare.com
+privacy-gateway.cloudflare.com
 cloudfront.net
 res.cloudinary.com
 fiverr-res.cloudinary.com
@@ -1634,6 +1643,7 @@ design.mayoclinic.org
 assets.mozilla.social
 mypinata.cloud
 myshopapps.com
+static.mytonwallet.io
 nelreports.net
 cdn.nerdschalk.com
 netdna-ssl.com
@@ -1726,6 +1736,7 @@ cdn.dotaoutpost.com
 live.fanmingming.com
 static.fasthosts.co.uk
 ohttp-relay1.fastly-edge.com
+google-ohttp-relay-safebrowsing.fastly-edge.com
 firebaseapp.com
 fontawesome.com
 static.foxbusiness.com
@@ -1846,6 +1857,7 @@ usercontent.dev
 usercontent.one
 app.viral-loops.com
 local.webcontainer.io
+webpkgcache.com
 files.writefreely.org
 img2.xiangbinjun.com
 xvideos-cdn.com
@@ -1961,6 +1973,7 @@ sig.grumpybumpers.com
 highwinds-cdn.com
 imagedelivery.net
 static.independent.co.uk
+cdn.joincommunity.xyz
 img3.lltaohuaxiang.com
 asset.mansionglobal.com
 mvnrepository.com
@@ -2012,6 +2025,7 @@ images.opencollective.com
 next-images.opencollective.com
 gateway.originprotocol.com
 web-assets.otogi-frontier.com
+polyfill-fastly.io
 api.pwnedpasswords.com
 safebrowsing.apple
 image.theblockbeats.info
