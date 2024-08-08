@@ -48,6 +48,8 @@ full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
 
+# FASTLY CDN 直连
+fastly.cdn.steampipe.steamcontent.com @cn
 
 # 完美
 csgo.wmsj.cn @cn
