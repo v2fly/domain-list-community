@@ -54,8 +54,10 @@ include:upai
 include:wangsu
 include:yunfanjiasu
 
+antpcdn.com
 funcdn.com
 leigod.cn
+weilayun.com
 
 # E-commerce
 include:58tongcheng
@@ -178,8 +180,8 @@ llsserver.com
 
 # 百词斩
 baicizhan.com
-baicizhan.org  
-bczcdn.com     
+baicizhan.org
+bczcdn.com
 bczeducation.cn
 
 # 小站教育
@@ -283,6 +285,7 @@ include:zdns
 include:zhangtao
 
 mihuashi.com # 米畫師
+weathercn.com  # 华风爱科气象科技
 
 # Tower 团队协作
 tower.im
@@ -326,7 +329,11 @@ include:xiaomi
 include:xunlei
 include:zte
 
+51togic.com # 泰捷电视盒子
 ezpro.pro # 小马路由
+smartmidea.net # 美的
+midea.com # 美的
+msmartlife.cn # 美的
 
 # Telecommunication
 include:chinabroadnet
