@@ -7,6 +7,7 @@ include:firebase
 include:flutter
 include:golang
 include:google-ads
+include:google-gemini
 include:google-registry
 include:google-scholar
 include:google-trust-services
