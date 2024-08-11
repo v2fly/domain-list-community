@@ -40,6 +40,7 @@ include:ookla-speedtest-ads
 include:openx-ads
 include:pocoiq-ads
 include:pubmatic-ads
+include:qihoo360-ads
 include:segment-ads
 include:sensorsdata-ads
 include:sina-ads
