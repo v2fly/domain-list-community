@@ -18,6 +18,11 @@ include:springer
 include:taylorfrancis
 include:z-library
 
+usenix.org
+sigcomm.org
+sigops.org
+hotcrp.com
+openreview.net
 aacrjournals.org # AACR 美国癌症研究学会
 academic.eb.com # Britannica Academic
 acaric.co.jp # 株式会社アカリク
@@ -43,6 +48,7 @@ aps.org # American Physical Society Sites
 arabidopsis.org
 artstor.org # ARTstor Digital Library 艺术图像数据库
 arxiv.org
+alphaxiv.org
 ascelibrary.org # American Society of Civil Engineers 美国土木工程师学会
 asha.org
 asm.org # The American Society for Microbiology 美国微生物学会
