@@ -4,5 +4,6 @@ notion.new
 notion.site
 notion.so
 
-full:o324374.ingest.sentry.io
-full:http-inputs-notion.splunkcloud.com
+# tracking
+full:o324374.ingest.sentry.io @ads
+full:http-inputs-notion.splunkcloud.com @ads
