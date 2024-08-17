@@ -2,6 +2,21 @@
 # https://icannwiki.org/Country_code_top-level_domain
 # https://www.101domain.com/branded_domains.htm
 
+## DO NOT RE-INTRODUCE!
+## refer to: https://domain.miit.gov.cn/managerdns/index
+## credit to @mayampi01
+# asia  # Asia-Pacific region
+# baby  # Baby
+# chase  # JPMorgan Chase & Co.
+# chat  # Chat
+# hk  # Hong Kong
+# jpmorgan  # JPMorgan Chase & Co.
+# poker  # Poker
+# quest  # Quest ION Limited
+# saxo  # Saxo Bank A/S
+# tv  # Tuvalu
+# xn--j6w193g  # 香港 Hong Kong SAR, People's Republic of China
+
 include:google-registry-tld
 
 # Used by U.S. federal government
