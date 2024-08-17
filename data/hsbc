@@ -28,7 +28,10 @@ hsbc.com.au
 hsbc.com.bd
 hsbc.com.bh
 hsbc.com.br
-hsbc.com.cn
+
+## HSBC CN
+include:hsbc-cn
+
 hsbc.com.eg
 hsbc.com.hk
 hsbc.com.mo

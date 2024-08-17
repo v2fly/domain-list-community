@@ -271,6 +271,7 @@ include:meitu
 include:moji
 include:nowcoder
 include:polyv
+include:qweather
 include:renren
 include:tendcloud
 include:vaptcha
@@ -375,6 +376,7 @@ include:8btc
 include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
+include:haier
 
 winos.me # WINOS 精简社区
 upe.net # 优启通官网
@@ -389,6 +391,15 @@ ycrx360.com
 jikeiot.cloud
 
 zyh365.com # 志愿汇
+
+# 中国气象局政府门户网站
+cma.gov.cn
+# 中国气象局
+cma.cn
+# 中央气象台
+nmc.cn
+# 央广网
+cnr.cn
 
 # 青年大学习
 ## 北京中青在线网络信息技术有限公司 (京ICP备16062000号)
@@ -414,6 +425,8 @@ include:jutongbao
 include:hupun
 # 北京艾斯酷科技有限公司
 include:aisiku
+# 上海圆贝信息科技有限公司
+include:yuanbei
 
 
 # The following domains are carried over from geosite:cn.
@@ -1174,6 +1187,7 @@ rzrc114.com
 saibo.com
 sanguosha.com
 sanwen.net
+sast.fun
 scdng.com
 scoregg.com
 sczsxx.com
@@ -1212,6 +1226,7 @@ simei8.com
 simuwang.com
 sinesafe.com
 sjwyx.com
+skimit.net
 skycn.com
 sllssrq.com
 snimay.com
@@ -1519,8 +1534,31 @@ wss.zone
 
 hisensehitachi.com #海信日立官网
 
-#仟寻招聘
+#  仟寻招聘
 moseeker.com
 
 # 东郊到家
 include:dongjiao
+
+# 建始网 鄂ICP备05004864号-1
+jsw118.com
+
+# 陕西城乡劳动就业网 陕ICP备19016945号-1
+sxcxldjy.com
+
+# 陕西建筑资质代办 陕ICP备17011269号
+shanxijianzhuzizhi.com
+
+# 晋中广播电视台视听网 晋ICP备08003098号-3
+jztvnews.com
+
+# 纬横数据 鲁ICP备17051601号-1
+vhengdata.com
+
+# 南岳新闻网 湘ICP备2022008426号-2
+nanyuenews.com
+
+# 湖南智擎科技有限公司
+educoder.net
+tokcoder.com
+trustie.net
