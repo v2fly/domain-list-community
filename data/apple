@@ -786,6 +786,15 @@ full:streamingaudio.itunes.apple.com @cn
 full:su.itunes.apple.com @cn
 full:sync.itunes.apple.com @cn
 full:upp.itunes.apple.com @cn
+full:pd-nk.itunes.apple.com @cn
+full:myapp.itunes.apple.com @cn
+full:tf-feedback.itunes.apple.com @cn
+full:np-edge.itunes.apple.com @cn
+full:misc-assets.itunes.apple.com @cn
+full:www.support.apple.com @cn
+full:play.music.apple.com @cn
+full:auth.music.apple.com @cn
+full:amp-api.music.apple.com @cn
 
 regexp:^a[1-5]\.mzstatic\.com$ @cn
 regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
@@ -870,7 +879,7 @@ full:gspe79-cn-ssl.ls.apple.com @cn
 full:guzzoni-apple-com.v.aaplimg.com @cn
 full:guzzoni.apple.com @cn
 full:guzzoni.smoot.apple.com @cn
-iadsdk.apple.com @cn
+# iadsdk.apple.com This has already been defined in apple-ads, so ignore it here.
 full:icloud-cdn.icloud.com.akadns.net @cn
 full:icloud.cdn-apple.com @cn
 full:images.apple.com.akadns.net @cn
@@ -899,13 +908,13 @@ full:is4.mzstatic.com @cn
 full:is5-ssl.mzstatic.com @cn
 full:is5.mzstatic.com @cn
 full:itunes-apple.com.akadns.net @cn
-itunes.apple.com @cn
+full:itunes.apple.com @cn
 full:itunesconnect.apple.com @cn
 full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
 full:ml.cdn-apple.com @cn
-music.apple.com @cn
+full:music.apple.com @cn
 full:ocsp-lb.apple.com.akadns.net @cn
 full:ocsp2-lb.apple.com.akadns.net @cn
 full:ocsp.apple.com @cn
@@ -933,11 +942,11 @@ full:stocks-sparkline-lb.apple.com.akadns.net @cn
 full:stocks-sparkline.apple.com @cn
 full:store.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:store.apple.com.edgekey.net @cn
-store.apple.com @cn
+full:store.apple.com @cn
 full:store.storeimages.apple.com.akadns.net @cn
 full:store.storeimages.cdn-apple.com @cn
 full:support-china.apple-support.akadns.net @cn
-support.apple.com @cn
+full:support.apple.com @cn
 full:swallow-apple-com.v.aaplimg.com @cn
 full:swallow.apple.com @cn
 full:swcatalog-cdn.apple.com.akadns.net @cn
@@ -960,7 +969,7 @@ full:weather-data.apple.com @cn
 full:weather-map.apple.com @cn
 full:weather-map2.apple.com @cn
 full:weatherkit.apple.com @cn
-xp.apple.com @cn
+full:xp.apple.com @cn
 full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:www.apple.com.edgekey.net @cn
 full:www.apple.com @cn
