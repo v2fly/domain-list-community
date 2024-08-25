@@ -2,6 +2,21 @@
 # https://icannwiki.org/Country_code_top-level_domain
 # https://www.101domain.com/branded_domains.htm
 
+## DO NOT RE-INTRODUCE!
+## refer to: https://domain.miit.gov.cn/managerdns/index
+## credit to @mayampi01
+# asia  # Asia-Pacific region
+# baby  # Baby
+# chase  # JPMorgan Chase & Co.
+# chat  # Chat
+# hk  # Hong Kong
+# jpmorgan  # JPMorgan Chase & Co.
+# poker  # Poker
+# quest  # Quest ION Limited
+# saxo  # Saxo Bank A/S
+# tv  # Tuvalu
+# xn--j6w193g  # 香港 Hong Kong SAR, People's Republic of China
+
 include:google-registry-tld
 
 # Used by U.S. federal government
@@ -101,7 +116,6 @@ gt # Guatemala
 gu # Guam
 gw # Guinea-Bissau
 gy # Guyana
-hk # Hong Kong
 hm # Heard Island and McDonald Islands
 hn # Honduras
 hr # Croatia
@@ -233,7 +247,6 @@ tn # Tunisia
 to # Tonga
 tr # Turkey
 tt # Trinidad & Tobago
-tv # Tuvalu
 tw # Taiwan (Republic of China)
 tz # Tanzania
 ua # Ukraine
@@ -308,7 +321,6 @@ joburg     # Johannesburg, South Africa
 ## Asia
 abudhabi   # Abu Dhabi
 arab       # Leagueof Arab States
-asia       # Asia-Pacific region
 dubai      # Dubai
 krd        # Kurdistan
 kyoto      # Kyoto, Japan
@@ -433,13 +445,11 @@ zara # Inditex, SA
 africamagic # Electronic Media Network Limited
 agakhan # Aga Khan Foundation
 akdn # Aga Khan Foundation
-baby # Baby
 bar # A place which provide liquor
 bharti # Bharti Enterprises
 bingo # Bingo
 casa # Casa (Home)
 casino # Online Casino
-chat # Chat
 dating # Dating
 domains # Domain Name Register
 extraspace # Extra Space Storage LLC
@@ -452,7 +462,6 @@ lgbt # Lesbian, Gay, Bisexual, Transgender
 maif # Mutuelle Assurance Instituteur France (MAIF)
 mattel # Mattel Sites, Inc.
 moe # Japanese slang
-poker # Poker
 sas # SAS institute
 shell # Shell Information Technology International Inc
 shia # Shia Muslim community
@@ -513,7 +522,6 @@ xn--e1a4c  #  ею European Union
 xn--qxa6a  #  ευ European Union
 xn--node  #  გე Georgia
 xn--qxam  #  ελ Greece
-xn--j6w193g  #  香港 Hong Kong SAR, People's Republic of China
 xn--4dbrk0ce  #  ישראל Israel
 xn--h2brj9c  #  भारत India
 xn--mgbbh1a71e  #  بھارت India
@@ -640,7 +648,6 @@ bradesco # Banco Bradesco S.A.
 capitalone # Capital One Financial Corporation
 cba # Commonwealth Bank of Australia
 cfa # CFA Institute
-chase # JPMorgan Chase & Co.
 citadel # Citadel, LLC
 citi # Citigroup Inc.
 commbank # Commonwealth Bank of Australia
@@ -653,7 +660,6 @@ hsbc # HSBC Bank
 itau # Itau Unibanco Holding S.A.
 jcb # JCB Co., Ltd.
 jll # Jones Lang LaSalle Incorporated
-jpmorgan # JPMorgan Chase & Co.
 kfh # Kuwait Finance House
 kpmg # KPMG International Cooperative
 lacaixa # La Caixa
@@ -670,7 +676,6 @@ pramerica # Prudential Financial, Inc.
 prudential # Prudential Financial, Inc.
 pru # Prudential Financial, Inc.
 pwc # PwC Business Trust
-saxo # Saxo Bank A/S
 sbi # State Bank of India
 scb # The Siam Commercial Bank Public Company Limited
 softbank # Softbank Corporation
@@ -797,7 +802,6 @@ oracle # Oracle Corporation
 orange # Orange Brand Services Limited
 ovh # OVH SAS
 pccw # PCCW Enterprises Limited
-quest # Quest ION Limited
 richardli # Pacific Century Asset Management (HK) Limited
 ricoh # Ricoh Company, Ltd.
 rogers # Rogers Communications Partnership

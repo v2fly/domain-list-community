@@ -1,6 +1,7 @@
 include:boc
 include:ccb
 include:cmb
+include:hsbc-cn
 include:icbc
 include:unionpay
 
@@ -14,7 +15,6 @@ cgbchina.com.cn
 cib.com.cn
 citibank.com.cn
 cmbc.com.cn
-hsbc.com.cn
 hxb.com.cn
 njcb.com.cn
 psbc.com

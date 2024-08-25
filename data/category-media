@@ -1,6 +1,5 @@
 include:6park
 include:9news
-include:9to5
 include:afp
 include:aljazeera
 include:ap
@@ -60,7 +59,6 @@ include:singtaonewscorp
 include:sky
 include:theguardian
 include:theinitium
-include:thetype
 include:thomsonreuters
 include:tokyo-sports
 include:tvb
@@ -70,16 +68,16 @@ include:voanews
 include:voxmedia
 include:wantmedia
 include:watchout
-include:ycombinator
 include:yomiuri
 include:zaobao
 include:zee
+
+include:category-tech-media
 
 
 881903.com
 am730.com.hk
 americasvoice.news
-appleinsider.com
 axios.com
 bbgwatch.com
 bnext.com.tw
@@ -118,7 +116,6 @@ landofhope.tv
 limedia.tw
 localpresshk.com
 ltsports.com.tw
-macrumors.com
 mdnkids.com
 mirrormedia.com.tw
 mirrormedia.mg
@@ -143,12 +140,10 @@ rtings.com
 shuziyimin.org
 singpao.com.hk
 sinoinsider.com
-slashdot.org
 socrec.org
 storm.mg
 taipeitimes.com
 taiwannews.com.tw
-technews.tw
 theaffairs.com
 theatlantic.com
 thegatewaypundit.com
