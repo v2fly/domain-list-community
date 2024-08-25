@@ -23,6 +23,14 @@ This project manages a list of domain.
 
 ```geosite:nojp-proxy```
 > List from personal clash rule. Recommended outside Japan.
+
+```geosite:emby-s ```
+>  Domain list of some emby servers.
+
+```geosite:geolocation-!cn```
+
+> \+ offcloud.com
+
 ## 個人用リスト
 ```geosite:reject-list```
 > include : ```geosite:anti-ad``` ```geosite:category-ads-all``` 
@@ -34,6 +42,8 @@ This project manages a list of domain.
 ```geosite:normal-proxy``` PROXY
 
 ```geosite:nojp-proxy``` addproxy
+
+```geosite:emby-s ``` emby servers
 
 ## Generate `geosite.dat` manually
 
