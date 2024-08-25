@@ -2,6 +2,7 @@ include:category-httpdns
 include:anti-ad
 include:category-ads-all
 include:skk-reject
+include:falungong
 
 # nox ads
 appcenter-api.bignox.com
