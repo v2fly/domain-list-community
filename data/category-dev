@@ -37,7 +37,6 @@ include:microsoft-dev
 include:mongodb
 include:nginx
 include:nixos
-include:openai
 include:openwrt
 include:osdn
 include:perl
