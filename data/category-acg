@@ -1,5 +1,30 @@
+include:abema
+include:acfun @cn
+include:anime
+include:bahamut
+include:bilibili @cn
+include:dlsite
+include:dmzj @cn
+include:manhuagui
+include:mfuns @cn
+include:miaopai @cn
+include:niconico
+include:pixiv
+include:sfacg @cn
+include:volmoe
+
 # Game
-colorfulstage.com
+include:bluearchive
+include:cygames
+include:illusion
+include:kurogames @cn
+include:lowiro
+include:mihoyo
+include:nexon
+include:nikke
+include:projectsekai
+include:purikonejp
+include:seasun @cn
 
 # Idol
 crypton.co.jp
