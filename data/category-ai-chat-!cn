@@ -4,4 +4,9 @@ include:openai
 include:poe
 include:xai
 
+# notebooklm
+notebooklm.google
+notebooklm.google.com
+
 meta.ai
+openart.ai
