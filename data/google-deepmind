@@ -1,14 +1,19 @@
-# A list of domains for Google Gemini(or Google AI).
-
-# deepmind
+# Google DeepMind
 deepmind.com
 deepmind.google
 
-ai.google.dev
+# Google Generative Language API
+geller-pa.googleapis.com
+generativelanguage.googleapis.com
+proactivebackend-pa.googleapis.com
+
+# Google AI Studio
+full:ai.google.dev
+full:alkalicore-pa.clients6.google.com
+full:alkalimakersuite-pa.clients6.google.com
+generativeai.google
+makersuite.google.com
+
 aistudio.google.com
 bard.google.com
 gemini.google.com
-generativelanguage.googleapis.com
-makersuite.google.com
-
-full:alkalimakersuite-pa.clients6.google.com
