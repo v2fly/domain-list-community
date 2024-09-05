@@ -4,6 +4,9 @@
 include:jiguang
 include:umeng
 
+# AI
+include:category-ai-cn
+
 # Aviation
 include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
