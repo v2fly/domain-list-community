@@ -198,9 +198,6 @@ ghxi.com
 # Logistics
 include:sf-express
 
-# MC百科
-mcmod.cn
-
 # Media & News & Press
 include:category-media-cn
 
@@ -330,11 +327,6 @@ include:chinabroadnet
 include:chinamobile
 include:chinatelecom
 include:chinaunicom
-
-# Wiki
-jikipedia.com
-qiuwen.wiki
-shidianbaike.com
 
 # 信息学
 include:51nod
@@ -1188,7 +1180,6 @@ scdng.com
 scoregg.com
 sczsxx.com
 sdo.com
-sec-wiki.com
 sencdn.com
 seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
