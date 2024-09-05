@@ -167,28 +167,6 @@ inftab.com
 ip138.com
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
 
-# 快对作业
-kuaiduizuoye.com
-
-# 流利说
-liulishuo.com
-llsapp.com
-llscdn.com
-llsserver.com
-
-# 百词斩
-baicizhan.com
-baicizhan.org  
-bczcdn.com     
-bczeducation.cn
-
-# 小站教育
-zhan.com
-
-# Burning Vocabulary
-burningvocabulary.cn
-burningvocabulary.com
-
 # 423Down
 423down.com
 
@@ -225,7 +203,6 @@ include:lkcoffee
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning & Education
 include:category-education-cn
-include:category-mooc-cn
 include:category-scholar-cn
 include:category-wiki-cn
 include:cugbonline
@@ -762,8 +739,6 @@ ebico.com
 ebrun.com
 ecitic.com
 ecjobhome.com
-edu.cn
-eduei.com
 eeyy.com
 eflycloud.com
 elecfans.com
@@ -1105,7 +1080,6 @@ oicq88.com
 okooo.com
 ol-cdn.com
 ol-img.com
-oldboyedu.com
 oneapm.com
 onegreen.net
 oneyac.com
