@@ -195,6 +195,7 @@ include:qweather
 include:renren
 include:tendcloud
 include:vaptcha
+include:weathercn
 include:wiwide
 include:wjx
 include:wolai
