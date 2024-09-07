@@ -79,6 +79,9 @@ include:vancl
 include:youzan
 include:ziroom
 
+# Entertainment & Videos & Games & Music & Podcasts
+include:category-entertainment-cn
+
 # Forums
 include:chiphell
 include:erji
