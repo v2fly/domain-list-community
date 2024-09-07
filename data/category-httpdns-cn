@@ -1,0 +1,68 @@
+# Aliyun
+httpdns-api.aliyuncs.com @ads
+httpdns-sc.aliyuncs.com @ads
+httpdns.alicdn.com @ads
+
+# Baidu
+httpdns.baidu.com @ads
+httpdns.baidubce.com @ads
+httpdns.bcelive.com @ads
+httpdns.n.shifen.com @ads
+httpsdns.baidu.com @ads
+
+# Huawei Cloud
+httpdns-browser.platform.dbankcloud.cn @ads
+httpdns.c.cdnhwc2.com @ads
+httpdns.huaweicloud.com @ads
+httpdns.platform.dbankcloud.cn @ads
+httpdns.platform.dbankcloud.com @ads
+httpdns1.cc.cdnhwc5.com @ads
+
+# iqiyi
+dns.iqiyi.com @ads
+dns.qiyipic.iqiyi.com @ads
+doh.iqiyi.com @ads
+
+# Kuaishou
+hdns.ksyun.com @ads
+kuaishou.httpdns.pro @ads
+
+# Meituan
+httpdns.meituan.com @ads
+httpdnsvip.meituan.com @ads
+
+# NetEase
+httpdns-sdk.n.netease.com @ads
+httpdns.music.163.com @ads
+httpdns.n.netease.com @ads
+lofter.httpdns.c.163.com @ads
+music.httpdns.c.163.com @ads
+
+# Oppo
+httpdns.push.oppomobile.com @ads
+httpdns.ocloud.oppomobile.com @ads
+
+# Tencent
+dns.weixin.qq.com @ads
+dns.weixin.qq.com.cn @ads
+httpdns.kg.qq.com @ads
+
+# HeyTap
+httpdns.ocloud.heytapmobi.com @ads
+httpdns.push.heytapmobi.com @ads
+
+apidns.kwd.inkuai.com @ads
+dns.jd.com @ads
+dns.weibo.cn @ads
+doh.ptqy.gitv.tv @ads
+dotserver.douyucdn.cn @ads
+httpdns.bilivideo.com @ads
+httpdns.browser.miui.com @ads
+httpdns.cctv.com @ads
+httpdns.danuoyi.tbcache.com @ads
+httpdns.gslb.yy.com @ads
+httpdns.kwd.inkuai.com @ads
+httpdns.pro @ads
+httpdns.volcengineapi.com @ads
+httpdns.yunxindns.com @ads
+httpdns.zybang.com @ads
