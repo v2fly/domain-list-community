@@ -1,3 +1,5 @@
+include:category-ntp
+
 # References:
 # https://www.iana.org/assignments/special-use-domain-names/special-use-domain-names.xhtml
 # https://unix.stackexchange.com/questions/92441/whats-the-difference-between-local-home-and-lan
