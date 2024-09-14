@@ -7,6 +7,7 @@ include:firebase
 include:flutter
 include:golang
 include:google-ads
+include:google-deepmind
 include:google-gemini
 include:google-play
 include:google-registry
@@ -315,7 +316,6 @@ dartsearch.net
 dataliberation.org
 debug.com
 debugproject.com
-deepmind.com
 devsitetest.how
 dialogflow.com
 digitalassetlinks.org
