@@ -198,6 +198,7 @@ include:qweather
 include:renren
 include:tendcloud
 include:vaptcha
+include:weathercn
 include:wiwide
 include:wjx
 include:wolai
@@ -247,6 +248,7 @@ include:xunlei
 include:zte
 
 ezpro.pro # 小马路由
+51togic.com # 泰捷WEBOX
 
 # Telecommunication
 include:chinabroadnet
@@ -275,7 +277,9 @@ include:8btc
 include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
+include:gree
 include:haier
+include:midea
 
 winos.me # WINOS 精简社区
 upe.net # 优启通官网
@@ -601,7 +605,6 @@ cubead.com
 cwxzx.com
 cyagen.com
 cybtc.com
-cyol.com
 cyts.com
 cztv.com
 cztvcloud.com
@@ -670,7 +673,6 @@ eastsoo.com
 eayyou.com
 ebico.com
 ebrun.com
-ecitic.com
 ecjobhome.com
 eeyy.com
 eflycloud.com
@@ -727,7 +729,6 @@ golue.com
 gongxiangcj.com
 goosail.com
 goufw.com
-gree.com
 greenxiazai.com
 growingio.com
 gtags.net
@@ -824,7 +825,6 @@ iyiou.com
 izuche.com
 jandan.net
 jb51.com
-jdair.net
 jia.com
 jiameng.com
 jianbihua.com
@@ -844,7 +844,6 @@ jinrongren.net
 jinse.com
 jinti.com
 jiqizhixin.com
-jisuanke.com
 jisuxia.com
 jiuzhilan.com
 jj20.com
@@ -912,7 +911,6 @@ libaclub.com
 lieyunwang.com
 lightonus.com
 likuso.com
-lingkou.com
 linkvans.com
 linsn.com
 linuxidc.com
@@ -930,7 +928,6 @@ longzhu.com
 lotpc.com
 loupan.com
 lu.com
-luckyair.net
 lufax.com
 lufaxcdn.com
 lunwengo.net
@@ -938,7 +935,6 @@ luyouqi.com
 lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
 lxway.com
-magedu.com
 maisanqi.com
 mamecn.com
 manhuatai.com
@@ -970,9 +966,6 @@ mmbang.com
 mmbang.info
 mofang.com
 mofazhu.com
-mogu.com
-mogucdn.com
-mogujie.com
 mokahr.com
 moleecel.com
 moocollege.com
@@ -994,8 +987,6 @@ newasp.net
 newbandeng.com
 newyx.net
 noknok.cn
-nowcoder.com
-nowcoder.net
 nowscore.com
 nruan.com
 ntalker.com
@@ -1017,7 +1008,6 @@ onlinedown.net
 onlinesjtu.com
 onlylady.com
 opdown.com
-oray.com
 ottcn.com # 津ICP备12004891号-2
 oupeng.com
 p2peye.com
@@ -1126,7 +1116,6 @@ sofreight.com
 softwhy.com
 sojson.com
 somode.com
-soso.com
 souqian.com
 southmoney.com
 sparkletour.com
@@ -1134,7 +1123,6 @@ springtour.com
 ssports.com
 starbaby.cc
 starbaby.com
-stockstar.com
 sun0769.com
 sunrtb.com
 supermap.com
@@ -1201,7 +1189,6 @@ veryhuo.com
 veryzhun.com
 vic18.com
 videojj.com
-vijos.org
 vip.com
 vobao.com
 vpgame.com
@@ -1214,7 +1201,6 @@ wanyx.com
 wdjimg.com
 wdzj.com
 weand.com
-webterren.com
 weicaifu.com
 weidian.com
 weilaicaijing.com
@@ -1267,7 +1253,6 @@ xiaoyuxitong.com
 xiayx.com
 xiazaiba.com
 xingjiesj.com
-xinhuanet.com
 xinrenxinshi.com
 xinshipu.com
 xingtan001.com
