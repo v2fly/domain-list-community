@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-08-31T18:21:04.492Z
-# Size: 2188
+# Last Updated: 2024-09-14T14:43:06.199Z
+# Size: 2281
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -23,6 +23,7 @@ registry.api.cnn.io
 ipfs.d.tube
 media.dev.to
 static.dw.com
+consent.dw.com
 pl.ea.com
 cdn.mcr.ea.com
 media.contentapi.ea.com
@@ -31,6 +32,9 @@ esm.sh
 dweb.eu.org
 permaweb.eu.org
 genesis-cdn.ff.com
+static.ffx.io
+consent-notice.ft.com
+consent-manager.ft.com
 gcr.io
 gcr.si
 cdn.registerdisney.go.com
@@ -39,10 +43,7 @@ i.ibb.co
 image.ibb.co
 cdn.img.ly
 bot.ivy.ai
-webpack.js.org
-npmgraph.js.org
-storybook.js.org
-ipe-plugins.js.org
+js.org
 npm.jsr.io
 gravity.jup.io
 static-cache.k2s.cc
@@ -95,9 +96,11 @@ ipfs.1-2.dev
 4gtvimg2.4gtv.tv
 9191.ga
 99av.tv
+adkit.9pub.io
 content.any.run
 static2.avg.com
 seal-newyork.bbb.org
+gn-web-assets.api.bbc.com
 cdn.bfe.dev
 static.bit.dev
 bmp.ovh
@@ -107,6 +110,7 @@ cdnjs.cat.net
 fonts.cat.net
 gravatar.cat.net
 media.cnn.com
+proxy.cors.sh
 csb.app
 pkg.csb.dev
 cdn.css.net
@@ -118,6 +122,7 @@ cdn3.dan.com
 docs.rs
 image.dooo.ng
 media.e4le.me
+public.ecr.aws
 esm.run
 aimg.fc2.com
 media.fc2.com
@@ -144,6 +149,7 @@ pomf2.lain.la
 snippet.maze.co
 oss.moe.cat
 assets.msn.com
+mui.com
 cfcdn.mux.com
 ca.nfs.pub
 cdn.nimg.jp
@@ -173,6 +179,7 @@ cdn.plot.ly
 cdn.plyr.io
 pnpm.io
 pztv.ca
+quay.io
 r.r10s.jp
 ias.r10s.jp
 redd.it
@@ -200,9 +207,11 @@ v2ex.co
 registry-cdn.wapm.io
 web.app
 webp.se
+pbc.wsj.com
 m.wsj.net
 s.wsj.net
 vir.wsj.net
+sts3.wsj.net
 images.wsj.net
 optimizely.wsj.net
 ovo.wxw.moe
@@ -236,8 +245,10 @@ ipfs.busy.org
 c-dn.net
 assets.canny.io
 assets2.canny.io
+at.cbsi.com
 production-cmp.isgprivacy.cbsi.com
 media.ci-en.jp
+zephr-templates.cnbc.com
 sf-coze-web-cdn.coze.com
 load.csell.co
 cthd.icu
@@ -372,11 +383,15 @@ npm.antfu.dev
 pba.apple.com
 ocsp2.apple.com
 events-live.apple.com
+lcdn-locator.apple.com
 events-delivery.apple.com
 s3.arkjp.net
 static.arxiv.org
 cdn.auth0.com
 static-clst.avgle.com
+images.axios.com
+static.axios.com
+pkgs.dev.azure.com
 in.applicationinsights.azure.com
 amp.azure.net
 linuxiac.b-cdn.net
@@ -385,6 +400,7 @@ hits.b3log.org
 images.bfmtv.com
 img.biguz.net
 static.bit.cloud
+tags.bkrtx.com
 assets.bnidx.com
 cdn.branch.io
 cdn.search.brave.com
@@ -419,6 +435,7 @@ doujin-assets.dmm.co.jp
 docker.io
 cdn.donmai.us
 dsc.cloud
+dwcdn.net
 dweb.link
 cdn.faire.com
 fbcdn.com
@@ -435,6 +452,7 @@ fonts.net
 ftcdn.net
 assets.gcore.pro
 media.gettr.com
+cdn-1.ggjav.com
 ggpht.com
 cdns.gigya.com
 i.giphy.com
@@ -452,6 +470,7 @@ cdn.glitch.me
 static.gnome.org
 godoc.org
 static.gopro.com
+image.gyutto.jp
 player.h-cdn.com
 packages.httpie.io
 assets.humix.com
@@ -487,6 +506,7 @@ static.licdn.com
 static-exp1.licdn.com
 static-exp2.licdn.com
 static-exp3.licdn.com
+icons.llamao.fi
 i.loli.best
 repo1.maven.org
 missuo.ru
@@ -551,6 +571,7 @@ media1.tenor.com
 assets.toot.cafe
 ipfs.trusti.id
 twimg.com
+assets.twitch.tv
 clips-media-assets2.twitch.tv
 unpkg.com
 cdn.unwire.hk
@@ -592,9 +613,13 @@ adtidy.org
 akidoo.top
 alexdav.id
 repo.maven.apache.org
+dims.apnews.com
+assets.apnews.com
 avximg.com
 badgen.net
+emp.bbci.co.uk
 ichef.bbci.co.uk
+static.bbci.co.uk
 static.files.bbci.co.uk
 www.bbthat.com
 media.beeper.com
@@ -622,6 +647,8 @@ cf.channel.io
 cdn.channel.io
 sf-flow-web-cdn.ciciai.com
 media.cmx.edu.kg
+image.cnbcfm.com
+static-redesign.cnbcfm.com
 shots.codepen.io
 assets.codepen.io
 static.codepen.io
@@ -640,7 +667,6 @@ screenshots.debian.net
 dilcdn.com
 media.dlsite.com
 fastly.docker.com
-desktop.docker.com
 cloudflare.docker.com
 plugins.dprint.dev
 ipfs.drink.cafe
@@ -659,6 +685,7 @@ s1.feedly.com
 fontbit.io
 ipfs.fooock.com
 imageio.forbes.com
+thumbor.forbes.com
 objects.g0v.social
 assets.genius.com
 thumbs.gfycat.com
@@ -668,6 +695,7 @@ gitcdn.top
 gitcdn.xyz
 raw.github.com
 pkg.github.com
+tuf-repo.github.com
 gitpage.si
 registry.gitplac.si
 glbimg.com
@@ -681,8 +709,11 @@ safebrowsing.google.com
 repo.gradle.org
 plugins-artifacts.gradle.org
 i.guim.co.uk
+assets.guim.co.uk
+static.guim.co.uk
 uploads.guim.co.uk
 interactive.guim.co.uk
+image.gyutto.com
 hbfile.net
 img.hcloud.lat
 hembed.com
@@ -746,13 +777,16 @@ prod.msocdn.com
 appassets.mvtdev.com
 aacdn.nagich.com
 s.namemc.com
+nbcnewsdigital-static.nbcuni.com
 repo.nextdns.io
 favicons.nextdns.io
 telemetry.nextjs.org
+nextui.org
 i.niupic.com
 nodejs.org
 images.now-tv.com
 images.nvidia.com
+pbc.nypost.com
 mstdn-s3.o3o.studio
 odycdn.com
 res.cdn.office.net
@@ -811,6 +845,7 @@ static.scroll.com
 vice-prod.sdiapi.com
 cdn.setapp.com
 imgix.setapp.com
+stats.setapp.com
 sftcdn.net
 shgcdn.com
 shields.io
@@ -861,6 +896,10 @@ image.ship.vercel.com
 vercel.dev
 cdn.vidible.tv
 img.vim-cn.com
+static.vinted.com
+static-assets.vinted.com
+marketplace-web-assets.vinted.com
+images1.vinted.net
 static.vocadb.net
 vx-cdn.com
 cdn.weglot.com
@@ -884,6 +923,8 @@ static.4shared.com
 abc-cdn.net
 s.abcnews.com
 assets-cdn.abcnews.com
+keyframe-cdn.abcnews.com
+assets-cdn.abcotvs.net
 static.ada.support
 cdn.adguard.com
 static.adguard.com
@@ -1001,6 +1042,7 @@ i.imgflip.com
 imglink.win
 imgsmail.ru
 imgyzzy.com
+i.insider.com
 widget.intercom.io
 assets.ipstack.com
 static.javcdn.info
@@ -1033,10 +1075,10 @@ images.moegoat.com
 static.moegoat.com
 opt.moovweb.net
 stubdownloader.services.mozilla.com
+firefox.settings.services.mozilla.com
 cdn.mozilla.net
 itsre-sumo.mozilla.net
 archive.mozilla.org
-versioncheck-bg.addons.mozilla.org
 cdn.myfonts.net
 ipfs.namebase.io
 iframe.nbcnews.com
@@ -1060,6 +1102,7 @@ permaweb.io
 cdn.pixabay.com
 www.pngmart.com
 pornimg.xyz
+postimg.org
 pravatar.cc
 pstatic.net
 cdn.quadpay.com
@@ -1115,6 +1158,7 @@ staticctf.ubisoft.com
 ubistatic-a.ubisoft.com
 ubistatic2-a.ubisoft.com
 static-overlay.ubisoft.com
+unsplash.it
 img.urlnode.com
 userapi.com
 proxy.ustclug.org
@@ -1194,11 +1238,13 @@ logo.clearbit.com
 fonts.codeberg.org
 assets.coinbase.com
 static-assets.coinbase.com
+s1.coincarp.com
 downloads.coindesk.com
 media-cdn.comfy.social
 crt.comodoca.com
 cds.connatix.com
 img.connatix.com
+corsproxy.io
 crossbell.io
 cdn.datacamp.com
 david-dm.org
@@ -1232,6 +1278,7 @@ static-assets-web.flixcart.com
 resizing.flixster.com
 filestore.fortinet.com
 badges.frapsoft.com
+thingproxy.freeboard.io
 maps.geoapify.com
 geoip-js.com
 static.getbutton.io
@@ -1261,6 +1308,7 @@ data.jsdelivr.com
 jsdelivr.net
 cdn.jwplayer.com
 img.kbhgames.com
+cdn.kinopio.club
 kirafile.com
 cdn.langshop.app
 assets.leetcode.com
@@ -1317,6 +1365,7 @@ pkg-size.dev
 placehold.co
 placehold.jp
 placeimg.com
+static.politico.com
 cdn-assets.porntube.com
 cdn-thumbs.porntube.com
 media.pullopen.xyz
@@ -1326,8 +1375,10 @@ assets.queue-it.net
 static.queue-it.net
 libs.quillbot.com
 assets.quillbot.com
+quip-cdn.com
 quoracdn.net
 quriobot.com
+radix-ui.com
 redircdn.com
 api.roboflow.com
 app.roboflow.com
@@ -1338,6 +1389,7 @@ public.saasexch.com
 embed.savvycal.com
 cdn.mcauto-images-production.sendgrid.net
 cdn.signalfx.com
+tuf-repo-cdn.sigstore.dev
 sitescdn.net
 resources-live.sketch.cloud
 static1.smartbear.co
@@ -1393,13 +1445,17 @@ ws-assets.zoominfo.com
 c.1password.com
 i.1password.com
 ipfs.4everland.xyz
+abcnewsfe.com
 static.agilebits.com
 mycommerce.akamaized.net
 viu-static.akamaized.net
 mwf-service.akamaized.net
 img-s-msn-com.akamaized.net
 pic-bstarstatic.akamaized.net
+prodamdnewsencoding.akamaized.net
+prod-streaming-video-msn-com.akamaized.net
 img-prod-cms-rt-microsoft-com.akamaized.net
+prod-video-cms-amp-microsoft-com.akamaized.net
 statics-marketingsites-eas-ms-com.akamaized.net
 ipfs.alloyxuast.tk
 cdn.assets.as2.amazonaws.com
@@ -1439,6 +1495,9 @@ cdn.ceres9350.com
 js.chargebee.com
 cdn.cloudcraft.co
 cloudflare.tv
+docker.cloudsmith.io
+static.cnbeta.com.tw
+cnbetacdn.com
 cdn.cocoapods.org
 codeberg.page
 assets.coingecko.com
@@ -1481,6 +1540,8 @@ image.send.grammarly.com
 static-web.grammarly.com
 denali-static.grammarly.com
 assets.extension.grammarly.com
+config.extension.grammarly.com
+static.institution.grammarly.com
 cdn.greenhouse.io
 boards.greenhouse.io
 gtranslate.io
@@ -1497,6 +1558,7 @@ imageshack.us
 imgmrplay.xyz
 static.incapsula.com
 static.infomaniak.ch
+intuitcdn.net
 cdn.ipregistry.co
 jdbstatic.com
 cdn.jetphotos.com
@@ -1514,11 +1576,13 @@ ajax.microsoft.com
 wcpstatic.microsoft.com
 images.ecomm.microsoft.com
 store-images.microsoft.com
+cdn.miohentai.com
 public.mocortech.com
 static.mocortech.com
 images.moovitapp.com
 bundler.nice-team.net
 cdn-bundler.nice-team.net
+cms-assets.nodecraft.com
 oaistatic.com
 oculuscdn.com
 res.office365.com
@@ -1526,6 +1590,7 @@ cdn.onesignal.com
 assets.openshift.com
 assets.openshift.net
 packagist.org
+cdn.privacy.paramount.com
 user-uploads.perchance.org
 cdn.permutive.com
 phishing.army
@@ -1570,6 +1635,7 @@ link.storjshare.io
 a.storyblok.com
 stripecdn.com
 cdn-service.jp.sumologic.com
+events.tableplus.com
 thisiscdn.com
 thumbsnap.com
 tiktokcdn.com
@@ -1606,7 +1672,9 @@ static.zaobao.com.sg
 web-assets.zendesk.co.jp
 assets.zerohedge.com
 zohostatic.eu
+abc-cdn.net.au
 static.adguardvpn.com
+api.allorigins.win
 creativajs.altervista.org
 ampproject.org
 anpoimages.com
@@ -1617,6 +1685,8 @@ cdn.autoketing.org
 bestjavcdn.com
 proxy.beyondwords.io
 cdn-www.bluestacks.com
+players.brightcove.net
+cdn.britannica.com
 bytebucket.org
 public-pages.cbinsights.com
 cdn-sellix.com
@@ -1624,11 +1694,15 @@ cdn-spurit.com
 pic.cdnclouder.com
 characterai.io
 js.chilipiper.com
+cp2.cloudflare.com
+cp3.cloudflare.com
+cp4.cloudflare.com
 nel.cloudflare.com
 ajax.cloudflare.com
 info.cloudflare.com
 time.cloudflare.com
 cdnjs.cloudflare.com
+apple-relay.cloudflare.com
 static.dash.cloudflare.com
 cf-assets.www.cloudflare.com
 favicons.teams.cloudflare.com
@@ -1664,6 +1738,7 @@ dummyimage.com
 ebaystatic.com
 cdn2.editmysite.com
 images.emojiterra.com
+web-assets.esetstatic.com
 images.everyplate.com
 filecunhua.top
 cdn.fourthwall.com
@@ -1674,6 +1749,7 @@ static.freeimages.com
 dam.freshworks.com
 widget.freshworks.com
 euc-widget.freshworks.com
+sync.getpublica.com
 ocsp.globalsign.com
 ocsp2.globalsign.com
 ajax.googleapis.com
@@ -1683,6 +1759,7 @@ storage.googleapis.com
 firestore.googleapis.com
 safebrowsing.googleapis.com
 firebasestorage.googleapis.com
+optimizationguide-pa.googleapis.com
 content-storage-upload.googleapis.com
 badges.greenkeeper.io
 cdn.hackernoon.com
@@ -1694,6 +1771,7 @@ cdn.hentaibomb.com
 code.highcharts.com
 hs-scripts.com
 hs-scripts.net
+cors-proxy.htmldriven.com
 cdn-lfs.huggingface.co
 cdn-uploads.huggingface.co
 cdn-lfs-us-1.huggingface.co
@@ -1714,6 +1792,7 @@ content.jwplatform.com
 ipfs.kinematiks.com
 liangzipic.com
 seccdn.libravatar.org
+mantisloader.mantis-awx.com
 assets.mastercard.com
 cdn.matterhorn.app
 assets.mayoclinic.org
@@ -1737,6 +1816,7 @@ placewaifu.com
 cdn7.pornmaster.fun
 apps.profitihub.com
 pstorage.space
+readthedocs.io
 at.adtech.redventures.io
 regmedia.co.uk
 ipfs.runfission.com
@@ -1820,9 +1900,11 @@ source.domaintools.com
 cdn.dotaoutpost.com
 live.fanmingming.com
 static.fasthosts.co.uk
+apple-relay.fastly-edge.com
 ohttp-relay1.fastly-edge.com
 google-ohttp-relay-safebrowsing.fastly-edge.com
 firebaseapp.com
+public.flourish.studio
 fontawesome.com
 static.foxbusiness.com
 stories.freepiklabs.com
@@ -1899,8 +1981,10 @@ ipfs.scalaproject.io
 schemastore.org
 cdn.sciencecast.org
 storage.sciencecast.org
+img.shoplineapp.com
 simpleicons.org
 cdn.simpleicons.org
+skypeassets.com
 assets.squarespace.com
 s3media.squarespace.com
 static1.squarespace.com
@@ -1998,6 +2082,7 @@ meetupstatic.com
 olemovienews.com
 omnisnippet1.com
 web.onekey-asset.com
+tile.openstreetmap.de
 staticmap.openstreetmap.de
 js.partnerstack.com
 pressablecdn.com
@@ -2012,6 +2097,7 @@ ipfs.soul-network.com
 static.microsoft
 staticflickr.com
 streamhentai.org
+stripeassets.com
 cdn.sunofbeaches.com
 susercontent.com
 blacklist.tampermonkey.net
@@ -2035,6 +2121,7 @@ images.arcpublishing.com
 images.arigatotravel.com
 assets-servd.host
 assets-yammer.com
+cbsnewsstatic.com
 cdn-cookieyes.com
 chesscomfiles.com
 cdn.codeblackbelt.com
@@ -2042,6 +2129,7 @@ codepenassets.com
 s2.coinmarketcap.com
 s3.coinmarketcap.com
 academy-public.coinmarketcap.com
+s3.cointelegraph.com
 combinatronics.io
 images.design-editor.com
 images7.design-editor.com
@@ -2113,6 +2201,7 @@ gateway.originprotocol.com
 web-assets.otogi-frontier.com
 polyfill-fastly.io
 api.pwnedpasswords.com
+quip-marketing.com
 replicate.delivery
 safebrowsing.apple
 image.theblockbeats.info
@@ -2122,6 +2211,7 @@ www.typescriptlang.org
 playgroundcdn.typescriptlang.org
 static.global.visioncritical.com
 assets.visioncritical.net
+img.washingtonpost.com
 talk.washingtonpost.com
 yourimageshare.com
 azurestaticapps.net
@@ -2129,6 +2219,7 @@ shopify.cleverecommerce.com
 cloudflare-ipfs.com
 imgssl.constantcontact.com
 i.creativecommons.org
+images.financemagnates.com
 static-assets.freeanimehentai.net
 howtogeekimages.com
 js.hubspotfeedback.com
@@ -2156,6 +2247,7 @@ oss-binaries.phusionpassenger.com
 static2.sharepointonline.com
 steamusercontent.com
 typescript-eslint.io
+telemetry.1passwordservices.com
 cloudflarestorage.com
 envatousercontent.com
 framerusercontent.com
@@ -2176,6 +2268,7 @@ w-corp-staticblitz.com
 1passwordusercontent.eu
 cdn.cms-twdigitalassets.com
 screenshots.downloadtorrentfile.com
+loader.mantis-intelligence.com
 sciencedirectassets.com
 vsmarketplacebadges.dev
 1passwordusercontent.com
