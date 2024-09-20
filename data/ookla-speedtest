@@ -10,4 +10,6 @@ speedtest.net
 speedtestcustom.com
 webtest.net
 
+full:www.speedtest.net.cdn.cloudflare.net
+
 include:ookla-speedtest-ads
