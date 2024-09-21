@@ -1,0 +1,76 @@
+include:taptap
+include:cygames
+include:bluearchive
+include:hoyoverse
+include:nikke
+include:bluearchive
+include:projectsekai
+
+# idolmaster
+agrmt.channel.or.jp
+legal.bandainamcoent.co.jp
+enza.fun
+napp.catchingnow.com
+# 学園アイドルマスター
+game-gakuen-idolmaster.jp
+# D4DJ
+d4dj-groovy-mix.com
+d4dj-donuts.net
+# fate-go jp
+fate-go.jp
+# ミストレ
+mist-train-girls.com
+
+# HeavenRurinsRed
+wfs.games
+# リステップ
+rst-game.com
+heytapmobi.com
+
+# BanG Dream!（バンドリ！）
+craftegg.jp
+
+# dmmgames  
+dmmgames.com
+games.dmm.co.jp
+games.dmm.com
+# ドルフィンウェーブ（test）
+marv-games.jp
+# dmm マギアレコード（test）
+magi-reco.com
+# ブルリラS
+gamecity.ne.jp
+# 404 game reset
+404gr.com
+
+# レスレリアーナトリア
+resleriana.jp
+# FF7 EC
+jp.ffviiec.com
+# Tokyo 7th
+t7s.jp
+# アンジュ·リリング
+ange-relink.net
+# hazereverb
+hazereverb.jp
+# 舟游
+yo-star.com
+
+# IDOLY PRIDE アイドリープライド
+smbeat.com
+smbeat.jp
+octo-cloud.com
+game-idolypride.jp
+full:d2ilil7yh5oi1v.cloudfront.net
+
+# コンパス
+#full:cps-down.hangame.co.jp
+full:gslb-gamebase.nhncloudservice.com
+full:api-logncrash.cloud.toast.com
+full:api-push.cloud.toast.com
+full:cps.nhn-playart.com
+
+# World II World
+full:prd.nikoichi-api.quatroa.app
+full:prd-static.nikoichi.quatroa.app
+full:prd.nikoichi-cms.quatroa.app

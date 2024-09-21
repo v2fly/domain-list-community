@@ -45,6 +45,10 @@ This project manages a list of domain.
 
 ```geosite:emby-s ``` emby servers
 
+```geosite:user-Mobilegame ``` Mobile game(Almost JP)
+
+```geosite:user-PCgame ``` PC game
+
 ## Generate `geosite.dat` manually
 
 - Install `golang` and `git`
