@@ -31,6 +31,10 @@ This project manages a list of domain.
 
 > \+ offcloud.com
 
+```geosite:cn```
+>  Rules from [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/cn.list) 
+>  Can find original list in ```geosite:cn-bak```
+
 ## 個人用リスト
 ```geosite:reject-list```
 > include : ```geosite:anti-ad``` ```geosite:category-ads-all``` 

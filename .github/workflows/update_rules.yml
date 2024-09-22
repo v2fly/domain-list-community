@@ -43,6 +43,7 @@ jobs:
         mv gfw data/
         mv anti-ad data/
         mv skk-reject data/
+        mv data/cn data/cn-bak
         mv cn data/
 
     - name: Commit changes
