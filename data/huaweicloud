@@ -1,3 +1,5 @@
+aadcloud.cn
+aadcloud.com
 ami-alliance.org.cn
 b2bgo.com
 eduapaashwc.com
@@ -10,6 +12,8 @@ huaweicloud-dns.cn
 huaweicloud-dns.com
 huaweicloud-dns.net @!cn
 huaweicloud-dns.org @!cn
+huaweicloud-idme.cn
+huaweicloud-idme.com
 huaweicloud-smn.cn
 huaweicloud-smn.com
 huaweicloud-smn.net
@@ -47,8 +51,15 @@ hwcloudsite.cn
 hwcloudsite.com
 hwcloudvis.cn
 hwcloudvis.com
+hweventgrid.cn
+hweventgrid.com
+idonguapi.cn
+idonguapi.com
 imc-oneaccess.cn
 imcapptest.com
+inanguapi.cn
+inanguapi.com
+ixiguapi.com
 km6g.cn
 km7g.cn
 km8g.cn
@@ -58,6 +69,14 @@ kmcb-cn-north-4.cn
 kmop-cn-east-3.cn
 kmop-cn-north-4.cn
 livehwc3.cn
+modelarts-infer.cn
+modelarts-infer.com
+myhuaweicloud-custom.cn
+myhuaweicloud-custom.com
+myhuaweicloud-koodrive.cn
+myhuaweicloud-koodrive.com
+myhuaweicloud-obs.cn
+myhuaweicloud-obs.com
 myhuaweicloud.cn
 myhwcdn.cn
 myhwcdn.com
@@ -72,7 +91,7 @@ powerapp.io
 
 # Huaweicloud Endpoint, source: https://developer.huaweicloud.com/endpoint
 ae-ad-1.myhuaweicloud.com @!cn          #中东-阿布扎比-OP5
-af-north-1.myhuaweicloud.com @!cn      #非洲-开罗
+af-north-1.myhuaweicloud.com @!cn       #非洲-开罗
 af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡
 ap-southeast-1.myhuaweicloud.com @!cn   #中国-香港
 ap-southeast-2.myhuaweicloud.com @!cn   #亚太-曼谷
