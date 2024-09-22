@@ -538,6 +538,8 @@ xn--gogl-1nd42e.com # goοglе.com
 xplr.co
 zukunftswerkstatt.de
 
+full:services.googleapis.cn @blockbycn
+
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
 full:www.recaptcha.net @cn
