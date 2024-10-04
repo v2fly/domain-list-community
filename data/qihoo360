@@ -1,4 +1,5 @@
 include:75team
+include:qihoo360-ads
 
 360.cn
 360.com
@@ -13,6 +14,7 @@ include:75team
 360kuai.com
 360os.com
 360panyun.cn
+360qhcdn.com
 360safe.com
 360shouji.com
 360taojin.com
@@ -22,6 +24,8 @@ include:75team
 360webcache.com
 360zqaq.com
 anquanke.com
+appjiagu.com
+baomitu.com
 haoso.com
 haosou.com
 haosou.com.cn
@@ -30,6 +34,7 @@ i360mall.com
 ludashi.com
 nicaifu.com
 nzwgs.com
+qhcdn.com
 qhimg.com
 qhimgs0.com
 qhimgs1.com
@@ -42,11 +47,11 @@ qhmsg.com
 qhres.com
 qhres2.com
 qhstatic.com
-qhupdate.com
-qihuapi.cn
-qihucdn.com
 qihoo.com
 qihoo.net
+qihuapi.cn
+qihucdn.com
+qiku.com
 qikucdn.com
 so.com
 sou.com

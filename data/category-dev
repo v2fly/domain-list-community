@@ -37,7 +37,6 @@ include:microsoft-dev
 include:mongodb
 include:nginx
 include:nixos
-include:openai
 include:openwrt
 include:osdn
 include:perl
@@ -80,6 +79,7 @@ clojure.org
 cnpmjs.org
 cygwin.com
 cython.org
+deno.com
 deno.land
 dev.to
 elixir-lang.org

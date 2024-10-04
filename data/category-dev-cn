@@ -1,5 +1,6 @@
 include:aixcoder
 include:apifox
+include:apipost
 include:baltamatica
 include:cnblogs
 include:coding

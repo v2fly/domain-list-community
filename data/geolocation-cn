@@ -4,6 +4,9 @@
 include:jiguang
 include:umeng
 
+# AI
+include:category-ai-cn
+
 # Aviation
 include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
@@ -76,59 +79,8 @@ include:vancl
 include:youzan
 include:ziroom
 
-# Enhance Gaming
-heavenlywind.cc
-steampp.net
-
-# Android Emulator
-lsplayer.com
-yeshen.com
-
 # Entertainment & Videos & Games & Music & Podcasts
-include:3dm
-include:4399
-include:acfun
-include:acplay
-include:ali213
-include:bilibili
-include:ciweimao
-include:cowlevel
-include:dedao
-include:dmzj
-include:douyu
-include:duitang
-include:gamersky
-include:gcores
-include:gitv
-include:huya
-include:iqiyi
-include:jinjiang
-include:ku6
-include:kuaikan
-include:kuaishou
-include:kugou
-include:le
-include:lizhi
-include:mfuns
-include:miaopai
-include:mihoyo-cn
-include:muwai
-include:pptv
-include:qingtingfm
-include:sfacg
-include:taomee
-include:tgbus
-include:tiancity
-include:u17
-include:vgtime
-include:xd
-include:xiaohongshu
-include:ximalaya
-include:youku
-include:yy
-include:zhanqi
-
-wo1wan.com
+include:category-entertainment-cn
 
 # Forums
 include:chiphell
@@ -157,8 +109,8 @@ include:category-game-accelerator-cn
 # IP 定位网站
 include:ipip
 
-# HTTPDNS
-include:category-httpdns
+# category-httpdns-cn is mainly for advertising purpose
+# include:category-httpdns-cn
 
 # Infinity Pro
 infinitynewtab.com
@@ -166,28 +118,6 @@ inftab.com
 
 ip138.com
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
-
-# 快对作业
-kuaiduizuoye.com
-
-# 流利说
-liulishuo.com
-llsapp.com
-llscdn.com
-llsserver.com
-
-# 百词斩
-baicizhan.com
-baicizhan.org  
-bczcdn.com     
-bczeducation.cn
-
-# 小站教育
-zhan.com
-
-# Burning Vocabulary
-burningvocabulary.cn
-burningvocabulary.com
 
 # 423Down
 423down.com
@@ -197,9 +127,6 @@ ghxi.com
 
 # Logistics
 include:sf-express
-
-# MC百科
-mcmod.cn
 
 # Media & News & Press
 include:category-media-cn
@@ -223,12 +150,8 @@ include:category-network-security-cn
 # Organizations
 include:category-hospital-cn
 
-# 瑞幸咖啡
-include:lkcoffee
-
 # Science & Technology & Knowledge & Scholar & Press & E-learning & Education
 include:category-education-cn
-include:category-mooc-cn
 include:category-scholar-cn
 include:category-wiki-cn
 include:cugbonline
@@ -275,6 +198,7 @@ include:qweather
 include:renren
 include:tendcloud
 include:vaptcha
+include:weathercn
 include:wiwide
 include:wjx
 include:wolai
@@ -283,9 +207,6 @@ include:zdns
 include:zhangtao
 
 mihuashi.com # 米畫師
-
-# Tower 团队协作
-tower.im
 
 # 沃丰科技
 udesk.cn
@@ -327,6 +248,7 @@ include:xunlei
 include:zte
 
 ezpro.pro # 小马路由
+51togic.com # 泰捷WEBOX
 
 # Telecommunication
 include:chinabroadnet
@@ -334,29 +256,8 @@ include:chinamobile
 include:chinatelecom
 include:chinaunicom
 
-# Wiki
-jikipedia.com
-qiuwen.wiki
-shidianbaike.com
-
-# 信息学
-include:51nod
-
-acwing.com
-hihocoder.com
-jisuanke.com
-luogu.com.cn
-oi-wiki.com
-openjudge.cn
-uoj.ac
-vijos.org
-
-# LeetCode 中国站
-leetcode.cn
-leetcode-cn.com
-lingkou.xyz
-lingkou.com
-lingkou.cn
+# OI
+include:category-olympiad-in-informatics
 
 # 语言能力测试
 include:j-test
@@ -376,7 +277,9 @@ include:8btc
 include:jibencaozuo
 include:sinopec
 include:category-enterprise-query-platform-cn
+include:gree
 include:haier
+include:midea
 
 winos.me # WINOS 精简社区
 upe.net # 优启通官网
@@ -625,7 +528,6 @@ bobo.com
 bojianger.com
 bokecc.com
 boosj.com
-btcfans.com
 btgtravel.com
 bthhotels.com
 btime.com
@@ -703,7 +605,6 @@ cubead.com
 cwxzx.com
 cyagen.com
 cybtc.com
-cyol.com
 cyts.com
 cztv.com
 cztvcloud.com
@@ -772,10 +673,7 @@ eastsoo.com
 eayyou.com
 ebico.com
 ebrun.com
-ecitic.com
 ecjobhome.com
-edu.cn
-eduei.com
 eeyy.com
 eflycloud.com
 elecfans.com
@@ -798,7 +696,6 @@ feiniaomy.com
 fengkongcloud.com
 fengniao.com
 fengxian110.com
-fenxi.com
 fhldns.com
 fimmu.com
 finchina.com
@@ -832,7 +729,6 @@ golue.com
 gongxiangcj.com
 goosail.com
 goufw.com
-gree.com
 greenxiazai.com
 growingio.com
 gtags.net
@@ -929,7 +825,6 @@ iyiou.com
 izuche.com
 jandan.net
 jb51.com
-jdair.net
 jia.com
 jiameng.com
 jianbihua.com
@@ -949,7 +844,6 @@ jinrongren.net
 jinse.com
 jinti.com
 jiqizhixin.com
-jisuanke.com
 jisuxia.com
 jiuzhilan.com
 jj20.com
@@ -1003,7 +897,6 @@ lascn.net
 lawxp.com
 leangoo.com
 leanote.com
-ledu.com
 leikeji.com
 leiphone.com
 leiting.com
@@ -1018,7 +911,6 @@ libaclub.com
 lieyunwang.com
 lightonus.com
 likuso.com
-lingkou.com
 linkvans.com
 linsn.com
 linuxidc.com
@@ -1036,7 +928,6 @@ longzhu.com
 lotpc.com
 loupan.com
 lu.com
-luckyair.net
 lufax.com
 lufaxcdn.com
 lunwengo.net
@@ -1044,7 +935,6 @@ luyouqi.com
 lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
 lxway.com
-magedu.com
 maisanqi.com
 mamecn.com
 manhuatai.com
@@ -1055,7 +945,6 @@ mayihr.com
 mcbang.com
 mdpda.com
 mechina.org
-mediav.com
 meifang.com
 meika360.com
 meilishuo.com
@@ -1077,9 +966,6 @@ mmbang.com
 mmbang.info
 mofang.com
 mofazhu.com
-mogu.com
-mogucdn.com
-mogujie.com
 mokahr.com
 moleecel.com
 moocollege.com
@@ -1101,8 +987,6 @@ newasp.net
 newbandeng.com
 newyx.net
 noknok.cn
-nowcoder.com
-nowcoder.net
 nowscore.com
 nruan.com
 ntalker.com
@@ -1117,7 +1001,6 @@ oicq88.com
 okooo.com
 ol-cdn.com
 ol-img.com
-oldboyedu.com
 oneapm.com
 onegreen.net
 oneyac.com
@@ -1125,7 +1008,6 @@ onlinedown.net
 onlinesjtu.com
 onlylady.com
 opdown.com
-oray.com
 ottcn.com # 津ICP备12004891号-2
 oupeng.com
 p2peye.com
@@ -1192,7 +1074,6 @@ scdng.com
 scoregg.com
 sczsxx.com
 sdo.com
-sec-wiki.com
 sencdn.com
 seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
@@ -1235,7 +1116,6 @@ sofreight.com
 softwhy.com
 sojson.com
 somode.com
-soso.com
 souqian.com
 southmoney.com
 sparkletour.com
@@ -1243,7 +1123,6 @@ springtour.com
 ssports.com
 starbaby.cc
 starbaby.com
-stockstar.com
 sun0769.com
 sunrtb.com
 supermap.com
@@ -1310,7 +1189,6 @@ veryhuo.com
 veryzhun.com
 vic18.com
 videojj.com
-vijos.org
 vip.com
 vobao.com
 vpgame.com
@@ -1323,7 +1201,6 @@ wanyx.com
 wdjimg.com
 wdzj.com
 weand.com
-webterren.com
 weicaifu.com
 weidian.com
 weilaicaijing.com
@@ -1376,7 +1253,6 @@ xiaoyuxitong.com
 xiayx.com
 xiazaiba.com
 xingjiesj.com
-xinhuanet.com
 xinrenxinshi.com
 xinshipu.com
 xingtan001.com

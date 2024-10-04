@@ -1,3 +1,5 @@
+include:category-mooc-cn
+
 include:17zuoye
 include:applysquare
 include:hujiang
@@ -6,7 +8,6 @@ include:shanbay
 include:xueersi
 include:yuanfudao
 include:zhihuishu
-
 
 # 雨课堂
 include:yuketang
@@ -23,6 +24,28 @@ xuetangx.com
 # 时代行云
 x-cloud.cc
 
+
+# 快对作业
+kuaiduizuoye.com
+
+# 流利说
+liulishuo.com
+llsapp.com
+llscdn.com
+llsserver.com
+
+# 百词斩
+baicizhan.com
+baicizhan.org
+bczcdn.com
+bczeducation.cn
+
+# 小站教育
+zhan.com
+
+# Burning Vocabulary
+burningvocabulary.cn
+burningvocabulary.com
 
 # 莞教通
 dgjy.net
@@ -47,3 +70,14 @@ pigai.org
 
 # 未来云校
 weilaiyunxiao.com
+
+# 马哥教育
+magedu.com
+
+# 老男孩教育
+oldboyedu.com
+
+# 在职研究生教育信息网
+eduei.com
+
+edu.cn
