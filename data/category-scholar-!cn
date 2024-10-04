@@ -18,11 +18,6 @@ include:springer
 include:taylorfrancis
 include:z-library
 
-usenix.org
-sigcomm.org
-sigops.org
-hotcrp.com
-openreview.net
 aacrjournals.org # AACR 美国癌症研究学会
 academic.eb.com # Britannica Academic
 acaric.co.jp # 株式会社アカリク
@@ -48,7 +43,7 @@ aps.org # American Physical Society Sites
 arabidopsis.org
 artstor.org # ARTstor Digital Library 艺术图像数据库
 arxiv.org
-alphaxiv.org
+alphaxiv.org # alphaXiv
 ascelibrary.org # American Society of Civil Engineers 美国土木工程师学会
 asha.org
 asm.org # The American Society for Microbiology 美国微生物学会
@@ -103,6 +98,7 @@ global-sci.org # Global Science Press GSP电子期刊
 heinonline.org # HeinOnline 法律全文数据库
 highwirepress.com # HighWire Press 电子期刊
 hindawi.com
+hotcrp.com # HotCRP Conference Management Software
 icevirtuallibrary.com # 英国土木工程师学会 ICE Virtual Library
 icsd.fiz-karlsruhe.de # Inorganic Crystal Structure Database
 igi-global.com # IGI Global 平台
@@ -140,6 +136,7 @@ nejm.org
 neurology.org
 nii.ac.jp # CiNii学术信息导航
 oecd-ilibrary.org # Organisation for Economic Co-operation and Development
+openreview.net # OpenReview
 optica.org # OSA 美国光学学会全文数据库
 osapublishing.org # OSA
 ovid.com
@@ -169,6 +166,8 @@ scitation.org
 semanticscholar.org
 siam.org # Society for Industry and Applied Mathematics 美国工业和应用数学学会
 silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
+sigcomm.org # the Association for Computing Machinery's Special Interest Group on Data Communications
+sigops.org # the Association for Computing Machinery's Special Interest Group on Operating Systems
 spiedigitallibrary.org
 statsmakemecry.com
 thelancet.com
@@ -185,6 +184,7 @@ uchicago.edu
 ucla.edu
 umass.edu
 usaco.org
+usenix.org # USENIX: The Advanced Computing Systems Association
 westlaw.com
 wiley.com
 wolterskluwer.com
