@@ -6094,3 +6094,6 @@ regexp:(^|\.)zh9[0-7]\.net$
 regexp:(^|\.)zy[0-9]{4}\.top$
 regexp:(^|\.)zztt[1-6][0-9]\.com$
 regexp:(^|\.)zzz[1-9][0-9]\.top$
+regexp:(^|\.)x9av\d+\.com$
+regexp:(^|\.)jsav\d+\.com$
+regexp:(^|\.)9a07[a-zA-Z]\.com$
