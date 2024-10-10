@@ -72,6 +72,7 @@ include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
+include:ubiquiti
 include:verizon
 include:vultr
 include:westerndigital
