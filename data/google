@@ -538,6 +538,10 @@ xn--gogl-1nd42e.com # goοglе.com
 xplr.co
 zukunftswerkstatt.de
 
+# Google safe browsing relay
+# https://www.fastly.com/press/press-releases/google-selects-Fastly-Oblivious-HTTP-Relay-for-Privacy-Sandbox/
+full:google-ohttp-relay-safebrowsing.fastly-edge.com
+
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
 full:www.recaptcha.net @cn
