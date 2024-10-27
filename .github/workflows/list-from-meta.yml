@@ -19,7 +19,6 @@ jobs:
     - name: Clone specific branch and folder
       run: |
         git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
-        cd meta-rules-dat
 
     - name: Filter and clean .list files
       run: |
