@@ -20,22 +20,17 @@ jobs:
       run: |
         git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
 
-    - name: List directory for debugging
-      run: |
-        cd meta-rules-dat
-        ls -R
-
     - name: Filter and clean .list files
       run: |
-        cd geo/geosite
-        mkdir -p ../../../../processed-files
+        cd meta-rules-dat/geo/geosite
+        mkdir -p processed-files
         for file in *.list; do
-          sed 's/+//g' "$file" > "../../../../processed-files/$file"
+          sed 's/+//g' "$file" > "processed-files/$file"
         done
 
     - name: Commit changes
       run: |
-        cd ../../../../processed-files
+        cd processed-files
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git init
@@ -46,4 +41,4 @@ jobs:
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: processed-files
+        branch: processed
