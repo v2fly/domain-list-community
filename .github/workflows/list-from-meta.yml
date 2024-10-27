@@ -30,11 +30,11 @@ jobs:
 
     - name: Commit changes
       run: |
-        cd processed
+        cd meta-rules-dat/geo/geosite/processed
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git init
-        git add .
+        git add *.list
         git commit -m "Processed geosite .list files"
 
     - name: Push changes
