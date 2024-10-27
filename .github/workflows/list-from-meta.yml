@@ -20,6 +20,9 @@ jobs:
       run: |
         git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
 
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
     - name: Filter and clean .list files
       run: |
         cd meta-rules-dat/geo/geosite
