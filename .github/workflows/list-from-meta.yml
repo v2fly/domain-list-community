@@ -29,6 +29,6 @@ jobs:
       - name: Commit and push changes
         run: |
           git checkout -b processed
-          git add processed-files/
+          git add processed-files/*
           git commit -m "Processed files"
           git push origin processed --force
