@@ -6,7 +6,8 @@ on:
       - main
   schedule:
     - cron: '0 0 * * 1' # 每周运行一次
-
+  workflow_dispatch:
+  
 jobs:
   process-geosite-files:
     runs-on: ubuntu-latest
