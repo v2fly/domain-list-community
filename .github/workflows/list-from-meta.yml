@@ -23,14 +23,14 @@ jobs:
     - name: Filter and clean .list files
       run: |
         cd meta-rules-dat/geo/geosite
-        mkdir -p processed
+        mkdir -p $GITHUB_WORKSPACE/processed-files
         for file in *.list; do
-          sed 's/+//g' "$file" > "processed/$file"
+          sed 's/+//g' "$file" > "$GITHUB_WORKSPACE/processed-files/$file"
         done
 
     - name: Commit changes
       run: |
-        cd meta-rules-dat/geo/geosite/processed
+        cd $GITHUB_WORKSPACE/processed-files
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git init
