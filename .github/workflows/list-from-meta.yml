@@ -24,7 +24,7 @@ jobs:
         cd meta-rules-dat/geo/geosite
         for file in *.list; do
           if [ -f "$file" ]; then
-            sed 's/+//g' "$file" > "../../../../processed-files/$file"
+            sed 's/+//g' "$file" > "processed-files/$file"
           fi
         done
 
