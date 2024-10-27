@@ -21,7 +21,7 @@ jobs:
     - name: Filter and clean .list files
       run: |
         mkdir -p $GITHUB_WORKSPACE/processed-files
-        cd /geo/geosite
+        cd geo/geosite
         for file in *.list; do
           if [ -f "$file" ]; then
             sed 's/+//g' "$file" > "$GITHUB_WORKSPACE/processed-files/$file"
