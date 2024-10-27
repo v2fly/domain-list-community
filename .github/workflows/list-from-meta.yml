@@ -25,17 +25,17 @@ jobs:
 
     - name: Filter and clean .list files
       run: |
-        cd /home/runner/work/geo-domain-list-community/geo-domain-list-community/meta-rules-dat/geo/geosite
-        mkdir -p /home/runner/work/geo-domain-list-community/geo-domain-list-community/processed-files
+        cd meta-rules-dat/geo/geosite
+        mkdir -p processed-files
         for file in *.list; do
           if [ -f "$file" ]; then
-            sed 's/+//g' "$file" > "/home/runner/work/geo-domain-list-community/geo-domain-list-community/processed-files/$file"
+            sed 's/+//g' "$file" > "processed-files/$file"
           fi
         done
 
     - name: Commit changes
       run: |
-        cd /home/runner/work/geo-domain-list-community/geo-domain-list-community/processed-files
+        cd processed-files
         git init
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
