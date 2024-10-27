@@ -1,9 +1,9 @@
 name: Process GeoSite Files
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 0 * * 1'
   workflow_dispatch:
@@ -13,31 +13,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
     - name: Clone specific branch and folder
       run: |
+        cd /home
         git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
-        cd meta-rules-dat
-        git sparse-checkout init --cone
-        git sparse-checkout set meta/geo/geosite
-
-    - name: List directory for debugging
-      run: |
-        ls -R $GITHUB_WORKSPACE/meta-rules-dat
 
     - name: Filter and clean .list files
       run: |
-        mkdir -p $GITHUB_WORKSPACE/meta-rules-dat/meta/geo/geosite/processed-files
-        cd $GITHUB_WORKSPACE/meta-rules-dat/meta/geo/geosite
+        cd meta-rules-dat/geo/geosite
+        mkdir -p processed-files
         for file in *.list; do
-          sed 's/+//g' "$file" > "$GITHUB_WORKSPACE/meta-rules-dat/meta/geo/geosite/processed-files/$file"
+          sed 's/+//g' "$file" > "processed-files/$file"
         done
 
     - name: Commit changes
       run: |
-        cd $GITHUB_WORKSPACE/meta-rules-dat/meta/geo/geosite/processed-files
-        git init
+        cd processed-files
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git init
         git add .
         git commit -m "Processed geosite .list files"
 
@@ -45,4 +42,4 @@ jobs:
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: processed-files
+        branch: processed
