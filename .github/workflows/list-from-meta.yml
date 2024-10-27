@@ -5,9 +5,9 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * 1' # 每周运行一次
+    - cron: '0 0 * * 1'
   workflow_dispatch:
-  
+
 jobs:
   process-geosite-files:
     runs-on: ubuntu-latest
@@ -16,15 +16,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
     - name: Clone specific folder
       run: |
-        git clone --depth 1 --filter=blob:none --sparse https://github.com/MetaCubeX/meta-rules-dat.git
+        git clone --depth 1 https://github.com/MetaCubeX/meta-rules-dat.git
         cd meta-rules-dat
+        git sparse-checkout init --cone
         git sparse-checkout set meta/geo/geosite
 
     - name: Filter and clean .list files
@@ -48,4 +44,4 @@ jobs:
       uses: ad-m/github-push-action@v0.6.0
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: Otherlist
+        branch: processed-files
