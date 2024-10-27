@@ -16,16 +16,21 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Clone specific folder
+    - name: Clone specific branch and folder
       run: |
         git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
         cd meta-rules-dat
         git sparse-checkout init --cone
         git sparse-checkout set meta/geo/geosite
 
+    - name: List directory for debugging
+      run: |
+        cd meta-rules-dat
+        ls -R
+
     - name: Filter and clean .list files
       run: |
-        cd meta-rules-dat/meta/geo/geosite
+        cd meta/geo/geosite
         mkdir -p ../../../../processed-files
         for file in *.list; do
           sed 's/+//g' "$file" > "../../../../processed-files/$file"
