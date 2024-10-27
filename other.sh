@@ -15,6 +15,3 @@ for file in *.list; do
     sed 's/+//g' "$file" > "$DEST_DIR/$file"
 done
 
-# 清理临时文件夹
-cd ../..
-rm -rf temp_repo
