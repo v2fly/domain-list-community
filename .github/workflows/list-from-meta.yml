@@ -20,14 +20,10 @@ jobs:
         git sparse-checkout init --cone
         git sparse-checkout set meta/geo/geosite
 
-    - name: List directory for debugging
-      run: |
-        ls -R $GITHUB_WORKSPACE/meta-rules-dat/meta/geo/geosite
-
     - name: Filter and clean .list files
       run: |
         mkdir -p $GITHUB_WORKSPACE/processed-files
-        cd $GITHUB_WORKSPACE/meta-rules-dat/meta/geo/geosite
+        cd meta/geo/geosite
         for file in *.list; do
           if [ -f "$file" ]; then
             sed 's/+//g' "$file" > "$GITHUB_WORKSPACE/processed-files/$file"
