@@ -18,7 +18,7 @@ jobs:
 
     - name: Clone specific folder
       run: |
-        git clone --depth 1 https://github.com/MetaCubeX/meta-rules-dat.git
+        git clone --depth 1 --branch meta ://github.com/MetaCubeX/meta-rules-dat.git
         cd meta-rules-dat
         git sparse-checkout init --cone
         git sparse-checkout set meta/geo/geosite
