@@ -1,4 +1,4 @@
-name: Process GeoSite Files
+name: Process
 
 on:
   push:
@@ -9,41 +9,26 @@ on:
   workflow_dispatch:
 
 jobs:
-  process-geosite-files:
+  process:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    - name: Clone specific branch and folder
-      run: |
-        git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
+      - name: Set up Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
 
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Run processing script
+        run: |
+          chmod +x other.sh
+          ./other.sh
 
-    - name: Filter and clean .list files
-      run: |
-        cd meta-rules-dat/geo/geosite
-        mkdir -p processed-files
-        for file in *.list; do
-          if [ -f "$file" ]; then
-            sed 's/+//g' "$file" > "processed-files/$file"
-          fi
-        done
-
-    - name: Commit changes
-      run: |
-        cd processed-files
-        git init
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add .
-        git commit -m "Processed geosite .list files"
-
-    - name: Push changes
-      uses: ad-m/github-push-action@v0.6.0
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: processed-files
+      - name: Commit and push changes
+        run: |
+          git checkout -b processed
+          git add processed-files/
+          git commit -m "Processed files"
+          git push origin processed --force
