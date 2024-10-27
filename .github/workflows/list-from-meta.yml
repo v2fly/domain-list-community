@@ -18,20 +18,19 @@ jobs:
 
     - name: Clone specific branch and folder
       run: |
-        cd /home
         git clone --depth 1 --branch meta https://github.com/MetaCubeX/meta-rules-dat.git
 
     - name: Filter and clean .list files
       run: |
         cd meta-rules-dat/geo/geosite
-        mkdir -p processed-files
+        mkdir -p processed
         for file in *.list; do
-          sed 's/+//g' "$file" > "processed-files/$file"
+          sed 's/+//g' "$file" > "processed/$file"
         done
 
     - name: Commit changes
       run: |
-        cd processed-files
+        cd processed
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git init
