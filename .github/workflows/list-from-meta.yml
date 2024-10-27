@@ -27,7 +27,7 @@ jobs:
 
     - name: Filter and clean .list files
       run: |
-        cd meta/geo/geosite
+        cd geo/geosite
         mkdir -p ../../../../processed-files
         for file in *.list; do
           sed 's/+//g' "$file" > "../../../../processed-files/$file"
