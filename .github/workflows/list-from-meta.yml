@@ -20,7 +20,7 @@ jobs:
 
     - name: Filter and clean .list files
       run: |
-        mkdir -p ../../../../processed-files
+        mkdir -p processed-files
         cd meta-rules-dat/geo/geosite
         for file in *.list; do
           if [ -f "$file" ]; then
@@ -30,7 +30,7 @@ jobs:
 
     - name: Commit changes
       run: |
-        cd ../../../../processed-files
+        cd processed-files
         git init
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
