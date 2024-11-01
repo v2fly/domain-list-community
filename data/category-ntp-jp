@@ -1,0 +1,49 @@
+# アマノセキュアジャパン(e-timing): https://www.e-timing.ne.jp/product/timestamp/open-server/
+ats1.e-timing.ne.jp
+
+# INTERNET MULTIFEED: https://www.mfeed.ad.jp/ntp/detail.html
+ntp.jst.mfeed.ad.jp
+ntp1.jst.mfeed.ad.jp
+ntp2.jst.mfeed.ad.jp
+ntp3.jst.mfeed.ad.jp
+ntp1.v6.mfeed.ad.jp
+ntp2.v6.mfeed.ad.jp
+ntp3.v6.mfeed.ad.jp
+
+# 国立天文台水沢 https://www.miz.nao.ac.jp/vlbi/ntp.html
+s2csntp.miz.nao.ac.jp
+
+# 情報通信研究機構(NICT): https://jjy.nict.go.jp/tsp/PubNtp/index.html
+ntp.nict.jp
+
+# OCN: https://www.ntt.com/business/services/network/internet-connect/ocn-business/ocn/customer/set_up/tech_1.html
+ntp-tk01.ocn.ad.jp
+ntp-tk02.ocn.ad.jp
+ntp-os01.ocn.ad.jp
+
+# plala: https://mainte.plala.or.jp/support/manual/internet/setup/
+ntp1.plala.or.jp
+ntp2.plala.or.jp
+
+# Ring Server Project: http://www.ring.gr.jp/ring/ntp.html.ja
+ntp.ring.gr.jp
+ntp0.ring.gr.jp
+ntp1.ring.gr.jp
+ntp2.ring.gr.jp
+ntp.t.ring.gr.jp
+ntp.dnsbalance.ring.gr.jp
+
+# 東京大学(The University of Tokyo)
+ntp.nc.u-tokyo.ac.jp
+
+# 東北大学(TOHOKU UNIVERSITY): https://www.tains.tohoku.ac.jp/contents/information/server-info.html
+ntp.tohoku.ac.jp
+ntp1.tohoku.ac.jp
+ntp2.tohoku.ac.jp
+
+# 豊橋技術科学大学(Toyohashi University of Technology): https://imc.tut.ac.jp/misc/
+ntp.tut.ac.jp
+
+# WAKWAK: https://www.wakwak.com/prl/support/g_internet/server_wakwak.html
+ntp1.wakwak.com
+ntp2.wakwak.com

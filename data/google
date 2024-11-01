@@ -7,6 +7,9 @@ include:firebase
 include:flutter
 include:golang
 include:google-ads
+include:google-deepmind
+include:google-gemini
+include:google-play
 include:google-registry
 include:google-scholar
 include:google-trust-services
@@ -313,14 +316,15 @@ dartsearch.net
 dataliberation.org
 debug.com
 debugproject.com
-deepmind.com
 devsitetest.how
 dialogflow.com
 digitalassetlinks.org
+docs.new
 episodic.com
 feedburner.com
 fflick.com
 financeleadsonline.com
+fitbit.com
 foofle.com
 froogle.com
 fuchsia.dev
@@ -378,7 +382,6 @@ googlemail.com
 googlemaps.com
 googlepagecreator.com
 googlephotos.com
-googleplay.com
 googleplus.com
 googlesource.com
 googlestore.com
@@ -471,6 +474,8 @@ saynow.com
 schemer.com
 screenwisetrends.com
 screenwisetrendspanel.com
+sheets.new
+slides.new
 snapseed.com
 solveforx.com
 stadia.dev
@@ -514,6 +519,7 @@ webpkgcache.com
 webrtc.org
 weltweitwachsen.de
 whatbrowser.org
+whats.new
 widevine.com
 withgoogle.com
 womenwill.com
@@ -529,9 +535,12 @@ xn--flw351e.com     # 谷歌.com
 xn--ggle-55da.com   # gооgle.com
 xn--gogl-0nd52e.com # gοoglе.com
 xn--gogl-1nd42e.com # goοglе.com
-xn--ngstr-lra8j.com # google play 应用下载时涉及
 xplr.co
 zukunftswerkstatt.de
+
+# Google safe browsing relay
+# https://www.fastly.com/press/press-releases/google-selects-Fastly-Oblivious-HTTP-Relay-for-Privacy-Sandbox/
+full:google-ohttp-relay-safebrowsing.fastly-edge.com
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
@@ -622,8 +631,6 @@ full:goto.google.com @cn
 full:gstatic-cn.com @cn
 full:gstaticadssl.l.google.com @cn
 full:gtm.oasisfeng.com @cn
-full:gvt1-cn.com @cn
-full:gvt2-cn.com @cn
 full:imasdk.googleapis.com @cn
 full:monitoring.qatp1.net @cn
 full:monitoring.qcpp1.net @cn
@@ -655,7 +662,6 @@ full:redirector.bdn.dev @cn
 full:redirector.c.chat.google.com @cn
 full:redirector.c.mail.google.com @cn
 full:redirector.c.pack.google.com @cn
-full:redirector.c.play.google.com @cn
 full:redirector.c.youtubeeducation.com @cn
 full:redirector.gcpcdn.gvt1.com @cn
 full:redirector.gvt1.com @cn
@@ -730,3 +736,6 @@ full:uberproxy-with-cn.l.google.com @cn
 full:uberproxy-with-cn4.l.google.com @cn
 full:uberproxy-with-cn6.l.google.com @cn
 full:qiao-cn.com @cn
+
+gvt1-cn.com @cn
+gvt2-cn.com @cn

@@ -750,9 +750,11 @@ full:amp-api-edge-lb.itunes-apple.com.akadns.net @cn
 full:amp-api-edge.apps.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
+full:amp-api.music.apple.com @cn
 full:aod.itunes.apple.com @cn
 full:api-edge.apps.apple.com @cn
 full:apptrailers.itunes.apple.com @cn
+full:auth.music.apple.com @cn
 full:bag.itunes.apple.com @cn
 full:bookkeeper.itunes.apple.com @cn
 full:client-api.itunes.apple.com @cn
@@ -767,16 +769,21 @@ full:gspe85-cn-ssl.ls.apple.com @cn
 full:inappcheck-cn.itunes-apple.com.akadns.net @cn
 full:inappcheck-lb.itunes-apple.com.akadns.net @cn
 full:inappcheck.itunes.apple.com @cn
-full:init.itunes.apple.com @cn
 full:init.gc-lb.apple.com.akadns.net @cn
 full:init.gc.apple.com @cn
+full:init.itunes.apple.com @cn
 full:iosapps.itunes.apple.com @cn
 full:js-cdn.music.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
+full:misc-assets.itunes.apple.com @cn
+full:myapp.itunes.apple.com @cn
+full:np-edge.itunes.apple.com @cn
 full:osxapps.itunes.apple.com @cn
+full:pd-nk.itunes.apple.com @cn
 full:pd.itunes.apple.com @cn
 full:play.itunes.apple.com @cn
+full:play.music.apple.com @cn
 full:se-edge.itunes.apple.com @cn
 full:se2.itunes.apple.com @cn
 full:search.itunes.apple.com @cn
@@ -785,7 +792,9 @@ full:sp.itunes.apple.com @cn
 full:streamingaudio.itunes.apple.com @cn
 full:su.itunes.apple.com @cn
 full:sync.itunes.apple.com @cn
+full:tf-feedback.itunes.apple.com @cn
 full:upp.itunes.apple.com @cn
+full:www.support.apple.com @cn
 
 regexp:^a[1-5]\.mzstatic\.com$ @cn
 regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
@@ -795,16 +804,15 @@ regexp:^is[1-5](-ssl)?\.mzstatic\.com$ @cn
 regexp:^s[1-5]?\.mzstatic\.com$ @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
-# Revision: 8def8312efc8b0c22ca35658614fd63388ff56c7
+# Revision: e54aa75ca9c6567ac5b67093e5471eb1c8041e86
 # Use in config file like this: "geosite:apple@cn"
-# According to the consensus in #503, do not include the domain name apps.apple.com directly.
 full:a1.mzstatic.com @cn
 full:a2.mzstatic.com @cn
 full:a3.mzstatic.com @cn
 full:a4.mzstatic.com @cn
 full:a5.mzstatic.com @cn
-full:adcdownload.apple.com.akadns.net @cn
 full:adcdownload.apple.com @cn
+full:adcdownload.apple.com.akadns.net @cn
 full:amp-api.media.apple.com @cn
 full:api-p-ap-c.smoot.apple.com @cn
 full:api-p-ap-d.smoot.apple.com @cn
@@ -813,6 +821,7 @@ full:app-site-association.cdn-apple.com @cn
 full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:appleid.cdn-apple.com @cn
+# According to the consensus in #503, do not include the domain name apps.apple.com directly.
 full:apps.mzstatic.com @cn
 full:cdn-cn1.apple-mapkit.com @cn
 full:cdn-cn2.apple-mapkit.com @cn
@@ -824,8 +833,8 @@ full:cdn2.apple-mapkit.com @cn
 full:cdn3.apple-mapkit.com @cn
 full:cdn4.apple-mapkit.com @cn
 full:cds-cdn.v.aaplimg.com @cn
-full:cds.apple.com.akadns.net @cn
 full:cds.apple.com @cn
+full:cds.apple.com.akadns.net @cn
 full:cdsassets.apple.com @cn
 full:cl1-cdn.origin-apple.com.akadns.net @cn
 full:cl1.apple.com @cn
@@ -838,11 +847,11 @@ full:cl4-cn.apple.com @cn
 full:cl4.apple.com @cn
 full:cl5-cdn.origin-apple.com.akadns.net @cn
 full:cl5.apple.com @cn
-full:clientflow.apple.com.akadns.net @cn
 full:clientflow.apple.com @cn
+full:clientflow.apple.com.akadns.net @cn
 full:cn-smp-paymentservices.apple.com @cn
-full:configuration.apple.com.akadns.net @cn
 full:configuration.apple.com @cn
+full:configuration.apple.com.akadns.net @cn
 full:cstat.apple.com @cn
 full:cstat.cdn-apple.com @cn
 full:dd-cdn.origin-apple.com.akadns.net @cn
@@ -854,9 +863,9 @@ full:gs-loc.apple.com @cn
 full:gsp10-ssl-cn.ls.apple.com @cn
 full:gsp12-cn.ls.apple.com @cn
 full:gsp13-cn.ls.apple.com @cn
-full:gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net @cn
-full:gsp4-cn.ls.apple.com.edgekey.net @cn
 full:gsp4-cn.ls.apple.com @cn
+full:gsp4-cn.ls.apple.com.edgekey.net @cn
+full:gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:gsp5-cn.ls.apple.com @cn
 full:gsp85-cn-ssl.ls.apple.com @cn
 full:gspe19-2-cn-ssl.ls.apple.com @cn
@@ -870,12 +879,12 @@ full:gspe79-cn-ssl.ls.apple.com @cn
 full:guzzoni-apple-com.v.aaplimg.com @cn
 full:guzzoni.apple.com @cn
 full:guzzoni.smoot.apple.com @cn
-full:iadsdk.apple.com @cn
+# full:iadsdk.apple.com has already been defined in apple-ads
 full:icloud-cdn.icloud.com.akadns.net @cn
 full:icloud.cdn-apple.com @cn
+full:images.apple.com @cn
 full:images.apple.com.akadns.net @cn
 full:images.apple.com.edgekey.net.globalredir.akadns.net @cn
-full:images.apple.com @cn
 full:init-kt.apple.com @cn
 full:init-p01md-lb.push-apple.com.akadns.net @cn
 full:init-p01md.apple.com @cn
@@ -908,6 +917,7 @@ full:ml.cdn-apple.com @cn
 full:music.apple.com @cn
 full:ocsp-lb.apple.com.akadns.net @cn
 full:ocsp.apple.com @cn
+full:ocsp2-lb.apple.com.akadns.net @cn
 full:ocsp2.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
@@ -930,9 +940,9 @@ full:smp-device-content.apple.com @cn
 full:static.gc.apple.com @cn
 full:stocks-sparkline-lb.apple.com.akadns.net @cn
 full:stocks-sparkline.apple.com @cn
-full:store.apple.com.edgekey.net.globalredir.akadns.net @cn
-full:store.apple.com.edgekey.net @cn
 full:store.apple.com @cn
+full:store.apple.com.edgekey.net @cn
+full:store.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:store.storeimages.apple.com.akadns.net @cn
 full:store.storeimages.cdn-apple.com @cn
 full:support-china.apple-support.akadns.net @cn
@@ -943,23 +953,23 @@ full:swcatalog-cdn.apple.com.akadns.net @cn
 full:swcatalog.apple.com @cn
 full:swcdn.apple.com @cn
 full:swcdn.g.aaplimg.com @cn
-full:swdist.apple.com.akadns.net @cn
 full:swdist.apple.com @cn
+full:swdist.apple.com.akadns.net @cn
 full:swscan-cdn.apple.com.akadns.net @cn
 full:swscan.apple.com @cn
 full:sylvan.apple.com @cn
 full:tj-pod1-smp-device.apple.com @cn
-full:updates-http.cdn-apple.com.akadns.net @cn
 full:updates-http.cdn-apple.com @cn
+full:updates-http.cdn-apple.com.akadns.net @cn
 full:updates.cdn-apple.com @cn
 full:valid.apple.com @cn
 full:valid.origin-apple.com.akadns.net @cn
-full:weather-data.apple.com.akadns.net @cn
 full:weather-data.apple.com @cn
+full:weather-data.apple.com.akadns.net @cn
 full:weather-map.apple.com @cn
 full:weather-map2.apple.com @cn
 full:weatherkit.apple.com @cn
-full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
-full:www.apple.com.edgekey.net @cn
 full:www.apple.com @cn
+full:www.apple.com.edgekey.net @cn
+full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:xp.apple.com @cn

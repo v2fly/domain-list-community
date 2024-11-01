@@ -1,14 +1,11 @@
+#TODO: add annotations
 audiences.me
 avistaz.to
 beyond-hd.me
 bibliotik.me
-bitpt.cn
 blutopia.cc
 broadcasthe.net
-bt.byr.cn
-byr.pt
 ccfbits.org
-chdbits.co
 cinemaz.to
 dicmusic.com
 eastgame.org
@@ -17,47 +14,67 @@ exoticaz.to
 filelist.io
 greatposterwall.com
 hdbits.org
-hdchina.org
 hdcity.city
 hdfans.org
-hdhome.org
-hdsky.me
 hdtime.org
 hhanclub.top
-hudbt.hust.edu.cn
 iptorrents.com
 jpopsuki.eu
 jptv.club
-keepfrds.com
 lemonhd.org
-m-team.cc
-m-team.io
 morethantv.me
-nanyangpt.com
-npupt.com
 open.cd
-ourbits.club
 passthepopcorn.me
 privatehd.to
 pt.btschool.club
 pt.eastgame.org
 pt.hd4fans.org
-pt.keepfrds.com
-pt.nwsuaf6.edu.cn
-pt.sjtu.edu.cn
 pt.soulvoice.club
 pt.xauat.edu.cn
-pterclub.com
 pthome.net
 ptsbao.club
 share.ilolicon.com
 sharkpt.net
-skyey2.com
-springsunday.net
-tju.pt
-tjupt.org
-torrentleech.org
-totheglory.im
-u2.dmhy.org
 uhdbits.org
 zhuque.in
+
+
+# 天雪论坛
+skyey2.com @!cn
+skyeysnow.com @!cn
+
+# M-Team
+m-team.cc @!cn
+m-team.io @!cn
+
+myanonamouse.net @!cn
+torrentleech.org @!cn
+u2.dmhy.org @!cn
+
+# To the Chinese Users:
+#    The following domains are supposed not to go through the proxy
+
+# 北邮人
+bt.byr.cn
+byr.pt
+
+# 北洋园PT
+tju.pt
+tjupt.org
+
+bitpt.cn
+chdbits.co
+hdchina.org
+hdhome.org
+hdsky.me
+hudbt.hust.edu.cn
+keepfrds.com
+nanyangpt.com
+neu6.edu.cn
+npupt.com
+ourbits.club
+pt.nwsuaf6.edu.cn
+pt.sjtu.edu.cn
+pterclub.com
+springsunday.net
+totheglory.im
