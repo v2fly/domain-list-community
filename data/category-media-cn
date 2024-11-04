@@ -3,7 +3,6 @@ include:cctv
 include:chinanews
 include:dgtle
 include:geekpark
-include:hupu
 include:ifanr
 include:jiemian
 include:landian
@@ -87,8 +86,40 @@ xinhuanet.com
 people.cn
 people.com.cn
 
+# 环球网
+huanqiu.com
+huanqiucdn.cn
+
+# 光明网
+gmw.com
+
+# 澎湃新闻
+thepaper.cn
+
+# 封面新闻
+thecover.cn
+
+# 凤凰网
+ifeng.com
+ifengimg.com
+
 # 超能网
 expreview.com
+
+# 虎嗅
+huxiu.com
+huxiucdn.com
+
+# TechWeb
+techweb.com.cn
+
+# PConline - 太平洋科技
+3conline.com
+pconline.com.cn
+
+# 中关村在线
+zol-img.com.cn
+zol.com.cn
 
 # 锋潮科技
 anzhuo.cn
