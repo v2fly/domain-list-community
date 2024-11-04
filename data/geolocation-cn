@@ -25,6 +25,10 @@ tibetairlines.com.cn # 西藏航空
 variflight.com # 飞常准
 xiamenair.com # 厦门航空
 
+# Railway
+12306.cn
+95306.cn
+
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
 include:category-securities-cn
@@ -58,6 +62,7 @@ include:wangsu
 include:yunfanjiasu
 
 funcdn.com
+knet.cn # 北龙中网
 leigod.cn
 
 # E-commerce
@@ -79,6 +84,15 @@ include:vancl
 include:youzan
 include:ziroom
 
+# 孔夫子旧书网
+kongfz.com
+kfzimg.com
+# 唯品会
+appsimg.com
+appvipshop.com
+vip.com
+vipstatic.com
+
 # Entertainment & Videos & Games & Music & Podcasts
 include:category-entertainment-cn
 
@@ -91,14 +105,16 @@ include:nga
 include:stage1st
 
 52pojie.cn # 吾爱破解
-kafan.cn # 卡饭论坛
 itsk.com # IT天空论坛
-wuyou.net # 无忧启动论坛
+kafan.cn # 卡饭论坛
+kanxue.com # 看雪
+kdslife.com # 宽带山
 klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
-uiwow.com # 魔兽有爱论坛
-right.com.cn # 恩山论坛
 pcbeta.com # 远景论坛
+right.com.cn # 恩山论坛
+uiwow.com # 魔兽有爱论坛
+wuyou.net # 无忧启动论坛
 
 # Fofa网站测绘
 fofa.info
@@ -175,7 +191,6 @@ include:capitalonline
 include:chinaso
 include:chinaz
 include:colorfulclouds
-include:coolapk
 include:cowtransfer
 include:dida365
 include:flowus
@@ -206,10 +221,16 @@ include:yinxiang
 include:zdns
 include:zhangtao
 
+# BOSS 直聘
+zhipin.com
+bosszhipin.com
+
+zhaopin.cn #智联招聘
+
 mihuashi.com # 米畫師
 
-# 沃丰科技
-udesk.cn
+huorong.cn # 火绒
+udesk.cn # 沃丰科技
 
 # xEdge 苏州星汉云联网络技术有限公司 苏ICP备2022017953号-1
 xedge.cc
@@ -247,8 +268,9 @@ include:xiaomi
 include:xunlei
 include:zte
 
-ezpro.pro # 小马路由
 51togic.com # 泰捷WEBOX
+ezpro.pro # 小马路由
+huolala.cn # 货拉拉
 
 # Telecommunication
 include:chinabroadnet
@@ -395,7 +417,6 @@ include:yuanbei
 3733.com
 3839.com
 39.net
-3conline.com
 3d66.com
 3elife.net
 3h3.com
@@ -766,7 +787,6 @@ henha.com
 henkuai.com
 herostart.com
 hiido.com
-hitv.com
 hiyd.com
 hktheone.com
 hn-cbec.com
@@ -781,15 +801,12 @@ hongyuanqh.com
 houdao.com
 houyuantuan.com
 hteacher.net
-huanqiu.com
 huashengdaili.com
 huatu.com
 huize.com
 hujia.org
-hunantv.com
 huochepiao.com
 huocheso.com
-huxiu.com
 hxfy888.com
 hxsd.com
 iask.com
@@ -805,7 +822,6 @@ ikafan.com
 im2maker.com
 im-cc.com
 imedao.com
-imgo.tv
 imooc.com
 indienova.com
 infoq.com
@@ -877,7 +893,6 @@ kimiss.com
 kingdee.com
 kiyuu.club # 沪ICP备2022004023号-1
 kkzj.com
-kongfz.com
 kouclo.com
 koudai.com
 koudai8.com
@@ -953,7 +968,6 @@ meiqia.com
 meishichina.com
 meishij.net
 mengtuoshi.wang
-mgtv.com
 miaobolive.com
 miaozhen.com
 miercn.com
@@ -1189,7 +1203,6 @@ veryhuo.com
 veryzhun.com
 vic18.com
 videojj.com
-vip.com
 vobao.com
 vpgame.com
 wangyangyang.vip
@@ -1353,7 +1366,6 @@ zhenai.com
 zhibo8.cc
 zhidx.com
 zhifang.com
-zhipin.com
 zhiziyun.com
 zhongkao.com
 zhuangjiba.com
@@ -1439,5 +1451,31 @@ educoder.net
 tokcoder.com
 trustie.net
 
+# 温州市图书馆 浙ICP备11032910号-3
+wzlib.cn
+
 #上海教育出版社有限公司 世纪外语网 沪ICP备17045211号 沪公网安备 31010402003995号
 centuryenglish.com
+
+# 互动游戏对战平台 粤ICP备18006390号-1
+fxt365.com
+
+# 浙江御鹿电子科技有限公司 麦瑞克健身设备 & 超燃脂APP 浙ICP备2021003090号-2
+merach.com
+
+# 珠海太川云社区技术股份有限公司 粤ICP备10213128号
+taichuan.com
+taichuan.net
+
+# 江苏健康通
+jsehealth.com
+
+# 妙言AI 冀ICP备20012219号-3
+miaoyanai.com
+
+# 云助学 浙ICP备19032270号-2
+yunzhuxue.com
+
+# 拓竹科技
+bambulab.com
+bblmw.com

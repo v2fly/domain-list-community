@@ -68,6 +68,7 @@ include:sony
 include:spacex
 include:spaceship
 include:st
+include:synology
 include:tailscale
 include:theboringcompany
 include:tonec
