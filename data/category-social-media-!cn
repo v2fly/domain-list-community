@@ -4,6 +4,7 @@ include:bluesky
 include:facebook
 include:instagram
 include:linkedin
+include:misskey
 include:threads
 include:twitter
 include:vk
