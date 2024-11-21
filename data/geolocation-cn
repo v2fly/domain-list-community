@@ -199,6 +199,7 @@ include:geetest
 include:hanyi
 include:jianshu
 include:jinshuju
+include:jlc
 include:keep
 include:lagou
 include:ldmnq
@@ -266,6 +267,7 @@ include:tongfang
 include:vivo
 include:xiaomi
 include:xunlei
+include:ymtc
 include:zte
 
 51togic.com # 泰捷WEBOX
