@@ -13,6 +13,10 @@ cups.org
 developer.apple.com
 devimages-cdn.apple.com
 devstreaming-cdn.apple.com
+developerservices2.apple.com
+timestamp.apple.com
+full:notary-submissions-prod.s3-accelerate.amazonaws.com
+full:notary-submissions-prod.s3.us-west-2.amazonaws.com
 
 # FoundationDB
 foundationdb.org
@@ -55,3 +59,4 @@ webobjects.com
 full:appleworldwidedeveloper.hb-api.omtrdc.net
 full:appleworldwidedeveloper.sc.omtrdc.net
 full:p-events-delivery.akamaized.net
+
