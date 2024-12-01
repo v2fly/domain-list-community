@@ -1,0 +1,39 @@
+name: Update Adobe Activation List
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # Run every day at 3:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-adobe-activation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download pihole.txt
+        run: |
+          curl -sSL https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/pihole.txt -o new-pihole.txt
+
+      - name: Check for changes
+        id: check_diff
+        run: |
+          if ! diff -q new-pihole.txt data/adobe-activation; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update adobe-activation if changed
+        if: steps.check_diff.outputs.changes == 'true'
+        run: |
+          mv new-pihole.txt data/adobe-activation
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/adobe-activation
+          git commit -m "Update adobe-activation"
+          git push
