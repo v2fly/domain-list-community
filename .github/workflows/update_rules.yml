@@ -30,9 +30,11 @@ jobs:
 
     - name: Remove "+." characters
       run: |
-        sed -i 's/+\.//g' cdn
+        # sed -i 's/+\.//g' cdn
+        sed -i '/^[+.#]/! s/^/full:/; s/\+\.//g' cdn
         sed -i 's/+\.//g' gfw
-        sed -i 's/+\.//g' skk-reject
+        # sed -i 's/+\.//g' skk-reject
+        sed -i '/^[+.#]/! s/^/full:/; s/\+\.//g' skk-reject
         # sed -i 's/+\.//g' cn
     - name: Create data directory if it doesn't exist
       run: mkdir -p data
