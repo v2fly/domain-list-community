@@ -7,6 +7,13 @@ geller-pa.googleapis.com
 generativelanguage.googleapis.com
 proactivebackend-pa.googleapis.com
 
+# Gemini app
+www.googleapis.com
+firebaseinstallations.googleapis.com
+speechs3proto2-pa.googleapis.com
+assistantfrontend-pa.googleapis.com
+assistant-s3-pa.googleapis.com
+
 # Google AI Studio
 full:ai.google.dev
 full:alkalicore-pa.clients6.google.com
