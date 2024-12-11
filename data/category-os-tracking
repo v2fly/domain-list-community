@@ -1,0 +1,26 @@
+# block Operating System tracking and diagnostic domains
+
+# Apple
+full:diagassets.apple.com
+
+# Google Play
+gvt2.com
+gvt3.com
+
+# Microsoft Windows
+full:functional.events.data.microsoft.com
+full:browser.events.data.msn.com
+full:self.events.data.microsoft.com
+full:v10.events.data.microsoft.com
+full:telecommand.telemetry.microsoft.com
+full:www.telecommandsvc.microsoft.com
+full:manage.devcenter.microsoft.com
+full:api.msa.diagnostics.office.com
+full:api.diagnostics.office.com
+full:telemetry.firstpartyapps.oaspapps.com
+full:mobile.pipe.aria.microsoft.com
+full:nexus.officeapps.live.com
+full:nexus.ensighten.com
+full:browser.pipe.aria.microsoft.com
+
+regexp:watson\..*microsoft\.com$
