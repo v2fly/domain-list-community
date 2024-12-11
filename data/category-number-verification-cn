@@ -10,5 +10,6 @@ cmpassport.com
 full:opencloud.wostore.cn
 full:hs.wosms.cn
 full:enrichgw.10010.com
+full:hap.10010.com
 
 regexp:nis.+\.10010\.com$
