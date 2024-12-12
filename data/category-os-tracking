@@ -22,5 +22,11 @@ full:mobile.pipe.aria.microsoft.com
 full:nexus.officeapps.live.com
 full:nexus.ensighten.com
 full:browser.pipe.aria.microsoft.com
+full:ssw.live.com
+full:storage.live.com
+full:firstpartyapps.oaspapps.com
+full:prod.firstpartyapps.oaspapps.com.akadns.net
+full:telemetryservice.firstpartyapps.oaspapps.com
+full:wus-firstpartyapps.oaspapps.com
 
 regexp:watson\..*microsoft\.com$
