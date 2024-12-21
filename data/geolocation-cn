@@ -22,8 +22,15 @@ juneyaoair.com # 吉祥航空
 luckyair.net # 祥鹏航空
 sichuanair.com # 四川航空
 tibetairlines.com.cn # 西藏航空
+travelskymobile.cn # 信天游（航空电子客票验真）
 variflight.com # 飞常准
 xiamenair.com # 厦门航空
+
+# 航旅纵横
+umetrip.com
+umetrip.com.cn
+umetrip.net.cn
+ume-trip.cn
 
 # Railway
 12306.cn
@@ -134,6 +141,7 @@ inftab.com
 
 ip138.com
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
+onedns.net # OneDNS（微步在线）
 
 # 423Down
 423down.com
@@ -257,7 +265,6 @@ include:lenovo
 include:meizu
 include:netease
 include:oppo
-include:oneplus
 include:qihoo360
 include:sina
 include:sogou
@@ -293,6 +300,9 @@ webmasterhome.cn # 站长之家
 guoxuedashi.com
 guoxuemi.com
 mojidict.com
+
+# 街机
+include:aamgame
 
 # Others
 include:8btc
@@ -415,7 +425,6 @@ include:yuanbei
 365dmp.com
 37.com
 3733.com
-3839.com
 39.net
 3d66.com
 3elife.net
@@ -602,7 +611,6 @@ cjol.com
 clouddn.com
 cloudxns.com
 cnanzhi.com
-cnblogs.com
 cnepub.com
 cnlaw.net
 cnzz.com
@@ -821,7 +829,6 @@ ijiandao.com
 ikafan.com
 im2maker.com
 im-cc.com
-imedao.com
 imooc.com
 indienova.com
 infoq.com
@@ -834,7 +841,6 @@ ishumei.com
 it165.net
 it168.com
 it610.com
-iteye.com
 itjuzi.com
 itmop.com
 iyiou.com
@@ -1053,7 +1059,6 @@ qianjia.com
 qianlima.com
 qianzhan.com
 qiaobutang.com
-qichacha.com
 qie.tv
 qifeiye.com
 qijiayoudao.net
@@ -1092,7 +1097,6 @@ sencdn.com
 seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
 sgamer.com
-shanbay.com
 shang360.com
 shangc.net
 shanghairc.com
@@ -1158,6 +1162,7 @@ tianjimedia.com
 tianjin-air.com
 tianlailive.com
 tianqi.com
+tianqistatic.com
 tietuku.com
 tiexue.net
 timedoo.com
@@ -1177,7 +1182,6 @@ trustexporter.com
 trustutn.org
 tudou.com
 tudouui.com
-tuer123.com
 tuicool.com
 tuiwen.net
 tujia.com
@@ -1329,7 +1333,6 @@ ypppt.com
 yrz.name
 yslyhr.com
 ysten.com
-yuewen.com
 yunaq.com
 yunba.io
 yundaex.com
@@ -1480,5 +1483,28 @@ yunzhuxue.com
 bambulab.com
 bblmw.com
 
+
 # 号码认证
 # include:category-number-verification-cn
+
+# 中国石油支付宝小程序
+95504test.com
+
+# 123 云盘 CDN
+cjjd19.com
+
+# 美物清单
+maxonesoft.com
+meiwulist.com
+
+# 北京鸿合智能系统股份有限公司
+hitevision-solutions.com
+
+# 捷顺科技
+jslife.net
+
+# 南海控股有限公司
+nanhaicorp.com
+
+# 范明明's Blog 蒙ICP备18004194号
+fanmingming.com
