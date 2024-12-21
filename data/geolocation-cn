@@ -301,6 +301,9 @@ guoxuedashi.com
 guoxuemi.com
 mojidict.com
 
+# 街机
+include:aamgame
+
 # Others
 include:8btc
 include:jibencaozuo
