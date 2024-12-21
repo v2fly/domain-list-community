@@ -32,6 +32,7 @@ include:hetzner
 include:hinet
 include:hkbn
 include:hp
+include:hpe
 include:hubblephone
 include:ibm
 include:inshot
