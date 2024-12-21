@@ -5,6 +5,7 @@ include:category-ai-chat-!cn
 
 # Anime, Comics & Games
 include:category-acg
+include:trackernetwork
 
 # Advertisment & Analytics
 include:pubmatic
@@ -271,6 +272,9 @@ include:category-dev
 
 # Tech companies
 include:category-companies
+
+# Telecommunications
+include:ntt
 
 # Torrent websites
 include:1337x
