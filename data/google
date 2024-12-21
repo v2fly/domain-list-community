@@ -12,7 +12,6 @@ include:google-gemini
 include:google-play
 include:google-registry
 include:google-scholar
-include:google-search
 include:google-trust-services
 include:googlefcm
 include:kaggle
