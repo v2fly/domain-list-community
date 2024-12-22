@@ -1,31 +1,54 @@
 # block Operating System tracking and diagnostic domains
 
 # Apple
+# source https://support.apple.com/en-us/101555#:~:text=Apple%20diagnostics
+
 full:diagassets.apple.com
 
 # Google Play
+# source https://support.google.com/work/android/answer/10513641
+
 gvt2.com
 gvt3.com
 
 # Microsoft Windows
+# source https://learn.microsoft.com/en-us/windows/privacy/manage-windows-11-endpoints for Windows
+
 full:functional.events.data.microsoft.com
 full:browser.events.data.msn.com
 full:self.events.data.microsoft.com
 full:v10.events.data.microsoft.com
-full:telecommand.telemetry.microsoft.com
-full:www.telecommandsvc.microsoft.com
+# full:telecommand.telemetry.microsoft.com
+# full:www.telecommandsvc.microsoft.com
 full:manage.devcenter.microsoft.com
-full:api.msa.diagnostics.office.com
-full:api.diagnostics.office.com
+regexp:watson\..*microsoft\.com$
+telemetry.microsoft.com
+telecommandsvc.microsoft.com
+
+# source https://learn.microsoft.com/en-us/deployedge/microsoft-edge-security-endpoints for Edge
+
+# full:api.msa.diagnostics.office.com
+# full:api.diagnostics.office.com
+diagnostics.office.com
+
+# source https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide for Office
+# https://learn.microsoft.com/en-us/microsoft-365/enterprise/network-requests-in-office-2016-for-mac?view=o365-worldwide
+# https://learn.microsoft.com/en-us/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls?view=o365-worldwide
+
 full:telemetry.firstpartyapps.oaspapps.com
 full:mobile.pipe.aria.microsoft.com
 full:nexus.officeapps.live.com
 full:nexus.ensighten.com
 full:browser.pipe.aria.microsoft.com
 full:ssw.live.com
+full:storage.live.com
 full:telemetryservice.firstpartyapps.oaspapps.com
-full:apibasic.diagnostics.office.com
+# full:apibasic.diagnostics.office.com
 full:o365diagtelemetry.trafficmanager.net
 full:outlookdiagnostics.azureedge.net
+full:cloudcheckenabler.azurewebsites.net
+full:offcatedge.azureedge.net
+full:sara.api.support.microsoft.com
 
-regexp:watson\..*microsoft\.com$
+
+
