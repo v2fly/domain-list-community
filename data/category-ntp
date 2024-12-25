@@ -17,7 +17,6 @@ clock.isc.org
 ntp.fiord.ru
 ntp.nat.ms
 ntp.nic.cz
-ntp.nict.jp
 ntp.ripe.net
 ntp.se
 ntp.ufe.cz
@@ -27,3 +26,4 @@ time.nrc.ca
 time.windows.com
 
 include:category-ntp-cn
+include:category-ntp-jp
