@@ -4,6 +4,7 @@ include:openai
 include:perplexity
 include:poe
 include:xai
+include:cursor
 
 # Jasper
 clipdrop.co
