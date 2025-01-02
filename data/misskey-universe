@@ -1,0 +1,37 @@
+# please DO NOT include domains that are only meant to serve static files
+# e.g.
+#    mediaproxy-mi.mashiro.site
+#    misskey-white.s3.ap-northeast-1.amazonaws.com
+
+9ineverse.com
+buicha.social
+gyutte.site
+labo.wovs.tk
+maniakey.homes
+mfmf.club
+mi.kochudaho.me
+mi.mashiro.site
+mi.nakn.jp
+misskey-square.net
+misskey.04.si
+misskey.always-we-need.games
+misskey.art
+misskey.cloud
+misskey.design
+misskey.flowers
+misskey.gamelore.fun
+misskey.gg
+misskey.noellabo.jp
+misskey.ranranhome.info
+misskey.stream
+misskey.yukineko.me
+mk.shrimpia.network
+mk.yopo.work
+mof.kemomi.me
+msk.ilnk.info
+msk.kitazawa.me
+nijimiss.moe
+oekakiskey.com
+submarin.online
+sushi.ski
+trpger.us
