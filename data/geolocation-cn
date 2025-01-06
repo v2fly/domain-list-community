@@ -295,7 +295,11 @@ mojidict.com
 # IPIP ip地理位置数据库
 include:ipip
 
-ip138.com # ip138查询网
+# ip138查询网
+ip138.com
+ipshudi.com
+ipchaxun.net # 粤ICP备20009057号
+
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
 
 fofa.info # Fofa网站测绘（华顺信安）
