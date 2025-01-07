@@ -267,8 +267,8 @@ myypark.com
 51togic.com # 泰捷WEBOX
 ezpro.pro # 小马路由
 
-# xEdge 苏州星汉云联网络技术有限公司 苏ICP备2022017953号-1
-xedge.cc
+# xEdge干将互联 苏州星汉云联网络技术有限公司 苏ICP备2022017953号
+include:xedge
 
 # Telecommunication
 include:chinabroadnet
