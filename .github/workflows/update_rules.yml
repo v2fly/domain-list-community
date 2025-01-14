@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 0 1,15 * *'  # 每月1日/15日
   workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
 
 jobs:
   update-cdn-file:
