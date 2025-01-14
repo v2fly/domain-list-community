@@ -1,0 +1,914 @@
+# ---------- > Global Plaform
+# > DAZN
+dazn-api.com
+dazn.com
+dazndn.com
+indazn.com
+d151l6v8er5bdm.cloudfront.net
+d1sgwhnao7452x.cloudfront.net
+dcalivedazn.akamaized.net
+dcblivedazn.akamaized.net
+# > Hotstar
+hotstar.com
+hotstarext.com
+# > Disney+
+disney.connections.edge.bamgrid.com
+disney.api.edge.bamgrid.com
+disney-plus.net
+disneyplus.com
+dssott.com
+disneynow.com
+disneystreaming.com
+cdn.registerdisney.go.com
+# > Netflix
+netflix.com
+netflix.net
+nflximg.com
+nflximg.net
+nflxvideo.net
+nflxext.com
+nflxso.net
+# > Amazon Prime Video:
+d1v5ir2lpwr8os.cloudfront.net
+d22qjgkvxw22r6.cloudfront.net
+d25xi40x97liuc.cloudfront.net
+d27xxe7juh1us6.cloudfront.net
+dmqdd6hw24ucf.cloudfront.net
+aiv-cdn.net
+aiv-delivery.net
+amazonvideo.com
+atv-ext-eu.amazon.com
+atv-ext-fe.amazon.com
+atv-ext.amazon.com
+atv-ps-eu.amazon.co.uk
+atv-ps-eu.amazon.com
+atv-ps-fe.amazon.co.jp
+atv-ps-fe.amazon.com
+atv-ps.amazon.com
+primevideo.com
+pv-cdn.net
+video.a2z.com
+# > TVBAnywhere+
+tvbanywhere.com
+tvbanywhere.com.sg
+tvb.com
+tvb.com.au
+tvbc.com.cn
+tvbeventpower.com.hk
+tvbusa.com
+tvbweekly.com
+tvmedia.net.au
+# > Viu.com
+cognito-identity.us-east-1.amazonaws.com
+d1k2us671qcoau.cloudfront.net
+d2anahhhmp1ffz.cloudfront.net
+dfp6rglgjqszk.cloudfront.net
+d3o7oi00quuwqu.cloudfront.net
+mobileanalytics.us-east-1.amazonaws.com
+viu.com
+# > Steam Store
+steampowered.com
+# > Youtube
+youtube.com
+youtubei.googleapis.com
+# > Google Search
+google.com
+# > Instagram
+instagram.com
+# > iQiyi
+71.am
+iq.com
+iqiyi.com
+iqiyipic.com
+pps.tv
+ppsimg.com
+qiyi.com
+qiyipic.com
+qy.net
+# > Tiktok
+byteoversea.com
+ibytedtos.com
+ipstatp.com
+muscdn.com
+musical.ly
+tiktok.com
+tik-tokapi.com
+tiktokcdn.com
+tiktokv.com
+
+
+# ---------- > Taiwan Media
+# > KKTV
+kfs.io
+kktv-theater.kk.stream
+kkbox.com
+kkbox.com.tw
+kktv.com.tw
+kktv.me
+# > LiTV
+litv.tv
+litvfreepc.akamaized.net
+# > MyVideo
+cdn.plyr.io
+myvideo.net.tw
+# > 4GTV
+4gtv.tv
+4gtvfreepc-cds.cdn.hinet.net
+4gtvfreepcvod-cds.cdn.hinet.net
+4gtvpc-cds.cdn.hinet.net
+4gtvpcvod-cds.cdn.hinet.net
+# > LineTV.TW
+d3c7rimkq79yfu.cloudfront.net
+linetv.tw
+# > Hami Video
+cdn.hinet.net
+hamivideo.hinet.net
+scc.ott.hinet.net
+# > CatchPlay+
+catchplay.com
+d2ivmxp5z2ww0n.cloudfront.net
+ols-ww100-cp.akamaized.net
+tra-www000-cp.akamaized.net
+# > HBO GO Asia
+44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+bcbolthboa-a.akamaihd.net
+dai3fd1oh325y.cloudfront.net
+hboasia1-i.akamaihd.net
+hboasia2-i.akamaihd.net
+hboasia3-i.akamaihd.net
+hboasia4-i.akamaihd.net
+hboasia5-i.akamaihd.net
+hboasialive.akamaized.net
+hbogoprod-vod.akamaized.net
+hbolb.onwardsmg.com
+hbounify-prod.evergent.com
+hbogo.co.th
+hbogoasia.com
+hbogoasia.hk
+hbogoasia.id
+hbogoasia.ph
+hbogoasia.sg
+hbogoasia.tw
+# > Bahamut Anime
+bahamut.com.tw
+gamer.com.tw
+gamer-cds.cdn.hinet.net
+gamer2-cds.cdn.hinet.net
+# > BiliBili
+bilibili.com
+# > Friday Video
+video.friday.tw
+
+# ---------- > Canada Media
+# > CBC Gem
+cbc.ca
+cbchd1dynamicads-i.akamaihd.net
+cbclivedai5-i.akamaihd.net
+cbcnewshd-f.akamaihd.net
+cbcrcott-gem-key.akamaized.net
+cbcrcott-gem.akamaized.net
+go-mpulse.net
+theplatform.com
+# > Crave TV
+crave.ca
+go-mpulse.net
+9c9media.com
+
+# ---------- > Japan Media
+# > NHK+
+nhk.jp
+nhk.or.jp
+# > DMM
+dmm-extension.com
+dmm.co.jp
+dmm.com
+videomarket.jp
+p-smith.com
+vmdash-cenc.akamaized.net
+img.vm-movie.jp
+# > Abema
+abema.io
+abema.tv
+ds-linear-abematv.akamaized.net
+linear-abematv.akamaized.net
+ds-vod-abematv.akamaized.net
+vod-abematv.akamaized.net
+vod-playout-abematv.akamaized.net
+ameba.jp
+hayabusa.io
+bucketeer.jp
+abema.adx.promo
+hayabusa.media
+abema-tv.com
+# > NicoNico
+dmc.nico
+nicovideo.jp
+nimg.jp
+# > Telasa
+telasa.jp
+kddi-video.com
+videopass.jp
+d2lmsumy47c8as.cloudfront.net
+# > Paravi
+paravi.jp
+# > U-NEXT
+unext.jp
+nxtv.jp
+# > Hulu Japan
+happyon.jp
+hulu.jp
+prod.hjholdings.tv
+streaks.jp
+yb.uncn.jp
+hjholdings.jp
+# > TVer
+tver.jp
+edge.api.brightcove.com
+# players.brightcove.net
+gorin.jp
+screens-lab.jp
+tver.co.jp
+dogatch.jp
+# > GYAO!
+gyao.yahoo.co.jp
+# > WOWOW
+wowow.co.jp
+# > Videomarket
+videomarket.jp
+# > D Anime Store
+animestore.docomo.ne.jp
+# > Fuji TV
+fujitv.co.jp
+stream.ne.jp
+# > Radiko
+radiko.jp
+radionikkei.jp
+smartstream.ne.jp
+# > Karaoke@DAM
+clubdam.com
+# > J:com On Demand
+id.zaq.ne.jp
+# > AnimeFesta
+api-animefesta.iowl.jp
+# > Lemino
+if.lemino.docomo.ne.jp
+# > Rakuten TV JP
+rakuten.co.jp
+# > Games
+cygames.jp
+konosubafd.jp
+colorfulpalette.org
+worldflipper.jp
+jujutsuphanpara.jp
+# > Mora
+mora.jp
+# > Music.jp
+music.jp
+music-book.jp
+# > Reads 
+data-cloudauthoring.magazine.rakuten.co.jp
+
+# ---------- > Oceania Media
+# > NBA TV
+nba.com
+neulion-a.akamaihd.net
+nlnbamdnyc-a.akamaihd.net
+sdk.iad-03.braze.com
+nbaprop.sc.omtrdc.net
+nlnbaqos.neulion.com
+watchnba.cdnfastly.endeavorstreaming.net
+nbaapi.neulion.com
+nba-api-cdn.opin.media
+neulionqos-a.akamaihd.net
+neulion.com
+nbaprop.tt.omtrdc.net
+lion-nba-msl.akamaized.net
+nbanlds19vod.akamaized.net
+# > Acorn TV
+edge.api.brightcove.com
+api.rlje.net
+boltdns.net
+acorn.tv
+# > SHOWTIME
+sho.com
+showtime.com
+showtimeanytime.com
+# > BritBox
+vod-dash-ntham-comm-live.akamaized.net
+vod-dash-ntham-comm.live.cf.md.bbci.co.uk
+vod-hls-ntham-comm-live.akamaized.net
+vod-hls-ntham-comm.live.cf.md.bbci.co.uk
+britbox.com
+d2z3p34itxwaj7.cloudfront.net
+# > Funimation
+funimation.com
+funimationsvc.com
+# > Paramount+
+paramountplus.com
+cbsi.live.ott.irdeto.com
+cbsplaylistserver.aws.syncbak.com
+cbsservice.aws.syncbak.com
+link.theplatform.com
+cbsaavideo.com
+cbsi.com
+cbsivideo.com
+pplusstatic.com
+# > AU:Stan
+stan.com.au
+stan.video
+streamcoimg-a.akamaihd.net
+live01-stan.akamaized.net
+live02-stan.akamaized.net
+# > AU:Binge/Kayo Sports
+kayosports.com.au
+streamotion.com.au
+# > AU:Docplay
+docplay.com
+0c86e2d1-madman-com-au.akamaized.net
+ff1be285-madman-com-au.akamaized.net
+5a929471-madman-com-au.akamaized.net
+879ed873-madman-com-au.akamaized.net
+# > AU:7plus
+7plus.com.au
+npc-live-sevennetwork.akamaized.net
+7plus-sevennetwork.akamaized.net
+seven.demdex.net
+cdn.7livecloud.io
+# > AU:9 now
+nine.com.au
+9now.com.au
+edge.api.brightcove.com
+p-9now.akamaized.net
+9now-livestreams.akamaized.net
+9cdn.net
+9nation.com.au
+9news.com.au
+9now.com.au
+freeviewplus.net.au
+mi9.com.au
+mi9cdn.com
+nine.com.au
+nineentertainment.com.au
+nineentertainmentco.com.au
+ninemediaroom.com.au
+ninemsn.com.au
+static9.net.au
+yourtv.com.au
+# > AU:10 play
+10play.com.au
+global.ssl.fastly.net
+airspace-cdn.cbsviedo.com
+net10-livestream-keys.play.cbsi.video
+net10-livestream.play.cbsi.video
+d25m2gzplgnf0.cloudfront.net
+# > AU:ABC iView
+iview.abc.net.au
+abc-iview-mediapackagestreams-2.akamaized.net
+# > AU:Optus
+optus.com.au
+optusdigital.com
+optusnet.com.au
+optussport.tv
+optusvideo.tv
+tls1.yospace.com
+bln1.yospace.com
+d3rj5p7u4c4icq.cloudfront.net
+mgd0ee5iankkv3gidl14rm7c0.litix.io
+93e30b04-drm-widevine-licensing.axprod.net
+# > AU:SBS on Demand
+sbsod.com
+sbs.com.au
+videocdn-sbs.akamaized.net
+sbsvoddai-vh.akamaihd.net
+sbsvodns-vh.akamaihd.net
+sbs-live-dai.akamaized.net
+sbs-live.akamaized.net
+sbs-live-dai.akamaized.net
+# > NZ:Neon TV
+neontv.co.nz
+# > NZ:SkyGO NZ
+sky.co.nz
+prod-skyonelive.akamaized.net
+skysportnow.co.nz
+imggaming.com
+pndsn.com
+# > NZ:ThreeNow
+fullscreen.nz
+# > NZ:Maori TV
+#
+
+# ---------- > North America Media
+# > FOX
+x-live-fox-stgec.uplynk.com
+fox.com
+foxdcg.com
+theplatform.com
+cdn-fox-networks-group-green.akamaized.net
+d3cv4a9a9wh0bt.cloudfront.net
+foxsports01-i.akamaihd.net
+foxsports02-i.akamaihd.net
+foxsports03-i.akamaihd.net
+# > HuluUSA
+assetshuluimcom-a.akamaihd.net
+cws-hulu.conviva.com
+hulu.com
+hulu.hb.omtrdc.net
+hulu.sc.omtrdc.net
+huluad.com
+huluqa.com
+hulustream.com
+# > NFL
+nfl.com
+# > ESPN+
+espn.api.edge.bamgrid.com
+espn.hb.omtrdc.net
+espndotcom.tt.omtrdc.net
+dtci.co
+dtci.technology
+espn.co.uk
+espn.com
+espn.net
+espncdn.com
+espnqa.com
+watchespn.com
+# > Epix
+epix.com
+# > Starz
+starz.com
+# > Philo
+philo.com
+# > FXNOW
+fxnow.fxnetworks.com
+# > TLC GO
+geolocation.onetrust.com
+# > HBO / Max
+max.com
+hbo.com
+hbogo.com
+hbomax.com
+hbomaxcdn.com
+hbonow.com
+maxgo.com
+discomax.com
+# > Shudder
+shudder.com
+# > BritBox
+vod-dash-ntham-comm-live.akamaized.net
+vod-dash-ntham-comm.live.cf.md.bbci.co.uk
+vod-hls-ntham-comm-live.akamaized.net
+vod-hls-ntham-comm.live.cf.md.bbci.co.uk
+britbox.com
+d2z3p34itxwaj7.cloudfront.net
+# > Crackle
+crackle.com
+# > CW TV
+cwtv.com
+# > A&E TV
+aetv.com
+ccpa-service.sp-prod.net
+# > NBA TV
+nba.com
+neulion-a.akamaihd.net
+nlnbamdnyc-a.akamaihd.net
+sdk.iad-03.braze.com
+nbaprop.sc.omtrdc.net
+nlnbaqos.neulion.com
+watchnba.cdnfastly.endeavorstreaming.net
+nbaapi.neulion.com
+nba-api-cdn.opin.media
+neulionqos-a.akamaihd.net
+neulion.com
+nbaprop.tt.omtrdc.net
+lion-nba-msl.akamaized.net
+nbanlds19vod.akamaized.net
+# > Fubo TV
+fubo.tv
+# > Tubi TV
+tubitv.com
+# > Sling TV
+dishworld.com
+slinginternational.com
+sling.com
+movenetworks.com
+movetv.com
+# > Pluto TV
+pluto.tv
+# > Acorn TV
+edge.api.brightcove.com
+api.rlje.net
+boltdns.net
+acorn.tv
+# > SHOWTIME
+sho.com
+showtime.com
+showtimeanytime.com
+# > encoreTVB
+encoretvb.com
+bcbolt446c5271-a.akamaihd.net
+videos-f.jwpsrv.com
+content.jwplatform.com
+edge.api.brightcove.com
+# > Funimation
+funimation.com
+# > Discovery+
+content-ause1-ur-discovery1.uplynk.com
+disco-api.com
+discoveryplus.com
+x-default-stgec.uplynk.com
+discovery.com
+discoveryplus.co.uk
+getblueshift.com
+litix.io
+mobile-collector.newrelic.com
+discovery.uplynk.com
+# > Paramount+
+paramountplus.com
+cbsi.live.ott.irdeto.com
+cbsplaylistserver.aws.syncbak.com
+cbsservice.aws.syncbak.com
+link.theplatform.com
+cbsaavideo.com
+cbsi.com
+cbsivideo.com
+pplusstatic.com
+# > Peacock TV
+peacocktv.com
+peacock.com
+# > Popcornflix
+popcornflix.com
+popcornflix-prod.cloud.seachange.com
+# > Crunchyroll
+crunchyroll.com
+vrv.co
+# > Directv Stream
+atttvnow.com
+# > KBS American
+kbs.co.kr
+# > KOCOWA
+kocowa.com
+# > F1TV
+f1prodlive.akamaized.net
+formula1.com
+
+# ---------- > Europe Media
+# > EU:Rakuten TV
+rakuten.tv
+# > EU:Funimation
+funimation.com
+# > EU:SkyShowTime
+skyshowtimeuk.data.adobedc.net
+skyshowtime.com
+cssott.com
+4ac1dd56e493354be504f063e4ae3440a13c6776.cws.conviva.com
+# > EU:HBO Max
+max.com
+cinemax.com
+forthethrone.com
+hbo.com
+hbomax.com
+hbomaxcdn.com
+maxgo.com
+# > EuroSport
+europe-fastly-mediashield-live-prod.cdn.h264.io
+akamai.prod-live.h264.io
+eurosport-dlvr-ott.akamaized.net
+eu3-prod-images.disco-api.com
+eu3-prod.disco-api.com
+eurosportplayer.com
+eurosport.com
+eurosport.fr
+eurosport.es
+eurosport.ro
+eurosport.io
+eurosport.ru
+media-shield.live.eurosport.map.fastly.net
+eurosport-dlvr-ott-vod.akamaized.net
+# > ViaPlay
+i-viaplay-com.akamaized.net
+viaplay.com
+viaplay.pl
+mtg-api.com
+# > GB:Sky GO SkyGONZ
+sky.com
+# > GB:BritBox
+vod-dash-ntham-comm-live.akamaized.net
+vod-dash-ntham-comm.live.cf.md.bbci.co.uk
+vod-hls-ntham-comm-live.akamaized.net
+vod-hls-ntham-comm.live.cf.md.bbci.co.uk
+britbox.com
+d2z3p34itxwaj7.cloudfront.net
+# > GB:ITV Hub
+itvpnpmobile-a.akamaihd.net
+itv.com
+itvstatic.com
+# > GB:Channel 4 **
+channel4.com
+# > GB:Channel 5 **
+channel5.com
+# > GB:BBC
+aod-dash-uk-live.akamaized.net
+aod-hls-uk-live.akamaized.net
+as-dash-uk-live.akamaized.net
+as-hls-uk-live.akamaized.net
+vod-dash-uk-live.akamaized.net
+vod-dash-ww-live.akamaized.net
+vod-hls-uk-live.akamaized.net
+vod-sub-uk-live.akamaized.net
+vod-thumb-uk-live.akamaized.net
+vod-thumb-ww-live.akamaized.net
+vs-cmaf-push-uk-live.akamaized.net
+bbc
+bbc.co
+bbc.co.uk
+bbc.com
+bbc.in
+bbc.net.uk
+bbcchinese.com
+bbcfmt.hs.llnwd.net
+bbcfmt.s.llnwi.net
+bbci.co
+bbci.co.uk
+bbcmedia.co.uk
+bbcpersian.com
+bbcverticals.com
+bidi.net.uk
+# > GB:Discovery+
+content-ause1-ur-discovery1.uplynk.com
+disco-api.com
+discoveryplus.com
+x-default-stgec.uplynk.com
+discovery.com
+discoveryplus.co.uk
+getblueshift.com
+litix.io
+mobile-collector.newrelic.com
+discovery.uplynk.com
+# > FR:Salto
+salto.fr
+# > FR:Canal+
+canalplus.com
+# > FR:Molotov
+molotov.tv
+# > FR:France.tv
+ftven.fr
+# > DE:Joyn
+joyn.de
+# > DE:Sky
+sky.de
+edge.api.brightcove.com
+# > DE:ZDF
+zdf.de
+# > NL:videoland
+videoland.com
+# > NL:NPO
+npo.nl
+# > IT Rai Play
+mediapolisvod.rai.it
+# > RU:Amediateka
+amediateka.ru
+# > UA:MEGOGO
+megogo.net
+vcdn.biz
+# > CH:Sky
+sky.ch
+zahs.tv
+# > TR:digiturkplay
+digiturkplay.com
+dt-int-gurme-hls.mncdn.com
+dt-live-int.akamaized.net
+
+# ---------- > Hong Kong Media
+# > Now E 
+nowe.com
+nowestatic.com
+# > Now TV
+now.com
+# > Viu.TV
+#include Viu.com
+viu.now.com
+viu.tv
+# > MyTVSuper
+mytvsuper.com
+mytvsuperlimited.hb.omtrdc.net
+mytvsuperlimited.sc.omtrdc.net
+tvb.com
+# > HBO GO Asia
+44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+bcbolthboa-a.akamaihd.net
+dai3fd1oh325y.cloudfront.net
+hboasia1-i.akamaihd.net
+hboasia2-i.akamaihd.net
+hboasia3-i.akamaihd.net
+hboasia4-i.akamaihd.net
+hboasia5-i.akamaihd.net
+hboasialive.akamaized.net
+hbogoprod-vod.akamaized.net
+hbolb.onwardsmg.com
+hbounify-prod.evergent.com
+hbogo.co.th
+hbogoasia.com
+hbogoasia.hk
+hbogoasia.id
+hbogoasia.ph
+hbogoasia.sg
+hbogoasia.tw
+# > HOY TV
+hoy.tv
+# > BiliBili 
+bilibili.com
+
+
+
+# ---------- > South America Media
+# > HBO 
+cinemax.com
+forthethrone.com
+hbo.com
+hbogo.com
+hbomax.com
+hbomaxcdn.com
+hbonow.com
+maxgo.com
+# > DirecTV
+directvgo.com
+# > Funimation
+funimation.com
+
+# ---------- > Indian Media
+discoveryplus.in
+
+# ---------- > Korean Media
+# > Wavve
+wavve.com
+pooq.co.kr
+# > Tving
+tving.com
+# > Coupang Play
+coupangplay.com
+# > Naver TV
+naver.com
+navercorp.com
+pstatic.net
+smartmediarep.com
+# > Afreeca TV
+afreecatv.com
+# > KBS Domestic
+kbs.co.kr
+# > jtbc
+jtbc.co.kr
+
+# ---------- > ? media
+# > Setanta Sports
+setantasports.com
+imggaming.com
+diceplatform.com
+dicelaboratory.com
+pndsn.com
+imggaming.s3-eu-west-1.amazonaws.com
+ux1kpaebv0.execute-api.eu-west-1.amazonaws.com
+1ok961aaca.execute-api.eu-west-1.amazonaws.com
+
+# ---------- > SouthEastAsia media
+# > HBO GO Asia
+44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+bcbolthboa-a.akamaihd.net
+dai3fd1oh325y.cloudfront.net
+hboasia1-i.akamaihd.net
+hboasia2-i.akamaihd.net
+hboasia3-i.akamaihd.net
+hboasia4-i.akamaihd.net
+hboasia5-i.akamaihd.net
+hboasialive.akamaized.net
+hbogoprod-vod.akamaized.net
+hbolb.onwardsmg.com
+hbounify-prod.evergent.com
+hbogo.co.th
+hbogoasia.com
+hbogoasia.hk
+hbogoasia.id
+hbogoasia.ph
+hbogoasia.sg
+hbogoasia.tw
+# > B-Global
+bilibili.tv
+# > SG:meWATCH
+mewatch.sg
+# > SG:StarHub
+starhubgo.com
+failoverstarhub.akamaized.net
+scvm1sc0-ssm.anycast.nagra.com
+starhubtvplus.com
+# > CatchPlay+
+catchplay.com
+d2ivmxp5z2ww0n.cloudfront.net
+ols-ww100-cp.akamaized.net
+tra-www000-cp.akamaized.net
+# > TH:TrueID 
+trueid.net
+# > TH:AIS Play
+aisplay.ais.co.th
+ais-vidnt.com
+# > ID:Vidio
+geo-id-media-001-vidio-com.akamaized.net
+# > VN:MYTV
+mytv.vn
+# > VN:Clip TV
+cliptv.vn
+# > VN:Galaxy Play
+glxplay.io
+# > VN:K+
+solocoo.tv
+# > MY:sooka
+sooka.my
+kaltura.com
+1fad96d91f4f519fc79753650a57dad992c44af2.cws.conviva.com
+# > IN:MXPlayer
+mxplayer.in
+# > IN:Tata Play
+tataplay.com
+# > IN:Zee5
+zee5.com
+# > IN:Jio Cinema
+content-jiovoot.voot.com
+# > UAE:shahid
+mbc.net
+npaw.com
+shahid.net
+
+# ---------- > AI Platform
+# > Openai
+openai.com
+chatgpt.com
+sora.com
+oaistatic.com
+oaiusercontent.com
+# > Claude 2
+anthropic.com
+claude.ai
+# > Google Gemini
+gemini.google.com
+proactivebackend-pa.googleapis.com
+# > Google AiStudio
+aistudio.google.com
+alkalimakersuite-pa.clients6.google.com
+generativelanguage.googleapis.com
+# > Microsoft Copilot For Image Generates
+copilot.microsoft.com
+
+# ---------- > Others
+# > ExHantai/E-hentai
+exhentai.org
+e-hentai.org
+
+# ---------- > China Media
+# > Youtube
+youtube.com
+youtubei.googleapis.com
+# > BiliBili
+bilibili.com
+# > Netease Cloud Music
+music.163.com
+music.126.net
+# > iQiyi
+71.am
+71.am.com
+71edge.com
+71edge.net
+aianno.cn
+aianno.com
+aiqiyicloud-mgmt.com
+aiqiyicloud.com
+aiqiyicloud.net
+baiying.com
+gitv.cn
+gitv.tv
+ibkstore.com
+iq.com
+iqiyi.com
+iqiyi.demo.uwp
+iqiyiedge.com
+iqiyiedge.net
+iqiyipic.com
+jiangbing.cn
+pps.tv
+ppsimg.com
+ppstream.cn
+ppstream.com
+ppstream.com.cn
+ppstream.net
+ppstream.net.cn
+ppsurl.com
+qiyi.cn
+qiyi.com
+qiyipic.com
+qy.com
+qy.net
+suike.cn
+# > Youku
+soku.com
+youku.com
+ykimg.com
+
+
+
+
