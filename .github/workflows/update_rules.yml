@@ -25,6 +25,9 @@ jobs:
     - name: Download list skk reject base
       run: curl -o skk-reject https://ruleset.skk.moe/Clash/domainset/reject.txt
 
+    - name: Download list from 1-stream/1stream-public-utils
+      run: curl -o dns-1stream https://raw.githubusercontent.com/1-stream/1stream-public-utils/refs/heads/main/stream.text.list
+
     # - name: Use list CN from MetaCubeX/meta-rules-dat
     #   run: curl -o cn https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/cn.list
 
@@ -47,6 +50,7 @@ jobs:
         mv skk-reject data/
         # mv data/cn data/cn-bak
         # mv cn data/
+        mv dns-1stream data/
 
     - name: Commit changes
       run: |
@@ -56,5 +60,6 @@ jobs:
         git add data/gfw
         git add data/anti-ad
         git add data/skk-reject
-        git commit -m 'Update cdn by removing "+." characters'
+        git add data/dns-1stream
+        git commit -m 'Update cdn and removing "+." characters'
         git push origin master
