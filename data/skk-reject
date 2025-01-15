@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Base
-# Last Updated: 2025-01-14T10:08:15.453Z
-# Size: 112886
+# Last Updated: 2025-01-14T13:43:54.552Z
+# Size: 112890
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -343,6 +343,7 @@ kjxhd.cn
 kmruv.cn
 kolsh.cn
 kopvx.cn
+kychq.cn
 lgpjw.cn
 macyy.cn
 mlstx.cn
@@ -9850,6 +9851,7 @@ braktern.com
 braun634.com
 bravotrk.com
 breadpro.com
+brephras.com
 brokeloy.com
 brominer.com
 brookssa.com
@@ -35830,6 +35832,7 @@ vingroup.fit
 2za.fun
 3uo.fun
 4wm.fun
+7zb.fun
 bc4.fun
 e7h.fun
 ok5.fun
@@ -42154,6 +42157,7 @@ fol9v.xyz
 fynox.xyz
 gcvir.xyz
 ged46.xyz
+geuba.xyz
 gfjn5.xyz
 ggsfq.xyz
 girls.xyz
@@ -42233,6 +42237,7 @@ vrime.xyz
 wuci1.xyz
 wusfa.xyz
 wwoww.xyz
+xmvxo.xyz
 xolen.xyz
 zaemi.xyz
 zenal.xyz
@@ -47517,7 +47522,6 @@ wicdn.cloud
 ziblo.cloud
 adrino.cloud
 hhmako.cloud
-ntkimg.cloud
 valuad.cloud
 aditude.cloud
 gelescu.cloud
@@ -90567,6 +90571,7 @@ t.tulsahurricane.com
 app.tulsahurricane.com
 bxumze.tuscaloosanews.com
 tracking.twocommagrowth.com
+data.ublock-browser.com
 t.ucirvinesports.com
 app.ucirvinesports.com
 t.umassathletics.com
@@ -96043,7 +96048,6 @@ pro.pokerup.net
 ra.poringa.net
 cdn.preciso.net
 tvetamovie.pstatic.net
-ad-creative.pstatic.net
 naverpa-phinf.pstatic.net
 searchad-phinf.pstatic.net
 app.qooxydz.net
