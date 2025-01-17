@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-01-14T13:43:54.608Z
-# Size: 2936
+# Last Updated: 2025-01-17T12:44:34.366Z
+# Size: 2942
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -138,6 +138,7 @@ udify.app
 giscus.app
 vercel.app
 netlify.app
+on-fleek.app
 payloadcms.app
 pixiv.cat
 wp.com
@@ -822,6 +823,7 @@ ipfs.mrh.io
 full:adkit.9pub.io
 full:assets.bwbx.io
 full:badge.fury.io
+full:libraries.hund.io
 full:static.itch.io
 full:cdn.nolt.io
 full:dl.nwjs.io
@@ -1109,6 +1111,7 @@ full:media.fs.com
 full:img-en.fs.com
 full:resource.fs.com
 full:front-resource.fs.com
+full:resource-accel.fs.com
 full:consent-notice.ft.com
 full:consent-manager.ft.com
 full:static.ui.com
@@ -1910,6 +1913,7 @@ full:cdn.miohentai.com
 full:public.mocortech.com
 full:static.mocortech.com
 full:images.moovitapp.com
+full:files.namecheap.com
 full:cms-assets.nodecraft.com
 res.office365.com
 full:cdn.onesignal.com
@@ -2400,6 +2404,7 @@ ruleset.skk.moe
 full:latency-test.skk.moe
 full:hv-monsterdb-data.skk.moe
 full:ovo.wxw.moe
+full:touchgal-image.moyu.moe
 full:pic.cangku.moe
 full:static.chaika.moe
 full:static.bangumi.moe
@@ -2894,6 +2899,7 @@ full:static.na1.visioncritical.com
 full:static.global.visioncritical.com
 assets.shortbread.aws.dev
 widgets.marketplace.aws.dev
+full:cdn.builderprofile.aws.dev
 full:stats.setapp.macpaw.dev
 full:assets.science.nasa.gov
 full:latency-test.lab.skk.moe
