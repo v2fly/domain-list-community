@@ -32,6 +32,7 @@ include:hetzner
 include:hinet
 include:hkbn
 include:hp
+include:hpe
 include:hubblephone
 include:ibm
 include:inshot
@@ -47,6 +48,7 @@ include:mindgeek
 include:mozilla
 include:musixmatch
 include:naver
+include:netcup
 include:neuralink
 include:nvidia
 include:openai

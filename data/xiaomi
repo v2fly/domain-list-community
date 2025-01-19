@@ -3,6 +3,7 @@ include:xiaomi-ads
 mi-img.com
 mi.com
 mifile.cn
+migames.com
 mijia.tech
 miui.com
 miwifi.com
@@ -13,8 +14,16 @@ xiaomiev.com
 xiaomimobile.com
 xiaomixiaoai.com
 
+# 多看
+duokan.com
 # Xiaomi YouPin
 xiaomiyoupin.com
+# 紫米
+zmifi.com
 
 # AppStore CDN
 saxyit.com
+
+# Overseas only
+c.mi.com @!cn
+global.market.xiaomi.com @!cn
