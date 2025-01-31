@@ -11,6 +11,7 @@ include:ethereum
 include:gateio
 include:huobi
 include:localbitcoins
+include:nexo
 include:okx
 include:onekey
 include:wisekey
