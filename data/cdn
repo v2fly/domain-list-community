@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-01-28T18:42:06.204Z
-# Size: 3066
+# Last Updated: 2025-01-31T10:40:55.239Z
+# Size: 3070
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1033,6 +1033,7 @@ full:i.mt.lv
 full:cdn.img.ly
 full:cdn.plot.ly
 full:cdn.embed.ly
+full:i-cdn.embed.ly
 full:cdn.redoc.ly
 full:assets.context.ly
 full:i.vgy.me
@@ -1599,6 +1600,7 @@ full:static.foxnews.com
 full:img.freepik.com
 full:image.freepik.com
 full:avatar.freepik.com
+full:cdn-front.freepik.com
 full:images.g2crowd.com
 static.gartner.com
 app.gitbook.com
@@ -1963,7 +1965,6 @@ full:i.hentaifox.com
 full:i2.hentaifox.com
 full:snyk-widget.herokuapp.com
 full:freeshippingbar.herokuapp.com
-full:v.hillwaver.com
 full:static.incapsula.com
 full:platform.instagram.com
 full:home.integrate.com
@@ -2083,6 +2084,7 @@ full:images.contentful.com
 full:f.convertkit.com
 full:media.convertkit.com
 full:assets.convertkit.com
+full:cdn.conveythis.com
 full:images.crunchbase.com
 full:static-beta.curseforge.com
 cdn.discordapp.com
@@ -2234,6 +2236,8 @@ full:static.gettyimages.com
 full:media.graphassets.com
 full:content.invisioncic.com
 full:media.istockphoto.com
+full:a.kickstarter.com
+full:i.kickstarter.com
 full:logos.kiwibrowser.com
 full:settings.kiwibrowser.com
 full:cdn.linearicons.com
@@ -2341,6 +2345,7 @@ full:st.dynamicyield.com
 full:cdn.dynamicyield.com
 full:st-eu.dynamicyield.com
 full:cdn-eu.dynamicyield.com
+full:cdn.fastcomments.com
 full:static.filestackapi.com
 full:m3u8.girigirilove.com
 full:cdn.hongkongcard.com
@@ -2499,7 +2504,6 @@ full:cdn.usd.fan
 full:smd-cms.nasa.gov
 full:images-assets.nasa.gov
 full:cdn.cbd.int
-full:img.hcloud.lat
 full:static.coinall.ltd
 full:objects.hit.moe
 cdn.skk.moe
