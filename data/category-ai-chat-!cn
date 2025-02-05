@@ -1,5 +1,6 @@
 include:anthropic
 include:google-gemini
+include:groq
 include:openai
 include:perplexity
 include:poe
