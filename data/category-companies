@@ -28,6 +28,7 @@ include:giffgaff
 include:gigabyte
 include:godaddy
 include:google
+include:groq
 include:hetzner
 include:hinet
 include:hkbn
