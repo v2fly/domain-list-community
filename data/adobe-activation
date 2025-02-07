@@ -1,3 +1,11 @@
+# https://github.com/v2fly/domain-list-community/issues/2394#issuecomment-2632716166
+# This data source is meant to crack the license-validating of the Adobe software,
+# which is no longer the interest of this project. One of the maintainers (@IceCodeNew)
+# decided that this file should be frozen as an act of showing this project has nothing to do with piracy
+
+# This file is subject to any reasonable deletion request. Till then,
+# this file will be remained to not disturb existing users.
+
 # Adobe online activation domains
 full:3dns-1.adobe.com
 full:3dns-2.adobe.com
