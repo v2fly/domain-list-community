@@ -280,6 +280,9 @@ include:nyaa
 include:piratebay
 include:rarbg
 
+# User scripts
+greasyfork.org
+
 # VPN services
 include:category-vpnservices
 
