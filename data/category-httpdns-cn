@@ -23,6 +23,9 @@ dns.iqiyi.com @ads
 dns.qiyipic.iqiyi.com @ads
 doh.iqiyi.com @ads
 
+# Keep
+httpdns.calorietech.com
+
 # Kuaishou
 hdns.ksyun.com @ads
 kuaishou.httpdns.pro @ads
