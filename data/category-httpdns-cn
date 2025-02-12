@@ -24,7 +24,7 @@ dns.qiyipic.iqiyi.com @ads
 doh.iqiyi.com @ads
 
 # Keep
-httpdns.calorietech.com
+httpdns.calorietech.com @ads
 
 # Kuaishou
 hdns.ksyun.com @ads
@@ -33,6 +33,8 @@ kuaishou.httpdns.pro @ads
 # Meituan
 httpdns.meituan.com @ads
 httpdnsvip.meituan.com @ads
+d.meituan.net @ads
+dreport.meituan.net @ads
 
 # NetEase
 httpdns-sdk.n.netease.com @ads
