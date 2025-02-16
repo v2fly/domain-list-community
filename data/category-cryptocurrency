@@ -12,6 +12,7 @@ include:gateio
 include:huobi
 include:kraken
 include:localbitcoins
+include:nexo
 include:okx
 include:onekey
 include:wisekey
