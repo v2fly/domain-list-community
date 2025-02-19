@@ -10,6 +10,7 @@ include:deribit
 include:ethereum
 include:gateio
 include:huobi
+include:kraken
 include:localbitcoins
 include:okx
 include:onekey
@@ -17,6 +18,7 @@ include:wisekey
 include:wynd
 include:zb
 include:kucoin
+include:redotpay
 
 1inch.io
 aave.com
@@ -56,7 +58,6 @@ metalpha.finance
 mexc.com
 mexcsensors.com
 mytokenapi.com
-kraken.com
 opensea.io
 osl.com
 paxful.com
