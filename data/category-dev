@@ -21,6 +21,7 @@ include:fontawesome
 include:gemfury
 include:gitbook
 include:github
+include:github1s
 include:gitlab
 include:golang
 include:hashicorp
