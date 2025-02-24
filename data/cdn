@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-02-21T12:07:34.603Z
-# Size: 3165
+# Last Updated: 2025-02-24T07:22:12.478Z
+# Size: 3171
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -146,6 +146,7 @@ henread.xyz
 dogehls.xyz
 full:img.catwvod.xyz
 98avcdn.xyz
+full:s3.2233778.xyz
 full:img.timero.xyz
 porn-d.xyz
 imgpng.xyz
@@ -170,6 +171,7 @@ alphafish.top
 mobilius.top
 apperoni.top
 timg135.top
+pichost.top
 gitcdn.top
 balley.top
 akidoo.top
@@ -371,6 +373,7 @@ full:static-resource.np.community.playstation.net
 f.hubspotfree.net
 hsappstatic.net
 divio-media.net
+full:cdnfonts.devolutions.net
 full:cdn.arstechnica.net
 vscode-cdn.net
 ungrounded.net
@@ -419,7 +422,7 @@ full:decart-oasis.azureedge.net
 full:typescript.azureedge.net
 full:edgestatic.azureedge.net
 full:ni-assets.azureedge.net
-full:cdn.media.amplience.net
+media.amplience.net
 full:cdn.c1.amplience.net
 full:statics-marketingsites-eas-ms-com.akamaized.net
 full:prod-video-cms-amp-microsoft-com.akamaized.net
@@ -726,6 +729,7 @@ chargebeestaticv2.com
 full:telemetry.1passwordservices.com
 superfiliate-cdn.com
 steamusercontent.com
+spreadshirtmedia.com
 full:static2.sharepointonline.com
 full:oss-binaries.phusionpassenger.com
 full:assets4.mist-train-girls.com
@@ -948,6 +952,7 @@ full:eu-images.contentstack.com
 full:ui.contentstack.com
 full:cdn.cnx-software.com
 full:static-assets.clubhouseapi.com
+storage.cloudconvert.com
 full:assets.clickfunnels.com
 full:components.clever-cloud.com
 full:assets.clever-cloud.com
@@ -2120,7 +2125,6 @@ bugly.qcloud.com
 pxgcdn.com
 full:js.pusher.com
 cdn.pubnub.com
-full:static-landing.probit.com
 full:static.probit.com
 full:assets.pixlee.com
 pinimg.com
@@ -2531,6 +2535,7 @@ full:cdn3.dan.com
 full:cdn2.dan.com
 full:cdn1.dan.com
 full:cdn0.dan.com
+full:static-landing.probiplacehold.cot.com
 full:media.cnn.com
 full:cdn.cnn.com
 full:gn-web-assets.api.bbc.com
@@ -3150,6 +3155,7 @@ newscdn.com.au
 full:tags.news.com.au
 ipfs.greyh.at
 full:i.snap.as
+full:solve-widget.forethought.ai
 shortpixel.ai
 full:pplx-next-static-public.perplexity.ai
 full:r2cdn.perplexity.ai
