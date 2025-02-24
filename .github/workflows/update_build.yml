@@ -1,0 +1,121 @@
+name: Update and Build
+
+on:
+  schedule:
+    - cron: '0 0 1,15 * *'  # 每月1日/15日触发
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**/README.md"
+
+jobs:
+  update_rules:
+    name: Update rules
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download cdn.txt
+        run: curl -o cdn https://ruleset.skk.moe/Clash/domainset/cdn.txt
+
+      - name: Download list gfw
+        run: curl -o gfw https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.list
+
+      - name: Download list anti-ad
+        run: curl -o anti-ad https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
+
+      - name: Download list skk reject base
+        run: curl -o skk-reject https://ruleset.skk.moe/Clash/domainset/reject.txt
+
+      - name: Download list from 1-stream/1stream-public-utils
+        run: curl -o dns-1stream https://raw.githubusercontent.com/1-stream/1stream-public-utils/refs/heads/main/stream.text.list
+
+      - name: Remove "+." characters
+        run: |
+          sed -i '/^[+.#]/! s/^/full:/; s/\+\.//g' cdn
+          sed -i 's/+\.//g' gfw
+          sed -i '/^[+.#]/! s/^/full:/; s/\+\.//g' skk-reject
+
+      - name: Create data directory if it doesn't exist
+        run: mkdir -p data
+
+      - name: Move file to data directory
+        run: |
+          mv cdn data/
+          mv gfw data/
+          mv anti-ad data/
+          mv skk-reject data/
+          mv dns-1stream data/
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/cdn
+          git add data/gfw
+          git add data/anti-ad
+          git add data/skk-reject
+          git add data/dns-1stream
+          git commit -m 'Update cdn and removing "+." characters'
+          git push origin master
+
+  build:
+    name: Build geosite.dat
+    runs-on: ubuntu-latest
+    needs: update_rules
+    steps:
+      - name: Checkout codebase
+        uses: actions/checkout@v4
+        with:
+          path: code
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: code/go.mod
+
+      - name: Set variables
+        run: |
+          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Build geosite.dat file
+        run: |
+          cd code || exit 1
+          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          cd ../ && rm -rf code
+
+      - name: Generate geosite.dat sha256 hash
+        run: |
+          sha256sum geosite.dat > geosite.dat.sha256sum
+
+      - name: Generate Zip
+        run: |
+          zip -9 geosite.dat.zip geosite.dat
+          sha256sum geosite.dat.zip > geosite.dat.zip.sha256sum
+
+      - name: Generate XZ
+        run: |
+          xz -z -9 -k geosite.dat
+          sha256sum geosite.dat.xz > geosite.dat.xz.sha256sum
+
+      - name: Git push assets to "release" branch
+        run: |
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b release
+          git add *.txt *.sha256sum geosite.dat geosite.dat.zip geosite.dat.xz
+          git commit -m "${{ env.RELEASE_NAME }}"
+          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          git push -f -u origin release
+
+      - name: Release and upload assets
+        run: |
+          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./geosite.dat ./geosite.dat.*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
