@@ -66,6 +66,7 @@ jobs:
     name: Build geosite.dat
     runs-on: ubuntu-latest
     needs: update_rules
+    if: ${{ always() }}
     steps:
       - name: Checkout codebase
         uses: actions/checkout@v4
