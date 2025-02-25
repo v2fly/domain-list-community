@@ -1,0 +1,8 @@
+# allanime uses cloudflare for handshakes, otherwise website wont open
+include:cloudflare
+
+allmanga.to
+allanime.day
+allanime.pro
+youtube-anime.com
+youtu-chan.com
