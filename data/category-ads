@@ -127,7 +127,17 @@ click.ali213.net
 pbmp.ali213.net
 
 # Caixin
-regexp:^pinggai\d\.caixin\.com$
+# regexp:^pinggai\d\.caixin\.com$
+full:pinggai0.caixin.com
+full:pinggai1.caixin.com
+full:pinggai2.caixin.com
+full:pinggai3.caixin.com
+full:pinggai4.caixin.com
+full:pinggai5.caixin.com
+full:pinggai6.caixin.com
+full:pinggai7.caixin.com
+full:pinggai8.caixin.com
+full:pinggai9.caixin.com
 
 # Chinaso
 adq.chinaso.com
