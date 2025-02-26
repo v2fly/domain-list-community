@@ -1,6 +1,8 @@
 # All .fox domains
 fox
 
+include:tubi
+
 fox-corporation.com
 fox-news.com
 fox.com
