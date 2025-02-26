@@ -6,6 +6,7 @@ include:bitflyer
 include:bitsquare
 include:bybit
 include:coinone
+include:cryptomus
 include:deribit
 include:ethereum
 include:gateio
@@ -44,6 +45,7 @@ coinmap.org
 coinmarketcap.com
 crypto.com
 cryptocompare.com
+cryptomus.com
 curve.fi
 cyberx.com
 debank.com
