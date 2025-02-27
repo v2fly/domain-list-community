@@ -6,7 +6,6 @@ include:bitflyer
 include:bitsquare
 include:bybit
 include:coinone
-include:cryptomus
 include:deribit
 include:ethereum
 include:gateio
