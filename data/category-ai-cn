@@ -1,3 +1,6 @@
+# DeepSeek
+include:deepseek
+
 # RWKV
 rwkv.cn
 rwkv.com
@@ -39,3 +42,7 @@ baichuan-ai.com
 
 botvip.cn
 liblib.art
+
+# 夸克 CueMe
+cueme.cn
+full:cueme-api.quark.cn
