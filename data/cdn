@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-02-28T09:27:25.336Z
-# Size: 3194
+# Last Updated: 2025-03-01T06:35:12.802Z
+# Size: 3197
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -711,6 +711,7 @@ full:screenshots.downloadtorrentfile.com
 full:cdn.cms-twdigitalassets.com
 w-corp-staticblitz.com
 simpleflyingimages.com
+pocket-image-cache.com
 patreonusercontent.com
 misskeyusercontent.com
 firefoxusercontent.com
@@ -1259,6 +1260,7 @@ full:hls.hentaicity.com
 full:img.hellofresh.com
 full:cdn.hellofresh.com
 full:assets.hearstapps.com
+full:hips.hearstapps.com
 full:cdn.hackernoon.com
 full:assets.grooveapps.com
 content-storage-upload.googleapis.com
@@ -1435,6 +1437,7 @@ oculuscdn.com
 oaistatic.com
 full:cms-assets.nodecraft.com
 nhentaimg.com
+full:media.newyorker.com
 full:files.namecheap.com
 full:images.moovitapp.com
 full:static.mocortech.com
