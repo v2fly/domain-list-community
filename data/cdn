@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-02-24T07:22:12.478Z
-# Size: 3171
+# Last Updated: 2025-02-28T09:27:25.336Z
+# Size: 3194
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -373,13 +373,17 @@ full:static-resource.np.community.playstation.net
 f.hubspotfree.net
 hsappstatic.net
 divio-media.net
+full:telemetry2.devolutions.net
 full:cdnfonts.devolutions.net
+full:cdnweb.devolutions.net
+full:cdn.devolutions.net
 full:cdn.arstechnica.net
 vscode-cdn.net
 ungrounded.net
 full:consumersite-assets.trustpilot.net
 full:cdn.trustpilot.net
 nelreports.net
+full:cdn.macstories.net
 hs-scripts.net
 full:hub-assets.displaycal.net
 full:images-ext-2.discordapp.net
@@ -452,6 +456,7 @@ pixelcdn.net
 wikia.nocookie.net
 cdn.nintendo.net
 line-cdn.net
+kakaocdn.net
 jsdelivr.net
 full:img.javstore.net
 forgecdn.net
@@ -801,6 +806,7 @@ full:na-library.klarnaservices.com
 full:static.killedbygoogle.com
 kc-usercontent.com
 full:content.kaspersky-labs.com
+full:isitmaintained.com
 full:code.ionicframework.com
 intercomassets.com
 full:static-gcp.freepikcompany.com
@@ -874,6 +880,7 @@ chesscomfiles.com
 cdn-cookieyes.com
 cdn-centaurus.com
 cbsnewsstatic.com
+full:files.buildwithfern.com
 cdn.autoevolution.com
 assets-yammer.com
 full:images.arigatotravel.com
@@ -922,7 +929,10 @@ full:cdn.lemonsqueezy.com
 full:unsubscribe-imgs.leavemealone.com
 full:icons.leavemealone.com
 full:cdn-c.leavemealone.com
+full:clientstream.launchdarkly.com
+full:clientsdk.launchdarkly.com
 full:static.launchdarkly.com
+full:events.launchdarkly.com
 larksuitecdn.com
 kinja-static.com
 jinyingimage.com
@@ -1114,6 +1124,7 @@ full:ddcdn.comtucdncom.com
 full:cdn.comparitech.com
 cloudatacdn.com
 cdn-website.com
+full:events.ld.catamorphic.com
 full:cdn.calibermind.com
 bstarstatic.com
 full:cdn77.boyfriendtv.com
@@ -1391,6 +1402,7 @@ full:blob.sololearn.com
 full:cdn-public.sociabble.com
 full:static.skyassets.com
 full:uploads.sitepoint.com
+full:s3.sitepoint.com
 full:media.shopimind.com
 sendspace.com
 full:forest-mt-s3.seekrtech.com
@@ -1529,6 +1541,7 @@ aspnetcdn.com
 appmifile.com
 full:s-cdn.anthropic.com
 ipfs.anonymize.com
+full:images.anandtech.com
 full:ip-ranges.amazonaws.com
 assets.as2.amazonaws.com
 full:static.agilebits.com
@@ -1568,6 +1581,10 @@ tpdfiles.com
 full:cdn.tinypass.com
 tildacdn.com
 full:ci.testling.com
+full:cdn0-i.techbang.com
+full:cdn2.techbang.com
+full:cdn1.techbang.com
+full:cdn0.techbang.com
 full:cdn4.sysgears.com
 full:cdn3.sysgears.com
 full:cdn2.sysgears.com
@@ -1691,6 +1708,7 @@ full:cdn-uicons.flaticon.com
 full:media.flaticon.com
 full:cdn.firebase.com
 full:s3.filebase.com
+full:icons.ferndocs.com
 favicone.com
 full:images.fandango.com
 full:graph.facebook.com
@@ -1816,7 +1834,6 @@ full:cdn-fck.tnaflix.com
 full:img2.tnaflix.com
 full:cdnl.tnaflix.com
 full:artworks.thetvdb.com
-full:autoupdate.termius.com
 full:cdn.termius.com
 full:wpmedia.tealium.com
 full:cdn.svgator.com
@@ -2382,6 +2399,7 @@ full:cdn.gettr.com
 full:i.gawby.com
 full:a.gawby.com
 fonts.com
+full:s3-figma-force-client-reloads-production.figma.com
 full:s3-figma-plugin-images-production-sig.figma.com
 full:s3-alpha-sig.figma.com
 full:marketing.figma.com
@@ -2436,9 +2454,11 @@ full:cdn2.auth0.com
 full:cdn.auth0.com
 full:events-delivery.apple.com
 full:lcdn-locator.apple.com
+full:news-assets.apple.com
 full:events-live.apple.com
 full:apple-relay.apple.com
 full:pba.apple.com
+full:vsmarketplacebadge.apphb.com
 ahcdn.com
 full:wwwimages2.adobe.com
 full:assets.fonts.adobe.com
@@ -2467,6 +2487,7 @@ full:widget.user.com
 full:media.user.com
 full:assets.time.com
 sirv.com
+full:static.seel.com
 full:cdn.sedo.com
 www.s81c.com
 full:sdata.ndtv.com
@@ -2540,6 +2561,7 @@ full:media.cnn.com
 full:cdn.cnn.com
 full:gn-web-assets.api.bbc.com
 full:static2.avg.com
+full:cdn.designsystem.arm.com
 full:images.991.com
 wp.com
 full:st6-20.vk.com
@@ -2887,6 +2909,7 @@ full:img.badgesize.io
 events.backtrace.io
 4everland.io
 vsassets.io
+full:img.telemetr.io
 full:release.runcloud.io
 cdn.manage.runcloud.io
 cdn.runcloud.io
