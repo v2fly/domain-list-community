@@ -2,3 +2,4 @@ include:sf-express
 include:sto-express
 include:yto-express
 include:yundaex
+include:zto-express
