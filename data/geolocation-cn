@@ -51,6 +51,9 @@ include:category-blog-cn
 # 餐饮类
 include:category-food-cn
 
+# 快递物流
+include:category-logistics-cn
+
 # CDN or SDWAN
 include:aws-cn
 include:baijiayun
@@ -148,9 +151,6 @@ onedns.net # OneDNS（微步在线）
 
 # 果核剥壳
 ghxi.com
-
-# Logistics
-include:sf-express
 
 # Media & News & Press
 include:category-media-cn
