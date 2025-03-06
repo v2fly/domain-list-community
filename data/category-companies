@@ -18,6 +18,7 @@ include:chegg
 include:cisco
 include:cloudcone
 include:collabora
+include:comodo
 include:corel
 include:dell
 include:digitalocean

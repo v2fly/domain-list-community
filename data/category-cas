@@ -7,7 +7,6 @@ include:apple-pki
 include:buypass
 include:certinomis
 include:certum
-include:comodo
 include:cybertrust
 include:digicert
 include:entrust
