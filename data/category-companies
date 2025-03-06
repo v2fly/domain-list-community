@@ -75,11 +75,13 @@ include:spacex
 include:spaceship
 include:st
 include:synology
+include:symantec
 include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
 include:ubiquiti
+include:verisign
 include:verizon
 include:vultr
 include:westerndigital
