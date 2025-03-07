@@ -263,4 +263,24 @@ cza84.cn
 kma1g.cn
 576nt.cn
 
-regexp:.+\.cdnhwc([1-9]|10)\.(cn|com)$
+# regexp:.+\.cdnhwc([1-9]|10)\.(cn|com)$
+cdnhwc1.cn
+cdnhwc2.cn
+cdnhwc3.cn
+cdnhwc4.cn
+cdnhwc5.cn
+cdnhwc6.cn
+cdnhwc7.cn
+cdnhwc8.cn
+cdnhwc9.cn
+cdnhwc10.cn
+cdnhwc1.com
+cdnhwc2.com
+cdnhwc3.com
+cdnhwc4.com
+cdnhwc5.com
+cdnhwc6.com
+cdnhwc7.com
+cdnhwc8.com
+cdnhwc9.com
+cdnhwc10.com
