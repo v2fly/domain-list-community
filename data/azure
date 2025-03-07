@@ -104,7 +104,26 @@ windowsazure.cn @cn
 windowsazure.com
 windowsazurestatus.cn @cn
 
-regexp:.+\.azchcdn[a-s]\.com$ @cn
+# regexp:.+\.azchcdn[a-s]\.com$ @cn
+azchcdna.com @cn
+azchcdnb.com @cn
+azchcdnc.com @cn
+azchcdnd.com @cn
+azchcdne.com @cn
+azchcdnf.com @cn
+azchcdng.com @cn
+azchcdnh.com @cn
+azchcdni.com @cn
+azchcdnj.com @cn
+azchcdnk.com @cn
+azchcdnl.com @cn
+azchcdnm.com @cn
+azchcdnn.com @cn
+azchcdno.com @cn
+azchcdnp.com @cn
+azchcdnq.com @cn
+azchcdnr.com @cn
+azchcdns.com @cn
 
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
@@ -116,4 +135,14 @@ azure-dns.info
 azure-dns.net
 azure-dns.org
 
-regexp:.+\.azure-dns-([1-9]|10)\.cn$ @cn
+# regexp:.+\.azure-dns-([1-9]|10)\.cn$ @cn
+azure-dns-1.cn @cn
+azure-dns-2.cn @cn
+azure-dns-3.cn @cn
+azure-dns-4.cn @cn
+azure-dns-5.cn @cn
+azure-dns-6.cn @cn
+azure-dns-7.cn @cn
+azure-dns-8.cn @cn
+azure-dns-9.cn @cn
+azure-dns-10.cn @cn

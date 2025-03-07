@@ -1,5 +1,6 @@
 include:playcover
 include:fflogs
+include:trackernetwork
 
 # Android Emulator
 bluestacks.com
