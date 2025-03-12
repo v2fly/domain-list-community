@@ -13,6 +13,7 @@ tmall
 include:alibaba-ads
 include:alibabacloud
 include:aliyun
+include:cainiao
 include:dingtalk
 include:eleme
 include:teambition
@@ -134,11 +135,6 @@ alicloudccp.com
 alipan.com
 aliyundrive.com
 aliyundrive.net
-
-# 菜鸟
-cainiao.com
-cainiao.com.cn
-cainiao-inc.com
 
 # 盒马
 freshhema.com
