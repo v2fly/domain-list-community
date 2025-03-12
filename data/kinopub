@@ -4,4 +4,4 @@ vjs.zencdn.net
 m.pushbr.com
 mos-gorsud.co
 zamerka.com
-regexp:ams-static-[0-9]+\.cdntogo\.net$
+regexp:(\w+)-static-[0-9]+\.cdntogo\.net$
