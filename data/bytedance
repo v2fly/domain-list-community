@@ -73,7 +73,6 @@ byteactivity14.com
 byteactivity15.com
 byteactivity16.com
 byteactivity.com
-byteadverts.com
 byteapi.com
 bytecdn.cn
 bytecdn.com
@@ -355,6 +354,13 @@ huoshan.com
 huoshanstatic.com
 huoshanzhibo.com
 
+# 豆包
+doubao.com @cn
+
+# 扣子
+coze.cn @cn
+coze.com @!cn
+
 # 西瓜视频
 ixigua.com
 ixiguavideo.com
@@ -401,3 +407,6 @@ faceu.com
 
 # 轻颜相机
 ulikecam.com
+
+# RsProxy 镜像
+rsproxy.cn

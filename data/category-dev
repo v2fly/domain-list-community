@@ -6,6 +6,7 @@ include:bootstrap
 include:braveux
 include:canonical
 include:category-container
+include:codeberg
 include:dart
 include:debian
 include:docker
@@ -13,18 +14,19 @@ include:embedly
 include:facebook-dev
 include:fastlane
 include:fedora
+include:firebase
 include:flatpak
 include:flutter
 include:fontawesome
 include:gemfury
 include:gitbook
 include:github
+include:github1s
 include:gitlab
 include:golang
 include:hashicorp
 include:haskell
 include:homebrew
-include:huawei-dev
 include:intel-dev
 include:java
 include:jetbrains
@@ -35,7 +37,7 @@ include:kubernetes
 include:microsoft-dev
 include:mongodb
 include:nginx
-include:openai
+include:nixos
 include:openwrt
 include:osdn
 include:perl
@@ -53,7 +55,6 @@ include:scala
 include:sourcehut
 include:stackexchange
 include:strikingly
-include:tencent-dev
 include:termux
 include:thelinuxfoundation
 include:topcoder
@@ -77,9 +78,9 @@ centos.org
 chocolatey.org
 clojure.org
 cnpmjs.org
-codeberg.org
 cygwin.com
 cython.org
+deno.com
 deno.land
 dev.to
 elixir-lang.org

@@ -1,2 +1,20 @@
-larksuite.com
-larksuitecdn.com
+# This tag 'lark' is for backward compatibility
+
+include:feishu
+include:lark-global
+
+baseopendev.com  # 京ICP备16045432号-79 多维表格开放中心
+bytecloud.com  # 京ICP备16045432号-23 视频云开放平台
+byteoc.com  # 京ICP备16045432号-41 企业服务平台
+bytewebservice.com  # 京ICP备16045432号-42 企业服务平台
+bytexns.cn  # 京ICP备16045432号-20 视频云开放平台
+bytexns.com  # 京ICP备16045432号-21 视频云开放平台
+bytexns.net  # 京ICP备16045432号-22 视频云开放平台
+bytexopen.com  # 京ICP备16045432号-43 企业服务平台
+bytexservice.com  # 京ICP备16045432号-44 企业服务平台
+meegobeta.com  # 京ICP备16045432号-162 Meego产品Beta测试
+oceancloudapi.com  # 京ICP备16045432号-70 Ocean云
+okr.cn  # 京ICP备16045432号-52 OKR网站
+okr.com  # 京ICP备16045432号-51 OKR网站
+okr.com.cn  # 京ICP备16045432号-50 OKR网站
+vscenevideo.com  # 京ICP备16045432号-1 北京维境视讯信息技术有限公司网站

@@ -66,6 +66,7 @@ femalefounderscomp.com
 m12.vc
 
 # Others
+a-msedge.net
 aka.ms
 ankarazirvesi2018.com
 applicationinsights.io
@@ -78,6 +79,7 @@ bluehatil.com
 boswp.com
 brazilpartneruniversity.com
 breakdown.me
+c-msedge.net
 centralvalidation.com
 ch9.ms
 charticulator.com
@@ -88,6 +90,7 @@ cortanaskills.com
 crmdynint-gcc.com
 crmdynint.com
 crossborderexpansion.com
+dcg.microsoft.com @cn
 docs.com
 dynamics.cn @cn
 dynamics.com
@@ -110,18 +113,19 @@ hotmail.eu
 hotmail.net
 hotmail.org
 hummingbird.ms
-ie8.co
-ie9.com
 ie10.com
 ie11.com
-internetexplorer.co
-internetexplorer.com
+ie8.co
+ie9.com
 imaginecup.pl
 ingads.com
+internetexplorer.co
+internetexplorer.com
 intunewiki.com
 iotinactionevents.com
 kidgrid.tv
 kumo.com
+l-msedge.net
 latampartneruniversity.com
 live.com
 live.com.au
@@ -134,6 +138,7 @@ managedmeetingrooms.com
 meetfasttrack.com
 meetyourdevices.com
 mepn.com
+microsoftedgeinsider.com
 microsoft-falcon.io
 microsoft-int.com
 microsoft-ppe.com
@@ -167,9 +172,11 @@ microsoftonline-p.net.cn @cn
 microsoftonline.cn @cn
 microsoftonline.com
 microsoftpartnercommunity.com
+microsoftpersonalcontent.com
 microsoftready.com
 microsoftsiteselection.com
 microsoftstore.com
+microsoftstore.com.cn @cn
 microsoftstore.com.hk
 microsoftstream.com
 microsoftteams.com
@@ -194,7 +201,9 @@ msft.net
 msftauth.cn @cn
 msftauth.net
 msftauthimages.cn @cn
+msftconnecttest.com
 msfteducation.ca
+msftncsi.com
 msftnet.org
 msgamesresearch.com
 msocdn.com
@@ -203,6 +212,7 @@ msra.cn @cn
 msturing.org
 msudalosti.com
 mymicrosoft.com
+nelreports.net @ads
 nextechafrica.net
 nxta.org
 o365cn.com @cn
@@ -215,6 +225,7 @@ office.net
 office365-net.cn @cn
 office365.cn @cn
 office365.com
+officeplus.cn @cn
 officewebapps.cn @cn
 onenote.com
 onenote.net
@@ -238,7 +249,9 @@ powershellgallery.com
 projectmurphy.net
 projectsangam.com
 pxt.io
+s-dc-msedge.net
 s-microsoft.com
+s-msedge.net
 s-msft.com
 s-msn.com
 sfbassets.com
@@ -247,10 +260,12 @@ sfx.ms
 sharepoint.cn @cn
 sharepoint.com
 sharepointonline.com
+signalr.net
 skype.com
 skype.net
 skypeassets.com
 skypeassets.net
+spo-msedge.net
 staffhub.ms
 successwithteams.com
 surface.com
@@ -258,6 +273,7 @@ svc.ms
 sway-cdn.com
 sway.com
 sysinternals.com
+t-msedge.net
 tailwindtraders.com
 techhub.ms
 tfsallin.net
@@ -285,9 +301,7 @@ winhec.com
 winhec.net
 yammer.com
 
-
 # Skype CDN
-edge-skype-com.s-0001.s-msedge.net
 skype-edf.akadns.net
 skypedata.akadns.net
 
@@ -295,7 +309,7 @@ skypedata.akadns.net
 # Use in config file like this: "geosite:microsoft@cn"
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
-full:res.cdn.office.net @cn
+full:b.c2r.ts.cdn.office.net @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
 full:build.microsoft.com @cn
@@ -307,6 +321,7 @@ full:developer.microsoft.com @cn
 full:docs.microsoft.com @cn
 full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
+full:f.c2r.ts.cdn.office.net @cn
 full:fs.microsoft.com @cn
 full:learn.microsoft.com @cn
 full:msgr.dlservice.microsoft.com @cn
@@ -315,10 +330,14 @@ full:myvs.download.prss.microsoft.com @cn
 full:oemsoc.download.prss.microsoft.com @cn
 full:officecdn.microsoft.com @cn
 full:qh.dlservice.microsoft.com @cn
+full:res-1.cdn.office.net @cn
+full:res.cdn.office.net @cn
 full:sdx.microsoft.com @cn
+full:shell.cdn.office.net @cn
 full:silverlight.dlservice.microsoft.com @cn
 full:slupdate.dlservice.microsoft.com @cn
 full:software.download.prss.microsoft.com @cn
+full:statics.teams.cdn.office.net @cn
 full:storeedgefd.dsx.mp.microsoft.com @cn
 full:surface.downloads.prss.microsoft.com @cn
 full:vscode.download.prss.microsoft.com @cn

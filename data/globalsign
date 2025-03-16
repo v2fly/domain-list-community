@@ -1,9 +1,12 @@
-alphassl.com
+alphassl.com @cn
+easy-signing.com @cn
 globalsign-media.com
 globalsign.be
 globalsign.ch
+globalsign.cloud
+globalsign.cn @cn
 globalsign.co.uk
-globalsign.com
+globalsign.com @cn
 globalsign.com.au
 globalsign.com.br
 globalsign.com.hk
@@ -13,11 +16,6 @@ globalsign.eu
 globalsign.fr
 globalsign.net
 globalsign.nl
+globalsigncdn.com @cn
 
-full:crl.alphassl.com @cn
-full:crl2.alphassl.com @cn
-full:global.prd.cdn.globalsign.com @cn
-full:ocsp.globalsign.com @cn
-full:ocsp2.globalsign.com @cn
-full:secure.globalsign.com @cn
-full:secure2.alphassl.com @cn
+full:cdn.globalsigncdn.com.cdn.cloudflare.net @cn

@@ -11,6 +11,7 @@ github.dev
 github.io
 githubapp.com
 githubassets.com
+githubcopilot.com
 githubhackathon.com
 githubnext.com
 githubpreview.dev
@@ -26,4 +27,4 @@ thegithubshop.com
 blob.core.windows.net
 
 full:github-cloud.s3.amazonaws.com
-regexp:github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com
+regexp:^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$

@@ -1,8 +1,10 @@
 # This list contains social media platforms outside China mainland.
 
+include:bluesky
 include:facebook
 include:instagram
 include:linkedin
+include:misskey
 include:threads
 include:twitter
 include:vk

@@ -1,7 +1,7 @@
 # This list contains domains that don't have access point in China mainland. This is opposite to geolocation-cn.
 
-# TLDs (Top Level Domains) used outside China mainland
-include:tld-!cn
+# AI Chat
+include:category-ai-chat-!cn
 
 # Anime, Comics & Games
 include:category-acg
@@ -38,6 +38,7 @@ include:tesla
 include:volvo
 
 # Bank & Finance
+include:category-finance
 include:dowjones
 include:mastercard
 include:paypal
@@ -57,6 +58,7 @@ include:pagecdn
 include:quantil
 include:scaleflex
 include:stackpath
+include:wistia
 
 # Certificate authorities
 include:category-cas
@@ -153,6 +155,8 @@ include:falungong
 include:category-android-app-download
 include:category-browser-!cn
 include:category-enhance-gaming
+include:category-mobile-repair
+include:category-ntp
 include:decryptipastore # iOS
 
 include:accuweather
@@ -189,6 +193,7 @@ include:hcaptcha
 include:heroku
 include:hurricaneelectric
 include:iina
+include:imageglass
 include:infrapedia
 include:inoreader
 include:isgd
@@ -212,6 +217,7 @@ include:pastebin
 include:patreon
 include:picsee
 include:pingpe
+include:pingsx
 include:playcover
 include:protonmail
 include:quip
@@ -255,6 +261,11 @@ overleaf.com
 # Aurora Open Source Software (https://gitlab.com/AuroraOSS)
 auroraoss.com
 
+# CookiePro, provides cookies and tracking
+cookiepro.com
+cookielaw.org
+onetrust.com
+
 # Software development
 include:category-dev
 
@@ -268,6 +279,9 @@ include:demonoid
 include:nyaa
 include:piratebay
 include:rarbg
+
+# User scripts
+greasyfork.org
 
 # VPN services
 include:category-vpnservices

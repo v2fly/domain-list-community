@@ -10,6 +10,7 @@ qq.xn--fiqs8s
 # 腾讯.中国
 xn--r70as2s.xn--fiqs8s
 
+acimg.cn
 apcdns.net
 foxmail.com
 foxmail.com.cn
@@ -33,7 +34,7 @@ tencent.cn
 tencent.co.id @!cn
 tencent.com
 tencent.com.cn
-tencent.com.hk
+tencent.com.hk @!cn
 tencent.net
 tencent.net.cn
 tencentmusic.com
@@ -42,7 +43,11 @@ tfogc.com
 wechat.com
 wechatpay.cn
 weiyun.com
+wetv.vip @!cn
+wetvinfo.com @!cn
+wxlivecdn.com
 
+full:wetv.qq.com @!cn
 
 alloyteam.com
 imweb.io

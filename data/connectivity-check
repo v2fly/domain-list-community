@@ -1,0 +1,33 @@
+# ArchLinux
+ping.archlinux.org
+
+# Apple
+captive.apple.com
+
+# Android
+connectivitycheck.gstatic.com
+
+# Cloudflare
+cp.cloudflare.com
+
+# Debian
+network-test.debian.org
+
+# Firefox
+detectportal.firefox.com
+
+# Honor
+full:connectivitycheck.platform.hihonorcloud.com
+
+# Huawei
+full:connectivitycheck.platform.hicloud.com
+
+# KDE
+networkcheck.kde.org
+
+# MIUI
+full:connect.rom.miui.com
+
+# Windows
+msftconnecttest.com
+msftncsi.com
