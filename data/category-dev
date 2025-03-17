@@ -27,6 +27,7 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
+include:huggingface
 include:intel-dev
 include:java
 include:jetbrains
@@ -155,6 +156,3 @@ x.org
 xposed.info
 yarnpkg.com
 zsh.org
-
-# Hugging Face official website.
-huggingface.co
