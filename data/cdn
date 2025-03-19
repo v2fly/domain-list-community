@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-14T07:01:09.707Z
-# Size: 3253
+# Last Updated: 2025-03-18T15:44:38.109Z
+# Size: 3280
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -155,6 +155,7 @@ porn-d.xyz
 imgpng.xyz
 gitcdn.xyz
 cdndoe.xyz
+666565.xyz
 picjs.xyz
 chcdn.xyz
 full:cdn-longterm.mee6.xyz
@@ -198,6 +199,8 @@ full:playgroundcdn.typescriptlang.org
 full:www.typescriptlang.org
 rescript-lang.org
 tile.openstreetmap.org
+full:assets.geeksforgeeks.org
+full:media.geeksforgeeks.org
 featureassets.org
 full:assets.documentcloud.org
 full:s3.documentcloud.org
@@ -278,6 +281,7 @@ full:pcz.javidol.org
 f-droid.org
 full:web-static.archive.org
 full:image.ap-mail.org
+99avcdn.org
 full:updates2.signal.org
 full:updates.signal.org
 full:assets.repair.org
@@ -496,6 +500,7 @@ full:rum-cdn.perfops.net
 full:devnull.perfops.net
 full:img.perfops.net
 full:cdn.perfops.net
+nodecdn.net
 full:static.nhentai.net
 full:t.nhentai.net
 full:i.nhentai.net
@@ -524,11 +529,13 @@ full:a5.behance.net
 full:consentdeliveryfd.azurefd.net
 full:edgecdn-embza6g8cacagcbn.z01.azurefd.net
 full:assets-cdn.abcotvs.net
+99avcdn.net
 full:vjs.zencdn.net
 full:favicon.yandex.net
 crash-reports.browser.yandex.net
 full:resize.yandex.net
 full:avatars.mds.yandex.net
+full:s3-zen.mds.yandex.net
 full:cdn.xeiaso.net
 full:avts.wmlabs.net
 full:fast.wistia.net
@@ -741,6 +748,7 @@ envatousercontent.com
 full:conversiongorilla.com
 claudeusercontent.com
 chargebeestaticv2.com
+full:b5x-sentry.1passwordservices.com
 full:telemetry.1passwordservices.com
 superfiliate-cdn.com
 steamusercontent.com
@@ -1189,6 +1197,7 @@ full:ecommplugins-scripts.trustpilot.com
 full:user-images.trustpilot.com
 full:simplicity.trustpilot.com
 full:widget.trustpilot.com
+full:top1cdn.top1health.com
 teraboxcdn.com
 sthlstatic.com
 full:tiles.stadiamaps.com
@@ -1212,6 +1221,7 @@ full:resources.help.salesforce.com
 full:wp.salesforce.com
 full:cdn.safecharge.com
 ipfs.runfission.com
+full:cdn.report-uri.com
 full:cdn.promotekit.com
 full:apps.profitihub.com
 full:media.printables.com
@@ -1424,6 +1434,7 @@ full:static.skyassets.com
 full:uploads.sitepoint.com
 full:s3.sitepoint.com
 full:media.shopimind.com
+sfbassets.com
 sendspace.com
 full:forest-mt-s3.seekrtech.com
 full:images.scrolller.com
@@ -1477,6 +1488,7 @@ full:cdn-images.mailchimp.com
 full:images.macrumors.com
 lr-ingest.com
 lowendbox.com
+full:scdn.line-apps.com
 kinja-img.com
 full:cdn.joinhoney.com
 jisuimage.com
@@ -1613,6 +1625,7 @@ full:cdn4.sysgears.com
 full:cdn3.sysgears.com
 full:cdn2.sysgears.com
 full:cdn1.sysgears.com
+sway-cdn.com
 full:cdn.substack.com
 stylexjs.com
 stripcdn.com
@@ -1847,6 +1860,8 @@ full:play.vidyard.com
 full:cdn.vidyard.com
 userapi.com
 full:img.urlnode.com
+full:static.uptimia.com
+full:cdn.uptimia.com
 full:static-overlay.ubisoft.com
 full:ubistatic2-a.ubisoft.com
 full:ubistatic-a.ubisoft.com
@@ -1859,6 +1874,7 @@ full:platform.twitter.com
 full:ton.local.twitter.com
 full:fonts.twitter.com
 ttcache.com
+tripcdn.com
 full:static-community.tp-link.com
 full:static.tp-link.com
 full:cdn-fck.tnaflix.com
@@ -1873,6 +1889,7 @@ full:assets.st-note.com
 full:cdn.st-note.com
 full:static.srcspot.com
 sqspcdn.com
+full:cdn.sphlabs.com
 snzypic.com
 full:sdk.snapkit.com
 full:cdn.shopify.com
@@ -1993,6 +2010,8 @@ full:encrypted-tbn0.gstatic.com
 metric.gstatic.com
 full:fonts.gstatic.com
 full:maps.gstatic.com
+full:www.gstatic.com
+full:ssl.gstatic.com
 full:t3.gstatic.com
 full:t2.gstatic.com
 full:t1.gstatic.com
@@ -2085,6 +2104,7 @@ full:cdn.adguard.com
 full:keyframe-cdn.abcnews.com
 full:assets-cdn.abcnews.com
 full:s.abcnews.com
+99avcdn.com
 full:static.4shared.com
 full:r2.1hanime.com
 full:img.177pica.com
@@ -2143,6 +2163,7 @@ strpst.com
 full:connect-js.stripe.com
 full:checkout.stripe.com
 full:js.stripe.com
+full:heatmap-external-a.strava.com
 full:web-assets.strava.com
 ss-cdn.com
 sndcdn.com
@@ -2456,6 +2477,8 @@ fbsbx.com
 fbcdn.com
 full:cdn.faire.com
 full:dz2cdn1.dzone.com
+full:images.drata.com
+full:cdn.drata.com
 full:static.deepl.com
 full:cdn.db-ip.com
 full:static.cloud.coveo.com
@@ -2774,8 +2797,10 @@ full:flo.uri.sh
 ttl.sh
 now.sh
 esm.sh
+full:cassette.sphdigital.com.sg
 full:static.zaobao.com.sg
 full:static.mysph.sph.com.sg
+full:cdp.sph.com.sg
 ipfs.best-practice.se
 webp.se
 full:curl.se
@@ -2805,6 +2830,7 @@ full:media.masto.nu
 full:static.nrk.no
 full:images.weserv.nl
 pixiv.nl
+wsrv.nl
 himg.nl
 full:image.dooo.ng
 full:cdn.plu.mx
@@ -3060,6 +3086,7 @@ full:experience-ap.piano.io
 full:api-esp-ap.piano.io
 full:code.piano.io
 full:cdn.piano.io
+full:data.pendo.io
 full:cdn.pendo.io
 nxcli.io
 full:media.mstdn.io
