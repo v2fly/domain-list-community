@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-18T15:44:38.109Z
-# Size: 3280
+# Last Updated: 2025-03-23T14:16:38.315Z
+# Size: 3296
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -54,6 +54,8 @@ full:cdn.deta.space
 ipfs.kavin.rocks
 full:files.mastodon.ktachibana.party
 ipfs.telos.miami
+full:townsquare.media
+full:cms.therecord.media
 full:files.smashing.media
 full:jssdk.opin.media
 icon.horse
@@ -135,6 +137,7 @@ packd.liuxingbaoyu.xyz
 full:storage.withfabric.xyz
 full:int.qiniuyun15.xyz
 full:cdn.yinghuazy.xyz
+skyearth8.xyz
 imgmrplay.xyz
 full:rules2.clearurls.xyz
 full:rules1.clearurls.xyz
@@ -306,6 +309,7 @@ full:registry.npmjs.org
 full:repo1.maven.org
 lencr.org
 full:repository.jboss.org
+cdn.icann.org
 full:godoc.org
 full:static.gnome.org
 eggjs.org
@@ -379,6 +383,7 @@ full:images.wsjcommerce.net
 full:static.underhentai.net
 tapecontent.net
 staticworld.net
+full:sourcemaps.squarespace.net
 full:static-resource.np.community.playstation.net
 f.hubspotfree.net
 hsappstatic.net
@@ -466,6 +471,7 @@ px-cloud.net
 pixelcdn.net
 wikia.nocookie.net
 cdn.nintendo.net
+full:s.midishow.net
 line-cdn.net
 kakaocdn.net
 jsdelivr.net
@@ -539,6 +545,7 @@ full:s3-zen.mds.yandex.net
 full:cdn.xeiaso.net
 full:avts.wmlabs.net
 full:fast.wistia.net
+full:cdn.wikimg.net
 full:static.vocadb.net
 full:images1.vinted.net
 full:craftassets.unraid.net
@@ -806,6 +813,7 @@ full:media.telanganatoday.com
 full:image.telanganatoday.com
 teamtailor-cdn.com
 full:micro.rubiconproject.com
+full:cms.recordedfuture.com
 quip-marketing.com
 full:api.pwnedpasswords.com
 full:web-assets.otogi-frontier.com
@@ -962,6 +970,7 @@ full:cdn1.identitymind.com
 hubspotlinks.com
 full:cdn.hongkongcard.com
 full:rest.happierleads.com
+full:cdn.googlesource.com
 githubassets.com
 full:m3u8.girigirilove.com
 framerstatic.com
@@ -1038,6 +1047,7 @@ steamstatic.com
 staticimgly.com
 staticblitz.com
 full:static.staff-start.com
+full:akamai-assets.squarespace.com
 full:static3.squarespace.com
 full:static1.squarespace.com
 full:s3media.squarespace.com
@@ -1314,6 +1324,7 @@ full:cdn.fourthwall.com
 externulls.com
 full:images.everyplate.com
 full:cdntranscend.eventbrite.com
+etsystatic.com
 full:web-assets.esetstatic.com
 full:images.emojiterra.com
 full:cdn2.editmysite.com
@@ -1451,6 +1462,7 @@ full:jfe-cdn.qualtrics.com
 full:js.qualified.com
 full:vpncdn.protonweb.com
 full:cdnstatic.porno-cum.com
+full:static.polldaddy.com
 assets.pinterest.com
 full:storage-b.picacomic.com
 full:img.picacomic.com
@@ -1546,6 +1558,7 @@ dummyjson.com
 doppiocdn.com
 full:assets.dnsfilter.com
 disquscdn.com
+full:us1-prod-images.disco-api.com
 data.debugbear.com
 full:app.cookieyes.com
 full:cookie-cdn.cookiepro.com
@@ -2166,6 +2179,7 @@ full:js.stripe.com
 full:heatmap-external-a.strava.com
 full:web-assets.strava.com
 ss-cdn.com
+sndimg.com
 sndcdn.com
 full:resources-cache.prod.sketch.com
 full:prego-cache.prod.sketch.com
@@ -2385,6 +2399,7 @@ srcdn.com
 full:cdn.sprig.com
 full:files.slack.com
 sb-cd.com
+rlcdn.com
 full:s2.qwant.com
 full:s1.qwant.com
 full:js.puter.com
@@ -2861,6 +2876,7 @@ full:static-cache.fboom.me
 full:static.fboom.me
 full:emoji-css.afeld.me
 full:pic.7mmtv.me
+full:cdn.123av.me
 full:rsms.me
 full:static.fbot.me
 full:media.e4le.me
