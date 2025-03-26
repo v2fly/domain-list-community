@@ -27,7 +27,6 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
-include:huggingface
 include:intel-dev
 include:java
 include:jetbrains
