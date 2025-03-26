@@ -1,3 +1,6 @@
+# DeepSeek
+include:deepseek
+
 # RWKV
 rwkv.cn
 rwkv.com
@@ -5,6 +8,8 @@ rwkv.com
 # 通义千问
 tongyi.aliyun.com
 qianwen.aliyun.com
+qwen.ai
+qwenlm.ai
 
 # 文心一言
 yiyan.baidu.com
@@ -42,3 +47,12 @@ deepseek.com
 
 botvip.cn
 liblib.art
+
+# 夸克 CueMe
+cueme.cn
+full:cueme-api.quark.cn
+
+# 360 纳米AI搜索
+n.cn
+namiso.com
+full:ai.zhaomi.cn

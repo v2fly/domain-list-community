@@ -28,6 +28,7 @@ include:giffgaff
 include:gigabyte
 include:godaddy
 include:google
+include:groq
 include:hetzner
 include:hinet
 include:hkbn
@@ -35,6 +36,7 @@ include:hp
 include:hpe
 include:hubblephone
 include:ibm
+include:ibkr
 include:inshot
 include:intel
 include:kakao
@@ -47,6 +49,7 @@ include:mikrotik
 include:mindgeek
 include:mozilla
 include:musixmatch
+include:mxroute
 include:naver
 include:netcup
 include:neuralink
