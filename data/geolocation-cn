@@ -51,6 +51,9 @@ include:category-blog-cn
 # 餐饮类
 include:category-food-cn
 
+# 快递物流
+include:category-logistics-cn
+
 # CDN or SDWAN
 include:aws-cn
 include:baijiayun
@@ -148,9 +151,6 @@ onedns.net # OneDNS（微步在线）
 
 # 果核剥壳
 ghxi.com
-
-# Logistics
-include:sf-express
 
 # Media & News & Press
 include:category-media-cn
@@ -725,7 +725,6 @@ fanli.com
 fangxiaoer.com
 fanxian.com
 fastapi.net
-fcbox.com
 feihuo.com
 feiniaomy.com
 fengkongcloud.com
@@ -911,7 +910,6 @@ koudai8.com
 kq7.com
 ksord.com
 kuaaa.com
-kuaidi100.com
 kuaihou.com
 kuaizhan.com
 kuqin.com
@@ -1341,8 +1339,6 @@ yslyhr.com
 ysten.com
 yunaq.com
 yunba.io
-yundaex.com
-yundasys.com
 yundun.com
 yunkanpan.com # 京ICP备15036006号-3
 yunqishi.net
