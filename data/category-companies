@@ -19,6 +19,7 @@ include:chegg
 include:cisco
 include:cloudcone
 include:collabora
+include:comodo
 include:corel
 include:dell
 include:digitalocean
@@ -76,11 +77,13 @@ include:spacex
 include:spaceship
 include:st
 include:synology
+include:symantec
 include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
 include:ubiquiti
+include:verisign
 include:verizon
 include:vultr
 include:westerndigital
