@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-23T14:16:38.315Z
-# Size: 3296
+# Last Updated: 2025-03-27T14:01:46.681Z
+# Size: 3314
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -135,7 +135,6 @@ full:cdn.joincommunity.xyz
 mirror-media.xyz
 packd.liuxingbaoyu.xyz
 full:storage.withfabric.xyz
-full:int.qiniuyun15.xyz
 full:cdn.yinghuazy.xyz
 skyearth8.xyz
 imgmrplay.xyz
@@ -345,6 +344,7 @@ usercontent.one
 full:storageapi.fleek.one
 full:static.xns.one
 ipfs.jbb.one
+gold-usergeneratedcontent.net
 hubspotusercontent-na1.net
 hubspotusercontent-eu1.net
 hubspotusercontent40.net
@@ -361,6 +361,7 @@ full:assets.visioncritical.net
 full:vscode-sync-insiders.trafficmanager.net
 full:vscode-sync.trafficmanager.net
 msftauthimages.net
+full:media.minecraftforum.net
 licensebuttons.net
 full:headway-widget.net
 full:cdn.consentmanager.net
@@ -514,7 +515,6 @@ full:cdn.myfonts.net
 itsre-sumo.mozilla.net
 full:interactive-examples.mdn.mozilla.net
 cdn.mozilla.net
-full:opt.moovweb.net
 full:minotar.net
 jscloud.net
 full:pg2dhpc3p5ec22g3.jkforum.net
@@ -567,6 +567,7 @@ mjedge.net
 mercdn.net
 full:images.mattel.net
 full:fiddle.jshell.net
+full:ik.imgkit.net
 imgair.net
 full:images.idgesg.net
 full:alt.idgesg.net
@@ -798,6 +799,7 @@ js.hubspotfeedback.com
 howtogeekimages.com
 full:cache.hackedfreegames.com
 full:images.financemagnates.com
+customerioforms.com
 full:imgssl.constantcontact.com
 cloudflare-ipfs.com
 full:shopify.cleverecommerce.com
@@ -878,6 +880,7 @@ full:3dna.nationbuilder.com
 mvnrepository.com
 mcusercontent.com
 full:asset.mansionglobal.com
+mangguo-youku.com
 highwinds-cdn.com
 full:sig.grumpybumpers.com
 full:app.groovefunnels.com
@@ -889,6 +892,7 @@ full:rts-static-prod.freshworksapi.com
 full:cdn.freebiesupply.com
 full:images.flightradar24.com
 envato-static.com
+full:cdn.earthroulette.com
 dropboxstatic.com
 discourse-cdn.com
 full:chat.digitalgenius.com
@@ -1270,7 +1274,6 @@ full:content.jwplatform.com
 full:ww2-secure.justanswer.com
 full:components.justanswer.com
 full:ww2.justanswer.com
-full:static.javatpoint.com
 full:media.inhumanity.com
 storage.infomaniak.com
 cloud2.influxdata.com
@@ -1299,6 +1302,7 @@ full:hips.hearstapps.com
 full:cdn.hackernoon.com
 full:assets.grooveapps.com
 content-storage-upload.googleapis.com
+full:firebaseinstallations.googleapis.com
 crashlyticsreports-pa.googleapis.com
 full:optimizationguide-pa.googleapis.com
 full:firebaselogging-pa.googleapis.com
@@ -1346,6 +1350,8 @@ full:cdn.eu.contentful.com
 full:frames-commandbar-prod.commandbar.com
 full:cdn.commandbar.com
 full:static-assets.codecademy.com
+full:assets.cmcmarkets.com
+full:cdn.cmcmarkets.com
 ipfs0.sjc.cloudsigma.com
 full:cloudinary-res.cloudinary.com
 full:fiverr-res.cloudinary.com
@@ -1991,6 +1997,7 @@ full:pool.jortage.com
 full:assets.ipstack.com
 full:i.insider.com
 full:static.iris.informa.com
+full:go.imperva.com
 imgyzzy.com
 imgikzy.com
 full:s.imgflip.com
@@ -2011,6 +2018,7 @@ full:cf.hamreus.com
 full:i.hamreus.com
 full:public-files.gumroad.com
 full:assets.gumroad.com
+full:gstatic.com
 full:connectivitycheck.gstatic.com
 full:encrypted-vtbn3.gstatic.com
 full:encrypted-vtbn2.gstatic.com
@@ -2196,7 +2204,6 @@ full:cdn.seondf.com
 full:vice-prod.sdiapi.com
 full:newfold.scene7.com
 full:ec-prod.scene7.com
-full:stbff.scene7.com
 full:s7d1.scene7.com
 sc-cdn.com
 full:embed.runkit.com
@@ -2388,6 +2395,7 @@ full:cdnstatic.w4nkr.com
 full:assets.volvo.com
 full:assets.vogue.com
 full:player.vimeo.com
+full:static.vanta.com
 uvcdn.com
 unpkg.com
 twimg.com
@@ -2446,6 +2454,7 @@ full:cdn.ko-fi.com
 full:js.klarn.com
 full:static.jsbin.com
 full:null.jsbin.com
+full:cdn.javmg.com
 full:creator-image.javhd.com
 full:static.javhd.com
 full:i.ioiox.com
@@ -2584,9 +2593,15 @@ full:cdn.loom.com
 full:static.kobo.com
 full:cdn.kobo.com
 full:info.knak.com
+full:images.kick.com
+full:files.kick.com
+full:clips.kick.com
 full:assets.kagi.com
 full:cdn.hk01.com
 full:assets.habr.com
+full:cms-cdn.goat.com
+full:assets.goat.com
+full:image.goat.com
 fsdn.com
 full:images.dmca.com
 full:sf-coze-web-cdn.coze.com
@@ -2789,6 +2804,7 @@ jpg5.su
 full:0x0.st
 full:udata.namespace.so
 full:image-forwarder.notaku.so
+full:bucket1.notaku.so
 full:static.cohere.so
 full:cdn.circle.so
 full:cdn.birdie.so
@@ -2892,9 +2908,6 @@ full:cdn.plot.ly
 full:cdn.img.ly
 full:i.mt.lv
 full:media.webtoo.ls
-full:ltn.hitomi.la
-full:btn.hitomi.la
-full:atn.hitomi.la
 full:pomf2.lain.la
 ipfs.lain.la
 full:static.pfrt.yna.co.kr
@@ -2943,6 +2956,7 @@ full:pics.dmm.co.jp
 full:cdn.dap.dmm.co.jp
 full:osint.digitalside.it
 place-hold.it
+full:cdn.scaleflex.it
 unsplash.it
 full:cdn.download.it
 redd.it
@@ -2969,6 +2983,7 @@ ipfs.smartholdem.io
 readthedocs.io
 full:static.mytonwallet.io
 full:cdn.ip2location.io
+intercomcdn.io
 infura-ipfs.io
 full:cdn.imageengine.io
 full:badges.greenkeeper.io
@@ -3043,6 +3058,7 @@ ipfscdn.io
 full:cdn.icomoon.io
 full:assets.holopin.io
 files.gitbook.io
+full:geojson.io
 ipfs.eternum.io
 full:static.cracked.io
 full:cdn.concert.io
@@ -3078,6 +3094,7 @@ full:website-cdn.ipinfo.io
 cdn.ipinfo.io
 ipfs.infura.io
 full:packages.httpie.io
+full:gohugo.io
 gitlab.io
 github.io
 full:cdn-web.fydeos.io
@@ -3197,6 +3214,7 @@ full:cdn.ionos.de
 ipfs.slang.cx
 cdn-lfs-us-1.huggingface.co
 cdn-uploads.huggingface.co
+full:cdn-avatars.huggingface.co
 cdn-lfs.huggingface.co
 full:waitlisted.co
 full:widgets.listenlive.co
