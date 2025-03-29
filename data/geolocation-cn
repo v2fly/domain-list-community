@@ -144,6 +144,9 @@ winos.me # WINOS 精简社区
 # Media & News & Press
 include:category-media-cn
 
+# Mirror
+include:category-mirror-cn
+
 # Netdisk
 include:category-netdisk-cn
 
@@ -421,6 +424,7 @@ include:ishumei
 310win.com
 315che.com
 3234.com
+323783.xyz
 32r.com
 3322.org
 3387.com
