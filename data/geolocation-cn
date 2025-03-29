@@ -4,6 +4,12 @@
 include:jiguang
 include:umeng
 
+# category-httpdns-cn is mainly for advertising purpose
+# include:category-httpdns-cn
+
+# 号码认证
+# include:category-number-verification-cn
+
 # AI
 include:category-ai-cn
 
@@ -50,6 +56,9 @@ include:category-blog-cn
 
 # 餐饮类
 include:category-food-cn
+
+# 快递物流
+include:category-logistics-cn
 
 # CDN or SDWAN
 include:aws-cn
@@ -103,6 +112,9 @@ vipstatic.com
 # Entertainment & Videos & Games & Music & Podcasts
 include:category-entertainment-cn
 
+# Game Accelerator
+include:category-game-accelerator-cn
+
 # Forums
 include:chiphell
 include:erji
@@ -123,47 +135,14 @@ right.com.cn # 恩山论坛
 uiwow.com # 魔兽有爱论坛
 wuyou.net # 无忧启动论坛
 
-# Fofa网站测绘
-fofa.info
+upe.net # 优启通官网（IT天空）
 
-# Game Accelerator
-include:category-game-accelerator-cn
-
-# IP 定位网站
-include:ipip
-
-# category-httpdns-cn is mainly for advertising purpose
-# include:category-httpdns-cn
-
-# Infinity Pro
-infinitynewtab.com
-inftab.com
-
-ip138.com
-ipplus360.com # 豫ICP备17017462号-1 埃文科技
-onedns.net # OneDNS（微步在线）
-
-# 423Down
-423down.com
-
-# 果核剥壳
-ghxi.com
-
-# Logistics
-include:sf-express
+423down.com # 423Down
+ghxi.com # 果核剥壳
+winos.me # WINOS 精简社区
 
 # Media & News & Press
 include:category-media-cn
-
-# 门户网站
-moulem.com
-
-# 明源云
-fdcyun.com
-mingyuanyun.com
-mypaas.com
-mypaas.com.cn
-myypark.com
 
 # Netdisk
 include:category-netdisk-cn
@@ -205,6 +184,7 @@ include:flowus
 include:foundertype
 include:geetest
 include:hanyi
+include:intsig
 include:jianshu
 include:jinshuju
 include:jlc
@@ -234,15 +214,11 @@ include:zhangtao
 zhipin.com
 bosszhipin.com
 
-zhaopin.cn #智联招聘
+zhaopin.cn # 智联招聘
+moseeker.com # 仟寻招聘
 
 mihuashi.com # 米畫師
 
-huorong.cn # 火绒
-udesk.cn # 沃丰科技
-
-# xEdge 苏州星汉云联网络技术有限公司 苏ICP备2022017953号-1
-xedge.cc
 
 # Social Media
 include:category-social-media-cn
@@ -254,6 +230,7 @@ include:category-dev-cn
 include:alibaba
 include:b3log
 include:baidu
+include:beisen
 include:bluepoch
 include:bytedance
 include:didi
@@ -277,9 +254,21 @@ include:xunlei
 include:ymtc
 include:zte
 
+huorong.cn # 火绒
+udesk.cn # 沃丰科技
+
+# 明源云
+fdcyun.com
+mingyuanyun.com
+mypaas.com
+mypaas.com.cn
+myypark.com
+
 51togic.com # 泰捷WEBOX
 ezpro.pro # 小马路由
-huolala.cn # 货拉拉
+
+# xEdge干将互联 苏州星汉云联网络技术有限公司 苏ICP备2022017953号
+include:xedge
 
 # Telecommunication
 include:chinabroadnet
@@ -302,6 +291,27 @@ webmasterhome.cn # 站长之家
 guoxuedashi.com
 guoxuemi.com
 
+# IPIP ip地理位置数据库
+include:ipip
+
+# ip138查询网
+ip138.com
+ipshudi.com
+ipchaxun.net # 粤ICP备20009057号
+
+ipplus360.com # 豫ICP备17017462号-1 埃文科技
+
+fofa.info # Fofa网站测绘（华顺信安）
+onedns.net # OneDNS（微步在线）
+
+# Infinity Pro（浏览器主页）
+infinitynewtab.com
+inftab.com
+
+# 某柠檬导航（浏览器主页）
+moulem.com
+
+
 # 街机
 include:aamgame
 
@@ -314,9 +324,6 @@ include:gree
 include:haier
 include:midea
 
-winos.me # WINOS 精简社区
-upe.net # 优启通官网
-suzuki-china.com # 铃木中国官网
 
 # 应城门户网站
 chugou360.com
@@ -365,6 +372,8 @@ include:aisiku
 include:yuanbei
 # 秋子酱科技
 include:akiko
+# 北京数美时代科技有限公司
+include:ishumei
 
 
 # The following domains are carried over from geosite:cn.
@@ -723,10 +732,8 @@ fanli.com
 fangxiaoer.com
 fanxian.com
 fastapi.net
-fcbox.com
 feihuo.com
 feiniaomy.com
-fengkongcloud.com
 fengniao.com
 fengxian110.com
 fhldns.com
@@ -778,6 +785,7 @@ guzhangting.com
 gwdang.com
 gxairlines.com
 gxb.io
+gzcqs.com
 gzwanju.com
 h5uc.com
 hack520.com
@@ -841,7 +849,6 @@ ip-cdn.com
 ipinyou.com
 iranshao.com
 irs01.com
-ishumei.com
 it165.net
 it168.com
 it610.com
@@ -909,7 +916,6 @@ koudai8.com
 kq7.com
 ksord.com
 kuaaa.com
-kuaidi100.com
 kuaihou.com
 kuaizhan.com
 kuqin.com
@@ -1337,10 +1343,9 @@ ypppt.com
 yrz.name
 yslyhr.com
 ysten.com
+yuanzhiyijiantong.com
 yunaq.com
 yunba.io
-yundaex.com
-yundasys.com
 yundun.com
 yunkanpan.com # 京ICP备15036006号-3
 yunqishi.net
@@ -1408,7 +1413,10 @@ zoomyou.cn
 # 沪ICP备2021017807号-4
 ecombdapi.com
 
+# 北京风行在线技术有限公司 京ICP备10012819号
 include:fengxing
+
+# 随手记
 include:suishouji
 
 # 云鲸科技
@@ -1427,10 +1435,10 @@ kujiale.com
 # 文叔叔 成都字节星云科技有限公司 蜀ICP备19024011号
 wss.zone
 
-hisensehitachi.com #海信日立官网
-
-#  仟寻招聘
-moseeker.com
+# 海信日立官网
+hisensehitachi.com
+# 铃木中国官网
+suzuki-china.com
 
 # 东郊到家
 include:dongjiao

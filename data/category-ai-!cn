@@ -1,6 +1,7 @@
 include:anthropic
 include:google-gemini
 include:groq
+include:huggingface
 include:openai
 include:perplexity
 include:poe
@@ -19,3 +20,4 @@ dify.ai
 gateway.ai.cloudflare.com
 meta.ai
 openart.ai
+openrouter.ai
