@@ -7,8 +7,6 @@ include:apple-pki
 include:buypass
 include:certinomis
 include:certum
-include:comodo
-include:cybertrust
 include:digicert
 include:entrust
 include:gandi
@@ -25,11 +23,9 @@ include:sectigo
 include:sslcom
 include:starfieldtech
 include:swisssign
-include:symantec
 include:telekom
 include:trustwave
 include:twca
-include:verisign
 include:verizon
 include:vodafone
 include:wisekey
@@ -45,6 +41,7 @@ fnmt.es
 harica.gr
 infocert.digital
 infocert.it
+managedpki.com
 netlock.hu
 trustcor.ca
 trustcor.com
