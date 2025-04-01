@@ -14,17 +14,44 @@ steamusercontent.com
 underlords.com
 valvesoftware.com
 
+# Valve
+valve.*.cdn.steampipe.steamcontent.com
+
+# Fastly
+fastly.cdn.steampipe.steamcontent.com
+
 # edgecast
 edge.steam-dns.top.comcast.net
 
+# Google
+google.cdn.steampipe.steamcontent.com
+google2.cdn.steampipe.steamcontent.com
+google3.cdn.steampipe.steamcontent.com
+
 # 网宿(国际)
-steam.apac.qtlglb.com
 steam.eca.qtlglb.com
 steam.naeu.qtlglb.com
 steam.ru.qtlglb.com
+steam.apac.qtlglb.com
+
+# Akamai
+full:steampipe-kr.akamaized.net
+full:steampipe-partner.akamaized.net
+full:steampipe.akamaized.net
+full:akamai.cdn.steampipe.steamcontent.com
+
+# Comcast
+comcast.cdn.steampipe.steamcontent.com
+
+# edgenext
+edgenext.cdn.steampipe.steamcontent.com
 
 # HIGHWINDS
 full:f3b7q2p3.ssl.hwcdn.net
+full:a4e8s8k3.map2.ssl.hwcdn.net
+
+# Telus
+telus.cdn.steampipe.steamcontent.com
 
 # internode
 steam.cdn.on.net
@@ -36,43 +63,23 @@ steam.cdn.slingshot.co.nz
 # webra
 steam.cdn.webra.ru
 
-# Akamai
-full:steambroadcast.akamaized.net
-full:steamcdn-a.akamaihd.net
-full:steamcommunity-a.akamaihd.net
-full:steammobile.akamaized.net
-full:steampipe-kr.akamaized.net
-full:steampipe-partner.akamaized.net
-full:steampipe.akamaized.net
-full:steamstore-a.akamaihd.net
-full:steamusercontent-a.akamaihd.net
-full:steamuserimages-a.akamaihd.net
-full:steamvideo-a.akamaihd.net
-
-
 # 完美
 csgo.wmsj.cn @cn
 dota2.wmsj.cn @cn
 wmsjsteam.com @cn
 
-# 金山云
+# 新流云
 dl.steam.clngaa.com @cn
-dl.steam.ksyna.com @cn
 
 # 白山云
 st.dl.bscstorage.net @cn
 st.dl.eccdnx.com @cn
 st.dl.pinyuncloud.com @cn
 
-# 华为云
-steampipe.steamcontent.tnkjmec.com @cn
-
-# 网宿
-steampowered.com.8686c.com @cn
-steamstatic.com.8686c.com @cn
-
 # 阿里云
 full:xz.pphimalayanrt.com @cn
+full:lv.queniujq.cn @cn
+full:alibaba.cdn.steampipe.steamcontent.com @cn
 
 # 蒸汽中国
 steamchina.com @cn
