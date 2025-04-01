@@ -57,8 +57,8 @@ st.dl.eccdnx.com @cn
 st.dl.pinyuncloud.com @cn
 
 # 阿里云
-full:alibaba.cdn.steampipe.steamcontent.com
-full:lv.queniujq.cn
+full:alibaba.cdn.steampipe.steamcontent.com @cn
+full:lv.queniujq.cn @cn
 full:xz.pphimalayanrt.com @cn
 
 # 蒸汽中国
