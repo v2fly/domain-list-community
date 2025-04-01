@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-27T14:01:46.681Z
-# Size: 3314
+# Last Updated: 2025-03-31T09:50:43.923Z
+# Size: 3322
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -200,6 +200,7 @@ full:i.creativecommons.org
 full:playgroundcdn.typescriptlang.org
 full:www.typescriptlang.org
 rescript-lang.org
+full:meta.prismlauncher.org
 tile.openstreetmap.org
 full:assets.geeksforgeeks.org
 full:media.geeksforgeeks.org
@@ -803,6 +804,8 @@ customerioforms.com
 full:imgssl.constantcontact.com
 cloudflare-ipfs.com
 full:shopify.cleverecommerce.com
+full:thumbnails.applegamingwiki.com
+full:images.applegamingwiki.com
 yourimageshare.com
 xm-apps-static.com
 full:talk.washingtonpost.com
@@ -1613,6 +1616,7 @@ full:assets.wikiwand.com
 full:cdn.wikiwand.com
 full:cdn.wccftech.com
 vimeocdn.com
+full:icons.veryicon.com
 full:crl.verisign.com
 vcmdiawe.com
 full:widget.usersnap.com
@@ -2072,6 +2076,7 @@ full:cdn.embedly.com
 els-cdn.com
 ebayimg.com
 full:static.doujins.com
+full:cdn.docsbot.com
 full:global.divhunt.com
 full:s1.divhunt.com
 denopkg.com
@@ -2115,6 +2120,7 @@ full:cdn6.aptoide.com
 full:images.en.aptoide.com
 full:img.apponic.com
 full:cdn.apponic.com
+full:fast.appcues.com
 full:app-spm.com
 full:static.apkpure.com
 full:cdn.apkmonk.com
@@ -2487,6 +2493,7 @@ full:media.gettr.com
 full:cdn.gettr.com
 full:i.gawby.com
 full:a.gawby.com
+full:cdn.app.fossa.com
 fonts.com
 full:s3-figma-force-client-reloads-production.figma.com
 full:s3-figma-plugin-images-production-sig.figma.com
@@ -2833,6 +2840,7 @@ full:static.zaobao.com.sg
 full:static.mysph.sph.com.sg
 full:cdp.sph.com.sg
 ipfs.best-practice.se
+full:widget.datablocks.se
 webp.se
 full:curl.se
 full:avatars.dzeninfra.ru
