@@ -38,9 +38,17 @@ steam.cdn.slingshot.co.nz
 steam.cdn.webra.ru
 
 # Akamai
+full:steambroadcast.akamaized.net
+full:steamcdn-a.akamaihd.net
+full:steamcommunity-a.akamaihd.net
+full:steammobile.akamaized.net
 full:steampipe-kr.akamaized.net
 full:steampipe-partner.akamaized.net
 full:steampipe.akamaized.net
+full:steamstore-a.akamaihd.net
+full:steamusercontent-a.akamaihd.net
+full:steamuserimages-a.akamaihd.net
+full:steamvideo-a.akamaihd.net
 
 
 # 完美
