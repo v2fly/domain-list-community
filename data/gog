@@ -10,3 +10,7 @@ full:www4-static.gog-statics.com @cn
 regexp:^cdn-akamai-.+\.gog-services\.com$ @cn
 regexp:^gog-cdn-.+\.footprint\.net$ @cn
 regexp:^images(-\d)?\.gog-statics\.com$ @cn
+
+# CDN available in China mainland
+full:gog-cdn-fastly.gog.com @cn
+full:gog-cdn.akamaized.net @cn
