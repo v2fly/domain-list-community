@@ -3,6 +3,9 @@
 full:time.apple.com
 full:time.euro.apple.com
 
+# AWS
+full:time.aws.com
+
 # Facebook
 # regexp:^time([1-5])?\.facebook\.com$
 full:time.facebook.com
