@@ -15,9 +15,13 @@ yunpan.com # 360安全云盘
 123pan.com
 
 # 阿里云盘
+alicloudccp.com
 alipan.com
 aliyundrive.com
+aliyundrive.net
 yunpan.aliyun.com
 
+# 115网盘
+include:115
 # 蓝奏云
 include:lanzou
