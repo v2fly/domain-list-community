@@ -61,7 +61,6 @@ disney-plus.net
 disney-portal.my.onetrust.com
 disney-studio.com
 disney-studio.net
-disney.my.sentry.io
 disneyadsales.com
 disneyarena.com
 disneyaulani.com
@@ -128,3 +127,6 @@ streamingdisney.net
 thestationbymaker.com
 thisispolaris.com
 watchdisneyfe.com
+
+# tracking
+full:disney.my.sentry.io @ads
