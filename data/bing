@@ -2,9 +2,9 @@
 bing
 
 # BingAI，Copilot
-full:copilot.microsoft.com # 微软个人账户Copilot，可在Windows任务栏/浏览器侧边栏启动
-full:copilot.cloud.microsoft # 微软企业/组织Copilot，个人账号无法使用
-#full:www.bing.com # 网页搜索AI，与搜索共用域名
+full:copilot.microsoft.com @copilot # 微软个人账户Copilot，可在Windows任务栏/浏览器侧边栏启动
+full:copilot.cloud.microsoft @copilot # 微软企业/组织Copilot，个人账号无法使用
+full:www.bing.com @copilot # 网页搜索AI，与搜索共用域名
 
 bing.com
 bing.com.cn @cn
