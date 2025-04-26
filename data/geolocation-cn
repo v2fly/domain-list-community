@@ -103,11 +103,16 @@ include:ziroom
 # 孔夫子旧书网
 kongfz.com
 kfzimg.com
+# 朴朴
+pupuapi.com
+pupumall.com
 # 唯品会
 appsimg.com
 appvipshop.com
 vip.com
 vipstatic.com
+# 瞎买
+xiamai.net
 
 # Entertainment & Videos & Games & Music & Podcasts
 include:category-entertainment-cn
@@ -128,6 +133,7 @@ itsk.com # IT天空论坛
 kafan.cn # 卡饭论坛
 kanxue.com # 看雪
 kdslife.com # 宽带山
+jandan.net # 煎蛋
 klpbbs.com # 苦力怕论坛
 mcbbs.net # MCBBS论坛
 pcbeta.com # 远景论坛
@@ -163,7 +169,6 @@ include:ihuman
 include:wanfang
 
 # Services & Softwares
-include:115
 include:3type
 include:4paradigm
 include:51job
@@ -235,6 +240,7 @@ include:bluepoch
 include:bytedance
 include:didi
 include:dji
+include:honor
 include:huawei
 include:iflytek
 include:jushuitan
@@ -255,6 +261,7 @@ include:ymtc
 include:zte
 
 huorong.cn # 火绒
+socpk.com # 极客湾移动芯片排行
 udesk.cn # 沃丰科技
 
 # 明源云
@@ -263,6 +270,12 @@ mingyuanyun.com
 mypaas.com
 mypaas.com.cn
 myypark.com
+
+# 开普云
+kaipuyun.cn
+kaipuyun.com
+kaipuyun.com.cn
+kaipuyun.net
 
 51togic.com # 泰捷WEBOX
 ezpro.pro # 小马路由
@@ -856,7 +869,6 @@ itjuzi.com
 itmop.com
 iyiou.com
 izuche.com
-jandan.net
 jb51.com
 jia.com
 jiameng.com
@@ -1085,8 +1097,6 @@ qschou.com
 qtmojo.com
 qudong.com
 qugame.com
-qunar.com
-qunarzz.com
 qunjielong.com # 桂ICP备14006138号-2
 qyer.com
 rockyenglish.com
