@@ -478,6 +478,9 @@ appleone.website
 # Shazam
 shazam.com
 
+# Apple Health Studies
+full:ingest.apple-studies.com  # 采集心率、运动、听力等传感器数据，以及用户填报的研究问卷，将其加密后上传至 Apple 后端
+
 # Others
 1to1computing.com.au
 1to1conference.com.au
