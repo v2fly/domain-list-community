@@ -157,7 +157,12 @@ gamer.com.tw
 gamer-cds.cdn.hinet.net
 gamer2-cds.cdn.hinet.net
 # > BiliBili
-bilibili.com
+api.bilibili.com
+api.biliapi.net
+api.biliapi.com
+app.bilibili.com
+app.biliapi.net
+app.biliapi.com
 # > Friday Video
 video.friday.tw
 
@@ -716,8 +721,13 @@ hbogoasia.sg
 hbogoasia.tw
 # > HOY TV
 hoy.tv
-# > BiliBili 
-bilibili.com
+# > BiliBili
+api.bilibili.com
+api.biliapi.net
+api.biliapi.com
+app.bilibili.com
+app.biliapi.net
+app.biliapi.com
 
 
 
