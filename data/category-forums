@@ -7,6 +7,7 @@ include:dcard
 include:dslreports
 include:hkgolden
 include:lihkg
+include:linuxdo
 include:mobile01
 include:pixnet
 include:ptt
