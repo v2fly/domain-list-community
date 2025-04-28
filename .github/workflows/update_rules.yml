@@ -47,6 +47,11 @@ jobs:
     - name: Create data directory if it doesn't exist
       run: mkdir -p data
 
+    - name: Media area from 1-stream
+      run: |
+        sed -n '/# ---------- > Japan Media/,/# ---------- >/p' dns-1stream | sed '$d' > dns-1stream-jp
+        sed -n '/# ---------- > Taiwan Media/,/# ---------- >/p' dns-1stream | sed '$d' > dns-1stream-tw
+
     - name: Move file to data directory
       run: |
         mv cdn data/
@@ -56,6 +61,8 @@ jobs:
         # mv data/cn data/cn-bak
         # mv cn data/
         mv dns-1stream data/
+        mv dns-1stream-jp data/
+        mv dns-1stream-tw data/
 
     - name: Commit changes
       run: |
@@ -66,5 +73,7 @@ jobs:
         git add data/anti-ad
         git add data/skk-reject
         git add data/dns-1stream
+        git add data/dns-1stream-jp
+        git add data/dns-1stream-tw
         git commit -m 'Update cdn and removing "+." characters'
         git push origin master
