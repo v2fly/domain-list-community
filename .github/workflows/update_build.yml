@@ -39,6 +39,11 @@ jobs:
           sed -i 's/+\.//g' gfw
           sed -i '/^[+.#]/! s/^/full:/; s/\+\.//g' skk-reject
 
+      - name: Media area from 1-stream
+        run: |
+          sed -n '/# ---------- > Japan Media/,/# ---------- >/p' dns-1stream | sed '$d' > dns-1stream-jp
+          sed -n '/# ---------- > Taiwan Media/,/# ---------- >/p' dns-1stream | sed '$d' > dns-1stream-tw
+
       - name: Create data directory if it doesn't exist
         run: mkdir -p data
 
@@ -49,6 +54,8 @@ jobs:
           mv anti-ad data/
           mv skk-reject data/
           mv dns-1stream data/
+          mv dns-1stream-jp data/
+          mv dns-1stream-tw data/
 
       - name: Commit changes
         run: |
@@ -59,6 +66,8 @@ jobs:
           git add data/anti-ad
           git add data/skk-reject
           git add data/dns-1stream
+          git add data/dns-1stream-jp
+          git add data/dns-1stream-tw
           git commit -m 'Update cdn and removing "+." characters'
           git push origin master
 
