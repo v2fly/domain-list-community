@@ -293,6 +293,9 @@ include:chinamobile
 include:chinatelecom
 include:chinaunicom
 
+# 中国铁塔
+include:chinatower
+
 # OI
 include:category-olympiad-in-informatics
 
