@@ -52,6 +52,7 @@ include:microsoft
 include:mikrotik
 include:mindgeek
 include:mozilla
+include:msi
 include:musixmatch
 include:mxroute
 include:naver
