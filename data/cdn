@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-29T14:15:14.803Z
-# Size: 3483
+# Last Updated: 2025-04-30T14:25:01.137Z
+# Size: 3547
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -121,6 +121,8 @@ full:cdn.masto.host
 usercontent.goog
 nel.goog
 ipfs.cyou
+full:sfiles.cnyes.cool
+full:cimg.cnyes.cool
 ymq.cool
 full:cdn.kinopio.club
 full:storage.crisp.chat
@@ -138,6 +140,7 @@ mirror-media.xyz
 packd.liuxingbaoyu.xyz
 full:eslint-react.xyz
 full:storage.withfabric.xyz
+qiniuyun22.xyz
 full:cdn.yinghuazy.xyz
 skyearth8.xyz
 imgmrplay.xyz
@@ -150,6 +153,7 @@ hencover.xyz
 flk-ipfs.xyz
 zorocdn.xyz
 pornimg.xyz
+jstatic.xyz
 henread.xyz
 dogehls.xyz
 full:img.catwvod.xyz
@@ -217,6 +221,7 @@ full:proxy.joinmastodon.org
 full:cdn-media-2.freecodecamp.org
 full:cdn-media-1.freecodecamp.org
 full:cdn.freecodecamp.org
+full:embed.culturalspot.org
 cdn-telegram.org
 full:files.writefreely.org
 full:simpleicons.org
@@ -224,8 +229,10 @@ full:cdn.simpleicons.org
 full:storage.sciencecast.org
 full:cdn.sciencecast.org
 schemastore.org
+qbittorrent.org
 stream.publicradio.org
 full:play.publicradio.org
+full:ocsp.int-x3.letsencrypt.org
 getcomposer.org
 ipfs.genenetwork.org
 full:app.backinstock.org
@@ -261,6 +268,7 @@ doppiocdn.org
 cdn.cookielaw.org
 full:cdn.cocoapods.org
 full:moderate.cleantalk.org
+angularjs.org
 full:images.videolan.org
 full:static.tronscan.org
 rollupjs.org
@@ -287,6 +295,8 @@ full:archive.mozilla.org
 full:cdn.mathjax.org
 lsposed.org
 full:pcz.javidol.org
+haproxy.org
+graphql.org
 f-droid.org
 full:web-static.archive.org
 full:image.ap-mail.org
@@ -344,6 +354,7 @@ pool.ntp.org
 full:static-assets.npr.org
 full:bundles.npr.org
 full:media.npr.org
+full:cdn.cfr.org
 full:seal-newyork.bbb.org
 js.org
 permaweb.eu.org
@@ -714,6 +725,7 @@ full:cdn-web.orbstack.dev
 workers.dev
 mirrors.utermux.dev
 skypack.dev
+angular.dev
 vercel.dev
 full:packages-cf.termux.dev
 full:packages.termux.dev
@@ -796,6 +808,7 @@ spreadshirtmedia.com
 full:static2.sharepointonline.com
 full:oss-binaries.phusionpassenger.com
 full:assets4.mist-train-girls.com
+full:hubspotonwebflow.com
 googleadservices.com
 cloudflarestream.com
 full:pkg.cloudflareclient.com
@@ -831,6 +844,7 @@ invisionapp-cdn.com
 js.hubspotfeedback.com
 howtogeekimages.com
 full:cache.hackedfreegames.com
+girlsgogamescdn.com
 full:images.financemagnates.com
 customerioforms.com
 full:imgssl.constantcontact.com
@@ -864,6 +878,7 @@ full:db.onlinewebfonts.com
 oaiusercontent.com
 full:cdn-forum.networklessons.com
 full:cdn.networklessons.com
+full:media.nbcconnecticut.com
 full:image.email.microsoftemail.com
 full:assets.media-platform.com
 full:na-library.klarnaservices.com
@@ -911,6 +926,7 @@ oreillystatic.com
 notion-static.com
 agechecker.northern-apps.com
 full:static.newmobilelife.com
+full:media.nbclosangeles.com
 full:assets.nationbuilder.com
 full:3dna.nationbuilder.com
 mvnrepository.com
@@ -950,6 +966,7 @@ cdn-cookieyes.com
 cdn-centaurus.com
 cbsnewsstatic.com
 full:files.buildwithfern.com
+aweber-static.com
 cdn.autoevolution.com
 assets-yammer.com
 full:images.arigatotravel.com
@@ -1284,6 +1301,8 @@ full:static-web-prod.skillshare.com
 similarcdn.com
 shopifycdn.com
 sfdcstatic.com
+full:pics2.serviporno.com
+full:pics.serviporno.com
 cdn.serverable.com
 sentry-cdn.com
 full:assets.sendinblue.com
@@ -1313,6 +1332,7 @@ nincontent.com
 netdna-ssl.com
 full:cdn.nerdschalk.com
 full:cdn.app.neononepay.com
+full:media.nbcnewyork.com
 full:media.nationwide.com
 full:tags.nationwide.com
 myspacecdn.com
@@ -1380,6 +1400,7 @@ full:fonts.googleapis.com
 full:chart.googleapis.com
 full:ajax.googleapis.com
 full:sync.getpublica.com
+full:assets.fxnetworks.com
 full:euc-widget.freshworks.com
 full:widget.freshworks.com
 full:dam.freshworks.com
@@ -1403,6 +1424,7 @@ full:external-content.duckduckgo.com
 full:icons.duckduckgo.com
 cdn.discordapp.com
 full:assets.dictionary.com
+descopecdn.com
 full:cdn.delight-vr.com
 full:static-beta.curseforge.com
 full:images.crunchbase.com
@@ -1487,6 +1509,7 @@ full:ocsp.usertrust.com
 full:crt.usertrust.com
 full:crl.usertrust.com
 full:cdn.up-timely.com
+ucloud133.com
 ttwstatic.com
 full:cdn.ttgtmedia.com
 full:tag.trovo-tag.com
@@ -1531,11 +1554,12 @@ full:sigma9.scpwikicn.com
 full:data.schemaapp.com
 full:cdn.schemaapp.com
 full:assets.scaleflex.com
-full:media-cldnry.s-nbcnews.com
+s-nbcnews.com
 runkitcdn.com
 full:cdn.royaleapi.com
 full:img.riskified.com
 full:img.represent.com
+rawgithub.com
 siteintercept.qualtrics.com
 full:jfe-cdn.qualtrics.com
 full:js.qualified.com
@@ -1615,6 +1639,7 @@ full:widget.gotolstoy.com
 full:play.gotolstoy.com
 assets.getpocket.com
 full:i.geekflare.com
+gannetcdn.com
 full:mosaic-blender.fxtwitter.com
 full:mosaic.fxtwitter.com
 full:webp.frostming.com
@@ -1627,6 +1652,7 @@ full:cdn.fontshare.com
 fncstatic.com
 fiverrcdn.com
 full:static.filehorse.com
+feedercdn.com
 fastlycdn.com
 full:cdn.evbstatic.com
 full:static-assets-prod.epicgames.com
@@ -1791,6 +1817,8 @@ full:static.namebeta.com
 myavlive.com
 muscache.com
 msftncsi.com
+full:cdnl.moviefap.com
+full:img.moviefap.com
 sny.monosnap.com
 full:momentjs.com
 full:launcher-files.modrinth.com
@@ -1827,6 +1855,7 @@ full:img.jsdelivr.com
 api.instabug.com
 full:img.informer.com
 cdn.imghaste.com
+full:cdnc.imagefap.com
 imagebam.com
 full:static-00.iconduck.com
 ibyteimg.com
@@ -1991,6 +2020,7 @@ full:cdn.vidyard.com
 userapi.com
 full:static.uptimia.com
 full:cdn.uptimia.com
+full:tn.upornia.com
 full:static-overlay.ubisoft.com
 full:ubistatic2-a.ubisoft.com
 full:ubistatic-a.ubisoft.com
@@ -2037,6 +2067,8 @@ full:static.rakuten.com
 full:cdn.quadpay.com
 pxlecdn.com
 full:app-static.eu.posthog.com
+full:cdn77-t.pornoxo.com
+full:cdn77.pornoxo.com
 full:m.porn3dx.com
 full:pbcdn1.podbean.com
 full:www.pngmart.com
@@ -2184,6 +2216,7 @@ full:static-ca-cdn.eporner.com
 full:cdn.embedly.com
 els-cdn.com
 ebayimg.com
+full:static.drtuber.com
 full:static.doujins.com
 full:cdn.docsbot.com
 full:global.divhunt.com
@@ -2267,6 +2300,9 @@ full:cdn.weglot.com
 vx-cdn.com
 full:image.vuukle.com
 full:cdn.vuukle.com
+full:mcdnds.vrporn.com
+full:mcdns.vrporn.com
+full:mcdn.vrporn.com
 full:marketplace-web-assets.vinted.com
 full:static-assets.vinted.com
 full:static.vinted.com
@@ -2338,6 +2374,7 @@ full:cdn.redhat.com
 full:embed.reddit.com
 rdtcdn.com
 rbxcdn.com
+raxcdn.com
 rawgit.com
 full:sdk.qikify.com
 bugly.qcloud.com
@@ -2503,6 +2540,14 @@ avximg.com
 full:assets.apnews.com
 full:dims.apnews.com
 aolcdn.com
+full:preview.anysex.com
+full:static.anysex.com
+full:vcdn.anysex.com
+full:i4.anysex.com
+full:i3.anysex.com
+full:i2.anysex.com
+full:i1.anysex.com
+full:i.anysex.com
 full:code.buywithprime.amazon.com
 full:d2c.aws.amazon.com
 full:static.ahrefs.com
@@ -2573,6 +2618,7 @@ full:static.music.com
 full:cdn.music.com
 full:assets.monei.com
 mlcdn.com
+full:static.lingq.com
 full:cdn.lihkg.com
 full:static-exp3.licdn.com
 full:static-exp2.licdn.com
@@ -2640,6 +2686,7 @@ fbcdn.com
 full:cdn.faire.com
 full:img.etimg.com
 full:dz2cdn1.dzone.com
+drtst.com
 full:images.drata.com
 full:cdn.drata.com
 full:static.deepl.com
@@ -2723,6 +2770,9 @@ sirv.com
 full:static.seel.com
 full:cdn.sedo.com
 www.s81c.com
+full:pictures-cdn.porn.com
+full:assets-cdn.porn.com
+full:uptn.nv7s.com
 full:sdata.ndtv.com
 full:edata.ndtv.com
 full:drop.ndtv.com
@@ -2738,6 +2788,7 @@ full:images.kick.com
 full:files.kick.com
 full:clips.kick.com
 full:assets.kagi.com
+full:social-reaction-api.hk01.com
 full:cdn.hk01.com
 full:assets.habr.com
 full:cms-cdn.goat.com
@@ -2758,7 +2809,12 @@ a1tb.com
 full:accounts-cdn.9gag.com
 full:img.4khd.com
 full:oss.1p3a.com
+full:cdn.you.com
 full:pbc.wsj.com
+full:scache2.vzw.com
+full:scache1.vzw.com
+full:scache.vzw.com
+full:ss7.vzw.com
 full:platform.vox.com
 cdn.ubi.com
 full:embed.ted.com
@@ -2768,6 +2824,8 @@ full:static02.nyt.com
 full:static01.nyt.com
 full:mwcm.nyt.com
 full:g1.nyt.com
+full:images-sports.now.com
+full:images-news.now.com
 full:tags.nba.com
 full:cdn.nba.com
 full:sp.nba.com
@@ -2781,6 +2839,7 @@ full:media.kit.com
 full:ovp.itv.com
 full:assets.fe.itv.com
 full:sm.ign.com
+full:widgets.coaches.gnc.com
 full:certona.gap.com
 full:m3.gab.com
 full:static-media.fox.com
@@ -2835,6 +2894,7 @@ full:cdn.mcr.ea.com
 full:pl.ea.com
 full:consent.dw.com
 full:static.dw.com
+full:evt.24.com
 pixiv.cat
 full:oss.moe.cat
 full:pics.mf8.biz
@@ -2870,7 +2930,9 @@ cdn.bsky.app
 web.app
 csb.app
 full:cdn.7tv.app
+full:cdn.24.co.za
 ipfs.yt
+full:s.pacn.ws
 imageshack.us
 full:cdn.donmai.us
 full:us01ccistatic.zoom.us
@@ -3228,6 +3290,7 @@ full:cdn.channel.io
 full:cf.channel.io
 full:cdn.builder.io
 full:web-cdn.bitrise.io
+angular.io
 full:app-api.vidjet.io
 full:assets.upload.io
 full:js.upload.io
@@ -3322,6 +3385,7 @@ full:adkit.9pub.io
 full:medium-media.vgm.io
 npm.io
 ipfs.mrh.io
+full:marfeelexperimentsexperienceengine.mrf.io
 k8s.io
 gravity.jup.io
 full:npm.jsr.io
