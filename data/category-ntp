@@ -1,17 +1,66 @@
 # Apple
-regexp:^time(.euro)?.apple.com$
+# regexp:^time(.euro)?.apple.com$
+full:time.apple.com
+full:time.euro.apple.com
+
+# AWS
+full:time.aws.com
 
 # Facebook
-regexp:^time([1-5])?\.facebook\.com$
+# regexp:^time([1-5])?\.facebook\.com$
+full:time.facebook.com
+full:time1.facebook.com
+full:time2.facebook.com
+full:time3.facebook.com
+full:time4.facebook.com
+full:time5.facebook.com
 
 # Google
-regexp:^time([1-4])?.google.com$
+# regexp:^time([1-4])?.google.com$
+full:time.google.com
+full:time1.google.com
+full:time2.google.com
+full:time3.google.com
+full:time4.google.com
 
 # NIST: https://tf.nist.gov/tf-cgi/servers.cgi
-regexp:^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?))\.nist\.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?))\.colorado\.edu)$
+# regexp:^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?))\.nist\.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?))\.colorado\.edu)$
+full:ut1-wwv.nist.gov
+full:ntp-b.nist.gov
+full:ntp-d.nist.gov
+full:ntp-wwv.nist.gov
+full:time.nist.gov
+full:time-a-g.nist.gov
+full:time-b-g.nist.gov
+full:time-c-g.nist.gov
+full:time-d-g.nist.gov
+full:time-e-g.nist.gov
+full:time-a-b.nist.gov
+full:time-b-b.nist.gov
+full:time-c-b.nist.gov
+full:time-d-b.nist.gov
+full:time-e-b.nist.gov
+full:time-a-wwv.nist.gov
+full:time-b-wwv.nist.gov
+full:time-c-wwv.nist.gov
+full:time-d-wwv.nist.gov
+full:time-e-wwv.nist.gov
+full:ntp-c.colorado.edu
+full:ut1-time.colorado.edu
+full:utcnist.colorado.edu
+full:utcnist2.colorado.edu
+full:utcnist3.colorado.edu
 
 # NTP-servers: https://ntp-servers.net/servers.html
-regexp:^ntp[0-7]\.ntp-servers\.net$
+# regexp:^ntp[0-7]\.ntp-servers\.net$
+full:ntp0.ntp-servers.net
+full:ntp1.ntp-servers.net
+full:ntp2.ntp-servers.net
+full:ntp3.ntp-servers.net
+full:ntp4.ntp-servers.net
+full:ntp5.ntp-servers.net
+full:ntp6.ntp-servers.net
+full:ntp7.ntp-servers.net
 
 clock.isc.org
 ntp.fiord.ru

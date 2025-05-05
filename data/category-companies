@@ -2,6 +2,7 @@
 
 include:acer
 include:adobe
+include:agilebits
 include:alibabacloud
 include:amazon
 include:amd
@@ -13,11 +14,13 @@ include:att
 include:autodesk
 include:bandwagonhost
 include:blurams
+include:broadcom
 include:canon
 include:chegg
 include:cisco
 include:cloudcone
 include:collabora
+include:comodo
 include:corel
 include:dell
 include:digitalocean
@@ -39,6 +42,7 @@ include:ibm
 include:ibkr
 include:inshot
 include:intel
+include:ixsystems
 include:kakao
 include:lg
 include:logitech
@@ -48,6 +52,7 @@ include:microsoft
 include:mikrotik
 include:mindgeek
 include:mozilla
+include:msi
 include:musixmatch
 include:mxroute
 include:naver
@@ -74,11 +79,13 @@ include:spacex
 include:spaceship
 include:st
 include:synology
+include:symantec
 include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
 include:ubiquiti
+include:verisign
 include:verizon
 include:vultr
 include:westerndigital

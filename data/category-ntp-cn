@@ -1,12 +1,29 @@
 # Aliyun
-regexp:^ntp([1-7])?\.aliyun\.com$ @cn
+# regexp:^ntp([1-7])?\.aliyun\.com$ @cn
+full:ntp.aliyun.com @cn
+full:ntp1.aliyun.com @cn
+full:ntp2.aliyun.com @cn
+full:ntp3.aliyun.com @cn
+full:ntp4.aliyun.com @cn
+full:ntp5.aliyun.com @cn
+full:ntp6.aliyun.com @cn
+full:ntp7.aliyun.com @cn
+
+# AWS
+full:time.amazonaws.cn @cn
 
 # Qualcomm
 full:time.izatcloud.net @cn
 full:time.xtracloud.net @cn
 
 # Tencent
-regexp:^ntp([1-5])?\.tencent\.com$ @cn
+# regexp:^ntp([1-5])?\.tencent\.com$ @cn
+full:ntp.tencent.com @cn
+full:ntp1.tencent.com @cn
+full:ntp2.tencent.com @cn
+full:ntp3.tencent.com @cn
+full:ntp4.tencent.com @cn
+full:ntp5.tencent.com @cn
 
 cn.pool.ntp.org @cn
 ntp.neu.edu.cn @cn

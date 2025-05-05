@@ -1,6 +1,7 @@
 include:apple-ads
 include:apple-dev
 include:apple-pki
+include:apple-tvplus
 include:apple-update
 include:beats
 include:icloud
@@ -477,6 +478,9 @@ appleone.website
 # Shazam
 shazam.com
 
+# Apple Health Studies
+full:ingest.apple-studies.com  # 采集心率、运动、听力等传感器数据，以及用户填报的研究问卷，将其加密后上传至 Apple 后端
+
 # Others
 1to1computing.com.au
 1to1conference.com.au
@@ -796,12 +800,58 @@ full:tf-feedback.itunes.apple.com @cn
 full:upp.itunes.apple.com @cn
 full:www.support.apple.com @cn
 
-regexp:^a[1-5]\.mzstatic\.com$ @cn
-regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
-regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$ @cn
-regexp:^cl[1-5]\.apple\.com$ @cn
-regexp:^is[1-5](-ssl)?\.mzstatic\.com$ @cn
-regexp:^s[1-5]?\.mzstatic\.com$ @cn
+# regexp:^a[1-5]\.mzstatic\.com$ @cn
+full:a1.mzstatic.com @cn
+full:a2.mzstatic.com @cn
+full:a3.mzstatic.com @cn
+full:a4.mzstatic.com @cn
+full:a5.mzstatic.com @cn
+
+# regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
+full:cdn.apple-mapkit.com @cn
+full:cdn1.apple-mapkit.com @cn
+full:cdn2.apple-mapkit.com @cn
+full:cdn3.apple-mapkit.com @cn
+full:cdn4.apple-mapkit.com @cn
+full:cdn-cn.apple-mapkit.com @cn
+full:cdn-cn1.apple-mapkit.com @cn
+full:cdn-cn2.apple-mapkit.com @cn
+full:cdn-cn3.apple-mapkit.com @cn
+full:cdn-cn4.apple-mapkit.com @cn
+
+# regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$ @cn
+full:cl1-cdn.origin-apple.com.akadns.net @cn
+full:cl2-cdn.origin-apple.com.akadns.net @cn
+full:cl3-cdn.origin-apple.com.akadns.net @cn
+full:cl4-cdn.origin-apple.com.akadns.net @cn
+full:cl5-cdn.origin-apple.com.akadns.net @cn
+
+# regexp:^cl[1-5]\.apple\.com$ @cn
+full:cl1.apple.com @cn
+full:cl2.apple.com @cn
+full:cl3.apple.com @cn
+full:cl4.apple.com @cn
+full:cl5.apple.com @cn
+
+# regexp:^is[1-5](-ssl)?\.mzstatic\.com$ @cn
+full:is1.mzstatic.com @cn
+full:is1-ssl.mzstatic.com @cn
+full:is2.mzstatic.com @cn
+full:is2-ssl.mzstatic.com @cn
+full:is3.mzstatic.com @cn
+full:is3-ssl.mzstatic.com @cn
+full:is4.mzstatic.com @cn
+full:is4-ssl.mzstatic.com @cn
+full:is5.mzstatic.com @cn
+full:is5-ssl.mzstatic.com @cn
+
+# regexp:^s[1-5]?\.mzstatic\.com$ @cn
+full:s.mzstatic.com @cn
+full:s1.mzstatic.com @cn
+full:s2.mzstatic.com @cn
+full:s3.mzstatic.com @cn
+full:s4.mzstatic.com @cn
+full:s5.mzstatic.com @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
 # Revision: e54aa75ca9c6567ac5b67093e5471eb1c8041e86
@@ -962,7 +1012,6 @@ full:tj-pod1-smp-device.apple.com @cn
 full:updates-http.cdn-apple.com @cn
 full:updates-http.cdn-apple.com.akadns.net @cn
 full:updates.cdn-apple.com @cn
-full:valid.apple.com @cn
 full:valid.origin-apple.com.akadns.net @cn
 full:weather-data.apple.com @cn
 full:weather-data.apple.com.akadns.net @cn

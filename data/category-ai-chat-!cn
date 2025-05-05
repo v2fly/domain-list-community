@@ -1,21 +1,3 @@
-include:anthropic
-include:google-gemini
-include:groq
-include:openai
-include:perplexity
-include:poe
-include:xai
-include:cursor
+# This list is for backward compatibility
 
-# Jasper
-clipdrop.co
-jasper.ai
-
-# NotebookLM
-notebooklm.google
-notebooklm.google.com
-
-dify.ai
-gateway.ai.cloudflare.com
-meta.ai
-openart.ai
+include:category-ai-!cn
