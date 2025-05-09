@@ -1,5 +1,5 @@
-# Iranian websites which will not open without an Iranian IP
-# Use to make them direct connections so they open inside Iran
+# Iranian websites/domains that are supposed to be (not necessarily for some of them) accessed from Iranian IP.
+# Hence, it is recommended to utilize direct connection for this category.
 
 # Iran TLDs
 ir
