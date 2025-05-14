@@ -3,10 +3,12 @@
 include:abema
 include:amc
 include:anime
+include:apple-tvplus
 include:archiveofourown
 include:attwatchtv
 include:bahamut
 include:bandcamp
+include:bangumi
 include:boomerang
 include:catchplay
 include:category-games
@@ -32,6 +34,7 @@ include:lastfm
 include:litv
 include:manhuagui
 include:mihoyo
+include:mubi
 include:mudvod
 include:mytvsuper
 include:netflix

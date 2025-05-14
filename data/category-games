@@ -7,9 +7,11 @@ include:curseforge
 include:cygames
 include:ea
 include:epicgames
+include:escapefromtarkov
 include:garena
 include:gog
 include:illusion
+include:itchio
 include:kurogames
 include:lowiro
 include:mihoyo
@@ -25,8 +27,10 @@ include:projectsekai
 include:purikonejp
 include:riot
 include:rockstar
+include:snk
 include:steam
 include:steamunlocked
+include:supercell
 include:tencent-games
 include:ubisoft
 include:xbox

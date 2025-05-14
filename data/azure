@@ -5,6 +5,7 @@ azure
 21vbluecloud.com @cn
 21vbluecloud.net @cn
 aadrm.cn @cn
+aadrm.com
 aggresmart.com @cn
 apihub-internal.cn @cn
 appserviceenvironment.cn @cn
@@ -66,6 +67,7 @@ b2clogin.cn @cn
 b3itech.cn @cn
 blueaggrestore.com @cn
 bluecloudprod.com @cn
+botframework.com
 cegid-cloud.cn @cn
 chinacloud-mobile.cn @cn
 chinacloudapi.cn @cn
@@ -82,6 +84,7 @@ management-azure-devices.cn @cn
 management-azure-devices.net
 mcchcdn.com @cn
 mgmt-azure-api.cn @cn
+microsoftazuread-sso.com
 microsoftazuresponsorships.com
 microsoftazurestatus.cn @cn
 microsofteca.com
@@ -94,6 +97,8 @@ msftcloudes.cn @cn
 msidentity.cn @cn
 msidlabpbmc.cn @cn
 msn.net
+playfab.com
+playfabapi.com
 serverlesslibrary.net
 trafficmanager.cn @cn
 trafficmanager.net
@@ -104,7 +109,26 @@ windowsazure.cn @cn
 windowsazure.com
 windowsazurestatus.cn @cn
 
-regexp:.+\.azchcdn[a-s]\.com$ @cn
+# regexp:.+\.azchcdn[a-s]\.com$ @cn
+azchcdna.com @cn
+azchcdnb.com @cn
+azchcdnc.com @cn
+azchcdnd.com @cn
+azchcdne.com @cn
+azchcdnf.com @cn
+azchcdng.com @cn
+azchcdnh.com @cn
+azchcdni.com @cn
+azchcdnj.com @cn
+azchcdnk.com @cn
+azchcdnl.com @cn
+azchcdnm.com @cn
+azchcdnn.com @cn
+azchcdno.com @cn
+azchcdnp.com @cn
+azchcdnq.com @cn
+azchcdnr.com @cn
+azchcdns.com @cn
 
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
@@ -116,4 +140,14 @@ azure-dns.info
 azure-dns.net
 azure-dns.org
 
-regexp:.+\.azure-dns-([1-9]|10)\.cn$ @cn
+# regexp:.+\.azure-dns-([1-9]|10)\.cn$ @cn
+azure-dns-1.cn @cn
+azure-dns-2.cn @cn
+azure-dns-3.cn @cn
+azure-dns-4.cn @cn
+azure-dns-5.cn @cn
+azure-dns-6.cn @cn
+azure-dns-7.cn @cn
+azure-dns-8.cn @cn
+azure-dns-9.cn @cn
+azure-dns-10.cn @cn

@@ -1,13 +1,13 @@
 # This list contains scholarly domains that don't have access point in China Mainland.
 
+include:category-scholar-uk
+include:category-scholar-ir
 include:apa
-include:cambridge
 include:clarivate
 include:doi
 include:elsevier
 include:google-scholar
 include:ieee
-include:imperialcollege
 include:knovel
 include:mit
 include:oup
@@ -74,6 +74,7 @@ cios.org
 cmu.edu
 cochranelibrary.com
 computingreviews.com
+csrankings.org
 degruyter.com
 dentalhypotheses.com
 ebsco.com # EBSCO 检索平台

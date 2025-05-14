@@ -3,18 +3,53 @@ include:xiaomi-ads
 mi-img.com
 mi.com
 mifile.cn
+migames.com
 mijia.tech
 miui.com
 miwifi.com
 xiaomi.cn
 xiaomi.com
+xiaomi.eu
 xiaomi.net
+xiaomicp.com
+xiaomidns.cn
+xiaomidns.com
+xiaomidns.com.cn
+xiaomidns.net
 xiaomiev.com
+xiaomiinc.cn
+xiaomiinc.com
+xiaomiinc.com.cn
+xiaomiinc.net
 xiaomimobile.com
+xiaominr.com
+xiaomiprint.com
+xiaomisa.cn
+xiaomisa.com
+xiaomisa.net
+xiaomisa.org
+xiaomiwear.com
 xiaomixiaoai.com
 
-# Xiaomi YouPin
+# 天星数科
+airstarfinance.net
+mipay.com
+
+# 多看
+duokan.com
+duokanbox.com
+
+# 有品
 xiaomiyoupin.com
+youpin.cn
+youpin.com.cn
+
+# 紫米
+zmifi.com
 
 # AppStore CDN
 saxyit.com
+
+# Overseas only
+c.mi.com @!cn
+global.market.xiaomi.com @!cn
