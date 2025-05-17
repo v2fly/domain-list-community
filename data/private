@@ -17,6 +17,9 @@ local
 # https://tools.ietf.org/html/rfc8375
 home.arpa
 
+# https://www.icann.org/en/public-comment/proceeding/proposed-top-level-domain-string-for-private-use-24-01-2024
+internal
+
 # References: https://www.iana.org/assignments/locally-served-dns-zones/locally-served-dns-zones.xhtml
 # https://www.rfc-editor.org/rfc/rfc6303.html
 0.in-addr.arpa
