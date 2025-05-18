@@ -8,6 +8,10 @@ include:poe
 include:xai
 include:cursor
 
+# CodeRabbit
+coderabbit.ai
+coderabbit.gallery.vsassets.io
+
 # Jasper
 clipdrop.co
 jasper.ai
