@@ -1,5 +1,6 @@
 include:category-bank-mm
 include:hsbc
+include:ibkr
 include:ifast
 include:longbridge
 include:wise
