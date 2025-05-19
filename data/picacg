@@ -8,3 +8,8 @@ picacn.xyz
 picacomic.com
 picacomic.xyz
 wikawika.xyz
+
+# Image Resource Domain like `img.diwodiwo.xyz` `storage.diwodiwo.xyz` `storage-b.diwodiwo.xyz`
+regexp:^(?!(?:.*\.)?(?:ad-display|ad-channel)\.diwodiwo\.xyz$).+$
+ad-channel.diwodiwo.xyz @ads
+ad-display.diwodiwo.xyz @ads
