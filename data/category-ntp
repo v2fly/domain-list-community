@@ -1,3 +1,6 @@
+include:category-ntp-cn
+include:category-ntp-jp
+
 # Apple
 # regexp:^time(.euro)?.apple.com$
 full:time.apple.com
@@ -5,6 +8,9 @@ full:time.euro.apple.com
 
 # AWS
 full:time.aws.com
+
+# Cloudflare
+full:time.cloudflare.com
 
 # Facebook
 # regexp:^time([1-5])?\.facebook\.com$
@@ -22,6 +28,12 @@ full:time1.google.com
 full:time2.google.com
 full:time3.google.com
 full:time4.google.com
+
+# Ubuntu
+full:ntp.ubuntu.com
+
+# Windows
+full:time.windows.com
 
 # NIST: https://tf.nist.gov/tf-cgi/servers.cgi
 # regexp:^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?))\.nist\.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?))\.colorado\.edu)$
@@ -70,9 +82,4 @@ ntp.ripe.net
 ntp.se
 ntp.ufe.cz
 pool.ntp.org
-time.cloudflare.com
 time.nrc.ca
-time.windows.com
-
-include:category-ntp-cn
-include:category-ntp-jp
