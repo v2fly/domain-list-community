@@ -1,5 +1,5 @@
 include:anthropic
-include:google-gemini
+include:google-deepmind
 include:groq
 include:huggingface
 include:openai
@@ -15,10 +15,6 @@ coderabbit.gallery.vsassets.io
 # Jasper
 clipdrop.co
 jasper.ai
-
-# NotebookLM
-notebooklm.google
-notebooklm.google.com
 
 chutes.ai
 dify.ai
