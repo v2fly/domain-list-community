@@ -1,64 +1,72 @@
-#TODO: add annotations
+## TODO: add annotations
+52pt.site
 audiences.me
+carpt.net
+ccfbits.org
+dicmusic.com
+eastgame.org
+et8.org
+greatposterwall.com
+haidan.video
+hdarea.club
+hdatmos.club
+hdcity.city
+hddolby.com
+hdfans.org
+hdmayi.com
+hdpt.xyz
+hdtime.org
+hdvideo.one
+hhan.club
+hhanclub.top
+ianon.app
+kufei.com
+kufei.org
+leaves.red
+nicept.net
+open.cd
+piggo.me
+pt.0ff.cc
+pt.btschool.club
+pt.eastgame.org
+pt.hd4fans.org
+pt.soulvoice.club
+ptchina.org
+pthome.net
+ptsbao.club
+pttime.org
+pttime.top
+rousi.zip
+share.ilolicon.com
+sharkpt.net
+zhuque.in
+
+
+# Non-Chinese trackers
+myanonamouse.net @!cn
+nebulance.io @!cn
+torrentleech.org @!cn
+## TODO: add annotations
 avistaz.to
 beyond-hd.me
 bibliotik.me
 blutopia.cc
 broadcasthe.net
-ccfbits.org
 cinemaz.to
-dicmusic.com
-eastgame.org
-et8.org
 exoticaz.to
 filelist.io
-greatposterwall.com
 hdbits.org
-hdcity.city
-hdfans.org
-hdtime.org
-hhanclub.top
-hddolby.com
-hdpt.xyz
 iptorrents.com
 jpopsuki.eu
 jptv.club
-pttime.org
-pttime.top
-ianon.app
-hdatmos.club
-ptchina.org
-piggo.me
-leaves.red
-nicept.net
-hdmayi.com
-carpt.net
-hdvideo.one
-pt.0ff.cc
-
 morethantv.me
-open.cd
 passthepopcorn.me
 privatehd.to
-pt.btschool.club
-pt.eastgame.org
-pt.hd4fans.org
-pt.soulvoice.club
-pt.xauat.edu.cn
-pthome.net
-ptsbao.club
-share.ilolicon.com
-sharkpt.net
 uhdbits.org
-zhuque.in
-kufei.org
-kufei.com
-rousi.zip
-haidan.video
-hhan.club
-hdarea.club
-52pt.site
 
+
+# To Chinese Users:
+#    The following domains are not supposed to be proxied
 
 # 天雪论坛
 skyey2.com @!cn
@@ -68,16 +76,9 @@ skyeysnow.com @!cn
 m-team.cc @!cn
 m-team.io @!cn
 
-myanonamouse.net @!cn
-torrentleech.org @!cn
-nebulance.io @!cn
-
 # U2
-dmhy.org @!cn
 dmhy.best @!cn
-
-# To the Chinese Users:
-#    The following domains are supposed not to go through the proxy
+dmhy.org @!cn
 
 # 北邮人
 bt.byr.cn
@@ -90,8 +91,8 @@ tjupt.org
 # CHD
 chdbits.co
 chdbits.xyz
-ptchdbits.co
 chddiy.xyz
+ptchdbits.co
 rainbowisland.co
 
 # HDKylin
@@ -138,8 +139,10 @@ lemonhd.org
 
 bitpt.cn
 hdchina.org
+hdcmct.org
 hdhome.org
 hdsky.me
+hitpt.com
 hudbt.hust.edu.cn
 keepfrds.com
 nanyangpt.com
@@ -148,6 +151,7 @@ npupt.com
 ourbits.club
 pt.nwsuaf6.edu.cn
 pt.sjtu.edu.cn
+pt.xauat.edu.cn
 pterclub.com
 springsunday.net
 totheglory.im
