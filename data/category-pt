@@ -1,25 +1,4 @@
-#TODO: add annotations
-# Non-Chinese trackers
-avistaz.to
-beyond-hd.me
-bibliotik.me
-blutopia.cc
-broadcasthe.net
-cinemaz.to
-exoticaz.to
-filelist.io
-hdbits.org
-iptorrents.com
-jpopsuki.eu
-jptv.club
-morethantv.me
-passthepopcorn.me
-privatehd.to
-uhdbits.org
-myanonamouse.net @!cn
-torrentleech.org @!cn
-nebulance.io @!cn
-
+## TODO: add annotations
 52pt.site
 audiences.me
 carpt.net
@@ -63,6 +42,32 @@ sharkpt.net
 zhuque.in
 
 
+# Non-Chinese trackers
+myanonamouse.net @!cn
+nebulance.io @!cn
+torrentleech.org @!cn
+## TODO: add annotations
+avistaz.to
+beyond-hd.me
+bibliotik.me
+blutopia.cc
+broadcasthe.net
+cinemaz.to
+exoticaz.to
+filelist.io
+hdbits.org
+iptorrents.com
+jpopsuki.eu
+jptv.club
+morethantv.me
+passthepopcorn.me
+privatehd.to
+uhdbits.org
+
+
+# To Chinese Users:
+#    The following domains are not supposed to be proxied
+
 # 天雪论坛
 skyey2.com @!cn
 skyeysnow.com @!cn
@@ -72,11 +77,8 @@ m-team.cc @!cn
 m-team.io @!cn
 
 # U2
-dmhy.org @!cn
 dmhy.best @!cn
-
-# To the Chinese Users:
-#    The following domains are supposed not to go through the proxy
+dmhy.org @!cn
 
 # 北邮人
 bt.byr.cn
@@ -89,8 +91,8 @@ tjupt.org
 # CHD
 chdbits.co
 chdbits.xyz
-ptchdbits.co
 chddiy.xyz
+ptchdbits.co
 rainbowisland.co
 
 # HDKylin
