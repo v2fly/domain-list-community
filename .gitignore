@@ -1,11 +1,37 @@
-.idea
-.vscode
+# IDE settings
+.idea/
+.vscode/
 
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
 /domain-list-community
 /domain-list-community.exe
 
-# Generated dat file.
+# Generated data file
 dlc.dat
 
-# Exported plaintext lists.
-/*.txt
+# Exported plaintext lists (in project root)
+*.txt
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Go vendor directory (if used)
+vendor/
+
+# Binary directory (if used)
+bin/
+
+# Go coverage files
+coverage.out
+
+# Log files
+*.log
