@@ -9,6 +9,7 @@ include:ifast
 include:longbridge
 include:n26
 include:wise
+include:myfin
 
 fxcorporate.com
 mql5.com
