@@ -3,6 +3,7 @@ include:category-bank-ir
 include:category-bank-jp
 include:category-bank-mm
 
+include:fibank
 include:hsbc
 include:ibkr
 include:ifast
