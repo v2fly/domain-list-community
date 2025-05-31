@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-13T12:57:53.879Z
-# Size: 3569
+# Last Updated: 2025-05-30T19:26:48.675Z
+# Size: 3591
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -78,6 +78,7 @@ full:turbo.build
 safebrowsing.apple
 full:img.itch.zone
 ipfs.litnet.work
+full:static.frame.work
 full:tn.txxx.tube
 full:js.txxx.tube
 full:ipfs.d.tube
@@ -189,6 +190,7 @@ pichost.top
 gitcdn.top
 balley.top
 akidoo.top
+cktu01.sbs
 bundle.run
 esm.run
 full:content.any.run
@@ -209,7 +211,6 @@ full:playgroundcdn.typescriptlang.org
 full:www.typescriptlang.org
 full:assets.squarewebsites.org
 rescript-lang.org
-full:meta.prismlauncher.org
 tile.openstreetmap.org
 full:assets.geeksforgeeks.org
 full:media.geeksforgeeks.org
@@ -490,6 +491,7 @@ full:cdn.wishpond.net
 widencdn.net
 full:scontent.whatsapp.net
 full:static.whatsapp.net
+full:cdn.viafoura.net
 turboimg.net
 tildacdn.net
 smassets.net
@@ -672,6 +674,7 @@ full:static-cdn.osdn.net
 full:static.osdn.net
 ipfs.mttk.net
 loli.net
+full:texture.laby.net
 full:static1.e621.net
 c-dn.net
 mm.bing.net
@@ -741,6 +744,7 @@ rss3.dev
 full:cdn.pika.dev
 full:mastodon-static.miao.dev
 jspm.dev
+full:zod.dev
 full:cdn.tuk.dev
 full:static.reo.dev
 full:pkg.csb.dev
@@ -762,7 +766,6 @@ full:runkit-packages-static.com
 full:cdn.quickemailverification.com
 hackerone-user-content.com
 app-analytics-services.com
-akamai-content-network.com
 ravencoinipfs-gateway.com
 observableusercontent.com
 full:cdn.minecraft-server-list.com
@@ -883,6 +886,9 @@ full:images.opencollective.com
 full:static.onlinewebfonts.com
 full:pic.onlinewebfonts.com
 full:db.onlinewebfonts.com
+full:uploads-cdn.omnicalculator.com
+full:cache.omnicalculator.com
+full:cdn.omnicalculator.com
 oaiusercontent.com
 full:cdn-forum.networklessons.com
 full:cdn.networklessons.com
@@ -1224,6 +1230,8 @@ full:assets.embeddables.com
 full:cdn.dotaoutpost.com
 full:source.domaintools.com
 full:img.domaintools.com
+full:cdn.dexscreener.com
+full:dd.dexscreener.com
 full:static.crunchyroll.com
 full:imgsrv.crunchyroll.com
 full:img1.ak.crunchyroll.com
@@ -1698,6 +1706,7 @@ full:js1.chargebee.com
 full:js.chargebee.com
 full:cdn.changelog.com
 full:doppler-config.cbsivideo.com
+full:www-res.cablelabs.com
 full:badge.buildkite.com
 full:media.breitbart.com
 full:static.bravoporn.com
@@ -1982,6 +1991,8 @@ full:images.profile.autodesk.com
 full:cdn.ashbyprd.com
 full:imgrs.apkcombo.com
 full:assets.apilayer.com
+full:static.animaapp.com
+full:c.animaapp.com
 full:cdn.amcharts.com
 full:oaos-resources.allstate.com
 contenthub.allstate.com
@@ -2075,6 +2086,10 @@ full:videos2-h.sendvid.com
 full:thumbs2.sendvid.com
 full:cdn.segment.com
 full:ocsp.sectigo.com
+full:image-stgus.samsung.com
+full:image-us.samsung.com
+full:images.samsung.com
+full:cdn-b.saashub.com
 cdn.rollbar.com
 full:tools.refokus.com
 full:userpic.redgifs.com
@@ -2306,6 +2321,7 @@ full:s.abcnews.com
 99avcdn.com
 full:static.4shared.com
 full:r2.1hanime.com
+1a-1791.com
 full:img.177pica.com
 full:assets.zilliz.com
 full:service-icons.zeabur.com
@@ -2324,6 +2340,7 @@ full:img.xhacgn.com
 full:website-prod.cache.wpscdn.com
 full:frontend-apps.workos.com
 full:cdn.workos.com
+full:embed-cloudfront.wistia.com
 full:embed-ssl.wistia.com
 full:fast.wistia.com
 winudf.com
@@ -2447,6 +2464,7 @@ full:int.mwbbiz.com
 full:appassets.mvtdev.com
 full:img.mresou.com
 full:static-main.moovit.com
+full:static.moomoo.com
 full:launchercontent.mojang.com
 mngbcn.com
 mmtcdn.com
@@ -2995,6 +3013,7 @@ full:app.moegirl.tw
 full:cf.shopee.tw
 full:megapx-assets.dcard.tw
 pimg.tw
+full:news-data.pts.org.tw
 full:cw-image-resizer.cwg.tw
 full:cdn.ready-market.com.tw
 full:avatar2.bahamut.com.tw
@@ -3321,6 +3340,7 @@ full:static.status.io
 full:image.status.io
 full:media.smooch.io
 full:cdn.smooch.io
+full:wire.shodan.io
 ingest.sentry.io
 ingest.us.sentry.io
 ingest.de.sentry.io
@@ -3347,6 +3367,7 @@ full:static-mh.content.disney.io
 full:cdn.branch.io
 full:netlify.apollo.io
 full:v2uploads.zopim.io
+full:assets.stigg.io
 full:telemetry.split.io
 full:streaming.split.io
 full:events.split.io
@@ -3415,6 +3436,7 @@ full:assets.monica.im
 full:img.majors.im
 full:badges.gitter.im
 full:sn-s3-cdn.angry.im
+full:img.toto.im
 full:polyfill-fe.toss.im
 full:static.toss.im
 full:static-cdn.spot.im
@@ -3446,7 +3468,6 @@ full:img.agrd.eu
 full:st.agrd.eu
 full:versionbadg.es
 full:utteranc.es
-full:cdn.linux.do
 full:secure-res.craft.do
 full:res.craft.do
 tile.openstreetmap.de
@@ -3502,6 +3523,7 @@ full:load.csell.co
 full:log-collector.17app.co
 full:webcdn.17app.co
 full:cdn.17app.co
+full:y.yarn.co
 v2ex.co
 pcdn.co
 full:snippet.maze.co
