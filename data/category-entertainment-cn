@@ -7,6 +7,7 @@ include:ali213
 include:bestv
 include:bilibili
 include:ciweimao
+include:copymanga
 include:cowlevel
 include:dedao
 include:dmzj
@@ -40,6 +41,7 @@ include:tgbus
 include:tiancity
 include:u17
 include:vgtime
+include:vrzwk
 include:wasu
 include:xd
 include:ximalaya
@@ -56,6 +58,13 @@ yeshen.com
 
 # 九九互动 粤ICP备19068416号
 forevernine.com
+
+# 沪ICP备18041304号-1
+tgpro.top
+tgprocs.net
+
+# B站空降助手 鲁ICP备2024098956号-1
+bsbsb.top
 
 ledu.com
 pearvideo.com

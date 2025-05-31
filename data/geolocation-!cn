@@ -298,13 +298,6 @@ include:wikimedia
 atwiki.jp
 touhouwiki.net
 
-# Nebula Emby
-api.nebula-emby.com
-web.nebula-emby.com
-
-# offcloud
-offcloud.com
-
 # Others
 include:avaxhome
 include:dlsite
