@@ -107,7 +107,7 @@ kktv.com.tw
 kktv.me
 # > LiTV
 litv.tv
-litvfreepc.akamaized.net
+ntd-tgc.cdn.hinet.net
 # > MyVideo
 cdn.plyr.io
 myvideo.net.tw
@@ -119,6 +119,7 @@ myvideo.net.tw
 4gtvpcvod-cds.cdn.hinet.net
 # > ofiii
 ofiii.com
+ntdofifreepc-tgc.cdn.hinet.net
 # > LineTV.TW
 d3c7rimkq79yfu.cloudfront.net
 linetv.tw
@@ -131,38 +132,29 @@ catchplay.com
 d2ivmxp5z2ww0n.cloudfront.net
 ols-ww100-cp.akamaized.net
 tra-www000-cp.akamaized.net
-# > HBO GO Asia
-44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-bcbolthboa-a.akamaihd.net
-dai3fd1oh325y.cloudfront.net
-hboasia1-i.akamaihd.net
-hboasia2-i.akamaihd.net
-hboasia3-i.akamaihd.net
-hboasia4-i.akamaihd.net
-hboasia5-i.akamaihd.net
-hboasialive.akamaized.net
-hbogoprod-vod.akamaized.net
-hbolb.onwardsmg.com
-hbounify-prod.evergent.com
-hbogo.co.th
-hbogoasia.com
-hbogoasia.hk
-hbogoasia.id
-hbogoasia.ph
-hbogoasia.sg
-hbogoasia.tw
 # > Bahamut Anime
 bahamut.com.tw
 gamer.com.tw
 gamer-cds.cdn.hinet.net
 gamer2-cds.cdn.hinet.net
+# > HBO / Max
+max.com
+hbo.com
+hbogo.com
+hbomax.com
+hbomaxcdn.com
+hbonow.com
+maxgo.com
+discomax.com
 # > BiliBili
+www.bilibili.com
 api.bilibili.com
 api.biliapi.net
 api.biliapi.com
 app.bilibili.com
 app.biliapi.net
 app.biliapi.com
+grpc.biliapi.net
 # > Friday Video
 video.friday.tw
 
@@ -699,35 +691,26 @@ mytvsuper.com
 mytvsuperlimited.hb.omtrdc.net
 mytvsuperlimited.sc.omtrdc.net
 tvb.com
-# > HBO GO Asia
-44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-bcbolthboa-a.akamaihd.net
-dai3fd1oh325y.cloudfront.net
-hboasia1-i.akamaihd.net
-hboasia2-i.akamaihd.net
-hboasia3-i.akamaihd.net
-hboasia4-i.akamaihd.net
-hboasia5-i.akamaihd.net
-hboasialive.akamaized.net
-hbogoprod-vod.akamaized.net
-hbolb.onwardsmg.com
-hbounify-prod.evergent.com
-hbogo.co.th
-hbogoasia.com
-hbogoasia.hk
-hbogoasia.id
-hbogoasia.ph
-hbogoasia.sg
-hbogoasia.tw
 # > HOY TV
 hoy.tv
+# > HBO / Max
+max.com
+hbo.com
+hbogo.com
+hbomax.com
+hbomaxcdn.com
+hbonow.com
+maxgo.com
+discomax.com
 # > BiliBili
+www.bilibili.com
 api.bilibili.com
 api.biliapi.net
 api.biliapi.com
 app.bilibili.com
 app.biliapi.net
 app.biliapi.com
+grpc.biliapi.net
 
 
 
