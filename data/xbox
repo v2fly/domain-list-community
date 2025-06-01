@@ -1,5 +1,7 @@
 include:bethesda
+include:forza
 include:mojang
+include:msfs
 
 # All .xbox domains
 xbox
