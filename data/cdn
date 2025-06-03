@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-30T19:26:48.675Z
-# Size: 3591
+# Last Updated: 2025-06-02T14:01:25.724Z
+# Size: 3598
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -512,6 +512,7 @@ full:img.javstore.net
 forgecdn.net
 full:connect.facebook.net
 full:static.esimplus.net
+full:pub.creaders.net
 full:assets.bitstamp.net
 full:damassets.autodesk.net
 full:jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
@@ -1059,7 +1060,11 @@ full:cdn-eu.dynamicyield.com
 full:st-eu.dynamicyield.com
 full:cdn.dynamicyield.com
 full:st.dynamicyield.com
+full:v-tiles3.downdetector.com
+full:v-tiles2.downdetector.com
+full:v-tiles1.downdetector.com
 full:cdn2.downdetector.com
+full:cdn.downdetector.com
 dockerstatic.com
 full:segment.digitalocean.com
 full:ui-cdn.digitalocean.com
@@ -1799,6 +1804,7 @@ full:assets.scaleway.com
 full:embed.savvycal.com
 full:public.saasexch.com
 rrcdnbf3.com
+full:apps-static.route4me.com
 roseimgs.com
 full:cdn.roboflow.com
 full:app.roboflow.com
@@ -2257,6 +2263,7 @@ full:static-ca-cdn.eporner.com
 full:cdn.embedly.com
 els-cdn.com
 ebayimg.com
+full:comm.res.easebar.com
 full:static.drtuber.com
 full:static.doujins.com
 full:cdn.docsbot.com
