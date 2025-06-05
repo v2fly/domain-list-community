@@ -1,8 +1,6 @@
 include:2kgames
-include:bilibili-game
 include:blizzard
 include:bluearchive
-include:bluepoch-games
 include:curseforge
 include:cygames
 include:ea
@@ -10,11 +8,10 @@ include:epicgames
 include:escapefromtarkov
 include:garena
 include:gog
+include:hoyoverse
 include:illusion
 include:itchio
-include:kurogames
 include:lowiro
-include:mihoyo
 include:nexon
 include:nikke
 include:nintendo
@@ -31,7 +28,6 @@ include:snk
 include:steam
 include:steamunlocked
 include:supercell
-include:tencent-games
 include:ubisoft
 include:xbox
 include:ynoproject
