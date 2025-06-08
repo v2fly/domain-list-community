@@ -13,8 +13,8 @@ include:solidot
 include:sspai
 include:tmtpost
 include:weiphone
-include:ynet
 include:xueqiu
+include:ynet
 
 # 证券时报网
 stcn.com
@@ -98,6 +98,13 @@ thepaper.cn
 
 # 封面新闻
 thecover.cn
+
+# 参考消息
+cankaoxiaoxi.com
+ckxx.net
+
+# 大公网（大公报）
+takungpao.com
 
 # 超能网
 expreview.com
