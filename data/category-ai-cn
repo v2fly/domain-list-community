@@ -19,7 +19,8 @@ yiyan.baidu.com
 tiangong.cn
 
 # 豆包
-doubao.com
+include:doubao
+
 marscode.cn
 
 # 智谱清言
