@@ -18,10 +18,9 @@ yiyan.baidu.com
 # 天工AI
 tiangong.cn
 
-# 豆包
+# 字节跳动：豆包、Trae(MarsCode)
 include:doubao
-
-marscode.cn
+include:trae
 
 # 智谱清言
 bigmodel.cn
