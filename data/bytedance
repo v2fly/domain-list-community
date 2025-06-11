@@ -2,7 +2,7 @@ include:bytedance-ads
 
 include:fqnovel
 include:juejin
-include:lark
+include:lark # feishu is included in lark
 include:tiktok
 include:volcengine
 
@@ -373,12 +373,6 @@ bdxiguastatic.com
 
 # 快懂百科
 baike.com
-
-# 飞书
-feishu.cn
-feishu.net
-feishucdn.com
-feishupkg.com
 
 # 悟空问答
 wukong.com
