@@ -134,6 +134,9 @@ include:nga
 include:stage1st
 
 52pojie.cn # 吾爱破解
+acwifi.net # 路由器技术分享
+chongbuluo.com # 虫部落
+chongdiantou.com # 充电头网
 itsk.com # IT天空论坛
 kafan.cn # 卡饭论坛
 kanxue.com # 看雪
@@ -332,6 +335,8 @@ inftab.com
 # 某柠檬导航（浏览器主页）
 moulem.com
 
+# 青柠起始页
+limestart.cn
 
 # 街机
 include:aamgame
@@ -630,7 +635,6 @@ chinaunix.net
 chinaweiyu.com
 chinawutong.com
 chinazns.com
-chongdiantou.com # 粤ICP备15002070号-1
 chouti.com
 chuangxin.com
 chuansong.me
