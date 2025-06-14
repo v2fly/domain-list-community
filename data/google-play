@@ -1,0 +1,16 @@
+googleplay.com
+play-fe.googleapis.com
+play-games.googleusercontent.com
+play-lh.googleusercontent.com
+play.google.com
+play.googleapis.com
+xn--ngstr-lra8j.com
+
+# if connect to services.googleapis.cn directly,
+# then these domains will be used.
+# 北京 (2x3)、上海 (ni5)、广州 (j5o)
+regexp:^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.xn--ngstr-lra8j\.com$ @cn
+# the same but DNS pollution in China mainland.
+regexp:^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.googlevideo\.com$ @cn
+
+full:redirector.c.play.google.com @cn

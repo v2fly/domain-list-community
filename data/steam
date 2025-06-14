@@ -1,5 +1,6 @@
 playartifact.com
 s.team
+steam.tv
 steam-api.com
 steam-chat.com
 steamcommunity.com
@@ -23,6 +24,7 @@ steam.naeu.qtlglb.com
 steam.ru.qtlglb.com
 
 # HIGHWINDS
+full:a4e8s8k3.map2.ssl.hwcdn.net
 full:f3b7q2p3.ssl.hwcdn.net
 
 # internode
@@ -54,24 +56,28 @@ csgo.wmsj.cn @cn
 dota2.wmsj.cn @cn
 wmsjsteam.com @cn
 
-# 金山云
+# Steam更新
+client-update.queniuqe.com @cn
+
+# 新流云
 dl.steam.clngaa.com @cn
-dl.steam.ksyna.com @cn
 
 # 白山云
 st.dl.bscstorage.net @cn
 st.dl.eccdnx.com @cn
 st.dl.pinyuncloud.com @cn
 
-# 华为云
-steampipe.steamcontent.tnkjmec.com @cn
-
 # 网宿
 steampowered.com.8686c.com @cn
 steamstatic.com.8686c.com @cn
 
 # 阿里云
+full:alibaba.cdn.steampipe.steamcontent.com @cn
+full:lv.queniujq.cn @cn
 full:xz.pphimalayanrt.com @cn
 
 # 蒸汽中国
 steamchina.com @cn
+
+# 数云科技
+gstore.val.manlaxy.com @cn

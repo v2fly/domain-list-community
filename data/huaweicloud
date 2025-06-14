@@ -1,3 +1,5 @@
+aadcloud.cn
+aadcloud.com
 ami-alliance.org.cn
 b2bgo.com
 eduapaashwc.com
@@ -10,6 +12,10 @@ huaweicloud-dns.cn
 huaweicloud-dns.com
 huaweicloud-dns.net @!cn
 huaweicloud-dns.org @!cn
+huaweicloud-idme.cn
+huaweicloud-idme.com
+huaweicloud-koophone.cn
+huaweicloud-koophone.com
 huaweicloud-smn.cn
 huaweicloud-smn.com
 huaweicloud-smn.net
@@ -47,8 +53,15 @@ hwcloudsite.cn
 hwcloudsite.com
 hwcloudvis.cn
 hwcloudvis.com
+hweventgrid.cn
+hweventgrid.com
+idonguapi.cn
+idonguapi.com
 imc-oneaccess.cn
 imcapptest.com
+inanguapi.cn
+inanguapi.com
+ixiguapi.com
 km6g.cn
 km7g.cn
 km8g.cn
@@ -58,6 +71,16 @@ kmcb-cn-north-4.cn
 kmop-cn-east-3.cn
 kmop-cn-north-4.cn
 livehwc3.cn
+modelarts-infer.cn
+modelarts-infer.com
+modelarts-maas.cn
+modelarts-maas.com
+myhuaweicloud-custom.cn
+myhuaweicloud-custom.com
+myhuaweicloud-koodrive.cn
+myhuaweicloud-koodrive.com
+myhuaweicloud-obs.cn
+myhuaweicloud-obs.com
 myhuaweicloud.cn
 myhwcdn.cn
 myhwcdn.com
@@ -72,6 +95,7 @@ powerapp.io
 
 # Huaweicloud Endpoint, source: https://developer.huaweicloud.com/endpoint
 ae-ad-1.myhuaweicloud.com @!cn          #中东-阿布扎比-OP5
+af-north-1.myhuaweicloud.com @!cn       #非洲-开罗
 af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡
 ap-southeast-1.myhuaweicloud.com @!cn   #中国-香港
 ap-southeast-2.myhuaweicloud.com @!cn   #亚太-曼谷
@@ -79,6 +103,7 @@ ap-southeast-3.myhuaweicloud.com @!cn   #亚太-新加坡
 ap-southeast-4.myhuaweicloud.com @!cn   #亚太-雅加达
 cn-east-2.myhuaweicloud.com             #华东-上海二
 cn-east-3.myhuaweicloud.com             #华东-上海一
+cn-east-4.myhuaweicloud.com             #华东二
 cn-east-5.myhuaweicloud.com             #华东-青岛
 cn-north-1.myhuaweicloud.com            #华北-北京一
 cn-north-11.myhuaweicloud.com           #华北-乌兰察布-汽车一
@@ -98,7 +123,9 @@ eu-west-101.myhuaweicloud.com @!cn      #欧洲-都柏林
 la-north-2.myhuaweicloud.com @!cn       #拉美-墨西哥城二
 la-south-2.myhuaweicloud.com @!cn       #拉美-圣地亚哥
 me-east-1.myhuaweicloud.com @!cn        #中东-利雅得
+my-kualalumpur-1.myhuaweicloud.com @!cn #亚太-吉隆坡-OP6
 na-mexico-1.myhuaweicloud.com @!cn      #拉美-墨西哥城一
+ru-moscow-1.myhuaweicloud.com @!cn      #俄罗斯-莫斯科-OP4
 ru-northwest-2.myhuaweicloud.com @!cn   #俄罗斯-莫斯科二
 sa-brazil-1.myhuaweicloud.com @!cn      #拉美-圣保罗一
 tr-west-1.myhuaweicloud.com @!cn        #土耳其-伊斯坦布尔
@@ -240,4 +267,24 @@ cza84.cn
 kma1g.cn
 576nt.cn
 
-regexp:.+\.cdnhwc([1-9]|10)\.(cn|com)$
+# regexp:.+\.cdnhwc([1-9]|10)\.(cn|com)$
+cdnhwc1.cn
+cdnhwc2.cn
+cdnhwc3.cn
+cdnhwc4.cn
+cdnhwc5.cn
+cdnhwc6.cn
+cdnhwc7.cn
+cdnhwc8.cn
+cdnhwc9.cn
+cdnhwc10.cn
+cdnhwc1.com
+cdnhwc2.com
+cdnhwc3.com
+cdnhwc4.com
+cdnhwc5.com
+cdnhwc6.com
+cdnhwc7.com
+cdnhwc8.com
+cdnhwc9.com
+cdnhwc10.com

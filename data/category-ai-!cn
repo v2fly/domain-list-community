@@ -1,0 +1,25 @@
+include:anthropic
+include:google-deepmind
+include:groq
+include:huggingface
+include:openai
+include:perplexity
+include:poe
+include:xai
+include:cursor
+
+# CodeRabbit
+coderabbit.ai
+coderabbit.gallery.vsassets.io
+
+# Jasper
+clipdrop.co
+jasper.ai
+
+chutes.ai
+dify.ai
+gateway.ai.cloudflare.com
+meta.ai
+mistral.ai
+openart.ai
+openrouter.ai

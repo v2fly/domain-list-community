@@ -1,4 +1,6 @@
 include:75team
+include:qihoo360-ads
+include:starworld
 
 360.cn
 360.com
@@ -13,8 +15,14 @@ include:75team
 360kuai.com
 360os.com
 360panyun.cn
+360qhcdn.com
 360safe.com
 360shouji.com
+360so.com
+360sou.cn
+360sou.com
+360sou.com.cn
+360sou.net
 360taojin.com
 360totalsecurity.com
 360tpcdn.com
@@ -22,14 +30,20 @@ include:75team
 360webcache.com
 360zqaq.com
 anquanke.com
+appjiagu.com
+baomitu.com
+dhsvc.cn
 haoso.com
 haosou.com
 haosou.com.cn
 haosou.net
 i360mall.com
 ludashi.com
+n.cn
+namiso.com
 nicaifu.com
 nzwgs.com
+qhcdn.com
 qhimg.com
 qhimgs0.com
 qhimgs1.com
@@ -42,13 +56,14 @@ qhmsg.com
 qhres.com
 qhres2.com
 qhstatic.com
-qhupdate.com
-qihuapi.cn
-qihucdn.com
 qihoo.com
 qihoo.net
+qihuapi.cn
+qihucdn.com
+qiku.com
 qikucdn.com
 so.com
+sou.cn
 sou.com
 urlqh.cn
 xiaoluyouxuan.com
@@ -56,3 +71,8 @@ xiaoluzhidian.com
 xjietiao.com
 youhua.com
 yunpan.cn
+
+# 北方矢量
+beifangsl.cn
+zhaomi.cn
+zhaomishijie.com

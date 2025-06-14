@@ -2,9 +2,11 @@
 
 include:acer
 include:adobe
+include:agilebits
 include:alibabacloud
 include:amazon
 include:amd
+include:anthropic
 include:apple
 include:asus
 include:atlassian
@@ -12,11 +14,13 @@ include:att
 include:autodesk
 include:bandwagonhost
 include:blurams
+include:broadcom
 include:canon
 include:chegg
 include:cisco
 include:cloudcone
 include:collabora
+include:comodo
 include:corel
 include:dell
 include:digitalocean
@@ -27,14 +31,18 @@ include:giffgaff
 include:gigabyte
 include:godaddy
 include:google
+include:groq
 include:hetzner
 include:hinet
 include:hkbn
 include:hp
+include:hpe
 include:hubblephone
 include:ibm
+include:ibkr
 include:inshot
 include:intel
+include:ixsystems
 include:kakao
 include:lg
 include:logitech
@@ -44,8 +52,11 @@ include:microsoft
 include:mikrotik
 include:mindgeek
 include:mozilla
+include:msi
 include:musixmatch
+include:mxroute
 include:naver
+include:netcup
 include:neuralink
 include:nvidia
 include:openai
@@ -67,16 +78,21 @@ include:sony
 include:spacex
 include:spaceship
 include:st
+include:synology
+include:symantec
 include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
+include:ubiquiti
+include:verisign
 include:verizon
 include:vultr
 include:westerndigital
 include:wisekey
 include:yahoo
 include:yandex
+include:xai
 
 # Remote Control
 include:category-remote-control

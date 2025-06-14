@@ -47,6 +47,7 @@ gtm.pub
 hr-welink.com
 idcgcloudcs.com
 iemiq.com
+igtm-meeting-tencent.com
 igtm.pub
 intltencentcos.com @!cn
 isd.com
@@ -172,12 +173,15 @@ tidaas.com
 timatrix.com.cn
 timmerse.com
 tlivecdn.com
+tlivepush.com
+tlivesource.com
 tourismshow.cn
 tourismuser.cn
 tsparkling.com
 tx-exhibition.com
 txbyod.com
 txidc.wang
+txlivecdn.com
 txtyxg.com
 txyscdn.com
 txyscdn.net
@@ -194,8 +198,51 @@ yufuid.com.cn
 yufuid.net
 yunjitele.com
 
-regexp:.+\.dnse[0-5]\.(cn|com)$
-regexp:.+\.tdnsv([1-9]|1[0-5])\.(com|net)$
+# regexp:.+\.dnse[0-5]\.(cn|com)$
+dnse0.cn
+dnse1.cn
+dnse2.cn
+dnse3.cn
+dnse4.cn
+dnse5.cn
+dnse0.com
+dnse1.com
+dnse2.com
+dnse3.com
+dnse4.com
+dnse5.com
+
+# regexp:.+\.tdnsv([1-9]|1[0-5])\.(com|net)$
+tdnsv1.com
+tdnsv2.com
+tdnsv3.com
+tdnsv4.com
+tdnsv5.com
+tdnsv6.com
+tdnsv7.com
+tdnsv8.com
+tdnsv9.com
+tdnsv10.com
+tdnsv11.com
+tdnsv12.com
+tdnsv13.com
+tdnsv14.com
+tdnsv15.com
+tdnsv1.net
+tdnsv2.net
+tdnsv3.net
+tdnsv4.net
+tdnsv5.net
+tdnsv6.net
+tdnsv7.net
+tdnsv8.net
+tdnsv9.net
+tdnsv10.net
+tdnsv11.net
+tdnsv12.net
+tdnsv13.net
+tdnsv14.net
+tdnsv15.net
 
 # myqcloud inside mainland China
 regexp:\.(.+-)?ap-beijing(-.+)?\.myqcloud\.com$             #北京
@@ -231,19 +278,70 @@ regexp:\.(.+-)?ap-chongqing(-.+)?\.tencentcos\.(cn|com(\.cn)?)$ #重庆
 regexp:\.(.+-)?ap-shenzhen(-.+)?\.tencentcos\.(cn|com(\.cn)?)$  #深圳
 
 # tencentcos outside mainland China
-regexp:.+\.ap-hongkong\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #中国香港
-regexp:.+\.ap-singapore\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #新加坡
-regexp:.+\.ap-mumbai\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #孟买
-regexp:.+\.ap-jakarta\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #雅加达
-regexp:.+\.ap-seoul\.tencentcos\.(cn|com(\.cn)?)$ @!cn          #首尔
-regexp:.+\.ap-bangkok\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #曼谷
-regexp:.+\.ap-tokyo\.tencentcos\.(cn|com(\.cn)?)$ @!cn          #东京
-regexp:.+\.na-siliconvalley\.tencentcos\.(cn|com(\.cn)?)$ @!cn  #硅谷（美西）
-regexp:.+\.na-ashburn\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #弗吉尼亚（美东）
-regexp:.+\.na-toronto\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #多伦多
-regexp:.+\.sa-saopaulo\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #圣保罗
-regexp:.+\.eu-frankfurt\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #法兰克福
-regexp:.+\.eu-moscow\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #莫斯科
+# regexp:.+\.ap-hongkong\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #中国香港
+ap-hongkong.tencentcos.cn @!cn
+ap-hongkong.tencentcos.com @!cn
+ap-hongkong.tencentcos.com.cn @!cn
+
+# regexp:.+\.ap-singapore\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #新加坡
+ap-singapore.tencentcos.cn @!cn
+ap-singapore.tencentcos.com @!cn
+ap-singapore.tencentcos.com.cn @!cn
+
+# regexp:.+\.ap-mumbai\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #孟买
+ap-mumbai.tencentcos.cn @!cn
+ap-mumbai.tencentcos.com @!cn
+ap-mumbai.tencentcos.com.cn @!cn
+
+# regexp:.+\.ap-jakarta\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #雅加达
+ap-jakarta.tencentcos.cn @!cn
+ap-jakarta.tencentcos.com @!cn
+ap-jakarta.tencentcos.com.cn @!cn
+
+# regexp:.+\.ap-seoul\.tencentcos\.(cn|com(\.cn)?)$ @!cn          #首尔
+ap-seoul.tencentcos.cn @!cn
+ap-seoul.tencentcos.com @!cn
+ap-seoul.tencentcos.com.cn @!cn
+
+# regexp:.+\.ap-bangkok\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #曼谷
+ap-bangkok.tencentcos.cn @!cn
+ap-bangkok.tencentcos.com @!cn
+ap-bangkok.tencentcos.com.cn @!cn
+
+# regexp:.+\.ap-tokyo\.tencentcos\.(cn|com(\.cn)?)$ @!cn          #东京
+ap-tokyo.tencentcos.cn @!cn
+ap-tokyo.tencentcos.com @!cn
+ap-tokyo.tencentcos.com.cn @!cn
+
+# regexp:.+\.na-siliconvalley\.tencentcos\.(cn|com(\.cn)?)$ @!cn  #硅谷（美西）
+na-siliconvalley.tencentcos.cn @!cn
+na-siliconvalley.tencentcos.com @!cn
+na-siliconvalley.tencentcos.com.cn @!cn
+
+# regexp:.+\.na-ashburn\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #弗吉尼亚（美东）
+na-ashburn.tencentcos.cn @!cn
+na-ashburn.tencentcos.com @!cn
+na-ashburn.tencentcos.com.cn @!cn
+
+# regexp:.+\.na-toronto\.tencentcos\.(cn|com(\.cn)?)$ @!cn        #多伦多
+na-toronto.tencentcos.cn @!cn
+na-toronto.tencentcos.com @!cn
+na-toronto.tencentcos.com.cn @!cn
+
+# regexp:.+\.sa-saopaulo\.tencentcos\.(cn|com(\.cn)?)$ @!cn       #圣保罗
+sa-saopaulo.tencentcos.cn @!cn
+sa-saopaulo.tencentcos.com @!cn
+sa-saopaulo.tencentcos.com.cn @!cn
+
+# regexp:.+\.eu-frankfurt\.tencentcos\.(cn|com(\.cn)?)$ @!cn      #法兰克福
+eu-frankfurt.tencentcos.cn @!cn
+eu-frankfurt.tencentcos.com @!cn
+eu-frankfurt.tencentcos.com.cn @!cn
+
+# regexp:.+\.eu-moscow\.tencentcos\.(cn|com(\.cn)?)$ @!cn         #莫斯科
+eu-moscow.tencentcos.cn @!cn
+eu-moscow.tencentcos.com @!cn
+eu-moscow.tencentcos.com.cn @!cn
 
 # Formerly COS Download Domain
 costj.myqcloud.com                  #北京一区（华北）

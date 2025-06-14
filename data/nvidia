@@ -60,3 +60,6 @@ tegrazone.jp
 tegrazone.kr
 
 full:nvidia.tt.omtrdc.net
+
+# NVIDIA 文件下载服务器中国镜像
+full:cn.download.nvidia.com @cn

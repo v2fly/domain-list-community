@@ -17,6 +17,9 @@ local
 # https://tools.ietf.org/html/rfc8375
 home.arpa
 
+# https://www.icann.org/en/public-comment/proceeding/proposed-top-level-domain-string-for-private-use-24-01-2024
+internal
+
 # References: https://www.iana.org/assignments/locally-served-dns-zones/locally-served-dns-zones.xhtml
 # https://www.rfc-editor.org/rfc/rfc6303.html
 0.in-addr.arpa
@@ -122,18 +125,9 @@ d.f.ip6.arpa
 # Dotless domains
 regexp:^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$
 
-# ArchLinux
-ping.archlinux.org
-
 # Aruba router
 full:instant.arubanetworks.com
 full:setmeup.arubanetworks.com
-
-# Apple
-captive.apple.com
-
-# Android
-connectivitycheck.gstatic.com
 
 # ASUS router
 # Reference: https://www.asus.com/support/FAQ/1005263/
@@ -141,27 +135,9 @@ full:asusrouter.com
 full:router.asus.com
 full:www.asusrouter.com
 
-# Cloudflare
-cp.cloudflare.com
-
-# Firefox
-detectportal.firefox.com
-
 # H3C
 # https://wwwsg.h3c.com/cn/d_202007/1316557_30005_0.htm#_Toc46214911
 full:oasisauth.h3c.com
-
-# KDE
-networkcheck.kde.org
-
-# MIUI
-full:connect.rom.miui.com
-
-# Mozilla Location Service
-location.services.mozilla.com
-
-# Mozilla Push Service
-push.services.mozilla.com
 
 # Netgear router
 # Reference: https://kb.netgear.com/27199/I-can-t-access-my-router-what-do-I-do
@@ -195,10 +171,6 @@ tendawifi.com
 # Reference: https://resource.tp-link.com.cn/m/productClass/product_document?id=1655112502304621
 tplinkwifi.net
 full:tplogin.cn
-
-# Windows
-msftconnecttest.com
-msftncsi.com
 
 # Xiaomi router
 # Reference: https://www1.miwifi.com/miwifi_faq.html

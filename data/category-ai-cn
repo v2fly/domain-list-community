@@ -1,0 +1,57 @@
+# DeepSeek
+include:deepseek
+
+# RWKV
+rwkv.cn
+rwkv.com
+
+# 通义千问
+tongyi.aliyun.com
+qianwen.aliyun.com
+qwen.ai
+qwenlm.ai
+tongyi.com
+
+# 文心一言
+yiyan.baidu.com
+
+# 天工AI
+tiangong.cn
+
+# 豆包
+doubao.com
+marscode.cn
+
+# 智谱清言
+bigmodel.cn
+chatglm.cn
+zhipuai.cn
+
+# 月之暗面
+moonshot.cn
+
+# 讯飞星火
+xinghuo.xfyun.cn
+
+# MiniMax
+hailuoai.com
+minimaxi.com
+xingyeai.com
+
+# 腾讯混元
+hunyuan.tencent.com
+
+# 百川智能
+baichuan-ai.com
+
+botvip.cn
+liblib.art
+
+# 夸克 CueMe
+cueme.cn
+full:cueme-api.quark.cn
+
+# 360 纳米AI搜索
+n.cn
+namiso.com
+full:ai.zhaomi.cn

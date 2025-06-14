@@ -21,6 +21,7 @@ include:fontawesome
 include:gemfury
 include:gitbook
 include:github
+include:github1s
 include:gitlab
 include:golang
 include:hashicorp
@@ -37,7 +38,6 @@ include:microsoft-dev
 include:mongodb
 include:nginx
 include:nixos
-include:openai
 include:openwrt
 include:osdn
 include:perl
@@ -61,7 +61,6 @@ include:topcoder
 include:unity
 include:v8
 include:vim
-include:xda
 
 adventofcode.com
 alpinelinux.org
@@ -80,6 +79,7 @@ clojure.org
 cnpmjs.org
 cygwin.com
 cython.org
+deno.com
 deno.land
 dev.to
 elixir-lang.org
@@ -154,6 +154,3 @@ x.org
 xposed.info
 yarnpkg.com
 zsh.org
-
-# Hugging Face official website.
-huggingface.co

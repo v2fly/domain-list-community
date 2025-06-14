@@ -40,6 +40,7 @@ include:ookla-speedtest-ads
 include:openx-ads
 include:pocoiq-ads
 include:pubmatic-ads
+include:qihoo360-ads
 include:segment-ads
 include:sensorsdata-ads
 include:sina-ads
@@ -91,7 +92,6 @@ img-bss.csdn.net
 imglnkc.com
 imglnkd.com
 innovid.com
-ja2.gamersky.com
 jads.co
 jl3.yjaxa.top
 juicyads.com
@@ -112,6 +112,9 @@ wwads.cn
 # 36Kr
 adx.36kr.com
 
+# 12306
+ad.12306.cn
+
 # AdHub
 hubcloud.com.cn
 
@@ -123,7 +126,17 @@ click.ali213.net
 pbmp.ali213.net
 
 # Caixin
-regexp:^pinggai\d\.caixin\.com$
+# regexp:^pinggai\d\.caixin\.com$
+full:pinggai0.caixin.com
+full:pinggai1.caixin.com
+full:pinggai2.caixin.com
+full:pinggai3.caixin.com
+full:pinggai4.caixin.com
+full:pinggai5.caixin.com
+full:pinggai6.caixin.com
+full:pinggai7.caixin.com
+full:pinggai8.caixin.com
+full:pinggai9.caixin.com
 
 # Chinaso
 adq.chinaso.com
@@ -145,6 +158,19 @@ das-rpt-log.ucloud.cn
 telecome.cn
 unioncom.cc
 
+# 亿帆广告
+yfanads.cn
+yfanads.com
+
 # 数字联盟(device ad id)
 shuzilm.cn
 
+# 中国广告协会CAID
+china-caa.org
+cnaa123.com
+chinaciaf.org
+iabchina.cn
+
+# 卓信id
+zxid-api.mobileservice.cn
+zxid-m.mobileservice.cn
