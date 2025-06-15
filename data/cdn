@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-02T14:01:25.724Z
-# Size: 3598
+# Last Updated: 2025-06-14T11:45:51.495Z
+# Size: 3616
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -108,7 +108,6 @@ dweb.link
 yps.link
 w3s.link
 full:wl-apps.yourwebsite.life
-vplay.life
 nest.land
 deno.land
 full:image.theblockbeats.info
@@ -133,6 +132,7 @@ ipfs.drink.cafe
 full:assets.toot.cafe
 full:avatars.micro.blog
 full:cdn.micro.blog
+full:i.111666.best
 full:i.loli.best
 full:image.nmb.best
 porn5.asia
@@ -178,6 +178,7 @@ full:wimg.rule34.xxx
 full:api.allorigins.win
 imglink.win
 full:www.10086.win
+full:cdn.violet.vin
 full:assets.orz.uno
 full:media.orz.uno
 filecunhua.top
@@ -185,7 +186,6 @@ full:static-cdn.bytegiftia.top
 alphafish.top
 mobilius.top
 apperoni.top
-timg135.top
 pichost.top
 gitcdn.top
 balley.top
@@ -423,6 +423,7 @@ nelreports.net
 full:cdn.macstories.net
 live-video.net
 hs-scripts.net
+gtranslate.net
 faceit-cdn.net
 full:hub-assets.displaycal.net
 full:images-ext-2.discordapp.net
@@ -591,6 +592,8 @@ full:components.trynow.net
 sftcdn.net
 rspcdn.net
 poecdn.net
+full:maptile.osmand.net
+full:data.osmand.net
 full:attachments.office.net
 nel.measure.office.net
 full:support.content.office.net
@@ -1565,6 +1568,7 @@ proxy2.startpage.com
 proxy1.startpage.com
 proxy.startpage.com
 full:content-prod-live.cert.starbucks.com
+full:rs-cdn.splashtop.com
 full:static.spankbang.com
 full:lecontent.sololearn.com
 full:assets.sololearn.com
@@ -1592,6 +1596,7 @@ siteintercept.qualtrics.com
 full:jfe-cdn.qualtrics.com
 full:js.qualified.com
 full:vpncdn.protonweb.com
+full:content.powerapps.com
 full:cdnstatic.porno-cum.com
 full:static.polldaddy.com
 full:assets.polarbyte.com
@@ -1676,6 +1681,7 @@ full:assetscdn-wchat.eu.freshchat.com
 framercdn.com
 forbesimg.com
 full:cdn.fontshare.com
+full:api.fontshare.com
 fncstatic.com
 fiverrcdn.com
 full:static.filehorse.com
@@ -1836,6 +1842,7 @@ full:thumbs.onlyfans.com
 full:static.onlyfans.com
 full:cdn3.onlyfans.com
 full:cdn2.onlyfans.com
+full:edge.nodeseek.com
 nitrocdn.com
 full:cdn.accounts.nintendo.com
 full:assets.nintendo.com
@@ -1916,6 +1923,7 @@ scripts.gatorapi.com
 gammacdn.com
 full:media.gamestop.com
 full:assets.frontegg.com
+frontapp.com
 full:badges.frapsoft.com
 full:filestore.fortinet.com
 full:resizing.flixster.com
@@ -2010,6 +2018,9 @@ full:img-2-cdn.airdroid.com
 full:img-1-cdn.airdroid.com
 full:css-1-cdn.airdroid.com
 full:js-1-cdn.airdroid.com
+full:cdn-seo.airdroid.com
+full:seo-wp.airdroid.com
+full:images.airdroid.com
 full:img6.airdroid.com
 full:img4.airdroid.com
 full:img3.airdroid.com
@@ -2300,6 +2311,7 @@ blobcdn.com
 full:organizer.bizzabo.com
 full:static.news.bitcoin.com
 full:api.bintray.com
+full:affportal.bhphoto.com
 bfzypic.com
 bftuvip.com
 full:promotions.betfair.com
@@ -2437,6 +2449,7 @@ pxgcdn.com
 full:js.pusher.com
 cdn.pubnub.com
 full:static.probit.com
+prhcdn.com
 full:assets.pixlee.com
 pinimg.com
 phncdn.com
@@ -2635,6 +2648,7 @@ unpkg.com
 twimg.com
 full:media1.tenor.com
 full:media.tenor.com
+full:c.tadst.com
 full:assets.stash.com
 full:cdn.stash.com
 srcdn.com
@@ -2824,6 +2838,7 @@ full:cdn.sedo.com
 www.s81c.com
 full:pictures-cdn.porn.com
 full:assets-cdn.porn.com
+full:static.nyse.com
 nv7s.com
 full:sdata.ndtv.com
 full:edata.ndtv.com
@@ -2929,6 +2944,7 @@ full:static.ui.com
 full:assets.ecomm.ui.com
 full:cdn.ecomm.ui.com
 full:net-fe-static-assets.network-controller.svc.ui.com
+full:uos-support-files.svc.ui.com
 full:account-cdn.svc.ui.com
 full:images.svc.ui.com
 full:fonts.svc.ui.com
@@ -2977,6 +2993,7 @@ full:public.linear.app
 full:e.linear.app
 giscus.app
 udify.app
+tauri.app
 xlog.app
 full:cdn.rive.app
 full:video.bsky.app
@@ -3160,6 +3177,7 @@ full:emoji-css.afeld.me
 full:pic.7mmtv.me
 full:cdn.123av.me
 full:rsms.me
+full:img.jjbb.me
 full:s4.itho.me
 full:static.fbot.me
 full:media.e4le.me
