@@ -1,18 +1,23 @@
 # Russian websites
 
 # Russian TLDs
+moscow
 ru
 su
-xn--80adxhks
-xn--80asehdb
-xn--80aswg
-xn--c1avg
-xn--d1acj3b
-xn--p1acf
-xn--p1ai
+tatar
+xn--80adxhks # .москва
+xn--80aqecdr1a # .католик
+xn--80asehdb # .онлайн
+xn--80aswg # .сайт
+xn--c1avg # .орг
+xn--d1acj3b # .дети
+xn--j1aef # .ком
+xn--p1acf # .рус
+xn--p1ai # .рф
 
 include:category-gov-ru
 
+include:livejournal
 include:mailru
 include:ok
 include:ozon
