@@ -9,7 +9,6 @@ miui.com
 miwifi.com
 xiaomi.cn
 xiaomi.com
-xiaomi.eu
 xiaomi.net
 xiaomicp.com
 xiaomidns.cn
@@ -53,3 +52,4 @@ saxyit.com
 # Overseas only
 c.mi.com @!cn
 global.market.xiaomi.com @!cn
+xiaomi.eu @!cn
