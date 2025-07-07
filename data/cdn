@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-30T15:59:41.934Z
-# Size: 3679
+# Last Updated: 2025-07-07T09:20:39.632Z
+# Size: 3686
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -140,6 +140,7 @@ full:image.nmb.best
 porn5.asia
 full:phishing.army
 full:cdn.joincommunity.xyz
+full:domain.expiring-soon.xyz
 mirror-media.xyz
 packd.liuxingbaoyu.xyz
 full:eslint-react.xyz
@@ -180,6 +181,7 @@ full:wimg.rule34.xxx
 full:api.allorigins.win
 imglink.win
 full:www.10086.win
+javcdn.vip
 full:cdn.violet.vin
 full:assets.orz.uno
 full:media.orz.uno
@@ -967,7 +969,6 @@ full:assets.nationbuilder.com
 full:3dna.nationbuilder.com
 mcusercontent.com
 full:asset.mansionglobal.com
-mangguo-youku.com
 livemediahost.com
 full:pbs-prod.linustechtips.com
 highwinds-cdn.com
@@ -1895,6 +1896,9 @@ full:js.navattic.com
 full:c.navattic.com
 full:static.narrativ.com
 full:static.namebeta.com
+full:sg-thumbnail-drive.mypikpak.com
+full:res-etl-ssl.mypikpak.com
+full:static.mypikpak.com
 myavlive.com
 muscache.com
 msftncsi.com
@@ -2464,6 +2468,7 @@ full:js.stripe.com
 full:heatmap-external-a.strava.com
 full:web-assets.strava.com
 full:content-a.strava.com
+full:cdn-1.strava.com
 ss-cdn.com
 sndimg.com
 sndcdn.com
@@ -3256,6 +3261,7 @@ full:static.salidzini.lv
 full:i.mt.lv
 full:media.webtoo.ls
 xascdn.li
+javcdn.li
 full:pomf2.lain.la
 ipfs.lain.la
 full:static.pfrt.yna.co.kr
@@ -3520,6 +3526,7 @@ full:registry.api.cnn.io
 full:static.snaptube.in
 cdn.imgeng.in
 full:object.innei.in
+cloudfront.net.in
 full:assets.monica.im
 full:img.majors.im
 full:badges.gitter.im
