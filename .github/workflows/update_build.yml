@@ -38,7 +38,7 @@ jobs:
           sed -i 's/\+\.//g' cdn
           # sed -i '/^[+.#]/!{/^$/! s/^/full:/}; s/\+\.//g' cdn
           sed -i 's/+\.//g' gfw
-          sed -i '/^[+.#]/! s/^/full:/; s/\+\.//g' skk-reject
+          sed -i 's/\+\.//g' skk-reject
           # sed -i '/^[+.#]/!{/^$/! s/^/full:/}; s/\+\.//g' skk-reject
 
       - name: Media area from 1-stream
