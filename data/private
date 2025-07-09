@@ -22,7 +22,6 @@ internal
 
 # References: https://www.iana.org/assignments/locally-served-dns-zones/locally-served-dns-zones.xhtml
 # https://www.rfc-editor.org/rfc/rfc6303.html
-0.in-addr.arpa
 2.0.192.in-addr.arpa
 10.in-addr.arpa
 16.172.in-addr.arpa
@@ -47,7 +46,6 @@ internal
 168.192.in-addr.arpa
 254.169.in-addr.arpa
 255.255.255.255.in-addr.arpa
-0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 8.b.d.0.1.0.0.2.ip6.arpa
 8.e.f.ip6.arpa
