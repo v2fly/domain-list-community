@@ -159,6 +159,9 @@ include:category-mobile-repair
 include:category-ntp
 include:decryptipastore # iOS
 
+include:rsshub
+include:rsshub-3rd
+
 include:accuweather
 include:adblock
 include:adblockplus
@@ -224,7 +227,6 @@ include:quip
 include:reabble
 include:rebrandly
 include:reurl
-include:rsshub
 include:sb
 include:setapp
 include:sharethis
@@ -297,10 +299,6 @@ include:wikimedia
 
 atwiki.jp
 touhouwiki.net
-
-# Nebula Emby
-api.nebula-emby.com
-web.nebula-emby.com
 
 # Others
 include:avaxhome

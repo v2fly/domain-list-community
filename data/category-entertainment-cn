@@ -1,13 +1,15 @@
 # Entertainment & Videos & Games & Music & Podcasts
+
+include:category-games-cn
+
 include:3dm
-include:4399
 include:acfun
 include:acplay
 include:ali213
 include:bestv
 include:bilibili
 include:ciweimao
-include:cowlevel
+include:copymanga
 include:dedao
 include:dmzj
 include:douyu
@@ -29,34 +31,24 @@ include:le
 include:lizhi
 include:mfuns
 include:miaopai
-include:mihoyo-cn
 include:muwai
 include:pptv
 include:qimao
 include:qingtingfm
+include:sakurafrp
 include:sfacg
 include:taomee
-include:tgbus
-include:tiancity
 include:u17
-include:vgtime
 include:wasu
-include:xd
 include:ximalaya
 include:youku
 include:zhanqi
-
-# Enhance Gaming
-heavenlywind.cc
-steampp.net
 
 # Android Emulator
 lsplayer.com
 yeshen.com
 
-# 九九互动 粤ICP备19068416号
-forevernine.com
+# B站空降助手 鲁ICP备2024098956号-1
+bsbsb.top
 
-ledu.com
 pearvideo.com
-wo1wan.com
