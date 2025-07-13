@@ -102,6 +102,8 @@ full:www.google.com
 * Full domain begins with `full:`, followed by a complete and valid domain name.
 * Domains (including `domain`, `keyword`, `regexp` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
 
+> **Note:** Adding new `regexp` and `keyword` rules is discouraged because it is easy to use them incorrectly, and proxy software cannot efficiently match these types of rules.
+
 ## How it works
 
 The entire `data` directory will be built into an external `geosite` file for Project V. Each file in the directory represents a section in the generated file.

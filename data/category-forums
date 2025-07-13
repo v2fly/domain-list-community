@@ -7,14 +7,21 @@ include:dcard
 include:dslreports
 include:hkgolden
 include:lihkg
+include:linuxdo
 include:mobile01
 include:pixnet
 include:ptt
 include:quora
 include:reddit
+include:rutracker
+include:soyjakparty
+include:xda
 include:yamibo
 
+full:bbs.boingboing.net
+
 18p2p.com
+8chan.moe
 avsforum.com
 disp.cc
 doom9.org

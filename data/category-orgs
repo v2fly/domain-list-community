@@ -6,6 +6,7 @@ include:csis
 include:emojipedia
 include:f-droid
 include:ieee
+include:metabrainz
 include:nist
 include:openstreetmap
 include:paskoocheh
@@ -24,4 +25,5 @@ smpte.org
 un.org
 w3.org
 who.int
+wi-fi.org
 wto.org

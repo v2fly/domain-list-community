@@ -1,7 +1,7 @@
 # This list contains domains that don't have access point in China mainland. This is opposite to geolocation-cn.
 
 # AI Chat
-include:category-ai-chat-!cn
+include:category-ai-!cn
 
 # Anime, Comics & Games
 include:category-acg
@@ -159,6 +159,9 @@ include:category-mobile-repair
 include:category-ntp
 include:decryptipastore # iOS
 
+include:rsshub
+include:rsshub-3rd
+
 include:accuweather
 include:adblock
 include:adblockplus
@@ -224,7 +227,6 @@ include:quip
 include:reabble
 include:rebrandly
 include:reurl
-include:rsshub
 include:sb
 include:setapp
 include:sharethis
@@ -280,6 +282,9 @@ include:nyaa
 include:piratebay
 include:rarbg
 
+# User scripts
+greasyfork.org
+
 # VPN services
 include:category-vpnservices
 
@@ -294,10 +299,6 @@ include:wikimedia
 
 atwiki.jp
 touhouwiki.net
-
-# Nebula Emby
-api.nebula-emby.com
-web.nebula-emby.com
 
 # Others
 include:avaxhome

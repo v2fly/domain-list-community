@@ -10,13 +10,17 @@ include:deribit
 include:ethereum
 include:gateio
 include:huobi
+include:kraken
+include:kucoin
 include:localbitcoins
+include:nexo
 include:okx
 include:onekey
+include:redotpay
+include:trustwallet
 include:wisekey
 include:wynd
 include:zb
-include:kucoin
 
 1inch.io
 aave.com
@@ -41,6 +45,7 @@ coinmap.org
 coinmarketcap.com
 crypto.com
 cryptocompare.com
+cryptomus.com
 curve.fi
 cyberx.com
 debank.com
@@ -56,10 +61,10 @@ metalpha.finance
 mexc.com
 mexcsensors.com
 mytokenapi.com
-kraken.com
 opensea.io
 osl.com
 paxful.com
+polymarket.com
 ripple.com
 satoshilabs.com
 theblock.co

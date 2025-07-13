@@ -20,6 +20,7 @@ amazonworkdocs.com
 amplifyapp.com
 amplifyframework.com
 aws-iot-hackathon.com
+aws.com
 awsautopilot.com
 awsautoscaling.com
 awsbraket.com
@@ -43,5 +44,10 @@ elasticbeanstalk.com
 thinkboxsoftware.com
 
 # AWS DNS
-regexp:.+\.amzndns\.(co\.uk|com|net|org)$
+# regexp:.+\.amzndns\.(co\.uk|com|net|org)$
+amzndns.co.uk
+amzndns.com
+amzndns.net
+amzndns.org
+
 regexp:.+\.awsdns-[0-9][0-9]\.(co\.uk|com|net|org)$
