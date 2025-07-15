@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-07-07T09:20:39.632Z
-# Size: 3686
+# Last Updated: 2025-07-11T11:31:43.584Z
+# Size: 3695
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -212,9 +212,11 @@ full:static.freedownloadmanager.org
 full:rawmarkdown.cloudflareaccess.org
 someonewhocares.org
 full:i.creativecommons.org
+wmfusercontent.org
 full:playgroundcdn.typescriptlang.org
 full:www.typescriptlang.org
 full:assets.squarewebsites.org
+full:sdk.privacy-center.org
 rescript-lang.org
 tile.openstreetmap.org
 full:assets.geeksforgeeks.org
@@ -240,9 +242,11 @@ schemastore.org
 qbittorrent.org
 stream.publicradio.org
 full:play.publicradio.org
+full:tiles.openfreemap.org
 ipfs.genenetwork.org
 full:app.backinstock.org
 full:easylist-downloads.adblockplus.org
+full:tiles.versatiles.org
 torproject.org
 full:media.themoviedb.org
 full:design.mayoclinic.org
@@ -467,6 +471,8 @@ futurecdn.net
 flagpedia.net
 full:cache-05.filehippo.net
 full:static.eroterest.net
+full:cdnmedia.ero-video.net
+full:jnmedia.ero-video.net
 doppiocdn.net
 ctfassets.net
 full:searchg2-assets.crownpeak.net
@@ -525,6 +531,7 @@ full:connect.facebook.net
 full:static.esimplus.net
 full:pub.creaders.net
 full:assets.bitstamp.net
+full:cdn.beacondb.net
 full:damassets.autodesk.net
 full:jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
 prod.public.atl-paas.net
@@ -3650,6 +3657,8 @@ full:s.gishan.cc
 bigcdn.cc
 full:pics.vpdmm.cc
 full:resize-image.vocus.cc
+full:ti2.knews.cc
+full:ti1.knews.cc
 ungh.cc
 full:t4.picb.cc
 full:t3.picb.cc
