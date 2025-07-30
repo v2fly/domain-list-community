@@ -134,6 +134,9 @@ include:nga
 include:stage1st
 
 52pojie.cn # 吾爱破解
+acwifi.net # 路由器技术分享
+chongbuluo.com # 虫部落
+chongdiantou.com # 充电头网
 itsk.com # IT天空论坛
 kafan.cn # 卡饭论坛
 kanxue.com # 看雪
@@ -341,6 +344,8 @@ inftab.com
 # 某柠檬导航（浏览器主页）
 moulem.com
 
+# 青柠起始页
+limestart.cn
 
 # 街机
 include:aamgame
@@ -544,6 +549,7 @@ aplaybox.com
 appchina.com
 appinn.com
 arpun.com
+asklib.com
 babytree.com
 babytreeimg.com
 baidufree.com
@@ -558,6 +564,7 @@ baoxianshichang.com
 bearychat.com
 beihaidc.com
 beijing-lipin.com
+bendibao.com
 bengbeng.com
 benmi.com
 berui.com
@@ -620,7 +627,6 @@ chinaunix.net
 chinaweiyu.com
 chinawutong.com
 chinazns.com
-chongdiantou.com # 粤ICP备15002070号-1
 chouti.com
 chuangxin.com
 chuansong.me
@@ -1124,6 +1130,7 @@ shijiexia.com
 shixiseng.com
 shmetro.com
 shoujihuifu.com
+shouqianba.com
 shouyoubus.com
 shssp.org # 沪ICP备16053588号
 shuidichou.com
@@ -1199,6 +1206,8 @@ tuniu.com
 tutuapp.com
 tuwan.com
 tuwanjun.com
+tvmao.com
+tvzhe.com
 txrjy.com # 沪ICP备12002292号
 u.tools
 ucbug.com
@@ -1517,3 +1526,6 @@ immersivetranslate.com
 
 # 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
+
+# 海南东勤网络科技有限公司 琼ICP备18003843号
+qunliao.info
