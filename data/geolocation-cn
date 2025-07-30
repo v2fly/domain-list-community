@@ -87,6 +87,7 @@ include:58tongcheng
 include:ctrip
 include:dangdang
 include:dewu
+include:dongjiao
 include:eleme
 include:jd
 include:lianjia
@@ -212,6 +213,7 @@ include:nowcoder
 include:polyv
 include:qweather
 include:renren
+include:suishouji
 include:tendcloud
 include:vaptcha
 include:weathercn
@@ -237,6 +239,8 @@ include:category-social-media-cn
 include:category-dev-cn
 
 # Tech companies & Orginations
+include:aisiku # 北京艾斯酷科技有限公司
+include:akiko # 秋子酱科技
 include:alibaba
 include:b3log
 include:baidu
@@ -244,25 +248,34 @@ include:beisen
 include:bluepoch
 include:bytedance
 include:didi
+include:dingdatech # 叮哒出行(杭州金通互联科技有限公司)
 include:dji
 include:honor
 include:huawei
+include:hupun # 杭州湖畔网络技术有限公司
 include:iflytek
+include:ishumei # 北京数美时代科技有限公司
 include:jushuitan
+include:jutongbao # 北京聚通宝科技有限公司
 include:kingsoft
 include:lenovo
 include:meizu
+include:narwal # 云鲸科技
 include:netease
 include:oppo
 include:qihoo360
+include:roborock # 石头科技
 include:sina
 include:sogou
+include:sumkoo #北京尚古创新科技有限公司
 include:tencent
 include:tongfang
 include:vivo
 include:xiaomi
 include:xunlei
 include:ymtc
+include:youquan # 祐全科技
+include:yuanbei # 上海圆贝信息科技有限公司
 include:zte
 
 huorong.cn # 火绒
@@ -371,27 +384,8 @@ webterren.com
 # 青春北京
 ## 共青团北京市委员会信息中心 (京ICP备14030447号-3)
 include:bjyouth
-## 北京尚古创新科技有限公司 (京ICP备14013186号)
-include:sumkoo
 ## 知藏（北京）数据技术有限公司 (京ICP备19038827号)
 zzdtec.com
-
-# 祐全科技
-include:youquan
-# 叮哒出行(杭州金通互联科技有限公司)
-include:dingdatech
-# 北京聚通宝科技有限公司
-include:jutongbao
-# 杭州湖畔网络技术有限公司
-include:hupun
-# 北京艾斯酷科技有限公司
-include:aisiku
-# 上海圆贝信息科技有限公司
-include:yuanbei
-# 秋子酱科技
-include:akiko
-# 北京数美时代科技有限公司
-include:ishumei
 
 
 # The following domains are carried over from geosite:cn.
@@ -1418,18 +1412,6 @@ zoomyou.cn
 # 沪ICP备2021017807号-4
 ecombdapi.com
 
-# 北京风行在线技术有限公司 京ICP备10012819号
-include:fengxing
-
-# 随手记
-include:suishouji
-
-# 云鲸科技
-include:narwal
-
-# 石头科技
-include:roborock
-
 # 花瓣网 稿定（厦门）信息服务有限公司 闽ICP备2021013850号-2
 huaban.com
 dancf.com
@@ -1444,9 +1426,6 @@ wss.zone
 hisensehitachi.com
 # 铃木中国官网
 suzuki-china.com
-
-# 东郊到家
-include:dongjiao
 
 # 建始网 鄂ICP备05004864号-1
 jsw118.com
