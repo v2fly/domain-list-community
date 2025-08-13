@@ -14,6 +14,7 @@ include:att
 include:autodesk
 include:bandwagonhost
 include:blurams
+include:broadcom
 include:canon
 include:chegg
 include:cisco
@@ -51,6 +52,7 @@ include:microsoft
 include:mikrotik
 include:mindgeek
 include:mozilla
+include:msi
 include:musixmatch
 include:mxroute
 include:naver
