@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-14T16:05:39.366Z
-# Size: 3821
+# Last Updated: 2025-08-15T05:39:34.886Z
+# Size: 3825
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1071,6 +1071,7 @@ full:cdn3.unrealengine.com
 full:cdn2.unrealengine.com
 full:cdn1.unrealengine.com
 full:cdn.unrealengine.com
+full:twenty-icons.com
 trackerslist.com
 full:resource.tnlmediagene.com
 tiktokcdn-us.com
@@ -1677,6 +1678,8 @@ full:cdn-public.sociabble.com
 full:static.skyassets.com
 full:uploads.sitepoint.com
 full:s3.sitepoint.com
+full:icons.simplesvg.com
+full:api.simplesvg.com
 full:media.shopimind.com
 sfbassets.com
 sendspace.com
@@ -2529,6 +2532,7 @@ full:image.ship.vercel.com
 full:go.vercel.com
 full:img.utdstc.com
 devrum.uptime.com
+full:api.unisvg.com
 assets.ubuntu.com
 full:widgets.turnto.com
 cdn.turner.com
