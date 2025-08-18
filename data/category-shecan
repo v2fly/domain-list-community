@@ -1,0 +1,14 @@
+# List of services supported by shecan.ir
+## Test domains using their own tool on their page before modifying this list
+
+include:category-companies
+include:category-dev
+include:category-ecommerce
+include:category-games
+include:category-ir
+include:category-remote-control
+include:category-tech-media
+
+include:mastercard
+include:paypal
+include:visa
