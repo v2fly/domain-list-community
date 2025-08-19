@@ -1,6 +1,9 @@
 include:sogou
 include:sohu-ads
 
+# All .sohu domains
+sohu
+
 focus-img.cn
 focus.cn
 itc.cn
