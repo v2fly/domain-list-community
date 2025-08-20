@@ -6,12 +6,12 @@ baidu
 unicom
 sohu
 
-# Reference: https://icannwiki.org/.%E6%94%BF%E5%8A%A1
-xn--zfr164b # .政务
-
 # Reference: https://domain.miit.gov.cn
+# .香港 is ignored due to not in China mainland 
 xn--fiqs8s # .中国
 xn--fiqz9s # .中國
+xn--zfr164b # .政务
+xn--55qw42g # .公益
 xn--55qx5d # .公司
 xn--io0a7i # .网络
 xn--ses554g # .网址
