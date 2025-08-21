@@ -18,6 +18,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version-file: code/go.mod
+          cache-dependency-path: code/go.sum
 
       - name: Set variables
         run: |
