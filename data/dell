@@ -1,9 +1,7 @@
-include:vmware
-
 # All .dell domains
 dell
 
-# Dell Alienware
+# Alienware
 alienware.ae
 alienware.at
 alienware.be
@@ -41,10 +39,7 @@ alienware.ps
 alienware.ro
 alienware.se
 alienware.us
-dell-alw.com @cn
-shopalienware.com
 
-dataframeworks.com
 del.com
 del.com.br
 dell-brand.com @cn
@@ -186,6 +181,9 @@ dell.ug
 dell.uz
 dell.vg
 dell.vn
+
+dataframeworks.com
+dell-alw.com @cn
 dellcdn.com
 dellcommunity.com
 dellcomunidade.com
@@ -205,16 +203,17 @@ dellsupportcenter.com
 delltechcenter.com
 delltechnologies.com
 delltechnologies.com.cn @cn
-delltechnologiesworld.com
 delltechnologiescapital.com
+delltechnologiesworld.com
 earthdell.com
 emc.com
+platform.dell.com @cn
+shopalienware.com
 solutionstation.com
 studiodell.com
 vce.com
 
-# Match all FQDNs ending with .platform.dell.com.
-platform.dell.com @cn
+full:dell.my.site.com
 
 full:afcs.dell.com @cn
 full:clientperipherals.dell.com @cn
@@ -242,5 +241,3 @@ full:snpi.dell.com @cn
 full:supportassist.dell.com @cn
 full:www-csb.dell.com @cn
 full:www.dell.com @cn
-
-full:dell.my.site.com
