@@ -1,3 +1,5 @@
+include:category-tech-media
+
 include:6park
 include:9news
 include:afp
@@ -9,7 +11,6 @@ include:bbc
 include:bloomberg
 include:boxun
 include:c-span
-include:cabletv
 include:cbs
 include:cnbc
 include:cnbeta
@@ -28,6 +29,7 @@ include:guo
 include:hketgroup
 include:hkopentv
 include:huffpost
+include:icable
 include:infowars
 include:insider
 include:kyodonews
@@ -71,9 +73,6 @@ include:watchout
 include:yomiuri
 include:zaobao
 include:zee
-
-include:category-tech-media
-
 
 881903.com
 am730.com.hk
