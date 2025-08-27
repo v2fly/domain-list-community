@@ -4,6 +4,7 @@ include:category-ntp-jp
 # Apple
 # regexp:^time(.euro)?.apple.com$
 full:time.apple.com
+full:time.asia.apple.com
 full:time.euro.apple.com
 
 # AWS
