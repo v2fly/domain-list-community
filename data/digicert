@@ -2,7 +2,9 @@ dcocsp.cn @cn
 digicert-cn.com # Not in Chinese Mainland
 digicert-validation.com
 digicert.cn @cn
+digicert.co.jp
 digicert.com
+digicert.eu
 digitalcertvalidation.com
 freessl.com
 geotrust.com
@@ -11,8 +13,15 @@ thawte.com
 thawte.de
 thawte.fr
 
+include:cybertrust
+include:verisign-pki
+include:symantec-pki
+
 # Quovadis
 quovadisglobal.com
 
 # Public Trust
 public-trust.com
+
+# Verizon CA
+omniroot.com

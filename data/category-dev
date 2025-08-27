@@ -27,7 +27,6 @@ include:golang
 include:hashicorp
 include:haskell
 include:homebrew
-include:huggingface
 include:intel-dev
 include:java
 include:jetbrains
@@ -62,7 +61,6 @@ include:topcoder
 include:unity
 include:v8
 include:vim
-include:xda
 
 adventofcode.com
 alpinelinux.org

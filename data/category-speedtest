@@ -1,0 +1,36 @@
+include:ookla-speedtest
+include:openspeedtest
+
+cnspeedtest.cn @cn
+fast.com
+measurementlab.net
+nperf.com
+speed.cloudflare.com
+speed.dler.io
+speed.hinet.net
+speed.nccu.edu.tw
+speed.neu6.edu.cn @cn
+speed.nuaa.edu.cn @cn
+speed.qlu.edu.cn @cn
+speed.ujs.edu.cn @cn
+speed6.ujs.edu.cn @cn
+speed2.hinet.net
+speed5.ntu.edu.tw
+speedtest.cn @cn
+speedtest.im
+speedtest.mfcyun.com @cn
+speedtest.shu.edu.cn @cn
+speedtest6.shu.edu.cn @cn
+speedtest.xaut.edu.cn @cn
+speedtest.xfinity.com
+speedtestcustom.com
+test.ustc.edu.cn @cn
+test6.ustc.edu.cn @cn
+test.nju.edu.cn @cn
+test6.nju.edu.cn @cn
+speed.nju.edu.cn @cn
+testmy.net
+xnfz.seu.edu.cn @cn
+
+full:hk-global-bgp.hkg.speedtest.yecaoyun.com @!cn
+

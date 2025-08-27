@@ -2,6 +2,7 @@ include:cloudflare-cn
 include:cloudflare-ipfs
 
 argotunnel.com
+cfargotunnel.com
 cfl.re
 cloudflare-dns.com
 cloudflare-ech.com

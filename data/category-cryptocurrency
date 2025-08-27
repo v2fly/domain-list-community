@@ -11,15 +11,16 @@ include:ethereum
 include:gateio
 include:huobi
 include:kraken
+include:kucoin
 include:localbitcoins
 include:nexo
 include:okx
 include:onekey
+include:redotpay
+include:trustwallet
 include:wisekey
 include:wynd
 include:zb
-include:kucoin
-include:redotpay
 
 1inch.io
 aave.com
@@ -63,6 +64,7 @@ mytokenapi.com
 opensea.io
 osl.com
 paxful.com
+polymarket.com
 ripple.com
 satoshilabs.com
 theblock.co
