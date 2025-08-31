@@ -3,7 +3,6 @@ include:apifox
 include:apipost
 include:baltamatica
 include:cnblogs
-include:coding
 include:csdn
 include:deepin
 include:gitee
