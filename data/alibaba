@@ -13,6 +13,7 @@ tmall
 include:alibaba-ads
 include:alibabacloud
 include:aliyun
+include:aliyun-drive
 include:cainiao
 include:dingtalk
 include:eleme
@@ -129,12 +130,6 @@ alipay.hk @!cn
 
 # AlipayMO
 alipaymo.com @!cn
-
-# 阿里云盘
-alicloudccp.com
-alipan.com
-aliyundrive.com
-aliyundrive.net
 
 # 盒马
 freshhema.com

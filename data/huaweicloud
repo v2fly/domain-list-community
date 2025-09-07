@@ -3,6 +3,7 @@ aadcloud.com
 ami-alliance.org.cn
 b2bgo.com
 eduapaashwc.com
+functiongraph.run
 hc-cdn.cn
 hc-cdn.com
 hc-sre.com
@@ -82,6 +83,7 @@ myhuaweicloud-koodrive.com
 myhuaweicloud-obs.cn
 myhuaweicloud-obs.com
 myhuaweicloud.cn
+myhuaweicloud.com
 myhwcdn.cn
 myhwcdn.com
 myhwcloudlive.com
@@ -94,41 +96,48 @@ pagescube.com
 powerapp.io
 
 # Huaweicloud Endpoint, source: https://developer.huaweicloud.com/endpoint
-ae-ad-1.myhuaweicloud.com @!cn          #中东-阿布扎比-OP5
-af-north-1.myhuaweicloud.com @!cn       #非洲-开罗
-af-south-1.myhuaweicloud.com @!cn       #非洲-约翰内斯堡
-ap-southeast-1.myhuaweicloud.com @!cn   #中国-香港
-ap-southeast-2.myhuaweicloud.com @!cn   #亚太-曼谷
-ap-southeast-3.myhuaweicloud.com @!cn   #亚太-新加坡
-ap-southeast-4.myhuaweicloud.com @!cn   #亚太-雅加达
-cn-east-2.myhuaweicloud.com             #华东-上海二
-cn-east-3.myhuaweicloud.com             #华东-上海一
-cn-east-4.myhuaweicloud.com             #华东二
-cn-east-5.myhuaweicloud.com             #华东-青岛
-cn-north-1.myhuaweicloud.com            #华北-北京一
-cn-north-11.myhuaweicloud.com           #华北-乌兰察布-汽车一
-cn-north-2.myhuaweicloud.com            #华北-北京二
-cn-north-3.myhuaweicloud.com            #华北-北京三
-cn-north-4.myhuaweicloud.com            #华北-北京四
-cn-north-5.myhuaweicloud.com            #华北-乌兰察布二零一
-cn-north-6.myhuaweicloud.com            #华北-乌兰察布二零二
-cn-north-9.myhuaweicloud.com            #华北-乌兰察布一
-cn-northeast-1.myhuaweicloud.com        #东北-大连
-cn-south-1.myhuaweicloud.com            #华南-广州
-cn-south-2.myhuaweicloud.com            #华南-深圳
-cn-south-4.myhuaweicloud.com            #华南-广州-友好用户环境
-cn-southwest-2.myhuaweicloud.com        #西南-贵阳一
-eu-west-0.myhuaweicloud.com @!cn        #欧洲-巴黎
-eu-west-101.myhuaweicloud.com @!cn      #欧洲-都柏林
-la-north-2.myhuaweicloud.com @!cn       #拉美-墨西哥城二
-la-south-2.myhuaweicloud.com @!cn       #拉美-圣地亚哥
-me-east-1.myhuaweicloud.com @!cn        #中东-利雅得
-my-kualalumpur-1.myhuaweicloud.com @!cn #亚太-吉隆坡-OP6
-na-mexico-1.myhuaweicloud.com @!cn      #拉美-墨西哥城一
-ru-moscow-1.myhuaweicloud.com @!cn      #俄罗斯-莫斯科-OP4
-ru-northwest-2.myhuaweicloud.com @!cn   #俄罗斯-莫斯科二
-sa-brazil-1.myhuaweicloud.com @!cn      #拉美-圣保罗一
-tr-west-1.myhuaweicloud.com @!cn        #土耳其-伊斯坦布尔
+ae-ad-1.myhuaweicloud.com @!cn              #中东-阿布扎比-OP5
+af-east-201.myhuaweicloud.com @!cn          #非洲-内罗毕二零一
+af-north-1.myhuaweicloud.com @!cn           #非洲-开罗
+af-south-1.myhuaweicloud.com @!cn           #非洲-约翰内斯堡
+af-west-202.myhuaweicloud.com @!cn          #非洲-拉各斯二零一
+ap-northeast-201.myhuaweicloud.com @!cn     #亚太-东京二零一
+ap-southeast-1.myhuaweicloud.com @!cn       #中国-香港
+ap-southeast-2.myhuaweicloud.com @!cn       #亚太-曼谷
+ap-southeast-201.myhuaweicloud.com @!cn     #亚太-雅加达二零一
+ap-southeast-202.myhuaweicloud.com @!cn     #亚太-马尼拉二零一
+ap-southeast-203.myhuaweicloud.com @!cn     #亚太-吉隆坡二零一
+ap-southeast-3.myhuaweicloud.com @!cn       #亚太-新加坡
+ap-southeast-4.myhuaweicloud.com @!cn       #亚太-雅加达
+ap-southeast-5.myhuaweicloud.com @!cn       #亚太-马尼拉
+as-south-0.myhuaweicloud.com @!cn           #亚太-新加坡-OP1
+as-south-201.myhuaweicloud.com @!cn         #亚洲-班加罗尔二零一
+as-south-205.myhuaweicloud.com @!cn         #亚洲-伊斯兰堡二零一
+as-south-207.myhuaweicloud.com @!cn         #亚洲-德里二零一
+ca-east-201.myhuaweicloud.com @!cn          #加拿大-多伦多二零一
+eu-central-201.myhuaweicloud.com @!cn       #欧洲-法兰克福二零一
+eu-central-202.myhuaweicloud.com @!cn       #欧洲-华沙二零一
+eu-north-201.myhuaweicloud.com @!cn         #欧洲-斯德哥尔摩二零一
+eu-west-0.myhuaweicloud.com @!cn            #欧洲-巴黎
+eu-west-1.myhuaweicloud.com @!cn            #欧洲-阿姆斯特丹-OP1
+eu-west-101.myhuaweicloud.com @!cn          #欧洲-都柏林
+eu-west-201.myhuaweicloud.com @!cn          #欧洲-纽波特二零一
+la-north-2.myhuaweicloud.com @!cn           #拉美-墨西哥城二
+la-north-205.myhuaweicloud.com @!cn         #拉美-巴拿马城二零一
+la-south-2.myhuaweicloud.com @!cn           #拉美-圣地亚哥
+me-east-1.myhuaweicloud.com @!cn            #中东-利雅得
+me-east-205.myhuaweicloud.com @!cn          #中东-迪拜二零一
+me-east-208.myhuaweicloud.com @!cn          #中东-伊斯坦布尔二零一
+me-east-209.myhuaweicloud.com @!cn          #中东-利雅得二零一
+my-kualalumpur-1.myhuaweicloud.com @!cn     #亚太-吉隆坡-OP6
+na-east-0.myhuaweicloud.com @!cn            #北美-亚特兰大
+na-mexico-1.myhuaweicloud.com @!cn          #拉美-墨西哥城一
+ru-moscow-1.myhuaweicloud.com @!cn          #俄罗斯-莫斯科-OP4
+ru-northwest-2.myhuaweicloud.com @!cn       #俄罗斯-莫斯科二
+ru-northwest-201.myhuaweicloud.com @!cn     #俄罗斯-莫斯科二零一
+sa-brazil-1.myhuaweicloud.com @!cn          #拉美-圣保罗一
+tr-west-1.myhuaweicloud.com @!cn            #土耳其-伊斯坦布尔
+us-east-1.myhuaweicloud.com @!cn            #北美-亚特兰大-废弃
 
 # 华为云 CDN CNAME 域名，按 ICP 备案序号排列
 cdnhwchcg02.com
