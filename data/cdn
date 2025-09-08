@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-06T16:03:57.442Z
-# Size: 3841
+# Last Updated: 2025-09-07T17:11:49.556Z
+# Size: 3846
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -145,6 +145,7 @@ full:cdn.kinopio.club
 full:storage.crisp.chat
 full:image.crisp.chat
 full:assets.toot.cafe
+full:img.apk.cafe
 full:avatars.micro.blog
 full:cdn.micro.blog
 full:i.111666.best
@@ -580,6 +581,7 @@ full:eaassets-a.akamaihd.net
 full:spoprod-a.akamaihd.net
 full:lumiere-a.akamaihd.net
 full:img.adspower.net
+full:cdn.yamibuy.net
 full:cdn.writeas.net
 full:unlimited-cdn.waifu2x.net
 full:social-cdn.vivaldi.net
@@ -1094,6 +1096,7 @@ staticflickr.com
 full:cdn.staticdelivr.com
 ipfs.soul-network.com
 full:image.shutterstock.com
+full:sourcemap.webfe.shopeemobile.com
 full:static.serverhunter.com
 scribdassets.com
 full:ak.sail-horizon.com
@@ -2181,6 +2184,7 @@ full:web-assets.zendesk.com
 full:img.youtube.com
 full:cdne-pics.youjizz.com
 yelpcdn.com
+full:cdn.yamibuy.com
 xingcdn.com
 full:preview.xgroovy.com
 full:static.xgroovy.com
@@ -3578,6 +3582,7 @@ full:static.status.io
 full:image.status.io
 full:media.smooch.io
 full:cdn.smooch.io
+full:files.webfe.shopee.io
 full:wire.shodan.io
 ingest.sentry.io
 ingest.us.sentry.io
