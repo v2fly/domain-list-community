@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-07T17:11:49.556Z
-# Size: 3846
+# Last Updated: 2025-09-14T18:18:19.458Z
+# Size: 3897
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -56,6 +56,7 @@ full:cdn5.telegram.space
 full:cdn4.telegram.space
 full:cdn1.telegram.space
 pstorage.space
+tutu1.space
 full:cdn.hiive.space
 full:cdn.deta.space
 ipfs.kavin.rocks
@@ -78,6 +79,7 @@ full:cdn.bullwhip.cloud
 full:resources-live.sketch.cloud
 gateway.pinata.cloud
 full:patterns.hiive.cloud
+full:cdn.craft.cloud
 full:cdn.tiny.cloud
 full:fscdn.eppo.cloud
 full:cdn-static.paw.cloud
@@ -152,6 +154,8 @@ full:i.111666.best
 full:i.loli.best
 full:image.nmb.best
 porn5.asia
+full:bucket.noy.asia
+full:img.noy.asia
 full:phishing.army
 full:cdn.joincommunity.xyz
 full:domain.expiring-soon.xyz
@@ -536,6 +540,8 @@ full:viu-static.akamaized.net
 full:mycommerce.akamaized.net
 full:amp.akamaized.net
 full:mixin-images.zeromesh.net
+full:static.zerochan.net
+full:s1.zerochan.net
 yastatic.net
 full:cdn.wishpond.net
 widencdn.net
@@ -805,6 +811,7 @@ full:plugins.dprint.dev
 full:fonts.upset.dev
 react.dev
 pages.dev
+full:ah-cdn.merge.dev
 full:p.depot.dev
 full:media.daily.dev
 full:cdn.daily.dev
@@ -890,6 +897,7 @@ full:js.braintreegateway.com
 full:jslibs.blackmagicdesign.com
 full:images.blackmagicdesign.com
 full:css.blackmagicdesign.com
+full:js.assemblyexchange.com
 full:cdn.worldvectorlogo.com
 full:cms.worldpokerdeals.com
 full:analytics.welcomesoftware.com
@@ -910,6 +918,7 @@ full:openseauserdata.com
 full:gt1.onlyhentaistuff.com
 full:fs2.onlyhentaistuff.com
 full:cdn.onlyhentaistuff.com
+full:cdn.northropgrumman.com
 full:irp-cdn.multiscreensite.com
 msftconnecttest.com
 motherlessmedia.com
@@ -979,6 +988,8 @@ full:code.ionicframework.com
 full:icons.internetbrands.com
 intercomassets.com
 full:img.huffingtonpost.com
+full:images2.giant-bicycles.com
+full:static.giant-bicycles.com
 full:cdn.gethypervisual.com
 full:static-gcp.freepikcompany.com
 full:cdn-live.foreignaffairs.com
@@ -1017,6 +1028,7 @@ full:cdn.prowritingaid.com
 cdn.printfriendly.com
 pressidiumcdn.com
 full:media.pointandplace.com
+full:www.paypalobjects.com
 oreillystatic.com
 notion-static.com
 agechecker.northern-apps.com
@@ -1029,6 +1041,8 @@ full:asset.mansionglobal.com
 livemediahost.com
 full:pbs-prod.linustechtips.com
 full:cwsimages.ingramcontent.com
+full:media-central.indianexpress.com
+full:images.indianexpress.com
 highwinds-cdn.com
 full:cdn.heapanalytics.com
 full:sig.grumpybumpers.com
@@ -1078,6 +1092,9 @@ wikiplus-app.com
 full:typescript.visualstudio.com
 full:sts.online.visualstudio.com
 tunnels.api.visualstudio.com
+full:static-assets-prod.unrealengine.com
+full:components.unrealengine.com
+full:cms-assets.unrealengine.com
 full:cdn3.unrealengine.com
 full:cdn2.unrealengine.com
 full:cdn1.unrealengine.com
@@ -1096,7 +1113,6 @@ staticflickr.com
 full:cdn.staticdelivr.com
 ipfs.soul-network.com
 full:image.shutterstock.com
-full:sourcemap.webfe.shopeemobile.com
 full:static.serverhunter.com
 scribdassets.com
 full:ak.sail-horizon.com
@@ -1168,6 +1184,7 @@ full:assets.clickfunnels.com
 full:components.clever-cloud.com
 full:assets.clever-cloud.com
 full:cdn.clever-cloud.com
+full:static.chrome-stats.com
 cdninstagram.com
 full:cdnjs.buymeacoffee.com
 full:cdn.buymeacoffee.com
@@ -1416,6 +1433,7 @@ full:widget.trustpilot.com
 full:top1cdn.top1health.com
 teraboxcdn.com
 targetimg1.com
+striiiipst.com
 full:cdn.streamlabs.com
 full:sp.streamlabs.com
 full:ui-statics-cf.streamable.com
@@ -1693,6 +1711,7 @@ full:s3.sitepoint.com
 full:icons.simplesvg.com
 full:api.simplesvg.com
 full:media.shopimind.com
+cdn.shift8web.com
 sfbassets.com
 sendspace.com
 full:forest-mt-s3.seekrtech.com
@@ -1753,6 +1772,7 @@ full:uhf.microsoft.com
 full:csp.microsoft.com
 full:js.memberful.com
 full:static.mediafire.com
+full:images.mathworks.com
 full:form-assets.mailchimp.com
 full:cdn-images.mailchimp.com
 full:static.macupdate.com
@@ -1839,6 +1859,8 @@ full:static.coingecko.com
 full:assets.coingecko.com
 cnbetacdn.com
 full:resources.chessbase.com
+full:banners.chessbase.com
+full:share.chessbase.com
 full:webstatic.chargebee.com
 full:js1.chargebee.com
 full:js.chargebee.com
@@ -1867,7 +1889,12 @@ anyhentai.com
 full:s-cdn.anthropic.com
 full:a-cdn.anthropic.com
 ipfs.anonymize.com
+full:static.aninoapps.com
+full:wa1.aninoapps.com
+full:pm1.aninoapps.com
+full:pa1.aninoapps.com
 full:images.anandtech.com
+full:cm1.aminoapps.com
 full:ip-ranges.amazonaws.com
 assets.as2.amazonaws.com
 abcnewsfe.com
@@ -1923,6 +1950,7 @@ full:cdn4.sysgears.com
 full:cdn3.sysgears.com
 full:cdn2.sysgears.com
 full:cdn1.sysgears.com
+full:cdn.syftdata.com
 sway-cdn.com
 full:frontend-assets.supabase.com
 full:cdn.substack.com
@@ -1945,11 +1973,14 @@ full:public.saasexch.com
 rrcdnbf3.com
 full:apps-static.route4me.com
 roseimgs.com
+full:cdnassets.roboflow.com
+full:static.roboflow.com
 full:cdn.roboflow.com
 full:app.roboflow.com
 full:api.roboflow.com
 full:staticsource1.redotpay.com
 full:redircdn.com
+full:cacerts.rapidssl.com
 radix-ui.com
 full:quriobot.com
 quip-cdn.com
@@ -2059,6 +2090,9 @@ full:cdn.getkoala.com
 full:assets.getkirby.com
 full:geoip-js.com
 full:maps.geoapify.com
+full:img5.gelbooru.com
+full:img4.gelbooru.com
+full:img2.gelbooru.com
 scripts.gatorapi.com
 gammacdn.com
 full:media.gamestop.com
@@ -2121,6 +2155,7 @@ full:cdn-assets.circleci.com
 full:assets-app.circleci.com
 full:app.chatwoot.com
 chasecdn.com
+full:js.chargify.com
 cdnfonts.com
 cartocdn.com
 full:assets.capterra.com
@@ -2277,6 +2312,8 @@ full:pics.pornfhd.com
 full:celebrities-small.porndig.com
 full:m.porn3dx.com
 full:pbcdn1.podbean.com
+full:png.pngtree.com
+full:js.pngtree.com
 full:www.pngmart.com
 full:cdn-main.plus500.com
 full:cdn.plus500.com
@@ -2343,10 +2380,12 @@ full:blob.jortage.com
 full:img4.javmost.com
 full:img3.javmost.com
 full:img2.javmost.com
+full:cdn.javmiku.com
 full:img2.javdove.com
 full:assets.ipstack.com
 full:i.insider.com
 full:static.iris.informa.com
+full:static.inflect.com
 full:go.imperva.com
 imgyzzy.com
 imgikzy.com
@@ -2425,6 +2464,8 @@ fivetiu.com
 full:detectportal.firefox.com
 full:cdn.accounts.firefox.com
 ffzy888.com
+full:web-sdk-cdn.eyefitu.com
+full:web-sdk.eyefitu.com
 exp-tas.com
 espncdn.com
 full:cdn.equinix.com
@@ -2538,6 +2579,7 @@ full:telemetry.vercel.com
 full:assets.vercel.com
 full:image.ship.vercel.com
 full:go.vercel.com
+vancdn.com
 full:img.utdstc.com
 devrum.uptime.com
 full:api.unisvg.com
@@ -2561,6 +2603,7 @@ tiqcdn.com
 full:image.thefly.com
 tedcdn.com
 full:www.tbstat.com
+full:gravatar.tapglb.com
 full:cdn-static.talent.com
 sxccdn.com
 full:assets.swoogo.com
@@ -2695,7 +2738,6 @@ full:code.jquery.com
 full:cdn.jitbit.com
 jbkcdn.com
 javtxt.com
-full:cdn.javsts.com
 imgtbl.com
 imgbox.com
 full:static.inferno.iheart.com
@@ -2793,6 +2835,7 @@ full:code.buywithprime.amazon.com
 full:d2c.aws.amazon.com
 full:time.akamai.com
 full:static.ahrefs.com
+full:cdn1.affirm.com
 assets.adidas.com
 glass.adidas.com
 9cache.com
@@ -2917,6 +2960,7 @@ ggpht.com
 full:cdn-1.ggjav.com
 full:media.gettr.com
 full:cdn.gettr.com
+full:account-widget-mfe.gcore.com
 full:i.gawby.com
 full:a.gawby.com
 full:cdn.app.fossa.com
@@ -3175,6 +3219,7 @@ full:videos.elephas.app
 edgeone.app
 full:bundle.dyn-rev.app
 vercel.app
+full:assets.slater.app
 full:pic.macked.app
 full:webassets.linear.app
 full:uploads.linear.app
@@ -3199,6 +3244,7 @@ imageshack.us
 full:cdn.donmai.us
 full:us01ccistatic.zoom.us
 full:eu01ccistatic.zoom.us
+full:file.zoom.us
 full:st3.zoom.us
 full:st2.zoom.us
 full:st1.zoom.us
@@ -3368,6 +3414,7 @@ full:cdn01.jotfor.ms
 full:cdn.jotfor.ms
 full:s3.acg.mn
 full:s3.m.0x.mk
+full:cdn.fasterthanli.me
 randomuser.me
 disconnect.me
 full:api.crashguard.me
@@ -3501,6 +3548,7 @@ full:link.storjshare.io
 statuspage.io
 statically.io
 stackblitz.io
+full:static.smartframe.io
 full:tracking.inflection.io
 full:gtranslate.io
 full:cdn.growthbook.io
@@ -3582,7 +3630,7 @@ full:static.status.io
 full:image.status.io
 full:media.smooch.io
 full:cdn.smooch.io
-full:files.webfe.shopee.io
+webfe.shopee.io
 full:wire.shodan.io
 ingest.sentry.io
 ingest.us.sentry.io
@@ -3636,6 +3684,7 @@ full:media.mstdn.io
 strapi.logto.io
 full:cdn-edge.karte.io
 full:statics.goorm.io
+full:sdk.gleap.io
 full:cdn.filen.io
 ipfs.decoo.io
 full:assets2.canny.io
@@ -3722,6 +3771,7 @@ full:res.craft.do
 tile.openstreetmap.de
 full:sp-spiegel-de.spiegel.de
 full:cdn.prod.www.spiegel.de
+full:www.acgpix.de
 full:cdn.ionos.de
 ipfs.slang.cx
 full:cdn.stackoverflow.co
@@ -3843,6 +3893,7 @@ full:r2.leadsy.ai
 full:s3.masto.ai
 full:participants.evolv.ai
 full:media.evolv.ai
+full:cdn.candy.ai
 telemetry.services.yofi.ai
 full:cdn2.suno.ai
 full:cdn1.suno.ai
