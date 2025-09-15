@@ -228,6 +228,8 @@ bosszhipin.com
 zhaopin.cn # 智联招聘
 moseeker.com # 仟寻招聘
 
+# 汽车
+include:category-automobile-cn
 
 # Social Media
 include:category-social-media-cn
