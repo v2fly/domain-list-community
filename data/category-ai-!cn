@@ -7,6 +7,7 @@ include:openai
 include:perplexity
 include:poe
 include:xai
+include:cerebras
 
 # CodeRabbit
 coderabbit.ai
