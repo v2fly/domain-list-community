@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-14T18:18:19.458Z
-# Size: 3897
+# Last Updated: 2025-09-18T08:10:28.574Z
+# Size: 3921
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -27,6 +27,8 @@ static.domains
 full:bcdn.starapps.studio
 full:cdn.starapps.studio
 full:public.flourish.studio
+full:static.zenn.studio
+full:embed.zenn.studio
 full:mstdn-s3.o3o.studio
 photocdn.stream
 full:files.mastodon.social
@@ -291,6 +293,7 @@ ampproject.org
 full:creativajs.altervista.org
 full:upload.wikimedia.org
 full:cdn.travis-ci.org
+full:light.spicegems.org
 full:user-uploads.perchance.org
 full:s13.maxstream.org
 full:s11.maxstream.org
@@ -571,6 +574,8 @@ forgecdn.net
 full:connect.facebook.net
 full:static.esimplus.net
 full:pub.creaders.net
+full:cdn-app.cart-bot.net
+full:app.cart-bot.net
 full:assets.bitstamp.net
 full:cdn.beacondb.net
 full:damassets.autodesk.net
@@ -978,6 +983,7 @@ full:cdn-forum.networklessons.com
 full:cdn.networklessons.com
 full:media.nbcconnecticut.com
 full:image.email.microsoftemail.com
+mediadecathlon.com
 full:assets.media-platform.com
 full:na-library.klarnaservices.com
 full:static.killedbygoogle.com
@@ -1078,6 +1084,7 @@ cdn-centaurus.com
 cbsnewsstatic.com
 full:files.buildwithfern.com
 brightspotcdn.com
+brightcovecdn.com
 aweber-static.com
 cdn.autoevolution.com
 assets-yammer.com
@@ -1161,6 +1168,7 @@ full:staticm.fastcomments.com
 full:cdn.fastcomments.com
 full:static.fastboostcdn.com
 fakestoreapi.com
+esc-apps-cdn.com
 full:cdn-eu.dynamicyield.com
 full:st-eu.dynamicyield.com
 full:cdn.dynamicyield.com
@@ -1527,6 +1535,8 @@ full:cdn2.iconfinder.com
 full:cdn1.iconfinder.com
 full:cdn0.iconfinder.com
 full:cdn.iconfinder.com
+full:images.icon-icons.com
+full:cdn.icon-icons.com
 full:cdn.hypershort.com
 full:cors-proxy.htmldriven.com
 hs-scripts.com
@@ -1632,6 +1642,7 @@ full:public-pages.cbinsights.com
 full:rtcg-access.bytevcloud.com
 full:static.buydomains.com
 full:cdn.britannica.com
+full:player.interactivity.brightcove.com
 full:app.brightback.com
 full:static.prd.borderfree.com
 boomio-cdn.com
@@ -2085,6 +2096,7 @@ full:snippet.growsumo.com
 widget.cluster.groovehq.com
 gravatar.com
 full:cdn.gofundme.com
+full:static.gigabyte.com
 full:cdn.ghostery.com
 full:cdn.getkoala.com
 full:assets.getkirby.com
@@ -2107,6 +2119,7 @@ full:cdn-icons-png.flaticon.com
 full:cdn-uicons.flaticon.com
 full:media.flaticon.com
 full:cdn.firebase.com
+full:widget.finlogix.com
 full:s3.filebase.com
 full:icons.ferndocs.com
 favicone.com
@@ -2276,6 +2289,8 @@ sqspcdn.com
 full:cdn.sphlabs.com
 snzypic.com
 full:sdk.snapkit.com
+full:cache.industry.siemens.com
+full:data.cdn.siemens.com
 full:cdn.shopify.com
 full:dassets.shimano.com
 full:cdn.sheetjs.com
@@ -2580,7 +2595,9 @@ full:assets.vercel.com
 full:image.ship.vercel.com
 full:go.vercel.com
 vancdn.com
+full:stc.utdstc.com
 full:img.utdstc.com
+full:backinstock.useamp.com
 devrum.uptime.com
 full:api.unisvg.com
 assets.ubuntu.com
@@ -2685,6 +2702,7 @@ full:images.now-tv.com
 full:i.niupic.com
 nineyu.com
 full:article-image-ix.nikkei.com
+full:instafeed.nfcube.com
 full:cdn.nfcube.com
 full:c1.newegg.com
 nc-img.com
@@ -3079,6 +3097,7 @@ full:cdn.mewe.com
 full:apim.m3pd.com
 full:img.lvv2.com
 full:cdn.loom.com
+full:app-cdn.logo.com
 full:static.kobo.com
 full:cdn.kobo.com
 full:info.knak.com
@@ -3104,6 +3123,7 @@ ax1x.com
 full:img.atom.com
 full:g-static.ap4r.com
 a1tb.com
+full:bundle.9gtb.com
 full:accounts-cdn.9gag.com
 full:bundle.5gtb.com
 full:img.4khd.com
@@ -3393,6 +3413,9 @@ full:files.yande.re
 pixiv.re
 full:asset.booth.pm
 fakeimg.pl
+full:cdn5.telesco.pe
+full:cdn4.telesco.pe
+full:cdn1.telesco.pe
 full:cdn.geekzone.co.nz
 full:secure.fanboy.co.nz
 static.mega.co.nz
@@ -3884,6 +3907,7 @@ full:cdn.engagement.ai
 full:assets.cloudpilot.ai
 full:api.instantly.ai
 full:sdk.customfit.ai
+full:static.returngo.ai
 full:prod-cdn.webtune.ai
 full:widget.docsbot.ai
 full:cdn.aimerce.ai
