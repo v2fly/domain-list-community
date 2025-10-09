@@ -1,3 +1,5 @@
+# **Public anycast resolvers**
+
 # AdGuard DNS
 
 ## Default
@@ -75,9 +77,6 @@ security.cloudflare-dns.com
 family.cloudflare-dns.com
 
 # Comodo Secure DNS
-
-# ControlD
-controld.com
 
 ## Non-filtering
 freedns.controld.com
@@ -164,7 +163,6 @@ dns.quad9.net
 
 ## Unsecured
 dns10.quad9.net
-en.wikipedia.org
 dns11.quad9.net
 
 # Quadrant Security
@@ -198,7 +196,7 @@ v.recipes
 # Wikimedia DNS
 wikimedia-dns.org
 
-## **Regional resolvers**
+# **Regional resolvers**
 
 # Applied Privacy DNS
 doh.applied-privacy.net
@@ -287,7 +285,7 @@ safe.dot.dns.yandex.net
 ## Family
 family.dot.dns.yandex.net
 
-## **Small personal resolvers**
+# **Small personal resolvers**
 
 # AhaDNS
 
