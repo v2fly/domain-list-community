@@ -3,6 +3,7 @@
 # AdGuard DNS
 
 ## Default
+dns.adguard.com
 dns.adguard-dns.com
 
 ## Family Protection
@@ -13,6 +14,9 @@ unfiltered.adguard-dns.com
 
 # Ali DNS
 dns.alidns.com
+
+# Apple DNS
+doh.dns.apple.com
 
 # Caliph DNS
 dns.caliph.dev
@@ -68,7 +72,9 @@ doh.cleanbrowsing.org
 # Cloudflare DNS
 
 ## Standard
+one.one.one.one
 dns.cloudflare.com
+cloudflare-dns.com
 
 ## Malware blocking only
 security.cloudflare-dns.com
@@ -104,10 +110,11 @@ dns.de.futuredns.eu.org
 ### United States
 dns.us.futuredns.eu.org
 
-# DNS.SB
+# DNS.SB (xTom)
 doh.dns.sb
 
 # DNSPod Public DNS+
+doh.pub
 dns.pub
 sm2.doh.pub
 
@@ -262,6 +269,9 @@ doh.onedns.net
 
 # SWITCH DNS
 dns.switch.ch
+
+# Taiwan NIC
+dns.twnic.tw
 
 # UK DNS Privacy Project
 resolver.dnsprivacy.org.uk
