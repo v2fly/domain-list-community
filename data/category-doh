@@ -1,0 +1,81 @@
+# Tencent DNSPod
+doh.pub
+sm2.doh.pub
+dns.pub
+
+# Alibaba DNS
+dns.alidns.com
+
+# 360
+doh.360.cn
+
+# OneDNS
+doh.onedns.net
+doh-pure.onedns.net
+
+# Google
+dns.google
+
+# Cloudflare
+one.one.one.one
+cloudflare-dns.com
+security.cloudflare-dns.com
+family.cloudflare-dns.com
+dns.cloudflare.com
+
+# Cisco OpenDNS
+doh.opendns.com
+doh.familyshield.opendns.com
+doh.sandbox.opendns.com
+
+# AdGuard
+dns.adguard.com
+dns.adguard-dns.com
+family.adguard-dns.com
+unfiltered.adguard-dns.com
+
+# CleanBrowsing
+doh.cleanbrowsing.org
+
+# Apple
+doh.dns.apple.com
+
+# Hurricane Electric
+ordns.he.net
+
+# Quad9
+dns.quad9.net
+
+# Taiwan NIC
+dns.twnic.tw
+
+# Caliph DNS
+dns.caliph.de
+
+# BebasDNS by BebasID
+dns.bebasid.com
+unfiltered.dns.bebasid.com
+antivirus.bebasid.com
+internetsehat.bebasid.com
+
+# CFIEC Public DNS
+dns.cfiec.net
+
+# FamilyShield
+doh.familyshield.opendns.com
+
+# ControlD
+freedns.controld.com
+
+# DeCloudUs DNS
+dns.decloudus.com
+
+# FutureDNS
+dns.de.futuredns.eu.org
+dns.us.futuredns.eu.org
+
+# DNS.SB (xTom)
+doh.dns.sb
+
+# dns0.eu
+zero.dns0.eu
