@@ -76,7 +76,7 @@ security.cloudflare-dns.com
 ## Malware and adult content blocking
 family.cloudflare-dns.com
 
-# Comodo Secure DNS
+# ControlD
 
 ## Non-filtering
 freedns.controld.com
