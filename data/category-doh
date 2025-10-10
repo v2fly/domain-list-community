@@ -111,7 +111,31 @@ dns.de.futuredns.eu.org
 dns.us.futuredns.eu.org
 
 # DNS.SB (xTom)
+
+## Global CDN
 doh.dns.sb
+doh.sb
+dns.sb
+
+## Unicast PoPs
+de-dus.doh.sb
+de-fra.doh.sb
+nl-ams.doh.sb
+uk-lon.doh.sb
+ee-tll.doh.sb
+jp-kix.doh.sb
+jp-nrt.doh.sb
+hk-hkg.doh.sb
+au-syd.doh.sb
+us-chi.doh.sb
+us-nyc.doh.sb
+us-sjc.doh.sb
+in-blr.doh.sb
+sg-sin.doh.sb
+kr-sel.doh.sb
+ru-mow.doh.sb
+ca-yyz.doh.sb
+de-ber.doh.sb
 
 # DNSPod Public DNS+
 doh.pub
