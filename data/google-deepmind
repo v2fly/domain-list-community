@@ -6,6 +6,7 @@ deepmind.google
 geller-pa.googleapis.com
 generativelanguage.googleapis.com
 proactivebackend-pa.googleapis.com
+robinfrontend-pa.googleapis.com
 
 # Google AI Studio
 full:ai.google.dev
@@ -27,3 +28,7 @@ notebooklm.google.com
 # Jules
 jules.google
 jules.google.com
+
+# Google AI Labs 
+labs.google
+aisandbox-pa.googleapis.com
