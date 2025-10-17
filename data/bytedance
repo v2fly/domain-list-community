@@ -39,8 +39,6 @@ bdns-test.net
 bdppe.net
 bdsagslb.com
 bdsagslbtest.com
-bdxigualive.com
-bdxiguavod.com
 bdzjdsagslb.com
 betaband.net
 betadance.net
@@ -157,8 +155,6 @@ gslbdns.com
 gslbdns.net
 huaxiong.com
 hypercachenet.com
-ibdxigualive.com
-ibdxiguavod.com
 ibytedapm.com
 ibytedtos.com @!cn
 ibyteimg.com @!cn
@@ -243,12 +239,6 @@ volcdns-test.com
 volcdns-test.net
 voleai.com
 wtturl.cn
-xiguaapp.cn
-xiguaapp.com
-xiguashipin.cn
-xiguashipin.net
-xiguavideo.cn
-xiguavideo.net
 xsgtvacct.com
 zijieapi.cn
 zijieapi.com
@@ -294,11 +284,23 @@ toutiaostatic.com
 toutiaovod.com
 
 # 西瓜视频
+bdxiguaimg.com
+bdxigualive.com
+bdxiguastatic.com
+bdxiguavod.com
+ibdxiguaimg.com
+ibdxigualive.com
+ibdxiguastatic.com
+ibdxiguavod.com
+ixgvideo.com
 ixigua.com
 ixiguavideo.com
-ixgvideo.com
-bdxiguaimg.com
-bdxiguastatic.com
+xiguaapp.cn
+xiguaapp.com
+xiguashipin.cn
+xiguashipin.net
+xiguavideo.cn
+xiguavideo.net
 
 # 快懂百科
 baike.com
