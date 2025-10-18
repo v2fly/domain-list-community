@@ -1,6 +1,14 @@
 # 汽车资讯
-autohome.com.cn # 汽车之家
-guazi.com # 瓜子二手车
+## 汽车之家
+autohome.com
+autohome.com.cn
+autohome.tel
+autoimg.cn
+autoimg.com.cn
+## 易车‌
+include:bitauto
+## 懂车帝
+include:dongchedi
 
 # 汽车品牌
 byd.com # 比亚迪
@@ -11,7 +19,21 @@ nio.cn # 蔚来
 xiaopeng.com # 小鹏
 zeekrlife.com # 极氪
 
+## 瓜子二手车
+gzurl.cn
+guazi.com
+guazistatic.com
+guazi.net
+
 # 租车平台
-1hai.cn # 一嗨租车
-wkzuche.com # 悟空租车
-zuche.com # 神州租车
+## 一嗨租车
+1hai.cn
+## 首汽租车
+izuche.com
+## 租车宝
+izuchebao.com
+## 悟空租车
+wkzuche.com
+## 神州租车
+zuche.com
+zuchecdn.com

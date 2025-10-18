@@ -311,14 +311,7 @@ wukongwenda.cn
 wukongwenda.com
 
 # 懂车帝
-dcarapi.com
-dcarimg.com
-dcarlive.com
-dcarstatic.com
-dcarvod.com
-dcdapp.com
-dongchedi.com
-dongchediapp.com
+include:dongchedi
 
 # 阳关宽频网
 365yg.com
