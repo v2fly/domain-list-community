@@ -17,6 +17,9 @@ valvesoftware.com
 # edgecast
 edge.steam-dns.top.comcast.net
 
+# edgesuite
+full:steamcommunity-a.akamaihd.net.edgesuite.net
+
 # 网宿(国际)
 steam.apac.qtlglb.com
 steam.eca.qtlglb.com
@@ -50,6 +53,8 @@ full:steamusercontent-a.akamaihd.net
 full:steamuserimages-a.akamaihd.net
 full:steamvideo-a.akamaihd.net
 
+# Azure
+full:steamcloudsweden.blob.core.windows.net
 
 # 完美
 csgo.wmsj.cn @cn

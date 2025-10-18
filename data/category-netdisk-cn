@@ -1,14 +1,7 @@
-cloud.189.cn # 天翼云盘
-ctfile.com # 城通网盘
-feimaoyun.com # 飞猫盘
-filez.com # 联想企业网盘
-jianguoyun.com # 坚果云
-pan.baidu.com # 百度网盘
-pan.quark.cn # 夸克网盘
-pan.xunlei.com # 迅雷云盘
-weiyun.com # 微云
-yun.139.com # 中国移动云盘
-yunpan.com # 360安全云盘
+include:115
+include:aliyun-drive
+include:lanzou
+include:wenshushu
 
 # 123云盘
 123pan.cn
@@ -25,15 +18,14 @@ yunpan.com # 360安全云盘
 123245.com
 123952.com
 
-# 阿里云盘
-alicloudccp.com
-alipan.com
-aliyundrive.com
-aliyundrive.net
-aliyundrive.cloud
-yunpan.aliyun.com
-
-# 115网盘
-include:115
-# 蓝奏云
-include:lanzou
+cloud.189.cn # 天翼云盘
+ctfile.com # 城通网盘
+feimaoyun.com # 飞猫盘
+filez.com # 联想企业网盘
+jianguoyun.com # 坚果云
+pan.baidu.com # 百度网盘
+pan.quark.cn # 夸克网盘
+pan.xunlei.com # 迅雷云盘
+weiyun.com # 微云
+yun.139.com # 中国移动云盘
+yunpan.com # 360安全云盘

@@ -13,6 +13,7 @@ tmall
 include:alibaba-ads
 include:alibabacloud
 include:aliyun
+include:aliyun-drive
 include:cainiao
 include:dingtalk
 include:eleme
@@ -130,13 +131,6 @@ alipay.hk @!cn
 # AlipayMO
 alipaymo.com @!cn
 
-# 阿里云盘
-alicloudccp.com
-alipan.com
-aliyundrive.com
-aliyundrive.net
-aliyundrive.cloud
-
 # 盒马
 freshhema.com
 freshippo.com
@@ -211,3 +205,7 @@ npmmirror.com
 
 # 闲鱼
 goofish.com
+
+# 考拉
+kaola.com
+kaolacdn.com
