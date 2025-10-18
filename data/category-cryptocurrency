@@ -17,6 +17,7 @@ include:nexo
 include:okx
 include:onekey
 include:redotpay
+include:straitsx
 include:trustwallet
 include:wisekey
 include:wynd
