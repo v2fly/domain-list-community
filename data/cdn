@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-10-14T12:28:25.787Z
-# Size: 3978
+# Last Updated: 2025-10-17T13:08:04.897Z
+# Size: 3989
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -879,6 +879,7 @@ full:media.datacenterdynamics.com
 yammerusercontent.com
 full:demo.unified-streaming.com
 full:media.theresanaiforthat.com
+full:media.technologycounter.com
 svbtleusercontent.com
 storjipfs-gateway.com
 ssl-images-amazon.com
@@ -925,6 +926,7 @@ full:assets.the-independent.com
 squarespace-cdn.com
 full:logos.speedtestcustom.com
 full:c.speedtestcustom.com
+full:images.softwaresuggest.com
 full:searchserverapi.com
 runkit-packages.com
 project1content.com
@@ -1031,6 +1033,7 @@ full:explorer-api.walletconnect.com
 full:js.verygoodvault.com
 transcend-cdn.com
 bundle.thimatic-apps.com
+full:cdn.thewirecutter.com
 full:cdn.stellarhosted.com
 steemitimages.com
 full:assets.static-upwork.com
@@ -1677,6 +1680,7 @@ anpustream.com
 anpoimages.com
 algolianet.com
 full:static.adguardvpn.com
+adguardcdn.com
 full:cdn.zhujiwiki.com
 full:assets.zerohedge.com
 xhpingcdn.com
@@ -2340,6 +2344,7 @@ full:cdn.readmoo.com
 full:cdn-rdstaticassets.readdle.com
 ravenjs.com
 full:static.rakuten.com
+rackcdn.com
 full:cdn.quadpay.com
 pxlecdn.com
 full:image.prntscr.com
@@ -2380,6 +2385,7 @@ oktacdn.com
 full:lc.nssurge.com
 full:media.nownews.com
 nordcdn.com
+full:media.nngroup.com
 ngfiles.com
 full:assets.nflxext.com
 full:stbff.newfold.com
@@ -3050,7 +3056,10 @@ full:assets-s3-us-east-1.ceros.com
 full:media-s3-us-east-1.ceros.com
 full:ajax.cdnjs.com
 full:content-management-files.canva.com
+full:chunk-composing.canva.com
+full:font-public.canva.com
 full:static.canva.com
+full:media.canva.com
 full:cdn.cameo.com
 full:s1.bycsi.com
 full:designsystem.brevo.com
@@ -3350,6 +3359,7 @@ full:thumbor.4gamers.com.tw
 full:img.4gamers.com.tw
 full:event.ithome.com.tw
 full:static.cnbeta.com.tw
+full:image.yuntu.com.tw
 full:pgw.udn.com.tw
 full:s.udn.com.tw
 full:p.udn.com.tw
@@ -3971,6 +3981,7 @@ full:vetted.ai
 full:static.netify.ai
 full:r2.leadsy.ai
 full:cdn.fellou.ai
+full:tag.tvads.ai
 full:s3.masto.ai
 full:participants.evolv.ai
 full:media.evolv.ai
