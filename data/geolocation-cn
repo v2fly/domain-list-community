@@ -62,6 +62,12 @@ include:category-food-cn
 # 快递物流
 include:category-logistics-cn
 
+# Electronic
+include:category-electronic-cn
+
+# 汽车
+include:category-automobile-cn
+
 # CDN or SDWAN
 include:aws-cn
 include:baijiayun
@@ -103,9 +109,6 @@ include:tongcheng
 include:vancl
 include:youzan
 include:ziroom
-
-# Electronic
-include:category-electronic-cn
 
 # 多点新鲜
 dmall.com
