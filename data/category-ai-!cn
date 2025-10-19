@@ -1,4 +1,6 @@
 include:anthropic
+include:cerebras
+include:cursor
 include:google-deepmind
 include:groq
 include:huggingface
@@ -6,7 +8,6 @@ include:openai
 include:perplexity
 include:poe
 include:xai
-include:cursor
 
 # CodeRabbit
 coderabbit.ai
@@ -17,6 +18,8 @@ clipdrop.co
 jasper.ai
 
 chutes.ai
+copilot.microsoft.com
+diabrowser.com
 dify.ai
 gateway.ai.cloudflare.com
 meta.ai

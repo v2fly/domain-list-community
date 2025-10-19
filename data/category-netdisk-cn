@@ -1,3 +1,23 @@
+include:115
+include:aliyun-drive
+include:lanzou
+include:wenshushu
+
+# 123云盘
+123pan.cn
+123pan.com
+123panpay.com
+123957.com
+123912.com
+123860.com
+123842.com
+123641.com
+123624.com
+123294.com
+123254.com
+123245.com
+123952.com
+
 cloud.189.cn # 天翼云盘
 ctfile.com # 城通网盘
 feimaoyun.com # 飞猫盘
@@ -9,19 +29,3 @@ pan.xunlei.com # 迅雷云盘
 weiyun.com # 微云
 yun.139.com # 中国移动云盘
 yunpan.com # 360安全云盘
-
-# 123云盘
-123pan.cn
-123pan.com
-
-# 阿里云盘
-alicloudccp.com
-alipan.com
-aliyundrive.com
-aliyundrive.net
-yunpan.aliyun.com
-
-# 115网盘
-include:115
-# 蓝奏云
-include:lanzou

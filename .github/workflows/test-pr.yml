@@ -10,14 +10,15 @@ jobs:
 
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: code
 
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: code/go.mod
+          cache-dependency-path: code/go.sum
 
       - name: Set variables
         run: |
