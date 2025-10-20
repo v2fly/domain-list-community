@@ -46,7 +46,6 @@ ccrgt.com
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
 include:category-securities-cn
-include:citic
 include:eastmoney
 include:everbright
 include:hsqh
@@ -72,7 +71,6 @@ include:category-automobile-cn
 include:aws-cn
 include:baijiayun
 include:bootcdn
-include:bootcss
 include:cloudflare-cn
 include:dwion
 include:maocloud
@@ -95,7 +93,6 @@ include:ctrip
 include:dangdang
 include:dewu
 include:dongjiao
-include:eleme
 include:jd
 include:lianjia
 include:manmanbuy
@@ -182,7 +179,6 @@ include:category-wiki-cn
 include:cugbonline
 include:guokr
 include:ihuman
-include:wanfang
 
 # Services & Softwares
 include:3type
@@ -274,8 +270,6 @@ include:netease
 include:oppo
 include:qihoo360
 include:roborock # 石头科技
-include:sina
-include:sogou
 include:sumkoo #北京尚古创新科技有限公司
 include:tencent
 include:tongfang
@@ -433,7 +427,6 @@ zzdtec.com
 17cdn.com
 17house.com
 18183.com
-188.com
 1905.com
 19yxw.com
 1nongjing.com
@@ -609,7 +602,6 @@ cabbagebox.com
 caijingwu.com
 caiyun.com
 cang.com
-cankaoxiaoxi.com
 cardbaobao.com
 carnoc.com
 cecdc.com
@@ -672,7 +664,6 @@ crsky.com
 csbew.com
 csmjzs.com
 csslcloud.net
-ctfile.com
 ctiforum.com
 ctoutiao.com
 ctsbw.com
@@ -730,7 +721,6 @@ drivergenius.com
 dui.ai
 duiopen.com
 duoduocdn.com
-duokanbox.com
 duomai.com
 duoshuo.com
 duote.com
@@ -751,7 +741,6 @@ ebrun.com
 ecjobhome.com
 eeyy.com
 eflycloud.com
-elecfans.com
 emarbox.com
 emumax.com
 enterdesk.com
@@ -899,7 +888,6 @@ jb51.com
 jia.com
 jiameng.com
 jianbihua.com
-jianguoyun.com
 jianzhi8.com
 jiaodong.net
 jiaoyimao.com
@@ -1097,7 +1085,6 @@ pintu360.com
 pipaw.com
 pipaw.net
 pptbest.com
-privateapi.xyz # 叮当猫脚本管理系统
 pubyun.com
 qc188.com
 qcds.com
