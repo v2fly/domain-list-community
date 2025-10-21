@@ -1,7 +1,7 @@
 # This list contains scholarly domains that don't have access point in China Mainland.
 
-include:category-scholar-uk
 include:category-scholar-ir
+include:category-scholar-uk
 include:apa
 include:clarivate
 include:doi
@@ -32,12 +32,13 @@ aimsciences.org # AIMS 美国科学数学协会期刊库
 airiti.com
 airitilibrary.com
 
-altmetric.com
 alexanderstreet.com # Alexander Street
+alphaxiv.org # alphaXiv
+altmetric.com
 amdigital.co.uk # Adam Matthew Digital 历史与文化珍稀史料数据库集成
 ams.org # 美国数学学会
-anatomy.tv # digital human anatomy and physiology content
 analytictech.com
+anatomy.tv # digital human anatomy and physiology content
 annualreviews.org
 aps.org # American Physical Society Sites
 arabidopsis.org
@@ -97,6 +98,7 @@ global-sci.org # Global Science Press GSP电子期刊
 heinonline.org # HeinOnline 法律全文数据库
 highwirepress.com # HighWire Press 电子期刊
 hindawi.com
+hotcrp.com # HotCRP Conference Management Software
 icevirtuallibrary.com # 英国土木工程师学会 ICE Virtual Library
 icsd.fiz-karlsruhe.de # Inorganic Crystal Structure Database
 igi-global.com # IGI Global 平台
@@ -134,6 +136,7 @@ nejm.org
 neurology.org
 nii.ac.jp # CiNii学术信息导航
 oecd-ilibrary.org # Organisation for Economic Co-operation and Development
+openreview.net # OpenReview
 optica.org # OSA 美国光学学会全文数据库
 osapublishing.org # OSA
 ovid.com
@@ -162,6 +165,8 @@ scientificamerican.com
 scitation.org
 semanticscholar.org
 siam.org # Society for Industry and Applied Mathematics 美国工业和应用数学学会
+sigcomm.org # the Association for Computing Machinery's Special Interest Group on Data Communications
+sigops.org # the Association for Computing Machinery's Special Interest Group on Operating Systems
 silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
 spiedigitallibrary.org
 statsmakemecry.com
@@ -179,6 +184,7 @@ uchicago.edu
 ucla.edu
 umass.edu
 usaco.org
+usenix.org # USENIX: The Advanced Computing Systems Association
 westlaw.com
 wiley.com
 wolterskluwer.com
@@ -188,9 +194,9 @@ zenodo.org
 
 full:angle.com.tw # 元照出版
 full:beck-online.beck.de # Beck-Online数据库
-full:dl.begellhouse.com # Begell Digital Library
 full:databank.worldbank.org # World DataBank 世界经济学数据库
 full:database.asahi.com # 朝日新闻数据库（闻藏II Visual）
+full:dl.begellhouse.com # Begell Digital Library
 full:elib.maruzen.co.jp # Maruzen e-Book Library（MEL）
 full:firstsearch.oclc.org # OCLC FirstSearch
 full:muse.jhu.edu # Project MUSE
