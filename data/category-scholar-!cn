@@ -1,7 +1,7 @@
 # This list contains scholarly domains that don't have access point in China Mainland.
 
-include:category-scholar-uk
 include:category-scholar-ir
+include:category-scholar-uk
 include:apa
 include:clarivate
 include:doi
@@ -32,18 +32,18 @@ aimsciences.org # AIMS 美国科学数学协会期刊库
 airiti.com
 airitilibrary.com
 
-altmetric.com
 alexanderstreet.com # Alexander Street
+alphaxiv.org # alphaXiv
+altmetric.com
 amdigital.co.uk # Adam Matthew Digital 历史与文化珍稀史料数据库集成
 ams.org # 美国数学学会
-anatomy.tv # digital human anatomy and physiology content
 analytictech.com
+anatomy.tv # digital human anatomy and physiology content
 annualreviews.org
 aps.org # American Physical Society Sites
 arabidopsis.org
 artstor.org # ARTstor Digital Library 艺术图像数据库
 arxiv.org
-alphaxiv.org # alphaXiv
 ascelibrary.org # American Society of Civil Engineers 美国土木工程师学会
 asha.org
 asm.org # The American Society for Microbiology 美国微生物学会
@@ -165,9 +165,9 @@ scientificamerican.com
 scitation.org
 semanticscholar.org
 siam.org # Society for Industry and Applied Mathematics 美国工业和应用数学学会
-silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
 sigcomm.org # the Association for Computing Machinery's Special Interest Group on Data Communications
 sigops.org # the Association for Computing Machinery's Special Interest Group on Operating Systems
+silverchair-cdn.com # https://global.oup.com/academic/news/silverchair-announcement
 spiedigitallibrary.org
 statsmakemecry.com
 thelancet.com
@@ -194,9 +194,9 @@ zenodo.org
 
 full:angle.com.tw # 元照出版
 full:beck-online.beck.de # Beck-Online数据库
-full:dl.begellhouse.com # Begell Digital Library
 full:databank.worldbank.org # World DataBank 世界经济学数据库
 full:database.asahi.com # 朝日新闻数据库（闻藏II Visual）
+full:dl.begellhouse.com # Begell Digital Library
 full:elib.maruzen.co.jp # Maruzen e-Book Library（MEL）
 full:firstsearch.oclc.org # OCLC FirstSearch
 full:muse.jhu.edu # Project MUSE
