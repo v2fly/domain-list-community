@@ -1,12 +1,6 @@
-full:account.wbgames.com
 full:datarouter.apps.netherrealm.com
-full:event.wbinsights.com
-full:prod-network-api.wbagora.com
-full:prod-pa.api.wbinsights.com
 full:wb-agora-hydra-file-storage-k1.s3.amazonaws.com
-# MK1 servers
-full:k1-api.wbagora.com
-regexp:^us-east-1-k1-realtime-\\d+\\.wbagora\\.com$
-# MK11 servers
-full:mk11-api.wbagora.com
-regexp:^us-east-1-mk11-realtime-\\d+\\.wbagora\\.com$
+warnerbrosgames.com
+wbagora.com
+wbgames.com
+wbinsights.com
