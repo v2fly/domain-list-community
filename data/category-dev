@@ -18,6 +18,7 @@ include:firebase
 include:flatpak
 include:flutter
 include:fontawesome
+include:framer
 include:gemfury
 include:gitbook
 include:github
