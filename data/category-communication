@@ -7,6 +7,7 @@ include:line
 include:mailcom
 include:matrix
 include:messenger
+include:protonmail
 include:signal
 include:slack
 include:telegram
