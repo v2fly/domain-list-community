@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-10-22T17:09:30.245Z
-# Size: 3993
+# Last Updated: 2025-10-23T17:00:01.492Z
+# Size: 3994
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -3425,6 +3425,7 @@ full:cdn.birdie.so
 full:storage.tally.so
 full:assets-v2.super.so
 full:sites.super.so
+full:assets.cello.so
 full:images.spr.so
 cdn-zlib.sk
 registry.gitplac.si
