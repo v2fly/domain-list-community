@@ -52,6 +52,7 @@ include:remirepo
 include:ruby
 include:rust
 include:redhat
+include:sentry
 include:scala
 include:sourcehut
 include:stackexchange
