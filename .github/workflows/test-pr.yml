@@ -34,7 +34,7 @@ jobs:
           mv dlc.dat TEST-${{ github.run_number }}-dlc.dat
 
       - name: Upload TEST-${{ github.run_number }}-dlc.dat
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: TEST-${{ github.run_number }}-dlc.dat
           path: TEST-${{ github.run_number }}-dlc.dat
