@@ -153,6 +153,7 @@ include:falungong
 
 # Services & Softwares
 include:category-android-app-download
+include:category-antivirus
 include:category-browser-!cn
 include:category-enhance-gaming
 include:category-mobile-repair
@@ -222,7 +223,6 @@ include:picsee
 include:pingpe
 include:pingsx
 include:playcover
-include:protonmail
 include:quip
 include:reabble
 include:rebrandly

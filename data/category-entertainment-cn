@@ -11,8 +11,10 @@ include:bilibili
 include:ciweimao
 include:dedao
 include:dmzj
+include:douyin
 include:douyu
 include:duitang
+include:fengxing
 include:fqnovel
 include:gamersky
 include:gcores
@@ -39,6 +41,7 @@ include:sfacg
 include:taomee
 include:u17
 include:wasu
+include:xiaoheihe
 include:ximalaya
 include:youku
 include:zhanqi
@@ -47,7 +50,13 @@ include:zhanqi
 lsplayer.com
 yeshen.com
 
+# https://github.com/supzhang/epg
+# 鲁ICP备18015570号-1
+51zmt.top
+
 # B站空降助手 鲁ICP备2024098956号-1
 bsbsb.top
 
+dongqiudi.com
+goka.top # 三国杀打小抄官网
 pearvideo.com
