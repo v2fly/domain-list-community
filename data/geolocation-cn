@@ -46,7 +46,6 @@ ccrgt.com
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
 include:category-securities-cn
-include:citic
 include:eastmoney
 include:everbright
 include:hsqh
@@ -62,11 +61,16 @@ include:category-food-cn
 # 快递物流
 include:category-logistics-cn
 
+# Electronic
+include:category-electronic-cn
+
+# 汽车
+include:category-automobile-cn
+
 # CDN or SDWAN
 include:aws-cn
 include:baijiayun
 include:bootcdn
-include:bootcss
 include:cloudflare-cn
 include:dwion
 include:maocloud
@@ -89,7 +93,6 @@ include:ctrip
 include:dangdang
 include:dewu
 include:dongjiao
-include:eleme
 include:jd
 include:lianjia
 include:manmanbuy
@@ -104,9 +107,9 @@ include:vancl
 include:youzan
 include:ziroom
 
-# Electronic
-include:category-electronic-cn
-
+# 多点新鲜
+dmall.com
+dmallcdn.com
 # 孔夫子旧书网
 kongfz.com
 kfzimg.com
@@ -176,7 +179,6 @@ include:category-wiki-cn
 include:cugbonline
 include:guokr
 include:ihuman
-include:wanfang
 
 # Services & Softwares
 include:3type
@@ -185,7 +187,6 @@ include:51job
 include:afdian
 include:agora
 include:antutu
-include:bitauto
 include:category-collaborate-cn
 include:category-documents-cn
 include:category-ntp-cn
@@ -269,8 +270,6 @@ include:netease
 include:oppo
 include:qihoo360
 include:roborock # 石头科技
-include:sina
-include:sogou
 include:sumkoo #北京尚古创新科技有限公司
 include:tencent
 include:tongfang
@@ -341,6 +340,7 @@ ipchaxun.net # 粤ICP备20009057号
 rdnsdb.com # 闽ICP备15009794号
 
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
+ipshu.com # 鄂B2-20110095-1
 
 fofa.info # Fofa网站测绘（华顺信安）
 onedns.net # OneDNS（微步在线）
@@ -427,7 +427,6 @@ zzdtec.com
 17cdn.com
 17house.com
 18183.com
-188.com
 1905.com
 19yxw.com
 1nongjing.com
@@ -441,6 +440,7 @@ zzdtec.com
 263.net
 289.com
 2cto.com
+2dfire.com
 3000.com
 310win.com
 315che.com
@@ -516,6 +516,7 @@ zzdtec.com
 84399.com
 885.com
 900.la
+900cha.com # 冀ICP备2024081752号-2
 917.com
 91danji.com
 95508.com
@@ -601,10 +602,8 @@ cabbagebox.com
 caijingwu.com
 caiyun.com
 cang.com
-cankaoxiaoxi.com
 cardbaobao.com
 carnoc.com
-cdn20.com
 cecdc.com
 cecport.com
 centanet.com
@@ -617,6 +616,7 @@ chashebao.com
 chaz.fun # 粤ICP备2022001828号-2
 chazhengla.com
 che168.com
+chememall.com # 津ICP备2021007710号-1
 china-chair.com
 china-nengyuan.com
 china.com
@@ -651,7 +651,6 @@ cloudxns.com
 cnanzhi.com
 cnepub.com
 cnlaw.net
-cnzz.com
 cocodiy.com
 code666.com
 codeloop.top # 渝ICP备2023015627号-1
@@ -665,7 +664,6 @@ crsky.com
 csbew.com
 csmjzs.com
 csslcloud.net
-ctfile.com
 ctiforum.com
 ctoutiao.com
 ctsbw.com
@@ -688,6 +686,7 @@ danji100.com
 danji6.com
 daocloud.io
 daovoice.io
+daytx.cn # 京ICP备18023661号-1 
 dayukaoshi.com
 dazijia.com
 dcdkjx.com
@@ -722,7 +721,6 @@ drivergenius.com
 dui.ai
 duiopen.com
 duoduocdn.com
-duokanbox.com
 duomai.com
 duoshuo.com
 duote.com
@@ -743,7 +741,6 @@ ebrun.com
 ecjobhome.com
 eeyy.com
 eflycloud.com
-elecfans.com
 emarbox.com
 emumax.com
 enterdesk.com
@@ -758,6 +755,7 @@ fanli.com
 fangxiaoer.com
 fanxian.com
 fastapi.net
+feihengip.com # 粤ICP备2023115330号-1
 feihuo.com
 feiniaomy.com
 fengniao.com
@@ -779,6 +777,7 @@ gaoxiaojob.com
 gdjdxy.com
 gdliontech.com
 gdrc.com
+geektool.top # 极客Tool 蜀ICP备2024086015号-2
 geilicdn.com
 getui.com
 gezida.com
@@ -800,6 +799,7 @@ guabu.com
 guaiguai.com
 guanaitong.com
 guanhaobio.com
+guanyierp.com # 沪ICP备14043335号-8 
 gucheng.com
 guigu.org
 guoxinmac.com
@@ -822,6 +822,7 @@ hangjiayun.com
 haolietou.com
 haote.com
 haoyouyinxiang.com
+halvie.com # 浙ICP备2021013972号-3
 hefei.cc
 heisha.net
 hellobike.com
@@ -865,6 +866,7 @@ ijiandao.com
 ikafan.com
 im2maker.com
 im-cc.com
+imacos.top # 黑苹果屋 滇ICP备20000138号-1 
 imgcdc.com
 imooc.com
 indienova.com
@@ -874,18 +876,18 @@ ip-cdn.com
 ipinyou.com
 iranshao.com
 irs01.com
+istoreos.com # 粤ICP备20024441号-9
 it165.net
 it168.com
 it610.com
 itjuzi.com
 itmop.com
 iyiou.com
-izuche.com
+iyunmu.com
 jb51.com
 jia.com
 jiameng.com
 jianbihua.com
-jianguoyun.com
 jianzhi8.com
 jiaodong.net
 jiaoyimao.com
@@ -1013,6 +1015,7 @@ mijisou.com
 mikecrm.com
 minhangshi.com
 miusi.co
+miyatech.com
 mjia.cc
 mmbang.com
 mmbang.info
@@ -1035,6 +1038,7 @@ myyx618.com
 myzaker.com
 naixuecha.com
 netbian.com
+netzz.net # 鲁ICP备2022014279号-3
 newasp.net
 newbandeng.com
 newyx.net
@@ -1044,6 +1048,7 @@ nruan.com
 ntalker.com
 nvsheng.com
 nx-sc.com
+nxog.top # 湘ICP备2022006601号-1
 nzbdw.com
 oadz.com
 oeeee.com
@@ -1186,6 +1191,7 @@ tangeche.com
 tanx.com
 tao123.com
 taoche.com
+tclai.top # 深圳TCL数字技术有限公司 粤ICP备2020114412号-1
 te5.com
 tenxcloud.com
 tianjimedia.com
@@ -1283,11 +1289,13 @@ wrating.com
 wtown.com
 wumii.com
 wuming.com
+wuuxiang.com
 wuximediaglobal.com
 wywyx.com
 xafc.com
 xbiao.com
 xdqtech.com # 上邻 | 新渡桥科技 浙ICP备2020031247号-1
+xdtool.com # 闽ICP备2024056202号-4
 xdwan.com
 xfdown.com
 xiachufang.com
@@ -1417,12 +1425,11 @@ zongheng.com
 zpb365.com
 zrblog.net
 zsxq.com
-zuche.com
-zuchecdn.com
 zuhaowan.com
 zuidaima.com
 zuowen8.com
 zuowenwang.net
+zztfly.com
 
 # 京ICP备12006877号-1
 fm3838.com

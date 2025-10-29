@@ -6,6 +6,7 @@ include:agilebits
 include:alibabacloud
 include:amazon
 include:amd
+include:anexia
 include:anthropic
 include:apple
 include:asus
@@ -44,6 +45,7 @@ include:inshot
 include:intel
 include:ixsystems
 include:kakao
+include:kaspersky
 include:lg
 include:logitech
 include:mailru
@@ -56,7 +58,6 @@ include:msi
 include:musixmatch
 include:mxroute
 include:naver
-include:netcup
 include:neuralink
 include:nvidia
 include:openai
