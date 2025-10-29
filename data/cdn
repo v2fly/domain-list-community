@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-10-23T17:00:01.492Z
-# Size: 3994
+# Last Updated: 2025-10-26T14:48:29.961Z
+# Size: 3995
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -3836,6 +3836,7 @@ full:cdn.unwire.hk
 full:newsstatic.rthk.hk
 full:image.hkhl.hk
 full:img.openshop.com.hk
+full:img.gs
 full:cdn.sc.gl
 full:cms-cdn.now.gg
 full:cdn.now.gg
