@@ -53,6 +53,7 @@ include:ruby
 include:rust
 include:redhat
 include:scala
+include:sentry
 include:sourcehut
 include:stackexchange
 include:strikingly
