@@ -1,5 +1,7 @@
+ad.browser.qq.com @ads
 ad.qq.com @ads
 ad.qun.qq.com @ads
+ad.weixin.qq.com @ads
 adfilter.imtt.qq.com @ads
 adnet.qq.com @ads
 adping.qq.com @ads
@@ -16,13 +18,17 @@ adsview.qq.com @ads
 adsview2.qq.com @ads
 adv.app.qq.com @ads
 adver.qq.com @ads
+beacon.cdn.qq.com @ads
 beacon.qq.com @ads
 beaconcdn.qq.com @ads
 btrace.qq.com @ads
+bugly.qq.com @ads
 e.qq.com @ads
 gdt.qq.com @ads
+hq-tracking.qq.com @ads
 isdspeed.qq.com @ads
 log.tbs.qq.com @ads
+mdt.qq.com @ads
 mpush.qq.com @ads
 mtrace.qq.com @ads
 pgdt.gtimg.cn @ads
@@ -32,6 +38,8 @@ sngmta.qq.com @ads
 stat.y.qq.com @ads
 tajs.qq.com @ads
 tcss.qq.com @ads
+tmead.y.qq.com @ads
+tmeadcomm.y.qq.com @ads
 trace.qq.com @ads
 ugdtimg.com @ads
 wit.qq.com @ads
