@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-10-26T14:48:29.961Z
-# Size: 3995
+# Last Updated: 2025-10-31T16:27:14.311Z
+# Size: 3998
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1675,6 +1675,8 @@ full:cdnb.artstation.com
 full:cdna.artstation.com
 full:cdn.artstation.com
 full:wa.arounddeal.com
+full:gamemedia.armorgames.com
+full:quests.armorgames.com
 full:files.armorgames.com
 full:cache.armorgames.com
 full:agi.armorgames.com
@@ -3567,6 +3569,7 @@ full:resize.blogsys.jp
 full:livedoor.blogimg.jp
 full:mangaz-static.j-comi.jp
 full:mangaz-books.j-comi.jp
+ismcdn.jp
 full:image.gyutto.jp
 full:c.fantia.jp
 full:img.dlsite.jp
