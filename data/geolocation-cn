@@ -257,6 +257,8 @@ include:bytedance
 include:didi
 include:dingdatech # 叮哒出行(杭州金通互联科技有限公司)
 include:dji
+include:gree
+include:haier
 include:honor
 include:huawei
 include:hupun # 杭州湖畔网络技术有限公司
@@ -267,12 +269,14 @@ include:jutongbao # 北京聚通宝科技有限公司
 include:kingsoft
 include:lenovo
 include:meizu
+include:midea
 include:narwal # 云鲸科技
 include:netease
 include:oppo
 include:qihoo360
 include:roborock # 石头科技
 include:sumkoo #北京尚古创新科技有限公司
+include:tcl
 include:tencent
 include:tongfang
 include:vivo
@@ -364,13 +368,10 @@ limestart.cn
 include:aamgame
 
 # Others
+include:category-enterprise-query-platform-cn
 include:8btc
 include:jibencaozuo
 include:sinopec
-include:category-enterprise-query-platform-cn
-include:gree
-include:haier
-include:midea
 
 
 # 应城门户网站
@@ -1196,7 +1197,6 @@ tangeche.com
 tanx.com
 tao123.com
 taoche.com
-tclai.top # 深圳TCL数字技术有限公司 粤ICP备2020114412号-1
 te5.com
 tenxcloud.com
 tianjimedia.com
