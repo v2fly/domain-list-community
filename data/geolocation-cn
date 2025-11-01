@@ -1,6 +1,7 @@
 # List of all domains that have access point in China mainland
 
 # Advertisment & Analytics
+include:getui
 include:jiguang
 include:umeng
 
@@ -785,7 +786,6 @@ gdliontech.com
 gdrc.com
 geektool.top # 极客Tool 蜀ICP备2024086015号-2
 geilicdn.com
-getui.com
 gezida.com
 gfan.com
 giocdn.com
