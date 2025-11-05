@@ -4,9 +4,11 @@ include:category-bank-jp
 include:category-bank-mm
 
 include:fibank
+include:futu
 include:hsbc
 include:ibkr
 include:ifast
+include:itiger
 include:longbridge
 include:n26
 include:wise
