@@ -1,6 +1,7 @@
 include:anthropic
 include:cerebras
 include:cursor
+include:elevenlabs
 include:google-deepmind
 include:groq
 include:huggingface
