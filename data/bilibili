@@ -1,3 +1,4 @@
+include:bilibili-cdn
 include:bilibili-game
 
 
@@ -30,23 +31,8 @@ bilibili.net
 bilibili.tv @!cn
 bilibilipay.cn
 bilibilipay.com
-bilicdn1.com
-bilicdn2.com
-bilicdn3.com
-bilicdn4.com
-bilicdn5.com
 biligo.com
-biliimg.com
 biliintl.com @!cn
-bilivideo.cn
-bilivideo.com
-bilivideo.net
 dreamcast.hk @!cn
-hdslb.com
-hdslb.org
 im9.com
-maoercdn.com
-mincdn.com
 yo9.com
-
-full:upos-hz-mirrorakam.akamaized.net @!cn
