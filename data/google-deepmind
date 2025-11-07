@@ -32,3 +32,6 @@ jules.google.com
 # Google AI Labs 
 labs.google
 aisandbox-pa.googleapis.com
+
+# Android Studio Gemini Code Assist
+aida.googleapis.com
