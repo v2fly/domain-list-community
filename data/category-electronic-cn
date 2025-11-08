@@ -6,6 +6,10 @@ analog.com
 # 艾睿电子
 arrow.cn
 
+# 京东方
+boe.com
+boe.com.cn
+
 # 博流智能
 bouffalolab.com
 
@@ -25,7 +29,8 @@ hqdoc.com
 hqpcb.com
 
 # 英飞凌
-infineon.com
+infineon.cn
+#infineon.com
 
 # 嘉立创集团
 include:jlc
@@ -49,7 +54,7 @@ sipeed.com
 maixhub.com
 
 # 德州仪器
-ti.com
+#ti.com
 ti.com.cn
 
 # 沁恒微电子

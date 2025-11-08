@@ -1,3 +1,5 @@
+include:netease-ads
+
 126.com
 126.link
 126.net
@@ -6,12 +8,14 @@
 163.com
 163cn.tv
 163industry.com
+163jiasu.com
 163mail.com
 163qiyukf.com
 163yun.com
 166.com
 166.net
 188.com
+321fenx.com
 haowu.link
 icourse163.org
 lofter.com
@@ -19,10 +23,12 @@ nease.net
 netease-inc.com
 netease.com
 netease.im
+netstatic.net
 qiyukf.com
+qiyukf.net
+qiyukf.net.cn
+static163.net
 ydstatic.com
 yeah.net
 youdao.com
 zhuanzfx.com
-
-include:netease-ads
