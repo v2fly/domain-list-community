@@ -130,6 +130,7 @@ include:postimages
 include:pstorage
 include:rumble
 include:streamable
+include:terabox
 
 # Forums & Social network
 include:category-forums
