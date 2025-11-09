@@ -15,6 +15,10 @@ include:xai
 coderabbit.ai
 coderabbit.gallery.vsassets.io
 
+# Cohere
+cohere.ai
+cohere.com
+
 # Jasper
 clipdrop.co
 jasper.ai
