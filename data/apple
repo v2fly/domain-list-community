@@ -1,5 +1,6 @@
 include:apple-ads
 include:apple-dev
+# Not include:apple-intelligence
 include:apple-pki
 include:apple-tvplus
 include:apple-update
