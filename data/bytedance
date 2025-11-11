@@ -1,6 +1,6 @@
 include:bytedance-ads
 
-#include:dola # not serving for cn
+#include:bytedance-ai-!cn # not serving for cn
 include:doubao
 include:douyin # douyin, huoshan and qishuimusic inside
 include:fqnovel
