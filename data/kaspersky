@@ -1,9 +1,54 @@
 kaspersky-labs.com
 kaspersky.com
+
+# Global Showcase
+kaspersky.be
+kaspersky.ca
+kaspersky.co.in
+kaspersky.co.jp
+kaspersky.co.kr
+kaspersky.co.th
+kaspersky.co.uk
+kaspersky.co.za
+kaspersky.com.au
+kaspersky.com.br
 kaspersky.com.cn @cn
+kaspersky.com.hk
+kaspersky.com.hk
+kaspersky.com.pl
+kaspersky.com.tr
+kaspersky.com.tw
+kaspersky.com.vn
+kaspersky.cz
+kaspersky.de
+kaspersky.dk
+kaspersky.dz
+kaspersky.es
+kaspersky.fi
+kaspersky.fr
+kaspersky.gr
+kaspersky.it
+kaspersky.kz
+kaspersky.ma
+kaspersky.my
+kaspersky.nl
+kaspersky.pt
+kaspersky.ro
+kaspersky.rs
+kaspersky.ru
+kaspersky.se
 
 full:activation-v2.kaspersky.com @cn
+full:activation-v2.geo.kaspersky.com @cn
+full:activate.activation-v2.kaspersky.com @cn
+full:refresh-bkg.activation-v2.kaspersky.com @cn
+
 full:crl.kaspersky.com @cn
+full:dc1.ksn.kaspersky-labs.com @cn
+full:dc1-cert.ksn.kaspersky-labs.com @cn
+full:dc1-file.ksn.kaspersky-labs.com @cn
+full:dc1-pp.ksn.kaspersky-labs.com @cn
+full:dc1-st.ksn.kaspersky-labs.com @cn
 full:dnl-00.geo.kaspersky.com @cn
 full:dnl-01.geo.kaspersky.com @cn
 full:dnl-02.geo.kaspersky.com @cn
@@ -24,10 +69,32 @@ full:dnl-16.geo.kaspersky.com @cn
 full:dnl-17.geo.kaspersky.com @cn
 full:dnl-18.geo.kaspersky.com @cn
 full:dnl-19.geo.kaspersky.com @cn
+full:edge.geo.kaspersky.com @cn
+full:ksn-cinfo.geoksn.kaspersky.com @cn
 full:ksn-cinfo-geo.kaspersky-labs.com @cn
+full:ksn-crypto-info-geo.kaspersky-labs.com @cn
+full:ksn-crypto-kas-geo.kaspersky-labs.com @cn
+full:ksn-crypto-tcert-geo.kaspersky-labs.com @cn
+full:ksn-crypto-url-geo.kaspersky-labs.com @cn
+full:ksn-crypto-verdict-geo.kaspersky-labs.com @cn
+full:ksn-crypto-wifiplus.geoksn.kaspersky.com @cn
+full:ksn-crypto-wifiplus-geo.kaspersky-labs.com @cn
+full:ksn-dc1.geoksn.kaspersky.com @cn
+full:ksn-dc1-cert.geoksn.kaspersky.com @cn
+full:ksn-dc1-file.geoksn.kaspersky.com @cn
+full:ksn-file.geoksn.kaspersky.com @cn
 full:ksn-file-geo.kaspersky-labs.com @cn
+full:ksn-info.geoksn.kaspersky.com @cn
+full:ksn-info-geo.kaspersky-labs.com @cn
+full:ksn-kas.geoksn.kaspersky.com @cn
+full:ksn-mdr.geoksn.kaspersky.com @cn
+full:ksn-tcert.geoksn.kaspersky.com @cn
+full:ksn-tcert-geo.kaspersky-labs.com @cn
+full:ksn-url.geoksn.kaspersky.com @cn
 full:ksn-url-geo.kaspersky-labs.com @cn
+full:ksn-verdict.geoksn.kaspersky.com @cn
 full:ksn-verdict-geo.kaspersky-labs.com @cn
+full:mdr.ksn.kaspersky-labs.com @cn
 full:p00.upd.kaspersky.com @cn
 full:p01.upd.kaspersky.com @cn
 full:p02.upd.kaspersky.com @cn
