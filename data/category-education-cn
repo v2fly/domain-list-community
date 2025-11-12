@@ -8,7 +8,6 @@ include:koolearn
 include:shanbay
 include:xueersi
 include:yuanfudao
-include:zhihuishu
 
 # 教育部学生服务与素质发展中心
 # 京ICP备19004913号
@@ -38,6 +37,16 @@ qgzb.gov.cn
 qgzb.net
 zbbm.gov.cn
 zbbm.net
+
+# 中国地质大学 继续教育学院
+cugbonline.cn
+
+# 智慧树
+zhihuishu.com
+
+# 日语测试
+j-test.com
+nattest-china.com
 
 # 雨课堂
 include:yuketang

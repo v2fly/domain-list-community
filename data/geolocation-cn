@@ -49,9 +49,10 @@ include:category-bank-cn
 include:category-securities-cn
 include:eastmoney
 include:everbright
-include:hsqh
 include:pingan
 include:taikang
+
+hsqh.net # 徽商期货有限责任公司
 
 # Blogs
 include:category-blog-cn
@@ -70,12 +71,10 @@ include:category-automobile-cn
 
 # CDN or SDWAN
 include:aws-cn
-include:baijiayun
 include:bootcdn
 include:cloudflare-cn
 include:dwion
 include:maocloud
-include:pkoplink
 include:qingcloud
 include:qiniu
 include:snodehome
@@ -83,6 +82,25 @@ include:ucloud
 include:upai
 include:wangsu
 include:yunfanjiasu
+
+# 百家云
+baijiayun.com
+
+# 明源云
+fdcyun.com
+mingyuanyun.com
+mypaas.com
+mypaas.com.cn
+myypark.com
+
+# 开普云
+kaipuyun.cn
+kaipuyun.com
+kaipuyun.com.cn
+kaipuyun.net
+
+# 江西节点技术服务有限公司
+pkoplink.com
 
 funcdn.com
 knet.cn # 北龙中网
@@ -96,7 +114,6 @@ include:dewu
 include:dongjiao
 include:jd
 include:lianjia
-include:manmanbuy
 include:meituan
 include:miaomiaozhe
 include:mogujie
@@ -122,6 +139,8 @@ appsimg.com
 appvipshop.com
 vip.com
 vipstatic.com
+# 慢慢买
+manmanbuy.com
 # 瞎买
 xiamai.net
 
@@ -132,15 +151,15 @@ include:category-entertainment-cn
 include:category-game-accelerator-cn
 
 # Forums
-include:chiphell
-include:erji
-include:hacpai
+include:b3log
 include:kechuang
 include:nga
 include:stage1st
 
 52pojie.cn # 吾爱破解
+chiphell.com # ChipHell
 chongbuluo.com # 虫部落
+erji.net # 耳机网
 itsk.com # IT天空论坛
 kafan.cn # 卡饭论坛
 kanxue.com # 看雪
@@ -179,17 +198,13 @@ include:category-hospital-cn
 include:category-education-cn
 include:category-scholar-cn
 include:category-wiki-cn
-include:cugbonline
 include:guokr
 include:ihuman
 
 # Services & Softwares
-include:3type
-include:4paradigm
 include:51job
 include:afdian
 include:agora
-include:antutu
 include:category-collaborate-cn
 include:category-documents-cn
 include:category-ntp-cn
@@ -199,9 +214,7 @@ include:capitalonline
 include:chinaso
 include:chinaz
 include:colorfulclouds
-include:dida365
 include:flowus
-include:foundertype
 include:geetest
 include:hanyi
 include:intsig
@@ -209,7 +222,6 @@ include:jianshu
 include:jinshuju
 include:keep
 include:lagou
-include:ldmnq
 include:liepin
 include:linakesi
 include:mafengwo
@@ -226,9 +238,11 @@ include:weathercn
 include:wiwide
 include:wjx
 include:wolai
-include:yinxiang
 include:zdns
 include:zhangtao
+
+# 方正字库
+foundertype.com
 
 # BOSS 直聘
 zhipin.com
@@ -248,7 +262,6 @@ include:category-dev-cn
 include:aisiku # 北京艾斯酷科技有限公司
 include:akiko # 秋子酱科技
 include:alibaba
-include:b3log
 include:baidu
 include:beisen
 include:bluepoch
@@ -273,7 +286,6 @@ include:narwal # 云鲸科技
 include:netease
 include:oppo
 include:qihoo360
-include:roborock # 石头科技
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
 include:tencent
@@ -286,23 +298,14 @@ include:youquan # 祐全科技
 include:yuanbei # 上海圆贝信息科技有限公司
 include:zte
 
+antutu.com # 安兔兔
+dida365.com # 滴答清单
 huorong.cn # 火绒
 quickapp.cn # 快应用
+roborock.com # 石头科技
 socpk.com # 极客湾移动芯片排行
 udesk.cn # 沃丰科技
-
-# 明源云
-fdcyun.com
-mingyuanyun.com
-mypaas.com
-mypaas.com.cn
-myypark.com
-
-# 开普云
-kaipuyun.cn
-kaipuyun.com
-kaipuyun.com.cn
-kaipuyun.net
+yinxiang.com # 印象笔记
 
 # 酷控
 deepepg.com
@@ -325,10 +328,6 @@ include:chinatower
 
 # OI
 include:category-olympiad-in-informatics
-
-# 语言能力测试
-include:j-test
-include:nat-test
 
 # 在线工具
 itdog.cn # itdog网站工具箱
@@ -474,8 +473,10 @@ zzdtec.com
 3d66.com
 3elife.net
 3h3.com
+3type.cn
 3yx.com
 40407.com
+4paradigm.com
 500.com
 500d.me
 50bang.org
@@ -681,8 +682,6 @@ cwxzx.com
 cyagen.com
 cybtc.com
 cyts.com
-cztv.com
-cztvcloud.com
 dadajiasu.com
 dadighost.com
 daguzhe.com
@@ -921,9 +920,7 @@ jmstatic.com
 job5588.com
 job910.com
 jobjm.com
-jsbc.com
 jsrdgg.com
-jstv.com
 jsyks.com
 juefeng.com
 julive.com
@@ -1431,7 +1428,6 @@ zhugeio.com
 zimuzu.io
 zixiaomao.com
 zixuntop.com
-zjstv.com
 zmengzhu.com
 zongheng.com
 zpb365.com

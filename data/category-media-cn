@@ -1,20 +1,41 @@
 include:36kr
 include:cctv
 include:chinanews
-include:dgtle
-include:geekpark
 include:ifanr
 include:jiemian
 include:landian
 include:phoenix
 include:ruanmei
 include:sohu
-include:solidot
-include:sspai
 include:tmtpost
 include:weiphone
 include:xueqiu
 include:ynet
+
+# 江苏省广播电视总台
+jsbc.com
+jstv.com
+
+# 浙江广播电视集团/浙江卫视/新蓝网
+cztv.com
+cztvcdn.com
+cztvcloud.com
+zjstv.com
+
+# 数字尾巴
+dgtle.com
+
+# 机核
+gcores.com
+
+# 极客公园
+geekpark
+
+# 奇客资讯网
+solidot.org
+
+# 少数派
+sspai.com
 
 # 证券时报网
 stcn.com
@@ -159,3 +180,6 @@ admin5.com
 
 # 江西省出版传媒集团
 jxpp.com
+
+# 人人都是产品经理
+woshipm.com

@@ -8,7 +8,6 @@ include:deepin
 include:gitee
 include:goproxy
 include:huawei-dev
-include:jinrishici
 include:juejin
 include:kuaiyikeji
 include:oschina
@@ -18,6 +17,7 @@ include:rubychina
 include:segmentfault
 include:sxl
 include:tencent-dev
-include:tipdm
 include:ubuntukylin
-include:xueyuanjun
+
+jinrishici.com
+tipdm.org
