@@ -159,6 +159,7 @@ include:category-browser-!cn
 include:category-enhance-gaming
 include:category-mobile-repair
 include:category-ntp
+include:category-password-management
 include:decryptipastore # iOS
 
 include:rsshub
@@ -174,7 +175,6 @@ include:aptoide
 include:arphic
 include:authy
 include:bitly
-include:bitwarden
 include:blender
 include:brightcove
 include:buymeacoffee
