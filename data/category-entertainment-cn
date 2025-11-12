@@ -2,27 +2,22 @@
 
 include:category-games-cn
 
-include:3dm
 include:acfun
 include:acplay
-include:ali213
 include:bestv
 include:bilibili
 include:ciweimao
 include:dedao
-include:dmzj
 include:douyin
 include:douyu
 include:duitang
 include:fengxing
 include:fqnovel
 include:gamersky
-include:gcores
 include:gitv
 include:hunantv
 include:huya
 include:iqiyi
-include:jinjiang
 include:ku6
 include:kuaikan
 include:kuaishou
@@ -30,23 +25,19 @@ include:kugou
 include:kuwo
 include:le
 include:lizhi
-include:mfuns
-include:miaopai
-include:muwai
 include:pptv
 include:qimao
 include:qingtingfm
 include:sakurafrp
-include:sfacg
 include:taomee
 include:u17
 include:wasu
 include:xiaoheihe
 include:ximalaya
 include:youku
-include:zhanqi
 
 # Android Emulator
+ldmnq.com
 lsplayer.com
 yeshen.com
 
@@ -57,6 +48,15 @@ yeshen.com
 # B站空降助手 鲁ICP备2024098956号-1
 bsbsb.top
 
+3dmgame.com
+ali213.net
+dmzj.com # 动漫之家
 dongqiudi.com
 goka.top # 三国杀打小抄官网
+jjwxc.net # 晋江文学城
+mfuns.cn # 喵御宅
+miaopai.com
+muwai.com #703
 pearvideo.com
+sfacg.com # SF轻小说二次元
+zhanqi.tv
