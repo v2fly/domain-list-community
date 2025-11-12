@@ -1,7 +1,7 @@
 include:anthropic
+include:bytedance-ai-!cn
 include:cerebras
 include:cursor
-include:dola
 include:elevenlabs
 include:google-deepmind
 include:groq
