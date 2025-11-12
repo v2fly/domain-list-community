@@ -179,7 +179,6 @@ include:category-hospital-cn
 include:category-education-cn
 include:category-scholar-cn
 include:category-wiki-cn
-include:cugbonline
 include:guokr
 include:ihuman
 
@@ -325,10 +324,6 @@ include:chinatower
 
 # OI
 include:category-olympiad-in-informatics
-
-# 语言能力测试
-include:j-test
-include:nat-test
 
 # 在线工具
 itdog.cn # itdog网站工具箱
