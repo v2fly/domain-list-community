@@ -6,7 +6,7 @@ include:jiguang
 include:umeng
 
 # category-httpdns-cn is mainly for advertising purpose
-# include:category-httpdns-cn
+include:category-httpdns-cn
 
 # 号码认证
 # include:category-number-verification-cn
