@@ -6,7 +6,6 @@ include:alibabacloud
 include:amazon
 include:amd
 include:anexia
-include:anthropic
 include:apple
 include:asus
 include:atlassian
@@ -32,7 +31,6 @@ include:giffgaff
 include:gigabyte
 include:godaddy
 include:google
-include:groq
 include:hetzner
 include:hinet
 include:hkbn
@@ -60,12 +58,10 @@ include:mxroute
 include:naver
 include:neuralink
 include:nvidia
-include:openai
 include:openweather
 include:oracle
 include:panasonic
 include:pccw
-include:perplexity
 include:qnap
 include:qualcomm
 include:qwant
@@ -93,7 +89,6 @@ include:westerndigital
 include:wisekey
 include:yahoo
 include:yandex
-include:xai
 
 # Remote Control
 include:category-remote-control
