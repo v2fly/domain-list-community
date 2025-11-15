@@ -136,6 +136,9 @@ porn
 18insta.com
 18j.tv
 18jms.com
+18mh.co
+18mh.me
+18mh.net
 18novel.xyz
 18porncomic.com
 18porno.tv
@@ -237,6 +240,7 @@ porn
 50dh.app
 51cg1.com
 51dh.site
+51lieqi.com
 51luoli.info
 51mh.app
 51pincha.cc
@@ -320,6 +324,9 @@ porn
 88kkn.com
 88manhua.top
 88square.com
+88xkk.com
+88xm.tv
+88xqq.com
 89.com
 8kcosplay.com
 8kpornvids.com
@@ -341,9 +348,12 @@ porn
 91jinman.com
 91md.me
 91moxiong.com
+91nt.com
 91oo.xyz
 91porn.best
+91pornforum.com
 91pornplus.com
+91pornvideo.com
 91porny.com
 91porny.store
 91qk41rf.com
@@ -956,6 +966,7 @@ biguz.net
 bijukujo.club
 bimbim.com
 bimbolive.com
+bingoporno.com
 bioporno.com
 biqle.org
 biqle.ru
@@ -1376,6 +1387,7 @@ diamantewebcam.com
 diamondgirls.co.uk
 diamondgirlstudio.com
 dianapost.com
+diaoda.co
 diarrheafan.livedoor.blog
 dickeomas.com
 dickhardon.com
@@ -1739,6 +1751,7 @@ fetishpapa.com
 fetishpornonly.com
 fetishshrine.com
 fetlife.com
+ffddff.com
 fffucked.com
 fgirl.ch
 fi11.com
@@ -3097,6 +3110,7 @@ llcaoxm-avi.sbs
 llwht88.xyz
 lmm167.shop
 lmmbtc.com
+lms01.com
 lobstertube.com
 localxlist.org
 loholidayhk.com
@@ -4200,6 +4214,7 @@ pp6.info
 ppb-mod.buzz
 ppe.lawyer
 pplah.com
+ppnnpp.com
 ppp91.cc
 prastitutki.ru
 premium-beauty.com
@@ -4280,6 +4295,7 @@ qombol.com
 qooqlevideo.com
 qorno.com
 qporno.xxx
+qq33qq.com
 qqbs.asia
 qqbs.work
 quickiepage.com
@@ -5057,6 +5073,7 @@ tittykings.com
 tkb008.xyz
 tkb2233.life
 tkbqf2.life
+tksex.com
 tktube.com
 tmei-taoyuan.com
 tnaflix.com
@@ -5657,8 +5674,11 @@ xvds.tv
 xvedo.net
 xvideo-jp.com
 xvideo.com
+xvideo.org
 xvideo.run
 xvideo.vlog.br
+xvideo1.org
+xvideo2.org
 xvideoporno.tv
 xvideos.com
 xvideos-dl.top
@@ -5930,6 +5950,7 @@ yy55.tv
 yy7y.com
 yy8y.com
 yyfb.cyou
+yyvhhbmw.cc
 yzld188.top
 z00.world
 z676869.com
@@ -6044,11 +6065,13 @@ regexp:(^|\.)7mm0([0-1][0-9]?)?\.com$
 regexp:(^|\.)8dgo[1-57-9]\.com$
 regexp:(^|\.)91cg([1-9]|[0-9][1-9])?.com$
 regexp:(^|\.)91p[0-9][0-9]?\.com$
-regexp:(^|\.)91porn\.(best|com|cool|group|party|plus|site|tw|work)$
+regexp:(^|\.)91porn\.(best|com|cool|fun|group|party|plus|site|tw|work)$
 regexp:(^|\.)91porn[0-9]{3}\.me$
 regexp:(^|\.)91porn[0-9]?\.store$
+regexp:(^|\.)91porna[1-7]?\.com$
 regexp:(^|\.)91porn[fvxy]\.com$
 regexp:(^|\.)91sew1[1-6]\.buzz$
+regexp:(^|\.)91wang[1-9]\.com$
 regexp:(^|\.)989[a-z]?\.tv$
 regexp:(^|\.)99pp[1-9][0-9]\.com$
 regexp:(^|\.)9cha[0-9]{2}\.cc$
