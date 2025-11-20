@@ -303,12 +303,15 @@ include:yuanbei # 上海圆贝信息科技有限公司
 include:zte
 
 antutu.com # 安兔兔
+avlyun.com # 安天移动安全
 dida365.com # 滴答清单
+huolala.cn # 货拉拉
 huorong.cn # 火绒
 quickapp.cn # 快应用
 roborock.com # 石头科技
 socpk.com # 极客湾移动芯片排行
 udesk.cn # 沃丰科技
+viayoo.com # Via 浏览器
 yinxiang.com # 印象笔记
 
 # 酷控
@@ -360,15 +363,24 @@ ipshu.com # 鄂B2-20110095-1
 fofa.info # Fofa网站测绘（华顺信安）
 onedns.net # OneDNS（微步在线）
 
+# 氪主页
+51kim.com
+zhuye.kim
+# 乐游导航主页
+6-u.com
+# imsYY起始页
+imsyy.com
 # Infinity Pro（浏览器主页）
 infinitynewtab.com
 inftab.com
-
-# 某柠檬导航（浏览器主页）
-moulem.com
-
+# 可可牛导航
+kekeniu.com
 # 青柠起始页
 limestart.cn
+# 某柠檬导航（浏览器主页）
+moulem.com
+# 轻主页
+qzhuye.com
 
 # 街机
 include:aamgame
