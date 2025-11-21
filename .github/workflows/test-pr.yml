@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: code
 
