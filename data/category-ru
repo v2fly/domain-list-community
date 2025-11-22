@@ -1,6 +1,7 @@
 # Russian websites
 
 # Russian TLDs
+moscow
 ru
 su
 xn--80adxhks
@@ -10,6 +11,9 @@ xn--c1avg
 xn--d1acj3b
 xn--p1acf
 xn--p1ai
+
+ru.com
+ru.net
 
 include:category-gov-ru
 
