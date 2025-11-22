@@ -5,8 +5,8 @@ include:cloudns
 include:dynu
 include:noip
 
-duckdns.org
 dpdns.org
+duckdns.org
 nip.io
 sslip.io
 traefik.me
