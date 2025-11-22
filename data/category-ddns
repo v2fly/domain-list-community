@@ -1,0 +1,12 @@
+# Dynamic DNS
+# https://github.com/alexandrosmagos/dyn-dns-list
+
+include:cloudns
+include:dynu
+include:noip
+
+dpdns.org
+duckdns.org
+nip.io
+sslip.io
+traefik.me
