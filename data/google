@@ -21,7 +21,7 @@ include:v8
 include:youtube
 
 # All .and domains
-and
+# and (TLD application withdrawn by Google)
 
 # All .chrome domains
 chrome

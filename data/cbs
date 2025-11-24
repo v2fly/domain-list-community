@@ -1,8 +1,8 @@
-# All .cbs domains
-cbs
+# https://www.iana.org/domains/root/db/cbs.html
+# cbs (Revoked)
 
-# All .showtime domains
-showtime
+# https://www.iana.org/domains/root/db/showtime.html
+# showtime (Revoked)
 
 cbs.com
 cbscorporation.com
