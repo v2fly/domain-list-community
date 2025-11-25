@@ -29,6 +29,7 @@ include:kuaishou-ads
 include:kugou-ads
 include:leanplum-ads
 include:letv-ads
+include:meta-ads
 include:mixpanel-ads
 include:mopub-ads
 include:mxplayer-ads
@@ -62,6 +63,7 @@ include:yahoo-ads
 include:youku-ads
 
 # Other domains for ads serving
+51.la
 51y5.net
 a.adtng.com
 aaxads.com
@@ -173,3 +175,21 @@ iabchina.cn
 # 卓信id
 zxid-api.mobileservice.cn
 zxid-m.mobileservice.cn
+
+# 深演智能
+ipinyou.com
+ipinyou.com.cn
+
+# 智云众 OptAim
+optaim.com
+
+# 加和科技 AddNewer
+reachmax.cn
+
+# 热云数据
+reyun.com
+
+# 诸葛io
+zhugeapi.com
+zhugeapi.net
+zhugeio.com
