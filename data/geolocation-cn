@@ -244,6 +244,20 @@ include:wjx
 include:wolai
 include:zdns
 include:zhangtao
+include:zhubajie
+
+# 中国天气网
+i8tq.com
+tq121.com.cn
+weather.com.cn
+weatherdt.com
+
+# 重庆阅品科技
+tianqi.com
+tianqistatic.com
+
+# TaCool SSL 酷证书
+tacool.com
 
 # 方正字库
 foundertype.com
@@ -297,7 +311,6 @@ include:tongfang
 include:vivo
 include:xiaomi
 include:xunlei
-include:ymtc
 include:youquan # 祐全科技
 include:yuanbei # 上海圆贝信息科技有限公司
 include:zte
@@ -1139,7 +1152,6 @@ ruiwen.com
 runoob.com
 rzrc114.com
 saibo.com
-sanguosha.com
 sanwen.net
 sast.fun
 scdng.com
@@ -1207,7 +1219,6 @@ t1y5.com
 taihe.com
 taihuoniao.com
 tangeche.com
-tanx.com
 tao123.com
 taoche.com
 te5.com
@@ -1215,8 +1226,6 @@ tenxcloud.com
 tianjimedia.com
 tianjin-air.com
 tianlailive.com
-tianqi.com
-tianqistatic.com
 tietuku.com
 tiexue.net
 timedoo.com
@@ -1409,7 +1418,6 @@ z28j.com # 鄂ICP备20002930号-1
 zampda.net
 zampdsp.com
 zastatic.com
-zbjimg.com
 zczj.com
 zdfans.com
 zgjm.org
@@ -1432,7 +1440,6 @@ zhongkao.com
 zhuangjiba.com
 zhuanyewanjia.com
 zhuayoukong.com
-zhubajie.com
 zimuzu.io
 zixiaomao.com
 zixuntop.com
