@@ -246,6 +246,19 @@ include:zdns
 include:zhangtao
 include:zhubajie
 
+# 中国天气网
+i8tq.com
+tq121.com.cn
+weather.com.cn
+weatherdt.com
+
+# 重庆阅品科技
+tianqi.com
+tianqistatic.com
+
+# TaCool SSL 酷证书
+tacool.com
+
 # 方正字库
 foundertype.com
 
@@ -1213,8 +1226,6 @@ tenxcloud.com
 tianjimedia.com
 tianjin-air.com
 tianlailive.com
-tianqi.com
-tianqistatic.com
 tietuku.com
 tiexue.net
 timedoo.com
