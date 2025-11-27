@@ -1,6 +1,7 @@
 include:anthropic
 include:bytedance-ai-!cn
 include:cerebras
+include:comfy
 include:cursor
 include:elevenlabs
 include:google-deepmind
