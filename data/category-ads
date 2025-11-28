@@ -27,7 +27,6 @@ include:iqiyi-ads
 include:jd-ads
 include:kuaishou-ads
 include:kugou-ads
-include:leanplum-ads
 include:letv-ads
 include:meta-ads
 include:mixpanel-ads
@@ -97,6 +96,7 @@ jads.co
 jl3.yjaxa.top
 juicyads.com
 kepler-37b.com
+leanplum.com
 lqc006.com
 moat.com
 moatads.com
