@@ -34,7 +34,6 @@ include:mxplayer-ads
 include:netease-ads
 include:newrelic-ads
 include:ogury-ads
-include:onesignal-ads
 include:ookla-speedtest-ads
 include:openx-ads
 include:pocoiq-ads
@@ -101,6 +100,7 @@ lqc006.com
 moat.com
 moatads.com
 mobwithad.com
+onesignal.com
 realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
