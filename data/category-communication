@@ -11,4 +11,5 @@ include:protonmail
 include:signal
 include:slack
 include:telegram
+include:viber
 include:whatsapp
