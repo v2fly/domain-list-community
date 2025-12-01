@@ -12,3 +12,4 @@ include:signal
 include:slack
 include:telegram
 include:whatsapp
+include:viber
