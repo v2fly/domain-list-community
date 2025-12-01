@@ -5,6 +5,7 @@ include:6park
 include:ck101
 include:dcard
 include:dslreports
+include:habr
 include:hkgolden
 include:lihkg
 include:linuxdo
