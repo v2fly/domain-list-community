@@ -395,9 +395,6 @@ moulem.com
 # 轻主页
 qzhuye.com
 
-# 街机
-include:aamgame
-
 # Others
 include:category-enterprise-query-platform-cn
 include:8btc
