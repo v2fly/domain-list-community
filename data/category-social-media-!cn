@@ -5,6 +5,7 @@ include:facebook
 include:instagram
 include:linkedin
 include:misskey
+include:ok
 include:threads
 include:twitter
 include:vk
