@@ -134,6 +134,9 @@ kfzimg.com
 # 朴朴
 pupuapi.com
 pupumall.com
+# 穷游
+qyer.com
+qyerstatic.com
 # 唯品会
 appsimg.com
 appvipshop.com
@@ -334,9 +337,6 @@ kookong.com
 51togic.com # 泰捷WEBOX
 ezpro.pro # 小马路由
 
-# xEdge干将互联 苏州星汉云联网络技术有限公司 苏ICP备2022017953号
-include:xedge
-
 # Telecommunication
 include:chinabroadnet
 include:chinamobile
@@ -394,9 +394,6 @@ limestart.cn
 moulem.com
 # 轻主页
 qzhuye.com
-
-# 街机
-include:aamgame
 
 # Others
 include:category-enterprise-query-platform-cn
@@ -1143,7 +1140,6 @@ qtmojo.com
 qudong.com
 qugame.com
 qunjielong.com # 桂ICP备14006138号-2
-qyer.com
 rockyenglish.com
 rong360.com
 rtbasia.com
