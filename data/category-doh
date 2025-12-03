@@ -3,388 +3,355 @@
 # AdGuard DNS
 
 ## Default
-dns.adguard.com
-dns.adguard-dns.com
+full:dns.adguard.com
+full:dns.adguard-dns.com
 
 ## Family Protection
-family.adguard-dns.com
+full:family.adguard-dns.com
 
 ## Non-filtering
-unfiltered.adguard-dns.com
+full:unfiltered.adguard-dns.com
 
 # Ali DNS
-dns.alidns.com
+full:dns.alidns.com
 
 # Apple DNS
-doh.dns.apple.com
+full:doh.dns.apple.com
 
 # Caliph DNS
-dns.caliph.dev
+full:dns.caliph.dev
 
 # BebasDNS by BebasID
 
-## Default
-dns.bebasid.com
-
 ## Unfiltered
-dns.bebasid.com
+full:dns.bebasid.com
 
 ## Security
-antivirus.bebasid.com
+full:antivirus.bebasid.com
 
 ## Family
-internetsehat.bebasid.com
-
-## Family With Ad Filtering
-internetsehat.bebasid.com
-
-## OISD Filter
-dns.bebasid.com
-
-## Hagezi Multi Normal Filter
-dns.bebasid.com
+full:internetsehat.bebasid.com
 
 # CFIEC Public DNS
-dns.cfiec.net
+full:dns.cfiec.net
 
 # Cisco OpenDNS
 
 ## Standard
-doh.opendns.com
+full:doh.opendns.com
 
 ## FamilyShield
-doh.familyshield.opendns.com
+full:doh.familyshield.opendns.com
 
 ## Sandbox
-doh.sandbox.opendns.com
+full:doh.sandbox.opendns.com
 
 # CleanBrowsing
-
-## Family Filter
-doh.cleanbrowsing.org
-
-## Adult Filter
-doh.cleanbrowsing.org
-
-## Security Filter
-doh.cleanbrowsing.org
+full:doh.cleanbrowsing.org
 
 # Cloudflare DNS
 
 ## Standard
-one.one.one.one
-dns.cloudflare.com
-cloudflare-dns.com
+full:one.one.one.one
+full:dns.cloudflare.com
+full:cloudflare-dns.com
 
 ## Malware blocking only
-security.cloudflare-dns.com
+full:security.cloudflare-dns.com
 
 ## Malware and adult content blocking
-family.cloudflare-dns.com
+full:family.cloudflare-dns.com
 
 # ControlD
-
-## Non-filtering
-freedns.controld.com
-
-## Block malware
-freedns.controld.com
-
-## Block malware + ads
-freedns.controld.com
-
-## Block malware + ads + social
-freedns.controld.com
+full:freedns.controld.com
 
 # DeCloudUs DNS
-dns.decloudus.com
+full:dns.decloudus.com
 
 # FutureDNS
-futuredns.eu.org
+full:futuredns.eu.org
 
-## Servers
+## Germany
+full:dns.de.futuredns.eu.org
 
-### Germany
-dns.de.futuredns.eu.org
-
-### United States
-dns.us.futuredns.eu.org
+## United States
+full:dns.us.futuredns.eu.org
 
 # DNS.SB (xTom)
 
 ## Global CDN
-doh.dns.sb
-doh.sb
-dns.sb
+full:doh.dns.sb
+full:doh.sb
+full:dns.sb
 
 ## Unicast PoPs
-de-dus.doh.sb
-de-fra.doh.sb
-nl-ams.doh.sb
-uk-lon.doh.sb
-ee-tll.doh.sb
-jp-kix.doh.sb
-jp-nrt.doh.sb
-hk-hkg.doh.sb
-au-syd.doh.sb
-us-chi.doh.sb
-us-nyc.doh.sb
-us-sjc.doh.sb
-in-blr.doh.sb
-sg-sin.doh.sb
-kr-sel.doh.sb
-ru-mow.doh.sb
-ca-yyz.doh.sb
-de-ber.doh.sb
+full:de-dus.doh.sb
+full:de-fra.doh.sb
+full:nl-ams.doh.sb
+full:uk-lon.doh.sb
+full:ee-tll.doh.sb
+full:jp-kix.doh.sb
+full:jp-nrt.doh.sb
+full:hk-hkg.doh.sb
+full:au-syd.doh.sb
+full:us-chi.doh.sb
+full:us-nyc.doh.sb
+full:us-sjc.doh.sb
+full:in-blr.doh.sb
+full:sg-sin.doh.sb
+full:kr-sel.doh.sb
+full:ru-mow.doh.sb
+full:ca-yyz.doh.sb
+full:de-ber.doh.sb
 
 # DNSPod Public DNS+
-doh.pub
-dns.pub
-sm2.doh.pub
+full:doh.pub
+full:dns.pub
+full:sm2.doh.pub
 
 # dns0.eu
-zero.dns0.eu
+full:zero.dns0.eu
 
 # Google DNS
-dns.google
+full:dns.google
 
 # Hurricane Electric Public Recursor
-ordns.he.net
+full:ordns.he.net
 
 # Mullvad
 
 ## Non-filtering
-dns.mullvad.net
+full:dns.mullvad.net
 
 ## Ad blocking
-adblock.dns.mullvad.net
+full:adblock.dns.mullvad.net
 
 ## Ad + malware blocking
-base.dns.mullvad.net
+full:base.dns.mullvad.net
 
 ## Ad + malware + social media blocking
-extended.dns.mullvad.net
+full:extended.dns.mullvad.net
 
 ## Ad + malware + adult + gambling blocking
-family.dns.mullvad.net
+full:family.dns.mullvad.net
 
 ## Ad + malware + adult + gambling + social media blocking
-all.dns.mullvad.net
+full:all.dns.mullvad.net
 
 # NextDNS
 
 ## Ultra-low latency
-dns.nextdns.io
+full:dns.nextdns.io
 
 ## Anycast
-anycast.dns.nextdns.io
+full:anycast.dns.nextdns.io
 
 # OpenBLD.net DNS
 
 ## Adaptive Filtering (ADA)
-ada.openbld.net
+full:ada.openbld.net
 
 ## Strict Filtering (RIC)
-ric.openbld.net
+full:ric.openbld.net
 
 # Quad9 DNS
 
 ## Standard
-dns.quad9.net
+full:dns.quad9.net
 
 ## Unsecured
-dns10.quad9.net
-dns11.quad9.net
+full:dns10.quad9.net
+full:dns11.quad9.net
 
 # Quadrant Security
-doh.qis.io
+full:doh.qis.io
 
 # Rabbit DNS
 
 ## Non-filtering
-dns.rabbitdns.org
+full:dns.rabbitdns.org
 
 ## Security-filtering
-security.rabbitdns.org
+full:security.rabbitdns.org
 
 ## Family-filtering
-family.rabbitdns.org
+full:family.rabbitdns.org
 
 # RethinkDNS
 
 ## Non-filtering
-basic.rethinkdns.com
+full:basic.rethinkdns.com
 
 # 360 Secure DNS
-doh.360.cn
+full:doh.360.cn
 
 # Surfshark DNS
-dns.surfsharkdns.com
+full:dns.surfsharkdns.com
 
 # v.recipes DNS (former 0ms.dev)
-v.recipes
+full:v.recipes
 
 # Wikimedia DNS
-wikimedia-dns.org
+full:wikimedia-dns.org
 
 # **Regional resolvers**
 
 # Applied Privacy DNS
-doh.applied-privacy.net
+full:doh.applied-privacy.net
 
 # CIRA Canadian Shield DNS
 
 ## Private
-private.canadianshield.cira.ca
+full:private.canadianshield.cira.ca
 
 ## Protected
-protected.canadianshield.cira.ca
+full:protected.canadianshield.cira.ca
 
 ## Family
-family.canadianshield.cira.ca
+full:family.canadianshield.cira.ca
 
 ## Geo-blocking bypass
-dns.comss.one
+full:dns.comss.one
 
 ## Geo-blocking bypass with ad filtering
-router.comss.one
+full:router.comss.one
 
 # CZ.NIC ODVR
-odvr.nic.cz
+full:odvr.nic.cz
 
 # Digitale Gesellschaft DNS
-dns.digitale-gesellschaft.ch
+full:dns.digitale-gesellschaft.ch
 
 # DNS for Family
-dns-doh.dnsforfamily.com
+full:dns-doh.dnsforfamily.com
 
 ## Protective resolution
-protective.joindns4.eu
+full:protective.joindns4.eu
 
 ## Protective resolution with child protection
-child.joindns4.eu
+full:child.joindns4.eu
 
 ## Protective resolution with ad blocking
-noads.joindns4.eu
+full:noads.joindns4.eu
 
 ## Protective resolution with child protection and ad blocking
-child-noads.joindns4.eu
+full:child-noads.joindns4.eu
 
 ## Unfiltered resolution
-unfiltered.joindns4.eu
+full:unfiltered.joindns4.eu
 
 # Fondation Restena DNS
-kaitain.restena.lu
+full:kaitain.restena.lu
 
 # IIJ.JP DNS
-public.dns.iij.jp
+full:public.dns.iij.jp
 
 # JupitrDNS
-dns.jupitrdns.com
+full:dns.jupitrdns.com
 
 # LibreDNS
-doh.libredns.gr
+full:doh.libredns.gr
 
 ## Pure Edition
-doh-pure.onedns.net
+full:doh-pure.onedns.net
 
 ## Block Edition
-doh.onedns.net
+full:doh.onedns.net
 
 # SWITCH DNS
-dns.switch.ch
+full:dns.switch.ch
 
 # Taiwan NIC
-dns.twnic.tw
+full:dns.twnic.tw
 
 # UK DNS Privacy Project
-resolver.dnsprivacy.org.uk
+full:resolver.dnsprivacy.org.uk
 
 # Xstl DNS
 
 ## SK Broadband
-dns.seia.io
+full:dns.seia.io
 
 ## Oracle Cloud South Korea
-secondary.dns.seia.io
+full:secondary.dns.seia.io
 
 # Yandex DNS
 
 ## Basic
-common.dot.dns.yandex.net
+full:common.dot.dns.yandex.net
 
 ## Safe
-safe.dot.dns.yandex.net
+full:safe.dot.dns.yandex.net
 
 ## Family
-family.dot.dns.yandex.net
+full:family.dot.dns.yandex.net
 
 # **Small personal resolvers**
 
 # AhaDNS
 
 ## Netherlands
-doh.nl.ahadns.net
+full:doh.nl.ahadns.net
 
 ## Los Angeles
-doh.la.ahadns.net
+full:doh.la.ahadns.net
 
 # Arapurayil
-dns.arapurayil.com
+full:dns.arapurayil.com
 
 # Dandelion Sprout’s Official DNS Server
-dandelionsprout.asuscomm.com
+full:dandelionsprout.asuscomm.com
 
 # DNS Forge
-dnsforge.de
+full:dnsforge.de
 
 # dnswarden
-dns.dnswarden.com
+full:dns.dnswarden.com
 
 # FFMUC DNS
-doh.ffmuc.net
+full:doh.ffmuc.net
 
 # ibksturm DNS
-ibksturm.synology.me
+full:ibksturm.synology.me
 
 # Lelux DNS
-resolver-eu.lelux.fi
+full:resolver-eu.lelux.fi
 
 # Marbled Fennec
-dns.marbledfennec.net
+full:dns.marbledfennec.net
 
 # OSZX DNS
-dns.oszx.co
+full:dns.oszx.co
 
 ## PumpleX
-dns.pumplex.com
+full:dns.pumplex.com
 
 # Privacy-First DNS
 
 ## Singapore DNS Server
-doh.tiarap.org
-doh.tiar.app
+full:doh.tiarap.org
+full:doh.tiar.app
 
 ## Japan DNS Server
-jp.tiarap.org
-jp.tiar.app
+full:jp.tiarap.org
+full:jp.tiar.app
 
 # BlackMagicc DNS
-rx.techomespace.com
+full:rx.techomespace.com
 
 # NWPS.fi DNS
 
 ## Standard
-public.ns.nwps.fi
+full:public.ns.nwps.fi
 
 ## Kids
-kids.ns.nwps.fi
+full:kids.ns.nwps.fi
 
 # ASTRACAT DNS
-frd4wvnobp.cloudflare-gateway.com
+full:frd4wvnobp.cloudflare-gateway.com
 
 # DNSGuard
-dnsguard.pub
+full:dnsguard.pub
 
 # 18Bit DNS
-doh.18bit.cn
+full:doh.18bit.cn
