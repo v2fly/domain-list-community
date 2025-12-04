@@ -1,0 +1,359 @@
+# This is not related with `category-httpdns-cn`
+
+# **Public anycast resolvers**
+
+# AdGuard DNS
+
+## Default
+full:dns.adguard.com
+full:dns.adguard-dns.com
+
+## Family Protection
+full:family.adguard-dns.com
+
+## Non-filtering
+full:unfiltered.adguard-dns.com
+
+# Ali DNS
+full:dns.alidns.com
+
+# Apple DNS
+full:doh.dns.apple.com
+
+# Caliph DNS
+full:dns.caliph.dev
+
+# BebasDNS by BebasID
+
+## Unfiltered
+full:dns.bebasid.com
+
+## Security
+full:antivirus.bebasid.com
+
+## Family
+full:internetsehat.bebasid.com
+
+# CFIEC Public DNS
+full:dns.cfiec.net
+
+# Cisco OpenDNS
+
+## Standard
+full:doh.opendns.com
+
+## FamilyShield
+full:doh.familyshield.opendns.com
+
+## Sandbox
+full:doh.sandbox.opendns.com
+
+# CleanBrowsing
+full:doh.cleanbrowsing.org
+
+# Cloudflare DNS
+
+## Standard
+full:one.one.one.one
+full:dns.cloudflare.com
+full:cloudflare-dns.com
+
+## Malware blocking only
+full:security.cloudflare-dns.com
+
+## Malware and adult content blocking
+full:family.cloudflare-dns.com
+
+# ControlD
+full:freedns.controld.com
+
+# DeCloudUs DNS
+full:dns.decloudus.com
+
+# FutureDNS
+full:futuredns.eu.org
+
+## Germany
+full:dns.de.futuredns.eu.org
+
+## United States
+full:dns.us.futuredns.eu.org
+
+# DNS.SB (xTom)
+
+## Global CDN
+full:doh.dns.sb
+full:doh.sb
+full:dns.sb
+
+## Unicast PoPs
+full:de-dus.doh.sb
+full:de-fra.doh.sb
+full:nl-ams.doh.sb
+full:uk-lon.doh.sb
+full:ee-tll.doh.sb
+full:jp-kix.doh.sb
+full:jp-nrt.doh.sb
+full:hk-hkg.doh.sb
+full:au-syd.doh.sb
+full:us-chi.doh.sb
+full:us-nyc.doh.sb
+full:us-sjc.doh.sb
+full:in-blr.doh.sb
+full:sg-sin.doh.sb
+full:kr-sel.doh.sb
+full:ru-mow.doh.sb
+full:ca-yyz.doh.sb
+full:de-ber.doh.sb
+
+# DNSPod Public DNS+
+full:doh.pub
+full:dns.pub
+full:sm2.doh.pub
+
+# dns0.eu
+full:zero.dns0.eu
+
+# Google DNS
+full:dns.google
+
+# Hurricane Electric Public Recursor
+full:ordns.he.net
+
+# Mullvad
+
+## Non-filtering
+full:dns.mullvad.net
+
+## Ad blocking
+full:adblock.dns.mullvad.net
+
+## Ad + malware blocking
+full:base.dns.mullvad.net
+
+## Ad + malware + social media blocking
+full:extended.dns.mullvad.net
+
+## Ad + malware + adult + gambling blocking
+full:family.dns.mullvad.net
+
+## Ad + malware + adult + gambling + social media blocking
+full:all.dns.mullvad.net
+
+# NextDNS
+
+## Ultra-low latency
+full:dns.nextdns.io
+
+## Anycast
+full:anycast.dns.nextdns.io
+
+# OpenBLD.net DNS
+
+## Adaptive Filtering (ADA)
+full:ada.openbld.net
+
+## Strict Filtering (RIC)
+full:ric.openbld.net
+
+# Quad9 DNS
+
+## Standard
+full:dns.quad9.net
+
+## Unsecured
+full:dns10.quad9.net
+full:dns11.quad9.net
+
+# Quadrant Security
+full:doh.qis.io
+
+# Rabbit DNS
+
+## Non-filtering
+full:dns.rabbitdns.org
+
+## Security-filtering
+full:security.rabbitdns.org
+
+## Family-filtering
+full:family.rabbitdns.org
+
+# RethinkDNS
+
+## Non-filtering
+full:basic.rethinkdns.com
+
+# 360 Secure DNS
+full:doh.360.cn
+
+# Surfshark DNS
+full:dns.surfsharkdns.com
+
+# v.recipes DNS (former 0ms.dev)
+full:v.recipes
+
+# Wikimedia DNS
+full:wikimedia-dns.org
+
+# **Regional resolvers**
+
+# Applied Privacy DNS
+full:doh.applied-privacy.net
+
+# CIRA Canadian Shield DNS
+
+## Private
+full:private.canadianshield.cira.ca
+
+## Protected
+full:protected.canadianshield.cira.ca
+
+## Family
+full:family.canadianshield.cira.ca
+
+## Geo-blocking bypass
+full:dns.comss.one
+
+## Geo-blocking bypass with ad filtering
+full:router.comss.one
+
+# CZ.NIC ODVR
+full:odvr.nic.cz
+
+# Digitale Gesellschaft DNS
+full:dns.digitale-gesellschaft.ch
+
+# DNS for Family
+full:dns-doh.dnsforfamily.com
+
+## Protective resolution
+full:protective.joindns4.eu
+
+## Protective resolution with child protection
+full:child.joindns4.eu
+
+## Protective resolution with ad blocking
+full:noads.joindns4.eu
+
+## Protective resolution with child protection and ad blocking
+full:child-noads.joindns4.eu
+
+## Unfiltered resolution
+full:unfiltered.joindns4.eu
+
+# Fondation Restena DNS
+full:kaitain.restena.lu
+
+# IIJ.JP DNS
+full:public.dns.iij.jp
+
+# JupitrDNS
+full:dns.jupitrdns.com
+
+# LibreDNS
+full:doh.libredns.gr
+
+## Pure Edition
+full:doh-pure.onedns.net
+
+## Block Edition
+full:doh.onedns.net
+
+# SWITCH DNS
+full:dns.switch.ch
+
+# Taiwan NIC
+full:dns.twnic.tw
+
+# UK DNS Privacy Project
+full:resolver.dnsprivacy.org.uk
+
+# Xstl DNS
+
+## SK Broadband
+full:dns.seia.io
+
+## Oracle Cloud South Korea
+full:secondary.dns.seia.io
+
+# Yandex DNS
+
+## Basic
+full:common.dot.dns.yandex.net
+
+## Safe
+full:safe.dot.dns.yandex.net
+
+## Family
+full:family.dot.dns.yandex.net
+
+# **Small personal resolvers**
+
+# AhaDNS
+
+## Netherlands
+full:doh.nl.ahadns.net
+
+## Los Angeles
+full:doh.la.ahadns.net
+
+# Arapurayil
+full:dns.arapurayil.com
+
+# Dandelion Sprout’s Official DNS Server
+full:dandelionsprout.asuscomm.com
+
+# DNS Forge
+full:dnsforge.de
+
+# dnswarden
+full:dns.dnswarden.com
+
+# FFMUC DNS
+full:doh.ffmuc.net
+
+# ibksturm DNS
+full:ibksturm.synology.me
+
+# Lelux DNS
+full:resolver-eu.lelux.fi
+
+# Marbled Fennec
+full:dns.marbledfennec.net
+
+# OSZX DNS
+full:dns.oszx.co
+
+## PumpleX
+full:dns.pumplex.com
+
+# Privacy-First DNS
+
+## Singapore DNS Server
+full:doh.tiarap.org
+full:doh.tiar.app
+
+## Japan DNS Server
+full:jp.tiarap.org
+full:jp.tiar.app
+
+# BlackMagicc DNS
+full:rx.techomespace.com
+
+# NWPS.fi DNS
+
+## Standard
+full:public.ns.nwps.fi
+
+## Kids
+full:kids.ns.nwps.fi
+
+# ASTRACAT DNS
+full:frd4wvnobp.cloudflare-gateway.com
+
+# DNSGuard
+full:dnsguard.pub
+
+# 18Bit DNS
+full:doh.18bit.cn
