@@ -9,6 +9,21 @@ include:shanbay
 include:xueersi
 include:yuanfudao
 
+# 雨课堂
+include:yuketang
+## 雨豆课堂
+yudou.cn
+## 雨实验
+yushiyan.net
+## 学堂在线
+xuetangx.com
+
+edu.cn
+
+# 国家智慧教育公共服务平台
+cbern.com.cn
+smartedu.cn
+
 # 教育部学生服务与素质发展中心
 # 京ICP备19004913号
 cedf.cn
@@ -38,109 +53,70 @@ qgzb.net
 zbbm.gov.cn
 zbbm.net
 
-# 国家智慧教育公共服务平台
-cbern.com.cn
-smartedu.cn
-
-# 中国地质大学 继续教育学院
-cugbonline.cn
-
-# 智慧树
-zhihuishu.com
-
-# 日语测试
-j-test.com
-nattest-china.com
-
-# 雨课堂
-include:yuketang
-
-## 雨豆课堂
-yudou.cn
-
-## 雨实验
-yushiyan.net
-
-## 学堂在线
-xuetangx.com
-
-# 时代行云
-x-cloud.cc
-
-# 学科网
-xkw.com
-zxxk.com
-
-# 第二教育网
-dearedu.com
-
-# 快对作业
-kuaiduizuoye.com
-
-# 流利说
-liulishuo.com
-llsapp.com
-llscdn.com
-llsserver.com
-
-# 百词斩
-baicizhan.com
-baicizhan.org
-bczcdn.com
-bczeducation.cn
-
-# 小站教育
-zhan.com
-
-# Burning Vocabulary
-burningvocabulary.cn
-burningvocabulary.com
-
-# 莞教通
-dgjy.net
-
 # 云校
 91yunxiao.com
-
 # 爱云校/好分数
 aiyunxiao.com
 haofenshu.com
 iyunxiao.com
 yunxiao.com
-
-# 课播云校
-keboyunxiao.com
-
-# 课堂派
-ketangpai.com
-
-# 批改网
-pigai.org
-
-# 未来云校
-weilaiyunxiao.com
-
-# 马哥教育
-magedu.com
-
-# 老男孩教育
-oldboyedu.com
-
+# 百词斩
+baicizhan.com
+baicizhan.org
+bczcdn.com
+bczeducation.cn
+# Burning Vocabulary
+burningvocabulary.cn
+burningvocabulary.com
+# 世纪外语网
+centuryenglish.com
+# 中国地质大学 继续教育学院
+cugbonline.cn
+# 第二教育网
+dearedu.com
+# 莞教通
+dgjy.net
 # 在职研究生教育信息网
 eduei.com
-
-edu.cn
-
-# “叶圣陶杯”全国中学生新作文大赛
-ystbds.com
-
+# 日语测试
+j-test.com
+nattest-china.com
+# 课播云校
+keboyunxiao.com
+# 课堂派
+ketangpai.com
+# 快对作业
+kuaiduizuoye.com
+# 流利说
+liulishuo.com
+llsapp.com
+llscdn.com
+llsserver.com
+# 马哥教育
+magedu.com
 # CIS NanoMasters
-# 粤ICP备2022138914号
 neoscholar.com
 neoschool.com
-
-# 北京嘉瑞新创教育咨询有限公司 京ICP备2020046790号-3
-winyoungreading.com
-
-# 公考知识库 黔ICP备2024035854号
+# 老男孩教育
+oldboyedu.com
+# 批改网
+pigai.org
+# 公考知识库
 saduck.top
+# 未来云校
+weilaiyunxiao.com
+# 北京嘉瑞新创教育咨询有限公司
+winyoungreading.com
+# 时代行云
+x-cloud.cc
+# 学科网
+xkw.com
+zxxk.com
+# 云助学
+yunzhuxue.com
+# “叶圣陶杯”全国中学生新作文大赛
+ystbds.com
+# 小站教育
+zhan.com
+# 智慧树
+zhihuishu.com

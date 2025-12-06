@@ -1,5 +1,28 @@
 # List of all domains that have access point in China mainland
 
+# Automobiles
+include:category-automobile-cn
+# Blogs
+include:category-blog-cn
+# Software development related
+include:category-dev-cn
+# Electronic
+include:category-electronic-cn
+# Entertainment & Videos & Games & Music & Podcasts
+include:category-entertainment-cn
+# 餐饮类
+include:category-food-cn
+# Hospitals
+include:category-hospital-cn
+# 快递物流
+include:category-logistics-cn
+# Media & News & Press
+include:category-media-cn
+# Network Security
+include:category-network-security-cn
+# Social Media
+include:category-social-media-cn
+
 # Advertisment & Analytics
 include:getui
 include:jiguang
@@ -10,9 +33,6 @@ include:category-httpdns-cn
 
 # 号码认证
 # include:category-number-verification-cn
-
-# AI
-include:category-ai-cn
 
 # Aviation
 include:airchina # 中国国际航空
@@ -54,21 +74,6 @@ include:taikang
 
 hsqh.net # 徽商期货有限责任公司
 
-# Blogs
-include:category-blog-cn
-
-# 餐饮类
-include:category-food-cn
-
-# 快递物流
-include:category-logistics-cn
-
-# Electronic
-include:category-electronic-cn
-
-# 汽车
-include:category-automobile-cn
-
 # CDN or SDWAN
 include:aws-cn
 include:bootcdn
@@ -104,7 +109,6 @@ pkoplink.com
 
 funcdn.com
 knet.cn # 北龙中网
-leigod.cn
 
 # E-commerce
 include:58tongcheng
@@ -147,12 +151,6 @@ manmanbuy.com
 # 瞎买
 xiamai.net
 
-# Entertainment & Videos & Games & Music & Podcasts
-include:category-entertainment-cn
-
-# Game Accelerator
-include:category-game-accelerator-cn
-
 # Forums
 include:b3log
 include:kechuang
@@ -165,21 +163,24 @@ chinadsl.net # 宽带技术网
 chiphell.com # ChipHell
 chongbuluo.com # 虫部落
 erji.net # 耳机网
+ezpro.pro # 小马路由
 itpub.net # ITPUB技术论坛
 itsk.com # IT天空论坛
+jandan.net # 煎蛋
 kafan.cn # 卡饭论坛
 kanxue.com # 看雪
 kdslife.com # 宽带山
-jandan.net # 煎蛋
 klpbbs.com # 苦力怕论坛
 mala.cn # 麻辣社区
 mcbbs.net # MCBBS论坛
 pcbeta.com # 远景论坛
 right.com.cn # 恩山论坛
+touying.com # 投影网
 txrjy.com # 通信人家园
 uiwow.com # 魔兽有爱论坛
 wuyou.net # 无忧启动论坛
 x-station.cn # X电站
+znds.com # 智能电视网
 
 423down.com # 423Down
 acwifi.net # 路由器技术分享
@@ -191,34 +192,27 @@ moyubuluo.com # 墨鱼部落格 鲁ICP备16022801号-9
 upe.net # 优启通官网（IT天空）
 winos.me # WINOS 精简社区
 
-# Media & News & Press
-include:category-media-cn
-
-# Netdisk
-include:category-netdisk-cn
-
-# Network Security
-include:category-network-security-cn
-
-# Organizations
-include:category-hospital-cn
-
 # Science & Technology & Knowledge & Scholar & Press & E-learning & Education
 include:category-education-cn
+include:category-olympiad-in-informatics
 include:category-scholar-cn
 include:category-wiki-cn
 include:guokr
 include:ihuman
 
 # Services & Softwares
-include:51job
-include:afdian
-include:agora
+include:category-ai-cn
 include:category-collaborate-cn
 include:category-documents-cn
+include:category-enterprise-query-platform-cn
+include:category-game-accelerator-cn
+include:category-netdisk-cn
 include:category-ntp-cn
 include:category-outsource-cn
 
+include:51job
+include:afdian
+include:agora
 include:capitalonline
 include:chinaso
 include:chinaz
@@ -251,35 +245,46 @@ include:zdns
 include:zhangtao
 include:zhubajie
 
-# 中国天气网
+## 安兔兔
+antutu.com
+## BOSS 直聘
+bosszhipin.com
+zhipin.com
+# 当贝
+dangbei.com
+dangbei.net
+## 酷控
+deepepg.com
+kookong.com
+## 滴答清单
+dida365.com
+## 快应用
+hapjs.org
+quickapp.cn
+## 货拉拉
+huolala.cn
+## 火绒
+huorong.cn
+## 中国天气网
 i8tq.com
 tq121.com.cn
 weather.com.cn
 weatherdt.com
-
-# 重庆阅品科技
+## 重庆阅品科技
 tianqi.com
 tianqistatic.com
-
-# TaCool SSL 酷证书
-tacool.com
-
-# 方正字库
+## 方正字库
 foundertype.com
-
-# BOSS 直聘
-zhipin.com
-bosszhipin.com
-
-zhaopin.cn # 智联招聘
-moseeker.com # 仟寻招聘
-
-
-# Social Media
-include:category-social-media-cn
-
-# Software development related
-include:category-dev-cn
+## 仟寻招聘
+moseeker.com
+## TaCool SSL 酷证书
+tacool.com
+## Via 浏览器
+viayoo.com
+## 印象笔记
+yinxiang.com
+## 智联招聘
+zhaopin.cn
 
 # Tech companies & Orginations
 include:aisiku # 北京艾斯酷科技有限公司
@@ -320,28 +325,12 @@ include:youquan # 祐全科技
 include:yuanbei # 上海圆贝信息科技有限公司
 include:zte
 
-antutu.com # 安兔兔
+51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
-dida365.com # 滴答清单
-huolala.cn # 货拉拉
-huorong.cn # 火绒
 jamcz.com # 晨钟网络科技
 roborock.com # 石头科技
 socpk.com # 极客湾移动芯片排行
 udesk.cn # 沃丰科技
-viayoo.com # Via 浏览器
-yinxiang.com # 印象笔记
-
-# 快应用
-quickapp.cn
-hapjs.org
-
-# 酷控
-deepepg.com
-kookong.com
-
-51togic.com # 泰捷WEBOX
-ezpro.pro # 小马路由
 
 # Telecommunication
 include:chinabroadnet
@@ -351,9 +340,6 @@ include:chinaunicom
 
 # 中国铁塔
 include:chinatower
-
-# OI
-include:category-olympiad-in-informatics
 
 # 在线工具
 itdog.cn # itdog网站工具箱
@@ -382,27 +368,27 @@ ipshu.com # 鄂B2-20110095-1
 fofa.info # Fofa网站测绘（华顺信安）
 onedns.net # OneDNS（微步在线）
 
-# 氪主页
+# 主页导航
+## 氪主页
 51kim.com
 zhuye.kim
-# 乐游导航主页
+## 乐游导航主页
 6-u.com
-# imsYY起始页
+## imsYY起始页
 imsyy.com
-# Infinity Pro（浏览器主页）
+## Infinity Pro
 infinitynewtab.com
 inftab.com
-# 可可牛导航
+## 可可牛导航
 kekeniu.com
-# 青柠起始页
+## 青柠起始页
 limestart.cn
-# 某柠檬导航（浏览器主页）
+## 某柠檬导航
 moulem.com
-# 轻主页
+## 轻主页
 qzhuye.com
 
 # Others
-include:category-enterprise-query-platform-cn
 include:8btc
 include:jibencaozuo
 include:sinopec
@@ -424,8 +410,6 @@ cma.gov.cn
 cma.cn
 # 中央气象台
 nmc.cn
-# 央广网
-cnr.cn
 
 # 青年大学习
 ## 北京中青在线网络信息技术有限公司 (京ICP备16062000号)
@@ -721,7 +705,6 @@ dajiabao.com
 dajie.com
 dajieimg.com
 dalongyun.com
-dangbei.com
 danji100.com
 danji6.com
 daocloud.io
@@ -1114,7 +1097,6 @@ pgzs.com
 pharmacodia.com
 piaoliang.com
 pingplusplus.com
-pingwest.com
 pingxx.com
 pintu360.com
 pipaw.com
@@ -1506,9 +1488,6 @@ trustie.net
 # 温州市图书馆 浙ICP备11032910号-3
 wzlib.cn
 
-#上海教育出版社有限公司 世纪外语网 沪ICP备17045211号 沪公网安备 31010402003995号
-centuryenglish.com
-
 # 浙江御鹿电子科技有限公司 麦瑞克健身设备 & 超燃脂APP 浙ICP备2021003090号-2
 merach.com
 
@@ -1518,9 +1497,6 @@ taichuan.net
 
 # 江苏健康通
 jsehealth.com
-
-# 云助学 浙ICP备19032270号-2
-yunzhuxue.com
 
 # 拓竹科技
 bambulab.com
