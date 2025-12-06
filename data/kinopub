@@ -6,4 +6,4 @@ gfw.ovh # sub domains mirror
 mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh
 
 # kinopub CDN servers
-regexp:(\w+)-static-[0-9]+\.cdntogo\.net$ 
+regexp:(\w+)-static-[0-9]+\.cdntogo\.net$
