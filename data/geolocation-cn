@@ -58,13 +58,15 @@ include:yunfanjiasu
 
 ## 百家云
 baijiayun.com
+## 123 云盘 CDN
+cjjd19.com
 ## 明源云
 fdcyun.com
 mingyuanyun.com
 mypaas.com
 mypaas.com.cn
 myypark.com
-# FUNCDN
+## FUNCDN
 funcdn.com
 ## 即刻雾联（北京）
 ## https://github.com/v2fly/domain-list-community/pull/1352#issuecomment-1345476790
@@ -98,6 +100,8 @@ include:vancl
 include:youzan
 include:ziroom
 
+## 无忧易售
+51selling.com
 ## 唯品会
 appsimg.com
 appvipshop.com
@@ -114,12 +118,19 @@ kongfz.com
 kfzimg.com
 ## 慢慢买
 manmanbuy.com
+## 美物清单
+maxonesoft.com
+meiwulist.com
+## OZONBIGSELL分析产品系统
+ozonbigsell.com
 ## 朴朴
 pupuapi.com
 pupumall.com
 ## 穷游
 qyer.com
 qyerstatic.com
+## Ru-seer 俄罗斯卖家助手
+ruseer.com
 ## 瞎买
 xiamai.net
 
@@ -173,6 +184,8 @@ dxy.cn
 dxycdn.com
 ## 江苏健康通
 jsehealth.com
+## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
+mingxuan.store
 
 # Public transportation
 include:airchina # 中国国际航空
@@ -192,17 +205,19 @@ tibetairlines.com.cn # 西藏航空
 travelskymobile.cn # 信天游（航空电子客票验真）
 variflight.com # 飞常准
 xiamenair.com # 厦门航空
-
+## Railway
+12306.cn
+95306.cn
+ccrgt.com
+## 跨境巴士
+kuajing84.com
+## 宁停车
+ningtingche.com
 ## 航旅纵横
 umetrip.com
 umetrip.com.cn
 umetrip.net.cn
 ume-trip.cn
-
-## Railway
-12306.cn
-95306.cn
-ccrgt.com
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning & Education
 include:category-education-cn
@@ -224,6 +239,8 @@ cyol.com
 webterren.com
 ## 志愿汇
 zyh365.com
+## 温州市图书馆
+wzlib.cn
 
 # Services & Softwares
 include:category-ai-cn
@@ -275,6 +292,9 @@ include:zhubajie
 7moor.com
 ## 安兔兔
 antutu.com
+## 拓竹科技
+bambulab.com
+bblmw.com
 ## BOSS 直聘
 bosszhipin.com
 zhipin.com
@@ -365,10 +385,23 @@ include:zte
 
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
+hisensehitachi.com # 海信日立官网
 jamcz.com # 晨钟网络科技
 roborock.com # 石头科技
 socpk.com # 极客湾移动芯片排行
+suzuki-china.com # 铃木中国官网
 udesk.cn # 沃丰科技
+
+# 稿定（厦门）信息服务有限公司
+## 花瓣网 闽ICP备2021013850号
+huaban.com
+huabanimg.com
+## 闽ICP备12002004号
+dancf.com
+hlgdata.com
+huanleguang.com
+ttxsapp.com.cn
+xsbapp.cn
 
 # Telecommunication
 include:chinabroadnet
@@ -764,7 +797,6 @@ duomai.com
 duoshuo.com
 duote.com
 dxpmedia.com
-dxycdn.com
 dyhjw.com
 dzdvip.com
 dzsc.com
@@ -1458,24 +1490,8 @@ vzuu.com
 zoom3g.com
 zoomyou.cn
 
-# 稿定（厦门）信息服务有限公司
-## 花瓣网 闽ICP备2021013850号
-huaban.com
-huabanimg.com
-## 闽ICP备12002004号
-dancf.com
-hlgdata.com
-huanleguang.com
-ttxsapp.com.cn
-xsbapp.cn
-
 # 酷家乐 杭州群核信息技术有限公司 浙ICP备12022366号-6
 kujiale.com
-
-# 海信日立官网
-hisensehitachi.com
-# 铃木中国官网
-suzuki-china.com
 
 # 建始网 鄂ICP备05004864号-1
 jsw118.com
@@ -1494,9 +1510,6 @@ educoder.net
 tokcoder.com
 trustie.net
 
-# 温州市图书馆 浙ICP备11032910号-3
-wzlib.cn
-
 # 浙江御鹿电子科技有限公司 麦瑞克健身设备 & 超燃脂APP 浙ICP备2021003090号-2
 merach.com
 
@@ -1504,19 +1517,8 @@ merach.com
 taichuan.com
 taichuan.net
 
-# 拓竹科技
-bambulab.com
-bblmw.com
-
 # 中国石油支付宝小程序
 95504test.com
-
-# 123 云盘 CDN
-cjjd19.com
-
-# 美物清单
-maxonesoft.com
-meiwulist.com
 
 # 北京鸿合智能系统股份有限公司
 hitevision-solutions.com
@@ -1527,24 +1529,12 @@ jslife.net
 # 南海控股有限公司
 nanhaicorp.com
 
-# 跨境巴士 粤ICP备18102556号
-kuajing84.com
-
-# ozonbigsell 闽ICP备2023012501号-1
-ozonbigsell.com
-
 # 深圳市金易桥科技有限公司 粤ICP备2023069807号
 ozonabc.com
 
 # 青萍科技（北京）有限公司深圳分公司 粤ICP备19156805号-1
 qingping.co
 cleargrass.com
-
-# 无忧易售 粤ICP备18054020号
-51selling.com
-
-# Ru-seer 俄罗斯卖家助手 粤ICP备2023020424号
-ruseer.com
 
 # 布丁猫(岩池科技)
 # 黑ICP备2024018807号
@@ -1553,12 +1543,6 @@ bdmyandex.com
 # 黑ICP备2022002729号
 bdcat.top
 puddingcat.top
-
-# 宁停车
-ningtingche.com
-
-# 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
-mingxuan.store
 
 # 海南东勤网络科技有限公司 琼ICP备18003843号
 qunliao.info
