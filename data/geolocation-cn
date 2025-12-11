@@ -40,8 +40,14 @@ include:everbright
 include:pingan
 include:taikang
 
-cc-pay.cn # 航财通·校园付
-hsqh.net # 徽商期货有限责任公司
+## 航财通·校园付
+cc-pay.cn
+## 徽商期货有限责任公司
+hsqh.net
+## 上海陆金所
+lu.com
+lufax.com
+lufaxcdn.com
 
 # CDN or SDWAN
 include:aws-cn
@@ -59,6 +65,9 @@ include:yunfanjiasu
 
 ## 百家云
 baijiayun.com
+## 创世云
+chuangcache.com
+chuangcdn.com
 ## 123 云盘 CDN
 cjjd19.com
 ## 明源云
@@ -118,6 +127,9 @@ dmallcdn.com
 ## 微店
 geilicdn.com
 weidian.com
+## 聚美优品
+jmstatic.com
+jumei.com
 ## 孔夫子旧书网
 kongfz.com
 kfzimg.com
@@ -242,6 +254,9 @@ zzdtec.com
 cyol.com
 ### 北京天润基业科技发展股份有限公司
 webterren.com
+## 国学大师网
+guoxuedashi.com
+guoxuemi.com
 ## 志愿汇
 zyh365.com
 ## 温州市图书馆
@@ -330,6 +345,9 @@ zhangyue01.com
 zhangyuecdn.com
 ## 小能智慧云客服
 ntalker.com
+## 心知天气
+sencdn.com
+seniverse.com
 ## 重庆阅品科技
 tianqi.com
 tianqistatic.com
@@ -337,6 +355,8 @@ tianqistatic.com
 foundertype.com
 ## 仟寻招聘
 moseeker.com
+## OneDNS 微步在线
+onedns.net
 ## 智齿客服
 sobot.com
 soboten.com
@@ -416,31 +436,20 @@ include:chinatower
 include:chinaunicom
 
 # 在线工具
-itdog.cn # itdog网站工具箱
-webmasterhome.cn # 站长之家
-
-# 在线工具书
-guoxuedashi.com
-guoxuemi.com
-
-# IPIP ip地理位置数据库
-include:ipip
-
-# ip138查询网
-ip138.com
-ipshudi.com
+include:ipip # IPIP ip地理位置数据库
 
 chaziyu.com # 滇ICP备2024035496号
+fofa.info # Fofa网站测绘（华顺信安）
 icplishi.com # 粤ICP备20009057号
+ip138.com # ip138查询网
 ipchaxun.com # 滇ICP备2024035496号
 ipchaxun.net # 粤ICP备20009057号
-rdnsdb.com # 闽ICP备15009794号
-
 ipplus360.com # 豫ICP备17017462号-1 埃文科技
 ipshu.com # 鄂B2-20110095-1
-
-fofa.info # Fofa网站测绘（华顺信安）
-onedns.net # OneDNS（微步在线）
+ipshudi.com # IP属地查询
+itdog.cn # itdog网站工具箱
+rdnsdb.com # 闽ICP备15009794号
+webmasterhome.cn # 站长之家
 
 # 主页导航
 ## 氪主页
@@ -647,7 +656,6 @@ baixing.com
 baixing.net
 bamenzhushou.com
 bangongziyuan.com
-baofeng.com
 baoxianshichang.com
 bearychat.com
 beihaidc.com
@@ -717,7 +725,6 @@ chinaweiyu.com
 chinawutong.com
 chinazns.com
 chouti.com
-chuangcdn.com
 chuangxin.com
 chuansong.me
 chuansongme.com
@@ -806,7 +813,6 @@ dyhjw.com
 dzdvip.com
 dzsc.com
 dzw3.com
-dzwww.com
 easesale.com
 easiu.com
 eastday.com
@@ -973,12 +979,10 @@ jinianbi.com
 jinrongren.net
 jinse.com
 jinti.com
-jiqizhixin.com
 jisuxia.com
 jiuzhilan.com
 jj20.com
 jkbl.com
-jmstatic.com
 job5588.com
 job910.com
 jobjm.com
@@ -986,7 +990,6 @@ jsrdgg.com
 jsyks.com
 juefeng.com
 julive.com
-jumei.com
 juwan.com
 juxia.com
 jyimg.com
@@ -1051,9 +1054,6 @@ longre.com
 longzhu.com
 lotpc.com
 loupan.com
-lu.com
-lufax.com
-lufaxcdn.com
 lunwengo.net
 luyouqi.com
 lvmama.com
@@ -1192,8 +1192,6 @@ scdng.com
 scoregg.com
 sczsxx.com
 sdo.com
-sencdn.com
-seniverse.com
 senlinjimore.com # 鲁ICP备20001333号 森林集
 sgamer.com
 shang360.com
