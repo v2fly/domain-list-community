@@ -31,6 +31,7 @@ include:kugou-ads
 include:letv-ads
 include:meta-ads
 include:mopub-ads
+include:msn-ads
 include:mxplayer-ads
 include:netease-ads
 include:newrelic-ads
@@ -57,7 +58,7 @@ include:xhamster-ads
 include:xiaomi-ads
 include:ximalaya-ads
 include:yahoo-ads
-include:youku-ads
+include:zhihu-ads
 
 # Other domains for ads serving
 51.la
