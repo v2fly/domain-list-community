@@ -46,12 +46,8 @@ yeshen.com
 
 # 17K小说
 17k.com
-# 3DM游戏网
-3dmgame.com
 # https://github.com/supzhang/epg
 51zmt.top
-# 游侠网
-ali213.net
 # 暴风影音
 baofeng.com
 baofeng.net
@@ -109,3 +105,47 @@ zhanqi.tv
 zhulang.com
 # 纵横小说
 zongheng.com
+
+# 娱乐资讯媒体
+
+include:tgbus
+include:vgtime
+
+## 17173网
+17173.com
+## 18183网
+18183.com
+## 3DM游戏网
+3dmgame.com
+## 游侠网
+ali213.net
+## 竞核
+cgames.com
+## 触乐
+chuapp.com
+## DataEye
+dataeye.com
+## GameDiary
+gamediary.cn
+## GameLook
+gamelook.com.cn
+## GameRes游资网
+gameres.com
+## 游戏价值论
+gamewower.com
+## 机核
+gcores.com
+## IGN中国
+ign.com.cn
+## 手游那点事
+nadianshi.com
+## 游戏日报
+news.yxrb.net
+## 游戏机实用技术
+ucg.cn
+## 游戏茶馆
+youxichaguan.com
+## 游戏葡萄
+youxiputao.com
+## 游研社
+yystv.cn
