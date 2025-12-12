@@ -97,6 +97,9 @@ full:ubisoftconnect.cdn.ubi.com
 full:ubisoftconnect.eo-edgefunctions7.com @cn
 full:uplaypc-s-ubisoft.cdn.ubionline.com.cn @cn
 
+# Ubisoft Connect(Uplay) - 游戏下载-AkamaiCN(中国大陆地区)
+full:uplaypc-s-ubisoft.cdn.ubionline.com.cn @cn
+
 # EA Desktop - 游戏下载[akamai-CDN]
 full:origin-a.akamaihd.net
 
