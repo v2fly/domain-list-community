@@ -434,6 +434,7 @@ include:chinamobile
 include:chinatelecom
 include:chinatower
 include:chinaunicom
+miit.gov.cn
 
 # 在线工具
 include:ipip # IPIP ip地理位置数据库
