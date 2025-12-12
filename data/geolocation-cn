@@ -51,6 +51,7 @@ lufaxcdn.com
 
 # CDN or SDWAN
 include:aws-cn
+include:baishancloud
 include:bootcdn
 include:cloudflare-cn
 include:dwion
