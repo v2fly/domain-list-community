@@ -3,7 +3,7 @@ full:download.cdp.bethesda.net
 full:content.cdp.bethesda.net
 
 # Roti - 游戏更新/下载
-full:gamedownloads-rockstargames-com.akamaized.net
+full:lion.secure.dyn.riotcdn.net
 full:lol.secure.dyn.riotcdn.net
 full:ks-foundation.secure.dyn.riotcdn.net
 full:riot-client.secure.dyn.riotcdn.net
@@ -64,6 +64,7 @@ full:blzdist-wow.necdn.leihuo.netease.com @cn
 full:blzdist-hs.necdn.leihuo.netease.com @cn
 full:blzdist-di.necdn.leihuo.netease.com @cn
 full:blzdist-ow.necdn.leihuo.netease.com @cn
+full:blzdist-d3.necdn.leihuo.netease.com @cn
 
 # GOG - 客户端更新/游戏下载[Akamai]
 full:gog-cdn.akamaized.net
@@ -93,11 +94,18 @@ full:uplaypc-s-ubisoft.cdn.ubi.com
 full:uplaypc-s-ubisoft-ww.cdn.ubi.com
 full:ubisoftconnect.cdn.ubi.com
 
-# Ubisoft Connect(Uplay) - 游戏下载(中国大陆地区)
+# Ubisoft Connect(Uplay) - 游戏下载-腾讯云(中国大陆地区)
+full:ubisoftconnect.eo-edgefunctions7.com @cn
+full:uplaypc-s-ubisoft.cdn.ubionline.com.cn @cn
+
+# Ubisoft Connect(Uplay) - 游戏下载-AkamaiCN(中国大陆地区)
 full:uplaypc-s-ubisoft.cdn.ubionline.com.cn @cn
 
 # EA Desktop - 游戏下载[akamai-CDN]
 full:origin-a.akamaihd.net
+
+# EA Desktop - 游戏下载[Cloudflare-CDN]
+full:prod.cloudflare.cdn.ea.com
 
 # Steam - 游戏下载(中国区)[新流云]
 full:dl.steam.clngaa.com @cn
