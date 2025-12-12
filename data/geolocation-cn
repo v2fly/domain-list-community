@@ -204,11 +204,18 @@ jsehealth.com
 ## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
 
+# Party and government offices & Public units
+gov.cn
+## 中国气象局
+cma.cn
+## 中央气象台
+nmc.cn
+
 # Public transportation
 include:airchina # 中国国际航空
 include:hainanairlines # 海南航空
 
-caac.gov.cn # 中国民航局
+# 中国民航局 caac.gov.cn
 ceair.com # 中国东方航空
 chinaexpressair.com # 华夏航空
 csair.com # 中国南方航空
@@ -480,13 +487,6 @@ include:sinopec
 # 应城门户网站
 chugou360.com
 ycrx360.com
-
-# 中国气象局政府门户网站
-cma.gov.cn
-# 中国气象局
-cma.cn
-# 中央气象台
-nmc.cn
 
 # The following domains are carried over from geosite:cn.
 # TODO: Decide how to deal with these domains
