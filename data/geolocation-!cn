@@ -78,7 +78,12 @@ include:category-ecommerce
 include:anandtech
 include:betterexplained
 include:brilliant
-include:category-scholar-!cn
+
+# The following line should not be included by default,
+# as it could ruin the out-of-box experience for the people
+# who most likely need this category.
+# include:category-scholar-!cn
+
 include:cern
 include:chinapower
 include:cnet
