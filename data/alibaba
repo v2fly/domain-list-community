@@ -10,6 +10,7 @@ taobao
 # All .tmall domains
 tmall
 
+include:9game
 include:alibaba-ads
 include:alibabacloud
 include:aliyun
@@ -25,7 +26,6 @@ include:youku
 25pp.com
 56che.com
 95095.com
-9game.cn
 ali-health.com
 aliapp.org
 alibaba-inc.com
