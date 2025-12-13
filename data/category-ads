@@ -30,8 +30,8 @@ include:kuaishou-ads
 include:kugou-ads
 include:letv-ads
 include:meta-ads
+include:microsoft-ads
 include:mopub-ads
-include:msn-ads
 include:mxplayer-ads
 include:netease-ads
 include:newrelic-ads
