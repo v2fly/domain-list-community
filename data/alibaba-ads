@@ -1,3 +1,4 @@
+include:amap-ads
 include:youku-ads
 
 a.alimama.cn @ads
@@ -10,7 +11,6 @@ adash.man.aliyuncs.com @ads
 adashbc.m.taobao.com @ads
 adashbc.ut.taobao.com @ads
 adashx.m.taobao.com @ads
-adashx.ut.amap.com @ads
 adashx.ut.ele.me @ads
 adashx4ae.ut.taobao.com @ads
 adashx4yt.m.taobao.com @ads
@@ -38,7 +38,6 @@ retcode.taobao.com @ads
 tce.alicdn.com @ads
 tns.simba.taobao.com @ads
 track.lc.quark.cn @ads
-v6-adashx.ut.amap.com @ads
 v6-adashx.ut.cainiao.com @ads
 v6-adashx.ut.ele.me @ads
 v6-adashx.ut.taobao.com @ads
