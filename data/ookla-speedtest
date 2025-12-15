@@ -2,7 +2,6 @@ cdnst.net
 cellmaps.com
 ekahau.cloud
 ekahau.com
-ookla-speedtest-central.hgconair.hgc.com.hk
 ookla.com
 ooklaserver.net
 pingtest.net
@@ -14,3 +13,6 @@ webtest.net
 full:www.speedtest.net.cdn.cloudflare.net
 
 include:ookla-speedtest-ads
+
+# SpeedTest Node
+ookla-speedtest-central.hgconair.hgc.com.hk # HGC Global Communications 香港環電
