@@ -23,6 +23,14 @@ var (
 	exportLists = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
 )
 
+const (
+	RuleTypeDomain     string = "domain"
+	RuleTypeFullDomain string = "full"
+	RuleTypeKeyword    string = "keyword"
+	RuleTypeRegexp     string = "regexp"
+	RuleTypeInclude    string = "include"
+)
+
 type Entry struct {
 	Type  string
 	Value string
@@ -65,13 +73,14 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 	}
 	for _, entry := range l.Entry {
 		switch entry.Type {
-		case "domain":
+		case RuleTypeDomain:
 			site.Domain = append(site.Domain, &router.Domain{
 				Type:      router.Domain_RootDomain,
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
-		case "regexp":
+
+		case RuleTypeRegexp:
 			// check regexp validity to avoid runtime error
 			_, err := regexp.Compile(entry.Value)
 			if err != nil {
@@ -82,18 +91,21 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
-		case "keyword":
+
+		case RuleTypeKeyword:
 			site.Domain = append(site.Domain, &router.Domain{
 				Type:      router.Domain_Plain,
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
-		case "full":
+
+		case RuleTypeFullDomain:
 			site.Domain = append(site.Domain, &router.Domain{
 				Type:      router.Domain_Full,
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
+
 		default:
 			return nil, errors.New("unknown domain type: " + entry.Type)
 		}
@@ -124,7 +136,7 @@ func removeComment(line string) string {
 func parseDomain(domain string, entry *Entry) error {
 	kv := strings.Split(domain, ":")
 	if len(kv) == 1 {
-		entry.Type = "domain"
+		entry.Type = RuleTypeDomain
 		entry.Value = strings.ToLower(kv[0])
 		return nil
 	}
@@ -261,7 +273,7 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 		newEntryList := make([]Entry, 0, len(entryList))
 		hasInclude := false
 		for _, entry := range entryList {
-			if entry.Type == "include" {
+			if entry.Type == RuleTypeInclude {
 				refName := strings.ToUpper(entry.Value)
 				if entry.Attrs != nil {
 					for _, attr := range entry.Attrs {
