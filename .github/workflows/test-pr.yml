@@ -20,6 +20,29 @@ jobs:
           go-version-file: code/go.mod
           cache-dependency-path: code/go.sum
 
+      - name: Detect Changed Files
+        id: changes
+        run: |
+          cd code
+          CHANGES=$(git diff --name-only origin/${{ github.base_ref }} HEAD -- data/)
+          
+          if [ -z "$CHANGES" ]; then
+            echo "No changes in data directory."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Found changes in data directory."
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            FILES_CSV=$(echo "$CHANGES" | tr '\n' ',')
+            echo "files=$FILES_CSV" >> $GITHUB_ENV
+          fi
+
+      - name: Run Syntax Tests (Affected Files Only)
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          cd code || exit 1
+          export CHANGED_FILES="${{ env.files }}"
+          go test -v .
+
       - name: Set variables
         run: |
           echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
