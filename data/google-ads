@@ -49,6 +49,7 @@ partnerad.l.google.com @ads
 urchin.com @ads
 
 full:analytics.google.com @ads
-full:fundingchoicesmessages.google.com @ads
+# https://github.com/AdguardTeam/FiltersRegistry/pull/1154
+# full:fundingchoicesmessages.google.com @ads
 
 regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
