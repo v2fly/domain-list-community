@@ -26,6 +26,11 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
 
+      - name: Validate regexp patterns
+        run: |
+          cd code || exit 1
+          go run ./test/validate_regexp.go --datapath=./data
+
       - name: Build dlc.dat file
         run: |
           cd code || exit 1
