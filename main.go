@@ -143,7 +143,13 @@ func parseDomain(domain string, entry *Entry) error {
 
 	if len(kv) == 2 {
 		entry.Type = strings.ToLower(kv[0])
-		entry.Value = strings.ToLower(kv[1])
+
+		if strings.EqualFold(entry.Type, RuleTypeRegexp) {
+			entry.Value = kv[1]
+		} else {
+			entry.Value = strings.ToLower(kv[1])
+		}
+
 		return nil
 	}
 
