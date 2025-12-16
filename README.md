@@ -94,13 +94,13 @@ full:www.google.com
 
 > The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **Not** copy and paste directly.
 
-* Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
-* Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
-* Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
-* Keyword begins with `keyword:`, followed by a string.
-* Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
-* Full domain begins with `full:`, followed by a complete and valid domain name.
-* Domains (including `domain`, `keyword`, `regexp` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
+- Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
+- Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
+- Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
+- Keyword begins with `keyword:`, followed by a string.
+- Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
+- Full domain begins with `full:`, followed by a complete and valid domain name.
+- Domains (including `domain`, `keyword`, `regexp` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
 
 > **Note:** Adding new `regexp` and `keyword` rules is discouraged because it is easy to use them incorrectly, and proxy software cannot efficiently match these types of rules.
 
@@ -113,10 +113,10 @@ To generate a section:
 1. Remove all the comments in the file.
 2. Replace `include:` lines with the actual content of the file.
 3. Omit all empty lines.
-4. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/config.proto#L21).
-5. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/config.proto#L17).
-6. Generate each `regexp:` line into a [regex domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/config.proto#L19).
-7. Generate each `full:` line into a [full domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/config.proto#L23).
+4. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L21).
+5. Generate each `full:` line into a [full domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L23).
+6. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L17).
+7. Generate each `regexp:` line into a [regex domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L19).
 
 ## How to organize domains
 
@@ -130,8 +130,8 @@ Attribute is useful for sub-group of domains, especially for filtering purpose. 
 
 ## Contribution guideline
 
-* Fork this repo, make modifications to your own repo, file a PR.
-* Please begin with small size PRs, say modification in a single file.
-* A PR must be reviewed and approved by another member.
-* A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Action label to get detailed information if you didn't pass it. We also provide the file which has been generated to make you test.
-* After a few successful PRs, you may apply for manager access to this repository.
+- Fork this repo, make modifications to your own repo, file a PR.
+- Please begin with small size PRs, say modification in a single file.
+- A PR must be reviewed and approved by another member.
+- A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Action label to get detailed information if you didn't pass it. We also provide the file which has been generated to make you test.
+- After a few successful PRs, you may apply for manager access to this repository.
