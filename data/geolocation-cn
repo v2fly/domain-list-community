@@ -54,6 +54,7 @@ include:aws-cn
 include:baishancloud
 include:bootcdn
 include:cloudflare-cn
+include:ctyun
 include:dwion
 include:maocloud
 include:qingcloud
