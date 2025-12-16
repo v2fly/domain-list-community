@@ -72,10 +72,10 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 				Attribute: entry.Attrs,
 			})
 		case "regexp":
-			// have a check of regex pattern validity
+			// check regexp validity to avoid runtime error
 			_, err := regexp.Compile(entry.Value)
 			if err != nil {
-				return nil, errors.New("invalid regex pattern: " + entry.Value)
+				return nil, fmt.Errorf("invalid regexp in list %s: %s", l.Name, entry.Value)
 			}
 			site.Domain = append(site.Domain, &router.Domain{
 				Type:      router.Domain_Regex,
