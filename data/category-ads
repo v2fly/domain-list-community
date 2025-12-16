@@ -38,6 +38,7 @@ include:newrelic-ads
 include:ogury-ads
 include:ookla-speedtest-ads
 include:openx-ads
+include:picacg-ads
 include:pocoiq-ads
 include:pubmatic-ads
 include:qihoo360-ads
