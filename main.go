@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"errors"
 	"flag"
 	"fmt"
 	"os"
@@ -107,7 +106,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 			})
 
 		default:
-			return nil, errors.New("unknown domain type: " + entry.Type)
+			return nil, fmt.Errorf("unknown domain type: %s", entry.Type)
 		}
 	}
 	return site, nil
@@ -117,7 +116,7 @@ func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 	for _, listName := range list {
 		if strings.EqualFold(refName, listName) {
 			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
-				fmt.Println("Failed: ", err)
+				fmt.Println("Failed:", err)
 				continue
 			}
 			fmt.Printf("'%s' has been generated successfully.\n", listName)
@@ -153,13 +152,13 @@ func parseDomain(domain string, entry *Entry) error {
 		return nil
 	}
 
-	return errors.New("Invalid format: " + domain)
+	return fmt.Errorf("invalid format: %s", domain)
 }
 
 func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 	var attribute router.Domain_Attribute
 	if len(attr) == 0 || attr[0] != '@' {
-		return &attribute, errors.New("invalid attribute: " + attr)
+		return &attribute, fmt.Errorf("invalid attribute: %s", attr)
 	}
 
 	// Trim attribute prefix `@` character
@@ -172,7 +171,7 @@ func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 		attribute.Key = strings.ToLower(parts[0])
 		intv, err := strconv.Atoi(parts[1])
 		if err != nil {
-			return &attribute, errors.New("invalid attribute: " + attr + ": " + err.Error())
+			return &attribute, fmt.Errorf("invalid attribute: %s: %v", attr, err)
 		}
 		attribute.TypedValue = &router.Domain_Attribute_IntValue{IntValue: int64(intv)}
 	}
@@ -185,7 +184,7 @@ func parseEntry(line string) (Entry, error) {
 
 	var entry Entry
 	if len(parts) == 0 {
-		return entry, errors.New("empty entry")
+		return entry, fmt.Errorf("empty entry")
 	}
 
 	if err := parseDomain(parts[0], &entry); err != nil {
@@ -291,7 +290,7 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 
 						refList := ref[refName]
 						if refList == nil {
-							return nil, errors.New(entry.Value + " not found.")
+							return nil, fmt.Errorf("list not found: %s", entry.Value)
 						}
 						attrEntrys := createIncludeAttrEntrys(refList, attr)
 						if len(attrEntrys) != 0 {
@@ -306,7 +305,7 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 					pl.Inclusion[InclusionName] = true
 					refList := ref[refName]
 					if refList == nil {
-						return nil, errors.New(entry.Value + " not found.")
+						return nil, fmt.Errorf("list not found: %s", entry.Value)
 					}
 					newEntryList = append(newEntryList, refList.Entry...)
 				}
@@ -347,14 +346,14 @@ func main() {
 		return nil
 	})
 	if err != nil {
-		fmt.Println("Failed: ", err)
+		fmt.Println("Failed:", err)
 		os.Exit(1)
 	}
 
 	// Create output directory if not exist
 	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
 		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
-			fmt.Println("Failed: ", mkErr)
+			fmt.Println("Failed:", mkErr)
 			os.Exit(1)
 		}
 	}
@@ -364,12 +363,12 @@ func main() {
 	for refName, list := range ref {
 		pl, err := ParseList(list, ref)
 		if err != nil {
-			fmt.Println("Failed: ", err)
+			fmt.Println("Failed:", err)
 			os.Exit(1)
 		}
 		site, err := pl.toProto()
 		if err != nil {
-			fmt.Println("Failed: ", err)
+			fmt.Println("Failed:", err)
 			os.Exit(1)
 		}
 		protoList.Entry = append(protoList.Entry, site)
@@ -407,7 +406,7 @@ func main() {
 		os.Exit(1)
 	}
 	if err := os.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
-		fmt.Println("Failed: ", err)
+		fmt.Println("Failed:", err)
 		os.Exit(1)
 	} else {
 		fmt.Println(*outputName, "has been generated successfully.")
