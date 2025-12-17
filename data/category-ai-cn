@@ -1,5 +1,7 @@
-# DeepSeek
 include:deepseek
+include:doubao
+include:trae # MarsCode
+include:xiaomi-ai
 
 # RWKV
 rwkv.cn
@@ -18,10 +20,6 @@ yiyan.baidu.com
 
 # 天工AI
 tiangong.cn
-
-# 字节跳动：豆包、Trae(MarsCode)
-include:doubao
-include:trae
 
 # 智谱清言
 bigmodel.cn
