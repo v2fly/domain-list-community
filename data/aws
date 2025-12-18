@@ -4,6 +4,7 @@ include:aws-cn
 aws
 
 # AWS
+aws.dev
 acmvalidations.com
 acmvalidationsaws.com
 aesworkshops.com
