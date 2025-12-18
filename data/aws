@@ -4,7 +4,6 @@ include:aws-cn
 aws
 
 # AWS
-aws.dev
 acmvalidations.com
 acmvalidationsaws.com
 aesworkshops.com
@@ -23,6 +22,7 @@ amplifyapp.com
 amplifyframework.com
 aws-iot-hackathon.com
 aws.com
+aws.dev
 awsapprunner.com
 awsapps.com
 awsautopilot.com
