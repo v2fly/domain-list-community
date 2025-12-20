@@ -8,7 +8,6 @@ import (
 	"path/filepath"
 	"regexp"
 	"sort"
-	"strconv"
 	"strings"
 
 	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
@@ -161,8 +160,7 @@ func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 		return &attribute, fmt.Errorf("invalid attribute: %s", attr)
 	}
 
-	// Trim attribute prefix `@` character
-	attribute.Key = strings.ToLower(attr[1:])
+	attribute.Key = strings.ToLower(attr[1:]) // Trim attribute prefix `@` character
 	attribute.TypedValue = &router.Domain_Attribute_BoolValue{BoolValue: true}
 	return &attribute, nil
 }
