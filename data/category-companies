@@ -24,6 +24,7 @@ include:comodo
 include:corel
 include:dell
 include:digitalocean
+include:dmit
 include:drweb
 include:duolingo
 include:faronics
