@@ -60,6 +60,7 @@ include:pagecdn
 include:quantil
 include:scaleflex
 include:stackpath
+include:vrcdn
 include:wistia
 
 # Certificate authorities
