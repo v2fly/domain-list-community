@@ -209,7 +209,6 @@ include:jwplayer
 include:kindle4rss
 include:kodi
 include:liberapay
-include:linguee
 include:localizejs
 include:madshi
 include:mapbox
@@ -248,7 +247,6 @@ include:trello
 include:tumblr
 include:tutanota
 include:vercel
-include:webflow
 include:wix
 include:wordpress
 include:zendesk
@@ -264,6 +262,13 @@ originlab.com
 # Online LaTeX Editor
 cloudlatex.io
 overleaf.com
+
+# Translator & Dictionary
+include:linguee
+
+collinsdictionary.com
+ldoceonline.com
+immersivetranslate.com # 沉浸式翻译 (国际版)
 
 # Aurora Open Source Software (https://gitlab.com/AuroraOSS)
 auroraoss.com
@@ -323,6 +328,3 @@ include:tsquare
 include:windy
 include:xdty
 include:xingrz
-
-# 沉浸式翻译 (国际版)
-immersivetranslate.com
