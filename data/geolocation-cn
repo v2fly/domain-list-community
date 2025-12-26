@@ -334,6 +334,8 @@ bblmw.com
 ## BOSS 直聘
 bosszhipin.com
 zhipin.com
+## 天润融通 AI外呼 客服
+clink.cn
 ## 当贝
 dangbei.com
 dangbei.net
@@ -400,6 +402,7 @@ include:dingdatech # 叮哒出行(杭州金通互联科技有限公司)
 include:dji
 include:gree
 include:haier
+include:hikvision
 include:honor
 include:huawei
 include:hupun # 杭州湖畔网络技术有限公司
@@ -428,12 +431,17 @@ include:zte
 
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
+dreame.tech # 追觅科技
 hisensehitachi.com # 海信日立官网
+insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
+jmgo.com # 坚果投影
+mediastory.cc # 闪电分镜
 roborock.com # 石头科技
 socpk.com # 极客湾移动芯片排行
 suzuki-china.com # 铃木中国官网
 udesk.cn # 沃丰科技
+ysjf.com # 影视飓风
 
 # 稿定（厦门）信息服务有限公司
 ## 花瓣网 闽ICP备2021013850号
@@ -637,7 +645,6 @@ aiops.com
 aipai.com
 airchangan.com
 airguilin.com
-aisee.tv # 粤ICP备10217959号-12
 aiskycn.com
 aizhan.com
 aldwx.com # 京ICP备17030349号-1
@@ -933,7 +940,6 @@ houdao.com
 houyuantuan.com
 hteacher.net
 huashengdaili.com
-huatu.com
 huize.com
 hujia.org
 huochepiao.com
@@ -984,7 +990,6 @@ jiazhao.com
 jiemeng8.com
 jikexueyuan.com
 jinianbi.com
-jinrongren.net
 jinse.com
 jinti.com
 jisuxia.com
@@ -1127,7 +1132,6 @@ nxog.top # 湘ICP备2022006601号-1
 nzbdw.com
 oadz.com
 oeeee.com
-offcn.com
 officese.com
 oicq88.com
 okooo.com
@@ -1140,7 +1144,6 @@ onlinedown.net
 onlinesjtu.com
 onlylady.com
 opdown.com
-ottcn.com # 津ICP备12004891号-2
 oupeng.com
 p2peye.com
 p5w.net
@@ -1172,7 +1175,6 @@ qiaobutang.com
 qie.tv
 qifeiye.com
 qijiayoudao.net
-qingdaochina.org
 qingsongchou.com
 qiumibao.com
 qizuang.com
