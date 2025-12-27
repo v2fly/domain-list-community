@@ -1,5 +1,6 @@
 include:xiaomi-ads
 include:xiaomi-ai
+include:xiaomi-iot
 
 mgslb.com
 mi-idc.com
@@ -32,6 +33,7 @@ xiaomisa.net
 xiaomisa.org
 xiaomiwear.com
 xiaomixiaoai.com
+
 
 # 北京瓦力网络科技
 migames.com
