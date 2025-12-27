@@ -1,11 +1,8 @@
-# ArchLinux
-ping.archlinux.org
-
 # Apple
 captive.apple.com
 
-# Android
-connectivitycheck.gstatic.com
+# ArchLinux
+ping.archlinux.org
 
 # Cloudflare
 cp.cloudflare.com
@@ -15,6 +12,9 @@ network-test.debian.org
 
 # Firefox
 detectportal.firefox.com
+
+# Google
+connectivitycheck.gstatic.com
 
 # Honor
 full:connectivitycheck.platform.hihonorcloud.com
@@ -27,6 +27,9 @@ networkcheck.kde.org
 
 # MIUI
 full:connect.rom.miui.com
+
+# Ubuntu
+full:connectivity-check.ubuntu.com
 
 # Windows
 msftconnecttest.com
