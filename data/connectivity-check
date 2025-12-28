@@ -1,8 +1,9 @@
 # Apple
 captive.apple.com
 
-# ArchLinux
-ping.archlinux.org
+# Arch Linux
+full:ping.archlinux.org
+full:redirect.archlinux.org # Canonical Name of ping.archlinux.org
 
 # Cloudflare
 cp.cloudflare.com
