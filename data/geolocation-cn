@@ -52,26 +52,18 @@ lufaxcdn.com
 pospal.cn
 
 # CDN or SDWAN
+include:category-cdn-cn
+
 include:aws-cn
-include:baishancloud
-include:bootcdn
-include:cloudflare-cn
 include:ctyun
-include:dwion
 include:maocloud
 include:qingcloud
-include:qiniu
 include:snodehome
 include:ucloud
-include:upai
-include:wangsu
 include:yunfanjiasu
 
 ## 百家云
 baijiayun.com
-## 创世云
-chuangcache.com
-chuangcdn.com
 ## 123 云盘 CDN
 cjjd19.com
 ## 明源云
@@ -80,12 +72,6 @@ mingyuanyun.com
 mypaas.com
 mypaas.com.cn
 myypark.com
-## FUNCDN
-funcdn.com
-## 北京知道创宇信息技术股份有限公司
-jiashule.com
-jiasule.com
-yunaq.com
 ## 即刻雾联（北京）
 ## https://github.com/v2fly/domain-list-community/pull/1352#issuecomment-1345476790
 jikeiot.cloud
