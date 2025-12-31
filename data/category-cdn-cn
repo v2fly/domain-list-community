@@ -1,0 +1,17 @@
+include:baishancloud
+include:bootcdn
+include:cloudflare-cn
+include:dwion
+include:qiniu
+include:upai
+include:wangsu
+
+## 创世云
+chuangcache.com
+chuangcdn.com
+## FUNCDN
+funcdn.com
+## 北京知道创宇信息技术股份有限公司
+jiashule.com
+jiasule.com
+yunaq.com
