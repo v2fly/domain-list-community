@@ -190,43 +190,6 @@ func Load(path string) (*List, error) {
 	return list, nil
 }
 
-func isMatchAttr(Attrs []string, includeKey string) bool {
-	isMatch := false
-	mustMatch := true
-	matchName := includeKey
-	if strings.HasPrefix(includeKey, "!") {
-		isMatch = true
-		mustMatch = false
-		matchName = strings.TrimLeft(includeKey, "!")
-	}
-
-	for _, Attr := range Attrs {
-		if mustMatch {
-			if matchName == Attr {
-				isMatch = true
-				break
-			}
-		} else {
-			if matchName == Attr {
-				isMatch = false
-				break
-			}
-		}
-	}
-	return isMatch
-}
-
-func createIncludeAttrEntrys(list *List, matchAttr string) []Entry {
-	newEntryList := make([]Entry, 0, len(list.Entry))
-	for _, entry := range list.Entry {
-		matched := isMatchAttr(entry.Attrs, matchAttr)
-		if matched {
-			newEntryList = append(newEntryList, entry)
-		}
-	}
-	return newEntryList
-}
-
 func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 	pl := &ParsedList{
 		Name:      list.Name,
@@ -239,35 +202,15 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 		for _, entry := range entryList {
 			if entry.Type == RuleTypeInclude {
 				refName := strings.ToUpper(entry.Value)
-				if entry.Attrs != nil {
-					for _, attr := range entry.Attrs {
-						InclusionName := strings.ToUpper(refName + "@" + attr)
-						if pl.Inclusion[InclusionName] {
-							continue
-						}
-						pl.Inclusion[InclusionName] = true
-
-						refList := ref[refName]
-						if refList == nil {
-							return nil, fmt.Errorf("list not found: %s", entry.Value)
-						}
-						attrEntrys := createIncludeAttrEntrys(refList, attr)
-						if len(attrEntrys) != 0 {
-							newEntryList = append(newEntryList, attrEntrys...)
-						}
-					}
-				} else {
-					InclusionName := refName
-					if pl.Inclusion[InclusionName] {
-						continue
-					}
-					pl.Inclusion[InclusionName] = true
-					refList := ref[refName]
-					if refList == nil {
-						return nil, fmt.Errorf("list not found: %s", entry.Value)
-					}
-					newEntryList = append(newEntryList, refList.Entry...)
+				if pl.Inclusion[refName] {
+					continue
 				}
+				pl.Inclusion[refName] = true
+				refList := ref[refName]
+				if refList == nil {
+					return nil, fmt.Errorf("list not found: %s", entry.Value)
+				}
+				newEntryList = append(newEntryList, refList.Entry...)
 				hasInclude = true
 			} else {
 				newEntryList = append(newEntryList, entry)
