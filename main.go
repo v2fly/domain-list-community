@@ -123,14 +123,6 @@ func exportPlainTextList(list []string, refName string, pl *ParsedList) {
 	}
 }
 
-func removeComment(line string) string {
-	idx := strings.Index(line, "#")
-	if idx == -1 {
-		return line
-	}
-	return strings.TrimSpace(line[:idx])
-}
-
 func parseDomain(domain string, entry *Entry) error {
 	kv := strings.Split(domain, ":")
 	if len(kv) == 1 {
@@ -166,7 +158,6 @@ func parseAttribute(attr string) (*router.Domain_Attribute, error) {
 }
 
 func parseEntry(line string) (Entry, error) {
-	line = strings.TrimSpace(line)
 	parts := strings.Split(line, " ")
 
 	var entry Entry
@@ -201,9 +192,13 @@ func Load(path string) (*List, error) {
 	}
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		line = removeComment(line)
-		if len(line) == 0 {
+		line := scanner.Text()
+		// Remove comments
+		if idx := strings.Index(line, "#"); idx != -1 {
+			line = line[:idx]
+		}
+		line = strings.TrimSpace(line)
+		if line == "" {
 			continue
 		}
 		entry, err := parseEntry(line)
