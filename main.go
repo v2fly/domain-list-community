@@ -36,7 +36,10 @@ var (
 )
 
 var (
-	refMap = make(map[string]*List)
+	refMap    = make(map[string]*List)
+	plMap     = make(map[string]*ParsedList)
+	finalMap  = make(map[string]*List)
+	cirIncMap = make(map[string]bool) // Used for circular inclusion detection
 )
 
 type Entry struct {
@@ -45,18 +48,24 @@ type Entry struct {
 	Attrs []string
 }
 
+type Inclusion struct {
+	Source    string
+	MustAttrs []string
+	BanAttrs  []string
+}
+
 type List struct {
 	Name  string
 	Entry []Entry
 }
 
 type ParsedList struct {
-	Name      string
-	Inclusion map[string]bool
-	Entry     []Entry
+	Name       string
+	Inclusions []Inclusion
+	Entry      []Entry
 }
 
-func (l *ParsedList) toPlainText() error {
+func (l *List) toPlainText() error {
 	var entryBytes []byte
 	for _, entry := range l.Entry {
 		var attrString string
@@ -72,7 +81,7 @@ func (l *ParsedList) toPlainText() error {
 	return nil
 }
 
-func (l *ParsedList) toProto() (*router.GeoSite, error) {
+func (l *List) toProto() (*router.GeoSite, error) {
 	site := &router.GeoSite{
 		CountryCode: l.Name,
 	}
@@ -100,7 +109,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 	return site, nil
 }
 
-func exportPlainTextList(exportFiles []string, entryList *ParsedList) {
+func exportPlainTextList(exportFiles []string, entryList *List) {
 	for _, exportfilename := range exportFiles {
 		if strings.EqualFold(entryList.Name, exportfilename) {
 			if err := entryList.toPlainText(); err != nil {
@@ -194,40 +203,85 @@ func Load(path string) (*List, error) {
 	return list, nil
 }
 
-func ParseList(refList *List) (*ParsedList, error) {
-	pl := &ParsedList{
-		Name:      refList.Name,
-		Inclusion: make(map[string]bool),
+func parseList(refList *List) error {
+	//TODO: one Entry -> multiple ParsedLists
+	pl := &ParsedList{Name: refList.Name}
+	for _, entry := range refList.Entry {
+		if entry.Type == RuleTypeInclude {
+			inc := Inclusion{Source: strings.ToUpper(entry.Value)}
+			for _, attr := range entry.Attrs {
+				if strings.HasPrefix(attr, "-") {
+					inc.BanAttrs = append(inc.BanAttrs, attr[1:]) // Trim attribute prefix `-` character
+				} else {
+					inc.MustAttrs = append(inc.MustAttrs, attr)
+				}
+			}
+			pl.Inclusions = append(pl.Inclusions, inc)
+		} else {
+			pl.Entry = append(pl.Entry, entry)
+		}
 	}
-	entryList := refList.Entry
-	for {
-		newEntryList := make([]Entry, 0, len(entryList))
-		hasInclude := false
-		for _, entry := range entryList {
-			if entry.Type == RuleTypeInclude {
-				refName := strings.ToUpper(entry.Value)
-				if pl.Inclusion[refName] {
-					continue
+	plMap[refList.Name] = pl
+	return nil
+}
+
+func resolveList(pl *ParsedList) error {
+	if _, pldone := finalMap[pl.Name]; pldone { return nil }
+
+	if cirIncMap[pl.Name] {
+		return fmt.Errorf("circular inclusion in: %s", pl.Name)
+	}
+	cirIncMap[pl.Name] = true
+	defer delete(cirIncMap, pl.Name)
+
+	entry2String := func(e Entry) string { // Attributes already sorted
+		return e.Type + ":" + e.Value + "@" + strings.Join(e.Attrs, "@")
+	}
+	isMatchAttrFilters := func(entry Entry, incFilter Inclusion) bool {
+		if len(incFilter.MustAttrs) == 0 && len(incFilter.BanAttrs) == 0 { return true }
+		if len(entry.Attrs) == 0 { return len(incFilter.MustAttrs) == 0 }
+
+		attrMap := make(map[string]bool)
+		for _, attr := range entry.Attrs {
+			attrMap[attr] = true
+		}
+		for _, m := range incFilter.MustAttrs {
+			if !attrMap[m] { return false }
+		}
+		for _, b := range incFilter.BanAttrs {
+			if attrMap[b] { return false }
+		}
+		return true
+	}
+
+	bscDupMap := make(map[string]bool) // Used for basic duplicates detection
+	finalList := &List{Name: pl.Name}
+	for _, dentry := range pl.Entry {
+		if dstring := entry2String(dentry); !bscDupMap[dstring] {
+			bscDupMap[dstring] = true
+			finalList.Entry = append(finalList.Entry, dentry)
+		}
+	}
+
+	for _, inc := range pl.Inclusions {
+		incPl, exist := plMap[inc.Source]
+		if !exist {
+			return fmt.Errorf("list '%s' includes a non-existent list: '%s'", pl.Name, inc.Source)
+		}
+		if err := resolveList(incPl); err != nil {
+			return err
+		}
+		for _, ientry := range finalMap[inc.Source].Entry {
+			if isMatchAttrFilters(ientry, inc) {
+				if istring := entry2String(ientry); !bscDupMap[istring] {
+					bscDupMap[istring] = true
+					finalList.Entry = append(finalList.Entry, ientry)
 				}
-				pl.Inclusion[refName] = true
-				refList := refMap[refName]
-				if refList == nil {
-					return nil, fmt.Errorf("list not found: %s", entry.Value)
-				}
-				newEntryList = append(newEntryList, refList.Entry...)
-				hasInclude = true
-			} else {
-				newEntryList = append(newEntryList, entry)
 			}
 		}
-		entryList = newEntryList
-		if !hasInclude {
-			break
-		}
 	}
-	pl.Entry = entryList
-
-	return pl, nil
+	finalMap[pl.Name] = finalList
+	return nil
 }
 
 func main() {
@@ -236,6 +290,7 @@ func main() {
 	dir := *dataPath
 	fmt.Println("Use domain lists in", dir)
 
+	// Generate refMap
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			return err
@@ -255,6 +310,22 @@ func main() {
 		os.Exit(1)
 	}
 
+	// Generate plMap
+	for _, refList := range refMap {
+		if err := parseList(refList); err != nil {
+			fmt.Println("Failed to parseList:", err)
+			os.Exit(1)
+		}
+	}
+
+	// Generate finalMap
+	for _, pl := range plMap {
+		if err := resolveList(pl); err != nil {
+			fmt.Println("Failed to resolveList:", err)
+			os.Exit(1)
+		}
+	}
+
 	// Create output directory if not exist
 	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
 		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
@@ -265,13 +336,8 @@ func main() {
 
 	protoList := new(router.GeoSiteList)
 	var existList []string
-	for _, refList := range refMap {
-		pl, err := ParseList(refList)
-		if err != nil {
-			fmt.Println("Failed:", err)
-			os.Exit(1)
-		}
-		site, err := pl.toProto()
+	for _, siteEntries := range finalMap {
+		site, err := siteEntries.toProto()
 		if err != nil {
 			fmt.Println("Failed:", err)
 			os.Exit(1)
@@ -281,7 +347,7 @@ func main() {
 		// Flatten and export plaintext list
 		if *exportLists != "" {
 			if existList != nil {
-				exportPlainTextList(existList, pl)
+				exportPlainTextList(existList, siteEntries)
 			} else {
 				exportedListSlice := strings.Split(*exportLists, ",")
 				for _, exportedListName := range exportedListSlice {
@@ -294,7 +360,7 @@ func main() {
 					}
 				}
 				if existList != nil {
-					exportPlainTextList(existList, pl)
+					exportPlainTextList(existList, siteEntries)
 				}
 			}
 		}
@@ -307,11 +373,11 @@ func main() {
 
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {
-		fmt.Println("Failed:", err)
+		fmt.Println("Failed to marshal:", err)
 		os.Exit(1)
 	}
 	if err := os.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
-		fmt.Println("Failed:", err)
+		fmt.Println("Failed to write output:", err)
 		os.Exit(1)
 	} else {
 		fmt.Println(*outputName, "has been generated successfully.")
