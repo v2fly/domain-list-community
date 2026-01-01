@@ -183,3 +183,7 @@ zte.home
 # Tailscale Magic DNS
 # Reference: https://tailscale.com/kb/1081/magicdns/#fully-qualified-domain-names-vs-machine-names
 ts.net
+
+# Beihang University Gateway
+# Reference: https://nic.e1.buaa.edu.cn/__local/4/E3/F7/5E7BBA6B4CABA82D0400481F1F3_F2819AC2_24439.pdf
+full:gw.buaa.edu.cn
