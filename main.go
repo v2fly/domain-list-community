@@ -32,7 +32,7 @@ const (
 type Entry struct {
 	Type  string
 	Value string
-	Attrs []*router.Domain_Attribute
+	Attrs []string
 }
 
 type List struct {
@@ -51,15 +51,12 @@ func (l *ParsedList) toPlainText(listName string) error {
 	for _, entry := range l.Entry {
 		var attrString string
 		if entry.Attrs != nil {
-			for _, attr := range entry.Attrs {
-				attrString += "@" + attr.GetKey() + ","
-			}
-			attrString = strings.TrimRight(":"+attrString, ",")
+			attrString = ":@" + strings.Join(entry.Attrs, ",@")
 		}
 		// Entry output format is: type:domain.tld:@attr1,@attr2
-		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+attrString+"\n")...)
+		entryBytes = append(entryBytes, []byte(entry.Type + ":" + entry.Value + attrString + "\n")...)
 	}
-	if err := os.WriteFile(filepath.Join(*outputDir, listName+".txt"), entryBytes, 0644); err != nil {
+	if err := os.WriteFile(filepath.Join(*outputDir, listName + ".txt"), entryBytes, 0644); err != nil {
 		return err
 	}
 	return nil
@@ -70,43 +67,32 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 		CountryCode: l.Name,
 	}
 	for _, entry := range l.Entry {
+		pdomain := &router.Domain{Value: entry.Value}
+		for _, attr := range entry.Attrs {
+			pdomain.Attribute = append(pdomain.Attribute, &router.Domain_Attribute{
+				Key:        attr,
+				TypedValue: &router.Domain_Attribute_BoolValue{BoolValue: true},
+			})
+		}
+
 		switch entry.Type {
 		case RuleTypeDomain:
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_RootDomain,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
+			pdomain.Type = router.Domain_RootDomain
 		case RuleTypeRegexp:
 			// check regexp validity to avoid runtime error
 			_, err := regexp.Compile(entry.Value)
 			if err != nil {
 				return nil, fmt.Errorf("invalid regexp in list %s: %s", l.Name, entry.Value)
 			}
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Regex,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
+			pdomain.Type = router.Domain_Regex
 		case RuleTypeKeyword:
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Plain,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
+			pdomain.Type = router.Domain_Plain
 		case RuleTypeFullDomain:
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Full,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
+			pdomain.Type = router.Domain_Full
 		default:
 			return nil, fmt.Errorf("unknown domain type: %s", entry.Type)
 		}
+		site.Domain = append(site.Domain, pdomain)
 	}
 	return site, nil
 }
@@ -146,15 +132,14 @@ func parseDomain(domain string, entry *Entry) error {
 	return fmt.Errorf("invalid format: %s", domain)
 }
 
-func parseAttribute(attr string) (*router.Domain_Attribute, error) {
-	var attribute router.Domain_Attribute
+func parseAttribute(attr string) (string, error) {
+	var attribute string
 	if len(attr) == 0 || attr[0] != '@' {
-		return &attribute, fmt.Errorf("invalid attribute: %s", attr)
+		return attribute, fmt.Errorf("invalid attribute: %s", attr)
 	}
 
-	attribute.Key = strings.ToLower(attr[1:]) // Trim attribute prefix `@` character
-	attribute.TypedValue = &router.Domain_Attribute_BoolValue{BoolValue: true}
-	return &attribute, nil
+	attribute = strings.ToLower(attr[1:]) // Trim attribute prefix `@` character
+	return attribute, nil
 }
 
 func parseEntry(line string) (Entry, error) {
@@ -211,7 +196,7 @@ func Load(path string) (*List, error) {
 	return list, nil
 }
 
-func isMatchAttr(Attrs []*router.Domain_Attribute, includeKey string) bool {
+func isMatchAttr(Attrs []string, includeKey string) bool {
 	isMatch := false
 	mustMatch := true
 	matchName := includeKey
@@ -222,14 +207,13 @@ func isMatchAttr(Attrs []*router.Domain_Attribute, includeKey string) bool {
 	}
 
 	for _, Attr := range Attrs {
-		attrName := Attr.Key
 		if mustMatch {
-			if matchName == attrName {
+			if matchName == Attr {
 				isMatch = true
 				break
 			}
 		} else {
-			if matchName == attrName {
+			if matchName == Attr {
 				isMatch = false
 				break
 			}
@@ -238,11 +222,10 @@ func isMatchAttr(Attrs []*router.Domain_Attribute, includeKey string) bool {
 	return isMatch
 }
 
-func createIncludeAttrEntrys(list *List, matchAttr *router.Domain_Attribute) []Entry {
+func createIncludeAttrEntrys(list *List, matchAttr string) []Entry {
 	newEntryList := make([]Entry, 0, len(list.Entry))
-	matchName := matchAttr.Key
 	for _, entry := range list.Entry {
-		matched := isMatchAttr(entry.Attrs, matchName)
+		matched := isMatchAttr(entry.Attrs, matchAttr)
 		if matched {
 			newEntryList = append(newEntryList, entry)
 		}
@@ -264,7 +247,7 @@ func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
 				refName := strings.ToUpper(entry.Value)
 				if entry.Attrs != nil {
 					for _, attr := range entry.Attrs {
-						InclusionName := strings.ToUpper(refName + "@" + attr.Key)
+						InclusionName := strings.ToUpper(refName + "@" + attr)
 						if pl.Inclusion[InclusionName] {
 							continue
 						}
