@@ -52,7 +52,7 @@ type ParsedList struct {
 	Entry     []Entry
 }
 
-func (l *ParsedList) toPlainText(listName string) error {
+func (l *ParsedList) toPlainText() error {
 	var entryBytes []byte
 	for _, entry := range l.Entry {
 		var attrString string
@@ -62,7 +62,7 @@ func (l *ParsedList) toPlainText(listName string) error {
 		// Entry output format is: type:domain.tld:@attr1,@attr2
 		entryBytes = append(entryBytes, []byte(entry.Type + ":" + entry.Value + attrString + "\n")...)
 	}
-	if err := os.WriteFile(filepath.Join(*outputDir, listName + ".txt"), entryBytes, 0644); err != nil {
+	if err := os.WriteFile(filepath.Join(*outputDir, strings.ToLower(l.Name) + ".txt"), entryBytes, 0644); err != nil {
 		return err
 	}
 	return nil
@@ -96,14 +96,14 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 	return site, nil
 }
 
-func exportPlainTextList(list []string, refName string, pl *ParsedList) {
-	for _, listName := range list {
-		if strings.EqualFold(refName, listName) {
-			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
-				fmt.Println("Failed:", err)
+func exportPlainTextList(exportFiles []string, entryList *ParsedList) {
+	for _, exportfilename := range exportFiles {
+		if strings.EqualFold(entryList.Name, exportfilename) {
+			if err := entryList.toPlainText(); err != nil {
+				fmt.Println("Failed to exportPlainTextList:", err)
 				continue
 			}
-			fmt.Printf("'%s' has been generated successfully.\n", listName)
+			fmt.Printf("'%s' has been generated successfully.\n", exportfilename)
 		}
 	}
 }
@@ -319,7 +319,7 @@ func main() {
 
 	protoList := new(router.GeoSiteList)
 	var existList []string
-	for refName, list := range ref {
+	for _, list := range ref {
 		pl, err := ParseList(list, ref)
 		if err != nil {
 			fmt.Println("Failed:", err)
@@ -335,7 +335,7 @@ func main() {
 		// Flatten and export plaintext list
 		if *exportLists != "" {
 			if existList != nil {
-				exportPlainTextList(existList, refName, pl)
+				exportPlainTextList(existList, pl)
 			} else {
 				exportedListSlice := strings.Split(*exportLists, ",")
 				for _, exportedListName := range exportedListSlice {
@@ -348,7 +348,7 @@ func main() {
 					}
 				}
 				if existList != nil {
-					exportPlainTextList(existList, refName, pl)
+					exportPlainTextList(existList, pl)
 				}
 			}
 		}
