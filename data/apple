@@ -1,5 +1,5 @@
 include:apple-ads
-include:apple-dev
+include:apple-dev # swift inside
 # Not include:apple-intelligence
 include:apple-pki
 include:apple-tvplus
@@ -7,7 +7,6 @@ include:apple-update
 include:beats
 include:icloud
 include:itunes
-include:swift
 
 # All .apple domains
 apple
@@ -856,7 +855,7 @@ full:s4.mzstatic.com @cn
 full:s5.mzstatic.com @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
-# Revision: 4d392cc0a822ac5626bb97fef3fe5e04e86b28b0
+# Revision: f6a2093b254a7d2baca959bd16581666ca394303
 # Duplicates removed
 # According to the consensus in #503, do not include the domain name apps.apple.com directly.
 # Use in config file like this: "geosite:apple@cn"
@@ -874,7 +873,6 @@ full:cds-cdn.v.aaplimg.com @cn
 full:cds.apple.com @cn
 full:cds.apple.com.akadns.net @cn
 full:cdsassets.apple.com @cn
-full:certs.apple.com @cn
 full:cl2-cn.apple.com @cn
 full:cl4-cn.apple.com @cn
 full:clientflow.apple.com @cn
@@ -882,7 +880,6 @@ full:clientflow.apple.com.akadns.net @cn
 full:cn-smp-paymentservices.apple.com @cn
 full:configuration.apple.com @cn
 full:configuration.apple.com.akadns.net @cn
-full:crl.apple.com @cn
 full:cstat.apple.com @cn
 full:cstat.cdn-apple.com @cn
 full:dd-cdn.origin-apple.com.akadns.net @cn
@@ -935,10 +932,6 @@ full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
 full:ml.cdn-apple.com @cn
 full:music.apple.com @cn
-full:ocsp-lb.apple.com.akadns.net @cn
-full:ocsp.apple.com @cn
-full:ocsp2-lb.apple.com.akadns.net @cn
-full:ocsp2.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
 full:osxapps.itunes.g.aaplimg.com @cn
@@ -981,8 +974,6 @@ full:tj-pod1-smp-device.apple.com @cn
 full:updates-http.cdn-apple.com @cn
 full:updates-http.cdn-apple.com.akadns.net @cn
 full:updates.cdn-apple.com @cn
-full:valid.apple.com @cn
-full:valid.origin-apple.com.akadns.net @cn
 full:weather-data.apple.com @cn
 full:weather-data.apple.com.akadns.net @cn
 full:weather-map.apple.com @cn
