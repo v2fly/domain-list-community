@@ -548,7 +548,7 @@ full:www.recaptcha.net @cn
 full:safebrowsing-cache.google.com @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
-# Revision: 1f28a2d5789f411c13de69837bb354f4b21e58ff
+# Revision: 55ae32a8c53d9ae7e4b72d847449100be4f81f0d
 # Use in config file like this: "geosite:google@cn"
 full:265.com @cn
 full:2mdn-cn.net @cn
