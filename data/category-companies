@@ -79,7 +79,6 @@ include:spaceship
 include:st
 include:synology
 include:symantec
-include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
