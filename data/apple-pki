@@ -7,3 +7,4 @@ full:ocsp.apple.com @cn
 full:ocsp2-lb.apple.com.akadns.net @cn
 full:ocsp2.apple.com @cn
 full:valid.apple.com @cn
+full:valid.origin-apple.com.akadns.net @cn
