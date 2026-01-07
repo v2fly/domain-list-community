@@ -1,3 +1,5 @@
+include:category-ecommerce-ru
+
 include:adidas
 include:bestbuy
 include:booking
@@ -19,7 +21,6 @@ include:momo
 include:muji
 include:nike
 include:nordstrom
-include:ozon
 include:pchome
 include:rakuten
 include:ruten
