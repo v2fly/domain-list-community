@@ -20,6 +20,9 @@ include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
 
+# Public transportation
+include:mosmetro
+
 include:avito
 include:mailru-group
 include:x5
