@@ -1,5 +1,6 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
+include:category-entertainment-ru
 include:category-games-!cn
 include:category-novel
 
@@ -46,7 +47,6 @@ include:mytvsuper
 include:netflix
 include:niconico
 include:now
-include:okko
 include:olevod
 include:pbs
 include:pixiv
@@ -54,7 +54,6 @@ include:plutotv
 include:pocketcasts
 include:primevideo
 include:roku
-include:rutube
 include:showtimeanytime
 include:sling
 include:sonypictures
