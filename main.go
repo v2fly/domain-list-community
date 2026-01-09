@@ -38,7 +38,7 @@ var (
 var (
 	refMap    = make(map[string]*List)
 	plMap     = make(map[string]*ParsedList)
-	finalMap  = make(map[string]*List)
+	finalMap  = make(map[string][]Entry)
 	cirIncMap = make(map[string]bool) // Used for circular inclusion detection
 )
 
@@ -65,27 +65,12 @@ type ParsedList struct {
 	Entry      []Entry
 }
 
-func (l *List) toPlainText() error {
-	var entryBytes []byte
-	for _, entry := range l.Entry {
-		var attrString string
-		if entry.Attrs != nil {
-			attrString = ":@" + strings.Join(entry.Attrs, ",@")
-		}
-		// Entry output format is: type:domain.tld:@attr1,@attr2
-		entryBytes = append(entryBytes, []byte(entry.Type + ":" + entry.Value + attrString + "\n")...)
-	}
-	if err := os.WriteFile(filepath.Join(*outputDir, strings.ToLower(l.Name) + ".txt"), entryBytes, 0644); err != nil {
-		return err
-	}
-	return nil
-}
-
-func (l *List) toProto() (*router.GeoSite, error) {
+func makeProtoList(listName string, entries *[]Entry) (*router.GeoSite, error) {
 	site := &router.GeoSite{
-		CountryCode: l.Name,
+		CountryCode: listName,
+		Domain: make([]*router.Domain, 0, len(*entries)),
 	}
-	for _, entry := range l.Entry {
+	for _, entry := range *entries {
 		pdomain := &router.Domain{Value: entry.Value}
 		for _, attr := range entry.Attrs {
 			pdomain.Attribute = append(pdomain.Attribute, &router.Domain_Attribute{
@@ -109,16 +94,26 @@ func (l *List) toProto() (*router.GeoSite, error) {
 	return site, nil
 }
 
-func exportPlainTextList(exportFiles []string, entryList *List) {
-	for _, exportfilename := range exportFiles {
-		if strings.EqualFold(entryList.Name, exportfilename) {
-			if err := entryList.toPlainText(); err != nil {
-				fmt.Println("Failed to exportPlainTextList:", err)
-				continue
-			}
-			fmt.Printf("'%s' has been generated successfully.\n", exportfilename)
-		}
+func writePlainList(exportedName string) error {
+	targetList, exist := finalMap[strings.ToUpper(exportedName)]
+	if !exist || len(targetList) == 0 {
+		return fmt.Errorf("'%s' list does not exist or is empty.", exportedName)
 	}
+	file, err := os.Create(filepath.Join(*outputDir, strings.ToLower(exportedName) + ".txt"))
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	w := bufio.NewWriter(file)
+	for _, entry := range targetList {
+		// Entry output format is: type:domain.tld:@attr1,@attr2
+		var attrString string
+		if entry.Attrs != nil {
+			attrString = ":@" + strings.Join(entry.Attrs, ",@")
+		}
+		fmt.Fprintln(w, entry.Type + ":" + entry.Value + attrString)
+	}
+	return w.Flush()
 }
 
 func parseEntry(line string) (Entry, error) {
@@ -255,11 +250,11 @@ func resolveList(pl *ParsedList) error {
 	}
 
 	bscDupMap := make(map[string]bool) // Used for basic duplicates detection
-	finalList := &List{Name: pl.Name}
+	var finalList []Entry
 	for _, dentry := range pl.Entry {
 		if dstring := entry2String(dentry); !bscDupMap[dstring] {
 			bscDupMap[dstring] = true
-			finalList.Entry = append(finalList.Entry, dentry)
+			finalList = append(finalList, dentry)
 		}
 	}
 
@@ -271,11 +266,11 @@ func resolveList(pl *ParsedList) error {
 		if err := resolveList(incPl); err != nil {
 			return err
 		}
-		for _, ientry := range finalMap[inc.Source].Entry {
+		for _, ientry := range finalMap[inc.Source] {
 			if isMatchAttrFilters(ientry, inc) {
 				if istring := entry2String(ientry); !bscDupMap[istring] {
 					bscDupMap[istring] = true
-					finalList.Entry = append(finalList.Entry, ientry)
+					finalList = append(finalList, ientry)
 				}
 			}
 		}
@@ -334,38 +329,28 @@ func main() {
 		}
 	}
 
+	// Export plaintext list
+	if *exportLists != "" {
+		exportedListSlice := strings.Split(*exportLists, ",")
+		for _, exportedList := range exportedListSlice {
+			if err := writePlainList(exportedList); err != nil {
+				fmt.Println("Failed to write list:", err)
+				continue
+			}
+			fmt.Printf("list: '%s' has been generated successfully.\n", exportedList)
+		}
+	}
+
+	// Generate dat file
 	protoList := new(router.GeoSiteList)
-	var existList []string
-	for _, siteEntries := range finalMap {
-		site, err := siteEntries.toProto()
+	for siteName, siteEntries := range finalMap {
+		site, err := makeProtoList(siteName, &siteEntries)
 		if err != nil {
 			fmt.Println("Failed:", err)
 			os.Exit(1)
 		}
 		protoList.Entry = append(protoList.Entry, site)
-
-		// Flatten and export plaintext list
-		if *exportLists != "" {
-			if existList != nil {
-				exportPlainTextList(existList, siteEntries)
-			} else {
-				exportedListSlice := strings.Split(*exportLists, ",")
-				for _, exportedListName := range exportedListSlice {
-					fileName := filepath.Join(dir, exportedListName)
-					_, err := os.Stat(fileName)
-					if err == nil || os.IsExist(err) {
-						existList = append(existList, exportedListName)
-					} else {
-						fmt.Printf("'%s' list does not exist in '%s' directory.\n", exportedListName, dir)
-					}
-				}
-				if existList != nil {
-					exportPlainTextList(existList, siteEntries)
-				}
-			}
-		}
 	}
-
 	// Sort protoList so the marshaled list is reproducible
 	sort.SliceStable(protoList.Entry, func(i, j int) bool {
 		return protoList.Entry[i].CountryCode < protoList.Entry[j].CountryCode
