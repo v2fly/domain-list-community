@@ -12,12 +12,12 @@ include:atom-data-ads
 include:baidu-ads
 include:bytedance-ads
 include:category-ads-ir
+include:cctv @ads
 include:clearbit-ads
 include:dmm-ads
 include:duolingo-ads
 include:emogi-ads
 include:flurry-ads
-include:github-ads
 include:google-ads
 include:growingio-ads
 include:hiido-ads
@@ -38,7 +38,7 @@ include:newrelic-ads
 include:ogury-ads
 include:ookla-speedtest-ads
 include:openx-ads
-include:picacg-ads
+include:picacg @ads
 include:pocoiq-ads
 include:pubmatic-ads
 include:qihoo360-ads
@@ -52,6 +52,7 @@ include:tagtic-ads
 include:tappx-ads
 include:television-ads
 include:tencent-ads
+include:tendcloud @ads
 include:uberads-ads
 include:umeng-ads
 include:unity-ads
@@ -59,7 +60,7 @@ include:xhamster-ads
 include:xiaomi-ads
 include:ximalaya-ads
 include:yahoo-ads
-include:zhihu-ads
+include:zhihu @ads
 
 # Other domains for ads serving
 51.la
@@ -73,6 +74,7 @@ adbutter.net
 addthisedge.com
 ads.trafficjunky.net
 ads.wteam.xyz
+adservice.sigmob.cn
 adtechus.com
 adtrue.com
 adxprtz.com
