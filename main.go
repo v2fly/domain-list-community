@@ -33,6 +33,7 @@ var (
 	TypeChecker  = regexp.MustCompile(`^(domain|full|keyword|regexp|include)$`)
 	ValueChecker = regexp.MustCompile(`^[a-z0-9!\.-]+$`)
 	AttrChecker  = regexp.MustCompile(`^[a-z0-9!-]+$`)
+	SiteChecker  = regexp.MustCompile(`^[A-Z0-9!-]+$`)
 )
 
 var (
@@ -46,6 +47,7 @@ type Entry struct {
 	Type  string
 	Value string
 	Attrs []string
+	Affs  []string
 }
 
 type Inclusion struct {
@@ -148,16 +150,23 @@ func parseEntry(line string) (Entry, error) {
 		return entry, fmt.Errorf("invalid value: %s", entry.Value)
 	}
 
-	// Parse/Check attributes
+	// Parse/Check attributes and affiliations
 	for _, part := range parts[1:] {
-		if !strings.HasPrefix(part, "@") {
-			return entry, fmt.Errorf("invalid attribute: %s", part)
+		if strings.HasPrefix(part, "@") {
+			attr := strings.ToLower(part[1:]) // Trim attribute prefix `@` character
+			if !AttrChecker.MatchString(attr) {
+				return entry, fmt.Errorf("invalid attribute key: %s", attr)
+			}
+			entry.Attrs = append(entry.Attrs, attr)
+		} else if strings.HasPrefix(part, "&") {
+			aff := strings.ToUpper(part[1:]) // Trim affiliation prefix `&` character
+			if !SiteChecker.MatchString(aff) {
+				return entry, fmt.Errorf("invalid affiliation key: %s", aff)
+			}
+			entry.Affs = append(entry.Affs, aff)
+		} else {
+			return entry, fmt.Errorf("invalid attribute/affiliation: %s", part)
 		}
-		attr := strings.ToLower(part[1:]) // Trim attribute prefix `@` character
-		if !AttrChecker.MatchString(attr) {
-			return entry, fmt.Errorf("invalid attribute key: %s", attr)
-		}
-		entry.Attrs = append(entry.Attrs, attr)
 	}
 	// Sort attributes
 	sort.Slice(entry.Attrs, func(i, j int) bool {
@@ -174,9 +183,11 @@ func Load(path string) (*List, error) {
 	}
 	defer file.Close()
 
-	list := &List{
-		Name: strings.ToUpper(filepath.Base(path)),
+	listName := strings.ToUpper(filepath.Base(path))
+	if !SiteChecker.MatchString(listName) {
+		return nil, fmt.Errorf("invalid list name: %s", listName)
 	}
+	list := &List{Name: listName}
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -199,10 +210,16 @@ func Load(path string) (*List, error) {
 }
 
 func parseList(refList *List) error {
-	//TODO: one Entry -> multiple ParsedLists
-	pl := &ParsedList{Name: refList.Name}
+	pl, _ := plMap[refList.Name]
+	if pl == nil {
+		pl = &ParsedList{Name: refList.Name}
+		plMap[refList.Name] = pl
+	}
 	for _, entry := range refList.Entry {
 		if entry.Type == RuleTypeInclude {
+			if len(entry.Affs) != 0 {
+				return fmt.Errorf("affiliation is not allowed for include:%s", entry.Value)
+			}
 			inc := Inclusion{Source: strings.ToUpper(entry.Value)}
 			for _, attr := range entry.Attrs {
 				if strings.HasPrefix(attr, "-") {
@@ -213,10 +230,17 @@ func parseList(refList *List) error {
 			}
 			pl.Inclusions = append(pl.Inclusions, inc)
 		} else {
+			for _, aff := range entry.Affs {
+				apl, _ := plMap[aff]
+				if apl == nil {
+					apl = &ParsedList{Name: aff}
+					plMap[aff] = apl
+				}
+				apl.Entry = append(apl.Entry, entry)
+			}
 			pl.Entry = append(pl.Entry, entry)
 		}
 	}
-	plMap[refList.Name] = pl
 	return nil
 }
 
