@@ -47,6 +47,7 @@ type Entry struct {
 	Type  string
 	Value string
 	Attrs []string
+	Plain string
 	Affs  []string
 }
 
@@ -108,12 +109,7 @@ func writePlainList(exportedName string) error {
 	defer file.Close()
 	w := bufio.NewWriter(file)
 	for _, entry := range targetList {
-		// Entry output format is: type:domain.tld:@attr1,@attr2
-		var attrString string
-		if entry.Attrs != nil {
-			attrString = ":@" + strings.Join(entry.Attrs, ",@")
-		}
-		fmt.Fprintln(w, entry.Type + ":" + entry.Value + attrString)
+		fmt.Fprintln(w, entry.Plain)
 	}
 	return w.Flush()
 }
@@ -172,6 +168,11 @@ func parseEntry(line string) (Entry, error) {
 	sort.Slice(entry.Attrs, func(i, j int) bool {
 		return entry.Attrs[i] < entry.Attrs[j]
 	})
+	// Formated plain entry: type:domain.tld:@attr1,@attr2
+	entry.Plain = entry.Type + ":" + entry.Value
+	if len(entry.Attrs) != 0 {
+		entry.Plain = entry.Plain + ":@" + strings.Join(entry.Attrs, ",@")
+	}
 
 	return entry, nil
 }
@@ -244,6 +245,56 @@ func parseList(refList *List) error {
 	return nil
 }
 
+func polishList(roughMap *map[string]Entry) []Entry {
+	finalList := make([]Entry, 0, len(*roughMap))
+	queuingList := make([]Entry, 0, len(*roughMap)) // Domain/full entries without attr
+	domainsMap := make(map[string]bool)
+	for _, entry := range *roughMap {
+		switch entry.Type { // Bypass regexp, keyword and "full/domain with attr"
+		case RuleTypeRegexp:
+			finalList = append(finalList, entry)
+		case RuleTypeKeyword:
+			finalList = append(finalList, entry)
+		case RuleTypeDomain:
+			domainsMap[entry.Value] = true
+			if len(entry.Attrs) != 0 {
+				finalList = append(finalList, entry)
+			} else {
+				queuingList = append(queuingList, entry)
+			}
+		case RuleTypeFullDomain:
+			if len(entry.Attrs) != 0 {
+				finalList = append(finalList, entry)
+			} else {
+				queuingList = append(queuingList, entry)
+			}
+		}
+	}
+	// Remove redundant subdomains for full/domain without attr
+	for _, qentry := range queuingList {
+		isRedundant := false
+		pd := qentry.Value // Parent domain
+		for {
+			idx := strings.Index(pd, ".")
+			if idx == -1 { break }
+			pd = pd[idx+1:] // Go for next parent
+			if !strings.Contains(pd, ".") { break } // Not allow tld to be a parent
+			if domainsMap[pd] {
+				isRedundant = true
+				break
+			}
+		}
+		if !isRedundant {
+			finalList = append(finalList, qentry)
+		}
+	}
+	// Sort final entries
+	sort.Slice(finalList, func(i, j int) bool {
+		return finalList[i].Plain < finalList[j].Plain
+	})
+	return finalList
+}
+
 func resolveList(pl *ParsedList) error {
 	if _, pldone := finalMap[pl.Name]; pldone { return nil }
 
@@ -253,9 +304,6 @@ func resolveList(pl *ParsedList) error {
 	cirIncMap[pl.Name] = true
 	defer delete(cirIncMap, pl.Name)
 
-	entry2String := func(e Entry) string { // Attributes already sorted
-		return e.Type + ":" + e.Value + "@" + strings.Join(e.Attrs, "@")
-	}
 	isMatchAttrFilters := func(entry Entry, incFilter Inclusion) bool {
 		if len(incFilter.MustAttrs) == 0 && len(incFilter.BanAttrs) == 0 { return true }
 		if len(entry.Attrs) == 0 { return len(incFilter.MustAttrs) == 0 }
@@ -273,15 +321,10 @@ func resolveList(pl *ParsedList) error {
 		return true
 	}
 
-	bscDupMap := make(map[string]bool) // Used for basic duplicates detection
-	var finalList []Entry
-	for _, dentry := range pl.Entry {
-		if dstring := entry2String(dentry); !bscDupMap[dstring] {
-			bscDupMap[dstring] = true
-			finalList = append(finalList, dentry)
-		}
+	roughMap := make(map[string]Entry) // Avoid basic duplicates
+	for _, dentry := range pl.Entry { // Add direct entries
+		roughMap[dentry.Plain] = dentry
 	}
-
 	for _, inc := range pl.Inclusions {
 		incPl, exist := plMap[inc.Source]
 		if !exist {
@@ -291,15 +334,12 @@ func resolveList(pl *ParsedList) error {
 			return err
 		}
 		for _, ientry := range finalMap[inc.Source] {
-			if isMatchAttrFilters(ientry, inc) {
-				if istring := entry2String(ientry); !bscDupMap[istring] {
-					bscDupMap[istring] = true
-					finalList = append(finalList, ientry)
-				}
+			if isMatchAttrFilters(ientry, inc) { // Add included entries
+				roughMap[ientry.Plain] = ientry
 			}
 		}
 	}
-	finalMap[pl.Name] = finalList
+	finalMap[pl.Name] = polishList(&roughMap)
 	return nil
 }
 
