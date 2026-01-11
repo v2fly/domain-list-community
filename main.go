@@ -246,6 +246,76 @@ func ParseList(refList *List) error {
 	return nil
 }
 
+func polishList(rl *[]Entry) []Entry {
+	// Remove basic duplicates
+	pendingList := make([]Entry, 0, len(*rl)) // Exactly same entries removed
+	entry2String := func(e Entry) string { // Attributes already sorted
+		return e.Type + ":" + e.Value + "@" + strings.Join(e.Attrs, "@")
+	}
+	bscDupMap := make(map[string]bool)
+	for _, entry := range *rl {
+		if estring := entry2String(entry); !bscDupMap[estring] {
+			bscDupMap[estring] = true
+			pendingList = append(pendingList, entry)
+		}
+	}
+
+	finalList := make([]Entry, 0, len(pendingList))
+	queuingList := make([]Entry, 0, len(pendingList)) // Domain/full entries without attr
+	domainsMap := make(map[string]bool)
+	for _, entry := range pendingList {
+		switch entry.Type { // Bypass regexp, keyword and "full/domain with attr"
+		case RuleTypeRegexp:
+			finalList = append(finalList, entry)
+		case RuleTypeKeyword:
+			finalList = append(finalList, entry)
+		case RuleTypeDomain:
+			domainsMap[entry.Value] = true
+			if len(entry.Attrs) != 0 {
+				finalList = append(finalList, entry)
+			} else {
+				queuingList = append(queuingList, entry)
+			}
+		case RuleTypeFullDomain:
+			if len(entry.Attrs) != 0 {
+				finalList = append(finalList, entry)
+			} else {
+				queuingList = append(queuingList, entry)
+			}
+		}
+	}
+
+	// Remove redundant subdomains for full/domain without attr
+	for _, qentry := range queuingList {
+		parts := strings.Split(qentry.Value, ".")
+		isRedundant := false
+		for i := 1; i < len(parts) - 1 ; i++ {
+			// Not check parent for level2 "name.tld" domain / tld will not become a parent
+			parentdomain := strings.Join(parts[i:], ".")
+			if domainsMap[parentdomain] {
+				isRedundant = true
+				break
+			}
+		}
+		if !isRedundant {
+			finalList = append(finalList, qentry)
+		}
+	}
+
+	// Sort final entries
+	sort.Slice(finalList, func(i, j int) bool {
+		if finalList[i].Type != finalList[j].Type {
+			return finalList[i].Type < finalList[j].Type
+		}
+		if finalList[i].Value != finalList[j].Value {
+			return finalList[i].Value < finalList[j].Value
+		}
+		// Ideally, the comparison here will not be triggered by source data
+		return strings.Join(finalList[i].Attrs, ",") < strings.Join(finalList[j].Attrs, ",")
+	})
+	return finalList
+}
+
 func ResolveList(pl *ParsedList) error {
 	if _, pldone := finalMap[pl.Name]; pldone { return nil }
 
@@ -255,9 +325,6 @@ func ResolveList(pl *ParsedList) error {
 	cirIncMap[pl.Name] = true
 	defer delete(cirIncMap, pl.Name)
 
-	entry2String := func(e Entry) string { // Attributes already sorted
-		return e.Type + ":" + e.Value + "@" + strings.Join(e.Attrs, "@")
-	}
 	isMatchAttrFilters := func(entry Entry, incFilter Inclusion) bool {
 		if len(incFilter.MustAttrs) == 0 && len(incFilter.BanAttrs) == 0 { return true }
 		if len(entry.Attrs) == 0 { return len(incFilter.MustAttrs) == 0 }
@@ -275,14 +342,8 @@ func ResolveList(pl *ParsedList) error {
 		return true
 	}
 
-	bscDupMap := make(map[string]bool) // Used for basic duplicates detection
-	var finalList []Entry
-	for _, dentry := range pl.Entry {
-		if dstring := entry2String(dentry); !bscDupMap[dstring] {
-			bscDupMap[dstring] = true
-			finalList = append(finalList, dentry)
-		}
-	}
+	var roughList []Entry
+	roughList = append(roughList, pl.Entry...)
 
 	for _, inc := range pl.Inclusions {
 		incPl, exist := plMap[inc.Source]
@@ -294,14 +355,11 @@ func ResolveList(pl *ParsedList) error {
 		}
 		for _, ientry := range finalMap[inc.Source] {
 			if isMatchAttrFilters(ientry, inc) {
-				if istring := entry2String(ientry); !bscDupMap[istring] {
-					bscDupMap[istring] = true
-					finalList = append(finalList, ientry)
-				}
+				roughList = append(roughList, ientry)
 			}
 		}
 	}
-	finalMap[pl.Name] = finalList
+	finalMap[pl.Name] = polishList(&roughList)
 	return nil
 }
 
