@@ -12,6 +12,7 @@ include:atom-data-ads
 include:baidu-ads
 include:bytedance-ads
 include:category-ads-ir
+include:cctv-ads
 include:clearbit-ads
 include:dmm-ads
 include:duolingo-ads
@@ -52,6 +53,7 @@ include:tagtic-ads
 include:tappx-ads
 include:television-ads
 include:tencent-ads
+include:tendcloud-ads
 include:uberads-ads
 include:umeng-ads
 include:unity-ads
@@ -75,6 +77,7 @@ ads.trafficjunky.net
 ads.wteam.xyz
 adtechus.com
 adtrue.com
+adservice.sigmob.cn
 adxprtz.com
 cdn.advertserve.com
 cdn.banclip.com
