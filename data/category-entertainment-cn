@@ -109,6 +109,9 @@ zhulang.com
 zongheng.com
 
 # 娱乐资讯媒体
+# 该部分参考了中文维基百科的「来源考量」：
+# - https://zh.wikipedia.org/wiki/WikiProject:电子游戏/来源考量
+# - https://zh.wikipedia.org/wiki/WikiProject:ACG/來源考量
 
 include:tgbus
 include:vgtime
@@ -143,11 +146,15 @@ ign.com.cn
 nadianshi.com
 ## 游戏日报
 news.yxrb.net
+## 手谈姬
+shoutanjjj.com
 ## 游戏机实用技术
 ucg.cn
 ## 游戏茶馆
 youxichaguan.com
 ## 游戏葡萄
 youxiputao.com
+## 游戏陀螺
+youxituoluo.com
 ## 游研社
 yystv.cn
