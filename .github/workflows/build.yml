@@ -50,8 +50,13 @@ jobs:
 
       - name: Generate XZ
         run: |
-          xz -z -9 -k dlc.dat
+          xz -zk -9 dlc.dat
           sha256sum dlc.dat.xz > dlc.dat.xz.sha256sum
+      
+      - name: Generate ZSTD
+        run: |
+          zstd -zk -19 dlc.dat
+          sha256sum dlc.dat.zst > dlc.dat.zst.sha256sum
 
       - name: Git push assets to "release" branch
         run: |
@@ -59,7 +64,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b release
-          git add *.txt *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz
+          git add *.txt *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz dlc.dat.zstd
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
