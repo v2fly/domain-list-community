@@ -104,6 +104,9 @@ bag.itunes.apple.com
 bookeeper.itunes.apple.com
 
 # Entertainment oriented media
+# This section references the "Source Considerations" page on the Chinese Wikipedia:
+# - https://zh.wikipedia.org/wiki/WikiProject:电子游戏/来源考量
+# - https://zh.wikipedia.org/wiki/WikiProject:ACG/來源考量
 ## 4Gamer.net
 4gamer.net
 ## 4Gamers
@@ -116,20 +119,28 @@ appget.com
 appmedia.jp
 ## Automaton
 automaton-media.com
+## 橙心社
+cxacg.com
 ## 电faminicogamer
 denfaminicogamer.jp
 ## ASCII Media Works
 dengekionline.com
 ## E-ROAD
 eroge-road.com
+## esports.gg
+esports.gg
 ## ファミ通
 famitsu.com
+## GameApps.HK
+gameapps.hk
 ## 遊戲基地
 gamebase.com.tw
 ## IID, Inc.
 gamebusiness.jp
 gamespark.jp
 inside-games.jp
+## Game Focus
+gamefocus.co.kr
 ## GameMeca
 gamemeca.com
 ## Gameover有機網
@@ -141,6 +152,8 @@ onlinegamer.jp
 greatgame.asia
 ## HobbiGame
 hobbigame.com
+## ゲーム文化保存研究所
+igcc.jp
 ## IGN
 ign.com
 ignimg.com
@@ -152,18 +165,30 @@ mediaclip.jp
 maedahiroyuki.com
 ## MANTANWEB
 mantan-web.jp
+## モエデジ
+moedigi.com
 ## Moepedia
 moepedia.net
+## マイナビニュース
+mynavi.jp
+## Openbook阅读通
+openbook.org.tw
 ## QooApp
 qoo-app.com
 ## Real Sound
 realsound.jp
+## れポたま！
+repotama.com
 ## Saiga NAK
 saiganak.com
+## SQOOL
+sqool.net
 ## The Games Daily
 tgdaily.co.kr
 ## Thisisgame
 thisisgame.com
+## 玩具人
+toy-people.com
 ## Wanuxi
 wanuxi.com
 ## よろず〜
