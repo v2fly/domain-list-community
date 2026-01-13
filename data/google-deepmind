@@ -23,8 +23,8 @@ gemini.google
 gemini.google.com
 
 # NotebookLM
-notebooklm-pa.googleapis.com
-notebooklm.googleapis.com
+full:notebooklm-pa.googleapis.com
+full:notebooklm.googleapis.com
 notebooklm.google
 notebooklm.google.com
 
