@@ -1,5 +1,6 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
+include:category-acg
 include:category-entertainment-ru
 include:category-games-!cn
 include:category-novel

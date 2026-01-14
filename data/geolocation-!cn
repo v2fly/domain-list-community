@@ -3,9 +3,6 @@
 # AI Chat
 include:category-ai-!cn
 
-# Anime, Comics & Games
-include:category-acg
-
 # Advertisment & Analytics
 include:pubmatic
 include:taboola
