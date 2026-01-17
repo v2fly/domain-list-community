@@ -312,9 +312,9 @@ api.iris.microsoft.com @cn
 data.microsoft.com @cn
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
-edge.microsoft.com @cn
 prod.do.dsp.mp.microsoft.com @cn
 update.microsoft.com @cn
+full:account.microsoft.com @cn
 full:b.c2r.ts.cdn.office.net @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
@@ -327,6 +327,7 @@ full:developer.microsoft.com @cn
 full:docs.microsoft.com @cn
 full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
+full:edge.microsoft.com @cn
 full:f.c2r.ts.cdn.office.net @cn
 full:fs.microsoft.com @cn
 full:graph.microsoft.com @cn
