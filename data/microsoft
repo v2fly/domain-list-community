@@ -308,6 +308,7 @@ skypedata.akadns.net
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"
+data.microsoft.com @cn
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
 full:b.c2r.ts.cdn.office.net @cn
