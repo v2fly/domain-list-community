@@ -308,10 +308,13 @@ skypedata.akadns.net
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"
+api.iris.microsoft.com @cn
 data.microsoft.com @cn
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
 edge.microsoft.com @cn
+prod.do.dsp.mp.microsoft.com @cn
+update.microsoft.com @cn
 full:b.c2r.ts.cdn.office.net @cn
 full:bg.v4.a.dl.ws.microsoft.com @cn
 full:bg4.v4.a.dl.ws.microsoft.com @cn
@@ -326,7 +329,9 @@ full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
 full:f.c2r.ts.cdn.office.net @cn
 full:fs.microsoft.com @cn
+full:graph.microsoft.com @cn
 full:learn.microsoft.com @cn
+full:login.live.com @cn
 full:myvs.download.prss.microsoft.com @cn
 full:oemsoc.download.prss.microsoft.com @cn
 full:officecdn.microsoft.com @cn
@@ -337,6 +342,7 @@ full:shell.cdn.office.net @cn
 full:software.download.prss.microsoft.com @cn
 full:statics.teams.cdn.office.net @cn
 full:storeedgefd.dsx.mp.microsoft.com @cn
+full:substrate.office.com @cn
 full:surface.downloads.prss.microsoft.com @cn
 full:vscode.download.prss.microsoft.com @cn
 full:vz.download.prss.microsoft.com @cn
