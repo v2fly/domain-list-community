@@ -244,29 +244,31 @@ include:zeplin
 include:zoho
 include:zoom
 
-biliplus.com # BiliPlus
-
-# Graphing for Science and Engineering
-originlab.com
-
-# Online LaTeX Editor
-cloudlatex.io
-overleaf.com
-
-# Translator & Dictionary
-include:linguee
-
-collinsdictionary.com
-ldoceonline.com
-immersivetranslate.com # 沉浸式翻译 (国际版)
-
-# Aurora Open Source Software (https://gitlab.com/AuroraOSS)
+## Aurora Open Source Software (https://gitlab.com/AuroraOSS)
 auroraoss.com
-
-# CookiePro, provides cookies and tracking
+## BiliPlus
+biliplus.com
+## CataBoom
+cataboom.com
+## Consent Management Platforms / Cookie service
+consentpro.com
 cookiepro.com
 cookielaw.org
 onetrust.com
+osano.com
+usercentrics.eu
+## Greasy Fork
+greasyfork.org
+## Online LaTeX Editor
+cloudlatex.io
+overleaf.com
+## Translator & Dictionary
+include:linguee
+collinsdictionary.com
+ldoceonline.com
+immersivetranslate.com # 沉浸式翻译 (国际版)
+## OriginLab (Graphing for Science and Engineering)
+originlab.com
 
 # Software development
 include:category-dev
@@ -283,9 +285,6 @@ include:piratebay
 include:rarbg
 dmhy.org
 rutor.info
-
-# User scripts
-greasyfork.org
 
 # VPN services
 include:category-vpnservices
