@@ -4,7 +4,7 @@ include:apipost
 include:baltamatica
 include:cnblogs
 include:csdn
-include:deepin
+include:deepin @-!cn
 include:gitee
 include:goproxy
 include:huawei-dev

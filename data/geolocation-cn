@@ -38,9 +38,9 @@ include:category-httpdns-cn
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
 include:category-securities-cn
-include:eastmoney
+include:eastmoney @-!cn
 include:everbright
-include:pingan
+include:pingan @-!cn
 include:taikang
 
 ## 航财通·校园付
@@ -92,11 +92,11 @@ pkoplink.com
 
 # E-commerce
 include:58tongcheng
-include:ctrip
+include:ctrip @-!cn
 include:dangdang
-include:dewu
+include:dewu @-!cn
 include:dongjiao
-include:jd
+include:jd @-!cn
 include:lianjia
 include:meituan
 include:miaomiaozhe
@@ -411,19 +411,19 @@ zhaopin.cn
 # Tech companies & Orginations
 include:aisiku # 北京艾斯酷科技有限公司
 include:akiko # 秋子酱科技
-include:alibaba
+include:alibaba @-!cn
 include:baidu
 include:beisen
 include:bluepoch
-include:bytedance
-include:didi
+include:bytedance @-!cn
+include:didi @-!cn
 include:dingdatech # 叮哒出行(杭州金通互联科技有限公司)
 include:dji
 include:gree
 include:haier
 include:hikvision
 include:honor
-include:huawei
+include:huawei @-!cn
 include:hupun # 杭州湖畔网络技术有限公司
 include:iflytek
 include:ishumei # 北京数美时代科技有限公司
@@ -435,14 +435,14 @@ include:meizu
 include:midea
 include:narwal # 云鲸科技
 include:netease
-include:oppo
+include:oppo @-!cn
 include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
-include:tencent
+include:tencent @-!cn
 include:tongfang
-include:vivo
-include:xiaomi
+include:vivo @-!cn
+include:xiaomi @-!cn
 include:xunlei
 include:youquan # 祐全科技
 include:yuanbei # 上海圆贝信息科技有限公司
@@ -479,13 +479,14 @@ xsbapp.cn
 
 # Telecommunication
 include:chinabroadnet
-include:chinamobile
-include:chinatelecom
+include:chinamobile @-!cn
+include:chinatelecom @-!cn
 include:chinatower
-include:chinaunicom
+include:chinaunicom @-!cn
 
 # 在线工具
-include:ipip # IPIP ip地理位置数据库
+## IPIP ip地理位置数据库
+include:ipip @-!cn
 
 chaziyu.com # 滇ICP备2024035496号
 fofa.info # Fofa网站测绘（华顺信安）

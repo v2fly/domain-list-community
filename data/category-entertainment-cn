@@ -6,7 +6,7 @@ include:aamgame
 include:acfun
 include:acplay
 include:bestv
-include:bilibili
+include:bilibili @-!cn
 include:ciweimao
 include:dedao
 include:douyin
@@ -18,7 +18,7 @@ include:gamersky
 include:gitv
 include:hunantv
 include:huya
-include:iqiyi
+include:iqiyi @-!cn
 include:ku6
 include:kuaikan
 include:kuaishou
