@@ -26,6 +26,9 @@ include:getui
 include:jiguang
 include:umeng
 
+# 神策数据
+sensorsdata.cn
+
 # category-httpdns-cn is mainly for advertising purpose
 include:category-httpdns-cn
 
