@@ -37,9 +37,9 @@ var (
 )
 
 var (
-	refMap    = make(map[string]*List)
+	refMap    = make(map[string][]*Entry)
 	plMap     = make(map[string]*ParsedList)
-	finalMap  = make(map[string][]Entry)
+	finalMap  = make(map[string][]*Entry)
 	cirIncMap = make(map[string]bool) // Used for circular inclusion detection
 )
 
@@ -57,23 +57,18 @@ type Inclusion struct {
 	BanAttrs  []string
 }
 
-type List struct {
-	Name  string
-	Entry []Entry
-}
-
 type ParsedList struct {
 	Name       string
-	Inclusions []Inclusion
-	Entry      []Entry
+	Inclusions []*Inclusion
+	Entries    []*Entry
 }
 
-func makeProtoList(listName string, entries *[]Entry) (*router.GeoSite, error) {
+func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 	site := &router.GeoSite{
 		CountryCode: listName,
-		Domain: make([]*router.Domain, 0, len(*entries)),
+		Domain: make([]*router.Domain, 0, len(entries)),
 	}
-	for _, entry := range *entries {
+	for _, entry := range entries {
 		pdomain := &router.Domain{Value: entry.Value}
 		for _, attr := range entry.Attrs {
 			pdomain.Attribute = append(pdomain.Attribute, &router.Domain_Attribute{
@@ -175,21 +170,22 @@ func parseEntry(line string) (Entry, error) {
 	return entry, nil
 }
 
-func Load(path string) (*List, error) {
+func loadData(path string) error {
 	file, err := os.Open(path)
 	if err != nil {
-		return nil, err
+		return err
 	}
 	defer file.Close()
 
 	listName := strings.ToUpper(filepath.Base(path))
 	if !SiteChecker.MatchString(listName) {
-		return nil, fmt.Errorf("invalid list name: %s", listName)
+		return fmt.Errorf("invalid list name: %s", listName)
 	}
-	list := &List{Name: listName}
 	scanner := bufio.NewScanner(file)
+	lineIdx := 0
 	for scanner.Scan() {
 		line := scanner.Text()
+		lineIdx++
 		// Remove comments
 		if idx := strings.Index(line, "#"); idx != -1 {
 			line = line[:idx]
@@ -200,26 +196,25 @@ func Load(path string) (*List, error) {
 		}
 		entry, err := parseEntry(line)
 		if err != nil {
-			return nil, err
+			return fmt.Errorf("error in %s at line %d: %v", path, lineIdx, err)
 		}
-		list.Entry = append(list.Entry, entry)
+		refMap[listName] = append(refMap[listName], &entry)
 	}
-
-	return list, nil
+	return nil
 }
 
-func parseList(refList *List) error {
-	pl, _ := plMap[refList.Name]
+func parseList(refName string, refList []*Entry) error {
+	pl, _ := plMap[refName]
 	if pl == nil {
-		pl = &ParsedList{Name: refList.Name}
-		plMap[refList.Name] = pl
+		pl = &ParsedList{Name: refName}
+		plMap[refName] = pl
 	}
-	for _, entry := range refList.Entry {
+	for _, entry := range refList {
 		if entry.Type == RuleTypeInclude {
 			if len(entry.Affs) != 0 {
 				return fmt.Errorf("affiliation is not allowed for include:%s", entry.Value)
 			}
-			inc := Inclusion{Source: strings.ToUpper(entry.Value)}
+			inc := &Inclusion{Source: strings.ToUpper(entry.Value)}
 			for _, attr := range entry.Attrs {
 				if strings.HasPrefix(attr, "-") {
 					inc.BanAttrs = append(inc.BanAttrs, attr[1:]) // Trim attribute prefix `-` character
@@ -235,17 +230,17 @@ func parseList(refList *List) error {
 					apl = &ParsedList{Name: aff}
 					plMap[aff] = apl
 				}
-				apl.Entry = append(apl.Entry, entry)
+				apl.Entries = append(apl.Entries, entry)
 			}
-			pl.Entry = append(pl.Entry, entry)
+			pl.Entries = append(pl.Entries, entry)
 		}
 	}
 	return nil
 }
 
-func polishList(roughMap *map[string]Entry) []Entry {
-	finalList := make([]Entry, 0, len(*roughMap))
-	queuingList := make([]Entry, 0, len(*roughMap)) // Domain/full entries without attr
+func polishList(roughMap *map[string]*Entry) []*Entry {
+	finalList := make([]*Entry, 0, len(*roughMap))
+	queuingList := make([]*Entry, 0, len(*roughMap)) // Domain/full entries without attr
 	domainsMap := make(map[string]bool)
 	for _, entry := range *roughMap {
 		switch entry.Type { // Bypass regexp, keyword and "full/domain with attr"
@@ -287,7 +282,7 @@ func polishList(roughMap *map[string]Entry) []Entry {
 		}
 	}
 	// Sort final entries
-	slices.SortFunc(finalList, func(a, b Entry) int {
+	slices.SortFunc(finalList, func(a, b *Entry) int {
 		return strings.Compare(a.Plain, b.Plain)
 	})
 	return finalList
@@ -302,7 +297,7 @@ func resolveList(pl *ParsedList) error {
 	cirIncMap[pl.Name] = true
 	defer delete(cirIncMap, pl.Name)
 
-	isMatchAttrFilters := func(entry Entry, incFilter Inclusion) bool {
+	isMatchAttrFilters := func(entry *Entry, incFilter *Inclusion) bool {
 		if len(incFilter.MustAttrs) == 0 && len(incFilter.BanAttrs) == 0 { return true }
 		if len(entry.Attrs) == 0 { return len(incFilter.MustAttrs) == 0 }
 
@@ -315,8 +310,8 @@ func resolveList(pl *ParsedList) error {
 		return true
 	}
 
-	roughMap := make(map[string]Entry) // Avoid basic duplicates
-	for _, dentry := range pl.Entry { // Add direct entries
+	roughMap := make(map[string]*Entry) // Avoid basic duplicates
+	for _, dentry := range pl.Entries { // Add direct entries
 		roughMap[dentry.Plain] = dentry
 	}
 	for _, inc := range pl.Inclusions {
@@ -351,21 +346,19 @@ func main() {
 		if info.IsDir() {
 			return nil
 		}
-		list, err := Load(path)
-		if err != nil {
+		if err := loadData(path); err != nil {
 			return err
 		}
-		refMap[list.Name] = list
 		return nil
 	})
 	if err != nil {
-		fmt.Println("Failed:", err)
+		fmt.Println("Failed to loadData:", err)
 		os.Exit(1)
 	}
 
 	// Generate plMap
-	for _, refList := range refMap {
-		if err := parseList(refList); err != nil {
+	for refName, refList := range refMap {
+		if err := parseList(refName, refList); err != nil {
 			fmt.Println("Failed to parseList:", err)
 			os.Exit(1)
 		}
@@ -402,7 +395,7 @@ func main() {
 	// Generate dat file
 	protoList := new(router.GeoSiteList)
 	for siteName, siteEntries := range finalMap {
-		site, err := makeProtoList(siteName, &siteEntries)
+		site, err := makeProtoList(siteName, siteEntries)
 		if err != nil {
 			fmt.Println("Failed:", err)
 			os.Exit(1)
