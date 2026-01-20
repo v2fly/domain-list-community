@@ -7,6 +7,7 @@ include:elevenlabs
 include:google-deepmind
 include:groq
 include:huggingface
+include:liveperson
 include:openai
 include:perplexity
 include:poe
