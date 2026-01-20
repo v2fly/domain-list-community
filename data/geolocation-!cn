@@ -102,6 +102,8 @@ include:w3schools
 include:zotero
 
 chemequations.com # 线上化学方程式！
+geogebra.org
+wolframalpha.com
 
 # Entertainment & Games & Music & Podcasts & Videos
 include:category-entertainment
@@ -300,6 +302,7 @@ include:wikimedia
 
 atwiki.jp
 touhouwiki.net
+wiki.gg
 
 # Others
 include:avaxhome
