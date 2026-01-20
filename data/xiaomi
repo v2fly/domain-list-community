@@ -1,5 +1,6 @@
 include:xiaomi-ads
 include:xiaomi-ai
+include:xiaomi-iot
 
 mgslb.com
 mi-idc.com
