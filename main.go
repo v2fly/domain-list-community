@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"sort"
+	"slices"
 	"strings"
 
 	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
@@ -165,9 +165,7 @@ func parseEntry(line string) (Entry, error) {
 		}
 	}
 	// Sort attributes
-	sort.Slice(entry.Attrs, func(i, j int) bool {
-		return entry.Attrs[i] < entry.Attrs[j]
-	})
+	slices.Sort(entry.Attrs)
 	// Formated plain entry: type:domain.tld:@attr1,@attr2
 	entry.Plain = entry.Type + ":" + entry.Value
 	if len(entry.Attrs) != 0 {
@@ -289,8 +287,8 @@ func polishList(roughMap *map[string]Entry) []Entry {
 		}
 	}
 	// Sort final entries
-	sort.Slice(finalList, func(i, j int) bool {
-		return finalList[i].Plain < finalList[j].Plain
+	slices.SortFunc(finalList, func(a, b Entry) int {
+		return strings.Compare(a.Plain, b.Plain)
 	})
 	return finalList
 }
@@ -308,15 +306,11 @@ func resolveList(pl *ParsedList) error {
 		if len(incFilter.MustAttrs) == 0 && len(incFilter.BanAttrs) == 0 { return true }
 		if len(entry.Attrs) == 0 { return len(incFilter.MustAttrs) == 0 }
 
-		attrMap := make(map[string]bool)
-		for _, attr := range entry.Attrs {
-			attrMap[attr] = true
-		}
 		for _, m := range incFilter.MustAttrs {
-			if !attrMap[m] { return false }
+			if !slices.Contains(entry.Attrs, m) { return false }
 		}
 		for _, b := range incFilter.BanAttrs {
-			if attrMap[b] { return false }
+			if slices.Contains(entry.Attrs, b) { return false }
 		}
 		return true
 	}
@@ -416,8 +410,8 @@ func main() {
 		protoList.Entry = append(protoList.Entry, site)
 	}
 	// Sort protoList so the marshaled list is reproducible
-	sort.SliceStable(protoList.Entry, func(i, j int) bool {
-		return protoList.Entry[i].CountryCode < protoList.Entry[j].CountryCode
+	slices.SortFunc(protoList.Entry, func(a, b *router.GeoSite) int {
+		return strings.Compare(a.CountryCode, b.CountryCode)
 	})
 
 	protoBytes, err := proto.Marshal(protoList)
