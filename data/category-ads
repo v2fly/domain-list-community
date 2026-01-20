@@ -43,7 +43,6 @@ include:pocoiq-ads
 include:pubmatic-ads
 include:qihoo360-ads
 include:segment-ads
-include:sensorsdata-ads
 include:sina-ads
 include:sohu-ads
 include:spotify-ads
@@ -193,6 +192,9 @@ reachmax.cn
 
 # 热云数据
 reyun.com
+
+# 神策数据
+static.sensorsdata.cn
 
 # 诸葛io
 zhugeapi.com
