@@ -4,7 +4,11 @@ ubisoft.com
 # Ubisoft Connect
 ubisoftconnect.com
 uplay.com
-full:ubisoft-uplay-savegames.s3.amazonaws.com
-full:ubisoft-orbit-savegames.s3.amazonaws.com
-full:ubistatic3-a.akamaihd.net
+regexp:^ubisoft-[a-z0-9-]+-savegames\.s3\.amazonaws\.com$
+regexp:^ubistatic[a-z0-9-]*\.akamaihd\.net$
+ubisoft.siteintercept.qualtrics.com
+xely3u4lod-dsn.algolia.net
+avcvysejs1-dsn.algolia.net
+ariane.abtasty.com
+try.abtasty.com
 full:uplaypc-s-ubisoft.cdn.ubi.com @cn
