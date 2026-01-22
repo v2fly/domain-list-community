@@ -30,10 +30,10 @@ const (
 )
 
 var (
-	TypeChecker  = regexp.MustCompile(`^(domain|full|keyword|regexp|include)$`)
-	ValueChecker = regexp.MustCompile(`^[a-z0-9!\.-]+$`)
-	AttrChecker  = regexp.MustCompile(`^[a-z0-9!-]+$`)
-	SiteChecker  = regexp.MustCompile(`^[A-Z0-9!-]+$`)
+	TypeChecker   = regexp.MustCompile(`^(domain|full|keyword|regexp|include)$`)
+	DomainChecker = regexp.MustCompile(`^[a-z0-9\.-]+$`)
+	AttrChecker   = regexp.MustCompile(`^[a-z0-9!-]+$`)
+	SiteChecker   = regexp.MustCompile(`^[A-Z0-9!-]+$`)
 )
 
 var (
@@ -123,6 +123,8 @@ func parseEntry(line string) (Entry, error) {
 		entry.Type = strings.ToLower(kv[0])
 		if entry.Type == RuleTypeRegexp {
 			entry.Value = kv[1]
+		} else if entry.Type == RuleTypeInclude {
+			entry.Value = strings.ToUpper(kv[1])
 		} else {
 			entry.Value = strings.ToLower(kv[1])
 		}
@@ -133,12 +135,19 @@ func parseEntry(line string) (Entry, error) {
 	if !TypeChecker.MatchString(entry.Type) {
 		return entry, fmt.Errorf("invalid type: %s", entry.Type)
 	}
-	if entry.Type == RuleTypeRegexp {
+	switch entry.Type {
+	case RuleTypeRegexp:
 		if _, err := regexp.Compile(entry.Value); err != nil {
 			return entry, fmt.Errorf("invalid regexp: %s", entry.Value)
 		}
-	} else if !ValueChecker.MatchString(entry.Value) {
-		return entry, fmt.Errorf("invalid value: %s", entry.Value)
+	case RuleTypeInclude:
+		if !SiteChecker.MatchString(entry.Value) {
+			return entry, fmt.Errorf("invalid included list name: %s", entry.Value)
+		}
+	default: // `full`, `domain` and `keyword` are all (parts of) domains
+		if !DomainChecker.MatchString(entry.Value) {
+			return entry, fmt.Errorf("invalid domain: %s", entry.Value)
+		}
 	}
 
 	// Parse/Check attributes and affiliations
@@ -214,7 +223,7 @@ func parseList(refName string, refList []*Entry) error {
 			if len(entry.Affs) != 0 {
 				return fmt.Errorf("affiliation is not allowed for include:%s", entry.Value)
 			}
-			inc := &Inclusion{Source: strings.ToUpper(entry.Value)}
+			inc := &Inclusion{Source: entry.Value}
 			for _, attr := range entry.Attrs {
 				if strings.HasPrefix(attr, "-") {
 					inc.BanAttrs = append(inc.BanAttrs, attr[1:]) // Trim attribute prefix `-` character

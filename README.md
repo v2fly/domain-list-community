@@ -91,9 +91,9 @@ All data are under `data` directory. Each file in the directory represents a sub
 # comments
 include:another-file
 domain:google.com @attr1 @attr2
+full:analytics.google.com @ads
 keyword:google
-regexp:www\.google\.com$
-full:www.google.com
+regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 ```
 
 **Syntax:**
@@ -106,10 +106,10 @@ full:www.google.com
 
 - Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
 - Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
-- Keyword begins with `keyword:`, followed by a string.
-- Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
 - Full domain begins with `full:`, followed by a complete and valid domain name.
-- Domain rules (including `domain`, `keyword`, `regexp` and `full`) may have none, one or more attributes. Each attribute begins with `@` and followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
+- Keyword begins with `keyword:`, followed by a substring of a valid domain name.
+- Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
+- Domain rules (including `domain`, `full`, `keyword`, and `regexp`) may have none, one or more attributes. Each attribute begins with `@` and followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
 - Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and followed by the name of the target list (nomatter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
 - Inclusion begins with `include:`, followed by the name of another valid domain list. A simple `include:listb` in file `lista` means adding all domain rules of `listb` into `lista`. Inclusions with attributes stands for selective inclusion. `include:listb @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
 
