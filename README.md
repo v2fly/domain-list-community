@@ -13,9 +13,7 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 ## Notice
 
-Rules with `@!cn` attribute has been cast out from cn lists. `geosite:geolocation-cn@!cn` is no longer available.
-
-Check [#390](https://github.com/v2fly/domain-list-community/issues/390), [#3119](https://github.com/v2fly/domain-list-community/pull/3119) and [#3198](https://github.com/v2fly/domain-list-community/pull/3198) for more information.
+Rules with `@!cn` attribute has been cast out from cn lists. `geosite:geolocation-cn@!cn` is no longer available. Check [#390](https://github.com/v2fly/domain-list-community/issues/390), [#3119](https://github.com/v2fly/domain-list-community/pull/3119) and [#3198](https://github.com/v2fly/domain-list-community/pull/3198) for more information.
 
 Please report if you have any problems or questions.
 
@@ -100,31 +98,38 @@ full:www.google.com
 
 **Syntax:**
 
+> [!NOTE]
+> Adding new `regexp` and `keyword` rules is discouraged because it is easy to use them incorrectly, and proxy software cannot efficiently match these types of rules.
+
+> [!NOTE]
 > The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **Not** copy and paste directly.
 
 - Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
-- Inclusion begins with `include:`, followed by the file name of an existing file in the same directory.
 - Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
 - Keyword begins with `keyword:`, followed by a string.
 - Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
 - Full domain begins with `full:`, followed by a complete and valid domain name.
-- Domains (including `domain`, `keyword`, `regexp` and `full`) may have one or more attributes. Each attribute begins with `@` and followed by the name of the attribute.
-
-> **Note:** Adding new `regexp` and `keyword` rules is discouraged because it is easy to use them incorrectly, and proxy software cannot efficiently match these types of rules.
+- Domain rules (including `domain`, `keyword`, `regexp` and `full`) may have none, one or more attributes. Each attribute begins with `@` and followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
+- Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and followed by the name of the target list (nomatter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
+- Inclusion begins with `include:`, followed by the name of another valid domain list. A simple `include:listb` in file `lista` means adding all domain rules of `listb` into `lista`. Inclusions with attributes stands for selective inclusion. `include:listb @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
 
 ## How it works
 
 The entire `data` directory will be built into an external `geosite` file for Project V. Each file in the directory represents a section in the generated file.
 
-To generate a section:
+**General steps:**
 
-1. Remove all the comments in the file.
-2. Replace `include:` lines with the actual content of the file.
-3. Omit all empty lines.
-4. Generate each `domain:` line into a [sub-domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L21).
-5. Generate each `full:` line into a [full domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L23).
-6. Generate each `keyword:` line into a [plain domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L17).
-7. Generate each `regexp:` line into a [regex domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L19).
+1. Read files in the data path (ignore all comments and empty lines).
+2. Parse and resolve source data, turn affiliations and inclusions into actual domain rules in proper lists.
+3. Deduplicate and sort rules in every list.
+4. Export desired plain text lists.
+5. Generate `dlc.dat`:
+   - turn each `domain:` line into a [sub-domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L21).
+   - turn each `full:` line into a [full domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L23).
+   - turn each `keyword:` line into a [plain domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L17).
+   - turn each `regexp:` line into a [regex domain routing rule](https://github.com/v2fly/v2ray-core/blob/master/app/router/routercommon/common.proto#L19).
+
+Read [main.go](./main.go) for details.
 
 ## How to organize domains
 
