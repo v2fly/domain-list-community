@@ -10,6 +10,8 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 - **dlc.dat**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat)
 - **dlc.dat.sha256sum**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat.sha256sum](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat.sha256sum)
+- **dlc.dat_plain.yml**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml)
+- **dlc.dat_plain.yml.sha256sum**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat_plain.yml.sha256sum)
 
 ## Notice
 
