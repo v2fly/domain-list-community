@@ -92,6 +92,25 @@ func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 	return site, nil
 }
 
+func writePlainAll(siteList *[]string) error {
+	file, err := os.Create(filepath.Join(*outputDir, *outputName + "_plain.yml"))
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	w := bufio.NewWriter(file)
+	w.WriteString("lists:\n")
+	for _, site := range *siteList {
+		fmt.Fprintf(w, "  - name: %s\n", strings.ToLower(site))
+		fmt.Fprintf(w, "    length: %d\n", len(finalMap[site]))
+		w.WriteString("    rules:\n")
+		for _, entry := range finalMap[site] {
+			fmt.Fprintf(w, "      - %s\n", entry.Plain)
+		}
+	}
+	return w.Flush()
+}
+
 func writePlainList(exportedName string) error {
 	targetList, exist := finalMap[strings.ToUpper(exportedName)]
 	if !exist || len(targetList) == 0 {
@@ -275,7 +294,10 @@ func polishList(roughMap *map[string]*Entry) []*Entry {
 	// Remove redundant subdomains for full/domain without attr
 	for _, qentry := range queuingList {
 		isRedundant := false
-		pd := qentry.Value // Parent domain
+		pd := qentry.Value // To be parent domain
+		if qentry.Type == RuleTypeFullDomain {
+			pd = "." + pd // So that `domain:example.org` overrides `full:example.org`
+		}
 		for {
 			idx := strings.Index(pd, ".")
 			if idx == -1 { break }
@@ -373,13 +395,16 @@ func main() {
 		}
 	}
 
-	// Generate finalMap
+	// Generate finalMap and sorted list of site names
+	siteList := make([]string, 0 ,len(plMap))
 	for _, pl := range plMap {
+		siteList = append(siteList, pl.Name)
 		if err := resolveList(pl); err != nil {
 			fmt.Println("Failed to resolveList:", err)
 			os.Exit(1)
 		}
 	}
+	slices.Sort(siteList)
 
 	// Create output directory if not exist
 	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
@@ -393,9 +418,16 @@ func main() {
 	if *exportLists != "" {
 		exportedListSlice := strings.Split(*exportLists, ",")
 		for _, exportedList := range exportedListSlice {
-			if err := writePlainList(exportedList); err != nil {
-				fmt.Println("Failed to write list:", err)
-				continue
+			if exportedList == "_all_" {
+				if err := writePlainAll(&siteList); err != nil {
+					fmt.Println("Failed to writePlainAll:", err)
+					continue
+				}
+			} else {
+				if err := writePlainList(exportedList); err != nil {
+					fmt.Println("Failed to write list:", err)
+					continue
+				}
 			}
 			fmt.Printf("list: '%s' has been generated successfully.\n", exportedList)
 		}
@@ -403,18 +435,14 @@ func main() {
 
 	// Generate dat file
 	protoList := new(router.GeoSiteList)
-	for siteName, siteEntries := range finalMap {
-		site, err := makeProtoList(siteName, siteEntries)
+	for _, siteName := range siteList { // So that protoList.Entry is sorted
+		site, err := makeProtoList(siteName, finalMap[siteName])
 		if err != nil {
-			fmt.Println("Failed:", err)
+			fmt.Println("Failed to makeProtoList:", err)
 			os.Exit(1)
 		}
 		protoList.Entry = append(protoList.Entry, site)
 	}
-	// Sort protoList so the marshaled list is reproducible
-	slices.SortFunc(protoList.Entry, func(a, b *router.GeoSite) int {
-		return strings.Compare(a.CountryCode, b.CountryCode)
-	})
 
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {
