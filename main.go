@@ -266,7 +266,10 @@ func polishList(roughMap *map[string]*Entry) []*Entry {
 	// Remove redundant subdomains for full/domain without attr
 	for _, qentry := range queuingList {
 		isRedundant := false
-		pd := qentry.Value // Parent domain
+		pd := qentry.Value // To be parent domain
+		if qentry.Type == RuleTypeFullDomain {
+			pd = "." + pd // So that `domain:example.org` overrides `full:example.org`
+		}
 		for {
 			idx := strings.Index(pd, ".")
 			if idx == -1 { break }
