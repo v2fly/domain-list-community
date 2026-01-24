@@ -24,10 +24,10 @@ type DomainRule struct {
 	Attrs []string
 }
 
-var (
-	geositeMap   = make(map[string][]*DomainRule)
-	sitenameList []string // keep the order of the input sites
-)
+type DomainList struct {
+	Name  string
+	Rules []DomainRule
+}
 
 func (d *DomainRule) domain2String() string {
 	dstring := d.Type + ":" + d.Value
@@ -37,60 +37,73 @@ func (d *DomainRule) domain2String() string {
 	return dstring
 }
 
-func loadGeosite(inputpath string) error {
-	data, err := os.ReadFile(inputpath)
+func loadGeosite(path string) (*[]DomainList, error) {
+	data, err := os.ReadFile(path)
 	if err != nil {
-		return fmt.Errorf("Failed to ReadFile:", err)
+		return nil, fmt.Errorf("failed to read geosite file: %w", err)
 	}
 	vgeositeList := new(router.GeoSiteList)
 	if err := proto.Unmarshal(data, vgeositeList); err != nil {
-		return fmt.Errorf("Failed to unmarshal:", err)
+		return nil, fmt.Errorf("failed to unmarshal: %w", err)
 	}
-	vTypeMap := map[router.Domain_Type]string{
-		router.Domain_RootDomain: "domain",
-		router.Domain_Regex:      "regexp",
-		router.Domain_Plain:      "keyword",
-		router.Domain_Full:       "full",
-	}
+	domainLists := make([]DomainList, 0, len(vgeositeList.Entry))
 	for _, vsite := range vgeositeList.Entry {
-		sitename := strings.ToUpper(vsite.CountryCode)
-		siteRules := make([]*DomainRule, 0 ,len(vsite.Domain))
+		domainList := DomainList{
+			Name:  strings.ToUpper(vsite.CountryCode),
+			Rules: make([]DomainRule, 0, len(vsite.Domain)),
+		}
 		for _, vdomain := range vsite.Domain {
-			rule := &DomainRule{
-				Type:  vTypeMap[vdomain.Type],
-				Value: vdomain.Value,
+			rule := DomainRule{Value: vdomain.Value}
+			switch vdomain.Type {
+			case router.Domain_RootDomain:
+				rule.Type = "domain"
+			case router.Domain_Regex:
+				rule.Type = "regexp"
+			case router.Domain_Plain:
+				rule.Type = "keyword"
+			case router.Domain_Full:
+				rule.Type = "full"
+			default:
+				return nil, fmt.Errorf("invalid rule type: %+v", vdomain.Type)
 			}
 			for _, vattr := range vdomain.Attribute {
 				rule.Attrs = append(rule.Attrs, vattr.Key)
 			}
-			siteRules = append(siteRules, rule)
+			domainList.Rules = append(domainList.Rules, rule)
 		}
+		domainLists = append(domainLists, domainList)
+	}
+	return &domainLists, nil
+}
 
-		geositeMap[sitename] = siteRules
-		sitenameList = append(sitenameList, sitename)
+func exportSite(name string, domainLists *[]DomainList) error {
+	exist := false
+	for _, domainList := range *domainLists {
+		if domainList.Name == strings.ToUpper(name) {
+			if len(domainList.Rules) == 0 {
+				return fmt.Errorf("list '%s' is empty", name)
+			}
+			exist = true
+			file, err := os.Create(filepath.Join(*outputDir, name+".yml"))
+			if err != nil {
+				return err
+			}
+			defer file.Close()
+			w := bufio.NewWriter(file)
+			fmt.Fprintf(w, "%s:\n", name)
+			for _, domain := range domainList.Rules {
+				fmt.Fprintf(w, "  - %q\n", domain.domain2String())
+			}
+			return w.Flush()
+		}
+	}
+	if !exist {
+		return fmt.Errorf("list '%s' does not exist", name)
 	}
 	return nil
 }
 
-func exportSite(name string) error {
-	siteDomains, exist := geositeMap[strings.ToUpper(name)]
-	if !exist || len(siteDomains) == 0 {
-		return fmt.Errorf("list '%s' does not exist or is empty.", name)
-	}
-	file, err := os.Create(filepath.Join(*outputDir, name + ".yml"))
-	if err != nil {
-		return err
-	}
-	defer file.Close()
-	w := bufio.NewWriter(file)
-	fmt.Fprintf(w, "%s:\n", name)
-	for _, domain := range siteDomains {
-		fmt.Fprintf(w, "  - %q\n", domain.domain2String())
-	}
-	return w.Flush()
-}
-
-func exportAll(filename string) error {
+func exportAll(filename string, domainLists *[]DomainList) error {
 	file, err := os.Create(filepath.Join(*outputDir, filename))
 	if err != nil {
 		return err
@@ -98,11 +111,11 @@ func exportAll(filename string) error {
 	defer file.Close()
 	w := bufio.NewWriter(file)
 	w.WriteString("lists:\n")
-	for _, sitename := range sitenameList {
-		fmt.Fprintf(w, "  - name: %s\n", sitename)
-		fmt.Fprintf(w, "    length: %d\n", len(geositeMap[sitename]))
+	for _, domainList := range *domainLists {
+		fmt.Fprintf(w, "  - name: %s\n", strings.ToLower(domainList.Name))
+		fmt.Fprintf(w, "    length: %d\n", len(domainList.Rules))
 		w.WriteString("    rules:\n")
-		for _, domain := range geositeMap[sitename] {
+		for _, domain := range domainList.Rules {
 			fmt.Fprintf(w, "      - %q\n", domain.domain2String())
 		}
 	}
@@ -121,13 +134,14 @@ func main() {
 	}
 
 	fmt.Printf("Loading %s...\n", *inputData)
-	if err := loadGeosite(*inputData); err != nil {
+	domainLists, err := loadGeosite(*inputData)
+	if err != nil {
 		fmt.Println("Failed to loadGeosite:", err)
 		os.Exit(1)
 	}
 
 	var exportListSlice []string
-	for _, raw := range strings.Split(*exportLists, ",") {
+	for raw := range strings.SplitSeq(*exportLists, ",") {
 		if trimmed := strings.TrimSpace(raw); trimmed != "" {
 			exportListSlice = append(exportListSlice, trimmed)
 		}
@@ -138,12 +152,12 @@ func main() {
 
 	for _, eplistname := range exportListSlice {
 		if strings.EqualFold(eplistname, "_all_") {
-			if err := exportAll(filepath.Base(*inputData) + "_plain.yml"); err != nil {
+			if err := exportAll(filepath.Base(*inputData)+"_plain.yml", domainLists); err != nil {
 				fmt.Println("Failed to exportAll:", err)
 				continue
 			}
 		} else {
-			if err := exportSite(eplistname); err != nil {
+			if err := exportSite(eplistname, domainLists); err != nil {
 				fmt.Println("Failed to exportSite:", err)
 				continue
 			}
