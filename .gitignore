@@ -8,5 +8,5 @@
 dlc.dat
 
 # Exported plaintext lists.
-dlc.dat_plain.yml
+/*.yml
 /*.txt

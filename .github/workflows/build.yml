@@ -36,7 +36,8 @@ jobs:
       - name: Build dlc.dat and plain lists
         run: |
           cd code || exit 1
-          go run ./ --outputdir=../ --exportlists=_all_,category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          go run ./cmd/datdump/main.go --inputdata=../dlc.dat --outputdir=../ --exportlists=_all_
           cd ../ && rm -rf code
 
       - name: Generate dlc.dat sha256 hash
