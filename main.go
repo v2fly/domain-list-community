@@ -66,7 +66,7 @@ type ParsedList struct {
 func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 	site := &router.GeoSite{
 		CountryCode: listName,
-		Domain: make([]*router.Domain, 0, len(entries)),
+		Domain:      make([]*router.Domain, 0, len(entries)),
 	}
 	for _, entry := range entries {
 		pdomain := &router.Domain{Value: entry.Value}
@@ -95,7 +95,7 @@ func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 func writePlainList(exportedName string) error {
 	targetList, exist := finalMap[strings.ToUpper(exportedName)]
 	if !exist || len(targetList) == 0 {
-		return fmt.Errorf("'%s' list does not exist or is empty.", exportedName)
+		return fmt.Errorf("list '%s' does not exist or is empty.", exportedName)
 	}
 	file, err := os.Create(filepath.Join(*outputDir, strings.ToLower(exportedName) + ".txt"))
 	if err != nil {
@@ -387,21 +387,24 @@ func main() {
 	// Create output directory if not exist
 	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
 		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
-			fmt.Println("Failed:", mkErr)
+			fmt.Println("Failed to create output directory:", mkErr)
 			os.Exit(1)
 		}
 	}
 
 	// Export plaintext list
-	if *exportLists != "" {
-		exportedListSlice := strings.Split(*exportLists, ",")
-		for _, exportedList := range exportedListSlice {
-			if err := writePlainList(exportedList); err != nil {
-				fmt.Println("Failed to write list:", err)
-				continue
-			}
-			fmt.Printf("list: '%s' has been generated successfully.\n", exportedList)
+	var exportListSlice []string
+	for raw := range strings.SplitSeq(*exportLists, ",") {
+		if trimmed := strings.TrimSpace(raw); trimmed != "" {
+			exportListSlice = append(exportListSlice, trimmed)
 		}
+	}
+	for _, exportList := range exportListSlice {
+		if err := writePlainList(exportList); err != nil {
+			fmt.Println("Failed to write list:", err)
+			continue
+		}
+		fmt.Printf("list: '%s' has been generated successfully.\n", exportList)
 	}
 
 	// Generate dat file
