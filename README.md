@@ -141,7 +141,7 @@ Theoretically any string can be used as the name, as long as it is a valid file 
 
 ### Attributes
 
-Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of `google` domains may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute `@ads`, and can be used as `geosite:google@ads` in V2Ray routing.
+Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of `google` may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute `@ads`, and can be used as `geosite:google@ads` in V2Ray routing. Domains and services that originate from outside China mainland but have access point in China mainland, may be marked by attribute `@cn`.
 
 ## Contribution guideline
 
