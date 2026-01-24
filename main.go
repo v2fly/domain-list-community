@@ -81,7 +81,7 @@ func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 func writePlainList(exportedName string) error {
 	targetList, exist := finalMap[strings.ToUpper(exportedName)]
 	if !exist || len(targetList) == 0 {
-		return fmt.Errorf("list '%s' does not exist or is empty.", exportedName)
+		return fmt.Errorf("list %q does not exist or is empty.", exportedName)
 	}
 	file, err := os.Create(filepath.Join(*outputDir, strings.ToLower(exportedName)+".txt"))
 	if err != nil {
@@ -124,6 +124,9 @@ func parseEntry(line string) (Entry, error) {
 		case dlc.RuleTypeInclude:
 			entry.Type = dlc.RuleTypeInclude
 			entry.Value = strings.ToUpper(val)
+			if !validateSiteName(entry.Value) {
+				return entry, fmt.Errorf("invalid include list name: %q", entry.Value)
+			}
 		case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
 			entry.Type = typ
 			entry.Value = strings.ToLower(val)
@@ -150,7 +153,7 @@ func parseEntry(line string) (Entry, error) {
 			}
 			entry.Affs = append(entry.Affs, aff)
 		} else {
-			return entry, fmt.Errorf("invalid attribute/affiliation: %s", part)
+			return entry, fmt.Errorf("invalid attribute/affiliation: %q", part)
 		}
 	}
 	// Sort attributes
@@ -361,7 +364,7 @@ func resolveList(pl *ParsedList) error {
 	for _, inc := range pl.Inclusions {
 		incPl, exist := plMap[inc.Source]
 		if !exist {
-			return fmt.Errorf("list '%s' includes a non-existent list: '%s'", pl.Name, inc.Source)
+			return fmt.Errorf("list %q includes a non-existent list: %q", pl.Name, inc.Source)
 		}
 		if err := resolveList(incPl); err != nil {
 			return err
@@ -436,7 +439,7 @@ func main() {
 			fmt.Println("Failed to write list:", err)
 			continue
 		}
-		fmt.Printf("list: '%s' has been generated successfully.\n", exportList)
+		fmt.Printf("list %q has been generated successfully.\n", exportList)
 	}
 
 	// Generate dat file
