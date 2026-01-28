@@ -29,3 +29,6 @@ juequling.com
 
 # Akamai
 regexp:^.+-mihayo\.akamaized\.net$ @cn
+
+# Ads/tracking
+log-upload.mihoyo.com @ads

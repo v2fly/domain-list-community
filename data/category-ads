@@ -23,6 +23,7 @@ include:kugou-ads
 include:letv-ads
 include:meta-ads
 include:microsoft-ads
+include:mihoyo @ads
 include:netease-ads
 include:ookla-speedtest-ads
 include:openai @ads
