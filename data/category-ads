@@ -25,7 +25,6 @@ include:kugou-ads
 include:letv-ads
 include:meta-ads
 include:microsoft-ads
-include:mopub-ads
 include:mxplayer-ads
 include:netease-ads
 include:newrelic-ads
@@ -108,6 +107,7 @@ lqc006.com
 moat.com
 moatads.com
 mobwithad.com
+mopub.com
 onesignal.com
 realsrv.com
 s4yxaqyq95.com
