@@ -17,7 +17,6 @@ include:duolingo-ads
 include:gamersky @ads
 include:google-ads
 include:hetzner @ads
-include:hiido-ads
 include:hotjar-ads
 include:hunantv-ads
 include:inner-active-ads
@@ -156,6 +155,10 @@ full:pinggai9.caixin.com
 # Chinaso
 adq.chinaso.com
 stat.chinaso.com
+
+# hiido
+mlog.hiido.com
+ylog.hiido.com
 
 # Httpool
 toboads.com
