@@ -1,6 +1,6 @@
 # This file contains domains that clearly serving ads
 
-include:acfun-ads
+include:acfun @ads
 include:adobe-ads
 include:alibaba-ads
 include:amazon-ads
