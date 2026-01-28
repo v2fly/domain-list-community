@@ -42,7 +42,6 @@ include:snap @ads
 include:sohu-ads
 include:spotify-ads
 include:supersonic-ads
-include:tagtic-ads
 include:tappx-ads
 include:television-ads
 include:tencent-ads
@@ -173,6 +172,10 @@ oct.pocoiq.cn
 
 # Qiniu
 dn-growing.qbox.me
+
+# tagtic
+g1.tagtic.cn
+xy-log.tagtic.cn
 
 # UNI Marketing
 ad.unimhk.com
