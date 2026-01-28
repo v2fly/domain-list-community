@@ -29,7 +29,6 @@ include:openai @ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
-include:pubmatic-ads
 include:qihoo360-ads
 include:samsung @ads
 include:segment-ads
