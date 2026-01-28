@@ -14,7 +14,6 @@ include:clearbit-ads
 include:disney @ads
 include:dmm-ads
 include:duolingo-ads
-include:emogi-ads
 include:flurry-ads
 include:gamersky @ads
 include:google-ads
@@ -89,6 +88,7 @@ cfts1tifqr.com
 contentabc.com
 cretgate.com
 decide.mixpanel.com
+emogi.com
 ero-advertising.com
 eroadvertising.com
 exoclick.com
