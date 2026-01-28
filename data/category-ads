@@ -26,7 +26,6 @@ include:microsoft-ads
 include:netease-ads
 include:ookla-speedtest-ads
 include:openai @ads
-include:openx-ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
