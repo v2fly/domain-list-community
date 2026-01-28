@@ -1,6 +1,3 @@
-include:xhamster-ads
-
-
 xhamster.com
 xhamster.desi
 xhamster.xxx
@@ -9,7 +6,8 @@ xhamster18.desi
 xhamsterlive.com
 xhcdn.com
 
-
 # xhamsterlive thumbnails
-
 full:widgets.stripst.com
+
+# Ads/tracking
+collector.xhamster.com @ads
