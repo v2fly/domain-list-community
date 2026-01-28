@@ -42,7 +42,6 @@ include:snap @ads
 include:sohu-ads
 include:spotify-ads
 include:supersonic-ads
-include:tappx-ads
 include:television-ads
 include:tencent-ads
 include:tendcloud @ads
@@ -110,6 +109,7 @@ onesignal.com
 realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
+ssp.api.tappx.com
 static.hotjar.com
 static.javhd.com
 tm-banners.gamingadult.com
