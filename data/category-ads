@@ -32,7 +32,7 @@ include:pikpak @ads
 include:pixiv @ads
 include:qihoo360 @ads
 include:samsung @ads
-include:sina-ads
+include:sina @ads
 include:snap @ads
 include:sohu-ads
 include:spotify-ads
