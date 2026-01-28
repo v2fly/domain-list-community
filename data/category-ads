@@ -25,7 +25,6 @@ include:kugou-ads
 include:letv-ads
 include:meta-ads
 include:microsoft-ads
-include:mxplayer-ads
 include:netease-ads
 include:newrelic-ads
 include:ogury-ads
@@ -87,6 +86,7 @@ decide.mixpanel.com
 emogi.com
 ero-advertising.com
 eroadvertising.com
+evt.mxplay.com
 exoclick.com
 exosrv.com
 go2.global
