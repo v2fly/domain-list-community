@@ -1,4 +1,3 @@
-include:amazon-ads
 include:amazontrust
 include:aws
 include:imdb
@@ -122,3 +121,7 @@ createspace.com
 
 full:images-cn.ssl-images-amazon.com @cn
 full:images-cn-8.ssl-images-amazon.com @cn
+
+# Ads/tracking
+amazon-adsystem.com @ads
+serving-sys.com @ads
