@@ -21,7 +21,7 @@ include:jd @ads
 include:kuaishou @ads
 include:kugou @ads
 include:le @ads
-include:meta-ads
+include:meta @ads
 include:microsoft-ads
 include:mihoyo @ads
 include:netease-ads
