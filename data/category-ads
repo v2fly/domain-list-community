@@ -5,7 +5,7 @@ include:adobe @ads
 include:alibaba @ads
 include:amazon @ads
 include:apple @ads
-include:baidu-ads
+include:baidu @ads
 include:bytedance-ads
 include:category-ads-ir
 include:cctv @ads
