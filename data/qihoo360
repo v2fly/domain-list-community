@@ -1,4 +1,3 @@
-include:qihoo360-ads
 include:starworld
 
 360.cn
@@ -74,3 +73,15 @@ yunpan.cn
 beifangsl.cn
 zhaomi.cn
 zhaomishijie.com
+
+# Ads/tracking
+c.sayhi.360.cn @ads
+fenxi.360.cn @ads
+fenxi.com @ads
+lianmeng.360.cn @ads
+mediav.com @ads
+mvad.com @ads
+qhupdate.com @ads
+s.360.cn @ads
+s.so.360.cn @ads
+s.union.360.cn @ads
