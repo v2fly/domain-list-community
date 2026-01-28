@@ -31,7 +31,6 @@ include:pikpak @ads
 include:pixiv @ads
 include:qihoo360-ads
 include:samsung @ads
-include:segment-ads
 include:sina-ads
 include:snap @ads
 include:sohu-ads

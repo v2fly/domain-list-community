@@ -6,6 +6,7 @@ include:clearbit
 include:ogury
 include:openx
 include:pubmatic
+include:segment
 include:taboola
 
 1rx.io @ads
