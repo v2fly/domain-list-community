@@ -37,7 +37,7 @@ include:snap @ads
 include:sohu @ads
 include:spotify @ads
 include:television-ads
-include:tencent-ads
+include:tencent @ads
 include:tendcloud @ads
 include:twitter @ads
 include:unity @ads
