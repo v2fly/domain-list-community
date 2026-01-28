@@ -35,7 +35,6 @@ include:sina-ads
 include:snap @ads
 include:sohu-ads
 include:spotify-ads
-include:supersonic-ads
 include:television-ads
 include:tencent-ads
 include:tendcloud @ads
