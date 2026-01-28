@@ -25,7 +25,7 @@ include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:netease @ads
-include:ookla-speedtest-ads
+include:ookla-speedtest @ads
 include:openai @ads
 include:picacg @ads
 include:pikpak @ads
