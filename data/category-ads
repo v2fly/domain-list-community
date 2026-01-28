@@ -26,7 +26,6 @@ include:letv-ads
 include:meta-ads
 include:microsoft-ads
 include:netease-ads
-include:newrelic-ads
 include:ogury-ads
 include:ookla-speedtest-ads
 include:openai @ads
@@ -100,6 +99,7 @@ inner-active.mobi
 innovid.com
 jads.co
 jl3.yjaxa.top
+js-agent.newrelic.com
 juicyads.com
 kepler-37b.com
 leanplum.com
