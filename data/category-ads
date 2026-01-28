@@ -17,7 +17,6 @@ include:duolingo-ads
 include:gamersky @ads
 include:google-ads
 include:hetzner @ads
-include:hotjar-ads
 include:hunantv-ads
 include:inner-active-ads
 include:iqiyi-ads
@@ -113,6 +112,7 @@ onesignal.com
 realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
+static.hotjar.com
 static.javhd.com
 tm-banners.gamingadult.com
 trafficfactory.biz
