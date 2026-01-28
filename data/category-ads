@@ -11,7 +11,7 @@ include:category-ads-ir
 include:cctv @ads
 include:disney @ads
 include:dmm @ads
-include:duolingo-ads
+include:duolingo @ads
 include:gamersky @ads
 include:google-ads
 include:hetzner @ads
