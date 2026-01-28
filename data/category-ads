@@ -13,7 +13,7 @@ include:disney @ads
 include:dmm @ads
 include:duolingo @ads
 include:gamersky @ads
-include:google-ads
+include:google @ads
 include:hetzner @ads
 include:hunantv-ads
 include:iqiyi-ads
