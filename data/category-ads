@@ -9,7 +9,6 @@ include:baidu-ads
 include:bytedance-ads
 include:category-ads-ir
 include:cctv @ads
-include:clearbit-ads
 include:disney @ads
 include:dmm-ads
 include:duolingo-ads
