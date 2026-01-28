@@ -33,7 +33,6 @@ include:openx-ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
-include:pocoiq-ads
 include:pubmatic-ads
 include:qihoo360-ads
 include:samsung @ads
@@ -167,6 +166,10 @@ toboads.com
 analytics-data.io
 atom-data.io
 ironbeast.io
+
+# pocoiq
+cdn.pocoiq.cn
+oct.pocoiq.cn
 
 # Qiniu
 dn-growing.qbox.me
