@@ -24,7 +24,6 @@ include:letv-ads
 include:meta-ads
 include:microsoft-ads
 include:netease-ads
-include:ogury-ads
 include:ookla-speedtest-ads
 include:openai @ads
 include:openx-ads
