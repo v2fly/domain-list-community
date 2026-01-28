@@ -6,7 +6,6 @@ include:adobe-ads
 include:alibaba-ads
 include:amazon-ads
 include:apple-ads
-include:atom-data-ads
 include:baidu-ads
 include:bytedance-ads
 include:category-ads-ir
@@ -160,6 +159,11 @@ stat.chinaso.com
 
 # Httpool
 toboads.com
+
+# ironSource Atom
+analytics-data.io
+atom-data.io
+ironbeast.io
 
 # Qiniu
 dn-growing.qbox.me
