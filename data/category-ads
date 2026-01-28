@@ -46,7 +46,6 @@ include:television-ads
 include:tencent-ads
 include:tendcloud @ads
 include:twitter @ads
-include:uberads-ads
 include:umeng-ads
 include:unity-ads
 include:xhamster-ads
@@ -115,6 +114,7 @@ static.javhd.com
 tm-banners.gamingadult.com
 trafficfactory.biz
 tsyndicate.com
+uberads.com
 wwads.cn
 
 # 36Kr
