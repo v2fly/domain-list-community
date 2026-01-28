@@ -16,7 +16,6 @@ include:dmm-ads
 include:duolingo-ads
 include:gamersky @ads
 include:google-ads
-include:growingio-ads
 include:hetzner @ads
 include:hiido-ads
 include:hotjar-ads
@@ -81,6 +80,7 @@ adservice.sigmob.cn
 adtechus.com
 adtrue.com
 adxprtz.com
+assets.growingio.com
 cdn.advertserve.com
 cdn.banclip.com
 cfts1tifqr.com
