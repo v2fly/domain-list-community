@@ -2,7 +2,7 @@
 
 include:acfun @ads
 include:adobe @ads
-include:alibaba-ads
+include:alibaba @ads
 include:amazon-ads
 include:apple-ads
 include:baidu-ads
@@ -40,7 +40,6 @@ include:television-ads
 include:tencent-ads
 include:tendcloud @ads
 include:twitter @ads
-include:umeng-ads
 include:unity @ads
 include:unitychina @ads
 include:xhamster-ads

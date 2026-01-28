@@ -11,10 +11,10 @@ taobao
 tmall
 
 include:9game
-include:alibaba-ads
 include:alibabacloud
 include:aliyun
 include:aliyun-drive
+include:amap
 include:cainiao
 include:dingtalk
 include:eleme
@@ -196,9 +196,6 @@ fliggy.com
 fliggy.hk @!cn
 iuynfg.com
 
-# 高德地图
-include:amap
-
 # 虾米音乐
 xiami.com
 xiami.fm
@@ -228,3 +225,29 @@ lydaas.net
 lydass.cn
 lydass.com.cn
 lydass.net
+
+# Ads/tracking
+a.alimama.cn @ads
+adash-c.m.taobao.com @ads
+adash-c.ut.taobao.com @ads
+adash.m.taobao.com @ads
+adashbc.m.taobao.com @ads
+adashbc.ut.taobao.com @ads
+adashx.m.taobao.com @ads
+adashx4ae.ut.taobao.com @ads
+adashx4yt.m.taobao.com @ads
+adashxgc.ut.taobao.com @ads
+adsh.m.taobao.com @ads
+adtrack.quark.cn @ads
+c-adash.m.taobao.com @ads
+fourier.taobao.com @ads
+g.click.taobao.com @ads
+h-adashx.ut.taobao.com @ads
+h-adashx4yt.ut.taobao.com @ads
+m-adash.m.taobao.com @ads
+marketing.alibaba.com @ads
+nbsdk-baichuan.taobao.com @ads
+retcode.taobao.com @ads
+tns.simba.taobao.com @ads
+track.lc.quark.cn @ads
+v6-adashx.ut.taobao.com @ads
