@@ -18,7 +18,7 @@ include:hetzner @ads
 include:hunantv @ads
 include:iqiyi @ads
 include:jd @ads
-include:kuaishou-ads
+include:kuaishou @ads
 include:kugou-ads
 include:letv-ads
 include:meta-ads
