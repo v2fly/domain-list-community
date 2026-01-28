@@ -14,12 +14,15 @@ include:bytedance-ads
 include:category-ads-ir
 include:cctv @ads
 include:clearbit-ads
+include:disney @ads
 include:dmm-ads
 include:duolingo-ads
 include:emogi-ads
 include:flurry-ads
+include:gamersky @ads
 include:google-ads
 include:growingio-ads
+include:hetzner @ads
 include:hiido-ads
 include:hotjar-ads
 include:hunantv-ads
@@ -37,13 +40,18 @@ include:netease-ads
 include:newrelic-ads
 include:ogury-ads
 include:ookla-speedtest-ads
+include:openai @ads
 include:openx-ads
 include:picacg @ads
+include:pikpak @ads
+include:pixiv @ads
 include:pocoiq-ads
 include:pubmatic-ads
 include:qihoo360-ads
+include:samsung @ads
 include:segment-ads
 include:sina-ads
+include:snap @ads
 include:sohu-ads
 include:spotify-ads
 include:supersonic-ads
@@ -52,6 +60,7 @@ include:tappx-ads
 include:television-ads
 include:tencent-ads
 include:tendcloud @ads
+include:twitter @ads
 include:uberads-ads
 include:umeng-ads
 include:unity-ads
