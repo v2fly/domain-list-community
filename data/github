@@ -1,4 +1,3 @@
-include:github-ads
 include:github-copilot
 include:npmjs
 
@@ -33,3 +32,7 @@ blob.core.windows.net
 full:github-api.arkoselabs.com
 full:github-cloud.s3.amazonaws.com
 regexp:^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$
+
+# Ads/tracking
+collector.github.com @ads
+copilot-telemetry.githubusercontent.com @ads
