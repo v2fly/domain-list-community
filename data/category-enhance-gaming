@@ -2,6 +2,9 @@ include:playcover
 include:fflogs
 include:trackernetwork
 
+# Anti-Cheat
+battleye.com
+
 # Android Emulator
 bluestacks.com
 ldmnq.com @cn
@@ -16,5 +19,5 @@ prts.plus
 heavenlywind.cc @cn
 poi.moe
 
-
+# Steam++ / Watt Toolkit
 steampp.net @cn
