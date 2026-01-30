@@ -1,4 +1,6 @@
 unity.com
 unity3d.com
 
-include:unity-ads
+# Ads/tracking
+iads.unity3d.com @ads
+unityads.unity3d.com @ads
