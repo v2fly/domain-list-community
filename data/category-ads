@@ -1,7 +1,6 @@
 # This file contains domains that clearly serving ads
 
 include:acfun-ads
-include:adjust-ads
 include:adobe-ads
 include:alibaba-ads
 include:amazon-ads
@@ -10,7 +9,6 @@ include:baidu-ads
 include:bytedance-ads
 include:category-ads-ir
 include:cctv @ads
-include:clearbit-ads
 include:disney @ads
 include:dmm-ads
 include:duolingo-ads
@@ -26,28 +24,24 @@ include:letv-ads
 include:meta-ads
 include:microsoft-ads
 include:netease-ads
-include:ogury-ads
 include:ookla-speedtest-ads
 include:openai @ads
-include:openx-ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
-include:pubmatic-ads
 include:qihoo360-ads
 include:samsung @ads
-include:segment-ads
 include:sina-ads
 include:snap @ads
 include:sohu-ads
 include:spotify-ads
-include:supersonic-ads
 include:television-ads
 include:tencent-ads
 include:tendcloud @ads
 include:twitter @ads
 include:umeng-ads
-include:unity-ads
+include:unity @ads
+include:unitychina @ads
 include:xhamster-ads
 include:xiaomi-ads
 include:ximalaya-ads

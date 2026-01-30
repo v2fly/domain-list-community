@@ -1,6 +1,13 @@
 # This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
 include:category-ads
 
+include:adjust
+include:clearbit
+include:ogury
+include:openx
+include:pubmatic
+include:segment
+include:supersonic
 include:taboola
 
 1rx.io @ads
@@ -21,7 +28,6 @@ lijit.com @ads
 mfadsrvr.com @ads
 mgid.com @ads
 ns1p.net @ads
-pubmatic.com @ads
 sigmob.com @ads
 spotxchange.com @ads
 unimhk.com @ads
