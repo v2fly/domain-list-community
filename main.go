@@ -320,9 +320,6 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 				break
 			}
 			pd = pd[idx+1:] // Go for next parent
-			if !strings.Contains(pd, ".") {
-				break
-			} // Not allow tld to be a parent
 			if domainsMap[pd] {
 				isRedundant = true
 				break
