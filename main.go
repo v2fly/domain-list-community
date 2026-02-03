@@ -23,7 +23,6 @@ var (
 )
 
 var (
-	refMap    = make(map[string][]*Entry)
 	plMap     = make(map[string]*ParsedList)
 	finalMap  = make(map[string][]*Entry)
 	cirIncMap = make(map[string]bool) // Used for circular inclusion detection
@@ -199,17 +198,14 @@ func validateSiteName(name string) bool {
 	return true
 }
 
-func loadData(path string) error {
+func loadData(path string) ([]*Entry, error) {
 	file, err := os.Open(path)
 	if err != nil {
-		return err
+		return nil, err
 	}
 	defer file.Close()
 
-	listName := strings.ToUpper(filepath.Base(path))
-	if !validateSiteName(listName) {
-		return fmt.Errorf("invalid list name: %q", listName)
-	}
+	var entries []*Entry
 	scanner := bufio.NewScanner(file)
 	lineIdx := 0
 	for scanner.Scan() {
@@ -224,11 +220,11 @@ func loadData(path string) error {
 		}
 		entry, err := parseEntry(line)
 		if err != nil {
-			return fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
+			return entries, fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
 		}
-		refMap[listName] = append(refMap[listName], &entry)
+		entries = append(entries, &entry)
 	}
-	return nil
+	return entries, nil
 }
 
 func parseList(refName string, refList []*Entry) error {
@@ -381,6 +377,7 @@ func run() error {
 	fmt.Printf("using domain lists data in %q\n", dir)
 
 	// Generate refMap
+	refMap := make(map[string][]*Entry)
 	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -388,7 +385,12 @@ func run() error {
 		if d.IsDir() {
 			return nil
 		}
-		return loadData(path)
+		listName := strings.ToUpper(filepath.Base(path))
+		if !validateSiteName(listName) {
+			return fmt.Errorf("invalid list name: %q", listName)
+		}
+		refMap[listName], err = loadData(path)
+		return err
 	})
 	if err != nil {
 		return fmt.Errorf("failed to loadData: %w", err)
