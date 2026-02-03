@@ -8,3 +8,6 @@ mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh
 
 # kinopub CDN servers
 regexp:(\w+)-static-[0-9]+\.cdntogo\.net$
+cdn2cdn.com
+cdn2site.com
+pushbr.com # poster images CDN
