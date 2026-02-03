@@ -31,11 +31,13 @@ type DomainList struct {
 }
 
 func (d *DomainRule) domain2String() string {
-	dstring := d.Type + ":" + d.Value
+	var dstr strings.Builder
+	dstr.Grow(len(d.Type) + len(d.Value) + 10)
+	fmt.Fprintf(&dstr, "%s:%s", d.Type, d.Value)
 	if len(d.Attrs) != 0 {
-		dstring += ":@" + strings.Join(d.Attrs, ",@")
+		fmt.Fprintf(&dstr, ":@%s", strings.Join(d.Attrs, ",@"))
 	}
-	return dstring
+	return dstr.String()
 }
 
 func loadGeosite(path string) ([]DomainList, map[string]*DomainList, error) {
@@ -82,10 +84,10 @@ func loadGeosite(path string) ([]DomainList, map[string]*DomainList, error) {
 func exportSite(name string, domainListByName map[string]*DomainList) error {
 	domainList, ok := domainListByName[strings.ToUpper(name)]
 	if !ok {
-		return fmt.Errorf("list '%s' does not exist", name)
+		return fmt.Errorf("list %q does not exist", name)
 	}
 	if len(domainList.Rules) == 0 {
-		return fmt.Errorf("list '%s' is empty", name)
+		return fmt.Errorf("list %q is empty", name)
 	}
 	file, err := os.Create(filepath.Join(*outputDir, name+".yml"))
 	if err != nil {
@@ -119,22 +121,16 @@ func exportAll(filename string, domainLists []DomainList) error {
 	return w.Flush()
 }
 
-func main() {
-	flag.Parse()
-
-	// Create output directory if not exist
-	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
-		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
-			fmt.Println("Failed to create output directory:", mkErr)
-			os.Exit(1)
-		}
+func run() error {
+	// Make sure output directory exists
+	if err := os.MkdirAll(*outputDir, 0755); err != nil {
+		return fmt.Errorf("failed to create output directory: %w", err)
 	}
 
-	fmt.Printf("Loading %s...\n", *inputData)
+	fmt.Printf("loading source data %q...\n", *inputData)
 	domainLists, domainListByName, err := loadGeosite(*inputData)
 	if err != nil {
-		fmt.Println("Failed to loadGeosite:", err)
-		os.Exit(1)
+		return fmt.Errorf("failed to loadGeosite: %w", err)
 	}
 
 	var exportListSlice []string
@@ -150,15 +146,24 @@ func main() {
 	for _, eplistname := range exportListSlice {
 		if strings.EqualFold(eplistname, "_all_") {
 			if err := exportAll(filepath.Base(*inputData)+"_plain.yml", domainLists); err != nil {
-				fmt.Println("Failed to exportAll:", err)
+				fmt.Printf("failed to exportAll: %v\n", err)
 				continue
 			}
 		} else {
 			if err := exportSite(eplistname, domainListByName); err != nil {
-				fmt.Println("Failed to exportSite:", err)
+				fmt.Printf("failed to exportSite: %v\n", err)
 				continue
 			}
 		}
-		fmt.Printf("list: '%s' has been exported successfully.\n", eplistname)
+		fmt.Printf("list: %q has been exported successfully.\n", eplistname)
+	}
+	return nil
+}
+
+func main() {
+	flag.Parse()
+	if err := run(); err != nil {
+		fmt.Printf("Fatal error: %v\n", err)
+		os.Exit(1)
 	}
 }
