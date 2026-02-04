@@ -4,6 +4,7 @@ include:cerebras
 include:comfy
 include:cursor
 include:elevenlabs
+include:github-copilot
 include:google-deepmind
 include:groq
 include:huggingface
