@@ -33,9 +33,17 @@ type DomainList struct {
 func (d *DomainRule) domain2String() string {
 	var dstr strings.Builder
 	dstr.Grow(len(d.Type) + len(d.Value) + 10)
-	fmt.Fprintf(&dstr, "%s:%s", d.Type, d.Value)
-	if len(d.Attrs) != 0 {
-		fmt.Fprintf(&dstr, ":@%s", strings.Join(d.Attrs, ",@"))
+	dstr.WriteString(d.Type)
+	dstr.WriteByte(':')
+	dstr.WriteString(d.Value)
+	for i, attr := range d.Attrs {
+		if i == 0 {
+			dstr.WriteByte(':')
+		} else {
+			dstr.WriteByte(',')
+		}
+		dstr.WriteByte('@')
+		dstr.WriteString(attr)
 	}
 	return dstr.String()
 }

@@ -156,9 +156,17 @@ func parseEntry(line string) (Entry, error) {
 	// Formated plain entry: type:domain.tld:@attr1,@attr2
 	var plain strings.Builder
 	plain.Grow(len(entry.Type) + len(entry.Value) + 10)
-	fmt.Fprintf(&plain, "%s:%s", entry.Type, entry.Value)
-	if len(entry.Attrs) != 0 {
-		fmt.Fprintf(&plain, ":@%s", strings.Join(entry.Attrs, ",@"))
+	plain.WriteString(entry.Type)
+	plain.WriteByte(':')
+	plain.WriteString(entry.Value)
+	for i, attr := range entry.Attrs {
+		if i == 0 {
+			plain.WriteByte(':')
+		} else {
+			plain.WriteByte(',')
+		}
+		plain.WriteByte('@')
+		plain.WriteString(attr)
 	}
 	entry.Plain = plain.String()
 
