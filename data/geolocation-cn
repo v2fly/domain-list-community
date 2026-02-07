@@ -435,7 +435,7 @@ include:lenovo
 include:meizu
 include:midea
 include:narwal # 云鲸科技
-include:netease
+include:netease @-!cn
 include:oppo @-!cn
 include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
