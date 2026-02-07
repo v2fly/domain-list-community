@@ -60,3 +60,6 @@ yastatic.net
 # Watching movies, included in the Yandex subscription
 kinopoisk.ru
 kinopoisk-ru.clstorage.net
+
+# Weather service
+full:yandex-pogoda.static-storage.net
