@@ -1,4 +1,3 @@
-include:apple-ads
 include:apple-dev # swift inside
 # Not include:apple-intelligence
 include:apple-pki
@@ -983,3 +982,10 @@ full:weatherkit.apple.com @cn
 full:www.apple.com @cn
 full:www.apple.com.edgekey.net.globalredir.akadns.net @cn
 full:xp.apple.com @cn
+
+# Ads/tracking
+advertising.apple.com @ads
+api-adservices.apple.com @ads
+iadsdk.apple.com @ads
+iad.apple.com @ads
+qwapi.com @ads

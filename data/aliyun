@@ -67,3 +67,14 @@ oss-eu-west-1.aliyuncs.com @!cn
 oss-me-east-1.aliyuncs.com @!cn
 oss-us-east-1.aliyuncs.com @!cn
 oss-us-west-1.aliyuncs.com @!cn
+
+# Ads/tracking
+acjs.aliyun.com @ads
+adash-emas.cn-hangzhou.aliyuncs.com @ads
+adash.man.aliyuncs.com @ads
+alimama.alicdn.com @ads
+atanx.alicdn.com @ads
+atanx2.alicdn.com @ads
+baichuan-sdk.alicdn.com @ads
+nbsdk-baichuan.alicdn.com @ads
+tce.alicdn.com @ads

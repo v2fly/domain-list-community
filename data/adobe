@@ -1,5 +1,4 @@
 include:adobe-activation
-include:adobe-ads
 include:typekit
 
 10xfotolia.com
@@ -142,3 +141,7 @@ scene7.com
 
 # Adobe Stats IO
 adobestats.io
+
+# Ads/tracking
+advertising.adobe.com @ads
+tubemogul.com @ads

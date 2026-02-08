@@ -1,5 +1,4 @@
 include:sogou
-include:sohu-ads
 
 # All .sohu domains
 sohu
@@ -9,3 +8,21 @@ focus.cn
 itc.cn
 sohu.com
 sohucs.com
+
+# Ads/tracking
+adnet.sohu.com @ads
+ads.sohu.com @ads
+adv-sv-show.focus.cn @ads
+adv-sv-stat.focus.cn @ads
+assp.sohu.com @ads
+bdu.focus.cn @ads
+fpb.sohu.com @ads
+imp.go.sohu.com @ads
+m.aty.sohu.com @ads
+p.aty.sohu.com @ads
+pv.hd.sohu.com @ads
+pv.sohu.com @ads
+qpb.sohu.com @ads
+qpb1.sohu.com @ads
+reke.at.sohu.com @ads
+track.sohu.com @ads

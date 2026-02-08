@@ -1,4 +1,3 @@
-include:baidu-ads
 include:zuoyebang
 
 # All .baidu domains
@@ -83,3 +82,57 @@ dxmpay.com
 dxmstatic.com
 dxmyqh.com
 paydxm.com
+
+# Ads/tracking
+adscdn.baidu.com @ads
+adx.xiaodutv.com @ads
+afd.baidu.com @ads
+afdconf.baidu.com @ads
+baifen.music.baidu.com @ads
+bzclk.baidu.com @ads
+cb.baidu.com @ads
+cbjs.baidu.com @ads
+cm.baidu.com @ads
+cpro.baidu.com @ads
+cpro.baidustatic.com @ads
+cpu.baidu.com @ads
+cstm.baidu.com @ads
+dlswbr.baidu.com @ads
+drmcmm.baidu.com @ads
+duiwai.baidu.com @ads
+dup.baidustatic.com @ads
+eclick.baidu.com @ads
+ecma.bdimg.com @ads
+ecmb.bdimg.com @ads
+ecmc.bdimg.com @ads
+eduad.baidu.com @ads
+eiv.baidu.com @ads
+fclick.baidu.com @ads
+fclog.baidu.com @ads
+h2tcbox.baidu.com @ads
+hao123union.baidu.com @ads
+hm.baidu.com @ads
+hmma.baidu.com @ads
+imgstat.baidu.com @ads
+iwanad.baidu.com @ads
+miao.baidu.com @ads
+miaowu.baidu.com @ads
+mipcache.bdstatic.com @ads
+mobads.baidu.com @ads
+mobads-logs.baidu.com @ads
+mobads-pre-config.cdn.bcebos.com @ads
+mountain.zhidao.baidu.com @ads
+nsclick.baidu.com @ads
+nsclickvideo.baidu.com @ads
+pimlog.baidu.com @ads
+pos.baidu.com @ads
+sclick.baidu.com @ads
+spcode.baidu.com @ads
+tcbox.baidu.com @ads
+ubmcvideo.baidustatic.com @ads
+union.baidu.com @ads
+unionimage.baidu.com @ads
+wangmeng.baidu.com @ads
+wkctj.baidu.com @ads
+wm.baidu.com @ads
+zz.bdstatic.com @ads

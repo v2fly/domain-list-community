@@ -10,3 +10,26 @@ soku.com
 
 # youku video cdn
 cibntv.net
+
+# Ads/tracking
+ad.api.3g.youku.com @ads
+ad.api.mobile.youku.com @ads
+ad.mobile.youku.com @ads
+adashx.ut.youku.com @ads
+atm.youku.com @ads
+e.stat.ykimg.com @ads
+ems.youku.com @ads
+guanggaoad.youku.com @ads
+h-adashx.ut.youku.com @ads
+lstat.youku.com @ads
+mobilemsg.youku.com @ads
+msg.youku.com @ads
+p-log.ykimg.com @ads
+passport-log.youku.com @ads
+pl.youku.com @ads
+s-adashx.ut.youku.com @ads
+stat.youku.com @ads
+statis.api.3g.youku.com @ads
+v6-adashx.ut.youku.com @ads
+yk-ssp.ad.youku.com @ads
+ykad-data.youku.com @ads

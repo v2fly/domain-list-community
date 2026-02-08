@@ -1,51 +1,51 @@
 # This file contains domains that clearly serving ads
-
-include:acfun-ads
-include:adobe-ads
-include:alibaba-ads
-include:amazon-ads
-include:apple-ads
-include:baidu-ads
-include:bytedance-ads
 include:category-ads-ir
+
+include:acfun @ads
+include:adobe @ads
+include:alibaba @ads
+include:amazon @ads
+include:apple @ads
+include:baidu @ads
+include:bytedance @ads
 include:cctv @ads
 include:disney @ads
-include:dmm-ads
-include:duolingo-ads
+include:dmm @ads
+include:duolingo @ads
 include:gamersky @ads
-include:google-ads
+include:google @ads
 include:hetzner @ads
-include:hunantv-ads
-include:iqiyi-ads
-include:jd-ads
-include:kuaishou-ads
-include:kugou-ads
-include:letv-ads
-include:meta-ads
-include:microsoft-ads
-include:netease-ads
-include:ookla-speedtest-ads
+include:hunantv @ads
+include:iqiyi @ads
+include:jd @ads
+include:kuaishou @ads
+include:kugou @ads
+include:le @ads
+include:meta @ads
+include:microsoft @ads
+include:mihoyo @ads
+include:netease @ads
+include:ookla-speedtest @ads
 include:openai @ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
-include:qihoo360-ads
+include:qihoo360 @ads
 include:samsung @ads
-include:sina-ads
+include:sina @ads
 include:snap @ads
-include:sohu-ads
-include:spotify-ads
-include:television-ads
-include:tencent-ads
+include:sohu @ads
+include:spotify @ads
+include:tcl @ads
+include:tencent @ads
 include:tendcloud @ads
 include:twitter @ads
-include:umeng-ads
 include:unity @ads
 include:unitychina @ads
-include:xhamster-ads
-include:xiaomi-ads
-include:ximalaya-ads
-include:yahoo-ads
+include:xhamster @ads
+include:xiaomi @ads
+include:ximalaya @ads
+include:yahoo @ads
 include:zhihu @ads
 
 # Other domains for ads serving
@@ -58,6 +58,8 @@ ad.api.moji.com
 ad.wang502.com
 adbutter.net
 addthisedge.com
+ads.huan.tv
+ads.huantest.com
 ads.trafficjunky.net
 ads.wteam.xyz
 adservice.sigmob.cn
@@ -151,6 +153,11 @@ stat.chinaso.com
 mlog.hiido.com
 ylog.hiido.com
 
+# hpply
+ad.hpplay.cn
+adc.hpplay.cn
+adeng.hpplay.cn
+
 # Httpool
 toboads.com
 
@@ -158,6 +165,10 @@ toboads.com
 analytics-data.io
 atom-data.io
 ironbeast.io
+
+# joyplus
+advapi.joyplus.tv
+advapikj.joyplus.tv
 
 # pocoiq
 cdn.pocoiq.cn
@@ -217,6 +228,9 @@ static.sensorsdata.cn
 zhugeapi.com
 zhugeapi.net
 zhugeio.com
+
+# 酷云互动
+kuyun.com
 
 # 车来了
 atrace.chelaile.net.cn
