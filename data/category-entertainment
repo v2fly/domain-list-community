@@ -15,6 +15,7 @@ include:attwatchtv
 include:bahamut
 include:bandcamp
 include:bangumi
+include:bilibili @!cn
 include:boomerang
 include:bushiroad
 include:catchplay
@@ -34,6 +35,7 @@ include:hamivideo
 include:hbo
 include:hulu
 include:imdb
+include:iqiyi @!cn
 include:iyf
 include:kingkonglive
 include:kkbox

@@ -9,6 +9,7 @@ include:category-container
 include:codeberg
 include:dart
 include:debian
+include:deepin @!cn
 include:docker
 include:embedly
 include:facebook-dev

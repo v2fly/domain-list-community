@@ -1,8 +1,22 @@
 # This list contains Tech & Cyber companies and organizations outside China mainland.
 
+# Part of Chinese entities but exclusively serving for non-cn area
+include:alibaba @!cn
+include:bytedance @!cn
+include:chinamobile @!cn
+include:chinatelecom @!cn
+include:chinaunicom @!cn
+include:didi @!cn
+include:huawei @!cn
+include:ipip @!cn
+include:jd @!cn
+include:oppo @!cn
+include:tencent @!cn
+include:vivo @!cn
+include:xiaomi @!cn
+
 include:acer
 include:adobe
-include:alibabacloud
 include:amazon
 include:amd
 include:anexia
