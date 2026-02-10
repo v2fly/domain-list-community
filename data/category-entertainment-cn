@@ -37,7 +37,7 @@ include:xiaoheihe
 include:xiaoyuzhou
 include:ximalaya
 include:youku
-include:yuewen
+include:yuewen @-!cn
 
 # Android Emulator
 ldmnq.com
