@@ -1,7 +1,6 @@
 include:azure
 include:bing
 include:github
-include:microsoft-ads
 include:microsoft-dev
 include:microsoft-pki
 include:msn
@@ -305,6 +304,12 @@ yammer.com
 # Skype CDN
 skype-edf.akadns.net
 skypedata.akadns.net
+
+# Ads/tracking
+clarity.ms @ads
+microsoftads.com @ads
+msads.net @ads
+nelreports.net @ads
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"

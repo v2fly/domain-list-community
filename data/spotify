@@ -22,3 +22,8 @@ full:heads4-ak-spotify-com.akamaized.net
 full:spotify.com.edgesuite.net
 full:spotify.map.fastly.net
 full:spotify.map.fastlylb.net
+
+# Ads/tracking
+full:adeventtracker.spotify.com @ads
+full:adstudio-assets.scdn.co @ads
+full:bloodhound.spotify.com @ads

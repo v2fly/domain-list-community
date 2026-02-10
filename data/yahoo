@@ -1,5 +1,4 @@
 include:flickr
-include:yahoo-ads
 
 # All .yahoo domains
 yahoo
@@ -173,3 +172,8 @@ ymail.com
 yusercontent.com
 
 full:cdn.js7k.com
+
+# Ads/tracking
+ads.yahoo.com @ads
+gemini.yahoo.com @ads
+ysm.yahoo.com @ads

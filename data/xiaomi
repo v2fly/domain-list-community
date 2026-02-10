@@ -1,4 +1,3 @@
-include:xiaomi-ads
 include:xiaomi-ai
 include:xiaomi-iot
 
@@ -60,3 +59,26 @@ saxyit.com
 # Overseas only
 c.mi.com @!cn
 global.market.xiaomi.com @!cn
+
+# Ads/tracking
+a.market.xiaomi.com @ads
+ad.intl.xiaomi.com @ads
+ad.mi.com @ads
+ad.xiaomi.com @ads
+ad1.xiaomi.com @ads
+admob.xiaomi.com @ads
+adv.sec.intl.miui.com @ads
+adv.sec.miui.com @ads
+data.mistat.india.xiaomi.com @ads
+data.mistat.intl.xiaomi.com @ads
+data.mistat.rus.xiaomi.com @ads
+data.mistat.xiaomi.com @ads
+logupdate.avlyun.sec.miui.com @ads
+misc.in.duokanbox.com @ads
+sentry.d.mi.com @ads
+sentry.d.xiaomi.net @ads
+stats.music.xiaomi.com @ads
+tjqonline.cn @ads
+tracker.ai.xiaomi.com @ads
+tracker.xiaomixiaoai.com @ads
+tracking.miui.com @ads
