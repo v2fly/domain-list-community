@@ -1,7 +1,4 @@
-yuewen.com
-
-# webnovel is not serving for cn
-# include:webnovel
+include:webnovel # not serving for cn
 
 hongxiu.com
 lrts.me
@@ -13,3 +10,4 @@ tingbook.com
 xs.cn
 xs8.cn
 xxsy.net
+yuewen.com

@@ -1,10 +1,10 @@
-#include:bytedance-ai-!cn # not serving for cn
+include:bytedance-ai-!cn # not serving for cn
 include:doubao
 include:douyin # douyin, huoshan and qishuimusic inside
 include:fqnovel
 include:juejin
 include:lark # feishu is included in lark
-include:tiktok
+include:tiktok # not serving for cn
 include:trae
 include:volcengine
 
