@@ -22,12 +22,6 @@ var (
 	exportLists = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
 )
 
-var (
-	plMap     = make(map[string]*ParsedList)
-	finalMap  = make(map[string][]*Entry)
-	cirIncMap = make(map[string]bool) // Used for circular inclusion detection
-)
-
 type Entry struct {
 	Type  string
 	Value string
@@ -46,6 +40,12 @@ type ParsedList struct {
 	Name       string
 	Inclusions []*Inclusion
 	Entries    []*Entry
+}
+
+type Processor struct {
+	plMap     map[string]*ParsedList
+	finalMap  map[string][]*Entry
+	cirIncMap map[string]bool
 }
 
 func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
@@ -207,6 +207,15 @@ func validateSiteName(name string) bool {
 	return true
 }
 
+func (p *Processor) getParsedList(name string) *ParsedList {
+	pl, exist := p.plMap[name]
+	if !exist {
+		pl = &ParsedList{Name: name}
+		p.plMap[name] = pl
+	}
+	return pl
+}
+
 func loadData(path string) ([]*Entry, error) {
 	file, err := os.Open(path)
 	if err != nil {
@@ -233,12 +242,8 @@ func loadData(path string) ([]*Entry, error) {
 	return entries, nil
 }
 
-func parseList(refName string, refList []*Entry) error {
-	pl, ok := plMap[refName]
-	if !ok {
-		pl = &ParsedList{Name: refName}
-		plMap[refName] = pl
-	}
+func (p *Processor) parseList(refName string, refList []*Entry) error {
+	pl := p.getParsedList(refName)
 	for _, entry := range refList {
 		if entry.Type == dlc.RuleTypeInclude {
 			inc := &Inclusion{Source: entry.Value}
@@ -252,11 +257,7 @@ func parseList(refName string, refList []*Entry) error {
 			pl.Inclusions = append(pl.Inclusions, inc)
 		} else {
 			for _, aff := range entry.Affs {
-				apl, ok := plMap[aff]
-				if !ok {
-					apl = &ParsedList{Name: aff}
-					plMap[aff] = apl
-				}
+				apl := p.getParsedList(aff)
 				apl.Entries = append(apl.Entries, entry)
 			}
 			pl.Entries = append(pl.Entries, entry)
@@ -337,36 +338,38 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 	return finalList
 }
 
-func resolveList(pl *ParsedList) error {
-	if _, pldone := finalMap[pl.Name]; pldone {
+func (p *Processor) resolveList(plname string) error {
+	if _, pldone := p.finalMap[plname]; pldone {
 		return nil
 	}
-
-	if cirIncMap[pl.Name] {
-		return fmt.Errorf("circular inclusion in: %q", pl.Name)
+	pl, plexist := p.plMap[plname]
+	if !plexist {
+		return fmt.Errorf("list %q not found", plname)
 	}
-	cirIncMap[pl.Name] = true
-	defer delete(cirIncMap, pl.Name)
+	if p.cirIncMap[plname] {
+		return fmt.Errorf("circular inclusion in: %q", plname)
+	}
+	p.cirIncMap[plname] = true
+	defer delete(p.cirIncMap, plname)
 
 	roughMap := make(map[string]*Entry) // Avoid basic duplicates
 	for _, dentry := range pl.Entries { // Add direct entries
 		roughMap[dentry.Plain] = dentry
 	}
 	for _, inc := range pl.Inclusions {
-		incPl, exist := plMap[inc.Source]
-		if !exist {
-			return fmt.Errorf("list %q includes a non-existent list: %q", pl.Name, inc.Source)
+		if _, exist := p.plMap[inc.Source]; !exist {
+			return fmt.Errorf("list %q includes a non-existent list: %q", plname, inc.Source)
 		}
-		if err := resolveList(incPl); err != nil {
+		if err := p.resolveList(inc.Source); err != nil {
 			return err
 		}
-		for _, ientry := range finalMap[inc.Source] {
+		for _, ientry := range p.finalMap[inc.Source] {
 			if isMatchAttrFilters(ientry, inc) { // Add included entries
 				roughMap[ientry.Plain] = ientry
 			}
 		}
 	}
-	finalMap[pl.Name] = polishList(roughMap)
+	p.finalMap[plname] = polishList(roughMap)
 	return nil
 }
 
@@ -395,15 +398,17 @@ func run() error {
 	}
 
 	// Generate plMap
+	processor := &Processor{plMap: make(map[string]*ParsedList)}
 	for refName, refList := range refMap {
-		if err := parseList(refName, refList); err != nil {
+		if err := processor.parseList(refName, refList); err != nil {
 			return fmt.Errorf("failed to parseList %q: %w", refName, err)
 		}
 	}
-
 	// Generate finalMap
-	for plname, pl := range plMap {
-		if err := resolveList(pl); err != nil {
+	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
+	processor.cirIncMap = make(map[string]bool)
+	for plname := range processor.plMap {
+		if err := processor.resolveList(plname); err != nil {
 			return fmt.Errorf("failed to resolveList %q: %w", plname, err)
 		}
 	}
@@ -412,11 +417,10 @@ func run() error {
 	if err := os.MkdirAll(*outputDir, 0755); err != nil {
 		return fmt.Errorf("failed to create output directory: %w", err)
 	}
-
 	// Export plaintext lists
 	for rawEpList := range strings.SplitSeq(*exportLists, ",") {
 		if epList := strings.TrimSpace(rawEpList); epList != "" {
-			entries, exist := finalMap[strings.ToUpper(epList)]
+			entries, exist := processor.finalMap[strings.ToUpper(epList)]
 			if !exist || len(entries) == 0 {
 				fmt.Printf("list %q does not exist or is empty\n", epList)
 				continue
@@ -431,7 +435,7 @@ func run() error {
 
 	// Generate dat file
 	protoList := new(router.GeoSiteList)
-	for siteName, siteEntries := range finalMap {
+	for siteName, siteEntries := range processor.finalMap {
 		site, err := makeProtoList(siteName, siteEntries)
 		if err != nil {
 			return fmt.Errorf("failed to makeProtoList %q: %w", siteName, err)
