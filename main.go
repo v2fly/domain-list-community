@@ -27,7 +27,6 @@ type Entry struct {
 	Value string
 	Attrs []string
 	Plain string
-	Affs  []string
 }
 
 type Inclusion struct {
@@ -90,11 +89,11 @@ func writePlainList(listname string, entries []*Entry) error {
 	return w.Flush()
 }
 
-func parseEntry(line string) (Entry, error) {
-	var entry Entry
+func parseEntry(line string) (*Entry, []string, error) {
+	entry := new(Entry)
 	parts := strings.Fields(line)
 	if len(parts) == 0 {
-		return entry, fmt.Errorf("empty line")
+		return entry, nil, fmt.Errorf("empty line")
 	}
 
 	// Parse type and value
@@ -102,7 +101,7 @@ func parseEntry(line string) (Entry, error) {
 	typ = strings.ToLower(typ)
 	if !isTypeSpecified { // Default RuleType
 		if !validateDomainChars(typ) {
-			return entry, fmt.Errorf("invalid domain: %q", typ)
+			return entry, nil, fmt.Errorf("invalid domain: %q", typ)
 		}
 		entry.Type = dlc.RuleTypeDomain
 		entry.Value = typ
@@ -110,7 +109,7 @@ func parseEntry(line string) (Entry, error) {
 		switch typ {
 		case dlc.RuleTypeRegexp:
 			if _, err := regexp.Compile(val); err != nil {
-				return entry, fmt.Errorf("invalid regexp %q: %w", val, err)
+				return entry, nil, fmt.Errorf("invalid regexp %q: %w", val, err)
 			}
 			entry.Type = dlc.RuleTypeRegexp
 			entry.Value = val
@@ -118,44 +117,41 @@ func parseEntry(line string) (Entry, error) {
 			entry.Type = dlc.RuleTypeInclude
 			entry.Value = strings.ToUpper(val)
 			if !validateSiteName(entry.Value) {
-				return entry, fmt.Errorf("invalid included list name: %q", entry.Value)
+				return entry, nil, fmt.Errorf("invalid included list name: %q", entry.Value)
 			}
 		case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
 			entry.Type = typ
 			entry.Value = strings.ToLower(val)
 			if !validateDomainChars(entry.Value) {
-				return entry, fmt.Errorf("invalid domain: %q", entry.Value)
+				return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
 			}
 		default:
-			return entry, fmt.Errorf("invalid type: %q", typ)
+			return entry, nil, fmt.Errorf("invalid type: %q", typ)
 		}
 	}
 
 	// Parse attributes and affiliations
+	var affs []string
 	for _, part := range parts[1:] {
 		switch part[0] {
 		case '@':
 			attr := strings.ToLower(part[1:])
 			if !validateAttrChars(attr) {
-				return entry, fmt.Errorf("invalid attribute: %q", attr)
+				return entry, affs, fmt.Errorf("invalid attribute: %q", attr)
 			}
 			entry.Attrs = append(entry.Attrs, attr)
 		case '&':
 			aff := strings.ToUpper(part[1:])
 			if !validateSiteName(aff) {
-				return entry, fmt.Errorf("invalid affiliation: %q", aff)
+				return entry, affs, fmt.Errorf("invalid affiliation: %q", aff)
 			}
-			entry.Affs = append(entry.Affs, aff)
+			affs = append(affs, aff)
 		default:
-			return entry, fmt.Errorf("invalid attribute/affiliation: %q", part)
+			return entry, affs, fmt.Errorf("invalid attribute/affiliation: %q", part)
 		}
 	}
 
-	if entry.Type == dlc.RuleTypeInclude {
-		if len(entry.Affs) != 0 {
-			return entry, fmt.Errorf("affiliation is not allowed for include:%q", entry.Value)
-		}
-	} else {
+	if entry.Type != dlc.RuleTypeInclude {
 		slices.Sort(entry.Attrs) // Sort attributes
 		// Formated plain entry: type:domain.tld:@attr1,@attr2
 		var plain strings.Builder
@@ -174,7 +170,7 @@ func parseEntry(line string) (Entry, error) {
 		}
 		entry.Plain = plain.String()
 	}
-	return entry, nil
+	return entry, affs, nil
 }
 
 func validateDomainChars(domain string) bool {
@@ -216,14 +212,14 @@ func (p *Processor) getParsedList(name string) *ParsedList {
 	return pl
 }
 
-func loadData(path string) ([]*Entry, error) {
+func (p *Processor) loadData(listName string, path string) error {
 	file, err := os.Open(path)
 	if err != nil {
-		return nil, err
+		return err
 	}
 	defer file.Close()
 
-	var entries []*Entry
+	pl := p.getParsedList(listName)
 	scanner := bufio.NewScanner(file)
 	lineIdx := 0
 	for scanner.Scan() {
@@ -233,18 +229,11 @@ func loadData(path string) ([]*Entry, error) {
 		if line == "" {
 			continue
 		}
-		entry, err := parseEntry(line)
+		entry, affs, err := parseEntry(line)
 		if err != nil {
-			return entries, fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
+			return fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
 		}
-		entries = append(entries, &entry)
-	}
-	return entries, nil
-}
 
-func (p *Processor) parseList(refName string, refList []*Entry) error {
-	pl := p.getParsedList(refName)
-	for _, entry := range refList {
 		if entry.Type == dlc.RuleTypeInclude {
 			inc := &Inclusion{Source: entry.Value}
 			for _, attr := range entry.Attrs {
@@ -254,9 +243,13 @@ func (p *Processor) parseList(refName string, refList []*Entry) error {
 					inc.MustAttrs = append(inc.MustAttrs, attr)
 				}
 			}
+			for _, aff := range affs {
+				apl := p.getParsedList(aff)
+				apl.Inclusions = append(apl.Inclusions, inc)
+			}
 			pl.Inclusions = append(pl.Inclusions, inc)
 		} else {
-			for _, aff := range entry.Affs {
+			for _, aff := range affs {
 				apl := p.getParsedList(aff)
 				apl.Entries = append(apl.Entries, entry)
 			}
@@ -377,8 +370,8 @@ func run() error {
 	dir := *dataPath
 	fmt.Printf("using domain lists data in %q\n", dir)
 
-	// Generate refMap
-	refMap := make(map[string][]*Entry)
+	// Generate plMap
+	processor := &Processor{plMap: make(map[string]*ParsedList)}
 	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -390,19 +383,10 @@ func run() error {
 		if !validateSiteName(listName) {
 			return fmt.Errorf("invalid list name: %q", listName)
 		}
-		refMap[listName], err = loadData(path)
-		return err
+		return processor.loadData(listName, path)
 	})
 	if err != nil {
 		return fmt.Errorf("failed to loadData: %w", err)
-	}
-
-	// Generate plMap
-	processor := &Processor{plMap: make(map[string]*ParsedList)}
-	for refName, refList := range refMap {
-		if err := processor.parseList(refName, refList); err != nil {
-			return fmt.Errorf("failed to parseList %q: %w", refName, err)
-		}
 	}
 	// Generate finalMap
 	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
