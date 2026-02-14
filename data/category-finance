@@ -2,7 +2,13 @@
 include:category-bank-ir
 include:category-bank-jp
 include:category-bank-mm
+include:boc @!cn
+include:ccb @!cn
+include:citic @!cn
+include:cmb @!cn
+include:icbc @!cn
 
+include:eastmoney @!cn
 include:fibank
 include:futu
 include:hsbc
@@ -11,6 +17,7 @@ include:ifast
 include:itiger
 include:longbridge
 include:n26
+include:pingan @!cn
 include:schwab
 include:standardchartered
 include:wise
