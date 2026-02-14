@@ -98,17 +98,15 @@ func parseEntry(line string) (Entry, error) {
 	}
 
 	// Parse type and value
-	v := parts[0]
-	colonIndex := strings.Index(v, ":")
-	if colonIndex == -1 {
-		entry.Type = dlc.RuleTypeDomain // Default type
-		entry.Value = strings.ToLower(v)
-		if !validateDomainChars(entry.Value) {
-			return entry, fmt.Errorf("invalid domain: %q", entry.Value)
+	typ, val, isTypeSpecified := strings.Cut(parts[0], ":")
+	typ = strings.ToLower(typ)
+	if !isTypeSpecified { // Default RuleType
+		if !validateDomainChars(typ) {
+			return entry, fmt.Errorf("invalid domain: %q", typ)
 		}
+		entry.Type = dlc.RuleTypeDomain
+		entry.Value = typ
 	} else {
-		typ := strings.ToLower(v[:colonIndex])
-		val := v[colonIndex+1:]
 		switch typ {
 		case dlc.RuleTypeRegexp:
 			if _, err := regexp.Compile(val); err != nil {
@@ -120,7 +118,7 @@ func parseEntry(line string) (Entry, error) {
 			entry.Type = dlc.RuleTypeInclude
 			entry.Value = strings.ToUpper(val)
 			if !validateSiteName(entry.Value) {
-				return entry, fmt.Errorf("invalid include list name: %q", entry.Value)
+				return entry, fmt.Errorf("invalid included list name: %q", entry.Value)
 			}
 		case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
 			entry.Type = typ
@@ -135,51 +133,56 @@ func parseEntry(line string) (Entry, error) {
 
 	// Parse attributes and affiliations
 	for _, part := range parts[1:] {
-		if strings.HasPrefix(part, "@") {
-			attr := strings.ToLower(part[1:]) // Trim attribute prefix `@` character
+		switch part[0] {
+		case '@':
+			attr := strings.ToLower(part[1:])
 			if !validateAttrChars(attr) {
 				return entry, fmt.Errorf("invalid attribute: %q", attr)
 			}
 			entry.Attrs = append(entry.Attrs, attr)
-		} else if strings.HasPrefix(part, "&") {
-			aff := strings.ToUpper(part[1:]) // Trim affiliation prefix `&` character
+		case '&':
+			aff := strings.ToUpper(part[1:])
 			if !validateSiteName(aff) {
 				return entry, fmt.Errorf("invalid affiliation: %q", aff)
 			}
 			entry.Affs = append(entry.Affs, aff)
-		} else {
+		default:
 			return entry, fmt.Errorf("invalid attribute/affiliation: %q", part)
 		}
 	}
-	// Sort attributes
-	slices.Sort(entry.Attrs)
-	// Formated plain entry: type:domain.tld:@attr1,@attr2
-	var plain strings.Builder
-	plain.Grow(len(entry.Type) + len(entry.Value) + 10)
-	plain.WriteString(entry.Type)
-	plain.WriteByte(':')
-	plain.WriteString(entry.Value)
-	for i, attr := range entry.Attrs {
-		if i == 0 {
-			plain.WriteByte(':')
-		} else {
-			plain.WriteByte(',')
-		}
-		plain.WriteByte('@')
-		plain.WriteString(attr)
-	}
-	entry.Plain = plain.String()
 
+	if entry.Type == dlc.RuleTypeInclude {
+		if len(entry.Affs) != 0 {
+			return entry, fmt.Errorf("affiliation is not allowed for include:%q", entry.Value)
+		}
+	} else {
+		slices.Sort(entry.Attrs) // Sort attributes
+		// Formated plain entry: type:domain.tld:@attr1,@attr2
+		var plain strings.Builder
+		plain.Grow(len(entry.Type) + len(entry.Value) + 10)
+		plain.WriteString(entry.Type)
+		plain.WriteByte(':')
+		plain.WriteString(entry.Value)
+		for i, attr := range entry.Attrs {
+			if i == 0 {
+				plain.WriteByte(':')
+			} else {
+				plain.WriteByte(',')
+			}
+			plain.WriteByte('@')
+			plain.WriteString(attr)
+		}
+		entry.Plain = plain.String()
+	}
 	return entry, nil
 }
 
 func validateDomainChars(domain string) bool {
 	for i := range domain {
 		c := domain[i]
-		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '.' || c == '-' {
-			continue
+		if !((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '.' || c == '-') {
+			return false
 		}
-		return false
 	}
 	return true
 }
@@ -187,10 +190,9 @@ func validateDomainChars(domain string) bool {
 func validateAttrChars(attr string) bool {
 	for i := range attr {
 		c := attr[i]
-		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
-			continue
+		if !((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-') {
+			return false
 		}
-		return false
 	}
 	return true
 }
@@ -198,10 +200,9 @@ func validateAttrChars(attr string) bool {
 func validateSiteName(name string) bool {
 	for i := range name {
 		c := name[i]
-		if (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
-			continue
+		if !((c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '!' || c == '-') {
+			return false
 		}
-		return false
 	}
 	return true
 }
@@ -217,11 +218,8 @@ func loadData(path string) ([]*Entry, error) {
 	scanner := bufio.NewScanner(file)
 	lineIdx := 0
 	for scanner.Scan() {
-		line := scanner.Text()
 		lineIdx++
-		if idx := strings.Index(line, "#"); idx != -1 {
-			line = line[:idx] // Remove comments
-		}
+		line, _, _ := strings.Cut(scanner.Text(), "#") // Remove comments
 		line = strings.TrimSpace(line)
 		if line == "" {
 			continue
@@ -236,20 +234,17 @@ func loadData(path string) ([]*Entry, error) {
 }
 
 func parseList(refName string, refList []*Entry) error {
-	pl, _ := plMap[refName]
-	if pl == nil {
+	pl, ok := plMap[refName]
+	if !ok {
 		pl = &ParsedList{Name: refName}
 		plMap[refName] = pl
 	}
 	for _, entry := range refList {
 		if entry.Type == dlc.RuleTypeInclude {
-			if len(entry.Affs) != 0 {
-				return fmt.Errorf("affiliation is not allowed for include:%q", entry.Value)
-			}
 			inc := &Inclusion{Source: entry.Value}
 			for _, attr := range entry.Attrs {
-				if strings.HasPrefix(attr, "-") {
-					inc.BanAttrs = append(inc.BanAttrs, attr[1:]) // Trim attribute prefix `-` character
+				if attr[0] == '-' {
+					inc.BanAttrs = append(inc.BanAttrs, attr[1:])
 				} else {
 					inc.MustAttrs = append(inc.MustAttrs, attr)
 				}
@@ -257,8 +252,8 @@ func parseList(refName string, refList []*Entry) error {
 			pl.Inclusions = append(pl.Inclusions, inc)
 		} else {
 			for _, aff := range entry.Affs {
-				apl, _ := plMap[aff]
-				if apl == nil {
+				apl, ok := plMap[aff]
+				if !ok {
 					apl = &ParsedList{Name: aff}
 					plMap[aff] = apl
 				}
@@ -296,9 +291,7 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 	domainsMap := make(map[string]bool)
 	for _, entry := range roughMap {
 		switch entry.Type { // Bypass regexp, keyword and "full/domain with attr"
-		case dlc.RuleTypeRegexp:
-			finalList = append(finalList, entry)
-		case dlc.RuleTypeKeyword:
+		case dlc.RuleTypeRegexp, dlc.RuleTypeKeyword:
 			finalList = append(finalList, entry)
 		case dlc.RuleTypeDomain:
 			domainsMap[entry.Value] = true
@@ -323,11 +316,11 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 			pd = "." + pd // So that `domain:example.org` overrides `full:example.org`
 		}
 		for {
-			idx := strings.Index(pd, ".")
-			if idx == -1 {
+			var hasParent bool
+			_, pd, hasParent = strings.Cut(pd, ".") // Go for next parent
+			if !hasParent {
 				break
 			}
-			pd = pd[idx+1:] // Go for next parent
 			if domainsMap[pd] {
 				isRedundant = true
 				break
@@ -420,7 +413,7 @@ func run() error {
 		return fmt.Errorf("failed to create output directory: %w", err)
 	}
 
-	// Export plaintext list
+	// Export plaintext lists
 	for rawEpList := range strings.SplitSeq(*exportLists, ",") {
 		if epList := strings.TrimSpace(rawEpList); epList != "" {
 			entries, exist := finalMap[strings.ToUpper(epList)]
