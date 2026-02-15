@@ -18,30 +18,30 @@ ru.net
 
 include:category-ecommerce-ru
 include:category-entertainment-ru
+include:category-finance-ru
 include:category-gov-ru
 include:category-retail-ru
+include:category-travel-ru
 
-# Public transportation
-include:aviasales
-include:mosmetro
-
-include:avito
 include:mailru-group
-include:x5
 include:yandex
 
-# Dodo Pizza
-dodopizza.ru
-dodopizza.com
-dodostatic.net
-dodois.com
-dodois.io
+gazfond-pn.ru  # Non-state pension fund GAZFOND pension savings
+litres.ru      # E-book and audiobook service
+meteoinfo.ru   # Hydrometeorological Center of Russia
+ngenix.net     # NGENIX is a Russian provider of acceleration and security services for public web resources
+pochta.ru      # Russian post
+qms.ru         # Russian internet speed testing service
+rustore.ru     # RuStore is a Russian mobile app store for Android
 
-# Rostics
-rostics.ru
-uni.rest
-unirest.tech
-
-trbcdn.net
-tbank-online.com
-taxsee.com
+# Telecom operators
+beeline.ru
+dom.ru
+megafon.ru
+mts.ru
+mymts.ru
+rostelecom.ru
+rt.ru
+t2.ru
+tele2.ru
+yota.ru

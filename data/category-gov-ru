@@ -15,7 +15,13 @@ edu.ru
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
+cikrf.ru        # Central Electoral Commission of the Russian Federation
+ebs.ru          # Unified Biometric System
+goskey.ru       # GosKey - an electronic signature on a smartphone
+izbirkom.ru     # Information on ongoing elections and referendums
+kremlin.ru      # Online representation of the President of Russia
 nalog.ru        # Federal Tax Service
+xn--80ajghhoc2aj1c8b.xn--p1ai # Honest Sign - State Labeling System
 
 #
 # Regional sites and Public Services
@@ -149,3 +155,6 @@ chukotka.ru     # Chukotka Autonomous Area
 jamal.ru        # Yamal-Nenets Autonomous Area
 surgut.ru       # Khanty-Mansi Autonomous Area – Yugra
 yamal.ru        # Yamal-Nenets Autonomous Area
+
+# Regional health services
+zdrav10.ru      # Republic of Karelia
