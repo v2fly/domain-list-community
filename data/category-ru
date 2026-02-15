@@ -21,12 +21,7 @@ include:category-entertainment-ru
 include:category-finance-ru
 include:category-gov-ru
 include:category-retail-ru
-
-# Public transportation
-include:aviasales
-include:mosmetro
+include:category-travel-ru
 
 include:mailru-group
 include:yandex
-
-taxsee.com
