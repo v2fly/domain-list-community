@@ -92,6 +92,7 @@ include:westerndigital
 include:wisekey
 include:yahoo
 include:yandex
+include:zscaler
 
 # Remote Control
 include:category-remote-control
