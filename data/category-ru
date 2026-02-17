@@ -1,21 +1,8 @@
 # Russian websites
-
-# Russian TLDs
-moscow
-tatar
-ru
-su
-xn--80adxhks
-xn--80asehdb
-xn--80aswg
-xn--c1avg
-xn--d1acj3b
-xn--p1acf
-xn--p1ai
-
 ru.com
 ru.net
 
+include:tld-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
