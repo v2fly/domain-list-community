@@ -10,9 +10,6 @@ bristol.ru
 # Children's World
 detmir.ru
 
-# Chizhik
-chizhik.club
-
 # Dixie
 dixy.ru
 
@@ -45,10 +42,7 @@ magnit.ru
 # Metro
 metro-cc.ru
 
-# Perekrestok
-perekrestok.ru
-
-# Pyaterochka
+# Pyaterochka, Perekrestok, Chizhik
 include:x5
 
 # Red and White
