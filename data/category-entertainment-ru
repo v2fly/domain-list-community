@@ -1,3 +1,22 @@
+# CDNvideo is a leading CDN provider in Russia and the CIS
+cdnvideo.ru
+trbcdn.net
+
+# Information about films and series
+kinorium.com
+
+# Streaming services for watching TV series and movies
+include:kinopoisk
 include:okko
-include:rutube
 include:wink
+24h.tv
+amediateka.ru
+ivi.ru
+premier.one
+smotreshka.tv
+start.ru
+tvigle.ru
+viju.ru
+
+# Video hosting
+include:rutube

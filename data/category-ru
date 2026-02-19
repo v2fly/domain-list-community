@@ -7,28 +7,46 @@ include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
 include:category-retail-ru
+include:category-travel-ru
 
-# Public transportation
-include:aviasales
-include:mosmetro
-
-include:avito
+# Well-known companies
 include:mailru-group
-include:x5
 include:yandex
 
-# Dodo Pizza
-dodopizza.ru
-dodopizza.com
-dodostatic.net
-dodois.com
-dodois.io
+# Bank & Finance & Insurance & Securities
+include:category-bank-ru
+# Credit History Bureaus
+credistory.ru
+nbki.ru
+# Currency and stock exchanges
+moex.com   # Moscow Stock Exchange
+spvb.ru    # Saint-Petersburg Stock Exchange
+# Financial marketplace
+banki.ru
+finuslugi.ru
+# Mir payment system
+mirpayonline.ru
+# National Payment Card System
+nspk.ru
 
-# Rostics
-rostics.ru
-uni.rest
-unirest.tech
+# Telecom operators
+beeline.ru
+dom.ru
+megafon.ru
+mts.ru
+mymts.ru
+rostelecom.ru
+rt.ru
+t2.ru
+tele2.ru
+yota.ru
 
-trbcdn.net
-tbank-online.com
-taxsee.com
+# Other domains
+gazfond-pn.ru  # Non-state pension fund GAZFOND pension savings
+litres.ru      # E-book and audiobook service
+meteoinfo.ru   # Hydrometeorological Center of Russia
+ngenix.net     # NGENIX is a Russian provider of acceleration and security services for public web resources
+pochta.ru      # Russian post
+qms.ru         # Russian internet speed testing service
+rustore.ru     # RuStore is a Russian mobile app store for Android
+taxsee.com     # Taxi for business (self-employed drivers)
