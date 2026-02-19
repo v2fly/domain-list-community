@@ -2223,6 +2223,8 @@ heavyfetish.com
 hegre.com
 heiguab.top
 heijidi.life
+heiliao.com
+heiliao88.com
 heise360181.buzz
 heise360182.buzz
 helixstudios.net
@@ -6012,8 +6014,6 @@ zzdh77.com
 zzdh808.com
 zzdh99.com
 zzgays.com
-heiliao.com
-heiliao88.com
 
 # Full Domain Name
 
@@ -6159,6 +6159,7 @@ regexp:(^|\.)tqav[1-9][0-9]\.com$
 regexp:(^|\.)tt[1-2][0-9]\.tv$
 regexp:(^|\.)ttghg[1-9][0-9]\.xyz$
 regexp:(^|\.)tttv([1-9][0-9]?|100)\.com$
+regexp:(^|\.)twav[1-9]\.xyz$
 regexp:(^|\.)twseb([1-9][0-9]?)?\.com$
 regexp:(^|\.)uu[a-z][1-9][0-9]?\.com$
 regexp:(^|\.)whtdh0[1-3]\.cc$
@@ -6182,4 +6183,3 @@ regexp:(^|\.)zh9[0-7]\.net$
 regexp:(^|\.)zy[0-9]{4}\.top$
 regexp:(^|\.)zztt[1-6][0-9]\.com$
 regexp:(^|\.)zzz[1-9][0-9]\.top$
-regexp:(^|\.)twav[1-9]\.xyz$
