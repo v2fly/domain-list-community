@@ -18,22 +18,29 @@ ru.net
 
 include:category-ecommerce-ru
 include:category-entertainment-ru
-include:category-finance-ru
 include:category-gov-ru
 include:category-retail-ru
 include:category-travel-ru
 
+# Well-known companies
 include:mailru-group
 include:yandex
 
-gazfond-pn.ru  # Non-state pension fund GAZFOND pension savings
-litres.ru      # E-book and audiobook service
-meteoinfo.ru   # Hydrometeorological Center of Russia
-ngenix.net     # NGENIX is a Russian provider of acceleration and security services for public web resources
-pochta.ru      # Russian post
-qms.ru         # Russian internet speed testing service
-rustore.ru     # RuStore is a Russian mobile app store for Android
-taxsee.com     # Taxi for business (self-employed drivers)
+# Bank & Finance & Insurance & Securities
+include:category-bank-ru
+# Credit History Bureaus
+credistory.ru
+nbki.ru
+# Currency and stock exchanges
+moex.com   # Moscow Stock Exchange
+spvb.ru    # Saint-Petersburg Stock Exchange
+# Financial marketplace
+banki.ru
+finuslugi.ru
+# Mir payment system
+mirpayonline.ru
+# National Payment Card System
+nspk.ru
 
 # Telecom operators
 beeline.ru
@@ -46,3 +53,13 @@ rt.ru
 t2.ru
 tele2.ru
 yota.ru
+
+# Other domains
+gazfond-pn.ru  # Non-state pension fund GAZFOND pension savings
+litres.ru      # E-book and audiobook service
+meteoinfo.ru   # Hydrometeorological Center of Russia
+ngenix.net     # NGENIX is a Russian provider of acceleration and security services for public web resources
+pochta.ru      # Russian post
+qms.ru         # Russian internet speed testing service
+rustore.ru     # RuStore is a Russian mobile app store for Android
+taxsee.com     # Taxi for business (self-employed drivers)
