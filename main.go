@@ -176,9 +176,10 @@ func parseEntry(line string) (*Entry, []string, error) {
 func validateDomainChars(domain string) bool {
 	for i := range domain {
 		c := domain[i]
-		if !((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '.' || c == '-') {
-			return false
+		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '.' || c == '-' {
+			continue
 		}
+		return false
 	}
 	return true
 }
@@ -186,9 +187,10 @@ func validateDomainChars(domain string) bool {
 func validateAttrChars(attr string) bool {
 	for i := range attr {
 		c := attr[i]
-		if !((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-') {
-			return false
+		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
+			continue
 		}
+		return false
 	}
 	return true
 }
@@ -196,9 +198,10 @@ func validateAttrChars(attr string) bool {
 func validateSiteName(name string) bool {
 	for i := range name {
 		c := name[i]
-		if !((c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '!' || c == '-') {
-			return false
+		if (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
+			continue
 		}
+		return false
 	}
 	return true
 }
