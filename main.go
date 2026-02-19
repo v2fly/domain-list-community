@@ -203,7 +203,7 @@ func validateSiteName(name string) bool {
 	return true
 }
 
-func (p *Processor) getParsedList(name string) *ParsedList {
+func (p *Processor) getOrCreateParsedList(name string) *ParsedList {
 	pl, exist := p.plMap[name]
 	if !exist {
 		pl = &ParsedList{Name: name}
@@ -219,7 +219,7 @@ func (p *Processor) loadData(listName string, path string) error {
 	}
 	defer file.Close()
 
-	pl := p.getParsedList(listName)
+	pl := p.getOrCreateParsedList(listName)
 	scanner := bufio.NewScanner(file)
 	lineIdx := 0
 	for scanner.Scan() {
@@ -244,13 +244,13 @@ func (p *Processor) loadData(listName string, path string) error {
 				}
 			}
 			for _, aff := range affs {
-				apl := p.getParsedList(aff)
+				apl := p.getOrCreateParsedList(aff)
 				apl.Inclusions = append(apl.Inclusions, inc)
 			}
 			pl.Inclusions = append(pl.Inclusions, inc)
 		} else {
 			for _, aff := range affs {
-				apl := p.getParsedList(aff)
+				apl := p.getOrCreateParsedList(aff)
 				apl.Entries = append(apl.Entries, entry)
 			}
 			pl.Entries = append(pl.Entries, entry)
