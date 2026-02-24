@@ -5,11 +5,11 @@ include:facebook
 include:instagram
 include:linkedin
 include:mailru
+include:mixi
 include:misskey
 include:ok
 include:threads
 include:twitter
 include:vk
-include:mixi
 
 truthsocial.com
