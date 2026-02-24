@@ -5,8 +5,8 @@ include:facebook
 include:instagram
 include:linkedin
 include:mailru
-include:mixi
 include:misskey
+include:mixi
 include:ok
 include:threads
 include:twitter
