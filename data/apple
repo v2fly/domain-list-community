@@ -752,10 +752,10 @@ courier-push-apple.com.akadns.net
 full:amp-api-edge-lb-cn.itunes-apple.com.akadns.net @cn
 full:amp-api-edge-lb.itunes-apple.com.akadns.net @cn
 full:amp-api-edge.apps.apple.com @cn
+full:amp-api-edge.music.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
 full:amp-api.music.apple.com @cn
-full:amp-api-edge.music.apple.com @cn
 full:aod-ssl.itunes.apple.com @cn
 full:aod.itunes.apple.com @cn
 full:api-edge.apps.apple.com @cn
