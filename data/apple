@@ -755,6 +755,7 @@ full:amp-api-edge.apps.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
 full:amp-api.music.apple.com @cn
+full:amp-api-edge.music.apple.com @cn
 full:aod-ssl.itunes.apple.com @cn
 full:aod.itunes.apple.com @cn
 full:api-edge.apps.apple.com @cn
@@ -782,6 +783,8 @@ full:js-cdn.music.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
 full:misc-assets.itunes.apple.com @cn
+full:musicstatus.music.apple.com @cn
+full:mvod.itunes.apple.com @cn
 full:myapp.itunes.apple.com @cn
 full:np-edge.itunes.apple.com @cn
 full:osxapps.itunes.apple.com @cn
