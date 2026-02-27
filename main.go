@@ -353,11 +353,8 @@ func (p *Processor) resolveList(plname string) error {
 		roughMap[dentry.Plain] = dentry
 	}
 	for _, inc := range pl.Inclusions {
-		if _, exist := p.plMap[inc.Source]; !exist {
-			return fmt.Errorf("list %q includes a non-existent list: %q", plname, inc.Source)
-		}
 		if err := p.resolveList(inc.Source); err != nil {
-			return err
+			return fmt.Errorf("failed to resolve inclusion %q: %w", inc.Source, err)
 		}
 		for _, ientry := range p.finalMap[inc.Source] {
 			if isMatchAttrFilters(ientry, inc) { // Add included entries
