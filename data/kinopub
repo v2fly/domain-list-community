@@ -11,5 +11,6 @@ cdn-service.space
 cdn2cdn.com
 cdn2site.com
 pushbr.com # poster images CDN
+smarttvcdn.online
 
 regexp:(\w+)-static-[0-9]+\.cdntogo\.net$
