@@ -13,3 +13,12 @@ include:twitter
 include:vk
 
 truthsocial.com
+
+# Mastodon
+# * We can not make a comprehensive domain list of all Mastodon instances.
+# * Many more dynamic/random instance domains are not listed here.
+# * geosite:mastodon is not provided to avoid creating excessive expectations among users.
+joinmastodon.org
+mastodon.online
+mastodon.social
+pawoo.net
