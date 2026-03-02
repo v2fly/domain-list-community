@@ -263,9 +263,6 @@ func (p *Processor) loadData(listName string, path string) error {
 }
 
 func isMatchAttrFilters(entry *Entry, incFilter *Inclusion) bool {
-	if len(incFilter.MustAttrs) == 0 && len(incFilter.BanAttrs) == 0 {
-		return true
-	}
 	if len(entry.Attrs) == 0 {
 		return len(incFilter.MustAttrs) == 0
 	}
@@ -352,12 +349,13 @@ func (p *Processor) resolveList(plname string) error {
 	for _, dentry := range pl.Entries { // Add direct entries
 		roughMap[dentry.Plain] = dentry
 	}
-	for _, inc := range pl.Inclusions {
+	for _, inc := range pl.Inclusions { // Add included entries
 		if err := p.resolveList(inc.Source); err != nil {
 			return fmt.Errorf("failed to resolve inclusion %q: %w", inc.Source, err)
 		}
+		isFullInc := len(inc.MustAttrs) == 0 && len(inc.BanAttrs) == 0
 		for _, ientry := range p.finalMap[inc.Source] {
-			if isMatchAttrFilters(ientry, inc) { // Add included entries
+			if isFullInc || isMatchAttrFilters(ientry, inc) {
 				roughMap[ientry.Plain] = ientry
 			}
 		}
