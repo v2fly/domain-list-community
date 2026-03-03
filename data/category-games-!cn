@@ -13,7 +13,7 @@ include:gaijin
 include:garena
 include:gog
 include:hoyoverse
-include:illusion
+# Dead include:illusion
 include:itchio
 include:lowiro
 include:modrinth

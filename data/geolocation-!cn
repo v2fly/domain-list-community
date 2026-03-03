@@ -156,6 +156,7 @@ include:category-enhance-gaming
 include:category-mobile-repair
 include:category-ntp
 include:category-password-management
+include:category-urlshortner
 include:category-web-archive
 include:decryptipastore # iOS
 
@@ -170,7 +171,6 @@ include:addtoany
 include:adguard
 include:aptoide
 include:arphic
-include:bitly
 include:blender
 include:brightcove
 include:buymeacoffee
@@ -224,7 +224,6 @@ include:sb
 include:setapp
 include:sharethis
 include:shopify
-include:shorturl
 include:slideshare
 include:sourceforge
 include:squareup
@@ -234,7 +233,6 @@ include:svp
 include:test-ipv6
 include:tex
 include:tidelift
-include:tinyurl
 include:trello
 include:tumblr
 include:tutanota
@@ -308,7 +306,6 @@ wiki.gg
 
 # Others
 include:avaxhome
-include:dlsite
 include:espressif
 include:familymart
 include:fzdm
