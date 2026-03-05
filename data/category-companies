@@ -66,6 +66,7 @@ include:openweather
 include:oracle
 include:panasonic
 include:pccw
+include:plex
 include:qnap
 include:qualcomm
 include:qwant
