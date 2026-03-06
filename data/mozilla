@@ -1,6 +1,5 @@
 include:firefox
 include:mdn
-include:rust
 
 mozgcp.net
 mozilla.com
@@ -24,7 +23,10 @@ seamonkey-project.org
 thunderbird.net
 
 # Mozilla Location Service
-location.services.mozilla.com
+# * Overrided by above `mozilla.com`
+# * In March 2024, Mozilla announced the project was being discontinued
+#location.services.mozilla.com
 
 # Mozilla Push Service
-push.services.mozilla.com
+# * Overrided by above `mozilla.com`
+#push.services.mozilla.com
