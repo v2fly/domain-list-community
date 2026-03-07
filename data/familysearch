@@ -1,0 +1,7 @@
+www.familysearch.org
+foundry.familysearch.org
+om.familysearch.org
+ident.familysearch.org
+
+# auth/user server sg30p0.familysearch.org
+regexp:[a-z0-9]+[a-z][0-9]\.familysearch\.org$

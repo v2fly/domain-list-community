@@ -1,0 +1,4 @@
+dynatrace.com
+js-cdn.dynatrace.com
+  
+regexp:[a-z0-9]+\.bf\.dynatrace\.com$
