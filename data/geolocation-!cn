@@ -45,6 +45,8 @@ include:paypal
 include:softbank
 include:stripe
 include:visa
+## アプリペイ
+app-pay.jp
 
 # CDN companies & Services
 include:category-cdn-!cn
