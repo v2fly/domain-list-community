@@ -3,6 +3,7 @@ include:cdn77
 include:cloudflare
 include:fastly
 include:imgix
+include:jsdelivr
 include:limelight
 include:pagecdn
 include:quantil
