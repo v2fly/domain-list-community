@@ -33,7 +33,6 @@ include:java
 include:jetbrains
 include:jetbrains-ai
 include:jfrog
-include:jsdelivr
 include:kubernetes
 include:microsoft-dev
 include:mongodb
