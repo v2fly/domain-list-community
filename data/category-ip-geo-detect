@@ -14,7 +14,6 @@ country.is
 curlmyip.net
 dadata.ru
 db-ip.com
-eth0.me
 extreme-ip-lookup.com
 find-my-ip.com
 find-my-ip.net
@@ -46,9 +45,7 @@ ip-api.io
 ip-api.ru
 ip-check.info
 ip-score.com
-ip.mail.ru
 ip.me
-ip.nic.ru
 ip.sb
 ip.tyk.nu
 ip2c.org
@@ -73,7 +70,6 @@ ipdata.co
 ipecho.net
 ipfind.io
 ipfinder.io
-ipgeo.vercel.app
 ipgeolocation.io
 ipify.org
 ipinfo.io
@@ -90,8 +86,6 @@ ipregistry.co
 iproyal.com
 ipstack.com
 iptoolkit.com
-ipv4-internet.yandex.net
-ipv6-internet.yandex.net
 ipverify.com
 ipwhois.io
 ipxapi.com
@@ -136,12 +130,18 @@ whoisxmlapi.com
 wieistmeineip.de
 wtfismyip.com
 
+# Subdomains/internal api used for ip-geo-detect
+geoip.noc.gov.ru
+ip.mail.ru
+ip.nic.ru
+ipgeo.vercel.app
+ipv4-internet.yandex.net
+ipv6-internet.yandex.net
+
 full:checkip.amazonaws.com
 
-g3.letv.com @cn
 iplark.com @cn
-ipv4.gdt.qq.com @cn
-myip.ipip.net @cn
-r.inews.qq.com @cn
-test.ipw.cn @cn
+ipw.cn @cn
 whois.pconline.com.cn @cn
+
+include:ipip
