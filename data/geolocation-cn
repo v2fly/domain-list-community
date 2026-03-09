@@ -45,6 +45,8 @@ include:taikang
 
 ## 航财通·校园付
 cc-pay.cn
+## 合利宝
+helipay.com
 ## 徽商期货有限责任公司
 hsqh.net
 ## 上海陆金所
@@ -53,6 +55,8 @@ lufax.com
 lufaxcdn.com
 ## 银豹收银系统
 pospal.cn
+## 上海付费通
+shfft.com
 
 # CDN or SDWAN
 include:category-cdn-cn
