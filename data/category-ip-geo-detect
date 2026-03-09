@@ -1,3 +1,5 @@
+include:ipip
+
 2ip.io
 2ip.ru
 2ip.ua
@@ -45,7 +47,6 @@ ip-check.info
 ip-score.com
 ip.me
 ip.sb
-ip.tyk.nu
 ip2c.org
 ip2location.com
 ip2location.io
@@ -71,6 +72,7 @@ ipfinder.io
 ipgeolocation.io
 ipify.org
 ipinfo.io
+iplark.com @cn
 ipleak.net
 ipligence.com
 iplocate.io
@@ -83,6 +85,7 @@ ipregistry.co
 iproyal.com
 ipstack.com
 ipverify.com
+ipw.cn @cn
 ipwhois.io
 ipxapi.com
 l2.io
@@ -127,17 +130,12 @@ wieistmeineip.de
 wtfismyip.com
 
 # Subdomains/internal api used for ip-geo-detect
+full:checkip.amazonaws.com
 geoip.noc.gov.ru
 ip.mail.ru
 ip.nic.ru
+ip.tyk.nu
 ipgeo.vercel.app
 ipv4-internet.yandex.net
 ipv6-internet.yandex.net
-
-full:checkip.amazonaws.com
-
-iplark.com @cn
-ipw.cn @cn
 whois.pconline.com.cn @cn
-
-include:ipip
