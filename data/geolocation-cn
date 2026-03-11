@@ -226,23 +226,65 @@ cma.cn
 nmc.cn
 
 # Public transportation
-include:airchina # 中国国际航空
-include:hainanairlines # 海南航空
+## 中国国际航空
+include:airchina
+## 海南航空
+include:hainanairlines
+## 长安航空
+airchangan.com
+## 桂林航空
+airguilin.com
+## 中国东方航空
+ceair.com
+## 春秋航空
+ch.com
+china-sss.com
+springairlines.com
+## 华夏航空
+chinaexpressair.com
+## 中国南方航空
+csair.com
+## 中国联合航空
+flycua.com
+## 广西北部湾航空
+gxairlines.com
+## 河北航空
+hbhk.com.cn
+## 首都航空
+jdair.net
+## 吉祥航空
+juneyaoair.com
+## 长龙航空
+loongair.cn
+## 祥鹏航空
+luckyair.net
+## 山东航空
+sda.cn
+## 深圳航空
+shenzhenair.com
+## 四川航空
+sichuanair.com
+## 天津航空
+tianjin-air.com
+## 西藏航空
+tibetairlines.com.cn
+## 乌鲁木齐航空
+urumqi-air.com
+## 厦门航空
+xiamenair.com
 
-# 中国民航局 caac.gov.cn
-ceair.com # 中国东方航空
-chinaexpressair.com # 华夏航空
-csair.com # 中国南方航空
-flycua.com # 中国联合航空
-hbhk.com.cn # 河北航空
-jdair.net # 首都航空
-juneyaoair.com # 吉祥航空
-luckyair.net # 祥鹏航空
-sichuanair.com # 四川航空
-tibetairlines.com.cn # 西藏航空
-travelskymobile.cn # 信天游（航空电子客票验真）
-variflight.com # 飞常准
-xiamenair.com # 厦门航空
+## 中国民航局
+caac.gov.cn
+## 信天游（航空电子客票验真）
+travelskymobile.cn
+## 航旅纵横
+umetrip.com
+umetrip.com.cn
+umetrip.net.cn
+ume-trip.cn
+## 飞常准
+variflight.com
+
 ## Railway
 12306.cn
 95306.cn
@@ -257,11 +299,6 @@ kuajing84.com
 mygolbs.com
 ## 宁停车
 ningtingche.com
-## 航旅纵横
-umetrip.com
-umetrip.com.cn
-umetrip.net.cn
-ume-trip.cn
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning & Education
 include:category-education-cn
@@ -425,6 +462,7 @@ xbext.com
 yinxiang.com
 ## 智联招聘
 zhaopin.cn
+zhaopin.com
 
 # Tech companies & Orginations
 include:aisiku # 北京艾斯酷科技有限公司
@@ -646,7 +684,6 @@ ycrx360.com
 52z.com
 53kf.com
 55.com
-56.com
 5577.com
 55bbs.com
 58pic.com
@@ -692,8 +729,6 @@ aiemy.com
 aiketour.com
 aiops.com
 aipai.com
-airchangan.com
-airguilin.com
 aiskycn.com
 aizhan.com
 aldwx.com # 京ICP备17030349号-1
@@ -757,7 +792,6 @@ cecdc.com
 cecport.com
 centanet.com
 cerambath.org
-ch.com
 chachaba.com
 changba.com
 chaojituzi.net
@@ -942,7 +976,6 @@ gupzs.com
 gushiwen.org
 guzhangting.com
 gwdang.com
-gxairlines.com
 gxb.io
 gzcqs.com
 gzwanju.com
@@ -1300,7 +1333,6 @@ taoche.com
 te5.com
 tenxcloud.com
 tianjimedia.com
-tianjin-air.com
 tianlailive.com
 tietuku.com
 tiexue.net
@@ -1336,7 +1368,6 @@ ucbug.com
 uggame.com
 uoko.com
 urselect.com
-urumqi-air.com
 useso.com
 uuu9.com
 uzzf.com
@@ -1500,7 +1531,6 @@ zhangyoubao.com
 zhanzhang.net
 zhaodanji.com
 zhaokao.net
-zhaopin.com
 zhcw.com
 zhenai.com
 zhibo8.cc
@@ -1511,14 +1541,11 @@ zhongkao.com
 zhuangjiba.com
 zhuanyewanjia.com
 zhuayoukong.com
-zimuzu.io
 zixiaomao.com
 zixuntop.com
 zmengzhu.com
 zpb365.com
-zsxq.com
 zuhaowan.com
-zuidaima.com
 zuowen.com
 zuowen8.com
 zuowenwang.net
