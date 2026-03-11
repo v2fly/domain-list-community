@@ -226,23 +226,45 @@ cma.cn
 nmc.cn
 
 # Public transportation
-include:airchina # 中国国际航空
-include:hainanairlines # 海南航空
+## 中国国际航空
+include:airchina
+## 海南航空
+include:hainanairlines
+## 中国东方航空
+ceair.com
+## 华夏航空
+chinaexpressair.com
+## 中国南方航空
+csair.com
+## 中国联合航空
+flycua.com
+## 河北航空
+hbhk.com.cn
+## 首都航空
+jdair.net
+## 吉祥航空
+juneyaoair.com
+## 祥鹏航空
+luckyair.net
+## 四川航空
+sichuanair.com
+## 西藏航空
+tibetairlines.com.cn
+## 厦门航空
+xiamenair.com
 
-# 中国民航局 caac.gov.cn
-ceair.com # 中国东方航空
-chinaexpressair.com # 华夏航空
-csair.com # 中国南方航空
-flycua.com # 中国联合航空
-hbhk.com.cn # 河北航空
-jdair.net # 首都航空
-juneyaoair.com # 吉祥航空
-luckyair.net # 祥鹏航空
-sichuanair.com # 四川航空
-tibetairlines.com.cn # 西藏航空
-travelskymobile.cn # 信天游（航空电子客票验真）
-variflight.com # 飞常准
-xiamenair.com # 厦门航空
+## 中国民航局
+caac.gov.cn
+## 信天游（航空电子客票验真）
+travelskymobile.cn
+## 航旅纵横
+umetrip.com
+umetrip.com.cn
+umetrip.net.cn
+ume-trip.cn
+## 飞常准
+variflight.com
+
 ## Railway
 12306.cn
 95306.cn
@@ -257,11 +279,6 @@ kuajing84.com
 mygolbs.com
 ## 宁停车
 ningtingche.com
-## 航旅纵横
-umetrip.com
-umetrip.com.cn
-umetrip.net.cn
-ume-trip.cn
 
 # Science & Technology & Knowledge & Scholar & Press & E-learning & Education
 include:category-education-cn
