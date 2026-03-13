@@ -8,4 +8,5 @@ acfunchina.com
 acfunchina.net
 aixifan.com
 
-include:acfun-ads
+# Ads/tracking
+full:apilog-web.acfun.cn @ads

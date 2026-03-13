@@ -7,9 +7,10 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"sort"
+	"slices"
 	"strings"
 
+	"github.com/v2fly/domain-list-community/internal/dlc"
 	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
 	"google.golang.org/protobuf/proto"
 )
@@ -21,381 +22,428 @@ var (
 	exportLists = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
 )
 
-const (
-	RuleTypeDomain     string = "domain"
-	RuleTypeFullDomain string = "full"
-	RuleTypeKeyword    string = "keyword"
-	RuleTypeRegexp     string = "regexp"
-	RuleTypeInclude    string = "include"
-)
-
 type Entry struct {
 	Type  string
 	Value string
-	Attrs []*router.Domain_Attribute
+	Attrs []string
+	Plain string
 }
 
-type List struct {
-	Name  string
-	Entry []Entry
+type Inclusion struct {
+	Source    string
+	MustAttrs []string
+	BanAttrs  []string
 }
 
 type ParsedList struct {
-	Name      string
-	Inclusion map[string]bool
-	Entry     []Entry
+	Name       string
+	Inclusions []*Inclusion
+	Entries    []*Entry
 }
 
-func (l *ParsedList) toPlainText(listName string) error {
-	var entryBytes []byte
-	for _, entry := range l.Entry {
-		var attrString string
-		if entry.Attrs != nil {
-			for _, attr := range entry.Attrs {
-				attrString += "@" + attr.GetKey() + ","
-			}
-			attrString = strings.TrimRight(":"+attrString, ",")
-		}
-		// Entry output format is: type:domain.tld:@attr1,@attr2
-		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+attrString+"\n")...)
-	}
-	if err := os.WriteFile(filepath.Join(*outputDir, listName+".txt"), entryBytes, 0644); err != nil {
-		return err
-	}
-	return nil
+type Processor struct {
+	plMap     map[string]*ParsedList
+	finalMap  map[string][]*Entry
+	cirIncMap map[string]bool
 }
 
-func (l *ParsedList) toProto() (*router.GeoSite, error) {
+func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 	site := &router.GeoSite{
-		CountryCode: l.Name,
+		CountryCode: listName,
+		Domain:      make([]*router.Domain, 0, len(entries)),
 	}
-	for _, entry := range l.Entry {
-		switch entry.Type {
-		case RuleTypeDomain:
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_RootDomain,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
+	for _, entry := range entries {
+		pdomain := &router.Domain{Value: entry.Value}
+		for _, attr := range entry.Attrs {
+			pdomain.Attribute = append(pdomain.Attribute, &router.Domain_Attribute{
+				Key:        attr,
+				TypedValue: &router.Domain_Attribute_BoolValue{BoolValue: true},
 			})
-
-		case RuleTypeRegexp:
-			// check regexp validity to avoid runtime error
-			_, err := regexp.Compile(entry.Value)
-			if err != nil {
-				return nil, fmt.Errorf("invalid regexp in list %s: %s", l.Name, entry.Value)
-			}
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Regex,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
-		case RuleTypeKeyword:
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Plain,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
-		case RuleTypeFullDomain:
-			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Full,
-				Value:     entry.Value,
-				Attribute: entry.Attrs,
-			})
-
-		default:
-			return nil, fmt.Errorf("unknown domain type: %s", entry.Type)
 		}
+
+		switch entry.Type {
+		case dlc.RuleTypeDomain:
+			pdomain.Type = router.Domain_RootDomain
+		case dlc.RuleTypeRegexp:
+			pdomain.Type = router.Domain_Regex
+		case dlc.RuleTypeKeyword:
+			pdomain.Type = router.Domain_Plain
+		case dlc.RuleTypeFullDomain:
+			pdomain.Type = router.Domain_Full
+		}
+		site.Domain = append(site.Domain, pdomain)
 	}
 	return site, nil
 }
 
-func exportPlainTextList(list []string, refName string, pl *ParsedList) {
-	for _, listName := range list {
-		if strings.EqualFold(refName, listName) {
-			if err := pl.toPlainText(strings.ToLower(refName)); err != nil {
-				fmt.Println("Failed:", err)
-				continue
-			}
-			fmt.Printf("'%s' has been generated successfully.\n", listName)
-		}
+func writePlainList(listname string, entries []*Entry) error {
+	file, err := os.Create(filepath.Join(*outputDir, strings.ToLower(listname)+".txt"))
+	if err != nil {
+		return err
 	}
+	defer file.Close()
+	w := bufio.NewWriter(file)
+	for _, entry := range entries {
+		fmt.Fprintln(w, entry.Plain)
+	}
+	return w.Flush()
 }
 
-func removeComment(line string) string {
-	idx := strings.Index(line, "#")
-	if idx == -1 {
-		return line
-	}
-	return strings.TrimSpace(line[:idx])
-}
-
-func parseDomain(domain string, entry *Entry) error {
-	kv := strings.Split(domain, ":")
-	if len(kv) == 1 {
-		entry.Type = RuleTypeDomain
-		entry.Value = strings.ToLower(kv[0])
-		return nil
-	}
-
-	if len(kv) == 2 {
-		entry.Type = strings.ToLower(kv[0])
-
-		if strings.EqualFold(entry.Type, RuleTypeRegexp) {
-			entry.Value = kv[1]
-		} else {
-			entry.Value = strings.ToLower(kv[1])
-		}
-
-		return nil
-	}
-
-	return fmt.Errorf("invalid format: %s", domain)
-}
-
-func parseAttribute(attr string) (*router.Domain_Attribute, error) {
-	var attribute router.Domain_Attribute
-	if len(attr) == 0 || attr[0] != '@' {
-		return &attribute, fmt.Errorf("invalid attribute: %s", attr)
-	}
-
-	attribute.Key = strings.ToLower(attr[1:]) // Trim attribute prefix `@` character
-	attribute.TypedValue = &router.Domain_Attribute_BoolValue{BoolValue: true}
-	return &attribute, nil
-}
-
-func parseEntry(line string) (Entry, error) {
-	line = strings.TrimSpace(line)
-	parts := strings.Split(line, " ")
-
-	var entry Entry
+func parseEntry(line string) (*Entry, []string, error) {
+	entry := new(Entry)
+	parts := strings.Fields(line)
 	if len(parts) == 0 {
-		return entry, fmt.Errorf("empty entry")
+		return entry, nil, fmt.Errorf("empty line")
 	}
 
-	if err := parseDomain(parts[0], &entry); err != nil {
-		return entry, err
-	}
-
-	for i := 1; i < len(parts); i++ {
-		attr, err := parseAttribute(parts[i])
-		if err != nil {
-			return entry, err
+	// Parse type and value
+	typ, val, isTypeSpecified := strings.Cut(parts[0], ":")
+	typ = strings.ToLower(typ)
+	if !isTypeSpecified { // Default RuleType
+		if !validateDomainChars(typ) {
+			return entry, nil, fmt.Errorf("invalid domain: %q", typ)
 		}
-		entry.Attrs = append(entry.Attrs, attr)
+		entry.Type = dlc.RuleTypeDomain
+		entry.Value = typ
+	} else {
+		switch typ {
+		case dlc.RuleTypeRegexp:
+			if _, err := regexp.Compile(val); err != nil {
+				return entry, nil, fmt.Errorf("invalid regexp %q: %w", val, err)
+			}
+			entry.Type = dlc.RuleTypeRegexp
+			entry.Value = val
+		case dlc.RuleTypeInclude:
+			entry.Type = dlc.RuleTypeInclude
+			entry.Value = strings.ToUpper(val)
+			if !validateSiteName(entry.Value) {
+				return entry, nil, fmt.Errorf("invalid included list name: %q", entry.Value)
+			}
+		case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
+			entry.Type = typ
+			entry.Value = strings.ToLower(val)
+			if !validateDomainChars(entry.Value) {
+				return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
+			}
+		default:
+			return entry, nil, fmt.Errorf("invalid type: %q", typ)
+		}
 	}
 
-	return entry, nil
+	// Parse attributes and affiliations
+	var affs []string
+	for _, part := range parts[1:] {
+		switch part[0] {
+		case '@':
+			attr := strings.ToLower(part[1:])
+			if !validateAttrChars(attr) {
+				return entry, affs, fmt.Errorf("invalid attribute: %q", attr)
+			}
+			entry.Attrs = append(entry.Attrs, attr)
+		case '&':
+			aff := strings.ToUpper(part[1:])
+			if !validateSiteName(aff) {
+				return entry, affs, fmt.Errorf("invalid affiliation: %q", aff)
+			}
+			affs = append(affs, aff)
+		default:
+			return entry, affs, fmt.Errorf("invalid attribute/affiliation: %q", part)
+		}
+	}
+
+	if entry.Type != dlc.RuleTypeInclude {
+		slices.Sort(entry.Attrs) // Sort attributes
+		// Formated plain entry: type:domain.tld:@attr1,@attr2
+		var plain strings.Builder
+		plain.Grow(len(entry.Type) + len(entry.Value) + 10)
+		plain.WriteString(entry.Type)
+		plain.WriteByte(':')
+		plain.WriteString(entry.Value)
+		for i, attr := range entry.Attrs {
+			if i == 0 {
+				plain.WriteByte(':')
+			} else {
+				plain.WriteByte(',')
+			}
+			plain.WriteByte('@')
+			plain.WriteString(attr)
+		}
+		entry.Plain = plain.String()
+	}
+	return entry, affs, nil
 }
 
-func Load(path string) (*List, error) {
+func validateDomainChars(domain string) bool {
+	for i := range domain {
+		c := domain[i]
+		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '.' || c == '-' {
+			continue
+		}
+		return false
+	}
+	return true
+}
+
+func validateAttrChars(attr string) bool {
+	for i := range attr {
+		c := attr[i]
+		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
+			continue
+		}
+		return false
+	}
+	return true
+}
+
+func validateSiteName(name string) bool {
+	for i := range name {
+		c := name[i]
+		if (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
+			continue
+		}
+		return false
+	}
+	return true
+}
+
+func (p *Processor) getOrCreateParsedList(name string) *ParsedList {
+	pl, exist := p.plMap[name]
+	if !exist {
+		pl = &ParsedList{Name: name}
+		p.plMap[name] = pl
+	}
+	return pl
+}
+
+func (p *Processor) loadData(listName string, path string) error {
 	file, err := os.Open(path)
 	if err != nil {
-		return nil, err
+		return err
 	}
 	defer file.Close()
 
-	list := &List{
-		Name: strings.ToUpper(filepath.Base(path)),
-	}
+	pl := p.getOrCreateParsedList(listName)
 	scanner := bufio.NewScanner(file)
+	lineIdx := 0
 	for scanner.Scan() {
-		line := strings.TrimSpace(scanner.Text())
-		line = removeComment(line)
-		if len(line) == 0 {
+		lineIdx++
+		line, _, _ := strings.Cut(scanner.Text(), "#") // Remove comments
+		line = strings.TrimSpace(line)
+		if line == "" {
 			continue
 		}
-		entry, err := parseEntry(line)
+		entry, affs, err := parseEntry(line)
 		if err != nil {
-			return nil, err
+			return fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
 		}
-		list.Entry = append(list.Entry, entry)
-	}
 
-	return list, nil
-}
-
-func isMatchAttr(Attrs []*router.Domain_Attribute, includeKey string) bool {
-	isMatch := false
-	mustMatch := true
-	matchName := includeKey
-	if strings.HasPrefix(includeKey, "!") {
-		isMatch = true
-		mustMatch = false
-		matchName = strings.TrimLeft(includeKey, "!")
-	}
-
-	for _, Attr := range Attrs {
-		attrName := Attr.Key
-		if mustMatch {
-			if matchName == attrName {
-				isMatch = true
-				break
-			}
-		} else {
-			if matchName == attrName {
-				isMatch = false
-				break
-			}
-		}
-	}
-	return isMatch
-}
-
-func createIncludeAttrEntrys(list *List, matchAttr *router.Domain_Attribute) []Entry {
-	newEntryList := make([]Entry, 0, len(list.Entry))
-	matchName := matchAttr.Key
-	for _, entry := range list.Entry {
-		matched := isMatchAttr(entry.Attrs, matchName)
-		if matched {
-			newEntryList = append(newEntryList, entry)
-		}
-	}
-	return newEntryList
-}
-
-func ParseList(list *List, ref map[string]*List) (*ParsedList, error) {
-	pl := &ParsedList{
-		Name:      list.Name,
-		Inclusion: make(map[string]bool),
-	}
-	entryList := list.Entry
-	for {
-		newEntryList := make([]Entry, 0, len(entryList))
-		hasInclude := false
-		for _, entry := range entryList {
-			if entry.Type == RuleTypeInclude {
-				refName := strings.ToUpper(entry.Value)
-				if entry.Attrs != nil {
-					for _, attr := range entry.Attrs {
-						InclusionName := strings.ToUpper(refName + "@" + attr.Key)
-						if pl.Inclusion[InclusionName] {
-							continue
-						}
-						pl.Inclusion[InclusionName] = true
-
-						refList := ref[refName]
-						if refList == nil {
-							return nil, fmt.Errorf("list not found: %s", entry.Value)
-						}
-						attrEntrys := createIncludeAttrEntrys(refList, attr)
-						if len(attrEntrys) != 0 {
-							newEntryList = append(newEntryList, attrEntrys...)
-						}
-					}
+		if entry.Type == dlc.RuleTypeInclude {
+			inc := &Inclusion{Source: entry.Value}
+			for _, attr := range entry.Attrs {
+				if attr[0] == '-' {
+					inc.BanAttrs = append(inc.BanAttrs, attr[1:])
 				} else {
-					InclusionName := refName
-					if pl.Inclusion[InclusionName] {
-						continue
-					}
-					pl.Inclusion[InclusionName] = true
-					refList := ref[refName]
-					if refList == nil {
-						return nil, fmt.Errorf("list not found: %s", entry.Value)
-					}
-					newEntryList = append(newEntryList, refList.Entry...)
+					inc.MustAttrs = append(inc.MustAttrs, attr)
 				}
-				hasInclude = true
-			} else {
-				newEntryList = append(newEntryList, entry)
 			}
-		}
-		entryList = newEntryList
-		if !hasInclude {
-			break
+			for _, aff := range affs {
+				apl := p.getOrCreateParsedList(aff)
+				apl.Inclusions = append(apl.Inclusions, inc)
+			}
+			pl.Inclusions = append(pl.Inclusions, inc)
+		} else {
+			for _, aff := range affs {
+				apl := p.getOrCreateParsedList(aff)
+				apl.Entries = append(apl.Entries, entry)
+			}
+			pl.Entries = append(pl.Entries, entry)
 		}
 	}
-	pl.Entry = entryList
-
-	return pl, nil
+	return nil
 }
 
-func main() {
-	flag.Parse()
+func isMatchAttrFilters(entry *Entry, incFilter *Inclusion) bool {
+	if len(entry.Attrs) == 0 {
+		return len(incFilter.MustAttrs) == 0
+	}
+	for _, m := range incFilter.MustAttrs {
+		if !slices.Contains(entry.Attrs, m) {
+			return false
+		}
+	}
+	for _, b := range incFilter.BanAttrs {
+		if slices.Contains(entry.Attrs, b) {
+			return false
+		}
+	}
+	return true
+}
 
+func polishList(roughMap map[string]*Entry) []*Entry {
+	finalList := make([]*Entry, 0, len(roughMap))
+	queuingList := make([]*Entry, 0, len(roughMap)) // Domain/full entries without attr
+	domainsMap := make(map[string]bool)
+	for _, entry := range roughMap {
+		switch entry.Type { // Bypass regexp, keyword and "full/domain with attr"
+		case dlc.RuleTypeRegexp, dlc.RuleTypeKeyword:
+			finalList = append(finalList, entry)
+		case dlc.RuleTypeDomain:
+			domainsMap[entry.Value] = true
+			if len(entry.Attrs) != 0 {
+				finalList = append(finalList, entry)
+			} else {
+				queuingList = append(queuingList, entry)
+			}
+		case dlc.RuleTypeFullDomain:
+			if len(entry.Attrs) != 0 {
+				finalList = append(finalList, entry)
+			} else {
+				queuingList = append(queuingList, entry)
+			}
+		}
+	}
+	// Remove redundant subdomains for full/domain without attr
+	for _, qentry := range queuingList {
+		isRedundant := false
+		pd := qentry.Value // To be parent domain
+		if qentry.Type == dlc.RuleTypeFullDomain {
+			pd = "." + pd // So that `domain:example.org` overrides `full:example.org`
+		}
+		for {
+			var hasParent bool
+			_, pd, hasParent = strings.Cut(pd, ".") // Go for next parent
+			if !hasParent {
+				break
+			}
+			if domainsMap[pd] {
+				isRedundant = true
+				break
+			}
+		}
+		if !isRedundant {
+			finalList = append(finalList, qentry)
+		}
+	}
+	// Sort final entries
+	slices.SortFunc(finalList, func(a, b *Entry) int {
+		return strings.Compare(a.Plain, b.Plain)
+	})
+	return finalList
+}
+
+func (p *Processor) resolveList(plname string) error {
+	if _, pldone := p.finalMap[plname]; pldone {
+		return nil
+	}
+	pl, plexist := p.plMap[plname]
+	if !plexist {
+		return fmt.Errorf("list %q not found", plname)
+	}
+	if p.cirIncMap[plname] {
+		return fmt.Errorf("circular inclusion in: %q", plname)
+	}
+	p.cirIncMap[plname] = true
+	defer delete(p.cirIncMap, plname)
+
+	roughMap := make(map[string]*Entry) // Avoid basic duplicates
+	for _, dentry := range pl.Entries { // Add direct entries
+		roughMap[dentry.Plain] = dentry
+	}
+	for _, inc := range pl.Inclusions { // Add included entries
+		if err := p.resolveList(inc.Source); err != nil {
+			return fmt.Errorf("failed to resolve inclusion %q: %w", inc.Source, err)
+		}
+		isFullInc := len(inc.MustAttrs) == 0 && len(inc.BanAttrs) == 0
+		for _, ientry := range p.finalMap[inc.Source] {
+			if isFullInc || isMatchAttrFilters(ientry, inc) {
+				roughMap[ientry.Plain] = ientry
+			}
+		}
+	}
+	p.finalMap[plname] = polishList(roughMap)
+	return nil
+}
+
+func run() error {
 	dir := *dataPath
-	fmt.Println("Use domain lists in", dir)
+	fmt.Printf("using domain lists data in %q\n", dir)
 
-	ref := make(map[string]*List)
-	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
+	// Generate plMap
+	processor := &Processor{plMap: make(map[string]*ParsedList)}
+	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
 		}
-		if info.IsDir() {
+		if d.IsDir() {
 			return nil
 		}
-		list, err := Load(path)
-		if err != nil {
-			return err
+		listName := strings.ToUpper(filepath.Base(path))
+		if !validateSiteName(listName) {
+			return fmt.Errorf("invalid list name: %q", listName)
 		}
-		ref[list.Name] = list
-		return nil
+		return processor.loadData(listName, path)
 	})
 	if err != nil {
-		fmt.Println("Failed:", err)
-		os.Exit(1)
+		return fmt.Errorf("failed to loadData: %w", err)
 	}
-
-	// Create output directory if not exist
-	if _, err := os.Stat(*outputDir); os.IsNotExist(err) {
-		if mkErr := os.MkdirAll(*outputDir, 0755); mkErr != nil {
-			fmt.Println("Failed:", mkErr)
-			os.Exit(1)
+	// Generate finalMap
+	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
+	processor.cirIncMap = make(map[string]bool)
+	for plname := range processor.plMap {
+		if err := processor.resolveList(plname); err != nil {
+			return fmt.Errorf("failed to resolveList %q: %w", plname, err)
 		}
 	}
 
+	// Make sure output directory exists
+	if err := os.MkdirAll(*outputDir, 0755); err != nil {
+		return fmt.Errorf("failed to create output directory: %w", err)
+	}
+	// Export plaintext lists
+	for rawEpList := range strings.SplitSeq(*exportLists, ",") {
+		if epList := strings.TrimSpace(rawEpList); epList != "" {
+			entries, exist := processor.finalMap[strings.ToUpper(epList)]
+			if !exist || len(entries) == 0 {
+				fmt.Printf("list %q does not exist or is empty\n", epList)
+				continue
+			}
+			if err := writePlainList(epList, entries); err != nil {
+				fmt.Printf("failed to write list %q: %v\n", epList, err)
+				continue
+			}
+			fmt.Printf("list %q has been generated successfully.\n", epList)
+		}
+	}
+
+	// Generate dat file
 	protoList := new(router.GeoSiteList)
-	var existList []string
-	for refName, list := range ref {
-		pl, err := ParseList(list, ref)
+	for siteName, siteEntries := range processor.finalMap {
+		site, err := makeProtoList(siteName, siteEntries)
 		if err != nil {
-			fmt.Println("Failed:", err)
-			os.Exit(1)
-		}
-		site, err := pl.toProto()
-		if err != nil {
-			fmt.Println("Failed:", err)
-			os.Exit(1)
+			return fmt.Errorf("failed to makeProtoList %q: %w", siteName, err)
 		}
 		protoList.Entry = append(protoList.Entry, site)
-
-		// Flatten and export plaintext list
-		if *exportLists != "" {
-			if existList != nil {
-				exportPlainTextList(existList, refName, pl)
-			} else {
-				exportedListSlice := strings.Split(*exportLists, ",")
-				for _, exportedListName := range exportedListSlice {
-					fileName := filepath.Join(dir, exportedListName)
-					_, err := os.Stat(fileName)
-					if err == nil || os.IsExist(err) {
-						existList = append(existList, exportedListName)
-					} else {
-						fmt.Printf("'%s' list does not exist in '%s' directory.\n", exportedListName, dir)
-					}
-				}
-				if existList != nil {
-					exportPlainTextList(existList, refName, pl)
-				}
-			}
-		}
 	}
-
 	// Sort protoList so the marshaled list is reproducible
-	sort.SliceStable(protoList.Entry, func(i, j int) bool {
-		return protoList.Entry[i].CountryCode < protoList.Entry[j].CountryCode
+	slices.SortFunc(protoList.Entry, func(a, b *router.GeoSite) int {
+		return strings.Compare(a.CountryCode, b.CountryCode)
 	})
 
 	protoBytes, err := proto.Marshal(protoList)
 	if err != nil {
-		fmt.Println("Failed:", err)
-		os.Exit(1)
+		return fmt.Errorf("failed to marshal: %w", err)
 	}
 	if err := os.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
-		fmt.Println("Failed:", err)
+		return fmt.Errorf("failed to write output: %w", err)
+	}
+	fmt.Printf("%q has been generated successfully.\n", *outputName)
+	return nil
+}
+
+func main() {
+	flag.Parse()
+	if err := run(); err != nil {
+		fmt.Printf("Fatal error: %v\n", err)
 		os.Exit(1)
-	} else {
-		fmt.Println(*outputName, "has been generated successfully.")
 	}
 }

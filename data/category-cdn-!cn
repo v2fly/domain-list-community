@@ -3,6 +3,7 @@ include:cdn77
 include:cloudflare
 include:fastly
 include:imgix
+include:jsdelivr
 include:limelight
 include:pagecdn
 include:quantil
@@ -13,3 +14,6 @@ include:vrcdn
 b-cdn.net
 bunny.net
 bunnycdn.com
+
+# cdnjs
+cdnjs.com

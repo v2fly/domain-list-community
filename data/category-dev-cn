@@ -4,7 +4,7 @@ include:apipost
 include:baltamatica
 include:cnblogs
 include:csdn
-include:deepin
+include:deepin @-!cn
 include:gitee
 include:goproxy
 include:huawei-dev
@@ -18,7 +18,11 @@ include:segmentfault
 include:sxl
 include:tencent-dev
 include:ubuntukylin
+include:unitychina
 
+aardio.com
 jinrishici.com
 openvela.com
+pingcode.com
 tipdm.org
+zuidaima.com

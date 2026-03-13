@@ -1,17 +1,19 @@
-include:2kgames
 include:blizzard
 include:bluearchive
+include:bohemia
 include:curseforge
 include:cygames
 include:ea
 include:embark
+include:eneba
 include:epicgames
 include:escapefromtarkov
 include:faceit
+include:gaijin
 include:garena
 include:gog
 include:hoyoverse
-include:illusion
+# Dead include:illusion
 include:itchio
 include:lowiro
 include:modrinth
@@ -24,20 +26,24 @@ include:pandanet
 include:pinkcore
 include:playstation
 include:projectsekai
+include:pubg
 include:purikonejp
 include:riot
 include:roblox
-include:rockstar
 include:snk
 include:steam
+include:steaminventoryhelper
 include:steamunlocked
 include:supercell
+include:take-two
 include:ubisoft
 include:vrchat
 include:wbgames
 include:xbox
 include:ynoproject
+include:yostar
 
+dinopoloclub.com
 dodi-repacks.download
 dodi-repacks.site
 fabricmc.net
@@ -48,8 +54,11 @@ humblebundle.com
 joinsquad.com
 loverslab.com
 minecraft.wiki
+mobimon.com.tw
+muvluv-girls-garden.com
 nexus-cdn.com
 nexusmods.com
+noxygames.com
 offworldindustries.com
 offworldindustries.net
 papermc.io
@@ -57,5 +66,7 @@ planetminecraft.com
 prismlauncher.org
 protondb.com
 quiltmc.org
+rayark.download
+rayark.net
 speedrun.com
 steamdb.info

@@ -1,65 +1,52 @@
 # This file contains domains that clearly serving ads
-
-include:acfun-ads
-include:adcolony-ads
-include:adjust-ads
-include:adobe-ads
-include:alibaba-ads
-include:amazon-ads
-include:apple-ads
-include:applovin-ads
-include:atom-data-ads
-include:baidu-ads
-include:bytedance-ads
 include:category-ads-ir
-include:clearbit-ads
-include:dmm-ads
-include:duolingo-ads
-include:emogi-ads
-include:flurry-ads
-include:github-ads
-include:google-ads
-include:growingio-ads
-include:hiido-ads
-include:hotjar-ads
-include:hunantv-ads
-include:inner-active-ads
-include:iqiyi-ads
-include:jd-ads
-include:kuaishou-ads
-include:kugou-ads
-include:letv-ads
-include:meta-ads
-include:microsoft-ads
-include:mopub-ads
-include:mxplayer-ads
-include:netease-ads
-include:newrelic-ads
-include:ogury-ads
-include:ookla-speedtest-ads
-include:openx-ads
-include:picacg-ads
-include:pocoiq-ads
-include:pubmatic-ads
-include:qihoo360-ads
-include:segment-ads
-include:sensorsdata-ads
-include:sina-ads
-include:sohu-ads
-include:spotify-ads
-include:supersonic-ads
-include:tagtic-ads
-include:tappx-ads
-include:television-ads
-include:tencent-ads
-include:uberads-ads
-include:umeng-ads
-include:unity-ads
-include:xhamster-ads
-include:xiaomi-ads
-include:ximalaya-ads
-include:yahoo-ads
-include:zhihu-ads
+
+include:acfun @ads
+include:adobe @ads
+include:alibaba @ads
+include:amazon @ads
+include:apple @ads
+include:baidu @ads
+include:bytedance @ads
+include:cctv @ads
+include:disney @ads
+include:dmm @ads
+include:duolingo @ads
+include:gamersky @ads
+include:google @ads
+include:hetzner @ads
+include:hunantv @ads
+include:iqiyi @ads
+include:jd @ads
+include:kuaishou @ads
+include:kugou @ads
+include:le @ads
+include:meta @ads
+include:microsoft @ads
+include:mihoyo @ads
+include:netease @ads
+include:ookla-speedtest @ads
+include:openai @ads
+include:picacg @ads
+include:pikpak @ads
+include:pixiv @ads
+include:qihoo360 @ads
+include:samsung @ads
+include:sina @ads
+include:snap @ads
+include:sohu @ads
+include:spotify @ads
+include:tcl @ads
+include:tencent @ads
+include:tendcloud @ads
+include:twitter @ads
+include:unity @ads
+include:unitychina @ads
+include:xhamster @ads
+include:xiaomi @ads
+include:ximalaya @ads
+include:yahoo @ads
+include:zhihu @ads
 
 # Other domains for ads serving
 51.la
@@ -71,8 +58,11 @@ ad.api.moji.com
 ad.wang502.com
 adbutter.net
 addthisedge.com
+ads.huan.tv
+ads.huantest.com
 ads.trafficjunky.net
 ads.wteam.xyz
+adservice.sigmob.cn
 adtechus.com
 adtrue.com
 adxprtz.com
@@ -81,21 +71,26 @@ cdn.banclip.com
 cfts1tifqr.com
 contentabc.com
 cretgate.com
+data.flurry.com
 decide.mixpanel.com
+emogi.com
 ero-advertising.com
 eroadvertising.com
+evt.mxplay.com
 exoclick.com
 exosrv.com
 go2.global
 gozendata.com
-gzads.com
 gz-data.com
+gzads.com
 img-bss.csdn.net
 imglnkc.com
 imglnkd.com
+inner-active.mobi
 innovid.com
 jads.co
 jl3.yjaxa.top
+js-agent.newrelic.com
 juicyads.com
 kepler-37b.com
 leanplum.com
@@ -103,21 +98,25 @@ lqc006.com
 moat.com
 moatads.com
 mobwithad.com
+mopub.com
 onesignal.com
 realsrv.com
 s4yxaqyq95.com
 shhs-ydd8x2.yjrmss.cn
+ssp.api.tappx.com
+static.hotjar.com
 static.javhd.com
 tm-banners.gamingadult.com
 trafficfactory.biz
 tsyndicate.com
+uberads.com
 wwads.cn
-
-# 36Kr
-adx.36kr.com
 
 # 12306
 ad.12306.cn
+
+# 36Kr
+adx.36kr.com
 
 # AdHub
 hubcloud.com.cn
@@ -128,6 +127,10 @@ beizi.biz
 # ali213
 click.ali213.net
 pbmp.ali213.net
+
+# AppLovin
+applovin.com
+applvn.com
 
 # Caixin
 # regexp:^pinggai\d\.caixin\.com$
@@ -146,11 +149,37 @@ full:pinggai9.caixin.com
 adq.chinaso.com
 stat.chinaso.com
 
+# hiido
+mlog.hiido.com
+ylog.hiido.com
+
+# hpply
+ad.hpplay.cn
+adc.hpplay.cn
+adeng.hpplay.cn
+
 # Httpool
 toboads.com
 
+# ironSource Atom
+analytics-data.io
+atom-data.io
+ironbeast.io
+
+# joyplus
+advapi.joyplus.tv
+advapikj.joyplus.tv
+
+# pocoiq
+cdn.pocoiq.cn
+oct.pocoiq.cn
+
 # Qiniu
 dn-growing.qbox.me
+
+# tagtic
+g1.tagtic.cn
+xy-log.tagtic.cn
 
 # UNI Marketing
 ad.unimhk.com
@@ -192,7 +221,21 @@ reachmax.cn
 # 热云数据
 reyun.com
 
+# 神策数据
+static.sensorsdata.cn
+
 # 诸葛io
 zhugeapi.com
 zhugeapi.net
 zhugeio.com
+
+# 酷云互动
+kuyun.com
+
+# 车来了
+atrace.chelaile.net.cn
+logs.chelaile.net.cn
+
+# 航旅纵横
+analytics.umetrip.com
+sensors.umetrip.com.cn

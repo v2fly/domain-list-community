@@ -3,15 +3,13 @@
 # AI Chat
 include:category-ai-!cn
 
-# Anime, Comics & Games
-include:category-acg
-
 # Advertisment & Analytics
 include:pubmatic
 include:taboola
 
 # Anti-censorship & Anti-GFW & Privacy protection & VPN tools
 include:category-anticensorship
+include:category-proxy-tunnels
 
 # Art & Design & Photography
 include:artstation
@@ -47,6 +45,8 @@ include:paypal
 include:softbank
 include:stripe
 include:visa
+## アプリペイ
+app-pay.jp
 
 # CDN companies & Services
 include:category-cdn-!cn
@@ -85,7 +85,6 @@ include:embl
 include:freecodecamp
 include:kaggle
 include:khanacademy
-include:knovel
 include:laracasts
 include:libgen
 include:lifewire
@@ -104,6 +103,8 @@ include:w3schools
 include:zotero
 
 chemequations.com # 线上化学方程式！
+geogebra.org
+wolframalpha.com
 
 # Entertainment & Games & Music & Podcasts & Videos
 include:category-entertainment
@@ -156,6 +157,7 @@ include:category-enhance-gaming
 include:category-mobile-repair
 include:category-ntp
 include:category-password-management
+include:category-urlshortner
 include:category-web-archive
 include:decryptipastore # iOS
 
@@ -170,7 +172,6 @@ include:addtoany
 include:adguard
 include:aptoide
 include:arphic
-include:bitly
 include:blender
 include:brightcove
 include:buymeacoffee
@@ -224,7 +225,6 @@ include:sb
 include:setapp
 include:sharethis
 include:shopify
-include:shorturl
 include:slideshare
 include:sourceforge
 include:squareup
@@ -234,7 +234,6 @@ include:svp
 include:test-ipv6
 include:tex
 include:tidelift
-include:tinyurl
 include:trello
 include:tumblr
 include:tutanota
@@ -246,29 +245,37 @@ include:zeplin
 include:zoho
 include:zoom
 
-biliplus.com # BiliPlus
-
-# Graphing for Science and Engineering
-originlab.com
-
-# Online LaTeX Editor
-cloudlatex.io
-overleaf.com
-
-# Translator & Dictionary
-include:linguee
-
-collinsdictionary.com
-ldoceonline.com
-immersivetranslate.com # 沉浸式翻译 (国际版)
-
-# Aurora Open Source Software (https://gitlab.com/AuroraOSS)
+## Aurora Open Source Software (https://gitlab.com/AuroraOSS)
 auroraoss.com
-
-# CookiePro, provides cookies and tracking
+## BiliPlus
+biliplus.com
+## CataBoom
+cataboom.com
+## Consent Management Platforms / Cookie service
+consentpro.com
 cookiepro.com
 cookielaw.org
 onetrust.com
+osano.com
+usercentrics.eu
+## Dynatrace
+dynatrace.com
+## FamilySearch
+familysearch.org
+## Greasy Fork
+greasyfork.org
+## Online LaTeX Editor
+cloudlatex.io
+overleaf.com
+## Translator & Dictionary
+include:linguee
+collinsdictionary.com
+ldoceonline.com
+immersivetranslate.com # 沉浸式翻译 (国际版)
+## OriginLab (Graphing for Science and Engineering)
+originlab.com
+## OsmAnd
+osmand.net
 
 # Software development
 include:category-dev
@@ -286,9 +293,6 @@ include:rarbg
 dmhy.org
 rutor.info
 
-# User scripts
-greasyfork.org
-
 # VPN services
 include:category-vpnservices
 
@@ -303,10 +307,10 @@ include:wikimedia
 
 atwiki.jp
 touhouwiki.net
+wiki.gg
 
 # Others
 include:avaxhome
-include:dlsite
 include:espressif
 include:familymart
 include:fzdm
@@ -322,3 +326,5 @@ include:tsquare
 include:windy
 include:xdty
 include:xingrz
+
+sinyalee.com

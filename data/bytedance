@@ -1,12 +1,10 @@
-include:bytedance-ads
-
-#include:bytedance-ai-!cn # not serving for cn
+include:bytedance-ai-!cn # not serving for cn
 include:doubao
 include:douyin # douyin, huoshan and qishuimusic inside
 include:fqnovel
 include:juejin
 include:lark # feishu is included in lark
-include:tiktok
+include:tiktok # not serving for cn
 include:trae
 include:volcengine
 
@@ -358,3 +356,31 @@ rsproxy.cn
 #bcysnssdk.com
 #bcystatic.com
 #bcyvod.com
+
+# Ads/tracking
+ad.toutiao.com @ads
+bds.snssdk.com @ads
+byteadverts.com @ads
+ctobsnssdk.com @ads
+dig.bdurl.net @ads
+extlog.snssdk.com @ads
+i.snssdk.com @ads
+log.zijieapi.com @ads
+mcs.snssdk.com @ads
+pangolin-dsp-toutiao-b.com @ads
+pangolin-dsp-toutiao.com @ads
+pangolin-hl.snssdk.com @ads
+pangolin-lf.snssdk.com @ads
+pangolin-lq.snssdk.com @ads
+pangolin-sdk-toutiao-b.com @ads
+pangolin-sdk-toutiao.com @ads
+pangolin-sdk-toutiao1.com @ads
+pangolin.snssdk.com @ads
+panplayable-toutiao-b.com @ads
+panplayable-toutiao.com @ads
+pglstatp-sdk-toutiao.com @ads
+pglstatp-snssdk-toutiao.com @ads
+pglstatp-toutiao-b.com @ads
+pglstatp-toutiao.com @ads
+sf3-ttcdn-tos.pstatp.com @ads
+shoppingads.cn @ads

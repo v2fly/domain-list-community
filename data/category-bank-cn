@@ -1,9 +1,9 @@
-include:boc
-include:ccb
-include:citic
-include:cmb
+include:boc @-!cn
+include:ccb @-!cn
+include:citic @-!cn
+include:cmb @-!cn
 include:hsbc-cn
-include:icbc
+include:icbc @-!cn
 include:unionpay
 
 abchina.com

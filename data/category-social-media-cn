@@ -6,8 +6,8 @@ include:gracg
 include:hupu
 include:meipian
 include:okjike
-include:sina
-include:xiaohongshu
+include:sina @-!cn
+include:xiaohongshu @-!cn
 include:yy
 include:zhihu
 
@@ -18,6 +18,12 @@ tieba.com
 dandan818.com
 dandanvoice.com
 
+# 饭否
+fanfou.com
+
 # 脉脉
 maimai.cn
 taou.com
+
+# 知识星球
+zsxq.com

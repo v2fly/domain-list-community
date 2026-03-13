@@ -1,5 +1,6 @@
 # This list contains Tech & Cyber companies and organizations outside China mainland.
 
+include:2gis
 include:acer
 include:adobe
 include:alibabacloud
@@ -48,6 +49,7 @@ include:kakao
 include:kaspersky
 include:lg
 include:logitech
+include:louisvuitton
 include:mailru-group
 include:meta
 include:microsoft
@@ -64,6 +66,7 @@ include:openweather
 include:oracle
 include:panasonic
 include:pccw
+include:plex
 include:qnap
 include:qualcomm
 include:qwant
@@ -79,7 +82,6 @@ include:spaceship
 include:st
 include:synology
 include:symantec
-include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
@@ -91,6 +93,7 @@ include:westerndigital
 include:wisekey
 include:yahoo
 include:yandex
+include:zscaler
 
 # Remote Control
 include:category-remote-control

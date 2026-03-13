@@ -53,10 +53,14 @@ yandexadexchange.net
 yandexcloud.net
 yandexcom.net
 yandexmetrica.com
+yandexwebcache.net
 yandexwebcache.org
 yastat.net
+yastatic-net.ru
 yastatic.net
 
 # Watching movies, included in the Yandex subscription
-kinopoisk.ru
-kinopoisk-ru.clstorage.net
+include:kinopoisk
+
+# Weather service
+full:yandex-pogoda.static-storage.net

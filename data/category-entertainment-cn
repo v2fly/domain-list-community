@@ -6,7 +6,7 @@ include:aamgame
 include:acfun
 include:acplay
 include:bestv
-include:bilibili
+include:bilibili @-!cn
 include:ciweimao
 include:dedao
 include:douyin
@@ -18,7 +18,7 @@ include:gamersky
 include:gitv
 include:hunantv
 include:huya
-include:iqiyi
+include:iqiyi @-!cn
 include:ku6
 include:kuaikan
 include:kuaishou
@@ -37,19 +37,23 @@ include:xiaoheihe
 include:xiaoyuzhou
 include:ximalaya
 include:youku
-include:yuewen
+include:yuewen @-!cn
 
 # Android Emulator
 ldmnq.com
 lsplayer.com
 yeshen.com
 
+# 172Mix 舞曲音乐
+172mix.com
 # 17K小说
 17k.com
 # https://github.com/supzhang/epg
 51zmt.top
 # 广东南方新媒体
 aisee.tv
+# 动画巡礼
+anitabi.cn
 # 暴风影音
 baofeng.com
 baofeng.net
@@ -61,6 +65,7 @@ bsbsb.top
 dmzj.com
 muwai.com
 # 懂球帝
+dongdianqiu.com
 dongqiudi.com
 # 飞卢小说
 faloo.com
@@ -80,6 +85,10 @@ jjwxc.net
 # 酷匠网
 kjcdn.com
 kujiang.com
+# 1905电影网
+1905.com
+m1905.cn
+m1905.com
 # 喵御宅
 mfuns.cn
 # 秒拍
@@ -87,8 +96,13 @@ miaopai.com
 # 磨铁文学
 motie.com
 motieimg.com
+# Mtime时光网
+mtime.cn
+mtime.com
 # 梨视频
 pearvideo.com
+# 皮皮网
+pipi.cn
 # SF轻小说二次元
 sfacg.com
 # 书海小说
@@ -109,6 +123,9 @@ zhulang.com
 zongheng.com
 
 # 娱乐资讯媒体
+# 该部分参考了中文维基百科的「来源考量」：
+# - https://zh.wikipedia.org/wiki/WikiProject:电子游戏/来源考量
+# - https://zh.wikipedia.org/wiki/WikiProject:ACG/來源考量
 
 include:tgbus
 include:vgtime
@@ -143,11 +160,15 @@ ign.com.cn
 nadianshi.com
 ## 游戏日报
 news.yxrb.net
+## 手谈姬
+shoutanjjj.com
 ## 游戏机实用技术
 ucg.cn
 ## 游戏茶馆
 youxichaguan.com
 ## 游戏葡萄
 youxiputao.com
+## 游戏陀螺
+youxituoluo.com
 ## 游研社
 yystv.cn

@@ -16,6 +16,8 @@ include:ynet
 21jingji.com
 # 站长网
 admin5.com
+# 安徽新闻
+anhuinews.com
 # 锋潮科技
 anzhuo.cn
 # 鞭牛士
@@ -55,6 +57,8 @@ cztv.com
 cztvcdn.com
 cztvcloud.com
 zjstv.com
+# 读特新闻
+dutenews.com
 # 大智慧
 dzh.com.cn
 gw.com.cn
@@ -74,6 +78,15 @@ freebuf.com
 geekpark.net
 # 光明网
 gmw.com
+# 硅谷网
+guigu.org
+# 同花顺
+0033.cn
+10jqka.com.cn
+hexin.cn
+hexin.com.cn
+ths123.com
+thsi.cn
 # 和讯
 hexun.com
 # 河南广播电视台/大象网
@@ -92,10 +105,14 @@ icpcw.com
 idcquan.com
 # 艾瑞咨询
 iresearch.cn
+# IT168
+it168.com
 # 华尔街见闻
 jianyuweb.com
 wallstcn.com
 wallstreetcn.com
+# 金十数据
+jin10.com
 # 上观新闻/解放日报
 jfdaily.com
 shobserver.com
@@ -118,6 +135,8 @@ kksmg.com
 statickksmg.com
 # 晚点
 latepost.com
+# 今日观察网
+miercn.com
 # 快科技
 mydrivers.com
 # 南岳新闻网
@@ -130,9 +149,14 @@ xinhuanet.com
 xinhuaxmt.com
 # 维科网
 ofweek.com
+# PChome电脑之家
+pchome.net
+pchpic.net
 # PConline 太平洋科技
 3conline.com
 pconline.com.cn
+# 泡泡网
+pcpop.com
 # 人民网
 people.cn
 people.com.cn
@@ -161,6 +185,8 @@ shangyexinzhi.com
 solidot.org
 # 南方新闻网
 southcn.com
+# 南方财富网
+southmoney.com
 # 少数派
 sspai.com
 # 证券之星
@@ -169,6 +195,9 @@ ssimg.cn
 stockstar.com
 # 证券时报网
 stcn.com
+# 深圳报业集团
+sznews.com
+szpgm.com
 # 大公网/大公报
 takungpao.com
 # TechWeb
@@ -177,12 +206,10 @@ techweb.com.cn
 thecover.cn
 # 澎湃新闻
 thepaper.cn
-# 同花顺
-10jqka.com.cn
-thsi.cn
-ths123.com
 # 人人都是产品经理
 woshipm.com
+# 西陆网
+xilu.com
 # 新快报
 xkb.com.cn
 # 第一财经

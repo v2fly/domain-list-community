@@ -20,6 +20,7 @@ tiktokv.eu @!cn
 tiktokv.us @!cn
 tiktokw.eu @!cn
 tiktokw.us @!cn
+ttcdn-us.com @!cn
 ttlivecdn.com @!cn
 ttoverseaus.net @!cn
 ttwstatic.com @!cn
@@ -34,3 +35,6 @@ full:roovza-launches.appsflyersdk.com @!cn
 full:roovza.inapps.appsflyersdk.com @!cn
 full:roovza.launches.appsflyersdk.com @!cn
 full:roovza.skadsdk.appsflyersdk.com @!cn
+
+# Ads/tracking
+analytics.tiktok.com @!cn @ads
