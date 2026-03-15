@@ -131,6 +131,8 @@ wtfismyip.com
 
 # Subdomains/internal api used for ip-geo-detect
 full:checkip.amazonaws.com
+full:ipv4-check-perf.radar.cloudflare.com
+full:ipv6-check-perf.radar.cloudflare.com
 geoip.noc.gov.ru
 ip.mail.ru
 ip.nic.ru
