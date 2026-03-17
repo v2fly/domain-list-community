@@ -89,45 +89,26 @@ func writePlainList(listname string, entries []*Entry) error {
 	return w.Flush()
 }
 
-func parseEntry(line string) (*Entry, []string, error) {
-	entry := new(Entry)
-	parts := strings.Fields(line)
+func parseEntry(typ, rule string) (*Entry, []string, error) {
+	entry := &Entry{Type: typ}
+	parts := strings.Fields(rule)
 	if len(parts) == 0 {
-		return entry, nil, fmt.Errorf("empty line")
+		return entry, nil, fmt.Errorf("empty domain rule")
 	}
-
-	// Parse type and value
-	typ, val, isTypeSpecified := strings.Cut(parts[0], ":")
-	typ = strings.ToLower(typ)
-	if !isTypeSpecified { // Default RuleType
-		if !validateDomainChars(typ) {
-			return entry, nil, fmt.Errorf("invalid domain: %q", typ)
+	// Parse value
+	switch entry.Type {
+	case dlc.RuleTypeRegexp:
+		if _, err := regexp.Compile(parts[0]); err != nil {
+			return entry, nil, fmt.Errorf("invalid regexp %q: %w", parts[0], err)
 		}
-		entry.Type = dlc.RuleTypeDomain
-		entry.Value = typ
-	} else {
-		switch typ {
-		case dlc.RuleTypeRegexp:
-			if _, err := regexp.Compile(val); err != nil {
-				return entry, nil, fmt.Errorf("invalid regexp %q: %w", val, err)
-			}
-			entry.Type = dlc.RuleTypeRegexp
-			entry.Value = val
-		case dlc.RuleTypeInclude:
-			entry.Type = dlc.RuleTypeInclude
-			entry.Value = strings.ToUpper(val)
-			if !validateSiteName(entry.Value) {
-				return entry, nil, fmt.Errorf("invalid included list name: %q", entry.Value)
-			}
-		case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
-			entry.Type = typ
-			entry.Value = strings.ToLower(val)
-			if !validateDomainChars(entry.Value) {
-				return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
-			}
-		default:
-			return entry, nil, fmt.Errorf("unknown rule type: %q", typ)
+		entry.Value = parts[0]
+	case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
+		entry.Value = strings.ToLower(parts[0])
+		if !validateDomainChars(entry.Value) {
+			return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
 		}
+	default:
+		return entry, nil, fmt.Errorf("unknown rule type: %q", entry.Type)
 	}
 	plen := len(entry.Type) + len(entry.Value) + 1
 
@@ -153,26 +134,60 @@ func parseEntry(line string) (*Entry, []string, error) {
 		}
 	}
 
-	if entry.Type != dlc.RuleTypeInclude {
-		slices.Sort(entry.Attrs) // Sort attributes
-		// Formated plain entry: type:domain.tld:@attr1,@attr2
-		var plain strings.Builder
-		plain.Grow(plen)
-		plain.WriteString(entry.Type)
-		plain.WriteByte(':')
-		plain.WriteString(entry.Value)
-		for i, attr := range entry.Attrs {
-			if i == 0 {
-				plain.WriteByte(':')
-			} else {
-				plain.WriteByte(',')
-			}
-			plain.WriteByte('@')
-			plain.WriteString(attr)
+	slices.Sort(entry.Attrs) // Sort attributes
+	// Formated plain entry: type:domain.tld:@attr1,@attr2
+	var plain strings.Builder
+	plain.Grow(plen)
+	plain.WriteString(entry.Type)
+	plain.WriteByte(':')
+	plain.WriteString(entry.Value)
+	for i, attr := range entry.Attrs {
+		if i == 0 {
+			plain.WriteByte(':')
+		} else {
+			plain.WriteByte(',')
 		}
-		entry.Plain = plain.String()
+		plain.WriteByte('@')
+		plain.WriteString(attr)
 	}
+	entry.Plain = plain.String()
 	return entry, affs, nil
+}
+
+func parseInclusion(rule string) (*Inclusion, error) {
+	parts := strings.Fields(rule)
+	if len(parts) == 0 {
+		return nil, fmt.Errorf("empty inclusion")
+	}
+	inc := &Inclusion{Source: strings.ToUpper(parts[0])}
+	if !validateSiteName(inc.Source) {
+		return inc, fmt.Errorf("invalid included list name: %q", inc.Source)
+	}
+
+	// Parse attributes
+	for _, part := range parts[1:] {
+		switch part[0] {
+		case '@':
+			attr := strings.ToLower(part[1:])
+			if attr[0] == '-' {
+				battr := attr[1:]
+				if !validateAttrChars(battr) {
+					return inc, fmt.Errorf("invalid ban attribute: %q", battr)
+				}
+				inc.BanAttrs = append(inc.BanAttrs, battr)
+			} else {
+				if !validateAttrChars(attr) {
+					return inc, fmt.Errorf("invalid must attribute: %q", attr)
+				}
+				inc.MustAttrs = append(inc.MustAttrs, attr)
+			}
+		case '&':
+			return inc, fmt.Errorf("affiliation is not allowed for inclusion")
+		default:
+			return inc, fmt.Errorf("unknown field: %q", part)
+		}
+	}
+	return inc, nil
 }
 
 func validateDomainChars(domain string) bool {
@@ -195,7 +210,7 @@ func validateAttrChars(attr string) bool {
 	}
 	for i := range attr {
 		c := attr[i]
-		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
+		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' {
 			continue
 		}
 		return false
@@ -243,26 +258,23 @@ func (p *Processor) loadData(listName string, path string) error {
 		if line == "" {
 			continue
 		}
-		entry, affs, err := parseEntry(line)
-		if err != nil {
-			return fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
+		typ, rule, isTypeSpecified := strings.Cut(line, ":")
+		if !isTypeSpecified { // Default RuleType
+			typ, rule = dlc.RuleTypeDomain, typ
+		} else {
+			typ = strings.ToLower(typ)
 		}
-
-		if entry.Type == dlc.RuleTypeInclude {
-			inc := &Inclusion{Source: entry.Value}
-			for _, attr := range entry.Attrs {
-				if attr[0] == '-' {
-					inc.BanAttrs = append(inc.BanAttrs, attr[1:])
-				} else {
-					inc.MustAttrs = append(inc.MustAttrs, attr)
-				}
-			}
-			for _, aff := range affs {
-				apl := p.getOrCreateParsedList(aff)
-				apl.Inclusions = append(apl.Inclusions, inc)
+		if typ == dlc.RuleTypeInclude {
+			inc, err := parseInclusion(rule)
+			if err != nil {
+				return fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
 			}
 			pl.Inclusions = append(pl.Inclusions, inc)
 		} else {
+			entry, affs, err := parseEntry(typ, rule)
+			if err != nil {
+				return fmt.Errorf("error in %q at line %d: %w", path, lineIdx, err)
+			}
 			for _, aff := range affs {
 				apl := p.getOrCreateParsedList(aff)
 				apl.Entries = append(apl.Entries, entry)
