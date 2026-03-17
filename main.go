@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
@@ -19,6 +20,7 @@ var (
 	dataPath    = flag.String("datapath", "./data", "Path to your custom 'data' directory")
 	outputName  = flag.String("outputname", "dlc.dat", "Name of the generated dat file")
 	outputDir   = flag.String("outputdir", "./", "Directory to place all generated files")
+	datProfile  = flag.String("datprofile", "", "Path of config file used to assemble custom dats")
 	exportLists = flag.String("exportlists", "", "Lists to be flattened and exported in plaintext format, separated by ',' comma")
 )
 
@@ -47,6 +49,23 @@ type Processor struct {
 	cirIncMap map[string]bool
 }
 
+type GeoSites struct {
+	Sites   []*router.GeoSite
+	SiteIdx map[string]int
+}
+
+type DatTask struct {
+	Name  string   `json:"name"`
+	Mode  string   `json:"mode"`
+	Lists []string `json:"lists"`
+}
+
+const (
+	ModeAll       string = "all"
+	ModeAllowlist string = "allowlist"
+	ModeDenylist  string = "denylist"
+)
+
 func makeProtoList(listName string, entries []*Entry) *router.GeoSite {
 	site := &router.GeoSite{
 		CountryCode: listName,
@@ -74,6 +93,88 @@ func makeProtoList(listName string, entries []*Entry) *router.GeoSite {
 		site.Domain = append(site.Domain, pdomain)
 	}
 	return site
+}
+
+func loadTasks(path string) ([]DatTask, error) {
+	f, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+
+	var tasks []DatTask
+	dec := json.NewDecoder(f)
+	if err := dec.Decode(&tasks); err != nil {
+		return nil, fmt.Errorf("failed to decode json: %w", err)
+	}
+	for i, t := range tasks {
+		if t.Name == "" {
+			return nil, fmt.Errorf("task[%d]: name is required", i)
+		}
+		if !(t.Mode == ModeAll || t.Mode == ModeAllowlist || t.Mode == ModeDenylist) {
+			return nil, fmt.Errorf("task[%d] %q: invalid mode %q", i, t.Name, t.Mode)
+		}
+	}
+	return tasks, nil
+}
+
+func (gs *GeoSites) assembleDat(task DatTask) error {
+	datFileName := strings.ToLower(filepath.Base(task.Name))
+	geoSiteList := new(router.GeoSiteList)
+
+	switch task.Mode {
+	case ModeAll:
+		geoSiteList.Entry = gs.Sites
+	case ModeAllowlist:
+		allowedIdxes := make([]int, 0, len(task.Lists))
+		for _, list := range task.Lists {
+			if idx, ok := gs.SiteIdx[strings.ToUpper(list)]; ok {
+				allowedIdxes = append(allowedIdxes, idx)
+			} else {
+				return fmt.Errorf("list %q not found for allowlist task", list)
+			}
+		}
+		slices.Sort(allowedIdxes)
+		allowedlen := len(allowedIdxes)
+		if allowedlen == 0 {
+			return fmt.Errorf("allowlist needs at least one valid list")
+		}
+		geoSiteList.Entry = make([]*router.GeoSite, allowedlen)
+		for i, idx := range allowedIdxes {
+			geoSiteList.Entry[i] = gs.Sites[idx]
+		}
+	case ModeDenylist:
+		deniedMap := make(map[int]bool, len(task.Lists))
+		for _, list := range task.Lists {
+			if idx, ok := gs.SiteIdx[strings.ToUpper(list)]; ok {
+				deniedMap[idx] = true
+			} else {
+				fmt.Printf("[Warn] list %q not found in denylist task %q", list, task.Name)
+			}
+		}
+		deniedlen := len(deniedMap)
+		if deniedlen == 0 {
+			fmt.Printf("[Warn] nothing to deny in task %q", task.Name)
+			geoSiteList.Entry = gs.Sites
+		} else {
+			geoSiteList.Entry = make([]*router.GeoSite, 0, len(gs.Sites)-deniedlen)
+			for i, site := range gs.Sites {
+				if !deniedMap[i] {
+					geoSiteList.Entry = append(geoSiteList.Entry, site)
+				}
+			}
+		}
+	}
+
+	protoBytes, err := proto.Marshal(geoSiteList)
+	if err != nil {
+		return fmt.Errorf("failed to marshal: %w", err)
+	}
+	if err := os.WriteFile(filepath.Join(*outputDir, datFileName), protoBytes, 0644); err != nil {
+		return fmt.Errorf("failed to write file %q: %w", datFileName, err)
+	}
+	fmt.Printf("dat %q has been generated successfully\n", datFileName)
+	return nil
 }
 
 func writePlainList(listname string, entries []*Entry) error {
@@ -443,25 +544,39 @@ func run() error {
 		}
 	}
 
-	// Generate dat file
-	protoList := &router.GeoSiteList{Entry: make([]*router.GeoSite, 0, sitesCount)}
+	// Generate proto sites
+	gs := &GeoSites{
+		Sites:   make([]*router.GeoSite, 0, sitesCount),
+		SiteIdx: make(map[string]int, sitesCount),
+	}
 	for siteName, siteEntries := range processor.finalMap {
-		protoList.Entry = append(protoList.Entry, makeProtoList(siteName, siteEntries))
+		gs.Sites = append(gs.Sites, makeProtoList(siteName, siteEntries))
 	}
 	processor = nil
-	// Sort protoList so the marshaled list is reproducible
-	slices.SortFunc(protoList.Entry, func(a, b *router.GeoSite) int {
+	// Sort proto sites so the generated file is reproducible
+	slices.SortFunc(gs.Sites, func(a, b *router.GeoSite) int {
 		return strings.Compare(a.CountryCode, b.CountryCode)
 	})
+	for i := range sitesCount {
+		gs.SiteIdx[gs.Sites[i].CountryCode] = i
+	}
 
-	protoBytes, err := proto.Marshal(protoList)
-	if err != nil {
-		return fmt.Errorf("failed to marshal: %w", err)
+	// Load tasks and generate dat files
+	var tasks []DatTask
+	if *datProfile == "" {
+		tasks = []DatTask{{Name: *outputName, Mode: ModeAll}}
+	} else {
+		var err error
+		tasks, err = loadTasks(*datProfile)
+		if err != nil {
+			return fmt.Errorf("failed to loadTasks %q: %v", *datProfile, err)
+		}
 	}
-	if err := os.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
-		return fmt.Errorf("failed to write output: %w", err)
+	for _, task := range tasks {
+		if err := gs.assembleDat(task); err != nil {
+			fmt.Printf("[Error] failed to assembleDat %q: %v", task.Name, err)
+		}
 	}
-	fmt.Printf("%q has been generated successfully\n", *outputName)
 	return nil
 }
 
