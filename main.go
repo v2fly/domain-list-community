@@ -47,7 +47,7 @@ type Processor struct {
 	cirIncMap map[string]bool
 }
 
-func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
+func makeProtoList(listName string, entries []*Entry) *router.GeoSite {
 	site := &router.GeoSite{
 		CountryCode: listName,
 		Domain:      make([]*router.Domain, 0, len(entries)),
@@ -73,7 +73,7 @@ func makeProtoList(listName string, entries []*Entry) (*router.GeoSite, error) {
 		}
 		site.Domain = append(site.Domain, pdomain)
 	}
-	return site, nil
+	return site
 }
 
 func writePlainList(listname string, entries []*Entry) error {
@@ -126,9 +126,10 @@ func parseEntry(line string) (*Entry, []string, error) {
 				return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
 			}
 		default:
-			return entry, nil, fmt.Errorf("invalid type: %q", typ)
+			return entry, nil, fmt.Errorf("unknown rule type: %q", typ)
 		}
 	}
+	plen := len(entry.Type) + len(entry.Value) + 1
 
 	// Parse attributes and affiliations
 	var affs []string
@@ -140,6 +141,7 @@ func parseEntry(line string) (*Entry, []string, error) {
 				return entry, affs, fmt.Errorf("invalid attribute: %q", attr)
 			}
 			entry.Attrs = append(entry.Attrs, attr)
+			plen += 2 + len(attr)
 		case '&':
 			aff := strings.ToUpper(part[1:])
 			if !validateSiteName(aff) {
@@ -147,7 +149,7 @@ func parseEntry(line string) (*Entry, []string, error) {
 			}
 			affs = append(affs, aff)
 		default:
-			return entry, affs, fmt.Errorf("invalid attribute/affiliation: %q", part)
+			return entry, affs, fmt.Errorf("unknown field: %q", part)
 		}
 	}
 
@@ -155,7 +157,7 @@ func parseEntry(line string) (*Entry, []string, error) {
 		slices.Sort(entry.Attrs) // Sort attributes
 		// Formated plain entry: type:domain.tld:@attr1,@attr2
 		var plain strings.Builder
-		plain.Grow(len(entry.Type) + len(entry.Value) + 10)
+		plain.Grow(plen)
 		plain.WriteString(entry.Type)
 		plain.WriteByte(':')
 		plain.WriteString(entry.Value)
@@ -174,6 +176,9 @@ func parseEntry(line string) (*Entry, []string, error) {
 }
 
 func validateDomainChars(domain string) bool {
+	if domain == "" {
+		return false
+	}
 	for i := range domain {
 		c := domain[i]
 		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '.' || c == '-' {
@@ -185,6 +190,9 @@ func validateDomainChars(domain string) bool {
 }
 
 func validateAttrChars(attr string) bool {
+	if attr == "" {
+		return false
+	}
 	for i := range attr {
 		c := attr[i]
 		if (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
@@ -196,6 +204,9 @@ func validateAttrChars(attr string) bool {
 }
 
 func validateSiteName(name string) bool {
+	if name == "" {
+		return false
+	}
 	for i := range name {
 		c := name[i]
 		if (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '!' || c == '-' {
@@ -259,7 +270,7 @@ func (p *Processor) loadData(listName string, path string) error {
 			pl.Entries = append(pl.Entries, entry)
 		}
 	}
-	return nil
+	return scanner.Err()
 }
 
 func isMatchAttrFilters(entry *Entry, incFilter *Inclusion) bool {
@@ -360,6 +371,9 @@ func (p *Processor) resolveList(plname string) error {
 			}
 		}
 	}
+	if len(roughMap) == 0 {
+		return fmt.Errorf("empty list")
+	}
 	p.finalMap[plname] = polishList(roughMap)
 	return nil
 }
@@ -387,13 +401,15 @@ func run() error {
 		return fmt.Errorf("failed to loadData: %w", err)
 	}
 	// Generate finalMap
-	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
+	sitesCount := len(processor.plMap)
+	processor.finalMap = make(map[string][]*Entry, sitesCount)
 	processor.cirIncMap = make(map[string]bool)
 	for plname := range processor.plMap {
 		if err := processor.resolveList(plname); err != nil {
 			return fmt.Errorf("failed to resolveList %q: %w", plname, err)
 		}
 	}
+	processor.plMap = nil
 
 	// Make sure output directory exists
 	if err := os.MkdirAll(*outputDir, 0755); err != nil {
@@ -403,27 +419,24 @@ func run() error {
 	for rawEpList := range strings.SplitSeq(*exportLists, ",") {
 		if epList := strings.TrimSpace(rawEpList); epList != "" {
 			entries, exist := processor.finalMap[strings.ToUpper(epList)]
-			if !exist || len(entries) == 0 {
-				fmt.Printf("list %q does not exist or is empty\n", epList)
+			if !exist {
+				fmt.Printf("[Warn] list %q does not exist\n", epList)
 				continue
 			}
 			if err := writePlainList(epList, entries); err != nil {
-				fmt.Printf("failed to write list %q: %v\n", epList, err)
+				fmt.Printf("[Error] failed to write list %q: %v\n", epList, err)
 				continue
 			}
-			fmt.Printf("list %q has been generated successfully.\n", epList)
+			fmt.Printf("list %q has been generated successfully\n", epList)
 		}
 	}
 
 	// Generate dat file
-	protoList := new(router.GeoSiteList)
+	protoList := &router.GeoSiteList{Entry: make([]*router.GeoSite, 0, sitesCount)}
 	for siteName, siteEntries := range processor.finalMap {
-		site, err := makeProtoList(siteName, siteEntries)
-		if err != nil {
-			return fmt.Errorf("failed to makeProtoList %q: %w", siteName, err)
-		}
-		protoList.Entry = append(protoList.Entry, site)
+		protoList.Entry = append(protoList.Entry, makeProtoList(siteName, siteEntries))
 	}
+	processor = nil
 	// Sort protoList so the marshaled list is reproducible
 	slices.SortFunc(protoList.Entry, func(a, b *router.GeoSite) int {
 		return strings.Compare(a.CountryCode, b.CountryCode)
@@ -436,14 +449,14 @@ func run() error {
 	if err := os.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
 		return fmt.Errorf("failed to write output: %w", err)
 	}
-	fmt.Printf("%q has been generated successfully.\n", *outputName)
+	fmt.Printf("%q has been generated successfully\n", *outputName)
 	return nil
 }
 
 func main() {
 	flag.Parse()
 	if err := run(); err != nil {
-		fmt.Printf("Fatal error: %v\n", err)
+		fmt.Printf("[Fatal] critical error: %v\n", err)
 		os.Exit(1)
 	}
 }
