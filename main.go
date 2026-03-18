@@ -111,7 +111,9 @@ func loadTasks(path string) ([]DatTask, error) {
 		if t.Name == "" {
 			return nil, fmt.Errorf("task[%d]: name is required", i)
 		}
-		if !(t.Mode == ModeAll || t.Mode == ModeAllowlist || t.Mode == ModeDenylist) {
+		switch t.Mode {
+		case ModeAll, ModeAllowlist, ModeDenylist:
+		default:
 			return nil, fmt.Errorf("task[%d] %q: invalid mode %q", i, t.Name, t.Mode)
 		}
 	}
