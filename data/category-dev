@@ -57,6 +57,7 @@ include:thelinuxfoundation
 include:tilda
 include:unity
 include:v8
+include:ziglang
 
 adventofcode.com
 alpinelinux.org
