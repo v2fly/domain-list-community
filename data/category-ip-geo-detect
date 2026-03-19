@@ -134,6 +134,7 @@ full:checkip.amazonaws.com
 full:ipv4-check-perf.radar.cloudflare.com
 full:ipv6-check-perf.radar.cloudflare.com
 geoip.noc.gov.ru
+ip.hetzner.com
 ip.mail.ru
 ip.nic.ru
 ip.tyk.nu
