@@ -57,7 +57,6 @@ include:thelinuxfoundation
 include:tilda
 include:unity
 include:v8
-include:ziglang
 
 adventofcode.com
 alpinelinux.org
@@ -155,3 +154,4 @@ x.org
 xposed.info
 yarnpkg.com
 zsh.org
+ziglang.org
