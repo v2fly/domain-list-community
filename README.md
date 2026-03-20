@@ -86,6 +86,8 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 
 Run `go run ./ --help` for more usage information.
 
+For anyone who wants to generate custom `.dat` files, you may read [#3370](https://github.com/v2fly/domain-list-community/discussions/3370).
+
 ## Structure of data
 
 All data are under `data` directory. Each file in the directory represents a sub-list of domains, named by the file name. File content is in the following format.
@@ -105,7 +107,7 @@ regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 > Adding new `regexp` and `keyword` rules is discouraged because it is easy to use them incorrectly, and proxy software cannot efficiently match these types of rules.
 
 > [!NOTE]
-> The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **Not** copy and paste directly.
+> The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **NOT** copy and paste directly.
 
 - Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
 - Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
@@ -114,7 +116,7 @@ regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 - Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
 - Domain rules (including `domain`, `full`, `keyword`, and `regexp`) may have none, one or more attributes. Each attribute begins with `@` and followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
 - Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and followed by the name of the target list (nomatter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
-- Inclusion begins with `include:`, followed by the name of another valid domain list. A simple `include:listb` in file `lista` means adding all domain rules of `listb` into `lista`. Inclusions with attributes stands for selective inclusion. `include:listb @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
+- Inclusion begins with `include:`, followed by the name of another valid domain list. `include:listb` in file `lista` means adding all domain rules of `listb` into `lista`. Inclusions with attributes stand for selective inclusion. `include:listb @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
 
 ## How it works
 
