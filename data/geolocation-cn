@@ -222,8 +222,12 @@ mingxuan.store
 gov.cn
 ## 中国气象局
 cma.cn
+## 政务和公益机构域名注册管理中心
+conac.cn
 ## 中央气象台
 nmc.cn
+## 中国互联网联合辟谣平台
+piyao.org.cn
 
 # Public transportation
 ## 中国国际航空
@@ -321,14 +325,14 @@ webterren.com
 ## 国学大师网
 guoxuedashi.com
 guoxuemi.com
-## 志愿汇
-zyh365.com
 ## 温州市图书馆
 wzlib.cn
 ## 中国大百科全书
 zgbk.com
 ## 浙江图书馆
 zjlib.cn
+## 志愿汇
+zyh365.com
 
 # Services & Softwares
 include:category-ai-cn
@@ -1116,8 +1120,6 @@ lascn.net
 lawxp.com
 leangoo.com
 leanote.com
-leikeji.com
-leiphone.com
 leiting.com
 leju.com
 leturich.org
@@ -1398,7 +1400,6 @@ weand.com
 weavatar.com
 weicaifu.com
 weilaicaijing.com
-weiphone.net
 weixing.com
 weiyangx.com
 welltrend-edu.com
@@ -1527,7 +1528,6 @@ zastatic.com
 zczj.com
 zdfans.com
 zgjm.org
-zgjsks.com
 zglxw.com
 zgzcw.com
 zhanbuba.com
