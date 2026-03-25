@@ -23,7 +23,6 @@ include:uc
 include:umeng
 include:youku
 
-25pp.com
 56che.com
 95095.com
 ali-health.com
@@ -114,7 +113,6 @@ sparenode.com
 supet.com
 tanx.com
 ttpod.com
-wandoujia.com
 xin.xin
 xinlingshou.cn
 yowhale.com
@@ -203,6 +201,13 @@ xiami.net
 
 # 口碑
 koubei.com
+
+# 豌豆荚
+wandoujia.com
+wdjimg.com
+
+# PP助手
+25pp.com
 
 # 吱声网
 zhisheng.com
