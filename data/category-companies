@@ -1,12 +1,12 @@
 # This list contains Tech & Cyber companies and organizations outside China mainland.
 
+include:2gis
 include:acer
 include:adobe
-include:agilebits
 include:alibabacloud
 include:amazon
 include:amd
-include:anthropic
+include:anexia
 include:apple
 include:asus
 include:atlassian
@@ -16,6 +16,7 @@ include:bandwagonhost
 include:blurams
 include:broadcom
 include:canon
+include:canva
 include:chegg
 include:cisco
 include:cloudcone
@@ -24,6 +25,7 @@ include:comodo
 include:corel
 include:dell
 include:digitalocean
+include:dmit
 include:drweb
 include:duolingo
 include:faronics
@@ -31,7 +33,6 @@ include:giffgaff
 include:gigabyte
 include:godaddy
 include:google
-include:groq
 include:hetzner
 include:hinet
 include:hkbn
@@ -42,11 +43,14 @@ include:ibm
 include:ibkr
 include:inshot
 include:intel
+include:intuit
 include:ixsystems
 include:kakao
+include:kaspersky
 include:lg
 include:logitech
-include:mailru
+include:louisvuitton
+include:mailru-group
 include:meta
 include:microsoft
 include:mikrotik
@@ -56,15 +60,13 @@ include:msi
 include:musixmatch
 include:mxroute
 include:naver
-include:netcup
 include:neuralink
 include:nvidia
-include:openai
 include:openweather
 include:oracle
 include:panasonic
 include:pccw
-include:perplexity
+include:plex
 include:qnap
 include:qualcomm
 include:qwant
@@ -80,7 +82,6 @@ include:spaceship
 include:st
 include:synology
 include:symantec
-include:tailscale
 include:theboringcompany
 include:tonec
 include:uber
@@ -92,7 +93,7 @@ include:westerndigital
 include:wisekey
 include:yahoo
 include:yandex
-include:xai
+include:zscaler
 
 # Remote Control
 include:category-remote-control

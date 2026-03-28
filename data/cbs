@@ -1,8 +1,8 @@
-# All .cbs domains
-cbs
+# https://www.iana.org/domains/root/db/cbs.html
+# cbs (Revoked)
 
-# All .showtime domains
-showtime
+# https://www.iana.org/domains/root/db/showtime.html
+# showtime (Revoked)
 
 cbs.com
 cbscorporation.com
@@ -32,7 +32,7 @@ amlg.io
 cbsaavideo.com
 mtvnservices.com
 paramountplus.com
-pplusstatic.com 
+pplusstatic.com
 full:cbsi.live.ott.irdeto.com
 full:cbsplaylistserver.aws.syncbak.com
 full:cbsservice.aws.syncbak.com

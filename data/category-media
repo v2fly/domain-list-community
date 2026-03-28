@@ -1,3 +1,6 @@
+# Entertainment(games) oriented media should be added in category-entertainment[-cn]
+include:category-tech-media
+
 include:6park
 include:9news
 include:afp
@@ -9,7 +12,6 @@ include:bbc
 include:bloomberg
 include:boxun
 include:c-span
-include:cabletv
 include:cbs
 include:cnbc
 include:cnbeta
@@ -28,6 +30,7 @@ include:guo
 include:hketgroup
 include:hkopentv
 include:huffpost
+include:icable
 include:infowars
 include:insider
 include:kyodonews
@@ -62,7 +65,6 @@ include:theinitium
 include:thomsonreuters
 include:tokyo-sports
 include:tvb
-include:tver
 include:udn
 include:voanews
 include:voxmedia
@@ -71,9 +73,6 @@ include:watchout
 include:yomiuri
 include:zaobao
 include:zee
-
-include:category-tech-media
-
 
 881903.com
 am730.com.hk
@@ -92,10 +91,12 @@ chinaeconomicreview.com
 cmmedia.com.tw
 cna.com.tw
 cnyes.com
+cool3c.com
 coolloud.org.tw
 cup.com.hk
 cw.com.tw
 d100.net
+donga.com
 ebc.net.tw
 ettoday.net
 eventsinfocus.org
@@ -103,6 +104,7 @@ factwire.org
 fortuneinsight.com
 freebeacon.com
 gbnews.uk
+getnews.jp
 hk01.com
 hkcitizenmedia.com
 hkcnews.com
@@ -110,12 +112,16 @@ hkej.com
 hkgpao.com
 hongkongfp.com
 inmediahk.net
+inquirer.net
 inside.com.tw
+itmedia.co.jp
 jfengtime.com
 landofhope.tv
 limedia.tw
 localpresshk.com
 ltsports.com.tw
+macaodaily.com
+maidonanews.jp
 mdnkids.com
 mirrormedia.com.tw
 mirrormedia.mg
@@ -154,11 +160,13 @@ tnntoday.com
 tvbs.com.tw
 tvmost.com.hk
 twgreatnews.com
+twreporter.org
 unwire.hk
 upmedia.mg
 vjmedia.com.hk
 warroom.org
 washingtonpost.com
+watch.impress.co.jp
 wealth.com.tw
 weiyuksj.com
 wenzhao.ca

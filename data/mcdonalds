@@ -1,8 +1,8 @@
-# All .mcd domains
-mcd
+# https://www.iana.org/domains/root/db/mcd.html
+# mcd (Revoked)
 
-# All .mcdonalds domains
-mcdonalds
+# https://www.iana.org/domains/root/db/mcdonalds.html
+# mcdonalds (Revoked)
 
 # McDonald's Australia
 happymeal.com.au

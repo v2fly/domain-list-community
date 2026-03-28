@@ -6,6 +6,7 @@ deepmind.google
 geller-pa.googleapis.com
 generativelanguage.googleapis.com
 proactivebackend-pa.googleapis.com
+robinfrontend-pa.googleapis.com
 
 # Google AI Studio
 full:ai.google.dev
@@ -15,15 +16,42 @@ full:webchannel-alkalimakersuite-pa.clients6.google.com
 generativeai.google
 makersuite.google.com
 
+ai.studio
 aistudio.google.com
 bard.google.com
 gemini.google
 gemini.google.com
 
+# Gemini Code Assist
+# https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
+full:cloudaicompanion.googleapis.com
+full:cloudcode-pa.googleapis.com
+full:daily-cloudcode-pa.googleapis.com
+
 # NotebookLM
+full:notebooklm-pa.googleapis.com
+full:notebooklm.googleapis.com
 notebooklm.google
 notebooklm.google.com
 
 # Jules
 jules.google
 jules.google.com
+
+# Google AI Labs
+labs.google
+labs.google.com
+aisandbox-pa.googleapis.com
+
+# Android Studio Gemini Code Assist
+aida.googleapis.com
+
+# Opal
+opal.google
+opal.google.com
+
+# Antigravity
+full:antigravity-pa.googleapis.com
+full:antigravity.googleapis.com
+antigravity.google
+antigravity-unleash.goog

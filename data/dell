@@ -1,11 +1,243 @@
-include:vmware
-
 # All .dell domains
 dell
 
-dell-brand.com
+# Alienware
+alienware.ae
+alienware.at
+alienware.be
+alienware.biz
+alienware.ca
+alienware.ch
+alienware.co.cr
+alienware.co.il
+alienware.co.in
+alienware.co.nz
+alienware.co.uk
+alienware.com
+alienware.com.au
+alienware.com.es
+alienware.com.my
+alienware.com.sg
+alienware.cz
+alienware.de
+alienware.dk
+alienware.es
+alienware.eu
+alienware.fr
+alienware.gr
+alienware.hk
+alienware.ie
+alienware.it
+alienware.jp
+alienware.kr
+alienware.lv
+alienware.net
+alienware.nl
+alienware.ph
+alienware.pl
+alienware.ps
+alienware.ro
+alienware.se
+alienware.us
+
+del.com
+del.com.br
+dell-brand.com @cn
+dell.ac
+dell.am
+dell.at
+dell.az
+dell.be
+dell.bg
+dell.bi
+dell.bs
+dell.by
+dell.ca
+dell.cd
+dell.cg
+dell.ch
+dell.cl
+dell.co.id
+dell.co.il
+dell.co.in
+dell.co.jp
+dell.co.kr
+dell.co.mu
+dell.co.nz
+dell.co.th
+dell.co.tt
+dell.co.uk
+dell.co.vi
+dell.co.za
 dell.com
+dell.com.ag
+dell.com.ai
+dell.com.ar
+dell.com.au
+dell.com.bb
+dell.com.bo
+dell.com.br
+dell.com.bs
+dell.com.bz
+dell.com.cn @cn
+dell.com.co
+dell.com.cy
+dell.com.dm
+dell.com.do
+dell.com.ec
+dell.com.gr
+dell.com.gt
+dell.com.gy
+dell.com.hk
+dell.com.hn
+dell.com.hr
+dell.com.ht
+dell.com.jm
+dell.com.kn
+dell.com.ky
+dell.com.lc
+dell.com.ly
+dell.com.mk
+dell.com.mt
+dell.com.mx
+dell.com.my
+dell.com.na
+dell.com.ng
+dell.com.ni
+dell.com.pa
+dell.com.pe
+dell.com.ph
+dell.com.pk
+dell.com.pl
+dell.com.pr
+dell.com.py
+dell.com.ru
+dell.com.sa
+dell.com.sg
+dell.com.tc
+dell.com.tr
+dell.com.tt
+dell.com.tw
+dell.com.ua
+dell.com.uy
+dell.com.vc
+dell.com.ve
+dell.com.vi
+dell.cz
+dell.de
+dell.dk
+dell.dm
+dell.ee
+dell.es
+dell.eu
+dell.fi
+dell.fr
+dell.gm
+dell.gp
+dell.gr
+dell.hr
+dell.hu
+dell.id
+dell.ie
+dell.is
+dell.it
+dell.jp
+dell.kg
+dell.kn
+dell.kz
+dell.lt
+dell.lu
+dell.lv
+dell.ly
+dell.ma
+dell.mq
+dell.mu
+dell.mw
+dell.net
+dell.ng
+dell.nl
+dell.no
+dell.org.il
+dell.ph
+dell.pl
+dell.ps
+dell.pt
+dell.ro
+dell.ru
+dell.rw
+dell.sc
+dell.se
+dell.sg
+dell.si
+dell.sk
+dell.sn
+dell.tc
+dell.tj
+dell.tm
+dell.tt
+dell.tv
+dell.ua
+dell.ug
+dell.uz
+dell.vg
+dell.vn
+
+dataframeworks.com
+dell-alw.com @cn
 dellcdn.com
+dellcommunity.com
+dellcomunidade.com
+dellcustomerservice.com
+delldesignsystem.com
+delldrivers.com
+dellemc.com
+dellemc.com.cn @cn
+dellemcevents.com
+dellmobile.cn @cn
+delloutlet.com
+dellpoweredge.com
+dellpowersolutions.com
+dellprecision.com
+dellprinter.com
 dellsupportcenter.com
+delltechcenter.com
 delltechnologies.com
+delltechnologies.com.cn @cn
+delltechnologiescapital.com
+delltechnologiesworld.com
+earthdell.com
 emc.com
+platform.dell.com @cn
+shopalienware.com
+solutionstation.com
+studiodell.com
+vce.com
+
+full:dell.my.site.com
+
+full:afcs.dell.com @cn
+full:clientperipherals.dell.com @cn
+full:customization-cdn.dell.com @cn
+full:dds.dell.com @cn
+full:dl.dell.com @cn
+full:ea2cn-dev-outlet.dell.com @cn
+full:ea2cn-prod-outlet.dell.com @cn
+full:ea2cn-staging-outlet.dell.com @cn
+full:fcs.dell.com @cn
+full:fta.dell.com @cn
+full:ftaapj.dell.com @cn
+full:ftaemea.dell.com @cn
+full:ftasitapj.dell.com @cn
+full:gbxgateway-dev.dell.com @cn
+full:gbxgateway.dell.com @cn
+full:i.dell.com @cn
+full:nexus.dell.com @cn
+full:p.cdn.persaas.dell.com @cn
+full:scene7-cdn.dell.com @cn
+full:si.cdn.dell.com @cn
+full:sm.dell.com @cn
+full:snp.cdn.dell.com @cn
+full:snpi.dell.com @cn
+full:supportassist.dell.com @cn
+full:www-csb.dell.com @cn
+full:www.dell.com @cn

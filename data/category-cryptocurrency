@@ -17,6 +17,7 @@ include:nexo
 include:okx
 include:onekey
 include:redotpay
+include:straitsx
 include:trustwallet
 include:wisekey
 include:wynd
@@ -24,14 +25,17 @@ include:zb
 
 1inch.io
 aave.com
+bingx.com
 bitbank.cc
 bitcoin.org
+bitcoincore.org
 bitfinex.com
 bitget.com
 bitmex.com
 bitquick.co
 bitstamp.net
 bittrex.com
+blockchain.com
 blockfrost.io
 btcbox.co.jp
 cex.io
@@ -53,6 +57,8 @@ dogecoin.com
 dydx.exchange
 fundingrates.xyz
 gemini.com
+gmgn.ai
+guardarian.com
 hashflow.com
 infura.io
 invity.io
@@ -67,11 +73,14 @@ paxful.com
 polymarket.com
 ripple.com
 satoshilabs.com
+stealthex.io
 theblock.co
 trezor.io
 truefi.io
 unisat.io
 uniswap.org
 walletconnect.com
+walletconnect.org
+web3modal.org
 wintermute.com
 zapper.fi

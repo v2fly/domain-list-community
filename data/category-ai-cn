@@ -1,15 +1,19 @@
-# DeepSeek
+include:askdiandian
 include:deepseek
+include:doubao
+include:trae # MarsCode
+include:xiaomi-ai
 
 # RWKV
 rwkv.cn
 rwkv.com
 
 # 通义千问
-tongyi.aliyun.com
 qianwen.aliyun.com
+qianwen.com
 qwen.ai
 qwenlm.ai
+tongyi.aliyun.com
 tongyi.com
 
 # 文心一言
@@ -18,16 +22,16 @@ yiyan.baidu.com
 # 天工AI
 tiangong.cn
 
-# 豆包
-doubao.com
-marscode.cn
-
-# 智谱清言
+# 智谱
 bigmodel.cn
 chatglm.cn
+z.ai
 zhipuai.cn
+zhipucn.com
 
 # 月之暗面
+kimi.com
+moonshot.ai
 moonshot.cn
 
 # 讯飞星火
@@ -55,3 +59,20 @@ full:cueme-api.quark.cn
 n.cn
 namiso.com
 full:ai.zhaomi.cn
+
+# 妙言AI 冀ICP备20012219号-3
+miaoyanai.com
+
+# 法行宝 (百度)
+faxingbao.com
+
+# 上海秘塔网络科技
+meta.law
+metaso.cn
+xiezuocat.com
+
+# DUI/思必驰
+aispeech.com
+dui.ai
+duiopen.com
+

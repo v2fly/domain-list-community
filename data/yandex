@@ -4,14 +4,22 @@ yandex
 # яндекс.рф
 xn--d1acpjx3f.xn--p1ai
 
-dzen.ru
+adfox.ru
+admetrica.ru
+naydex.net
 rostaxi.org
+turbopages.org
+webvisor.com
+webvisor.org
 ya.ru
+yads.tech
 yandex-bank.net
 yandex-images.clstorage.net
+yandex-team.ru
 yandex.aero
 yandex.az
 yandex.by
+yandex.cloud
 yandex.co.il
 yandex.com
 yandex.com.am
@@ -38,10 +46,21 @@ yandex.st
 yandex.sx
 yandex.tj
 yandex.tm
+yandex.tr
 yandex.ua
 yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
+yandexmetrica.com
+yandexwebcache.net
 yandexwebcache.org
+yastat.net
+yastatic-net.ru
 yastatic.net
+
+# Watching movies, included in the Yandex subscription
+include:kinopoisk
+
+# Weather service
+full:yandex-pogoda.static-storage.net

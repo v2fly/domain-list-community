@@ -1,9 +1,12 @@
+include:github-copilot
 include:npmjs
 
 atom.io
 dependabot.com
+gh.io
 ghcr.io
 git.io
+github.ai
 github.blog
 github.com
 github.community
@@ -11,7 +14,6 @@ github.dev
 github.io
 githubapp.com
 githubassets.com
-githubcopilot.com
 githubhackathon.com
 githubnext.com
 githubpreview.dev
@@ -19,6 +21,7 @@ githubstatus.com
 githubuniverse.com
 githubusercontent.com
 myoctocat.com
+octocaptcha.com
 opensource.guide
 repo.new
 thegithubshop.com
@@ -26,5 +29,10 @@ thegithubshop.com
 # GitHub Actions Artifacts
 blob.core.windows.net
 
+full:github-api.arkoselabs.com
 full:github-cloud.s3.amazonaws.com
 regexp:^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$
+
+# Ads/tracking
+collector.github.com @ads
+copilot-telemetry.githubusercontent.com @ads

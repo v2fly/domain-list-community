@@ -229,7 +229,18 @@ yihaodianimg.com
 yiyaojd.com
 yizhitou.com
 
+# 达达
+imdada.cn
+
 # 哆啦宝
 duolabao.com
 
-include:jd-ads
+# Ads/tracking
+ads-union.jd.com @ads
+ads.union.jd.com @ads
+c-nfa.jd.com @ads
+cps.360buy.com @ads
+gia.jd.com @ads
+img-x.jd.com @ads
+jzt.jd.com @ads
+stat.m.jd.com @ads

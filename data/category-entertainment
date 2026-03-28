@@ -1,8 +1,11 @@
 # This list contains services related to entertainment & games & music & podcasts & videos outside China mainland.
 
+include:category-acg
+include:category-entertainment-ru
 include:category-games-!cn
 include:category-novel
 
+include:7tv
 include:abema
 include:amc
 include:anime
@@ -13,14 +16,18 @@ include:bahamut
 include:bandcamp
 include:bangumi
 include:boomerang
+include:bushiroad
 include:catchplay
+include:copymanga
 include:dailymotion
 include:dandanzan
 include:dazn
+include:deezer
 include:deviantart
 include:discoveryplus
 include:disney
 include:dlsite
+include:ficbook
 include:gimy
 include:goodreads
 include:hamivideo
@@ -34,18 +41,21 @@ include:kktv
 include:lastfm
 include:litv
 include:manhuagui
-include:mihoyo
+include:metacritic
 include:mubi
 include:mudvod
 include:mytvsuper
 include:netflix
 include:niconico
+include:now
 include:olevod
+include:openrec
 include:pbs
 include:pixiv
 include:plutotv
 include:pocketcasts
 include:primevideo
+include:radiko
 include:roku
 include:showtimeanytime
 include:sling
@@ -77,17 +87,19 @@ egta.com
 fireside.fm
 internationalsaimoe.com
 joox.com
+kpacg.com
 linetv.tw
-litv.tv
 megaphone.fm
+megogo.net
 mikanani.me
 moov.hk
 odysee.com
 omobi.cc
 oranum.com
 overcast.fm
+qobuz.com
+sendvid.com
 syosetu.com
-thetvdb.com
 weverse.io
 yande.re
 
@@ -95,3 +107,94 @@ yande.re
 amp-api.podcast.apple.com
 bag.itunes.apple.com
 bookeeper.itunes.apple.com
+
+# Entertainment oriented media
+# This section references the "Source Considerations" page on the Chinese Wikipedia:
+# - https://zh.wikipedia.org/wiki/WikiProject:电子游戏/来源考量
+# - https://zh.wikipedia.org/wiki/WikiProject:ACG/來源考量
+## 4Gamer.net
+4gamer.net
+## 4Gamers
+4gamers.com.tw
+## 秋葉原綜研
+akiba-souken.com
+## Appget
+appget.com
+## AppMedia
+appmedia.jp
+## Automaton
+automaton-media.com
+## 橙心社
+cxacg.com
+## 电faminicogamer
+denfaminicogamer.jp
+## ASCII Media Works
+dengekionline.com
+## E-ROAD
+eroge-road.com
+## esports.gg
+esports.gg
+## ファミ通
+famitsu.com
+## GameApps.HK
+gameapps.hk
+## 遊戲基地
+gamebase.com.tw
+## IID, Inc.
+gamebusiness.jp
+gamespark.jp
+inside-games.jp
+## Game Focus
+gamefocus.co.kr
+## GameMeca
+gamemeca.com
+## Gameover有機網
+gameover.com.hk
+## Gamer
+gamer.ne.jp
+onlinegamer.jp
+## Great Game
+greatgame.asia
+## HobbiGame
+hobbigame.com
+## ゲーム文化保存研究所
+igcc.jp
+## IGN
+ign.com
+ignimg.com
+## Made with Unity
+madewithunity.jp
+## Media Clip
+mediaclip.jp
+## 電脳世界のひみつ基地
+maedahiroyuki.com
+## MANTANWEB
+mantan-web.jp
+## モエデジ
+moedigi.com
+## Moepedia
+moepedia.net
+## マイナビニュース
+mynavi.jp
+## Openbook阅读通
+openbook.org.tw
+## QooApp
+qoo-app.com
+## Real Sound
+realsound.jp
+## れポたま！
+repotama.com
+## Saiga NAK
+saiganak.com
+## SQOOL
+sqool.net
+## The Games Daily
+tgdaily.co.kr
+## Thisisgame
+thisisgame.com
+## 玩具人
+toy-people.com
+## Wanuxi
+wanuxi.com
+## よろず〜
+yorozoonews.jp

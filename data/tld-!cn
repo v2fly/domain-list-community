@@ -18,6 +18,7 @@
 # xn--j6w193g  # 香港 Hong Kong SAR, People's Republic of China
 
 include:google-registry-tld
+include:tld-ru
 
 # Used by U.S. federal government
 gov
@@ -209,7 +210,6 @@ qa # Qatar
 re # Réunion Island
 ro # Romania
 rs # Serbia
-ru # Russia
 rw # Rwanda
 sa # Saudi Arabia
 sb # Solomon Islands
@@ -229,7 +229,6 @@ so # Somaliland
 sr # Suriname
 ss # South Sudan
 st # São Tomé and Príncipe
-su # The Union of Soviet Socialist Republic
 sv # El Salvador
 sx # Sint Maarten
 sy # Syria
@@ -329,7 +328,6 @@ okinawa    # Okinawa, Japan
 osaka      # Osaka, Japan
 ryukyu     # Ryukyu Islands, Japan
 taipei     # Taipei, Republic of China (Taiwan)
-tatar      # Tatar peoples and places
 tokyo      # Tokyo, Japan
 yokohama   # Yokohama, Japan
 
@@ -358,7 +356,6 @@ istanbul   # İstanbul, Turkey
 koeln      # Cologne, Germany
 london     # London, United Kingdom
 madrid     # Madrid, Spain
-moscow     # Moscow, Russia
 nrw        # North Rhine-Westphalia, Germany
 paris      # Paris, France
 ruhr       # Ruhr, Germany
@@ -467,7 +464,6 @@ shell # Shell Information Technology International Inc
 shia # Shia Muslim community
 style # though the comment actually seems to be about .tattoo
 sucks # Vox Populi Registry
-tatar # Limited Liability Company "Coordination Center of Regional Domain of Tatarstan Republic"
 tattoo # Tattoo
 vana # Scripps Networks Interactive, Inc.
 virgin # Virgin Enterprises Limited
@@ -557,7 +553,6 @@ xn--mgbai9azgqp6j  #  پاکستان Pakistan
 xn--mgbai9a5eva00b  #  پاكستان Pakistan
 xn--ygbi2ammx  #  فلسطين Palestine
 xn--wgbl6a  #  قطر Qatar
-xn--p1ai  #  рф Russian Federation
 xn--mgberp4a5d4ar  #  السعودية Saudi Arabia
 xn--mgberp4a5d4a87g  #  السعودیة Saudi Arabia
 xn--mgbqly7c0a67fbc  #  السعودیۃ Saudi Arabia

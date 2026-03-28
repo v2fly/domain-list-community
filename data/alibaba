@@ -10,20 +10,22 @@ taobao
 # All .tmall domains
 tmall
 
-include:alibaba-ads
+include:9game
 include:alibabacloud
 include:aliyun
+include:aliyun-drive
+include:amap
 include:cainiao
 include:dingtalk
 include:eleme
 include:teambition
 include:uc
 include:umeng
+include:youku
 
-25pp.com
 56che.com
 95095.com
-9game.cn
+ali-health.com
 aliapp.org
 alibaba-inc.com
 alibaba.com
@@ -42,6 +44,7 @@ alihealth.com.cn
 alihealth.hk @!cn
 aliimg.com
 alikmd.com
+alimama.cn
 alimama.com
 alimebot.com
 alimei.com
@@ -85,6 +88,7 @@ gongyi.xin
 ialicdn.com
 iconfont.cn
 ics.design
+imgcook.com
 jhgtgb.com
 kanbox.com
 lazada.com
@@ -107,8 +111,8 @@ shuqi.com
 shuqireader.com
 sparenode.com
 supet.com
+tanx.com
 ttpod.com
-wandoujia.com
 xin.xin
 xinlingshou.cn
 yowhale.com
@@ -118,8 +122,11 @@ yushanfang.com
 zuodao.com
 
 # AliExpress
+ae-rus.net @!cn
+aestatic.net @!cn
 aliexpress.com
 aliexpress.ru @!cn
+aliexpress-media.com
 
 # Alipay+
 alipayplus.com
@@ -129,12 +136,6 @@ alipay.hk @!cn
 
 # AlipayMO
 alipaymo.com @!cn
-
-# 阿里云盘
-alicloudccp.com
-alipan.com
-aliyundrive.com
-aliyundrive.net
 
 # 盒马
 freshhema.com
@@ -166,6 +167,7 @@ lingshoujia.com
 mashort.cn
 pailitao.com
 taobao.com
+taobao.net
 taobao.org
 taobaocdn.com
 taobizhong.com
@@ -181,6 +183,7 @@ tmjl.ai
 
 # 夸克
 cueme.cn
+myquark.cn
 quark.cn
 
 # 飞猪
@@ -191,9 +194,6 @@ fliggy.com
 fliggy.hk @!cn
 iuynfg.com
 
-# 高德地图
-include:amap
-
 # 虾米音乐
 xiami.com
 xiami.fm
@@ -201,6 +201,13 @@ xiami.net
 
 # 口碑
 koubei.com
+
+# 豌豆荚
+wandoujia.com
+wdjimg.com
+
+# PP助手
+25pp.com
 
 # 吱声网
 zhisheng.com
@@ -210,3 +217,42 @@ npmmirror.com
 
 # 闲鱼
 goofish.com
+
+# 考拉
+kaola.com
+kaolacdn.com
+
+# 瓴羊
+lydaas.cn
+lydaas.com
+lydaas.com.cn
+lydaas.net
+lydass.cn
+lydass.com.cn
+lydass.net
+
+# Ads/tracking
+a.alimama.cn @ads
+adash-c.m.taobao.com @ads
+adash-c.ut.taobao.com @ads
+adash.m.taobao.com @ads
+adashbc.m.taobao.com @ads
+adashbc.ut.taobao.com @ads
+adashx.m.taobao.com @ads
+adashx4ae.ut.taobao.com @ads
+adashx4yt.m.taobao.com @ads
+adashxgc.ut.taobao.com @ads
+adsh.m.taobao.com @ads
+adtrack.quark.cn @ads
+c-adash.m.taobao.com @ads
+fourier.taobao.com @ads
+g.click.taobao.com @ads
+h-adashx.ut.taobao.com @ads
+h-adashx4yt.ut.taobao.com @ads
+m-adash.m.taobao.com @ads
+marketing.alibaba.com @ads
+nbsdk-baichuan.taobao.com @ads
+retcode.taobao.com @ads
+tns.simba.taobao.com @ads
+track.lc.quark.cn @ads
+v6-adashx.ut.taobao.com @ads

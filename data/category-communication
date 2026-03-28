@@ -4,9 +4,13 @@ include:freenode
 include:intercom
 include:keybase
 include:line
+include:mailcom
 include:matrix
 include:messenger
+include:protonmail
 include:signal
 include:slack
 include:telegram
+include:temp-mail
+include:viber
 include:whatsapp

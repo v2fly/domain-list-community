@@ -6,7 +6,6 @@ include:fastlane
 include:firebase
 include:flutter
 include:golang
-include:google-ads
 include:google-deepmind
 include:google-gemini
 include:google-play
@@ -21,7 +20,7 @@ include:v8
 include:youtube
 
 # All .and domains
-and
+# and (TLD application withdrawn by Google)
 
 # All .chrome domains
 chrome
@@ -542,13 +541,71 @@ zukunftswerkstatt.de
 # https://www.fastly.com/press/press-releases/google-selects-Fastly-Oblivious-HTTP-Relay-for-Privacy-Sandbox/
 full:google-ohttp-relay-safebrowsing.fastly-edge.com
 
+# Ads/tracking
+2mdn-cn.net @ads
+2mdn.net @ads
+admob-cn.com @ads
+admob.com @ads
+adsense.com @ads
+adsensecustomsearchads.com @ads
+adsenseformobileapps.com @ads
+adservice.google.com @ads
+adtrafficquality.google @ads
+advertisercommunity.com @ads
+advertiserscommunity.com @ads
+adwords-community.com @ads
+adwords.com @ads
+adwordsexpress.com @ads
+analytics-alv.google.com @ads
+app-analytics-services.com @ads
+app-analytics-services-att.com @ads
+app-measurement-cn.com @ads
+app-measurement.com @ads
+doubleclick-cn.net @ads
+doubleclick.cn @ads
+doubleclick.com @ads
+doubleclick.net @ads
+fcmatch.google.com @ads
+google-analytics-cn.com @ads
+google-analytics.com @ads
+googleadapis.com @ads
+googleadapis.l.google.com @ads
+googleads-cn.com @ads
+googleads.com @ads
+googleadservices-cn.com @ads
+googleadservices.com @ads
+googleadsserving.cn @ads
+googleanalytics.com @ads
+googleoptimize-cn.com @ads
+googleoptimize.com @ads
+googlesyndication-cn.com @ads
+googlesyndication.com @ads
+googletagmanager-cn.com @ads
+googletagmanager.com @ads
+googletagservices-cn.com @ads
+googletagservices.com @ads
+googletraveladservices-cn.com @ads
+googletraveladservices.com @ads
+googlevads-cn.com @ads
+mail-ads.google.com @ads
+mobileads.google.com @ads
+marketingplatform.google.com @ads
+pagead.l.google.com @ads
+partnerad.l.google.com @ads
+urchin.com @ads
+full:analytics.google.com @ads
+# https://github.com/AdguardTeam/FiltersRegistry/pull/1154
+# full:fundingchoicesmessages.google.com @ads
+
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
+gvt1-cn.com @cn
+gvt2-cn.com @cn
 full:www.recaptcha.net @cn
-full:safebrowsing-cache.google.com @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
-# Revision: 1f28a2d5789f411c13de69837bb354f4b21e58ff
+# Revision: 1c2d107d4e7eaa0b192e08bb0beddde4aab247f6
+# Duplicates removed
 # Use in config file like this: "geosite:google@cn"
 full:265.com @cn
 full:2mdn-cn.net @cn
@@ -578,7 +635,6 @@ full:cnappinstall.googleadapis.com @cn
 full:connectivitycheck.gstatic.com @cn
 full:content.googleadapis.com @cn
 full:crashlyticsreports-pa.googleapis.com @cn
-full:crl.pki.goog @cn
 full:csi.gstatic.com @cn
 full:dartsearch-cn.net @cn
 full:dg-meta.video.google.com @cn
@@ -590,7 +646,6 @@ full:download.mlcc.google.com @cn
 full:download.qatp1.net @cn
 full:download.tensorflow.google.com @cn
 full:emmapplecodevice.googleapis.com @cn
-full:firebase-settings.crashlytics.com @cn
 full:fontfiles.googleapis.com @cn
 full:fonts.googleapis.com @cn
 full:fonts.gstatic.com @cn
@@ -629,10 +684,8 @@ full:logger-dev.corp.google.com @cn
 full:logger.corp.google.com @cn
 full:login.corp.google.com @cn
 full:monitoring.qpdp1.net @cn
-full:ocsp.pki.goog @cn
 full:pagead-googlehosted.l.google.com @cn
 full:performanceparameters.googleapis.com @cn
-full:pki-goog.l.google.com @cn
 full:prod-controlbe.floonet.goog @cn
 full:prod-databe.floonet.goog @cn
 full:prod.databe.floonet.goog @cn
@@ -651,7 +704,6 @@ full:redirector.bdn.dev @cn
 full:redirector.c.chat.google.com @cn
 full:redirector.c.mail.google.com @cn
 full:redirector.c.pack.google.com @cn
-full:redirector.c.play.google.com @cn
 full:redirector.c.youtubeeducation.com @cn
 full:redirector.gcpcdn.gvt1.com @cn
 full:redirector.gvt1.com @cn
@@ -690,6 +742,3 @@ full:www.destinationurl.com @cn
 full:www.gstatic.com @cn
 full:www.pxcc.com @cn
 full:xn--flw351e.com @cn
-
-gvt1-cn.com @cn
-gvt2-cn.com @cn

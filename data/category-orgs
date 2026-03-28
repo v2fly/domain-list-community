@@ -1,10 +1,10 @@
 # This list contains organizations outside China mainland.
 
-include:archive
 include:creativecommons
 include:csis
 include:emojipedia
 include:f-droid
+include:grapheneos
 include:ieee
 include:metabrainz
 include:nist

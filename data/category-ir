@@ -1,11 +1,12 @@
-# Iranian websites which will not open without an Iranian IP
-# Use to make them direct connections so they open inside Iran
+# Iranian websites or domains that are intended to be accessed from Iranian IP addresses (though this may not necessarily apply to all of them).
+# Hence, it is recommended to utilize direct connection for this category.
 
 # Iran TLDs
 ir
 xn--mgba3a4f16a # .ایران
 xn--mgba3a4fra # .ايران
 
+include:category-ads-ir
 include:category-bank-ir
 include:category-bourse-ir
 include:category-education-ir
@@ -64,3 +65,11 @@ jobinjacdn.com
 beytoote.com
 setare.com
 tebyan.net
+
+# Courier Services
+dekapost.com
+mahex.com
+miare.ir
+podro.com
+tipax.ir
+tipaxco.com

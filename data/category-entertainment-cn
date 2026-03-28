@@ -2,26 +2,23 @@
 
 include:category-games-cn
 
-include:3dm
+include:aamgame
 include:acfun
 include:acplay
-include:ali213
 include:bestv
-include:bilibili
+include:bilibili @-!cn
 include:ciweimao
-include:copymanga
 include:dedao
-include:dmzj
+include:douyin
 include:douyu
 include:duitang
+include:fengxing
 include:fqnovel
 include:gamersky
-include:gcores
 include:gitv
 include:hunantv
 include:huya
-include:iqiyi
-include:jinjiang
+include:iqiyi @-!cn
 include:ku6
 include:kuaikan
 include:kuaishou
@@ -29,26 +26,155 @@ include:kugou
 include:kuwo
 include:le
 include:lizhi
-include:mfuns
-include:miaopai
-include:muwai
 include:pptv
 include:qimao
 include:qingtingfm
 include:sakurafrp
-include:sfacg
 include:taomee
 include:u17
 include:wasu
+include:xiaoheihe
+include:xiaoyuzhou
 include:ximalaya
 include:youku
-include:zhanqi
+include:yuewen @-!cn
 
 # Android Emulator
+ldmnq.com
 lsplayer.com
 yeshen.com
 
-# B站空降助手 鲁ICP备2024098956号-1
+# 172Mix 舞曲音乐
+172mix.com
+# 17K小说
+17k.com
+# https://github.com/supzhang/epg
+51zmt.top
+# 广东南方新媒体
+aisee.tv
+# 动画巡礼
+anitabi.cn
+# 暴风影音
+baofeng.com
+baofeng.net
+# 街机地图
+bemanicn.com
+# 布咕阅读
+bgwxc.com
+# B站空降助手
 bsbsb.top
-
+# CdkeyNoGap
+cdkeynogap.com
+# 动漫之家 #703
+dmzj.com
+muwai.com
+# 懂球帝
+dongdianqiu.com
+dongqiudi.com
+# 飞卢小说
+faloo.com
+# 三国杀打小抄官网
+goka.top
+# 海读文学
+haidubooks.com
+# 黑岩小说
+heiyan.com
+heiyanimg.com
+# 红薯中文网
+hongshu.com
+# 火星小说
+hotread.com
+# 晋江文学城
+jjwxc.net
+# 酷匠网
+kjcdn.com
+kujiang.com
+# 1905电影网
+1905.com
+m1905.cn
+m1905.com
+# 喵御宅
+mfuns.cn
+# 秒拍
+miaopai.com
+# 磨铁文学
+motie.com
+motieimg.com
+# Mtime时光网
+mtime.cn
+mtime.com
+# 梨视频
 pearvideo.com
+# 皮皮网
+pipi.cn
+# SF轻小说二次元
+sfacg.com
+# 书海小说
+shuhai.com
+# 塔读小说
+tadu.com
+# 江山文学
+vsread.com
+# 百合会
+yamibo.com
+# 易有料
+yiyouliao.com
+# 游迅网
+yxdown.com
+# 战旗直播
+zhanqi.tv
+# 逐浪小说
+zhulang.com
+# 纵横小说
+zongheng.com
+
+# 娱乐资讯媒体
+# 该部分参考了中文维基百科的「来源考量」：
+# - https://zh.wikipedia.org/wiki/WikiProject:电子游戏/来源考量
+# - https://zh.wikipedia.org/wiki/WikiProject:ACG/來源考量
+
+include:tgbus
+include:vgtime
+
+## 17173网
+17173.com
+## 18183网
+18183.com
+## 3DM游戏网
+3dmgame.com
+## 游侠网
+ali213.net
+## 竞核
+cgames.com
+## 触乐
+chuapp.com
+## DataEye
+dataeye.com
+## GameDiary
+gamediary.cn
+## GameLook
+gamelook.com.cn
+## GameRes游资网
+gameres.com
+## 游戏价值论
+gamewower.com
+## 机核
+gcores.com
+## IGN中国
+ign.com.cn
+## 手游那点事
+nadianshi.com
+## 游戏日报
+news.yxrb.net
+## 手谈姬
+shoutanjjj.com
+## 游戏机实用技术
+ucg.cn
+## 游戏茶馆
+youxichaguan.com
+## 游戏葡萄
+youxiputao.com
+## 游戏陀螺
+youxituoluo.com
+## 游研社
+yystv.cn

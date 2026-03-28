@@ -1,4 +1,7 @@
+cnzz.com
 mobmore.com
+puata.info
+shujupie.com
 umeng.com
 umengcloud.com
 umsns.com
@@ -6,4 +9,30 @@ umtrack.com
 uyunad.com
 whalecloud.com
 
-include:umeng-ads
+# Ads/tracking
+aaid.umeng.com @ads
+alog.umeng.com @ads
+alog.umengcloud.com @ads
+alogs.umeng.com @ads
+alogus.umeng.com @ads
+ar.umeng.com @ads
+aspect-upush.umeng.com @ads
+audid.umeng.com @ads
+ccs.umeng.com @ads
+cnlogs.umeng.com @ads
+cnlogs.umengcloud.com @ads
+log.umtrack.com @ads
+new-aaid.umeng.com @ads
+new-aaid.umeng.com.gds.alibabadns.com @ads
+oc.umeng.com @ads
+plbslog.umeng.com @ads
+resolve.umeng.com @ads
+ulogs.umeng.com @ads
+ulogs.umengcloud.com @ads
+utoken.umeng.com @ads
+w.cnzz.com @ads
+z.gds.cnzz.com @ads
+
+# https://github.com/TG-Twilight/AWAvenue-Ads-Rule/issues/185
+# errlog.umeng.com @ads
+# errnewlog.umeng.com @ads
