@@ -2,8 +2,10 @@
 # group.gmo #GMOインターネットグループ コーポレートサイト
 # internet.gmo #GMOインターネット（日本語事業説明）
 
-# corporate TLD
-gmo #	ブランドgTLD	GMO Internet, Inc.	GMOインターネットグループおよび関係者向けブランドTLD。
+#	ブランドgTLD	GMO Internet, Inc.	GMOインターネットグループおよび関係者向けブランドTLD
+gmo
+
+include:globalsign
 
 # https://group.gmo/service/search/1/
 # https://group.gmo/service/search/2/
@@ -46,7 +48,6 @@ gaikaex.com
 gesoten.com
 get.shop
 global-studio.gmo
-globalsign.com
 gmo-aozora.com
 gmo-app.jp
 gmo-c.jp
