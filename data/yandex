@@ -66,10 +66,10 @@ include:kinopoisk
 #Ads/tracking
 adfox.ru @ads
 admetrica.ru @ads
-adfox.yandex.ru @ads
 yads.tech @ads
 yandex-metrica.ru @ads
 yandexmetrica.com @ads
+full:adfox.yandex.ru @ads
 full:adfstat.yandex.ru @ads
 full:ads.yandex.com @ads
 full:ads.yandex.ru @ads
@@ -82,8 +82,8 @@ full:analytics.mobile.yandex.net @ads
 full:api.appmetrica.yandex.ru @ads
 full:browser-updater.yandex.net @ads
 full:bs.yandex.ru @ads
-full:clck.yandex.ru @ads
 full:clck.yandex.net @ads
+full:clck.yandex.ru @ads
 full:counter.yandex.net @ads
 full:counter.yandex.ru @ads
 full:informer.yandex.ru @ads
