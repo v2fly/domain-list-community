@@ -12,6 +12,8 @@ include:category-travel-ru
 
 # Well-known companies
 include:mailru-group
+include:sber
+include:tbank-ru
 include:yandex
 
 # Bank & Finance & Insurance & Securities
