@@ -1,5 +1,5 @@
 include:sber @bank
-include:tbank-ru @-!bank
+include:tbank-ru @bank
 
 # Alfa Bank
 alfabank.ru
