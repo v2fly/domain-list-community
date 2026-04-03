@@ -1,6 +1,8 @@
 # Aviasales
 include:aviasales
 
+include:sber @travel
+
 # BlaBlaCar
 blablacar.ru
 
@@ -9,9 +11,6 @@ avtovokzaly.ru
 
 # Ostrovok
 ostrovok.ru
-
-# Othello from 2GIS
-otello.ru
 
 # Public transport and ticketing
 include:mosmetro
@@ -22,7 +21,6 @@ full:podorozhnik.spb.ru
 full:transport.mos.ru
 gorodpay.ru
 rrtp.ru
-sbertroika.ru
 
 # Russian Railways
 rzd-bonus.ru
