@@ -3,10 +3,8 @@ include:2gis
 bps-sberbank.by @bank @!ru @by
 sber-bank.by @bank @!ru @by
 sber.ru @bank
-sberbank-insurance.ru @insurance
 sberbank.com @bank
 sberbank.ru @bank
-sberbankins.ru @insurance
 
 # Business ecosystem
 21-school.ru @education
@@ -23,23 +21,37 @@ megamarket.tech
 okko.tv @entertainment
 otello.ru @travel
 samokat.ru @ecommerce
+sberauto.com
+sberbank-insurance.ru @insurance
 sbercloud.ru
 sbercloud.tech
 sberdevices.ru
 sberdisk.ru
 sberindex.ru
+sberbankins.ru @insurance
 sberhealth.ru @medicine
+sberleasing.ru
+sberlogistics.ru
 sbermegamarket.ru @ecommerce
 sbermobile.ru
 sberpb.ru
 sbertroika.ru
 spasibosb.ru
 spasibosberbank.ru
+zvuk-b2b.com
 zvuk.com
+
 
 full:apps.sber.ru @appstore
 
+# Sber Pro
+sber.pro @media
+full:sberpro.vedomosti.ru @media
+
 # Ads/tracking
 sbermarketing.ru @ads
+full:clickstream.sberbank.ru @ads
 full:error-tracking.megamarket.tech @ads
+full:sentry.sberauto.com @ads
 full:tracing-http.megamarket.tech @ads
+full:visor.sberbank.ru @ads
