@@ -1,4 +1,3 @@
 include:avito
 include:ozon
-include:sber @ecommerce
 include:wildberries

@@ -1,21 +1,22 @@
-bankline.ru @bank #acquired by T-Bank
-cdn-tinkoff.ru @cdn
-dolyame.ru @finance
+bankline.ru
+cdn-tinkoff.ru
+dolyame.ru
 phoenix-ca.ru
-rosbank.ru @bank #acquired by T-Bank
+rosbank.ru
 t-bank-app.ru
-t-j.ru @media
+t-j.ru
 t-static.ru
 t-technologies.ru
 tbank-online.com
-tbank.ru @bank
-tinkoff.ru @bank
+tbank.ru
 tinkoff-group.com
-tinkoffjournal.ru @media
-tinsurance.ru @insurance
+tinkoff.ru
+tinkoffjournal.ru
+tinsurance.ru
 unidraw.io
 
-full:centraluniversity.ru @education
-full:cu.ru @education
-full:edu.tinkoff.ru @education
-full:education.tbank.ru @education
+# Education
+centraluniversity.ru
+cu.ru
+full:edu.tinkoff.ru
+full:education.tbank.ru
