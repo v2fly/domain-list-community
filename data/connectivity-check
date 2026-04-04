@@ -29,6 +29,11 @@ networkcheck.kde.org
 # MIUI
 full:connect.rom.miui.com
 
+# Steam
+ipv6check-http.steamserver.net
+ipv6check-udp.steamserver.net
+test.steampowered.com
+
 # Ubuntu
 full:connectivity-check.ubuntu.com
 
