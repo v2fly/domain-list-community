@@ -4,19 +4,23 @@ yandex
 # яндекс.рф
 xn--d1acpjx3f.xn--p1ai
 
-adfox.ru
-admetrica.ru
+berizaryad.ru
+clck.ru
+clstorage.net
+elama.ru
+meteum.ai
 naydex.net
 rostaxi.org
+shedevrum.ai
+sourcecraft.dev
+static-storage.net
 turbopages.org
-webvisor.com
-webvisor.org
+ya.cc
 ya.ru
-yads.tech
 yandex-bank.net
-yandex-images.clstorage.net
 yandex-team.ru
 yandex.aero
+yandex.asia
 yandex.az
 yandex.by
 yandex.cloud
@@ -38,6 +42,7 @@ yandex.kz
 yandex.lt
 yandex.lv
 yandex.md
+yandex.mobi
 yandex.net
 yandex.org
 yandex.pl
@@ -52,15 +57,50 @@ yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
-yandexmetrica.com
+yandexlyceum.ru
 yandexwebcache.net
 yandexwebcache.org
 yastat.net
 yastatic-net.ru
 yastatic.net
+yccdn.ru
 
 # Watching movies, included in the Yandex subscription
 include:kinopoisk
 
-# Weather service
-full:yandex-pogoda.static-storage.net
+#Ads/tracking
+adfox.ru @ads
+admetrica.ru @ads
+ads.yandex @ads
+webvisor.com @ads
+webvisor.org @ads
+yads.tech @ads
+yandex-metrica.ru @ads
+yandexmetrica.com @ads
+full:adfox.yandex.ru @ads
+full:adfstat.yandex.ru @ads
+full:ads.yandex.com @ads
+full:ads.yandex.ru @ads
+full:adsdk.yandex.ru @ads
+full:adv.yandex.com @ads
+full:adv.yandex.ru @ads
+full:amc.yandex.ru @ads
+full:an.yandex.ru @ads
+full:analytics.mobile.yandex.net @ads
+full:api.appmetrica.yandex.ru @ads
+full:browser-updater.yandex.net @ads
+full:bs.yandex.ru @ads
+full:clck.yandex.net @ads
+full:clck.yandex.ru @ads
+full:counter.yandex.net @ads
+full:counter.yandex.ru @ads
+full:informer.yandex.ru @ads
+full:mc.yandex.com @ads
+full:mc.yandex.ru @ads
+full:metrika.yandex.ru @ads
+full:pix.yandex.ru @ads
+full:pixel.yandex.net @ads
+full:report-partners.appmetrica.yandex.net @ads
+full:report.ap.yandex-net.ru @ads
+full:report.appmetrica.yandex.net @ads
+full:yabs.yandex.ru @ads
