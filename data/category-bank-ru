@@ -1,20 +1,25 @@
+include:sber
+include:tbank-ru
+
 # Alfa Bank
 alfabank.ru
+alfabank.st
 
 # GazpromBank
+gazprombank.com
+gazprombank.investments
 gazprombank.ru
 gpb.ru
 
-# Mts dengi
+# MTS Dengi
 dbo-dengi.online
 mtsdengi.ru
 
 # PSB Bank
+payment.ru
+psb-ocenka.ru
+psb.ru
 psbank.ru
-
-# RosBank
-bankline.ru
-rosbank.ru
 
 # RUSSIA Bank
 abr.ru
@@ -22,19 +27,10 @@ abr.ru
 # Russian Agricultural Bank
 rshb.ru
 
-# SberBank
-sber.ru
-sberbank.com
-sberbank.ru
-
-# T-Bank (Tinkoff)
-cdn-tinkoff.ru
-tbank-online.com
-tbank.ru
-
 # Tochka bank
 tochka-tech.com
 tochka.com
 
 # VTB Bank
+pochtabank.ru #subsidiary
 vtb.ru

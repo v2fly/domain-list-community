@@ -1,0 +1,54 @@
+include:2gis
+include:okko
+
+bps-sberbank.by
+sber-bank.by
+sber.ru
+sberbank.com
+sberbank.ru
+
+# Business ecosystem
+21-school.ru
+afisha.ru
+citydrive.ru
+cloud.ru
+cloudru.cn @cn
+eapteka.ru
+giga.chat
+id.ru
+kuper.ru
+megamarket.ru
+megamarket.tech
+otello.ru
+samokat.ru
+sberauto.com
+sberbank-insurance.ru
+sbercloud.ru
+sbercloud.tech
+sberdevices.ru
+sberdisk.ru
+sberindex.ru
+sberbankins.ru
+sberhealth.ru
+sberleasing.ru
+sberlogistics.ru
+sbermegamarket.ru
+sbermobile.ru
+sberpb.ru
+sbertroika.ru
+spasibosb.ru
+spasibosberbank.ru
+zvuk-b2b.com
+zvuk.com
+
+# Sber Pro
+sber.pro
+full:sberpro.vedomosti.ru
+
+# Ads/tracking
+sbermarketing.ru @ads
+full:clickstream.sberbank.ru @ads
+full:error-tracking.megamarket.tech @ads
+full:sentry.sberauto.com @ads
+full:tracing-http.megamarket.tech @ads
+full:visor.sberbank.ru @ads
