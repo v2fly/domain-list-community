@@ -1,17 +1,188 @@
-include:dzen
-include:mailru
-include:ok
-include:vk
+# VK Group, formerly known as Mail.ru Group, a Russian technology company
 
 boosty.to
 donationalerts.com
-max.ru
+cups.online
+icq.com
+hrtek.ru
+koddobra.ru
+mail.ru
+mediumquality.ru
 memealerts.com
-oneme.ru
+movika.com
+mvk.com
+my.com
+sportmail.ru
 tamtam.chat
+tech-mail.ru
+vk-apps.com
+vk-apps.ru
+vk-records.ru
+vk-stadium.ru
+vk.cc
+vk.com
+vk.company
+vk.design
+vk.link
+vk.me
+vk.ru
+vk.team
+vkclips.app
+vkfest.ru
+vkgo.app
+vklive.app
+vkmessenger.app
+vkmessenger.com
+vkontakte.ru
+
+# Ads and tracking
+adsadvisor.io @ads
+apptracer.ru @ads
+cxhub.ru @ads
+vk-analytics.ru @ads
+vkanalytics.net @ads
+full:1l-hit.mail.ru @ads
+full:1l-hit.vkplay.ru @ads
+full:ad.mail.ru @ads
+full:ads.dahlmessenger.com @ads
+full:ads.rustore.ru
+full:ads-integration.rustore.ru
+full:ads.vk.com @ads
+full:ads.vk.ru @ads
+full:adsapp.dahlmessenger.com @ads
+full:adsapp.telega.info @ads
+full:adv.rustore.ru
+full:click.rustore.ru
+full:sentry.rustore.ru
+full:stats.dahlmessenger.com @ads
+full:stats.telega.info @ads
+full:log.dzen.ru @ads
+full:ms.dzen.ru @ads
+full:ms.vk.com @ads
+full:ms.vk.ru @ads
+full:pixel.rustore.ru
+full:r.mail.ru @ads
+full:r0.mail.ru @ads
+full:r0.mradx.net @ads
+full:radar.imgsmail.ru @ads
+full:relap.mail.ru @ads
+full:rs.mail.ru @ads
+full:stacks.vk-portal.net @ads
+full:stats.rustore.ru
+full:stats.vk-portal.net @ads
+full:top-fwz1.mail.ru @ads
+full:top-staging.mail.ru @ads
+full:tracker-api.my.com @ads
+full:xray.mail.ru @ads
+
+# CDNs
+bizmrg.com
+cdn-vk.ru
+cdn-vk.net
+dzeninfra.ru
+imgsmail.ru
+mradx.net
+mrgcdn.ru
+mycdn.me
+mytopf.com
+okcdn.ru
+skbx.pro
+smailru.net
+staticmy.com
+vk-cdn.me
+vk-cdn.net
+vk-portal.net
+vkcache.com
+vkcdnservice.com
+vkcloud-static.ru
+vktech-static.ru
+vkuser.net
+vkuseraudio.com
+vkuseraudio.net
+vkuseraudio.ru
+vkusercdn.ru
+vkuserlive.net
+vkuserphoto.ru
+vkuservideo.com
+vkuservideo.net
+vkuservideo.ru
+userapi.com
+
+# Dzen
+dzen.ru
+
+# ESforce
+cybersport.ru
+epicevents.gg
+esforce.com
+esforce.ru
+ruhub.tv
+
+# GeekBrains
+gb.ru
+
+# Messenger MAX
+max.ru
+oneme.ru
+sferum.ru
+
+# MY.GAMES
+# Formally left Russian market
+knightspeak.com
+my.games
+pixonic.com
+prod-my.games
+
+# Skillbox
+skillbox.ru
+skillbox.pro
+
+# Skillfactory
+skillfactory.ru
+
+# Lerna
+lerna.ru
+
+#Odnoklassniki
+odkl.ru
+odnoklassniki.ru
+ok.ru
+
+# RuStore
+rustore.ru
+
+# Tarantool
+tarantool.io
+
+# Telega, an alternative Telegram client
+# CAUTION: SUSPECTED SPYWARE
+# For details see: https://dontusetelega.lol/analysis
+aodahl.com
+dahl.su
+dahlmessenger.com
 telega.info
 telega.me
+
+# Tetrika
+tetrika-school.ru
+
+# Uchi.ru
+uchi.ru
+
+# Umschool
+umschool.net
+
+# VK Video
+vkvideo.ru
+
+# VK Play
+vkplay.ru
+vkplay.live
+vkplay-arena.ru
+
+# YCLIENTS
+yclients.com
+
+# Youla
 youla.io
 youla.ru
-
-full:youla-web-static.mrgcdn.ru
