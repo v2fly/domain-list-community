@@ -3,18 +3,29 @@
 boosty.to
 donationalerts.com
 cups.online
+dzen.ru
+gb.ru
 icq.com
 hrtek.ru
 koddobra.ru
+lerna.ru
 mail.ru
 mediumquality.ru
 memealerts.com
 movika.com
 mvk.com
 my.com
+rustore.ru
+skillbox.ru
+skillbox.pro
+skillfactory.ru
 sportmail.ru
 tamtam.chat
+tarantool.io
 tech-mail.ru
+tetrika-school.ru
+uchi.ru
+umschool.net
 vk-apps.com
 vk-apps.ru
 vk-records.ru
@@ -34,6 +45,8 @@ vklive.app
 vkmessenger.app
 vkmessenger.com
 vkontakte.ru
+vkvideo.ru
+yclients.com
 
 # Ads and tracking
 adsadvisor.io @ads
@@ -45,22 +58,22 @@ full:1l-hit.mail.ru @ads
 full:1l-hit.vkplay.ru @ads
 full:ad.mail.ru @ads
 full:ads.dahlmessenger.com @ads
-full:ads.rustore.ru
-full:ads-integration.rustore.ru
+full:ads.rustore.ru @ads
+full:ads-integration.rustore.ru @ads
 full:ads.vk.com @ads
 full:ads.vk.ru @ads
 full:adsapp.dahlmessenger.com @ads
 full:adsapp.telega.info @ads
-full:adv.rustore.ru
-full:click.rustore.ru
-full:sentry.rustore.ru
+full:adv.rustore.ru @ads
+full:click.rustore.ru @ads
+full:sentry.rustore.ru @ads
 full:stats.dahlmessenger.com @ads
 full:stats.telega.info @ads
 full:log.dzen.ru @ads
 full:ms.dzen.ru @ads
 full:ms.vk.com @ads
 full:ms.vk.ru @ads
-full:pixel.rustore.ru
+full:pixel.rustore.ru @ads
 full:r.mail.ru @ads
 full:r0.mail.ru @ads
 full:r0.mradx.net @ads
@@ -68,7 +81,7 @@ full:radar.imgsmail.ru @ads
 full:relap.mail.ru @ads
 full:rs.mail.ru @ads
 full:stacks.vk-portal.net @ads
-full:stats.rustore.ru
+full:stats.rustore.ru @ads
 full:stats.vk-portal.net @ads
 full:top-fwz1.mail.ru @ads
 full:top-staging.mail.ru @ads
@@ -108,18 +121,12 @@ vkuservideo.net
 vkuservideo.ru
 userapi.com
 
-# Dzen
-dzen.ru
-
 # ESforce
 cybersport.ru
 epicevents.gg
 esforce.com
 esforce.ru
 ruhub.tv
-
-# GeekBrains
-gb.ru
 
 # Messenger MAX
 max.ru
@@ -133,26 +140,10 @@ my.games
 pixonic.com
 prod-my.games
 
-# Skillbox
-skillbox.ru
-skillbox.pro
-
-# Skillfactory
-skillfactory.ru
-
-# Lerna
-lerna.ru
-
 #Odnoklassniki
 odkl.ru
 odnoklassniki.ru
 ok.ru
-
-# RuStore
-rustore.ru
-
-# Tarantool
-tarantool.io
 
 # Telega, an alternative Telegram client
 # CAUTION: SUSPECTED SPYWARE
@@ -163,25 +154,10 @@ dahlmessenger.com
 telega.info
 telega.me
 
-# Tetrika
-tetrika-school.ru
-
-# Uchi.ru
-uchi.ru
-
-# Umschool
-umschool.net
-
-# VK Video
-vkvideo.ru
-
 # VK Play
 vkplay.ru
 vkplay.live
 vkplay-arena.ru
-
-# YCLIENTS
-yclients.com
 
 # Youla
 youla.io
