@@ -10,8 +10,9 @@ include:category-medicine-ru
 include:category-retail-ru
 include:category-travel-ru
 
-# Well-known companies
+# Russian companies
 include:mailru-group
+include:mindbox
 include:yandex
 
 # Bank & Finance & Insurance & Securities
