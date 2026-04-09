@@ -12,6 +12,7 @@ include:category-travel-ru
 
 # Well-known companies
 include:mailru-group
+include:selectel
 include:yandex
 
 # Bank & Finance & Insurance & Securities
