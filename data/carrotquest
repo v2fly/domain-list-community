@@ -18,7 +18,7 @@ domain:api-ru.carrotquest.app @ads
 domain:api-ru.carrotquest.io @ads
 domain:api-secure.carrotquest.app @ads
 domain:api-secure.carrottrack.app @ads
-domain:api:carrotquest.app @ads
+domain:api.carrotquest.app @ads
 domain:api.carrotquest.io @ads
 domain:api.carrottrack.app @ads
 domain:api.dashly.app @ads
