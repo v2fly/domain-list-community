@@ -39,14 +39,32 @@ tips.tips
 # Telecom operators
 beeline.ru
 dom.ru
-megafon.ru
 mts.ru
 mymts.ru
 rostelecom.ru
 rt.ru
 t2.ru
 tele2.ru
+
+## Megafon
+megafon.com
+megafon.ru
+megafonpro.ru
+mgfn.ru
+neon.click
+report-megafon.ru
+scartel.ru
 yota.ru
+yotagamer.ru
+
+### IDN ccTLD
+xn--80a9a4b.xn--p1ai # ёта.рф
+xn--80aj3b.xn--p1ai # ета.рф
+xn--80arpq.xn--p1ai # йота.рф
+
+### Ads/tracking
+domain:ads.neon.click
+domain:api.neon.click
 
 # Other domains
 gazfond-pn.ru  # Non-state pension fund GAZFOND pension savings
@@ -61,12 +79,12 @@ t1.cloud       # Russian cloud storage provider
 taxsee.com     # Taxi for business (self-employed drivers)
 yclients.com   # Russian SaaS platform for online booking and business automation for service companies
 
-# Ideco, NGFW developer
+## Ideco, NGFW developer
 ideco.dev
 ideco.ru
 idecosoftware.ru
 
-# Carrot quest, marketing, presumably tracking
+## Carrot quest, marketing, presumably tracking
 carrotquest-mail.io
 carrotquest.app
 carrotquest.io
@@ -79,7 +97,7 @@ dashlytrack.app
 mail-carrotquest.io
 pushgrow.io
 
-# Selectel, Russian hosting provider
+## Selectel, Russian hosting provider
 chipcore.com
 chipcore.ru
 haicomdc.com
