@@ -1,0 +1,16 @@
+botmechanic.io
+ceosummit.ru
+mind-box.ru
+mindbox-notifications.ru
+mindbox.cloud
+mindbox.group
+mindbox.ru
+mindbox.site
+mindbox.so
+popmechanic.io
+popmechanic.ru
+summitceo.ru
+
+# Explicit tracking
+domain:sentry.mindbox.ru @ads
+domain:sentry.popmechanic.ru @ads
