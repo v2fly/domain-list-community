@@ -2,17 +2,96 @@
 
 # **Public anycast resolvers**
 
+# Data sources:
+## https://raw.githubusercontent.com/hagezi/dns-blocklists/master/domains/doh.txt
+## https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt 
+## + SubjectAlternativeName from SSL certificates
+
+# Cloudflare DNS
+full:one.one.one.one
+domain:cloudflare-dns.com
+domain:dns.cloudflare.com
+
+# Google DNS
+full:8888.google
+domain:dns.google
+domain:dns.google.com
+
+# Mullvad
+domain:dns.mullvad.net
+domain:doh.mullvad.net
+domain:dot.mullvad.net
+domain:public-resolver.mullvad.net
+
+# NextDNS
+domain:dns.nextdns.io
+domain:dns1.nextdns.io
+domain:dns2.nextdns.io
+domain:edge.nextdns.io
+domain:steering.nextdns.io
+
+# ControlD
+domain:dns.controld.com
+domain:dns.controld.net
+domain:freedns.controld.com
+domain:freedns.controld.net
+
+# Cisco OpenDNS
+domain:dns.opendns.com
+domain:doh.opendns.com
+domain:pdns.opendns.com
+domain:dns64.opendns.com
+domain:dns7071.opendns.com
+domain:resolver1.opendns.com
+domain:resolver2.opendns.com
+domain:familyshield.opendns.com
+
+# Cisco Umbrella
+domain:dns.umbrella.com
+domain:doh.umbrella.com
+domain:pdns.umbrella.com
+domain:dns64.umbrella.com
+domain:dns7071.umbrella.com
+
+# Cisco SSE
+domain:dns.sse.cisco.com
+domain:doh.sse.cisco.com
+domain:dns64.sse.cisco.com
+domain:dns7071.sse.cisco.com
+domain:familyshield.sse.cisco.com
+
+# Quad9 DNS
+domain:dns.quad9.net
+domain:dns9.quad9.net
+domain:dns10.quad9.net
+domain:dns11.quad9.net
+domain:dns12.quad9.net
+domain:dns13.quad9.net
+domain:dns254.quad9.net
+domain:dns-nosec.quad9.net
+domain:doh-brave.quad9.net
+domain:doh-chrome.quad9.net
+domain:doh-mozilla.quad9.net
+domain:dns.resolver.quad9.net
+
 # AdGuard DNS
+domain:adguard-dns.com
+domain:dns.adguard.com
+domain:dns-family.adguard.com
+domain:dns-unfiltered.adguard.com
 
-## Default
-full:dns.adguard.com
-full:dns.adguard-dns.com
+# Yandex DNS
+domain:dns.yandex.by
+domain:dns.yandex.kz
+domain:dns.yandex.ru
+domain:dns.yandex.com
+domain:dns.yandex.net
 
-## Family Protection
-full:family.adguard-dns.com
+# CleanBrowsing (unfortunately, we have to block the entire domain)
+domain:cleanbrowsing.org
 
-## Non-filtering
-full:unfiltered.adguard-dns.com
+# Wikimedia DNS
+domain:wikimedia-dns.org
 
 # Ali DNS
 full:dns.alidns.com
@@ -36,20 +115,6 @@ full:internetsehat.bebasid.com
 
 # CFIEC Public DNS
 full:dns.cfiec.net
-
-# Cisco OpenDNS
-opendns.com
-
-# CleanBrowsing
-full:doh.cleanbrowsing.org
-
-# Cloudflare DNS
-full:one.one.one.one
-full:dns.cloudflare.com
-cloudflare-dns.com
-
-# ControlD
-full:freedns.controld.com
 
 # DeCloudUs DNS
 full:dns.decloudus.com
@@ -98,34 +163,8 @@ full:sm2.doh.pub
 # dns0.eu
 full:zero.dns0.eu
 
-# Google DNS
-full:dns.google
-
 # Hurricane Electric Public Recursor
 full:ordns.he.net
-
-# Mullvad
-
-## Non-filtering
-full:dns.mullvad.net
-
-## Ad blocking
-full:adblock.dns.mullvad.net
-
-## Ad + malware blocking
-full:base.dns.mullvad.net
-
-## Ad + malware + social media blocking
-full:extended.dns.mullvad.net
-
-## Ad + malware + adult + gambling blocking
-full:family.dns.mullvad.net
-
-## Ad + malware + adult + gambling + social media blocking
-full:all.dns.mullvad.net
-
-# NextDNS
-nextdns.io
 
 # OpenBLD.net DNS
 
@@ -134,15 +173,6 @@ full:ada.openbld.net
 
 ## Strict Filtering (RIC)
 full:ric.openbld.net
-
-# Quad9 DNS
-
-## Standard
-full:dns.quad9.net
-
-## Unsecured
-full:dns10.quad9.net
-full:dns11.quad9.net
 
 # Quadrant Security
 full:doh.qis.io
@@ -171,9 +201,6 @@ full:dns.surfsharkdns.com
 
 # v.recipes DNS (former 0ms.dev)
 full:v.recipes
-
-# Wikimedia DNS
-full:wikimedia-dns.org
 
 # **Regional resolvers**
 
@@ -255,17 +282,6 @@ full:dns.seia.io
 
 ## Oracle Cloud South Korea
 full:secondary.dns.seia.io
-
-# Yandex DNS
-
-## Basic
-full:common.dot.dns.yandex.net
-
-## Safe
-full:safe.dot.dns.yandex.net
-
-## Family
-full:family.dot.dns.yandex.net
 
 # **Small personal resolvers**
 
