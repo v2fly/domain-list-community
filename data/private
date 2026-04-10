@@ -178,3 +178,12 @@ zte.home
 # Tailscale Magic DNS
 # Reference: https://tailscale.com/kb/1081/magicdns/#fully-qualified-domain-names-vs-machine-names
 ts.net
+
+# AdGuard "content script" domain
+# Reference: https://adguard.com/kb/general/https-filtering/local-adguard-com-domain/
+full:local.adguard.org
+
+# Kaspersky script injection domain
+# Reference: https://forum.kaspersky.com/topic/what-is-kaspersky-labscom-ffkisv2scrkaspersky-labscom-21484/
+# Reference: https://palant.info/2019/11/25/kaspersky-the-art-of-keeping-your-keys-under-the-door-mat/
+kis.v2.scr.kaspersky-labs.com
