@@ -43,12 +43,13 @@ include:polymer
 include:python
 include:qt
 include:readthedocs
+include:redhat
 include:redis
 include:ruby
 include:rust
-include:redhat
 include:scala
 include:sentry
+include:snapcraft
 include:sourcehut
 include:stackexchange
 include:strikingly
