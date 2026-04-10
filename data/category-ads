@@ -27,6 +27,7 @@ include:mihoyo @ads
 include:netease @ads
 include:ookla-speedtest @ads
 include:openai @ads
+include:ozon @ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
