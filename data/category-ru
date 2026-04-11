@@ -10,8 +10,12 @@ include:category-medicine-ru
 include:category-retail-ru
 include:category-travel-ru
 
-# Well-known companies
+# Russian companies
+include:carrotquest
+include:kaspersky
 include:mailru-group
+include:mindbox
+include:selectel
 include:yandex
 
 # Bank & Finance & Insurance & Securities
@@ -38,26 +42,61 @@ tips.tips
 # Telecom operators
 beeline.ru
 dom.ru
-megafon.ru
 mts.ru
 mymts.ru
 rostelecom.ru
 rt.ru
 t2.ru
 tele2.ru
+
+## Megafon
+megafon.com
+megafon.ru
+megafonpro.ru
+mgfn.ru
+report-megafon.ru
+scartel.ru
 yota.ru
+yotagamer.ru
+
+### IDN ccTLD
+xn--80a9a4b.xn--p1ai # ёта.рф
+xn--80aj3b.xn--p1ai # ета.рф
+xn--80arpq.xn--p1ai # йота.рф
 
 # Other domains
-gazfond-pn.ru  # Non-state pension fund GAZFOND pension savings
-litres.ru      # E-book and audiobook service
-meteoinfo.ru   # Hydrometeorological Center of Russia
-ngenix.net     # NGENIX is a Russian provider of acceleration and security services for public web resources
-pochta.ru      # Russian post
-qms.ru         # Russian internet speed testing service
-rustore.ru     # RuStore is a Russian mobile app store for Android
-t1.cloud       # Russian cloud storage provider
-taxsee.com     # Taxi for business (self-employed drivers)
-yclients.com   # Russian SaaS platform for online booking and business automation for service companies
+gazfond-pn.ru    # Non-state pension fund GAZFOND pension savings
+litres.ru        # E-book and audiobook service
+meteoinfo.ru     # Hydrometeorological Center of Russia
+ngenix.net       # NGENIX is a Russian provider of acceleration and security services for public web resources
+pochta.ru        # Russian post
+qms.ru           # Russian internet speed testing service
+roistat.com @ads # Russian marketing company
+rustore.ru       # RuStore is a Russian mobile app store for Android
+srv-hub.org      # Website buider
+t1.cloud         # Russian cloud storage provider
+taxsee.com       # Taxi for business (self-employed drivers)
+yclients.com     # Russian SaaS platform for online booking and business automation for service companies
+
+## COMSS.ONE "Computer Security Software Russia"
+comss.club
+comss.info
+comss.me
+comss.net
+comss.news
+comss.one
+comss.online
+comss.org
+comss.ru
+
+## Genotek
+eligens.cl
+eligens.com.br
+eligens.io
+genetic-technologies.am
+genotek.am
+genotek.health
+genotek.ru
 
 ## Ideco, NGFW developer
 ideco.dev

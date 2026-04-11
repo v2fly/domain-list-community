@@ -1,10 +1,67 @@
+ewisdom.us.kg
+o3.ru
+o3t.ru
+o3team.ru
+o-courier.ru
+ocourier.ru
+ozon-dostavka.ru
+ozon-credit.ru
+ozon-tech.ru
 ozon.by
 ozon.com
 ozon.com.by
 ozon.com.kz
+ozon.dev
+ozon.express
 ozon.kz
+ozon.li
 ozon.ru
+ozon.tech
 ozon.tm
+ozon.travel
+ozoncamp.pro
+ozoncard.ru
+ozoncom.by
+ozoncorporate.ru
 ozone.ru
+ozonglobalevents.com
+ozonpartners.by
+ozonpartners.ru
+ozonrocet.by
+ozonroket.by
+ozonru.co.il
+ozonru.com
+ozonru.eu
 ozonru.me
+ozonsport.ru
+ozonstatus.ru
 ozonusercontent.com
+rocketozon.by
+
+# IDN ccTLD
+xn----8sbahiqzthbd0bn.xn--p1ai # озон-доставка.рф
+xn--80aafgovrgbc7am.xn--p1ai # озондоставка.рф
+xn--e1adjldbbpv.xn--90ais # озонрокет.бел
+
+# Advertising and tracking
+domain:ad.ozone.ru @ads
+domain:adv.ozon.ru @ads
+domain:agency-adv.ozon.ru @ads
+domain:analytics-adv.ozon.ru @ads
+domain:beginners-adv.ozon.ru @ads
+domain:google-analytics-suite.ozon.ru @ads
+domain:loyalnost-adv.ozon.ru @ads
+domain:new-adv.ozon.ru @ads
+domain:prodvizhenie-adv.ozon.ru @ads
+domain:questions-adv.ozon.ru @ads
+domain:sentry.ozon.ru @ads
+domain:tracking.ocourier.ru @ads
+domain:tracking.ozon-dostavka.ru @ads
+domain:tracking.ozon.ru @ads
+domain:xapi.ozon.by @ads
+domain:xapi.ozon.com @ads
+domain:xapi.ozon.com.by @ads
+domain:xapi.ozon.com.kz @ads
+domain:xapi.ozon.kz @ads
+domain:xapi.ozon.ru @ads
+domain:xapi.ozonru.me @ads
