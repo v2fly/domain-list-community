@@ -17,7 +17,8 @@ domain:api-ru.mindbox.cloud @ads
 domain:api-staging.mindbox.ru @ads
 domain:api.mindbox.cloud @ads
 domain:api.mindbox.ru @ads
-domain:api.e.mindbox.ru @ads
-domain:api.s.mindbox.ru @ads
+domain:e.mindbox.ru @ads
+domain:g.mindbox.ru @ads
+domain:s.mindbox.ru @ads
 domain:sentry.mindbox.ru @ads
 domain:sentry.popmechanic.ru @ads
