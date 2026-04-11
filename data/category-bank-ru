@@ -8,8 +8,8 @@ domain:alfabank.oavdo.amc
 regexp:alfabank.(ru|st)
 
 # BCS bank
-bcs(|-bank).ru
 broker.ru
+regexp:bcs(|-bank).ru
 
 # GazpromBank
 gpb.ru
