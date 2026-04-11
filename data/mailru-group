@@ -27,16 +27,16 @@ vkcs.cloud
 vkfest.ru
 vkvideo.ru
 yclients.com
-regexp:(|dev-)my.com															#	my.com
-regexp:(bk|inbox|internet|list).ru								#	mail.ru mail domains
-regexp:(lovina|vk(clips|go|live)).app							# app TLD zone
-regexp:vk-apps.(com|ru)														# VK Apps
-regexp:vk.(cc|com|company|design|link|me|ru|team)	# VK
-regexp:vkmessenger.(app|com)											# VK Messenger
-regexp:vkontakte.(com|ru)													# VK
-regexp:vkpay.(app|com|io|ru)											# VK Pay
+regexp:(|dev-)my.com                              # my.com
+regexp:(bk|inbox|internet|list).ru                # mail.ru mail domains
+regexp:(lovina|vk(clips|go|live)).app             # app TLD zone
+regexp:vk-apps.(com|ru)                           # VK Apps
+regexp:vk.(cc|com|company|design|link|me|ru|team) # VK
+regexp:vkmessenger.(app|com)                      # VK Messenger
+regexp:vkontakte.(com|ru)                         # VK
+regexp:vkpay.(app|com|io|ru)                      # VK Pay
 
-#	Ads and tracking
+# Ads and tracking
 adsadvisor.io @ads
 apptracer.ru @ads
 cxhub.ru @ads
@@ -108,7 +108,7 @@ gamescup.ru
 mlbootcamp.ru
 russiandesigncup.ru
 
-#	Education
+# Education
 algoritmika.org
 code-class.ru
 gb.ru
@@ -120,13 +120,13 @@ umschool.net
 yaklass.ru
 regexp:skillbox.(pro|ru)
 
-#	ESforce
+# ESforce
 cybersport.ru
 epicevents.gg
 ruhub.tv
 regexp:esforce.(com|ru)
 
-#	ICQ (deprecated)
+# ICQ (deprecated)
 ciciq.net
 goicq.org
 icq-download.com
@@ -158,19 +158,19 @@ mirabilis.com
 mirandaicq.com
 mobile-icq.com
 mobileicq.com
-xn-----6kc7adj0c9esa.com				#	ай-си-кью.com
-xn----7sbaba0dc6cdn7cxcj.com		#	аська-скачать.com
-xn----7sbabae2a0bnvtsfr4loc.com	#	аська-бесплатная.com
-xn----7sbbab6bregnh7b8if5b.com	#	мобильная-аська.com
-xn----7sbbamm1bv2bh7i.com				#	агент-аська.com
-xn----8sbaroledu6bi7j.com				#	клиент-аська.com
-xn----8sbeoy5bze.com						#	в-аське.com
-xn--80aqcf7a6do.com							#	айсикью.com
+xn-----6kc7adj0c9esa.com        # ай-си-кью.com
+xn----7sbaba0dc6cdn7cxcj.com    # аська-скачать.com
+xn----7sbabae2a0bnvtsfr4loc.com # аська-бесплатная.com
+xn----7sbbab6bregnh7b8if5b.com  # мобильная-аська.com
+xn----7sbbamm1bv2bh7i.com       # агент-аська.com
+xn----8sbaroledu6bi7j.com       # клиент-аська.com
+xn----8sbeoy5bze.com            # в-аське.com
+xn--80aqcf7a6do.com             # айсикью.com
 regexp:icq-phone.(com|org)
 regexp:icq.(asia|at|biz|com|de|fr|eu|im|lt|mobi|org|ru|sg)
 regexp:icqmail.(com|net)
 
-#	Messenger MAX
+# Messenger MAX
 max.ru
 oneme.ru
 regexp:sferum(|-dev).ru
@@ -182,7 +182,7 @@ knightspeak.com
 pixonic.com
 regexp:(|(dev|prod)-)my.games
 
-#	Odnoklassniki
+# Odnoklassniki
 apiok.ru
 insideok.ru
 odkl.ru
@@ -191,25 +191,25 @@ okl.lt
 oktech.ru
 regexp:ok.(me|ru)
 
-#	RuStore
+# RuStore
 regexp:rustore.(ru|team|tv)
 
-#	Telega, an alternative Telegram client
-#	CAUTION: SUSPECTED SPYWARE
-#	For details see: https://dontusetelega.lol/analysis
+# Telega, an alternative Telegram client
+# CAUTION: SUSPECTED SPYWARE
+# For details see: https://dontusetelega.lol/analysis
 aodahl.com
 dahl.su
 dahlmessenger.com
 tusco.ru
 regexp:telega.(info|me)
 
-#	Viqeo
+# Viqeo
 viqeo.tv
 viqeotv.com
 
-#	VK Play
+# VK Play
 vkplay-arena.ru
 regexp:vkplay.(ru|live)
 
-#	Youla
+# Youla
 regexp:youla.(io|ru)
