@@ -9,12 +9,13 @@
 
 # Cloudflare DNS
 full:one.one.one.one
+full:dns.cloudflare.com
 domain:cloudflare-dns.com
-domain:dns.cloudflare.com
 
 # Google DNS
+full:dns.google
 full:8888.google
-domain:dns.google
+full:dns64.dns.google
 domain:dns.google.com
 
 # Mullvad
@@ -61,37 +62,37 @@ domain:dns7071.sse.cisco.com
 domain:familyshield.sse.cisco.com
 
 # Quad9 DNS
-domain:dns.quad9.net
-domain:dns9.quad9.net
-domain:dns10.quad9.net
-domain:dns11.quad9.net
-domain:dns12.quad9.net
-domain:dns13.quad9.net
-domain:dns254.quad9.net
-domain:dns-nosec.quad9.net
-domain:doh-brave.quad9.net
-domain:doh-chrome.quad9.net
-domain:doh-mozilla.quad9.net
-domain:dns.resolver.quad9.net
+full:dns.quad9.net
+full:dns9.quad9.net
+full:dns10.quad9.net
+full:dns11.quad9.net
+full:dns12.quad9.net
+full:dns13.quad9.net
+full:dns254.quad9.net
+full:dns-nosec.quad9.net
+full:doh-brave.quad9.net
+full:doh-chrome.quad9.net
+full:doh-mozilla.quad9.net
+full:dns.resolver.quad9.net
 
 # AdGuard DNS
 domain:adguard-dns.com
-domain:dns.adguard.com
-domain:dns-family.adguard.com
-domain:dns-unfiltered.adguard.com
+full:dns.adguard.com
+full:dns-family.adguard.com
+full:dns-unfiltered.adguard.com
 
 # Yandex DNS
 domain:dns.yandex.by
 domain:dns.yandex.kz
 domain:dns.yandex.ru
-domain:dns.yandex.com
 domain:dns.yandex.net
+domain:dns.yandex.com
 
 # CleanBrowsing (unfortunately, we have to block the entire domain)
 domain:cleanbrowsing.org
 
 # Wikimedia DNS
-domain:wikimedia-dns.org
+full:wikimedia-dns.org
 
 # Ali DNS
 full:dns.alidns.com
