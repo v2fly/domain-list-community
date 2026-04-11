@@ -5,6 +5,7 @@ include:fastly
 include:imgix
 include:jsdelivr
 include:limelight
+include:mailru-group-cdn
 include:pagecdn
 include:quantil
 include:stackpath

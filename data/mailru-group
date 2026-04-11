@@ -1,31 +1,31 @@
 # VK Group, formerly known as Mail.ru Group, a Russian technology company
+include:mailru-group-cdn
 
+bk.ru
+boom.ru
 boosty.to
 donationalerts.com
 cups.online
+dev-my.com
 dzen.ru
-gb.ru
 icq.com
+icq.im
+icqmail.com
+inbox.ru
 hrtek.ru
 koddobra.ru
-lerna.ru
+list.ru
 mail.ru
 mediumquality.ru
 memealerts.com
 movika.com
 mvk.com
 my.com
-rustore.ru
-skillbox.ru
-skillbox.pro
-skillfactory.ru
+mymail.app
 sportmail.ru
 tamtam.chat
 tarantool.io
 tech-mail.ru
-tetrika-school.ru
-uchi.ru
-umschool.net
 vk-apps.com
 vk-apps.ru
 vk-records.ru
@@ -45,6 +45,8 @@ vklive.app
 vkmessenger.app
 vkmessenger.com
 vkontakte.ru
+vkpay.com
+vkpay.ru
 vkvideo.ru
 yclients.com
 
@@ -52,12 +54,16 @@ yclients.com
 adsadvisor.io @ads
 apptracer.ru @ads
 cxhub.ru @ads
+mytrk.link # block might break something, needs further investigation
+myadx.net @ads
 vk-analytics.ru @ads
 vkanalytics.net @ads
 domain:1l-hit.mail.ru @ads
 domain:1l-hit.vkplay.ru @ads
 domain:ad.mail.ru @ads
+domain:ad4.mail.ru @ads
 domain:ads.dahlmessenger.com @ads
+domain:ads.icq.com @ads
 domain:ads.rustore.ru @ads
 domain:ads-integration.rustore.ru @ads
 domain:ads.vk.com @ads
@@ -65,6 +71,12 @@ domain:ads.vk.ru @ads
 domain:adsapp.dahlmessenger.com @ads
 domain:adsapp.telega.info @ads
 domain:adv.rustore.ru @ads
+domain:alt-r.my.com @ads
+domain:an.mail.ru @ads
+domain:analytics.vk.ru @ads
+domain:analytics.vk.com @ads
+domain:b2.mail.ru @ads
+domain:bs.mail.ru @ads
 domain:click.rustore.ru @ads
 domain:log.dzen.ru @ads
 domain:ms.dzen.ru @ads
@@ -72,54 +84,40 @@ domain:ms.vk.com @ads
 domain:ms.vk.ru @ads
 domain:pixel.rustore.ru @ads
 domain:r.mail.ru @ads
+domain:r.my.com @ads
 domain:r0.mail.ru @ads
 domain:r0.mradx.net @ads
+domain:r1.mail.ru @ads
 domain:radar.imgsmail.ru @ads
+domain:reklama.mail.ru @ads
 domain:relap.mail.ru @ads
 domain:rs.mail.ru @ads
+domain:sentry-ng.g.smailru.net @ads
+domain:sentry.dev-my.com @ads
+domain:sentry.dev-my.games @ads
 domain:sentry.rustore.ru @ads
 domain:stacks.vk-portal.net @ads
 domain:stats.dahlmessenger.com @ads
 domain:stats.rustore.ru @ads
 domain:stats.telega.info @ads
 domain:stats.vk-portal.net @ads
+domain:t.mail.ru @ads
 domain:top-fwz1.mail.ru @ads
 domain:top-staging.mail.ru @ads
 domain:tracker-api.my.com @ads
+domain:tracker.my.com @ads
+domain:whiteline.mail.ru @ads
 domain:xray.mail.ru @ads
 
-# CDNs
-bizmrg.com
-cdn-vk.ru
-cdn-vk.net
-dzeninfra.ru
-imgsmail.ru
-mradx.net
-mrgcdn.ru
-mycdn.me
-mytopf.com
-okcdn.ru
-skbx.pro
-smailru.net
-staticmy.com
-vk-cdn.me
-vk-cdn.net
-vk-portal.net
-vkcache.com
-vkcdnservice.com
-vkcloud-static.ru
-vktech-static.ru
-vkuser.net
-vkuseraudio.com
-vkuseraudio.net
-vkuseraudio.ru
-vkusercdn.ru
-vkuserlive.net
-vkuserphoto.ru
-vkuservideo.com
-vkuservideo.net
-vkuservideo.ru
-userapi.com
+# Education
+gb.ru
+lerna.ru
+skillbox.ru
+skillbox.pro
+skillfactory.ru
+tetrika-school.ru
+uchi.ru
+umschool.net
 
 # ESforce
 cybersport.ru
@@ -135,6 +133,8 @@ sferum.ru
 
 # MY.GAMES
 # Formally left Russian market
+dev-my.games
+it-territory.com
 knightspeak.com
 my.games
 pixonic.com
@@ -143,7 +143,15 @@ prod-my.games
 #Odnoklassniki
 odkl.ru
 odnoklassniki.ru
+ok.me
 ok.ru
+oktech.ru
+
+# RuStore
+rustore.by
+rustore.ru
+rustore.team
+rustore.tv
 
 # Telega, an alternative Telegram client
 # CAUTION: SUSPECTED SPYWARE
