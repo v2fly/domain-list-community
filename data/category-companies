@@ -56,6 +56,7 @@ include:mailru-group
 include:meta
 include:microsoft
 include:mikrotik
+include:mindbox
 include:mindgeek
 include:mozilla
 include:msi
@@ -75,6 +76,7 @@ include:qwant
 include:razer
 include:salesforce
 include:samsung
+include:selectel
 include:skyperfect
 include:smartone
 include:snap
