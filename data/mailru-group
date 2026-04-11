@@ -1,10 +1,12 @@
 # VK Group, formerly known as Mail.ru Group, a Russian technology company
 include:mailru-group-cdn
 
+appsmail.ru
+armgs.team
+bargipsy.com
 boom.ru
 boosty.to
 donationalerts.com
-cups.online
 dzen.ru
 hrtek.ru
 koddobra.ru
@@ -14,22 +16,24 @@ memealerts.com
 movika.com
 mvk.com
 sportmail.ru
+summerstage.ru
 tamtam.chat
 tarantool.io
+tarantoolplus.ru
 tech-mail.ru
 vk-records.ru
 vk-stadium.ru
 vkcs.cloud
 vkfest.ru
-vkontakte.ru
 vkvideo.ru
 yclients.com
 regexp:(|dev-)my.com															#	my.com
 regexp:(bk|inbox|internet|list).ru								#	mail.ru mail domains
-regexp:vk(clips|go|live).app											# app TLD zone
+regexp:(lovina|vk(clips|go|live)).app							# app TLD zone
 regexp:vk-apps.(com|ru)														# VK Apps
 regexp:vk.(cc|com|company|design|link|me|ru|team)	# VK
 regexp:vkmessenger.(app|com)											# VK Messenger
+regexp:vkontakte.(com|ru)													# VK
 regexp:vkpay.(app|com|io|ru)											# VK Pay
 
 #	Ads and tracking
@@ -44,10 +48,12 @@ domain:1l-hit.mail.ru @ads
 domain:1l-hit.vkplay.ru @ads
 domain:ad.mail.ru @ads
 domain:ad4.mail.ru @ads
+domain:adblogger.vk.com @ads
 domain:ads.dahlmessenger.com @ads
 domain:ads.icq.com @ads
 domain:ads.rustore.ru @ads
 domain:ads-integration.rustore.ru @ads
+domain:ads.viqeo.tv @ads
 domain:ads.vk.com @ads
 domain:ads.vk.ru @ads
 domain:adsapp.dahlmessenger.com @ads
@@ -61,6 +67,7 @@ domain:b2.mail.ru @ads
 domain:bs.mail.ru @ads
 domain:click.rustore.ru @ads
 domain:log.dzen.ru @ads
+domain:metrics.viqeo.tv @ads
 domain:ms.dzen.ru @ads
 domain:ms.vk.com @ads
 domain:ms.vk.ru @ads
@@ -78,12 +85,16 @@ domain:sentry-ng.g.smailru.net @ads
 domain:sentry.dev-my.com @ads
 domain:sentry.dev-my.games @ads
 domain:sentry.rustore.ru @ads
+domain:sentry.viqeo.tv @ads
 domain:stacks.vk-portal.net @ads
 domain:stats.dahlmessenger.com @ads
 domain:stats.rustore.ru @ads
 domain:stats.telega.info @ads
 domain:stats.vk-portal.net @ads
 domain:t.mail.ru @ads
+domain:target.my.com @ads
+domain:target.vk.com @ads
+domain:target.vk.ru @ads
 domain:top-fwz1.mail.ru @ads
 domain:top-staging.mail.ru @ads
 domain:tracker-api.my.com @ads
@@ -91,13 +102,22 @@ domain:tracker.my.com @ads
 domain:whiteline.mail.ru @ads
 domain:xray.mail.ru @ads
 
+# All Cups
+cups.online
+gamescup.ru
+mlbootcamp.ru
+russiandesigncup.ru
+
 #	Education
+algoritmika.org
+code-class.ru
 gb.ru
 lerna.ru
 skillfactory.ru
 tetrika-school.ru
 uchi.ru
 umschool.net
+yaklass.ru
 regexp:skillbox.(pro|ru)
 
 #	ESforce
@@ -164,13 +184,15 @@ regexp:(|(dev|prod)-)my.games
 
 #	Odnoklassniki
 apiok.ru
+insideok.ru
 odkl.ru
 odnoklassniki.ru
+okl.lt
 oktech.ru
 regexp:ok.(me|ru)
 
 #	RuStore
-regexp:rustore.(by|ru|team|tv)
+regexp:rustore.(ru|team|tv)
 
 #	Telega, an alternative Telegram client
 #	CAUTION: SUSPECTED SPYWARE
@@ -180,6 +202,10 @@ dahl.su
 dahlmessenger.com
 tusco.ru
 regexp:telega.(info|me)
+
+#	Viqeo
+viqeo.tv
+viqeotv.com
 
 #	VK Play
 vkplay-arena.ru
