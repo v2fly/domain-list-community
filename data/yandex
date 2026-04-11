@@ -5,15 +5,25 @@ yandex
 xn--d1acpjx3f.xn--p1ai
 
 berizaryad.ru
+cabconnect.org
 clck.ru
 clstorage.net
+driveawaytaxi.org
 elama.ru
+gogettaxi.org
+goup.ai
+hayya.ae
 meteum.ai
+my-manager-account.com
 naydex.net
 rostaxi.org
 shedevrum.ai
 sourcecraft.dev
 static-storage.net
+support-uber.com
+taxiaid.org
+taxiguru.org
+taxitax.org
 turbopages.org
 ya.cc
 ya.ru
@@ -57,9 +67,23 @@ yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
+yandexgo.com
 yandexlyceum.ru
 yandexwebcache.net
 yandexwebcache.org
+yango-b2b.com
+yango-team.com
+yango-tech.com
+yango.africa
+yango.ao
+yango.bh
+yango.co.il
+yango.com
+yango.fi
+yango.qa
+yango.taxi
+yango.tech
+yangofellowship.com
 yastat.net
 yastatic-net.ru
 yastatic.net
@@ -68,7 +92,7 @@ yccdn.ru
 # Watching movies, included in the Yandex subscription
 include:kinopoisk
 
-#Ads/tracking
+# Ads/tracking
 adfox.ru @ads
 admetrica.ru @ads
 ads.yandex @ads
@@ -77,30 +101,37 @@ webvisor.org @ads
 yads.tech @ads
 yandex-metrica.ru @ads
 yandexmetrica.com @ads
-full:adfox.yandex.ru @ads
-full:adfstat.yandex.ru @ads
-full:ads.yandex.com @ads
-full:ads.yandex.ru @ads
-full:adsdk.yandex.ru @ads
-full:adv.yandex.com @ads
-full:adv.yandex.ru @ads
-full:amc.yandex.ru @ads
-full:an.yandex.ru @ads
-full:analytics.mobile.yandex.net @ads
-full:api.appmetrica.yandex.ru @ads
-full:browser-updater.yandex.net @ads
-full:bs.yandex.ru @ads
-full:clck.yandex.net @ads
-full:clck.yandex.ru @ads
-full:counter.yandex.net @ads
-full:counter.yandex.ru @ads
-full:informer.yandex.ru @ads
-full:mc.yandex.com @ads
-full:mc.yandex.ru @ads
-full:metrika.yandex.ru @ads
-full:pix.yandex.ru @ads
-full:pixel.yandex.net @ads
-full:report-partners.appmetrica.yandex.net @ads
-full:report.ap.yandex-net.ru @ads
-full:report.appmetrica.yandex.net @ads
-full:yabs.yandex.ru @ads
+yango-ads.com @ads
+domain:adfox.yandex.ru @ads
+domain:adfstat.yandex.ru @ads
+domain:ads.yandex.com @ads
+domain:ads.yandex.ru @ads
+domain:ads.yango.com @ads
+domain:adsdk.yandex.ru @ads
+domain:adv.yandex.com @ads
+domain:adv.yandex.ru @ads
+domain:amc.yandex.ru @ads
+domain:an.yandex.ru @ads
+domain:analytics.mobile.yandex.net @ads
+domain:appmetrica.yandex.com @ads
+domain:appmetrica.yandex.net @ads
+domain:appmetrica.yandex.ru @ads
+domain:appmetrica.yango.com @ads
+domain:browser-updater.yandex.net @ads
+domain:bs.yandex.ru @ads
+domain:clck.yandex.com @ads
+domain:clck.yandex.net @ads
+domain:clck.yandex.ru @ads
+domain:clck.yango.com @ads
+domain:counter.yandex.net @ads
+domain:counter.yandex.ru @ads
+domain:informer.yandex.ru @ads
+domain:mc.yandex.com @ads
+domain:mc.yandex.net @ads
+domain:mc.yandex.ru @ads
+domain:mc.yango.com @ads
+domain:metrika.yandex.ru @ads
+domain:pix.yandex.ru @ads
+domain:pixel.yandex.net @ads
+domain:report.ap.yandex-net.ru @ads
+domain:yabs.yandex.ru @ads
