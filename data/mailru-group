@@ -153,7 +153,7 @@ regexp:icqmail.(com|net)
 #	Messenger MAX
 max.ru
 oneme.ru
-regexp:sferum(-dev|).ru
+regexp:sferum(|-dev).ru
 
 # my.games
 # Formally left Russian market
