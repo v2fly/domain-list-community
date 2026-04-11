@@ -22,6 +22,8 @@ megamarket.ru
 megamarket.tech
 neon.click
 otello.ru
+payecom.ru
+platiecom.ru
 samokat.ru
 sberauto.com
 sberbank-insurance.ru
@@ -67,6 +69,7 @@ jivosite.ru
 # Ads/tracking
 sbermarketing.ru @ads
 domain:ads.neon.click @ads
+domain:api.neon.click @ads
 domain:clickstream.sberbank.ru @ads
 domain:error-tracking.megamarket.tech @ads
 domain:sentry.sberauto.com @ads
