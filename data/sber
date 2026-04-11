@@ -12,13 +12,15 @@ sberbank.ru
 afisha.ru
 citydrive.ru
 cloud.ru
-cloudru.cn @cn
+cloudru.cn # HK IP
+eaptechka.online
 eapteka.ru
 giga.chat
 id.ru
 kuper.ru
 megamarket.ru
 megamarket.tech
+neon.click
 otello.ru
 samokat.ru
 sberauto.com
@@ -64,8 +66,9 @@ jivosite.ru
 
 # Ads/tracking
 sbermarketing.ru @ads
-full:clickstream.sberbank.ru @ads
-full:error-tracking.megamarket.tech @ads
-full:sentry.sberauto.com @ads
-full:tracing-http.megamarket.tech @ads
-full:visor.sberbank.ru @ads
+domain:ads.neon.click @ads
+domain:clickstream.sberbank.ru @ads
+domain:error-tracking.megamarket.tech @ads
+domain:sentry.sberauto.com @ads
+domain:tracing-http.megamarket.tech @ads
+domain:visor.sberbank.ru @ads
