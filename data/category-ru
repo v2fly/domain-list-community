@@ -11,6 +11,7 @@ include:category-retail-ru
 include:category-travel-ru
 
 # Russian companies
+include:carrotquest
 include:kaspersky
 include:mailru-group
 include:mindbox
