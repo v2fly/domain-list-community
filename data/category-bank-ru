@@ -2,14 +2,21 @@ include:sber
 include:tbank-ru
 
 # Alfa Bank
-alfabank.ru
-alfabank.st
+alfadirect.ru
+myapelsin.ru
+domain:alfabank.oavdo.amc
+regexp:alfabank.(ru|st)
+
+# BCS bank
+bcs(|-bank).ru
+broker.ru
 
 # GazpromBank
-gazprombank.com
-gazprombank.investments
-gazprombank.ru
 gpb.ru
+regexp:gazprombank.(com|investments|ru)
+
+# MKB
+mkb.ru
 
 # MTS Dengi
 dbo-dengi.online
