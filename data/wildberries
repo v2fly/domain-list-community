@@ -113,7 +113,7 @@ domain:advert-api-sandbox.wildberries.ru @ads
 domain:advert-media-api.wildberries.ru @ads
 domain:analytics-stage.wildberries.ru @ads
 domain:analytics.wildberries.ru @ads
-domain:marketing-info.wildberries.ru
+domain:marketing-info.wildberries.ru @ads
 domain:marketplace-sentry.wb.ru @ads
 domain:sentry.wb.ru @ads
 domain:web-analytics.wildberries.ru @ads
