@@ -1,13 +1,9 @@
 include:bilibili-cdn
 include:bilibili-game
 
-
 # 哔哩哔哩漫画
 bilicomic.com
 bilicomics.com
-
-full:manga.bilibili.com
-
 
 acg.tv
 acgvideo.com
@@ -34,5 +30,6 @@ bilibilipay.com
 biligo.com
 biliintl.com @!cn
 dreamcast.hk @!cn
+huasheng.cn
 im9.com
 yo9.com
