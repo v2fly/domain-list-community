@@ -10,6 +10,7 @@ donationalerts.com
 dzen.ru
 hrtek.ru
 koddobra.ru
+lovina.app
 mail.ru
 mediumquality.ru
 memealerts.com
@@ -21,20 +22,29 @@ tamtam.chat
 tarantool.io
 tarantoolplus.ru
 tech-mail.ru
+vk-apps.com
+vk-apps.ru
 vk-records.ru
 vk-stadium.ru
+vk.cc
+vk.com
+vk.company
+vk.design
+vk.link
+vk.me
+vk.ru
+vk.team
+vkclips.app
 vkcs.cloud
 vkfest.ru
+vkgo.app
+vklive.app
+vkmessenger.app
+vkmessenger.com
+vkontakte.com
+vkontakte.ru
 vkvideo.ru
 yclients.com
-regexp:(|dev-)my.com                              # my.com
-regexp:(bk|inbox|internet|list).ru                # mail.ru mail domains
-regexp:(lovina|vk(clips|go|live)).app             # app TLD zone
-regexp:vk-apps.(com|ru)                           # VK Apps
-regexp:vk.(cc|com|company|design|link|me|ru|team) # VK
-regexp:vkmessenger.(app|com)                      # VK Messenger
-regexp:vkontakte.(com|ru)                         # VK
-regexp:vkpay.(app|com|io|ru)                      # VK Pay
 
 # Ads and tracking
 adsadvisor.io @ads
@@ -102,36 +112,61 @@ domain:tracker.my.com @ads
 domain:whiteline.mail.ru @ads
 domain:xray.mail.ru @ads
 
-# All Cups
+# Ecosystem
+
+## Additional mail.ru mail domains
+bk.ru
+inbox.ru
+internet.ru
+list.ru
+
+## All Cups
 cups.online
 gamescup.ru
 mlbootcamp.ru
 russiandesigncup.ru
 
-# Education
+## Education
 algoritmika.org
 code-class.ru
 gb.ru
 lerna.ru
+skillbox.pro
+skillbox.ru
 skillfactory.ru
 tetrika-school.ru
 uchi.ru
 umschool.net
 yaklass.ru
-regexp:skillbox.(pro|ru)
 
-# ESforce
+## ESforce
 cybersport.ru
 epicevents.gg
+esforce.com
+esforce.ru
 ruhub.tv
-regexp:esforce.(com|ru)
 
-# ICQ (deprecated)
+## ICQ (deprecated)
 ciciq.net
 goicq.org
 icq-download.com
 icq-mobile.com
 icq-online.com
+icq-phone.com
+icq-phone.org
+icq.asia
+icq.at
+icq.biz
+icq.com
+icq.de
+icq.fr
+icq.eu
+icq.im
+icq.lt
+icq.mobi
+icq.org
+icq.ru
+icq.sg
 icq2mobile.com
 icq5.com
 icqanywhere.com
@@ -142,6 +177,8 @@ icqflirting.com
 icqgame.com
 icqgames.com
 icqkids.com
+icqmail.com
+icqmail.net
 icqonline.com
 icqpassword.com
 icqpeople.com
@@ -166,50 +203,65 @@ xn----7sbbamm1bv2bh7i.com       # агент-аська.com
 xn----8sbaroledu6bi7j.com       # клиент-аська.com
 xn----8sbeoy5bze.com            # в-аське.com
 xn--80aqcf7a6do.com             # айсикью.com
-regexp:icq-phone.(com|org)
-regexp:icq.(asia|at|biz|com|de|fr|eu|im|lt|mobi|org|ru|sg)
-regexp:icqmail.(com|net)
 
-# Messenger MAX
+## Messenger MAX
 max.ru
 oneme.ru
-regexp:sferum(|-dev).ru
+sferum-dev.ru
+sferum.ru
 
-# my.games
-# Formally left Russian market
+## my.com
+dev-my.com
+my.com
+
+## my.games (formally left Russian market)
+dev-my.games
 it-territory.com
 knightspeak.com
+my.games
 pixonic.com
-regexp:(|(dev|prod)-)my.games
+prod-my.games
 
-# Odnoklassniki
+## Odnoklassniki
 apiok.ru
 insideok.ru
 odkl.ru
 odnoklassniki.ru
+ok.me
+ok.ru
 okl.lt
 oktech.ru
-regexp:ok.(me|ru)
 
-# RuStore
-regexp:rustore.(ru|team|tv)
+## RuStore
+rustore.ru
+rustore.team
+rustore.tv
 
-# Telega, an alternative Telegram client
-# CAUTION: SUSPECTED SPYWARE
-# For details see: https://dontusetelega.lol/analysis
+## Telega, an alternative Telegram client
+### CAUTION: SUSPECTED SPYWARE
+### For details see: https://dontusetelega.lol/analysis
 aodahl.com
 dahl.su
 dahlmessenger.com
+telega.info
+telega.me
 tusco.ru
-regexp:telega.(info|me)
 
-# Viqeo
+## Viqeo
 viqeo.tv
 viqeotv.com
 
-# VK Play
-vkplay-arena.ru
-regexp:vkplay.(ru|live)
+## VK Pay
+vkpay.app
+vkpay.com
+vkpay.io
+vkpay.ru
 
-# Youla
-regexp:youla.(io|ru)
+## VK Play
+vkplay-arena.ru
+vkplay.ru
+vkplay.live
+
+## Youla
+youla.io
+youla.ru
