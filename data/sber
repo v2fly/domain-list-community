@@ -4,8 +4,9 @@ include:okko
 bps-sberbank.by
 sber-bank.by
 sber.ru
+sberbank.com
+sberbank.ru
 sbrf.ru
-regexp:sberbank.(com|ru)
 
 # Ads/tracking
 neon.click @ads
@@ -20,8 +21,12 @@ domain:visor.sberbank.ru @ads
 
 # Business ecosystem
 id.ru
+megamarket.ru
+megamarket.tech
 sberauto.com
 sberbank-insurance.ru
+sbercloud.ru
+sbercloud.tech
 sberdevices.ru
 sberdisk.ru
 sberfactoring.ru
@@ -35,8 +40,6 @@ sbermegamarket.ru
 sbermobile.ru
 sberpb.ru
 sbertroika.ru
-regexp:megamarket.(ru|tech)
-regexp:sbercloud.(ru|tech)
 
 ## Afisha
 afisha.ru
@@ -71,7 +74,21 @@ giga.chat
 gitverse.ru
 
 ## Jivo/Jivochat/Jivosite (chat for website)
-regexp:jivo(.(chat|ru)|chat.((co.(in|za))|com(|.(br|co|pe|tr))|(de|es|ng|ru))|site.(com|ru))
+jivo.chat
+jivo.ru
+jivochat.co.in
+jivochat.co.za
+jivochat.com
+jivochat.com.br
+jivochat.com.co
+jivochat.com.pe
+jivochat.com.tr
+jivochat.de
+jivochat.es
+jivochat.ng
+jivochat.ru
+jivosite.com
+jivosite.ru
 
 ## Online payment service
 payecom.ru
@@ -87,7 +104,11 @@ full:sberpro.vedomosti.ru
 ## Sber Spasibo (loyalty service)
 cplsb.ru
 sberspasibo.ru
-regexp:spasibo(.(digital|market)|(bonus|(sb|sberbank).ru))
+spasibo.digital
+spasibo.market
+spasibobonus.ru
+spasibosb.ru
+spasibosberbank.ru
 
 ## Sber Tech
 accesspoint.uz
@@ -95,4 +116,5 @@ getsynapse.io
 sbertech.ru
 
 # Zvuk (music streaming)
-regexp:zvuk(|-b2b).com
+zvuk-b2b.com
+zvuk.com
