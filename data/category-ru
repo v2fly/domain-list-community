@@ -12,6 +12,7 @@ include:category-travel-ru
 
 # Russian companies
 include:carrotquest
+include:headhunter
 include:kaspersky
 include:mailru-group
 include:mindbox
@@ -32,6 +33,7 @@ finuslugi.ru
 # Investment
 sistema-capital.com
 # Mir payment system
+mironline.ru
 mirpayonline.ru
 # National Payment Card System
 nspk.ru
@@ -50,6 +52,7 @@ t2.ru
 tele2.ru
 
 ## Megafon
+inplat.ru
 megafon.com
 megafon.ru
 megafonpro.ru
