@@ -1,13 +1,14 @@
 # VK Group, formerly known as Mail.ru Group, a Russian technology company
+include:dzen
 include:mailru-group-cdn
+include:ok
+include:vk
 
-appsmail.ru
 armgs.team
 bargipsy.com
 boom.ru
 boosty.to
 donationalerts.com
-dzen.ru
 hrtek.ru
 koddobra.ru
 lovina.app
@@ -15,34 +16,21 @@ mail.ru
 mediumquality.ru
 memealerts.com
 movika.com
-mvk.com
 sportmail.ru
 summerstage.ru
 tamtam.chat
-tarantool.io
-tarantoolplus.ru
 tech-mail.ru
 vk-apps.com
 vk-apps.ru
 vk-records.ru
 vk-stadium.ru
-vk.cc
-vk.com
 vk.company
-vk.design
-vk.link
-vk.me
-vk.ru
 vk.team
 vkclips.app
 vkcs.cloud
 vkfest.ru
 vkgo.app
 vklive.app
-vkmessenger.app
-vkmessenger.com
-vkontakte.com
-vkontakte.ru
 vkvideo.ru
 yclients.com
 
@@ -52,35 +40,24 @@ apptracer.ru @ads
 cxhub.ru @ads
 mytrk.link # block might break something, needs further investigation
 myadx.net @ads
-vk-analytics.ru @ads
-vkanalytics.net @ads
 domain:1l-hit.mail.ru @ads
 domain:1l-hit.vkplay.ru @ads
 domain:ad.mail.ru @ads
 domain:ad4.mail.ru @ads
-domain:adblogger.vk.com @ads
 domain:ads.dahlmessenger.com @ads
 domain:ads.icq.com @ads
 domain:ads.rustore.ru @ads
 domain:ads-integration.rustore.ru @ads
 domain:ads.viqeo.tv @ads
-domain:ads.vk.com @ads
-domain:ads.vk.ru @ads
 domain:adsapp.dahlmessenger.com @ads
 domain:adsapp.telega.info @ads
 domain:adv.rustore.ru @ads
 domain:alt-r.my.com @ads
 domain:an.mail.ru @ads
-domain:analytics.vk.ru @ads
-domain:analytics.vk.com @ads
 domain:b2.mail.ru @ads
 domain:bs.mail.ru @ads
 domain:click.rustore.ru @ads
-domain:log.dzen.ru @ads
 domain:metrics.viqeo.tv @ads
-domain:ms.dzen.ru @ads
-domain:ms.vk.com @ads
-domain:ms.vk.ru @ads
 domain:pixel.rustore.ru @ads
 domain:r.mail.ru @ads
 domain:r.my.com @ads
@@ -100,17 +77,30 @@ domain:stacks.vk-portal.net @ads
 domain:stats.dahlmessenger.com @ads
 domain:stats.rustore.ru @ads
 domain:stats.telega.info @ads
-domain:stats.vk-portal.net @ads
 domain:t.mail.ru @ads
 domain:target.my.com @ads
-domain:target.vk.com @ads
-domain:target.vk.ru @ads
 domain:top-fwz1.mail.ru @ads
 domain:top-staging.mail.ru @ads
 domain:tracker-api.my.com @ads
 domain:tracker.my.com @ads
 domain:whiteline.mail.ru @ads
 domain:xray.mail.ru @ads
+
+# CDNs
+appsmail.ru
+attachmy.com
+bizmrg.com
+cdnmail.ru
+datacloudmy.com
+imgsmail.ru
+mpgw-my.com
+mradx.net
+mrgcdn.ru
+mycdn.me
+mytopf.com
+smailru.net
+staticmy.com
+vmailru.net
 
 # Ecosystem
 
@@ -131,6 +121,7 @@ algoritmika.org
 code-class.ru
 gb.ru
 lerna.ru
+skbx.pro # Probably a CDN
 skillbox.pro
 skillbox.ru
 skillfactory.ru
@@ -222,20 +213,14 @@ my.games
 pixonic.com
 prod-my.games
 
-## Odnoklassniki
-apiok.ru
-insideok.ru
-odkl.ru
-odnoklassniki.ru
-ok.me
-ok.ru
-okl.lt
-oktech.ru
-
 ## RuStore
 rustore.ru
 rustore.team
 rustore.tv
+
+## Tarantool
+tarantool.io
+tarantoolplus.ru
 
 ## Telega, an alternative Telegram client
 ### CAUTION: SUSPECTED SPYWARE
@@ -250,12 +235,6 @@ tusco.ru
 ## Viqeo
 viqeo.tv
 viqeotv.com
-
-## VK Pay
-vkpay.app
-vkpay.com
-vkpay.io
-vkpay.ru
 
 ## VK Play
 vkplay-arena.ru
