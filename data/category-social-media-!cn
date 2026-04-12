@@ -4,7 +4,6 @@ include:bluesky
 include:facebook
 include:instagram
 include:linkedin
-include:mailru-group
 include:misskey
 include:mixi
 include:ok
