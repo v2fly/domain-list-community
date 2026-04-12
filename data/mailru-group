@@ -1,6 +1,5 @@
 # VK Group, formerly known as Mail.ru Group, a Russian technology company
 include:dzen
-include:mailru-group-cdn
 include:ok
 include:vk
 
