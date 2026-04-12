@@ -33,6 +33,10 @@ vklive.app
 vkvideo.ru
 yclients.com
 
+# IDN ccTLD
+xn--80asgb.xn--p1ai # майл.рф
+xn--e1aigb.xn--p1ai # мейл.рф 
+
 # Ads and tracking
 adsadvisor.io @ads
 apptracer.ru @ads
@@ -43,13 +47,14 @@ domain:1l-hit.mail.ru @ads
 domain:1l-hit.vkplay.ru @ads
 domain:ad.mail.ru @ads
 domain:ad4.mail.ru @ads
+domain:ads-integration.rustore.ru @ads
 domain:ads.dahlmessenger.com @ads
 domain:ads.icq.com @ads
 domain:ads.rustore.ru @ads
-domain:ads-integration.rustore.ru @ads
 domain:ads.viqeo.tv @ads
 domain:adsapp.dahlmessenger.com @ads
 domain:adsapp.telega.info @ads
+domain:adsapp.stage.telega.info @ads
 domain:adv.rustore.ru @ads
 domain:alt-r.my.com @ads
 domain:an.mail.ru @ads
@@ -74,6 +79,7 @@ domain:sentry.rustore.ru @ads
 domain:sentry.viqeo.tv @ads
 domain:stacks.vk-portal.net @ads
 domain:stats.dahlmessenger.com @ads
+domain:stats.dev.telega.info @ads
 domain:stats.rustore.ru @ads
 domain:stats.telega.info @ads
 domain:t.mail.ru @ads
