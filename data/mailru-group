@@ -93,6 +93,7 @@ domain:xray.mail.ru @ads
 
 # CDNs
 appsmail.ru
+attachmail.ru
 attachmy.com
 bizmrg.com
 cdnmail.ru
@@ -114,6 +115,7 @@ bk.ru
 inbox.ru
 internet.ru
 list.ru
+xmail.ru
 
 ## All Cups
 cups.online
