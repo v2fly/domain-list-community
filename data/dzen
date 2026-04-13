@@ -1,2 +1,8 @@
 dzen.ru
+
+# Ads and tracking
+domain:log.dzen.ru @ads
+domain:ms.dzen.ru @ads
+
+# CDN
 dzeninfra.ru

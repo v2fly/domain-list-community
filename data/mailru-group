@@ -1,17 +1,251 @@
+# VK Group, formerly known as Mail.ru Group, a Russian technology company
 include:dzen
-include:mailru
 include:ok
 include:vk
 
+armgs.team
+bargipsy.com
+boom.ru
 boosty.to
 donationalerts.com
-max.ru
+hrtek.ru
+koddobra.ru
+lovina.app
+mail.ru
+mediumquality.ru
 memealerts.com
-oneme.ru
+movika.com
+sportmail.ru
+summerstage.ru
 tamtam.chat
+tech-mail.ru
+vk-apps.com
+vk-apps.ru
+vk-records.ru
+vk-stadium.ru
+vk.company
+vk.team
+vkclips.app
+vkcs.cloud
+vkfest.ru
+vkgo.app
+vklive.app
+vkvideo.ru
+yclients.com
+
+# IDN ccTLD
+xn--80asgb.xn--p1ai # майл.рф
+xn--e1aigb.xn--p1ai # мейл.рф 
+
+# Ads and tracking
+adsadvisor.io @ads
+apptracer.ru @ads
+cxhub.ru @ads
+mytrk.link # block might break something, needs further investigation
+myadx.net @ads
+domain:1l-hit.mail.ru @ads
+domain:1l-hit.vkplay.ru @ads
+domain:ad.mail.ru @ads
+domain:ad4.mail.ru @ads
+domain:ads-integration.rustore.ru @ads
+domain:ads.dahlmessenger.com @ads
+domain:ads.icq.com @ads
+domain:ads.rustore.ru @ads
+domain:ads.viqeo.tv @ads
+domain:adsapp.dahlmessenger.com @ads
+domain:adsapp.telega.info @ads
+domain:adsapp.stage.telega.info @ads
+domain:adv.rustore.ru @ads
+domain:alt-r.my.com @ads
+domain:an.mail.ru @ads
+domain:b2.mail.ru @ads
+domain:bs.mail.ru @ads
+domain:click.rustore.ru @ads
+domain:metrics.viqeo.tv @ads
+domain:pixel.rustore.ru @ads
+domain:r.mail.ru @ads
+domain:r.my.com @ads
+domain:r0.mail.ru @ads
+domain:r0.mradx.net @ads
+domain:r1.mail.ru @ads
+domain:radar.imgsmail.ru @ads
+domain:reklama.mail.ru @ads
+domain:relap.mail.ru @ads
+domain:rs.mail.ru @ads
+domain:sentry-ng.g.smailru.net @ads
+domain:sentry.dev-my.com @ads
+domain:sentry.dev-my.games @ads
+domain:sentry.rustore.ru @ads
+domain:sentry.viqeo.tv @ads
+domain:stacks.vk-portal.net @ads
+domain:stats.dahlmessenger.com @ads
+domain:stats.dev.telega.info @ads
+domain:stats.rustore.ru @ads
+domain:stats.telega.info @ads
+domain:t.mail.ru @ads
+domain:target.my.com @ads
+domain:top-fwz1.mail.ru @ads
+domain:top-staging.mail.ru @ads
+domain:tracker-api.my.com @ads
+domain:tracker.my.com @ads
+domain:whiteline.mail.ru @ads
+domain:xray.mail.ru @ads
+
+# CDNs
+appsmail.ru
+attachmy.com
+bizmrg.com
+cdnmail.ru
+datacloudmy.com
+imgsmail.ru
+mpgw-my.com
+mradx.net
+mrgcdn.ru
+mycdn.me
+mytopf.com
+smailru.net
+staticmy.com
+vmailru.net
+
+# Ecosystem
+
+## Additional mail.ru mail domains
+bk.ru
+inbox.ru
+internet.ru
+list.ru
+
+## All Cups
+cups.online
+gamescup.ru
+mlbootcamp.ru
+russiandesigncup.ru
+
+## Education
+algoritmika.org
+code-class.ru
+gb.ru
+lerna.ru
+skbx.pro # Probably a CDN
+skillbox.pro
+skillbox.ru
+skillfactory.ru
+tetrika-school.ru
+uchi.ru
+umschool.net
+yaklass.ru
+
+## ESforce
+cybersport.ru
+epicevents.gg
+esforce.com
+esforce.ru
+ruhub.tv
+
+## ICQ (deprecated)
+ciciq.net
+goicq.org
+icq-download.com
+icq-mobile.com
+icq-online.com
+icq-phone.com
+icq-phone.org
+icq.asia
+icq.at
+icq.biz
+icq.com
+icq.de
+icq.fr
+icq.eu
+icq.im
+icq.lt
+icq.mobi
+icq.org
+icq.ru
+icq.sg
+icq2mobile.com
+icq5.com
+icqanywhere.com
+icqbrasil.com
+icqbrazil.com
+icqchat.com
+icqflirting.com
+icqgame.com
+icqgames.com
+icqkids.com
+icqmail.com
+icqmail.net
+icqonline.com
+icqpassword.com
+icqpeople.com
+icqservers.com
+icqservice.com
+icqsupportteam.com
+icqsystem.com
+icqsystems.com
+icqtoday.com
+icqtutor.com
+icqvideo.com
+mailicq.org
+mirabilis.com
+mirandaicq.com
+mobile-icq.com
+mobileicq.com
+xn-----6kc7adj0c9esa.com        # ай-си-кью.com
+xn----7sbaba0dc6cdn7cxcj.com    # аська-скачать.com
+xn----7sbabae2a0bnvtsfr4loc.com # аська-бесплатная.com
+xn----7sbbab6bregnh7b8if5b.com  # мобильная-аська.com
+xn----7sbbamm1bv2bh7i.com       # агент-аська.com
+xn----8sbaroledu6bi7j.com       # клиент-аська.com
+xn----8sbeoy5bze.com            # в-аське.com
+xn--80aqcf7a6do.com             # айсикью.com
+
+## Messenger MAX
+max.ru
+oneme.ru
+sferum-dev.ru
+sferum.ru
+
+## my.com
+dev-my.com
+my.com
+
+## my.games (formally left Russian market)
+dev-my.games
+it-territory.com
+knightspeak.com
+my.games
+pixonic.com
+prod-my.games
+
+## RuStore
+rustore.ru
+rustore.team
+rustore.tv
+
+## Tarantool
+tarantool.io
+tarantoolplus.ru
+
+## Telega, an alternative Telegram client
+### CAUTION: SUSPECTED SPYWARE
+### For details see: https://dontusetelega.lol/analysis
+aodahl.com
+dahl.su
+dahlmessenger.com
 telega.info
 telega.me
+tusco.ru
+
+## Viqeo
+viqeo.tv
+viqeotv.com
+
+## VK Play
+vkplay-arena.ru
+vkplay.ru
+vkplay.live
+
+## Youla
 youla.io
 youla.ru
-
-full:youla-web-static.mrgcdn.ru
