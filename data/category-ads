@@ -8,6 +8,7 @@ include:amazon @ads
 include:apple @ads
 include:baidu @ads
 include:bytedance @ads
+include:carrotquest @ads
 include:cctv @ads
 include:disney @ads
 include:dmm @ads
@@ -15,6 +16,7 @@ include:duolingo @ads
 include:gamersky @ads
 include:google @ads
 include:hetzner @ads
+include:huawei @ads
 include:hunantv @ads
 include:iqiyi @ads
 include:jd @ads
@@ -24,9 +26,11 @@ include:le @ads
 include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
+include:mindbox @ads
 include:netease @ads
 include:ookla-speedtest @ads
 include:openai @ads
+include:ozon @ads
 include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
@@ -43,6 +47,8 @@ include:tendcloud @ads
 include:twitter @ads
 include:unity @ads
 include:unitychina @ads
+include:wildberries @ads
+include:x5 @ads
 include:xhamster @ads
 include:xiaomi @ads
 include:ximalaya @ads
