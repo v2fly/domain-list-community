@@ -71,6 +71,7 @@ include:oracle
 include:panasonic
 include:pccw
 include:plex
+include:progress
 include:qnap
 include:qualcomm
 include:qwant
