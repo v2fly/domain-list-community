@@ -1,6 +1,3 @@
-include:sber
-include:tbank-ru
-
 # Alfa Bank
 alfabank.ru
 alfabank.st
@@ -37,6 +34,12 @@ abr.ru
 
 # Russian Agricultural Bank
 rshb.ru
+
+# SberBank
+include:sber
+
+# T-Bank (Tinkoff) and RosBank
+include:tbank-ru
 
 # Tochka bank
 tochka-tech.com
