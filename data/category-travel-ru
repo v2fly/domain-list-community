@@ -10,6 +10,9 @@ avtovokzaly.ru
 # Ostrovok
 ostrovok.ru
 
+# Othello
+include:sber
+
 # Public transport and ticketing
 include:mosmetro
 full:bilet.nspk.ru
