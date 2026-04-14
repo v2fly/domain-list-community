@@ -10,8 +10,9 @@ avtovokzaly.ru
 # Ostrovok
 ostrovok.ru
 
-# Othello
-include:sber
+# Othello / Otello from 2GIS and Sber
+otello.ru
+sber.ru
 
 # Public transport and ticketing
 include:mosmetro
