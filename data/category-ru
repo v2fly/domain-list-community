@@ -80,24 +80,20 @@ srv-hub.org      # Website buider
 t1.cloud         # Russian cloud storage provider
 taxsee.com       # Taxi for business (self-employed drivers)
 
-## Envybox (website conversion widgets)
-envybox.io @ads
-whitesaas.com @ads  # White-label product of Envybox
-saas-support.com @ads # CDN/infrastructure for Envybox
-
-## Gismeteo (weather service)
-gismeteo.st
-gismeteo.net
-
-## Other services
+# Other services
 3ebra.net         # Zebra Net Bureau, web development agency
+envybox.io @ads   # Website conversion widgets
 flomni.com        # Omnichannel communications platform
 flocktory.com @ads # Marketing personalization platform
-full:ru.id.group-ib.com # Group-IB Russian auth portal
+gismeteo.net      # Gismeteo weather service
+gismeteo.st       # Gismeteo weather service
+group-ib.com      # Group-IB cybersecurity company
 kinescopecdn.net  # Kinescope video hosting CDN
 kontur.host       # SKB Kontur, business SaaS provider
-full:lk.ognihome.com # OGNI HOME resident portal
+ognihome.com      # OGNI HOME resident portal
+saas-support.com @ads # CDN/infrastructure for Envybox
 targetads.io @ads # Advertising verification platform
+whitesaas.com @ads # White-label product of Envybox
 yourgood.app      # CRM for small business
 
 ## COMSS.ONE "Computer Security Software Russia"
