@@ -11,12 +11,16 @@ include:category-retail-ru
 include:category-travel-ru
 
 # Russian companies
+include:beget
 include:carrotquest
+include:cdek
 include:headhunter
 include:kaspersky
 include:mailru-group
 include:mindbox
 include:selectel
+include:skyeng
+include:timeweb
 include:whoosh
 include:yandex
 
