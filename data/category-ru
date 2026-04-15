@@ -17,6 +17,7 @@ include:kaspersky
 include:mailru-group
 include:mindbox
 include:selectel
+include:whoosh
 include:yandex
 
 # Bank & Finance & Insurance & Securities
