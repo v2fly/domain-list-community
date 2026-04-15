@@ -44,21 +44,21 @@ xn--80aafgovrgbc7am.xn--p1ai # озондоставка.рф
 xn--e1adjldbbpv.xn--90ais # озонрокет.бел
 
 # Advertising and tracking
-domain:ad.ozone.ru @ads
-domain:adv.ozon.ru @ads
-domain:agency-adv.ozon.ru @ads
-domain:analytics-adv.ozon.ru @ads
-domain:beginners-adv.ozon.ru @ads
-domain:google-analytics-suite.ozon.ru @ads
-domain:loyalnost-adv.ozon.ru @ads
-domain:new-adv.ozon.ru @ads
-domain:prodvizhenie-adv.ozon.ru @ads
-domain:questions-adv.ozon.ru @ads
-domain:sentry.ozon.ru @ads
-domain:xapi.ozon.by @ads
-domain:xapi.ozon.com @ads
-domain:xapi.ozon.com.by @ads
-domain:xapi.ozon.com.kz @ads
-domain:xapi.ozon.kz @ads
-domain:xapi.ozon.ru @ads
-domain:xapi.ozonru.me @ads
+full:ad.ozone.ru @ads
+full:adv.ozon.ru @ads
+full:agency-adv.ozon.ru @ads
+full:analytics-adv.ozon.ru @ads
+full:beginners-adv.ozon.ru @ads
+full:google-analytics-suite.ozon.ru @ads
+full:loyalnost-adv.ozon.ru @ads
+full:new-adv.ozon.ru @ads
+full:prodvizhenie-adv.ozon.ru @ads
+full:questions-adv.ozon.ru @ads
+full:sentry.ozon.ru @ads
+full:xapi.ozon.by @ads
+full:xapi.ozon.com @ads
+full:xapi.ozon.com.by @ads
+full:xapi.ozon.com.kz @ads
+full:xapi.ozon.kz @ads
+full:xapi.ozon.ru @ads
+full:xapi.ozonru.me @ads
