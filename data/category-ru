@@ -11,13 +11,16 @@ include:category-retail-ru
 include:category-travel-ru
 
 # Russian companies
+include:betboom
 include:carrotquest
+include:fonbet
 include:headhunter
 include:kaspersky
 include:mailru-group
 include:mindbox
 include:selectel
 include:whoosh
+include:winline
 include:yandex
 
 # Bank & Finance & Insurance & Securities
