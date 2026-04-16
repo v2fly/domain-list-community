@@ -7,6 +7,7 @@ include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
+include:category-media-ru
 include:category-medicine-ru
 include:category-retail-ru
 include:category-travel-ru
@@ -49,13 +50,6 @@ nspk.ru
 ## Tipping service
 netmonet.co
 tips.tips
-
-# Media
-# NOT include category-media-ru, it's for media blocked in Russia now.
-russiatoday.com
-rteam.tech   # IT company owned by RT's parent org (ANO TV-Novosti)
-shop-rt.com  # RT merchandise store
-swentr.site  # RT mirror domain
 
 # Telecom operators
 beeline.ru
