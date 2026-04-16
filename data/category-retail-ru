@@ -36,11 +36,17 @@ fix-price.com
 lenta.com
 lenta.tech
 
-# Magnet
-magnit.ru
+# Magnit
+include:magnit
+
+# M.Video
+include:mvideo
 
 # Metro
 metro-cc.ru
+
+# OSKELLY
+include:oskelly
 
 # Pyaterochka, Perekrestok, Chizhik
 include:x5
@@ -58,6 +64,9 @@ ilovesakura.ru
 
 # Spar
 myspar.ru
+
+# SOKOLOV
+include:sokolov
 
 # Sushi Wok
 sushiwok.ru

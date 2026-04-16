@@ -12,13 +12,13 @@ popmechanic.ru
 summitceo.ru
 
 # Tracking
-domain:api-js.mindbox.ru @ads
-domain:api-ru.mindbox.cloud @ads
-domain:api-staging.mindbox.ru @ads
-domain:api.mindbox.cloud @ads
-domain:api.mindbox.ru @ads
-domain:e.mindbox.ru @ads
-domain:g.mindbox.ru @ads
-domain:s.mindbox.ru @ads
-domain:sentry.mindbox.ru @ads
-domain:sentry.popmechanic.ru @ads
+e.mindbox.ru @ads
+g.mindbox.ru @ads
+s.mindbox.ru @ads
+full:api-js.mindbox.ru @ads
+full:api-ru.mindbox.cloud @ads
+full:api-staging.mindbox.ru @ads
+full:api.mindbox.cloud @ads
+full:api.mindbox.ru @ads
+full:sentry.mindbox.ru @ads
+full:sentry.popmechanic.ru @ads

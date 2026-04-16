@@ -9,15 +9,15 @@ sberbank.ru
 sbrf.ru
 
 # Ads/tracking
+ads.sber.ru @ads
+clickstream.sberbank.ru @ads
 neon.click @ads
 sbermarketing.ru @ads
-domain:ads.sber.ru @ads
-domain:clickstream.sberbank.ru @ads
-domain:error-tracking.megamarket.tech @ads
-domain:metrics.21-school.ru @ads
-domain:sentry.sberauto.com @ads
-domain:tracing-http.megamarket.tech @ads
-domain:visor.sberbank.ru @ads
+full:error-tracking.megamarket.tech @ads
+full:metrics.21-school.ru @ads
+full:sentry.sberauto.com @ads
+full:tracing-http.megamarket.tech @ads
+full:visor.sberbank.ru @ads
 
 # Business ecosystem
 id.ru

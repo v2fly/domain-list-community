@@ -9,17 +9,21 @@ vkontakte.com
 vkontakte.ru
 
 # Ads and tracking
+adv.vk.com @ads
+analytics.vk.com @ads
+ms.vk.com @ads
+ms.vk.ru @ads
+target.vk.ru @ads
 vk-analytics.ru @ads
-domain:adblogger.vk.com @ads
-domain:ads.vk.com @ads
-domain:ads.vk.ru @ads
-domain:analytics.vk.ru @ads
-domain:analytics.vk.com @ads
-domain:ms.vk.com @ads
-domain:ms.vk.ru @ads
-domain:stats.vk-portal.net @ads
-domain:target.vk.com @ads
-domain:target.vk.ru @ads
+full:adblogger.vk.com @ads
+full:adblogger.vk.ru @ads
+full:ads.vk.com @ads
+full:ads.vk.ru @ads
+full:adv.vk.ru @ads
+full:advk.vk.ru @ads
+full:analytics.vk.ru @ads
+full:stats.vk-portal.net @ads
+full:target.vk.com @ads
 
 # CDNs
 cdn-vk.net
