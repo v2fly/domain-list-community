@@ -52,7 +52,7 @@ wildberries.ru
 wildberries.tj
 wildberries.tm
 wildberries.uz
-xn--90ab.com
+xn--90ab.com # вб.com
 
 # Typesquatting domains
 velberis.ru
@@ -99,21 +99,21 @@ wolfberries.ru
 
 # IDN ccTLDs
 xn--80acbjgmges7ca.xn--p1ai # вайлдберриз.рф
-xn--80acbjgsdq2cl.xn--p1ai # вайлдберис.рф
+xn--80acbjgsdq2cl.xn--p1ai  # вайлдберис.рф
 
 # Advertising and tracking
-domain:ads-gate.wildberries.ru @ads
-domain:ads-media.wildberries.ru @ads
-domain:ads.wildberries.ru @ads
-domain:advert-api.wb.ru @ads
-domain:advert-api-sandbox.wb.ru @ads
-domain:advert-media-api.wb.ru @ads
-domain:advert-api.wildberries.ru @ads
-domain:advert-api-sandbox.wildberries.ru @ads
-domain:advert-media-api.wildberries.ru @ads
-domain:analytics-stage.wildberries.ru @ads
-domain:analytics.wildberries.ru @ads
-domain:marketing-info.wildberries.ru @ads
-domain:marketplace-sentry.wb.ru @ads
-domain:sentry.wb.ru @ads
-domain:web-analytics.wildberries.ru @ads
+full:ads-gate.wildberries.ru @ads
+full:ads-media.wildberries.ru @ads
+full:ads.wildberries.ru @ads
+full:advert-api.wb.ru @ads
+full:advert-api-sandbox.wb.ru @ads
+full:advert-media-api.wb.ru @ads
+full:advert-api.wildberries.ru @ads
+full:advert-api-sandbox.wildberries.ru @ads
+full:advert-media-api.wildberries.ru @ads
+full:analytics-stage.wildberries.ru @ads
+full:analytics.wildberries.ru @ads
+full:marketing-info.wildberries.ru @ads
+full:marketplace-sentry.wb.ru @ads
+full:sentry.wb.ru @ads
+full:web-analytics.wildberries.ru @ads

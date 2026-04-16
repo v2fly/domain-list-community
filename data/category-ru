@@ -3,6 +3,7 @@ ru.com
 ru.net
 
 include:tld-ru
+include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
@@ -11,12 +12,17 @@ include:category-retail-ru
 include:category-travel-ru
 
 # Russian companies
+include:beget
 include:carrotquest
+include:cdek
 include:headhunter
 include:kaspersky
 include:mailru-group
 include:mindbox
+include:myoffice-ru
 include:selectel
+include:skyeng
+include:timeweb
 include:ucoz-ru
 include:whoosh
 include:yandex

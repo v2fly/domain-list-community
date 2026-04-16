@@ -94,6 +94,7 @@ full:xray.mail.ru @ads
 
 # CDNs
 appsmail.ru
+attachmail.ru
 attachmy.com
 bizmrg.com
 cdnmail.ru
@@ -115,6 +116,7 @@ bk.ru
 inbox.ru
 internet.ru
 list.ru
+xmail.ru
 
 ## All Cups
 cups.online
@@ -207,11 +209,11 @@ oneme.ru
 sferum-dev.ru
 sferum.ru
 
-## my.com
+## My.com, myMail
 dev-my.com
 my.com
 
-## my.games (formally left Russian market)
+## My.Games (formally left Russian market)
 dev-my.games
 it-territory.com
 knightspeak.com
