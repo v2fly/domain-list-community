@@ -20,6 +20,7 @@ include:huawei @ads
 include:hunantv @ads
 include:iqiyi @ads
 include:jd @ads
+include:kontur @ads
 include:kuaishou @ads
 include:kugou @ads
 include:le @ads
