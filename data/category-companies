@@ -94,6 +94,7 @@ include:timeweb
 include:tonec
 include:uber
 include:ubiquiti
+include:ucoz
 include:verisign
 include:verizon
 include:vultr
