@@ -1,3 +1,5 @@
+include:kinopoisk
+
 # All .yandex domains
 yandex
 
@@ -89,49 +91,45 @@ yastatic-net.ru
 yastatic.net
 yccdn.ru
 
-# Watching movies, included in the Yandex subscription
-include:kinopoisk
-
-# Ads/tracking
+# Ads and tracking
 adfox.ru @ads
+adfox.yandex.ru @ads
 admetrica.ru @ads
 ads.yandex @ads
+ads.yandex.ru @ads
+adv.yandex.com @ads
+adv.yandex.ru @ads
+an.yandex.ru @ads
+appmetrica.yandex.com @ads
+appmetrica.yandex.net @ads
+appmetrica.yandex.ru @ads
+appmetrica.yango.com @ads
+bs.yandex.ru @ads
+clck.yandex.ru @ads
+counter.yandex.ru @ads
+mc.yandex.ru @ads
+metrika.yandex.com @ads
+metrika.yandex.net @ads
+metrika.yandex.ru @ads
 webvisor.com @ads
 webvisor.org @ads
+yabs.yandex.ru @ads
 yads.tech @ads
 yandex-metrica.ru @ads
 yandexmetrica.com @ads
 yango-ads.com @ads
-domain:adfox.yandex.ru @ads
-domain:adfstat.yandex.ru @ads
-domain:ads.yandex.com @ads
-domain:ads.yandex.ru @ads
-domain:ads.yango.com @ads
-domain:adsdk.yandex.ru @ads
-domain:adv.yandex.com @ads
-domain:adv.yandex.ru @ads
-domain:amc.yandex.ru @ads
-domain:an.yandex.ru @ads
-domain:analytics.mobile.yandex.net @ads
-domain:appmetrica.yandex.com @ads
-domain:appmetrica.yandex.net @ads
-domain:appmetrica.yandex.ru @ads
-domain:appmetrica.yango.com @ads
-domain:browser-updater.yandex.net @ads
-domain:bs.yandex.ru @ads
-domain:clck.yandex.com @ads
-domain:clck.yandex.net @ads
-domain:clck.yandex.ru @ads
-domain:clck.yango.com @ads
-domain:counter.yandex.net @ads
-domain:counter.yandex.ru @ads
-domain:informer.yandex.ru @ads
-domain:mc.yandex.com @ads
-domain:mc.yandex.net @ads
-domain:mc.yandex.ru @ads
-domain:mc.yango.com @ads
-domain:metrika.yandex.ru @ads
-domain:pix.yandex.ru @ads
-domain:pixel.yandex.net @ads
-domain:report.ap.yandex-net.ru @ads
-domain:yabs.yandex.ru @ads
+full:adfstat.yandex.ru @ads
+full:ads.yandex.com @ads
+full:ads.yango.com @ads
+full:adsdk.yandex.ru @ads
+full:amc.yandex.ru @ads
+full:analytics.mobile.yandex.net @ads
+full:clck.yandex.com @ads
+full:clck.yandex.net @ads
+full:clck.yango.com @ads
+full:informer.yandex.ru @ads
+full:mc.yandex.com @ads
+full:mc.yandex.net @ads
+full:mc.yango.com @ads
+full:pixel.yandex.com @ads
+full:report.ap.yandex-net.ru @ads

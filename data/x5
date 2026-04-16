@@ -31,6 +31,7 @@ x5q.ru
 x5static.net
 x5w.ru
 
-# Ads/tracking
-domain:ads.x5media.ru @ads
-domain:sentry.x5.ru @ads
+# Ads and tracking
+full:ads.x5.ru @ads
+full:ads.x5media.ru @ads
+full:sentry.x5.ru @ads
