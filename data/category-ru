@@ -21,25 +21,32 @@ include:yandex
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-ru
-# Credit History Bureaus
+## Credit History Bureaus
 credistory.ru
 nbki.ru
-# Currency and stock exchanges
+## Currency and stock exchanges
 moex.com   # Moscow Stock Exchange
 spvb.ru    # Saint-Petersburg Stock Exchange
-# Financial marketplace
+## Financial marketplace
 banki.ru
 finuslugi.ru
-# Investment
+## Investment
 sistema-capital.com
-# Mir payment system
+## Mir payment system
 mironline.ru
 mirpayonline.ru
-# National Payment Card System
+## National Payment Card System
 nspk.ru
-# Tipping service
+## Tipping service
 netmonet.co
 tips.tips
+
+# Media
+# NOT include category-media-ru, it's for media blocked in Russia now.
+russiatoday.com
+rteam.tech   # IT company owned by RT's parent org (ANO TV-Novosti)
+shop-rt.com  # RT merchandise store
+swentr.site  # RT mirror domain
 
 # Telecom operators
 beeline.ru
