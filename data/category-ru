@@ -23,6 +23,7 @@ include:mindbox
 include:myoffice-ru
 include:selectel
 include:skyeng
+include:tilda
 include:timeweb
 include:ucoz-ru
 include:whoosh
@@ -105,7 +106,6 @@ gismeteo.net      # Gismeteo weather service
 gismeteo.st       # Gismeteo weather service
 group-ib.com      # Group-IB cybersecurity company
 kinescopecdn.net  # Kinescope video hosting CDN
-kontur.host       # SKB Kontur, business SaaS provider
 ognihome.com      # OGNI HOME resident portal
 saas-support.com @ads # CDN/infrastructure for Envybox
 targetads.io @ads # Advertising verification platform
