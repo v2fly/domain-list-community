@@ -12,6 +12,9 @@ mgfoms.ru
 
 # Federal Educational Services
 edu.ru
+ro-edu.ru
+include:sgo
+include:netschool
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
