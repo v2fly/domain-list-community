@@ -13,14 +13,14 @@ mgfoms.ru      # The mandatory health insurance system in Moscow
 # Federal Educational Services
 include:sgo    # Students online journal
 edu.ru         # Russian digital school
-ro-edu.ru      # Russian education federal portal
-netschool.website  # Students online journal
-tomedu.ru      # Tomsk education portal
-edu-74.ru      # Education in the Chelyabinsk region
-prim-edu.ru    # Primorsky Krai education services portal
-zabedu.ru      # Education portal of the Trans-baikal region
-ooc-school.ru  # "Schooll" general education portal
 edu22.info     # Official portal of the Altai krai education system
+edu-74.ru      # Education in the Chelyabinsk region
+netschool.website  # Students online journal
+ooc-school.ru  # "Schooll" general education portal
+prim-edu.ru    # Primorsky Krai education services portal
+ro-edu.ru      # Russian education federal portal
+tomedu.ru      # Tomsk education portal
+zabedu.ru      # Education portal of the Trans-baikal region
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
@@ -162,9 +162,9 @@ vologda.ru      # Vologda Region
 voronezh.ru     # Voronezh Region
 vrn.ru          # Voronezh Region
 vyatka.ru       # Kirov Region
+volganet.net    # Volgograd Oblast
 yaroslavl.ru    # Yaroslavl Region
 yuzhno-sakhalinsk.ru # Yuzhno-Sakhalinsk City, Sakhalin Region
-volganet.net    # Volgograd Oblast
 
 # Autonomous areas
 chukotka.ru     # Chukotka Autonomous Area
