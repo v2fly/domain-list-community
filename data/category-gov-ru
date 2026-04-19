@@ -14,7 +14,13 @@ mgfoms.ru
 edu.ru
 ro-edu.ru
 include:sgo
-include:netschool
+netschool.website
+tomedu.ru
+edu-74.ru
+prim-edu.ru
+zabedu.ru
+ooc-school.ru
+edu22.info
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
@@ -27,6 +33,8 @@ kremlin.ru      # Online representation of the President of Russia
 mil.ru          # Ministry of Defense of the Russian Federation
 nalog.ru        # Federal Tax Service
 xn--80ajghhoc2aj1c8b.xn--p1ai # Honest Sign - State Labeling System
+xn--90aivcdt6dxbc.xn--p1ai # Explaining Russia - A website with answers to questions
+xn--d1acchc3adyj9k.xn--p1ai # Achievements of the counrty and regions
 
 #
 # Regional sites and Public Services
@@ -75,6 +83,9 @@ udmurtia.ru     # Republic of Udmurtia
 ulan-ude.ru     # Ulan-Ude City, Republic of Buryatia
 vladikavkaz.ru  # Vladikavkaz City, Republic of North Ossetia-Alania
 yakutia.ru      # Republic of Yakutia
+e-yakutia.ru    
+kchgov.ru
+cap.ru
 
 # Territories (Krai)
 altai.ru        # Altai Territory
@@ -153,12 +164,14 @@ vrn.ru          # Voronezh Region
 vyatka.ru       # Kirov Region
 yaroslavl.ru    # Yaroslavl Region
 yuzhno-sakhalinsk.ru # Yuzhno-Sakhalinsk City, Sakhalin Region
+volganet.net
 
 # Autonomous areas
 chukotka.ru     # Chukotka Autonomous Area
 jamal.ru        # Yamal-Nenets Autonomous Area
 surgut.ru       # Khanty-Mansi Autonomous Area – Yugra
 yamal.ru        # Yamal-Nenets Autonomous Area
+yanao.ru
 
 # Regional health services
 zdrav10.ru      # Republic of Karelia
