@@ -98,12 +98,11 @@ t1.cloud         # Russian cloud storage provider
 taxsee.com       # Taxi for business (self-employed drivers)
 
 # Other services
+include:gismeteo-ru # Gismeteo weather service
 3ebra.net         # Zebra Net Bureau, web development agency
 envybox.io @ads   # Website conversion widgets
 flomni.com        # Omnichannel communications platform
 flocktory.com @ads # Marketing personalization platform
-gismeteo.net      # Gismeteo weather service
-gismeteo.st       # Gismeteo weather service
 group-ib.com      # Group-IB cybersecurity company
 kinescopecdn.net  # Kinescope video hosting CDN
 ognihome.com      # OGNI HOME resident portal
