@@ -4,11 +4,17 @@ av.ru
 # Auchan
 auchan.ru
 
+# AudioHead
+audiohead.ru
+
 # Bristol
 bristol.ru
 
 # Children's World
 detmir.ru
+
+# Coolera
+coolera.ru
 
 # Dixie
 dixy.ru
@@ -23,6 +29,9 @@ dodostatic.net
 # Dostaevsky
 dostaevsky.ru
 
+# Dr.Head / Doctorhead
+doctorhead.ru
+
 # Eurasia
 evrasia.rest
 
@@ -31,6 +40,9 @@ vkusnoitochka.ru
 
 # Fix Price
 fix-price.com
+
+# Lamoda
+lamoda.ru
 
 # Lenta
 lenta.com
@@ -45,6 +57,9 @@ include:mvideo
 # Metro
 metro-cc.ru
 
+# NOTIK
+notik.ru
+
 # OSKELLY
 include:oskelly
 
@@ -53,6 +68,9 @@ include:x5
 
 # Red and White
 krasnoeibeloe.ru
+
+# Regard
+regard.ru
 
 # Rostics
 rostics.ru
