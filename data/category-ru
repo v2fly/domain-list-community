@@ -17,6 +17,7 @@ include:beget
 include:carrotquest
 include:cdek
 include:comssone
+include:envybox
 include:genotek
 include:gismeteo
 include:group-ib
@@ -104,8 +105,3 @@ kinescopecdn.net      # Kinescope video hosting CDN
 ognihome.com          # OGNI HOME resident portal
 targetads.io @ads     # Advertising verification platform
 yourgood.app          # CRM for small business
-
-## Envybox
-envybox.io @ads       # Website conversion widgets
-saas-support.com @ads # CDN/infrastructure for Envybox
-whitesaas.com @ads    # White-label product of Envybox
