@@ -59,6 +59,7 @@ netmonet.co
 tips.tips
 
 # Telecom operators
+include:megafon
 beeline.ru
 dom.ru
 mts.ru
@@ -67,22 +68,6 @@ rostelecom.ru
 rt.ru
 t2.ru
 tele2.ru
-
-## Megafon
-inplat.ru
-megafon.com
-megafon.ru
-megafonpro.ru
-mgfn.ru
-report-megafon.ru
-scartel.ru
-yota.ru
-yotagamer.ru
-
-### IDN ccTLD
-xn--80a9a4b.xn--p1ai # ёта.рф
-xn--80aj3b.xn--p1ai # ета.рф
-xn--80arpq.xn--p1ai # йота.рф
 
 # Other domains
 apptrackpets.com # Pet GPS tracker service (Yandex Cloud, reg.ru)
