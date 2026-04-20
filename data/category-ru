@@ -7,6 +7,7 @@ include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
 include:category-gov-ru
+include:category-media-ru
 include:category-medicine-ru
 include:category-retail-ru
 include:category-travel-ru
@@ -51,13 +52,6 @@ nspk.ru
 netmonet.co
 tips.tips
 
-# Media
-# NOT include category-media-ru, it's for media blocked in Russia now.
-russiatoday.com
-rteam.tech   # IT company owned by RT's parent org (ANO TV-Novosti)
-shop-rt.com  # RT merchandise store
-swentr.site  # RT mirror domain
-
 # Telecom operators
 beeline.ru
 dom.ru
@@ -98,41 +92,18 @@ t1.cloud         # Russian cloud storage provider
 taxsee.com       # Taxi for business (self-employed drivers)
 
 # Other services
-3ebra.net         # Zebra Net Bureau, web development agency
-envybox.io @ads   # Website conversion widgets
-flomni.com        # Omnichannel communications platform
-flocktory.com @ads # Marketing personalization platform
-gismeteo.net      # Gismeteo weather service
-gismeteo.st       # Gismeteo weather service
-group-ib.com      # Group-IB cybersecurity company
-kinescopecdn.net  # Kinescope video hosting CDN
-ognihome.com      # OGNI HOME resident portal
+include:comssone    # COMSS.ONE "Computer Security Software Russia"
+include:genotek-ru  # Genotek
+include:gismeteo-ru # Gismeteo weather service
+include:ideco-ru    # Ideco, NGFW developer
+3ebra.net           # Zebra Net Bureau, web development agency
+envybox.io @ads     # Website conversion widgets
+flomni.com          # Omnichannel communications platform
+flocktory.com @ads  # Marketing personalization platform
+group-ib.com        # Group-IB cybersecurity company
+kinescopecdn.net    # Kinescope video hosting CDN
+ognihome.com        # OGNI HOME resident portal
 saas-support.com @ads # CDN/infrastructure for Envybox
-targetads.io @ads # Advertising verification platform
-whitesaas.com @ads # White-label product of Envybox
-yourgood.app      # CRM for small business
-
-## COMSS.ONE "Computer Security Software Russia"
-comss.club
-comss.info
-comss.me
-comss.net
-comss.news
-comss.one
-comss.online
-comss.org
-comss.ru
-
-## Genotek
-eligens.cl
-eligens.com.br
-eligens.io
-genetic-technologies.am
-genotek.am
-genotek.health
-genotek.ru
-
-## Ideco, NGFW developer
-ideco.dev
-ideco.ru
-idecosoftware.ru
+targetads.io @ads   # Advertising verification platform
+whitesaas.com @ads  # White-label product of Envybox
+yourgood.app        # CRM for small business
