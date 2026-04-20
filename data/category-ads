@@ -29,7 +29,7 @@ include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:mindbox @ads
-include:mts @ads
+include:mts-ru @ads
 include:netease @ads
 include:ookla-speedtest @ads
 include:openai @ads
