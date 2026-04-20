@@ -19,6 +19,7 @@ include:cdek
 include:comssone
 include:genotek
 include:gismeteo
+include:group-ib
 include:headhunter
 include:ideco-ru
 include:kaspersky
@@ -108,6 +109,3 @@ yourgood.app          # CRM for small business
 envybox.io @ads       # Website conversion widgets
 saas-support.com @ads # CDN/infrastructure for Envybox
 whitesaas.com @ads    # White-label product of Envybox
-
-## Group-IB
-group-ib.com
