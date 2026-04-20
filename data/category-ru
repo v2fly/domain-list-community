@@ -60,14 +60,13 @@ tips.tips
 
 # Telecom operators
 include:megafon
+include:t2-ru
 beeline.ru
 dom.ru
 mts.ru
 mymts.ru
 rostelecom.ru
 rt.ru
-t2.ru
-tele2.ru
 
 # Other domains
 apptrackpets.com # Pet GPS tracker service (Yandex Cloud, reg.ru)
