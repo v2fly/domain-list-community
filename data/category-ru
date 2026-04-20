@@ -60,7 +60,7 @@ tips.tips
 
 # Telecom operators
 include:megafon
-include:mts
+include:mts-ru
 include:rostelecom
 include:t2-ru
 beeline.ru
