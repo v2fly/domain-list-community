@@ -1,17 +1,26 @@
 # Federal Gov.
-government.ru
-gov.ru
+government.ru  #The official website of the russian government
+gov.ru         #Russian government server
 
 # Federal Public Services
-gosuslugi.ru
-gu-st.ru
+gosuslugi.ru  #Government services portal new version
+gu-st.ru      #Government services portal old version
 
 # Federal Healthcare Services
-emias.info
-mgfoms.ru
+emias.info    #Making an appointment at a municipal clinic in Moscow
+mgfoms.ru     #The mandatory health insurance system in Moscow
 
 # Federal Educational Services
-edu.ru
+include:sgo    # Students online journal
+edu.ru         # Russian digital school
+edu22.info     # Official portal of the Altai krai education system
+edu-74.ru      # Education in the Chelyabinsk region
+netschool.website  # Students online journal
+ooc-school.ru  # "Schooll" general education portal
+prim-edu.ru    # Primorsky Krai education services portal
+ro-edu.ru      # Russian education federal portal
+tomedu.ru      # Tomsk education portal
+zabedu.ru      # Education portal of the Trans-baikal region
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
@@ -24,6 +33,8 @@ kremlin.ru      # Online representation of the President of Russia
 mil.ru          # Ministry of Defense of the Russian Federation
 nalog.ru        # Federal Tax Service
 xn--80ajghhoc2aj1c8b.xn--p1ai # Honest Sign - State Labeling System
+xn--90aivcdt6dxbc.xn--p1ai # Explaining Russia - A website with answers to questions
+xn--d1acchc3adyj9k.xn--p1ai # Achievements of the counrty and regions
 
 #
 # Regional sites and Public Services
@@ -48,8 +59,10 @@ sevastopol.ru   # Sevastopol
 adygeya.ru      # Republic of Adygea
 bashkiria.ru    # Republic of Bashkortostan
 buryatia.ru     # Republic of Buryatia
+cap.ru          # Chuvash Republic
 chuvashia.ru    # Chuvash Republic
 crimea.ru       # Republic of Crimea
+e-yakutia.ru    # Republic of Sakha (Yakutia)
 dagestan.ru     # Republic of Dagestan
 grozny.ru       # Grozny City, Chechen Republic
 i-ola.ru        # Yoshkar-Ola City, Republic of Mari El
@@ -58,6 +71,7 @@ kalmykia.ru     # Republic of Kalmykia
 karelia.ru      # Republic of Karelia
 kazan.ru        # Kazan City, Republic of Tatarstan
 kchr.ru         # Karachay-Cherkessia
+kchgov.ru       # Karachay-Cherkess Republic
 khakassia.ru    # Republic of Khakassia
 mari-el.ru      # Republic of Mari El
 mari.ru         # Republic of Mari El
@@ -146,6 +160,7 @@ vlg.ru          # Volgograd Region
 volgograd.ru    # Volgograd Region
 vologda.ru      # Vologda Region
 voronezh.ru     # Voronezh Region
+volganet.net    # Volgograd Oblast
 vrn.ru          # Voronezh Region
 vyatka.ru       # Kirov Region
 yaroslavl.ru    # Yaroslavl Region
@@ -156,6 +171,7 @@ chukotka.ru     # Chukotka Autonomous Area
 jamal.ru        # Yamal-Nenets Autonomous Area
 surgut.ru       # Khanty-Mansi Autonomous Area – Yugra
 yamal.ru        # Yamal-Nenets Autonomous Area
+yanao.ru        # Yamalo-Nenets Autonomous Okrug
 
 # Regional health services
 zdrav10.ru      # Republic of Karelia
