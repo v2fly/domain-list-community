@@ -5,6 +5,7 @@
 # Data sources:
 ## https://raw.githubusercontent.com/hagezi/dns-blocklists/master/domains/doh.txt
 ## https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-domains.txt 
+## https://github.com/curl/curl/wiki/DNS-over-HTTPS
 ## + SubjectAlternativeName from SSL certificates
 
 # Cloudflare DNS
@@ -15,8 +16,8 @@ domain:cloudflare-dns.com
 # Google DNS
 full:dns.google
 full:8888.google
+full:dns.google.com
 full:dns64.dns.google
-domain:dns.google.com
 
 # Mullvad
 domain:dns.mullvad.net
@@ -28,38 +29,34 @@ domain:public-resolver.mullvad.net
 domain:dns.nextdns.io
 domain:dns1.nextdns.io
 domain:dns2.nextdns.io
-domain:edge.nextdns.io
-domain:steering.nextdns.io
 
 # ControlD
-domain:dns.controld.com
 domain:dns.controld.net
-domain:freedns.controld.com
+domain:dns.controld.com
 domain:freedns.controld.net
+domain:freedns.controld.com
 
 # Cisco OpenDNS
-domain:dns.opendns.com
-domain:doh.opendns.com
-domain:pdns.opendns.com
-domain:dns64.opendns.com
-domain:dns7071.opendns.com
-domain:resolver1.opendns.com
-domain:resolver2.opendns.com
-domain:familyshield.opendns.com
+full:dns.opendns.com
+full:doh.opendns.com
+full:pdns.opendns.com
+full:dns7071.opendns.com
+full:resolver1.opendns.com
+full:resolver2.opendns.com
+full:familyshield.opendns.com
+full:doh.familyshield.opendns.com
 
 # Cisco Umbrella
-domain:dns.umbrella.com
-domain:doh.umbrella.com
-domain:pdns.umbrella.com
-domain:dns64.umbrella.com
-domain:dns7071.umbrella.com
+full:dns.umbrella.com
+full:doh.umbrella.com
+full:pdns.umbrella.com
+full:dns7071.umbrella.com
 
 # Cisco SSE
-domain:dns.sse.cisco.com
-domain:doh.sse.cisco.com
-domain:dns64.sse.cisco.com
-domain:dns7071.sse.cisco.com
-domain:familyshield.sse.cisco.com
+full:dns.sse.cisco.com
+full:doh.sse.cisco.com
+full:dns7071.sse.cisco.com
+full:familyshield.sse.cisco.com
 
 # Quad9 DNS
 full:dns.quad9.net
@@ -82,11 +79,7 @@ full:dns-family.adguard.com
 full:dns-unfiltered.adguard.com
 
 # Yandex DNS
-domain:dns.yandex.by
-domain:dns.yandex.kz
-domain:dns.yandex.ru
-domain:dns.yandex.net
-domain:dns.yandex.com
+domain:dot.dns.yandex.net
 
 # CleanBrowsing (unfortunately, we have to block the entire domain)
 domain:cleanbrowsing.org
