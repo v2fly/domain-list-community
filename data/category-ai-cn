@@ -4,6 +4,11 @@ include:doubao
 include:trae # MarsCode
 include:xiaomi-ai
 
+# LibLibAI
+liblib.art
+liblib.cloud
+liblib.tv
+
 # RWKV
 rwkv.cn
 rwkv.com
@@ -53,7 +58,6 @@ yuanqi.tencent.com
 baichuan-ai.com
 
 botvip.cn
-liblib.art
 
 # 夸克 CueMe
 cueme.cn
