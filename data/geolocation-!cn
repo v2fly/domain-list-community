@@ -115,10 +115,11 @@ wolframalpha.com
 include:category-entertainment
 
 # File & Image & Video hosting
+include:category-netdisk-!cn
+
 include:0x0
 include:casimages
 include:cloudinary
-include:dropbox
 include:gfycat
 include:imagebam
 include:imagecurl
@@ -126,13 +127,11 @@ include:imageshack
 include:imagetwist
 include:imgbb
 include:imgur
-include:pikpak
 include:pixhost
 include:postimages
 include:pstorage
 include:rumble
 include:streamable
-include:terabox
 
 # Forums & Social network
 include:category-forums
@@ -210,7 +209,6 @@ include:liberapay
 include:localizejs
 include:madshi
 include:mapbox
-include:mega
 include:netlify
 include:notion
 include:okaapps
