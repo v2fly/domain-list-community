@@ -4,9 +4,18 @@ include:doubao
 include:trae # MarsCode
 include:xiaomi-ai
 
+# LibLibAI
+liblib.art
+liblib.cloud
+liblib.tv
+
 # RWKV
 rwkv.cn
 rwkv.com
+
+# TapNowAI
+# Only this domain has an access point in mainland China
+tapnow.top
 
 # 通义千问
 qianwen.aliyun.com
@@ -51,9 +60,6 @@ yuanqi.tencent.com
 
 # 百川智能
 baichuan-ai.com
-
-botvip.cn
-liblib.art
 
 # 夸克 CueMe
 cueme.cn
