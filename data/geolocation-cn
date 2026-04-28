@@ -519,6 +519,7 @@ include:midea
 include:narwal # 云鲸科技
 include:netease @-!cn
 include:oppo @-!cn
+include:qianxin
 include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
@@ -1701,12 +1702,3 @@ safeskill.cn
 threatbook.cn
 onedns.net # OneDNS
 shellpub.com
-
-# 奇安信 奇安信科技集团股份有限公司 京ICP备16020626号
-qianxin.com
-qianxincdn.com
-95015.com
-ceati.org.cn # CEATI 联盟
-seclab.online # SecLab
-datacon.org.cn # DataCon
-tianshucup.com # 天枢杯
