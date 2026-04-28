@@ -463,8 +463,6 @@ zhangyuecdn.com
 moseeker.com
 ## 小能智慧云客服
 ntalker.com
-## OneDNS 微步在线
-onedns.net
 ## 心知天气
 sencdn.com
 seniverse.com
@@ -521,6 +519,7 @@ include:midea
 include:narwal # 云鲸科技
 include:netease @-!cn
 include:oppo @-!cn
+include:qianxin
 include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
@@ -547,23 +546,29 @@ suzuki-china.com # 铃木中国官网
 udesk.cn # 沃丰科技
 ysjf.com # 影视飓风
 
-# 飞牛
+## 飞牛
 fnnas.com
 fnnas.net
 fnos.net
-# 稿定（厦门）信息服务有限公司
-## 花瓣网 闽ICP备2021013850号
+## 稿定（厦门）信息服务有限公司
+### 花瓣网 闽ICP备2021013850号
 huaban.com
 huabanimg.com
-## 闽ICP备12002004号
+### 闽ICP备12002004号
 dancf.com
 hlgdata.com
 huanleguang.com
 ttxsapp.com.cn
 xsbapp.cn
-# 凯迪仕
+## 凯迪仕
 juziwulian.com
 kaadas.com
+## 微步在线 / 步刻科技
+onedns.net
+#safeskill.cn
+shellpub.com
+threatbook.cn
+threatbook.com
 
 # Telecommunication
 include:chinabroadnet
