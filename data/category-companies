@@ -30,12 +30,15 @@ include:digitalocean
 include:dmit
 include:drweb
 include:duolingo
+include:envybox
 include:faronics
+include:genotek-ru
 include:giffgaff
 include:gigabyte
 include:gmo-internet
 include:godaddy
 include:google
+include:group-ib
 include:headhunter
 include:hetzner
 include:hinet
@@ -45,6 +48,7 @@ include:hpe
 include:hubblephone
 include:ibm
 include:ibkr
+include:ideco-ru
 include:inshot
 include:intel
 include:intuit
@@ -55,6 +59,7 @@ include:lg
 include:logitech
 include:louisvuitton
 include:mailru-group
+include:megafon
 include:meta
 include:microsoft
 include:mikrotik
@@ -62,6 +67,7 @@ include:mindbox
 include:mindgeek
 include:mozilla
 include:msi
+include:mts-ru
 include:musixmatch
 include:mxroute
 include:naver
@@ -77,6 +83,7 @@ include:qnap
 include:qualcomm
 include:qwant
 include:razer
+include:rostelecom
 include:salesforce
 include:samsung
 include:selectel
@@ -89,6 +96,7 @@ include:spaceship
 include:st
 include:synology
 include:symantec
+include:t2-ru
 include:theboringcompany
 include:timeweb
 include:tonec
