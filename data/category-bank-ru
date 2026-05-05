@@ -5,10 +5,16 @@ alfadirect.ru
 myapelsin.ru
 domain:alfabank.oavdo.amc
 
+# BBR
+bbr.ru
+
 # BCS bank
 bcs.ru
 bcs-bank.ru
 broker.ru
+
+# DOM.RF
+domrfbank.ru
 
 # GazpromBank
 gazprombank.com
@@ -24,6 +30,9 @@ mkb.ru
 dbo-dengi.online
 mtsdengi.ru
 
+# OTP Bank
+include:otpbank
+
 # PSB Bank
 payment.ru
 psb-ocenka.ru
@@ -33,11 +42,17 @@ psbank.ru
 # RUSSIA Bank
 abr.ru
 
+# Raiffeisen
+include:raiffeisen
+
 # Russian Agricultural Bank
 rshb.ru
 
 # SberBank
 include:sber
+
+# Sovcombank
+sovcombank.ru
 
 # T-Bank (Tinkoff) and RosBank
 include:tbank-ru
@@ -49,45 +64,67 @@ tochka.com
 # VTB Bank
 pochtabank.ru #subsidiary
 vtb-direct.com
-vtb.ru
 vtb-grants.fut.ru
+vtb.ru
 vtbglobalperspectives.com
-
-# DOM.RF
-rkbank.ru
 
 # Zenit
 credit-zenit.ru
 zenit-card.ru
+zenit.ru
 
 # Other
+absolutbank.ru
+akbars.ru
 alefbank.com
 ankb.ru
 asia-pay.ru
+atb.su
 autobahn.db.com
+autokreditbank.ru
+avangard.ru
+aversbank.ru
 bank-arzamas.ru
 bank-credit-suisse-moscow.ru
 bank131.com
 bankermak.ru
 bfa.ru
+bm-bank.ru
+bspb.ru
 commerzbank.ru
+finambank.ru
 forshtadt.ru
+homecredit.ru
 ibamoscow.ru
 jpmorgan.ru
 korona.com
+kubankredit.ru
+mfk-bank.ru
 mizuhogroup.com
+mtsbank.ru
 mvs-bank.ru
 noosferabank.ru
+primbank.ru
 prvbank.ru
+pskb.ru
 pvubank.com
+rencapbank.ru
+rencredit.ru
 rncoluminis.ru
 ru.ccb.com
+sbibankllc.ru
+seb.ru
 selkombank.ru
+sinara.ru
 slavbank.ru
 smbcr-bank.ru
+solid.ru
 ssb.msk.ru
 tagbank.ru
+tatsotsbank.ru
+tkbbank.ru
 ubs.com
+uralsib.ru
 vlb100.ru
 westernunion.ru
 yoobusiness.ru
