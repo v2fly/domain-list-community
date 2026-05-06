@@ -26,13 +26,37 @@ opensource.guide
 repo.new
 thegithubshop.com
 
-# GitHub Actions Artifacts
-blob.core.windows.net
-
 full:github-api.arkoselabs.com
+
+# Amazon S3
 full:github-cloud.s3.amazonaws.com
-regexp:^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$
+full:github-production-release-asset-2e65be.s3.amazonaws.com
+full:github-production-repository-file-5c1aeb.s3.amazonaws.com
+full:github-production-repository-image-32fea6.s3.amazonaws.com
+full:github-production-upload-manifest-file-7fdce7.s3.amazonaws.com
+full:github-production-user-asset-6210df.s3.amazonaws.com
+
+# Azure Blob Storage
+full:productionresultssa0.blob.core.windows.net
+full:productionresultssa1.blob.core.windows.net
+full:productionresultssa2.blob.core.windows.net
+full:productionresultssa3.blob.core.windows.net
+full:productionresultssa4.blob.core.windows.net
+full:productionresultssa5.blob.core.windows.net
+full:productionresultssa6.blob.core.windows.net
+full:productionresultssa7.blob.core.windows.net
+full:productionresultssa8.blob.core.windows.net
+full:productionresultssa9.blob.core.windows.net
+full:productionresultssa10.blob.core.windows.net
+full:productionresultssa11.blob.core.windows.net
+full:productionresultssa12.blob.core.windows.net
+full:productionresultssa13.blob.core.windows.net
+full:productionresultssa14.blob.core.windows.net
+full:productionresultssa15.blob.core.windows.net
+full:productionresultssa16.blob.core.windows.net
+full:productionresultssa17.blob.core.windows.net
+full:productionresultssa18.blob.core.windows.net
+full:productionresultssa19.blob.core.windows.net
 
 # Ads/tracking
 collector.github.com @ads
-copilot-telemetry.githubusercontent.com @ads
