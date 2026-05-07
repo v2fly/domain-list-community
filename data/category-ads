@@ -9,6 +9,7 @@ include:apple @ads
 include:baidu @ads
 include:bytedance @ads
 include:carrotquest @ads
+include:category-food-cn @ads
 include:cctv @ads
 include:disney @ads
 include:dmm @ads
@@ -59,7 +60,6 @@ include:ximalaya @ads
 include:yahoo @ads
 include:yandex @ads
 include:zhihu @ads
-include:category-food-cn @ads
 
 # Other domains for ads serving
 51.la
