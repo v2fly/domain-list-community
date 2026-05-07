@@ -3,7 +3,11 @@ include:ddmaicai
 include:lkcoffee
 
 3songshu.com
+
+# 海底捞
 haidilao.com
+hdlcdns.com
+kiwa-tech.com
 
 # 喜茶
 heytea.com
@@ -25,3 +29,37 @@ yst.com.cn
 # 娃哈哈
 wahaha.com.cn
 whhhealth.com
+
+# 茶百道（四川蜀信云茶）
+shuxinyc.com
+
+# 蜜雪冰城
+mxbc.net
+
+# 北京吉野家/DQ
+hophing.cn
+
+# 汉堡王
+bkchina.cn
+
+# 肯德基
+kfc.com.cn
+yumchina.com
+
+# qmai（一堆餐饮企业在用的 CRM）
+qmai.cn
+qmimg.cn
+
+# 麦当劳中国
+mcd.cn
+mcdchina.net
+mcdonalods.com.cn
+
+# 德克士
+dicos.com.cn
+
+# Tracking
+www.trackserver.shuxinyc.com @ads
+trackingprd.hwwt8.com @ads
+logger.qmai.cn @ads
+tracking.mcdonalds.com.cn @ads

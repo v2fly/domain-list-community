@@ -59,6 +59,7 @@ include:ximalaya @ads
 include:yahoo @ads
 include:yandex @ads
 include:zhihu @ads
+include:category-food-cn @ads
 
 # Other domains for ads serving
 51.la
