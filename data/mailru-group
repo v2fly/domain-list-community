@@ -9,15 +9,12 @@ boom.ru
 boosty.to
 donationalerts.com
 hrtek.ru
-justveryok.com
 koddobra.ru
 lovina.app
 mail.ru
 mediumquality.ru
 memealerts.com
 movika.com
-rabbitcounter.com
-sayeasy.eu
 sportmail.ru
 summerstage.ru
 tamtam.chat
@@ -39,6 +36,12 @@ yclients.com
 # IDN ccTLD
 xn--80asgb.xn--p1ai # майл.рф
 xn--e1aigb.xn--p1ai # мейл.рф
+
+# Unknown-purpose domains with DGA subdomains
+justveryok.com
+keyboardmen.com
+rabbitcounter.com
+sayeasy.eu
 
 # Ads and tracking
 ad.mail.ru @ads
