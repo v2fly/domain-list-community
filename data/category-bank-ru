@@ -13,6 +13,11 @@ bcs.ru
 bcs-bank.ru
 broker.ru
 
+# Deutsche Bank
+dbmoscow.ru
+deutsche-bank.ru
+deutschebank.ru
+
 # DOM.RF
 domrfbank.ru
 xn--d1aqf.xn--p1ai
@@ -27,12 +32,13 @@ gpb.ru
 # MKB
 mkb.ru
 
-# MTS Dengi
+# MTS
 dbo-dengi.online
+mtsbank.ru
 mtsdengi.ru
 
 # OTP Bank
-include:otpbank
+otpbank.ru
 
 # PSB Bank
 payment.ru
@@ -44,7 +50,8 @@ psbank.ru
 abr.ru
 
 # Raiffeisen
-include:raiffeisen
+raiffeisen-media.ru
+raiffeisen.ru
 
 # Russian Agricultural Bank
 rshb.ru
@@ -81,7 +88,6 @@ alefbank.com
 ankb.ru
 asia-pay.ru
 atb.su
-autobahn.db.com
 autokreditbank.ru
 avangard.ru
 aversbank.ru
@@ -102,7 +108,6 @@ korona.com
 kubankredit.ru
 mfk-bank.ru
 mizuhogroup.com
-mtsbank.ru
 mvs-bank.ru
 noosferabank.ru
 primbank.ru
