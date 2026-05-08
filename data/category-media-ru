@@ -1,5 +1,11 @@
-# Media sites in Russia
-russiatoday.com
-rteam.tech   # IT company owned by RT's parent org (ANO TV-Novosti)
-shop-rt.com  # RT merchandise store
-swentr.site  # RT mirror domain
+# Russian media (that are not prosecuted by the state)
+include:rossiyasegodnya
+include:rt
+
+# EurAsia Daily (EADaily, EAD), allegedly a state-controlled news outlet
+eadaily.com
+eadaily.info
+eadaily.net
+eadaily.org
+eadaily.su
+eurasiadaily.su
