@@ -7,7 +7,6 @@ include:ipip
 abstractapi.com
 apiip.net
 apivoid.com
-beacondb.net
 bigdatacloud.net
 check-host.net
 checkip.org
@@ -142,6 +141,7 @@ wieistmeineip.de
 wtfismyip.com
 
 # Subdomains/internal api used for ip-geo-detect
+full:api.beacondb.net
 full:checkip.amazonaws.com
 full:checkip.dyndns.org
 full:checkip.dyn.com
