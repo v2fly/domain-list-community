@@ -34,19 +34,22 @@ whhhealth.com
 shuxinyc.com
 
 # 蜜雪冰城
+mxbc.com
 mxbc.net
 
 # 北京吉野家/DQ
 hophing.cn
+hophing.com.cn
 
 # 汉堡王
 bkchina.cn
 
-# 肯德基
+# 肯德基/百胜中国
 kfc.com.cn
 yumchina.com
 
-# qmai（一堆餐饮企业在用的 CRM）
+# 企迈/智迈（一堆餐饮企业在用的 CRM）
+qmai.com
 qmai.cn
 qmimg.cn
 
@@ -59,7 +62,7 @@ mcdonalds.com.cn
 dicos.com.cn
 
 # Tracking
-www.trackserver.shuxinyc.com @ads
-trackingprd.hwwt8.com @ads
 logger.qmai.cn @ads
 tracking.mcdonalds.com.cn @ads
+trackingprd.hwwt8.com @ads
+trackserver.shuxinyc.com @ads
