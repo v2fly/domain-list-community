@@ -3,6 +3,7 @@ ru.com
 ru.net
 
 include:tld-ru
+include:category-ads-ru
 include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
@@ -14,10 +15,8 @@ include:category-travel-ru
 
 # Russian companies
 include:beget
-include:carrotquest
 include:cdek
 include:comssone
-include:envybox
 include:genotek-ru
 include:gismeteo
 include:group-ib
@@ -26,7 +25,6 @@ include:ideco-ru
 include:kaspersky
 include:kontur
 include:mailru-group
-include:mindbox
 include:myoffice-ru
 include:selectel
 include:skyeng
@@ -82,12 +80,6 @@ srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
 yourgood.app       # CRM for small business
-
-## Ads and tracking
-adriver.ru @ads
-flocktory.com @ads
-roistat.com @ads
-targetads.io @ads
 
 ## Planeta Zdorov'ya pharmacy
 planetazdorovo.ru
