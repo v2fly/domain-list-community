@@ -2,6 +2,9 @@ include:bestore
 include:ddmaicai
 include:lkcoffee
 
+# 麦当劳中国
+include:mcdonalds @cn
+
 3songshu.com
 
 # 海底捞
@@ -52,11 +55,6 @@ yumchina.com
 qmai.com
 qmai.cn
 qmimg.cn
-
-# 麦当劳中国
-mcd.cn
-mcdchina.net
-mcdonalds.com.cn
 
 # 德克士
 dicos.com.cn
