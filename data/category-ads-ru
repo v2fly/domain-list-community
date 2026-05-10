@@ -1,3 +1,4 @@
+# This file contains domains of Russian ads providers, including both the domains that serves ads, and the domains of providers themselves.
 include:carrotquest
 include:envybox
 include:mindbox
