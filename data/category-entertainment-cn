@@ -5,7 +5,6 @@ include:category-games-cn
 include:aamgame
 include:acfun
 include:acplay
-include:bestv
 include:bilibili @-!cn
 include:ciweimao
 include:dedao
@@ -15,8 +14,6 @@ include:duitang
 include:fengxing
 include:fqnovel
 include:gamersky
-include:gitv
-include:hunantv
 include:huya
 include:iqiyi @-!cn
 include:ku6
@@ -32,17 +29,33 @@ include:qingtingfm
 include:sakurafrp
 include:taomee
 include:u17
-include:wasu
 include:xiaoheihe
 include:xiaoyuzhou
 include:ximalaya
 include:youku
 include:yuewen @-!cn
+include:yy
 
 # Android Emulator
 ldmnq.com
 lsplayer.com
 yeshen.com
+
+# 互联网电视
+## 广东南方新媒体/SMC
+aisee.tv
+atianqi.com
+## 百视通
+include:bestv
+## 国广东方/CIBN
+cibn.cc
+cibntv.net
+## 银河电视
+include:gitv
+## 芒果TV‌
+include:hunantv
+## 华数TV
+include:wasu
 
 # 172Mix 舞曲音乐
 172mix.com
@@ -50,13 +63,14 @@ yeshen.com
 17k.com
 # https://github.com/supzhang/epg
 51zmt.top
-# 广东南方新媒体
-aisee.tv
 # 动画巡礼
 anitabi.cn
 # 暴风影音
 baofeng.com
 baofeng.net
+# 暴走漫画
+baozou.com
+baozoumanhua.com
 # 街机地图
 bemanicn.com
 # 布咕阅读
@@ -84,8 +98,15 @@ heiyanimg.com
 hongshu.com
 # 火星小说
 hotread.com
+# 花椒直播
+huajiao.com
+# 映客直播
+inke.cn
+ikstatic.cn
 # 晋江文学城
 jjwxc.net
+# 咔叽相机
+kajicam.com
 # 酷匠网
 kjcdn.com
 kujiang.com
