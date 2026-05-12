@@ -28,10 +28,12 @@ cptu.org.cn
 # 其他域名
 postoa.com.cn
 
-# 邮储银行已在 category-bank-cn 中列出，需要讨论是否要在此重新列一遍
+# 邮储银行
+psbc.com
 
-# 中国邮政助农
+# 邮乐网
 ule.com
+ulecdn.com
 
 # 未知但有中邮备案
 postmail.cn
