@@ -13,6 +13,7 @@ steamstatic.com
 steamusercontent.com
 underlords.com
 valvesoftware.com
+steamconnecttest.com
 
 # edgecast
 edge.steam-dns.top.comcast.net
@@ -55,6 +56,12 @@ full:steamvideo-a.akamaihd.net
 
 # Azure
 full:steamcloudsweden.blob.core.windows.net
+full:steamcloudhk2.blob.core.windows.net
+full:steamcloudsg.blob.core.windows.net
+
+# AWS
+full:steamcloud-tyo.s3.dualstack.ap-northeast-1.amazonaws.com
+full:steamcloud-sg.s3.dualstack.ap-southeast-1.amazonaws.com
 
 # 完美
 csgo.wmsj.cn @cn
@@ -80,9 +87,14 @@ steamstatic.com.8686c.com @cn
 full:alibaba.cdn.steampipe.steamcontent.com @cn
 full:lv.queniujq.cn @cn
 full:xz.pphimalayanrt.com @cn
+full:steamcloud-hkg.oss-accelerate.aliyuncs.com @cn
+full:steamcloud-sgp.oss-accelerate.aliyuncs.com @cn
 
 # 蒸汽中国
 steamchina.com @cn
 
 # 数云科技
 gstore.val.manlaxy.com @cn
+
+# 雾出云
+gstore.val.smogfly.com @cn
