@@ -33,6 +33,7 @@ full:connect.rom.miui.com
 ipv6check-http.steamserver.net
 ipv6check-udp.steamserver.net
 test.steampowered.com
+steamconnecttest.com
 
 # Ubuntu
 full:connectivity-check.ubuntu.com
