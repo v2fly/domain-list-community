@@ -128,6 +128,12 @@ full:cdn-ws.content.steamchina.com @cn
 # Steam - 游戏下载(中国区)[腾讯云]
 full:cdn-qc.content.steamchina.com @cn
 
+# Steam - 游戏下载(中国区)[数云科技]
+gstore.val.manlaxy.com @cn
+
+# Steam - 游戏下载(中国区)[雾出云]
+gstore.val.smogfly.com @cn
+
 # Steam - 游戏下载/社区实况直播(非中国下载区)[Valve]
 full:cache10-atl3.steamcontent.com
 full:cache10-fra1.steamcontent.com
