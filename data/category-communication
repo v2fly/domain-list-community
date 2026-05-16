@@ -11,6 +11,7 @@ include:nicegram
 include:protonmail
 include:signal
 include:slack
+include:teamspeak
 include:telegram
 include:temp-mail
 include:viber
