@@ -65,6 +65,7 @@ include:rostelecom
 include:t2-ru
 beeline.ru
 dom.ru
+mcc250.pub.3gppnetwork.org #VoWiFi (mcc250 - Mobile Country Code Russian Federation)
 
 # Other services
 3ebra.net          # Zebra Net Bureau, web development agency
