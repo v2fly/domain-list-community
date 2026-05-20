@@ -2,6 +2,7 @@ include:firefox
 include:mdn
 
 mozgcp.net
+mozilla.ai
 mozilla.com
 mozilla.community
 mozilla.net
