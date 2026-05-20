@@ -1,32 +1,16 @@
 include:firefox
 include:mdn
 
+bugzilla.org
+extensionworkshop.com
+getpocket.com
 mozgcp.net
+mozilla.ai
 mozilla.com
 mozilla.community
 mozilla.net
 mozilla.org
-
-# Add-ons
-extensionworkshop.com
-
-# Bugzilla
-bugzilla.org
-
-# Pocket
-getpocket.com
-
-# SeaMonkey
+mozillafoundation.org
+mzl.la
 seamonkey-project.org
-
-# Thunderbird
 thunderbird.net
-
-# Mozilla Location Service
-# * Overrided by above `mozilla.com`
-# * In March 2024, Mozilla announced the project was being discontinued
-#location.services.mozilla.com
-
-# Mozilla Push Service
-# * Overrided by above `mozilla.com`
-#push.services.mozilla.com
