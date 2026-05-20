@@ -232,6 +232,12 @@ full:safe.dot.dns.yandex.net
 ### Family
 full:family.dot.dns.yandex.net
 
+## DNS from Shaw Communications
+full:dns.shaw.ca
+
+## Xfinity DNS
+full:doh.xfinity.com
+
 # **Small personal resolvers**
 
 ## AhaDNS
