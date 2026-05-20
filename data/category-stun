@@ -6,6 +6,7 @@ full:s1.taraba.net
 full:s1.voipstation.jp
 full:s2.taraba.net
 full:s2.voipstation.jp
+full:staticauth.openrelay.metered.ca
 full:stun.12connect.com
 full:stun.12voip.com
 full:stun.1cbit.ru
@@ -180,7 +181,6 @@ full:stun.netappel.com
 full:stun.netappel.fr
 full:stun.netgsm.com.tr
 full:stun.nextcloud.com
-full:staticauth.openrelay.metered.ca
 full:stun.nfon.net
 full:stun.noblogs.org
 full:stun.noc.ams-ix.net
