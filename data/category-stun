@@ -1,3 +1,4 @@
+metered.live
 full:iphone-stun.strato-iphone.de
 full:numb.viagenie.ca
 full:relay.webwormhole.io
@@ -179,6 +180,7 @@ full:stun.netappel.com
 full:stun.netappel.fr
 full:stun.netgsm.com.tr
 full:stun.nextcloud.com
+full:staticauth.openrelay.metered.ca
 full:stun.nfon.net
 full:stun.noblogs.org
 full:stun.noc.ams-ix.net
