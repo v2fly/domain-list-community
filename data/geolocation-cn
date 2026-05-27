@@ -175,8 +175,10 @@ include:stage1st
 
 178linux.com # Linux运维部落
 52pojie.cn # 吾爱破解
+antpedia.com # 分析测试百科网
 anywlan.com # 无线论坛
 chinadsl.net # 宽带技术网
+chinafix.com # 迅维网
 chiphell.com # ChipHell
 chongbuluo.com # 虫部落
 erji.net # 耳机网
@@ -238,6 +240,8 @@ jsehealth.com
 mingxuan.store
 ## 牙医管家
 yayi360.com
+## 有来医生
+youlai.cn
 
 # Party and government offices & Public units
 12315.cn
@@ -346,14 +350,13 @@ include:ihuman
 include:bjyouth
 ### 知藏（北京）数据技术有限公司
 zzdtec.com
-## 青年大学习
-### 北京中青在线网络信息技术有限公司
-cyol.com
-### 北京天润基业科技发展股份有限公司
-webterren.com
 ## 国学大师网
 guoxuedashi.com
 guoxuemi.com
+## 科普中国
+kepuchina.cn
+## 四川省文物考古研究院
+sckg.com
 ## 温州市图书馆
 wzlib.cn
 ## 中国大百科全书
@@ -508,6 +511,11 @@ yinxiang.com
 ## 智联招聘
 zhaopin.cn
 zhaopin.com
+
+## 上海东方怡动信息技术有限公司
+ewdcloud.com
+## 北京天润基业科技发展股份有限公司
+webterren.com
 
 # State Owned Companies
 include:chinapost
@@ -981,7 +989,6 @@ dzw3.com
 eagsen.com # 沪ICP备17044073号-1
 easesale.com
 easiu.com
-eastday.com
 eastsoo.com
 eayyou.com
 ebico.com
@@ -1582,7 +1589,6 @@ yjbys.com
 ynhr.com
 yocajr.com
 youboy.com
-youjiao.com
 youke.co
 youlian.fun
 youshang.com
@@ -1632,7 +1638,6 @@ zhibo8.cc
 zhidx.com
 zhifang.com
 zhiziyun.com
-zhongkao.com
 zhuangjiba.com
 zhuanyewanjia.com
 zhuayoukong.com
@@ -1641,9 +1646,6 @@ zixuntop.com
 zmengzhu.com
 zpb365.com
 zuhaowan.com
-zuowen.com
-zuowen8.com
-zuowenwang.net
 zysou.com # 苏ICP备2024112174号-1
 zztfly.com
 
