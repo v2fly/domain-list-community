@@ -15,6 +15,8 @@ mzl.la
 seamonkey-project.org
 thunderbird.net
 
+# Ads/tracking
+full:ads-img.mozilla.org @ads
 full:ads.mozilla.org @ads
 full:incoming.telemetry.mozilla.org @ads
 full:incoming-telemetry.thunderbird.net @ads
