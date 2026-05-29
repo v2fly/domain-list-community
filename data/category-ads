@@ -30,6 +30,7 @@ include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:mindbox @ads
+include:mozilla @ads
 include:mts-ru @ads
 include:netease @ads
 include:nicegram @ads
