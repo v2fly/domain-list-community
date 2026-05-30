@@ -1,30 +1,22 @@
 include:firefox
 include:mdn
-include:rust
 
+bugzilla.org
+extensionworkshop.com
+getpocket.com
 mozgcp.net
+mozilla.ai
 mozilla.com
 mozilla.community
 mozilla.net
 mozilla.org
-
-# Add-ons
-extensionworkshop.com
-
-# Bugzilla
-bugzilla.org
-
-# Pocket
-getpocket.com
-
-# SeaMonkey
+mozillafoundation.org
+mzl.la
 seamonkey-project.org
-
-# Thunderbird
 thunderbird.net
 
-# Mozilla Location Service
-location.services.mozilla.com
-
-# Mozilla Push Service
-push.services.mozilla.com
+# Ads/tracking
+full:ads-img.mozilla.org @ads
+full:ads.mozilla.org @ads
+full:incoming.telemetry.mozilla.org @ads
+full:incoming-telemetry.thunderbird.net @ads

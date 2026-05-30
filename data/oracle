@@ -1,10 +1,14 @@
 # All .oracle domains
 oracle
 
+include:addthis
+include:java
+
 ateam-oracle.com
 bronto.com
 covid19-rx.org
 covid19rx.org
+custhelp.com
 oracle.com
 oraclecloud.com
 oraclefoundation.org
@@ -12,6 +16,3 @@ oracleimg.com
 oracleinfinity.io
 sun.com
 virtualbox.org
-
-include:addthis
-include:java

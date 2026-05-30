@@ -75,6 +75,13 @@ full:ntp5.ntp-servers.net
 full:ntp6.ntp-servers.net
 full:ntp7.ntp-servers.net
 
+# TimeNL
+full:ntp.time.nl
+full:ntp1.time.nl
+full:ntp2.time.nl
+full:ntppool1.time.nl
+full:ntppool2.time.nl
+
 clock.isc.org
 ntp.fiord.ru
 ntp.nat.ms

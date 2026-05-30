@@ -1,3 +1,6 @@
 last.fm
 
 full:lastfm.freetls.fastly.net
+
+# API endpoint
+full:ws.audioscrobbler.com

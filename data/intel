@@ -25,6 +25,7 @@ intel.ch
 intel.cl
 intel.cm
 intel.cn @cn
+intel.co
 intel.co.ae
 intel.co.cr
 intel.co.id
@@ -38,7 +39,7 @@ intel.com.ar
 intel.com.au
 intel.com.bo
 intel.com.br
-intel.com.cn @cn
+intel.com.cn
 intel.com.co
 intel.com.ec
 intel.com.hk
@@ -57,6 +58,7 @@ intel.cr
 intel.cu
 intel.cz
 intel.de
+intel.dev
 intel.dk
 intel.dz
 intel.ec
@@ -69,6 +71,7 @@ intel.fr
 intel.ga
 intel.gd
 intel.ge
+intel.gg
 intel.gl
 intel.gm
 intel.gr
@@ -79,6 +82,7 @@ intel.hk
 intel.hn
 intel.ht
 intel.hu
+intel.id
 intel.ie
 intel.in
 intel.io
@@ -149,14 +153,9 @@ intel.vu
 intel.wf
 intel.yt
 
+altera.co.jp
 altera.com
 alteraforum.com
-alteraforums.com
-alteraforums.net
-alterauserforum.com
-alterauserforum.net
-alterauserforums.com
-alterauserforums.net
 buyaltera.com
 celeron.com
 celeron.net
@@ -167,17 +166,22 @@ cilk.com
 cilk.net
 cloudinsights.com
 clusterconnection.com
+comm-verse.com
 coreduo.com
 coreextreme.com
 crosswalk-project.com
 crosswalk-project.net
+dml-lang.org
 doceapower.com
 easic.com
 enpirion.com
 exascale-tech.com
 exploreintel.com
 gordonmoore.com
+granulate.io
+hackharassment.com
 insidefilms.com
+insight.tech
 intc.com
 intel-research.net
 intel-university-collaboration.net
@@ -199,11 +203,12 @@ intell.com
 intellearningseries.com
 intellinuxwireless.net
 intelnervana.com
-intelnet.Component
 intelplay.com
 intelquark.com
-intelrealsense.cn @cn
+intelrealsense.cn
 intelrealsense.com
+intelrealsense.net
+intelreimbursement.com
 intelrxt.com
 intelsalestraining.com
 intelsecurity.com
@@ -217,8 +222,10 @@ latencytop.com
 lookinside.com
 makebettercode.com
 makesenseofdata.com
+meccontroller.com
 movidius.com
 movidius.net
+movidius.org
 nervanasys.com
 nevex.com
 nextgenerationcenter.com
@@ -229,19 +236,35 @@ omnitek.tv
 openamt.com
 opendroneid.org
 optanedifference.com
+passwordday.org
 pc.com
 pentium.com
 pentium.net
 pintool.com
+pmem.org
+pmem.us
 poweredbyintel.com
+projectcircuitbreaker.com
 reconinstruments.com
 reconjet.com
 researchintel.com
 saffrontech.com
 sensorynetworks.com
+sigopt.com
+silicon-mobility.com
+siliconmobility.com
 siport.com
 smart-edge.com
+smart-edge.info
+smart-edge.io
+smart-edge.net
+smart-edge.org
+smart-edge.systems
+smartedge.info
+storageclassmemory.io
+storageclassmemory.org
 theintelstore.com
+threadingbuildingblocks.org
 thunderbolttechnology.net
 trustedanalytics.com
 trustedanalytics.net

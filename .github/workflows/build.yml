@@ -5,6 +5,11 @@ on:
       - master
     paths-ignore:
       - "**/README.md"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   build:
     name: Build
@@ -12,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: code
 
@@ -28,15 +33,17 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
         shell: bash
 
-      - name: Build dlc.dat file
+      - name: Build dlc.dat and plain lists
         run: |
           cd code || exit 1
           go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
+          go run ./cmd/datdump/main.go --inputdata=../dlc.dat --outputdir=../ --exportlists=_all_
           cd ../ && rm -rf code
 
       - name: Generate dlc.dat sha256 hash
         run: |
           sha256sum dlc.dat > dlc.dat.sha256sum
+          sha256sum dlc.dat_plain.yml > dlc.dat_plain.yml.sha256sum
 
       - name: Generate Zip
         run: |
@@ -54,13 +61,13 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b release
-          git add *.txt *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz
+          git add *.txt *.sha256sum dlc.dat dlc.dat_plain.yml dlc.dat.zip dlc.dat.xz
           git commit -m "${{ env.RELEASE_NAME }}"
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git push -f -u origin release
 
       - name: Release and upload assets
         run: |
-          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.*
+          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.* ./dlc.dat_plain.yml ./dlc.dat_plain.yml.*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

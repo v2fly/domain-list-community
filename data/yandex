@@ -1,16 +1,38 @@
+include:kinopoisk
+
 # All .yandex domains
 yandex
 
 # яндекс.рф
 xn--d1acpjx3f.xn--p1ai
 
-dzen.ru
+berizaryad.ru
+cabconnect.org
+clck.ru
+clstorage.net
+driveawaytaxi.org
+elama.ru
+gogettaxi.org
+goup.ai
+hayya.ae
+meteum.ai
+my-manager-account.com
 naydex.net
 rostaxi.org
+shedevrum.ai
+sourcecraft.dev
+static-storage.net
+support-uber.com
+taxiaid.org
+taxiguru.org
+taxitax.org
+turbopages.org
+ya.cc
 ya.ru
 yandex-bank.net
-yandex-images.clstorage.net
+yandex-team.ru
 yandex.aero
+yandex.asia
 yandex.az
 yandex.by
 yandex.cloud
@@ -32,6 +54,7 @@ yandex.kz
 yandex.lt
 yandex.lv
 yandex.md
+yandex.mobi
 yandex.net
 yandex.org
 yandex.pl
@@ -40,10 +63,73 @@ yandex.st
 yandex.sx
 yandex.tj
 yandex.tm
+yandex.tr
 yandex.ua
 yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
+yandexgo.com
+yandexlyceum.ru
+yandexwebcache.net
 yandexwebcache.org
+yango-b2b.com
+yango-team.com
+yango-tech.com
+yango.africa
+yango.ao
+yango.bh
+yango.co.il
+yango.com
+yango.fi
+yango.qa
+yango.taxi
+yango.tech
+yangofellowship.com
+yastat.net
+yastatic-net.ru
 yastatic.net
+yccdn.ru
+
+# Ads and tracking
+adfox.ru @ads
+adfox.yandex.ru @ads
+admetrica.ru @ads
+ads.yandex @ads
+ads.yandex.ru @ads
+adv.yandex.com @ads
+adv.yandex.ru @ads
+an.yandex.ru @ads
+appmetrica.yandex.com @ads
+appmetrica.yandex.net @ads
+appmetrica.yandex.ru @ads
+appmetrica.yango.com @ads
+bs.yandex.ru @ads
+clck.yandex.ru @ads
+counter.yandex.ru @ads
+mc.yandex.ru @ads
+metrika.yandex.com @ads
+metrika.yandex.net @ads
+metrika.yandex.ru @ads
+webvisor.com @ads
+webvisor.org @ads
+yabs.yandex.ru @ads
+yads.tech @ads
+yandex-metrica.ru @ads
+yandexmetrica.com @ads
+yango-ads.com @ads
+full:adfstat.yandex.ru @ads
+full:ads.yandex.com @ads
+full:ads.yango.com @ads
+full:adsdk.yandex.ru @ads
+full:amc.yandex.ru @ads
+full:analytics.mobile.yandex.net @ads
+full:clck.yandex.com @ads
+full:clck.yandex.net @ads
+full:clck.yango.com @ads
+full:informer.yandex.ru @ads
+full:mc.yandex.com @ads
+full:mc.yandex.net @ads
+full:mc.yango.com @ads
+full:pixel.yandex.com @ads
+full:report.ap.yandex-net.ru @ads

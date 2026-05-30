@@ -1,13 +1,18 @@
 # Reference: https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
 
-cn
-citic
+alibaba
+alipay
 baidu
-unicom
+citic
+cn
+icbc
 sohu
+taobao
+tmall
+unicom
 
 # Reference: https://domain.miit.gov.cn
-# .香港 is ignored due to not in China mainland 
+# .香港 is ignored due to not in China mainland
 xn--fiqs8s # .中国
 xn--fiqz9s # .中國
 xn--zfr164b # .政务

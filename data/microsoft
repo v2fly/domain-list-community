@@ -83,7 +83,6 @@ c-msedge.net
 centralvalidation.com
 ch9.ms
 charticulator.com
-clarity.ms @ads
 cloudapp.net
 cloudappsecurity.com
 cortanaanalytics.com
@@ -147,7 +146,6 @@ microsoft-sbs-domains.com
 microsoft-smb.cn @cn
 microsoft365.com
 microsoftaccountguard.com
-microsoftads.com
 microsoftadvertising.com
 microsoftadvertisingregionalawards.com
 microsoftaffiliates.com
@@ -189,7 +187,6 @@ morphcharts.com
 mpnevolution.com
 ms-studiosmedia.com
 ms365surfaceoffer.com
-msads.net
 msauth.cn @cn
 msauth.net
 msauthimages.cn @cn
@@ -216,7 +213,6 @@ msra.cn @cn
 msturing.org
 msudalosti.com
 mymicrosoft.com
-nelreports.net @ads
 nextechafrica.net
 nxta.org
 o365cn.com @cn
@@ -308,6 +304,12 @@ yammer.com
 # Skype CDN
 skype-edf.akadns.net
 skypedata.akadns.net
+
+# Ads/tracking
+clarity.ms @ads
+microsoftads.com @ads
+msads.net @ads
+nelreports.net @ads
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"

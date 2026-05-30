@@ -1,0 +1,14 @@
+# Plex Media Server domains
+# Basic domains for Plex services
+plex.com
+plex.services
+plex.tv
+plexapp.com
+
+# Note for Plex users
+# * Plex's mechanism requires certain domains to go through a direct connection.
+# * Using a proxy for these domains may cause the system to malfunction.
+# * If you wish to access plex domains through a proxy, remember to ensure the following domains remain directly connected.
+# * Related domains:
+# plex.direct
+# v4.plex.tv

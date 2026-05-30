@@ -17,3 +17,7 @@ msnewskids.org
 msnkids.com
 microsoftstart.com
 start.com
+
+# Ads/tracking
+browser.events.data.msn.cn @ads @cn
+browser.events.data.msn.com @ads

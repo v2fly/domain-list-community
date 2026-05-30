@@ -1,12 +1,70 @@
 include:bestore
-include:heytea
+include:ddmaicai
 include:lkcoffee
 
+# 麦当劳中国
+include:mcdonalds @cn
+
 3songshu.com
+
+# 海底捞
 haidilao.com
+hdlcdns.com
+kiwa-tech.com
+
+# 喜茶
+heytea.com
 
 # 俺来也（上海）网络科技有限公司
 anlaiye.com
 anlaiye.com.cn
 imcoming.com
 imcome.net
+
+# 美餐
+meican.com
+meicanstatic.com
+
+# 农夫山泉/养生堂
+nongfuspring.com
+yst.com.cn
+
+# 娃哈哈
+wahaha.com.cn
+whhhealth.com
+
+# 茶百道（四川蜀信云茶）
+shuxinyc.com
+
+# 蜜雪冰城
+mxbc.com
+mxbc.net
+
+# 北京吉野家/DQ
+hophing.cn
+hophing.com.cn
+
+# 汉堡王
+bkchina.cn
+
+# 肯德基/百胜中国
+hwwt8.com
+kfc.com.cn
+yumchina.com
+
+# 企迈/智迈（一堆餐饮企业在用的 CRM）
+qmai.com
+qmai.cn
+qmimg.cn
+
+# 德克士
+dicos.com.cn
+
+# 陈克明食品
+kemen.cn
+
+# Tracking
+logger.qmai.cn @ads
+tracking.mcdonalds.com.cn @ads
+trackingprd.hwwt8.com @ads
+trackserver.shuxinyc.com @ads

@@ -15,6 +15,8 @@ full:time.amazonaws.cn @cn
 # Qualcomm
 full:time.izatcloud.net @cn
 full:time.xtracloud.net @cn
+full:izattime.qcomgeo2.com @cn
+full:xtratime.qcomgeo2.com @cn
 
 # Tencent
 # regexp:^ntp([1-5])?\.tencent\.com$ @cn

@@ -1,9 +1,17 @@
 kino.pub
 kinopub.online
+kpdl.link
 
 # Mirror sites
+ahc.ovh # sub domains mirror
 gfw.ovh # sub domains mirror
 mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh
 
 # kinopub CDN servers
-regexp:(\w+)-static-[0-9]+\.cdntogo\.net$ 
+cdn-service.space
+cdn2cdn.com
+cdn2site.com
+pushbr.com # poster images CDN
+smarttvcdn.online
+
+regexp:(\w+)-static-[0-9]+\.cdntogo\.net$

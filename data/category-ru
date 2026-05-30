@@ -1,20 +1,97 @@
 # Russian websites
+ru.com
+ru.net
 
-# Russian TLDs
-ru
-su
-xn--80adxhks
-xn--80asehdb
-xn--80aswg
-xn--c1avg
-xn--d1acj3b
-xn--p1acf
-xn--p1ai
-
+include:tld-ru
+include:category-betting-ru
+include:category-ecommerce-ru
+include:category-entertainment-ru
 include:category-gov-ru
+include:category-media-ru
+include:category-medicine-ru
+include:category-retail-ru
+include:category-travel-ru
 
-include:mailru
-include:ok
-include:ozon
-include:vk
+# Russian companies
+include:beget
+include:carrotquest
+include:cdek
+include:comssone
+include:envybox
+include:genotek-ru
+include:gismeteo
+include:group-ib
+include:headhunter
+include:ideco-ru
+include:kaspersky
+include:kontur
+include:mailru-group
+include:mindbox
+include:myoffice-ru
+include:selectel
+include:skyeng
+include:tilda
+include:timeweb
+include:ucoz
+include:whoosh
 include:yandex
+
+# Bank & Finance & Insurance & Securities
+include:category-bank-ru
+## Credit History Bureaus
+credistory.ru
+nbki.ru
+## Currency and stock exchanges
+moex.com   # Moscow Stock Exchange
+spvb.ru    # Saint-Petersburg Stock Exchange
+## Card & Document delivery
+efin.ru
+## Financial marketplace
+banki.ru
+finuslugi.ru
+## Investment
+sistema-capital.com
+## Mir payment system
+mironline.ru
+mirpayonline.ru
+## National Payment Card System
+nspk.ru
+## Tipping service
+netmonet.co
+tips.tips
+
+# Telecom operators
+include:megafon
+include:mts-ru
+include:rostelecom
+include:t2-ru
+beeline.ru
+dom.ru
+
+# Other services
+3ebra.net          # Zebra Net Bureau, web development agency
+apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
+flomni.com         # Omnichannel communications platform
+gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
+kinescopecdn.net   # Kinescope video hosting CDN
+litres.ru          # E-book and audiobook service
+meteoinfo.ru       # Hydrometeorological Center of Russia
+ngenix.net         # NGENIX is a Russian provider of acceleration and security services for public web resources
+ognihome.com       # OGNI HOME resident portal
+pochta.ru          # Russian post
+ponyexpress.ru     # Courier delivery service
+qms.ru             # Russian internet speed testing service
+srv-hub.org        # Website buider
+t1.cloud           # Russian cloud storage provider
+taxsee.com         # Taxi for business (self-employed drivers)
+yourgood.app       # CRM for small business
+
+## Ads and tracking
+adriver.ru @ads
+flocktory.com @ads
+roistat.com @ads
+targetads.io @ads
+
+## Planeta Zdorov'ya pharmacy
+planetazdorovo.ru
+pz.help

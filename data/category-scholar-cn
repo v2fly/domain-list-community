@@ -11,13 +11,17 @@ ancientbooks.cn # 籍合网
 
 apabi.com
 bjinfobank.com # 高校数据财经库
-blyun.com # 百链
+
+# 北京百链网源信息技术有限公司
+blyun.com # 百链云图书馆
+medalink.cn # 百链学术搜索
+
 chinabooktrading.com # 中国历代典籍总目
 cidp.com.cn # CIDP制造业数字资源平台
 cnbksy.com # 全国报刊索引
 
 # CCF 中国计算机学会
-ccf.org.cn 
+ccf.org.cn
 cspro.org # CCF 计算机职业资格认证管理系统
 noi.cn # NOI 全国青少年信息学奥林匹克竞赛
 
@@ -48,6 +52,7 @@ hwshu.com # 瀚文民国书库
 hytung.cn # 瀚堂典藏古籍
 incopat.com # incoPat 专利数据库
 lawyee.org # 北大法意网 中国法律资料库
+libvideo.com # 知识视界 武汉缘来文化
 neohytung.com # 瀚堂近代报刊
 nmrdata.com # 微谱数据
 nssd.cn # 国家哲学社会科学学术期刊数据库
@@ -63,5 +68,3 @@ unihan.com.cn # 书同文
 wenxin-ge.com # 文心阁古籍全文数据库
 wind.com.cn # Wind 资讯金融
 yiigle.com # 中华医学期刊全文数据库
-
-full:www.libvideo.com # 武汉缘来文化-知识视界

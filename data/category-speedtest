@@ -3,33 +3,62 @@ include:openspeedtest
 
 cnspeedtest.cn @cn
 fast.com
+fastspeedtest.com
+linkmeter.net
 measurementlab.net
+meter.net
 nperf.com
+openspeedtest.ru
 speed.cloudflare.com
 speed.dler.io
+speed.ee
 speed.hinet.net
 speed.nccu.edu.tw
 speed.neu6.edu.cn @cn
+speed.nju.edu.cn @cn
 speed.nuaa.edu.cn @cn
 speed.qlu.edu.cn @cn
 speed.ujs.edu.cn @cn
-speed6.ujs.edu.cn @cn
 speed2.hinet.net
 speed5.ntu.edu.tw
+speed6.ujs.edu.cn @cn
+speedcheck.org
+speedgeo.net
+speedof.me
+speedtest.cesnet.cz
+speedtest.ch
+speedtest.citylink.pro
 speedtest.cn @cn
+speedtest.co.za
+speedtest.de
+speedtest.dno-it.ru
+speedtest.frontier.com
 speedtest.im
+speedtest.mail.ru
 speedtest.mfcyun.com @cn
+speedtest.net.in
+speedtest.net.ua
+speedtest.net.uk
+speedtest.org
+speedtest.rt.ru
+speedtest.ru
+speedtest.shaw.ca
 speedtest.shu.edu.cn @cn
-speedtest6.shu.edu.cn @cn
+speedtest.su
+speedtest.uz
+speedtest.volia.com
 speedtest.xaut.edu.cn @cn
 speedtest.xfinity.com
-speedtestcustom.com
-test.ustc.edu.cn @cn
-test6.ustc.edu.cn @cn
+speedtest.xyz
+speedtest24.ru
+speedtest6.shu.edu.cn @cn
 test.nju.edu.cn @cn
+test.ustc.edu.cn @cn
 test6.nju.edu.cn @cn
-speed.nju.edu.cn @cn
+test6.ustc.edu.cn @cn
 testmy.net
+testmyspeed.com
+testskorosti.ru
 xnfz.seu.edu.cn @cn
 
 full:hk-global-bgp.hkg.speedtest.yecaoyun.com @!cn

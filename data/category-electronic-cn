@@ -6,15 +6,21 @@ analog.com
 # 艾睿电子
 arrow.cn
 
+# 京东方
+boe.com
+boe.com.cn
+
 # 博流智能
 bouffalolab.com
 
+# 长鑫存储
+cxmt.com
+
 # 乐鑫信息科技
+#include:espressif
 esp8266.cn
-esp8266.com
 esp8266.com.cn
 espressif.cn
-espressif.com
 espressif.com.cn
 
 # 华秋电子
@@ -25,7 +31,8 @@ hqdoc.com
 hqpcb.com
 
 # 英飞凌
-infineon.com
+infineon.cn
+#infineon.com
 
 # 嘉立创集团
 include:jlc
@@ -49,9 +56,12 @@ sipeed.com
 maixhub.com
 
 # 德州仪器
-ti.com
+#ti.com
 ti.com.cn
 
 # 沁恒微电子
 wch.cn
 wch-ic.com
+
+# 长江存储
+include:ymtc

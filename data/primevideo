@@ -1,4 +1,16 @@
 # Prime Video
+
+full:d1v5ir2lpwr8os.cloudfront.net
+full:d22qjgkvxw22r6.cloudfront.net
+full:d25xi40x97liuc.cloudfront.net
+full:d27xxe7juh1us6.cloudfront.net
+full:dmqdd6hw24ucf.cloudfront.net
+full:images-eu.ssl-images-amazon.com
+full:images-na.ssl-images-amazon.com
+full:images-fe.ssl-images-amazon.com
+full:msh.amazon.co.uk
+full:static.siege-amazon.com
+
 aiv-cdn.net
 amazonprimevideo.cn @cn
 amazonprimevideo.com.cn @cn
@@ -11,3 +23,4 @@ primevideo.com
 primevideo.info
 primevideo.org
 primevideo.tv
+prod.service.minerva.devices.a2z.com

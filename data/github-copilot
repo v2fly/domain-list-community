@@ -1,0 +1,11 @@
+githubcopilot.com
+
+full:copilot-proxy.githubusercontent.com
+full:copilot-workspace.githubnext.com
+
+# Azure Blob Storage
+full:copilotprodattachments.blob.core.windows.net
+
+# Ads/tracking
+full:copilot-telemetry-service.githubusercontent.com @ads
+full:copilot-telemetry.githubusercontent.com @ads

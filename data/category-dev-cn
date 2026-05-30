@@ -4,11 +4,10 @@ include:apipost
 include:baltamatica
 include:cnblogs
 include:csdn
-include:deepin
+include:deepin @-!cn
 include:gitee
 include:goproxy
 include:huawei-dev
-include:jinrishici
 include:juejin
 include:kuaiyikeji
 include:oschina
@@ -18,6 +17,13 @@ include:rubychina
 include:segmentfault
 include:sxl
 include:tencent-dev
-include:tipdm
 include:ubuntukylin
-include:xueyuanjun
+include:unitychina
+
+aardio.com
+jinrishici.com
+kaihong.com
+openvela.com
+pingcode.com
+tipdm.org
+zuidaima.com
