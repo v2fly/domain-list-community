@@ -1,0 +1,6 @@
+# The Education University of Hong Kong (EdUHK)
+regexp: ^eduhk(\.edu)?\.hk$
+# 教大.香港 / 教育大學.香港
+regexp: ^(xn--wcv22d|xn--wcvs22d1m)\.(hk|xn--j6w193g)$
+# 香港教育大學.香港
+regexp: ^xn--pssu7cv61af1tcs59bnvd\.(hk|xn--j6w193g)$
