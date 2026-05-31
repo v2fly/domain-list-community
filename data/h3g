@@ -1,0 +1,59 @@
+# Hutchinson/H3G 和記電訊
+
+three.com
+
+# eSIM Provisioning
+gsma-es9plus-in.production.odceu.nmcs.gcloud.thalescloud.io @esim
+
+# Three Hong Kong
+three.com.hk @hk
+hhk.prod.ondemandconnectivity.com @hk
+mnc088.mcc454.pub.3gppnetwork.org @hk
+
+# Three Macau
+three.com.mo @mo
+mnc003.mcc455.pub.3gppnetwork.org @mo
+mnc005.mcc455.pub.3gppnetwork.org @mo
+
+# Three United Kingdom
+three.co.uk @uk
+threemediacentre.co.uk @uk
+huk.prod.ondemandconnectivity.com @uk
+esim-es-open-prod-tuk.esimcloud.net @uk
+mnc020.mcc234.pub.3gppnetwork.org @uk
+mnc094.mcc234.pub.3gppnetwork.org @uk
+vodafonethree.com @uk
+
+# Three Ireland
+three.ie @ie
+mnc002.mcc272.pub.3gppnetwork.org @ie
+mnc005.mcc272.pub.3gppnetwork.org @ie
+
+# Three Austria
+drei.at @at
+mnc010.mcc232.pub.3gppnetwork.org @at
+
+# Three Indonesia
+tri.co.id @id
+mnc089.mcc510.pub.3gppnetwork.org @id
+
+# Hutch Sri Lanka
+hutch.lk @lk
+mnc008.mcc413.pub.3gppnetwork.org @lk
+
+# Three Denmark
+3.dk @dk
+mnc006.mcc238.pub.3gppnetwork.org @dk
+
+
+# Three Sweden
+tre.se @se
+mnc002.mcc242.pub.3gppnetwork.org @se
+
+# Wind Tre (Italy)
+windtre.it @it
+mnc037.mcc222.pub.3gppnetwork.org @se
+mnc088.mcc222.pub.3gppnetwork.org @se
+mnc099.mcc222.pub.3gppnetwork.org @se
+
+
