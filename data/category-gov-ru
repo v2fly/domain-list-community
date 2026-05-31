@@ -1,26 +1,25 @@
 # Federal Gov.
-government.ru  #The official website of the russian government
-gov.ru         #Russian government server
+government.ru   # The official website of the Russian government
+gov.ru          # Russian government server
 
 # Federal Public Services
-gosuslugi.ru  #Government services portal new version
-gu-st.ru      #Government services portal old version
+gosuslugi.ru    # Government services portal
+gu-st.ru        # Government services portal old version
 
 # Federal Healthcare Services
-emias.info    #Making an appointment at a municipal clinic in Moscow
-mgfoms.ru     #The mandatory health insurance system in Moscow
+emias.info      # Making an appointment at a municipal clinic in Moscow
+mgfoms.ru       # The mandatory health insurance system in Moscow
 
 # Federal Educational Services
-include:sgo    # Students online journal
-edu.ru         # Russian digital school
-edu22.info     # Official portal of the Altai krai education system
-edu-74.ru      # Education in the Chelyabinsk region
+edu.ru          # Russian digital school
+edu22.info      # Official portal of the Altai krai education system
+edu-74.ru       # Education in the Chelyabinsk region
 netschool.website  # Students online journal
-ooc-school.ru  # "Schooll" general education portal
-prim-edu.ru    # Primorsky Krai education services portal
-ro-edu.ru      # Russian education federal portal
-tomedu.ru      # Tomsk education portal
-zabedu.ru      # Education portal of the Trans-baikal region
+ooc-school.ru   # "Schooll" general education portal
+prim-edu.ru     # Primorsky Krai education services portal
+ro-edu.ru       # Russian education federal portal
+tomedu.ru       # Tomsk education portal
+zabedu.ru       # Education portal of the Trans-baikal region
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
@@ -33,8 +32,8 @@ kremlin.ru      # Online representation of the President of Russia
 mil.ru          # Ministry of Defense of the Russian Federation
 nalog.ru        # Federal Tax Service
 xn--80ajghhoc2aj1c8b.xn--p1ai # Honest Sign - State Labeling System
-xn--90aivcdt6dxbc.xn--p1ai # Explaining Russia - A website with answers to questions
-xn--d1acchc3adyj9k.xn--p1ai # Achievements of the counrty and regions
+xn--90aivcdt6dxbc.xn--p1ai    # Explaining Russia - A website with answers to questions
+xn--d1acchc3adyj9k.xn--p1ai   # Achievements of the counrty and regions
 xn--b1afabzvcegckfhg.xn--p1ai # Military Registration Register
 
 #
