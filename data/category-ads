@@ -9,6 +9,7 @@ include:apple @ads
 include:baidu @ads
 include:bytedance @ads
 include:carrotquest @ads
+include:category-food-cn @ads
 include:cctv @ads
 include:disney @ads
 include:dmm @ads
@@ -29,8 +30,10 @@ include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:mindbox @ads
+include:mozilla @ads
 include:mts-ru @ads
 include:netease @ads
+include:nicegram @ads
 include:ookla-speedtest @ads
 include:openai @ads
 include:ozon @ads

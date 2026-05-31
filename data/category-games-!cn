@@ -15,6 +15,7 @@ include:gog
 include:hoyoverse
 # Dead include:illusion
 include:itchio
+include:konami
 include:lowiro
 include:modrinth
 include:nexon

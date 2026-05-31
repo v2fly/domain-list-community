@@ -32,7 +32,7 @@ include:selectel
 include:skyeng
 include:tilda
 include:timeweb
-include:ucoz-ru
+include:ucoz
 include:whoosh
 include:yandex
 
@@ -44,6 +44,8 @@ nbki.ru
 ## Currency and stock exchanges
 moex.com   # Moscow Stock Exchange
 spvb.ru    # Saint-Petersburg Stock Exchange
+## Card & Document delivery
+efin.ru
 ## Financial marketplace
 banki.ru
 finuslugi.ru
@@ -66,24 +68,30 @@ include:t2-ru
 beeline.ru
 dom.ru
 
-# Other domains
-apptrackpets.com # Pet GPS tracker service (Yandex Cloud, reg.ru)
-gazfond-pn.ru    # Non-state pension fund GAZFOND pension savings
-litres.ru        # E-book and audiobook service
-meteoinfo.ru     # Hydrometeorological Center of Russia
-ngenix.net       # NGENIX is a Russian provider of acceleration and security services for public web resources
-pochta.ru        # Russian post
-qms.ru           # Russian internet speed testing service
-roistat.com @ads # Russian marketing company
-srv-hub.org      # Website buider
-t1.cloud         # Russian cloud storage provider
-taxsee.com       # Taxi for business (self-employed drivers)
-
 # Other services
-3ebra.net             # Zebra Net Bureau, web development agency
-flomni.com            # Omnichannel communications platform
-flocktory.com @ads    # Marketing personalization platform
-kinescopecdn.net      # Kinescope video hosting CDN
-ognihome.com          # OGNI HOME resident portal
-targetads.io @ads     # Advertising verification platform
-yourgood.app          # CRM for small business
+3ebra.net          # Zebra Net Bureau, web development agency
+apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
+flomni.com         # Omnichannel communications platform
+gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
+kinescopecdn.net   # Kinescope video hosting CDN
+litres.ru          # E-book and audiobook service
+meteoinfo.ru       # Hydrometeorological Center of Russia
+ngenix.net         # NGENIX is a Russian provider of acceleration and security services for public web resources
+ognihome.com       # OGNI HOME resident portal
+pochta.ru          # Russian post
+ponyexpress.ru     # Courier delivery service
+qms.ru             # Russian internet speed testing service
+srv-hub.org        # Website buider
+t1.cloud           # Russian cloud storage provider
+taxsee.com         # Taxi for business (self-employed drivers)
+yourgood.app       # CRM for small business
+
+## Ads and tracking
+adriver.ru @ads
+flocktory.com @ads
+roistat.com @ads
+targetads.io @ads
+
+## Planeta Zdorov'ya pharmacy
+planetazdorovo.ru
+pz.help
