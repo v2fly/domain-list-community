@@ -18,6 +18,7 @@ include:amap
 include:cainiao
 include:dingtalk
 include:eleme
+include:shuqi
 include:teambition
 include:uc
 include:umeng
@@ -108,8 +109,6 @@ qingtingtrip.com
 rexpos.cn
 saee.org.cn
 shenjing.com
-shuqi.com
-shuqireader.com
 sparenode.com
 supet.com
 tanx.com
