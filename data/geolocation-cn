@@ -133,6 +133,10 @@ appsimg.com
 appvipshop.com
 vip.com
 vipstatic.com
+## 首旅如家/和美酒店
+btghotels.com
+bthhotels.com
+homeinns.com
 ## 多点新鲜
 dmall.com
 dmallcdn.com
@@ -141,8 +145,17 @@ geilicdn.com
 weidian.com
 ## 闲管家（深圳市收收科技）
 goofish.pro
+## 华住集团
+huazhu.com
+huazhucorp.com
+hworld.com
 ## 货摊网
 huotan.net
+## 锦江国际
+jinjiang.com
+jinjianghotels.com.cn
+jinjiangonline.net
+jjtravel.com
 ## 聚美优品
 jmstatic.com
 jumei.com
@@ -166,6 +179,8 @@ qyerstatic.com
 ruseer.com
 ## 瞎买
 xiamai.net
+## 亚朵
+yaduo.com
 
 # Forums
 include:b3log
@@ -203,10 +218,10 @@ wuyou.net # 无忧启动论坛
 x-station.cn # X电站
 znds.com # 智能电视网
 
-# 51CTO
+## 51CTO
 51cto.com
 51ctocdn.cn
-# DCC Forum（心跳文学部中文论坛）
+## DCC Forum（心跳文学部中文论坛）
 edgemonix.top # 图床
 monika.love
 
@@ -316,6 +331,7 @@ xiamenair.com
 ## 中国民航局
 caac.gov.cn
 ## 信天游（航空电子客票验真）
+travelsky.com.cn
 travelskymobile.cn
 ## 航旅纵横
 umetrip.com
@@ -488,6 +504,8 @@ miaotixing.com
 moseeker.com
 ## 小能智慧云客服
 ntalker.com
+## 排队网
+paidui.com
 ## 心知天气
 sencdn.com
 seniverse.com
@@ -858,7 +876,6 @@ bojianger.com
 bokecc.com
 boosj.com
 btgtravel.com
-bthhotels.com
 btime.com
 cabbagebox.com
 caijingwu.com
@@ -1147,7 +1164,6 @@ jianbihua.com
 jiangningwater.com # 苏ICP备11072203号-1
 jianzhi8.com
 jiaodong.net
-jiaoyimao.com
 jiasuhui.com
 jiathis.com
 jiayuan.com
@@ -1450,14 +1466,11 @@ tongkask.com # 苏ICP备2021040813号-1
 topthink.com
 touqikan.com
 touzid.com
-travelsky.com
 trjcn.com
 trunktech.com
 trustexporter.com
 trustutn.org
 ttshitu.com # 苏ICP备2024114441号-1
-tudou.com
-tudouui.com
 tuicool.com
 tuiwen.net
 tujia.com

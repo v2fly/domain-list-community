@@ -10,14 +10,15 @@ taobao
 # All .tmall domains
 tmall
 
-include:9game
 include:alibabacloud
+include:aligames
 include:aliyun
 include:aliyun-drive
 include:amap
 include:cainiao
 include:dingtalk
 include:eleme
+include:shuqi
 include:teambition
 include:uc
 include:umeng
@@ -40,7 +41,7 @@ alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
 alifanyi.com
-aligames.com
+alihealth.cn
 alihealth.com.cn
 alihealth.hk @!cn
 aliimg.com
@@ -97,6 +98,7 @@ lazada.com
 liangxinyao.com
 m-now.cn
 maitix.com
+mappcloud.com
 mdeer.com
 mei.com
 miaostreet.com
@@ -105,12 +107,11 @@ nic.xin
 philanthropy.xin
 phpwind.com
 phpwind.net
+pp.cn
 qingtingtrip.com
 rexpos.cn
 saee.org.cn
 shenjing.com
-shuqi.com
-shuqireader.com
 sparenode.com
 supet.com
 tanx.com

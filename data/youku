@@ -1,12 +1,12 @@
 # youku uses some alicdn services, so this must use with domain list "alibaba"
-
+9xsecndns.cn
 kumiao.com
-youku.com
-
-ykimg.com
 mmstat.com
-
 soku.com
+tudou.com
+ykimg.com
+youku.com
+zimgs.cn
 
 # Ads/tracking
 ad.api.3g.youku.com @ads
