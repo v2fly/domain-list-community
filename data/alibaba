@@ -10,8 +10,8 @@ taobao
 # All .tmall domains
 tmall
 
-include:9game
 include:alibabacloud
+include:aligames
 include:aliyun
 include:aliyun-drive
 include:amap
@@ -40,7 +40,6 @@ alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
 alifanyi.com
-aligames.com
 alihealth.com.cn
 alihealth.hk @!cn
 aliimg.com
