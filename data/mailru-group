@@ -12,6 +12,7 @@ hrtek.ru
 koddobra.ru
 lovina.app
 mail.ru
+mcs.st
 mediumquality.ru
 memealerts.com
 movika.com
@@ -24,6 +25,7 @@ vk-apps.ru
 vk-records.ru
 vk-stadium.ru
 vk.company
+vk.kz
 vk.team
 vkclips.app
 vkcs.cloud
@@ -31,11 +33,18 @@ vkfest.ru
 vkgo.app
 vklive.app
 vkvideo.ru
+vkworkspace.kz
 yclients.com
 
 # IDN ccTLD
 xn--80asgb.xn--p1ai # майл.рф
 xn--e1aigb.xn--p1ai # мейл.рф
+
+# Unknown-purpose domains with DGA subdomains
+justveryok.com
+keyboardmen.com
+rabbitcounter.com
+sayeasy.eu
 
 # Ads and tracking
 ad.mail.ru @ads
@@ -52,6 +61,7 @@ radar.imgsmail.ru @ads
 relap.mail.ru @ads
 target.my.com @ads
 top-fwz1.mail.ru @ads
+trace-flow.ru @ads
 tracker-api.my.com @ads
 tracker.my.com @ads
 full:1l-hit.mail.ru @ads
@@ -246,6 +256,10 @@ uma.media
 ## Viqeo
 viqeo.tv
 viqeotv.com
+
+## VK Cloud KZ (joint venture with QazCloud)
+vkcloud-static.kz
+vkcloud.kz
 
 ## VK Play
 vkplay-arena.ru

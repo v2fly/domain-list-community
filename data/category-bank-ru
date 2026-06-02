@@ -1,14 +1,27 @@
 # Alfa Bank
+alfa.me
 alfabank.ru
 alfabank.st
 alfadirect.ru
 myapelsin.ru
 domain:alfabank.oavdo.amc
 
+# BBR
+bbr.ru
+
 # BCS bank
 bcs.ru
 bcs-bank.ru
 broker.ru
+
+# Deutsche Bank
+dbmoscow.ru
+deutsche-bank.ru
+deutschebank.ru
+
+# DOM.RF
+domrfbank.ru
+xn--d1aqf.xn--p1ai
 
 # GazpromBank
 gazprombank.com
@@ -17,12 +30,21 @@ gazprombank.ru
 gid.ru
 gpb.ru
 
+# Mizuho Bank
+mhcb.ru
+mhcbr.ru
+
 # MKB
 mkb.ru
 
-# MTS Dengi
+# MTS
 dbo-dengi.online
+mtsbank.ru
 mtsdengi.ru
+
+# OTP Bank
+# Feature request: implement @ru in otpbank category
+otpbank.ru
 
 # PSB Bank
 payment.ru
@@ -33,11 +55,19 @@ psbank.ru
 # RUSSIA Bank
 abr.ru
 
+# Raiffeisen
+# Feature request: implement @ru in raiffeisenbank category
+raiffeisen-media.ru
+raiffeisen.ru
+
 # Russian Agricultural Bank
 rshb.ru
 
 # SberBank
 include:sber
+
+# Sovcombank
+sovcombank.ru
 
 # T-Bank (Tinkoff) and RosBank
 include:tbank-ru
@@ -48,4 +78,66 @@ tochka.com
 
 # VTB Bank
 pochtabank.ru #subsidiary
+vtb-direct.com
+vtb-grants.fut.ru
 vtb.ru
+vtbglobalperspectives.com
+
+# Zenit
+credit-zenit.ru
+zenit-card.ru
+zenit.ru
+
+# Other
+absolutbank.ru
+akbars.ru
+alefbank.com
+ankb.ru
+asia-pay.ru
+atb.su
+autokreditbank.ru
+avangard.ru
+aversbank.ru
+bank-arzamas.ru
+bank-credit-suisse-moscow.ru
+bank131.com
+bankermak.ru
+bfa.ru
+bm-bank.ru
+bspb.ru
+commerzbank.ru
+finambank.ru
+forshtadt.ru
+homecredit.ru
+ibamoscow.ru
+jpmorgan.ru
+korona.com
+kubankredit.ru
+mfk-bank.ru
+mvs-bank.ru
+noosferabank.ru
+primbank.ru
+prvbank.ru
+pskb.ru
+pvubank.com
+rencapbank.ru
+rencredit.ru
+rncoluminis.ru
+ru.ccb.com
+sbibankllc.ru
+seb.ru
+selkombank.ru
+sinara.ru
+slavbank.ru
+smbcr-bank.ru
+solid.ru
+ssb.msk.ru
+tagbank.ru
+tatsotsbank.ru
+tkbbank.ru
+ubs.com
+uralsib.ru
+vlb100.ru
+westernunion.ru
+yoobusiness.ru
+ziraatbank.ru

@@ -604,7 +604,7 @@ gvt2-cn.com @cn
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
-# Revision: 1c2d107d4e7eaa0b192e08bb0beddde4aab247f6
+# Revision: 94f89bb5065cdff0777ef3a116ecfecb14ca1f56
 # Duplicates removed
 # Use in config file like this: "geosite:google@cn"
 full:265.com @cn
@@ -631,9 +631,7 @@ full:clickserve.dartsearch.net @cn
 full:clickserver.googleads.com @cn
 full:clientservices.googleapis.com @cn
 full:cn.widevine.com @cn
-full:cnappinstall.googleadapis.com @cn
 full:connectivitycheck.gstatic.com @cn
-full:content.googleadapis.com @cn
 full:crashlyticsreports-pa.googleapis.com @cn
 full:csi.gstatic.com @cn
 full:dartsearch-cn.net @cn
@@ -643,9 +641,7 @@ full:dl.l.google.com @cn
 full:doubleclick-cn.net @cn
 full:doubleclick.net @cn
 full:download.mlcc.google.com @cn
-full:download.qatp1.net @cn
 full:download.tensorflow.google.com @cn
-full:emmapplecodevice.googleapis.com @cn
 full:fontfiles.googleapis.com @cn
 full:fonts.googleapis.com @cn
 full:fonts.gstatic.com @cn
@@ -653,7 +649,6 @@ full:g0.gstatic.com @cn
 full:g1.gstatic.com @cn
 full:g2.gstatic.com @cn
 full:g3.gstatic.com @cn
-full:go.corp.google.com @cn
 full:gonglchuangl.net @cn
 full:gongyichuangyi.net @cn
 full:google-analytics-cn.com @cn
@@ -679,25 +674,13 @@ full:gstatic-cn.com @cn
 full:gstaticadssl.l.google.com @cn
 full:gtm.oasisfeng.com @cn
 full:imasdk.googleapis.com @cn
-full:l2-uberproxy.corp.google.com @cn
-full:logger-dev.corp.google.com @cn
-full:logger.corp.google.com @cn
-full:login.corp.google.com @cn
-full:monitoring.qpdp1.net @cn
 full:pagead-googlehosted.l.google.com @cn
 full:performanceparameters.googleapis.com @cn
 full:prod-controlbe.floonet.goog @cn
 full:prod-databe.floonet.goog @cn
 full:prod.databe.floonet.goog @cn
-full:proxyconfig.corp.google.com @cn
-full:qagpublic.qatp1.net @cn
-full:qgadmin.qcpp1.net @cn
 full:qiao-cn.com @cn
 full:qpx.googleflights.net @cn
-full:qualysapi.qatp1.net @cn
-full:qualysguard.qpdp1.net @cn
-full:r.cert.corp.google.com @cn
-full:rapture-prod.corp.google.com @cn
 full:recaptcha-cn.net @cn
 full:recaptcha.net @cn
 full:redirector.bdn.dev @cn
@@ -712,27 +695,14 @@ full:redirector.snap.gvt1.com @cn
 full:redirector.xn--ngstr-lra8j.com @cn
 full:safebrowsing-cache.google.com @cn
 full:safebrowsing.googleapis.com @cn
-full:scanservice1.qcpp1.net @cn
 full:service.urchin.com @cn
 full:ssl-google-analytics.l.google.com @cn
 full:ssl.gstatic.com @cn
-full:sslredirect.corp.google.com @cn
 full:staging-controlbe.floonet.goog @cn
 full:staging-databe.floonet.goog @cn
 full:staging.databe.floonet.goog @cn
-full:streaming-uberproxy-rotation.corp.google.com @cn
-full:streaming-uberproxy.corp.google.com @cn
-full:sup-ssh-relay.corp.google.com @cn
-full:sup-ssh-relay2.corp.google.com @cn
-full:sup.corp.google.com @cn
-full:sup.l.google.com @cn
 full:tac.googleapis.com @cn
-full:test.gbugs-qa.chromium.org @cn
 full:tools.google.com @cn
-full:tools.l.google.com @cn
-full:uberproxy-debug4.corp.google.com @cn
-full:uberproxy.corp.google.com @cn
-full:uberproxy6.corp.google.com @cn
 full:update.crashlytics.com @cn
 full:update.googleapis.com @cn
 full:wear.googleapis.com @cn
@@ -741,4 +711,3 @@ full:www-googletagmanager.l.google.com @cn
 full:www.destinationurl.com @cn
 full:www.gstatic.com @cn
 full:www.pxcc.com @cn
-full:xn--flw351e.com @cn

@@ -8,7 +8,6 @@ include:meipian
 include:okjike
 include:sina @-!cn
 include:xiaohongshu @-!cn
-include:yy
 include:zhihu
 
 tieba.baidu.com

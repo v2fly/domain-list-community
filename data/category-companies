@@ -65,6 +65,7 @@ include:microsoft
 include:mikrotik
 include:mindbox
 include:mindgeek
+include:motorola
 include:mozilla
 include:msi
 include:mts-ru
@@ -117,4 +118,5 @@ include:category-remote-control
 
 auth0.com
 civitai.com
+fussengroup.com @cn
 porkbun.com
