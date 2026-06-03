@@ -7,7 +7,6 @@ include:firebase
 include:flutter
 include:golang
 include:google-deepmind
-include:google-gemini
 include:google-play
 include:google-registry
 include:google-scholar
@@ -259,7 +258,6 @@ google.ws
 1e100.net
 1ucrs.com
 466453.com
-abc.xyz
 adgoogle.net
 admeld.com
 angulardart.org
@@ -397,7 +395,6 @@ gstatic.cn @cn
 gstatic.com
 gstaticcnapps.cn @cn
 gsuite.com
-gv.com
 gvt0.com
 gvt1.com
 gvt2.com
@@ -487,6 +484,7 @@ stxmosquitoproject.com
 stxmosquitoproject.net
 stxmosquitoproject.org
 synergyse.com
+tenor.com
 tensorflow.org
 tfhub.dev
 thecleversense.com
@@ -502,13 +500,11 @@ useplannr.com
 usvimosquito.com
 usvimosquitoproject.com
 velostrata.com
-verily.com
 verilylifesciences.com
 verilystudyhub.com
 verilystudywatch.com
 verilystudywatch.org
 wallet.com
-waymo.com
 waze.com
 web.app
 web.dev

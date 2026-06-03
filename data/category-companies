@@ -4,6 +4,7 @@ include:2gis
 include:acer
 include:adobe
 include:alibabacloud
+include:alphabet
 include:amazon
 include:amd
 include:anexia
@@ -37,7 +38,6 @@ include:giffgaff
 include:gigabyte
 include:gmo-internet
 include:godaddy
-include:google
 include:group-ib
 include:headhunter
 include:hetzner
