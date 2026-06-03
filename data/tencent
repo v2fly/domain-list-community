@@ -1,6 +1,9 @@
+include:kugou
+include:kuwo
 include:qcloud #腾讯云
 include:tencent-dev
 include:tencent-games
+include:ximalaya
 include:yuewen
 
 # qq.中国

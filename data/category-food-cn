@@ -1,11 +1,17 @@
 include:bestore
-include:ddmaicai
 include:lkcoffee
 
 # 麦当劳中国
 include:mcdonalds @cn
 
+# 星巴克中国
+include:starbucks @cn
+
+# 三只松鼠
 3songshu.com
+
+# 百草味
+vipbcw.com
 
 # 海底捞
 haidilao.com
@@ -62,6 +68,39 @@ dicos.com.cn
 
 # 陈克明食品
 kemen.cn
+
+# 中粮集团
+chinatea.com.cn
+cofco.com
+greatwallwine.com.cn
+
+# 北大荒
+chinabdh.com
+hacl.cn
+
+# 光明乳业
+4008117117.com
+brightdairy.com
+brighticecream.com
+chinacow.com
+
+# 伊利
+yili.com
+
+# 蒙牛
+mengniu.com.cn
+
+# 君乐宝
+junlebaoruye.com
+
+# 益海嘉里金龙鱼
+yihaikerry.net.cn
+
+# 鲁花
+luhua.cn
+
+# 双汇集团
+shuanghui.net
 
 # Tracking
 logger.qmai.cn @ads
