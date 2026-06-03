@@ -1,19 +1,63 @@
+# https://wiki.mozilla.org/Websites/Domain_List/Mozilla_Owned
+# https://support.mozilla.org/fr/questions/1352614
+
 include:firefox
 include:mdn
 
+allizom.net
+allizom.org
 bugzilla.org
+detodosparatodos.org
+discovershiretoko.org
+ecmascript.org
 extensionworkshop.com
+foxkeh.com
+foxkeh.jp
+getfirebug.com
+getpersonas.com
 getpocket.com
+hackasaurus.org
+interforest.org
+itisatrap.org
+learningfreedomandtheweb.org
+lizardwrangler.com
+mecha-mozilla.org
+mozaws.net
 mozgcp.net
+mozilla-europe.org
+mozilla-hispano.org
+mozilla-mexico.org
 mozilla.ai
 mozilla.com
 mozilla.community
+mozilla.cz
+mozilla.de
+mozilla.jp
+mozilla.lt
 mozilla.net
 mozilla.org
+mozilla.org.uk
+mozilla.pe
+mozilla.pt
+mozilla.ro
+mozillabd.org
+mozillademos.org
+mozillafactory.org
 mozillafoundation.org
+mozillaignite.org
+mozillalabs.com
+mozillaquebec.org
+mozillazine.jp
+mozillians.org
+mozit.cloud
 mzl.la
+onemozilla.org
+opentimetable.jp
+popcornjs.org
+publicsuffix.org
 seamonkey-project.org
 thunderbird.net
+webmademovies.org
 
 # Ads/tracking
 full:ads-img.mozilla.org @ads
