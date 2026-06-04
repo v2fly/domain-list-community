@@ -1,7 +1,6 @@
 # City University of Hong Kong (CityU)
-# cityu.hk
-# cityu.edu.hk
-regexp: ^cityu(\.edu)?\.hk$
+cityu.hk
+cityu.edu.hk
 
 # https://www.whois.com/whois/cityu.hk
 # 城大.香港

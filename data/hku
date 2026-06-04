@@ -1,8 +1,8 @@
 # The University of Hong Kong (HKU) 
-# hku.hk
-# hku.edu.hk
-regexp: ^hku(\.edu)?\.hk$
+hku.hk
+hku.edu.hk
 
 # https://www.whois.com/whois/hku.hk
 # 香港大學.HK / .香港
-regexp: ^xn--pssu7cv61af44b\.(hk|xn--j6w193g)$
+xn--pssu7cv61af44b.hk
+xn--pssu7cv61af44b.xn--j6w193g
