@@ -33,7 +33,7 @@ include:u17
 include:xiaoheihe
 include:xiaoyuzhou
 include:ximalaya
-include:youku
+include:youku @-!cn
 include:yuewen @-!cn
 include:yy
 
