@@ -4,11 +4,8 @@ include:tencent-games
 include:tencent-tme
 include:yuewen
 
-# qq.中国
-qq.xn--fiqs8s
-
-# 腾讯.中国
-xn--r70as2s.xn--fiqs8s
+qq.xn--fiqs8s # qq.中国
+xn--r70as2s.xn--fiqs8s # 腾讯.中国
 
 acimg.cn
 apcdns.net
@@ -42,14 +39,16 @@ tenpay.com
 tfogc.com
 wechat.com
 wechatpay.cn
+weishi.com
 weiyun.com
-wetv.vip @!cn
-wetvinfo.com @!cn
 wxaurl.cn
 wxcloudrun.com
 wxgateway.com
 wxlivecdn.com
 
+# 腾讯视频海外版
+wetv.vip @!cn
+wetvinfo.com @!cn
 full:wetv.qq.com @!cn
 
 alloyteam.com
