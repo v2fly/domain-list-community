@@ -145,6 +145,12 @@ pbmp.ali213.net
 applovin.com
 applvn.com
 
+# AppsFlyer
+appsflyersdk.com
+
+# AppTracer
+apptracer.ru
+
 # Caixin
 # regexp:^pinggai\d\.caixin\.com$
 full:pinggai0.caixin.com
@@ -199,6 +205,9 @@ ad.unimhk.com
 
 # UCloud
 das-rpt-log.ucloud.cn
+
+# Vungle
+full:logs.ads.vungle.com
 
 # 数字精准广告
 telecome.cn
