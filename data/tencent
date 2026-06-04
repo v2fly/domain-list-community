@@ -1,16 +1,11 @@
-include:kugou
-include:kuwo
 include:qcloud #腾讯云
 include:tencent-dev
 include:tencent-games
-include:ximalaya
+include:tencent-tme
 include:yuewen
 
-# qq.中国
-qq.xn--fiqs8s
-
-# 腾讯.中国
-xn--r70as2s.xn--fiqs8s
+qq.xn--fiqs8s # qq.中国
+xn--r70as2s.xn--fiqs8s # 腾讯.中国
 
 acimg.cn
 apcdns.net
@@ -40,19 +35,20 @@ tencent.com.cn
 tencent.com.hk @!cn
 tencent.net
 tencent.net.cn
-tencentmusic.com
 tenpay.com
 tfogc.com
 wechat.com
 wechatpay.cn
+weishi.com
 weiyun.com
-wetv.vip @!cn
-wetvinfo.com @!cn
 wxaurl.cn
 wxcloudrun.com
 wxgateway.com
 wxlivecdn.com
 
+# 腾讯视频海外版
+wetv.vip @!cn
+wetvinfo.com @!cn
 full:wetv.qq.com @!cn
 
 alloyteam.com
@@ -98,7 +94,6 @@ tdnsdl5.com.cn
 ad.browser.qq.com @ads
 ad.qq.com @ads
 ad.qun.qq.com @ads
-ad.tencentmusic.com @ads
 ad.weixin.qq.com @ads
 adfilter.imtt.qq.com @ads
 adnet.qq.com @ads
@@ -111,7 +106,6 @@ adslvfile.qq.com @ads
 adslvseed.qq.com @ads
 adsmind.apdcdn.tc.qq.com @ads
 adsqqclick.qq.com @ads
-adstats.tencentmusic.com @ads
 adstestview.qq.com @ads
 adsview.qq.com @ads
 adsview2.qq.com @ads
@@ -129,7 +123,6 @@ htrace.wetvinfo.com @!cn @ads
 isdspeed.qq.com @ads
 log.tbs.qq.com @ads
 mdt.qq.com @ads
-monitor.music.qq.com @ads
 monitor.uu.qq.com @ads
 mpush.qq.com @ads
 mtrace.qq.com @ads
@@ -139,14 +132,10 @@ pmir.3g.qq.com @ads
 push.qq.com @ads
 qqdata.ab.qq.com @ads
 report.qqweb.qq.com @ads
-report.tencentmusic.com @ads
 rmonitor.qq.com @ads
 sngmta.qq.com @ads
-stat.y.qq.com @ads
 tajs.qq.com @ads
 tcss.qq.com @ads
-tmead.y.qq.com @ads
-tmeadcomm.y.qq.com @ads
 tpstelemetry.tencent.com @ads
 trace.qq.com @ads
 ugdtimg.com @ads

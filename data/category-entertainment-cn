@@ -19,8 +19,6 @@ include:iqiyi @-!cn
 include:ku6
 include:kuaikan
 include:kuaishou
-include:kugou
-include:kuwo
 include:le
 include:lizhi
 include:pptv
@@ -29,11 +27,11 @@ include:qingtingfm
 include:sakurafrp
 include:shuqi
 include:taomee
+include:tencent-tme
 include:u17
 include:xiaoheihe
 include:xiaoyuzhou
-include:ximalaya
-include:youku
+include:youku @-!cn
 include:yuewen @-!cn
 include:yy
 
