@@ -23,7 +23,6 @@ include:iqiyi @ads
 include:jd @ads
 include:kontur @ads
 include:kuaishou @ads
-include:kugou @ads
 include:le @ads
 include:mailru-group @ads
 include:meta @ads
@@ -58,7 +57,6 @@ include:wildberries @ads
 include:x5 @ads
 include:xhamster @ads
 include:xiaomi @ads
-include:ximalaya @ads
 include:yahoo @ads
 include:yandex @ads
 include:zhihu @ads
