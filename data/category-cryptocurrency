@@ -12,6 +12,7 @@ include:gateio
 include:huobi
 include:kraken
 include:kucoin
+include:lighter
 include:localbitcoins
 include:nexo
 include:okx
@@ -60,6 +61,7 @@ gemini.com
 gmgn.ai
 guardarian.com
 hashflow.com
+hyperliquid.xyz
 infura.io
 invity.io
 maple.finance
