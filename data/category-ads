@@ -149,9 +149,6 @@ applvn.com
 # AppsFlyer
 appsflyersdk.com
 
-# AppTracer
-apptracer.ru
-
 # Caixin
 # regexp:^pinggai\d\.caixin\.com$
 full:pinggai0.caixin.com
