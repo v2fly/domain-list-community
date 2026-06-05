@@ -6,6 +6,7 @@ include:adobe @ads
 include:alibaba @ads
 include:amazon @ads
 include:apple @ads
+include:avito @ads
 include:baidu @ads
 include:bytedance @ads
 include:carrotquest @ads
@@ -145,6 +146,9 @@ pbmp.ali213.net
 applovin.com
 applvn.com
 
+# AppsFlyer
+appsflyersdk.com
+
 # Caixin
 # regexp:^pinggai\d\.caixin\.com$
 full:pinggai0.caixin.com
@@ -199,6 +203,9 @@ ad.unimhk.com
 
 # UCloud
 das-rpt-log.ucloud.cn
+
+# Vungle
+full:logs.ads.vungle.com
 
 # 数字精准广告
 telecome.cn
