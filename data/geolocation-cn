@@ -51,6 +51,12 @@ cc-pay.cn
 helipay.com
 ## 徽商期货有限责任公司
 hsqh.net
+## 盒子支付
+iboxpay.com
+## 汇聚支付
+joinpay.com
+## 乐惠-微信支付
+lehuipay.com
 ## 上海陆金所
 lu.com
 lufax.com
@@ -100,6 +106,9 @@ suufun.com
 suu-fun.com
 
 # Cloud Service
+## 安徽大家网络科技
+cnwza.cn
+govwza.cn
 ## 广州润雨科技有限公司 粤ICP备19052839号
 rainyun.com
 ## 深圳市狐蒂云网络科技有限公司 粤ICP备2025387186号-1
@@ -192,6 +201,8 @@ ruseer.com
 xiamai.net
 ## 亚朵
 yaduo.com
+## 诸葛找房
+zhuge.com
 
 # Forums
 include:b3log
@@ -235,6 +246,9 @@ znds.com # 智能电视网
 ## DCC Forum（心跳文学部中文论坛）
 edgemonix.top # 图床
 monika.love
+## 妈妈网
+mama.cn
+cdnmama.com
 
 423down.com # 423Down
 acwifi.net # 路由器技术分享
@@ -445,6 +459,8 @@ include:zhubajie
 ## 容联七陌 客服 营销
 7moor-fs1.com
 7moor.com
+## 在意空气
+air-matters.com
 ## Alook 浏览器
 alookweb.com
 ## 安兔兔
@@ -474,11 +490,15 @@ deepepg.com
 kookong.com
 ## 滴答清单
 dida365.com
+## 短书
+duanshu.com
 ## 兑吧
 dui88.com
 duiba.com.cn
 ## 方正字库
 foundertype.com
+## 发现报告
+fxbaogao.com
 ## 共享记账
 gongxiangjizhang.com
 ## 快应用
@@ -502,6 +522,8 @@ i8tq.com
 tq121.com.cn
 weather.com.cn
 weatherdt.com
+## 国聘
+iguopin.com
 ## 沉浸式翻译 (中国版)
 immersivetranslate.cn
 ## 掌阅
@@ -517,6 +539,8 @@ moseeker.com
 ntalker.com
 ## 排队网
 paidui.com
+## 深信服
+sangfor.com.cn
 ## 心知天气
 sencdn.com
 seniverse.com
@@ -568,6 +592,7 @@ include:dji
 include:gree
 include:haier
 include:hikvision
+include:hisense
 include:honor
 include:huawei @-!cn
 include:hupun # 杭州湖畔网络技术有限公司
@@ -598,7 +623,6 @@ include:zte
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
 dreame.tech # 追觅科技
-hisensehitachi.com # 海信日立官网
 insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
 jmgo.com # 坚果投影
