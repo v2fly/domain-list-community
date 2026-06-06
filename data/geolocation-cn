@@ -568,6 +568,7 @@ include:dji
 include:gree
 include:haier
 include:hikvision
+include:hisense
 include:honor
 include:huawei @-!cn
 include:hupun # 杭州湖畔网络技术有限公司
@@ -598,7 +599,6 @@ include:zte
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
 dreame.tech # 追觅科技
-hisensehitachi.com # 海信日立官网
 insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
 jmgo.com # 坚果投影
