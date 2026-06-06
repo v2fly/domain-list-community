@@ -1,5 +1,6 @@
 # This list contains scholarly domains that don't have access point in China Mainland.
 
+include:category-scholar-hk
 include:category-scholar-ir
 include:category-scholar-uk
 include:apa
