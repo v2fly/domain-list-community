@@ -1,5 +1,7 @@
+# Connectivity Check, default is used for checking global connectivity. use geosite:connectivity-check@cn for CHN network direct testing
+
 # Apple
-captive.apple.com
+captive.apple.com @cn # Apple captive portal default direct
 
 # Arch Linux
 full:ping.archlinux.org
@@ -14,20 +16,42 @@ network-test.debian.org
 # Firefox
 detectportal.firefox.com
 
+# GNOME
+full:nmcheck.gnome.org
+
 # Google
-connectivitycheck.gstatic.com
+full:connectivitycheck.gstatic.com
+full:www.gstatic.com
+full:www.google.com
 
 # Honor
-full:connectivitycheck.platform.hihonorcloud.com
+full:connectivitycheck.platform.hihonorcloud.com @cn
 
 # Huawei
-full:connectivitycheck.platform.hicloud.com
+full:connectivitycheck.platform.hicloud.com @cn
 
 # KDE
-networkcheck.kde.org
+full:networkcheck.kde.org
+
+# Kuketz.DE
+kuketz.de
+
+# MicroSoft Edge
+full:edge-http.microsoft.com
 
 # MIUI
-full:connect.rom.miui.com
+full:connect.rom.miui.com @cn
+
+# OPPO
+full:conn1.oppomobile.com @cn
+full:conn2.oppomobile.com @cn
+
+# Quadcolmm
+full:www.qualcomm.cn @cn
+full:www.qualcomm.com
+
+# Samsung
+full:connectivity.samsung.com.cn @cn
 
 # Steam
 ipv6check-http.steamserver.net
@@ -36,6 +60,9 @@ test.steampowered.com
 
 # Ubuntu
 full:connectivity-check.ubuntu.com
+
+# Vivo
+full:wifi.vivo.com.cn @cn
 
 # Windows
 msftconnecttest.com
