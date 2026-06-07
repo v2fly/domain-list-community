@@ -26,7 +26,6 @@ include:swisssign
 include:telekom
 include:trustwave
 include:twca
-include:verizon
 include:vodafone
 include:wisekey
 
