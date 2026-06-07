@@ -17,12 +17,12 @@ network-test.debian.org
 detectportal.firefox.com
 
 # GNOME
-nmcheck.gnome.org
+full:nmcheck.gnome.org
 
 # Google
-connectivitycheck.gstatic.com
-www.gstatic.com
-www.google.com
+full:connectivitycheck.gstatic.com
+full:www.gstatic.com
+full:www.google.com
 
 # Honor
 full:connectivitycheck.platform.hihonorcloud.com @cn
@@ -31,26 +31,27 @@ full:connectivitycheck.platform.hihonorcloud.com @cn
 full:connectivitycheck.platform.hicloud.com @cn
 
 # KDE
-networkcheck.kde.org
+full:networkcheck.kde.org
 
 # Kuketz.DE
 kuketz.de
 
 # MicroSoft Edge
-edge-http.microsoft.com
+full:edge-http.microsoft.com
 
 # MIUI
 full:connect.rom.miui.com @cn
 
 # OPPO
 full:conn1.oppomobile.com @cn
+full:conn2.oppomobile.com @cn
 
 # Quadcolmm
-www.qualcomm.cn @cn
-www.qualcomm.com
+full:www.qualcomm.cn @cn
+full:www.qualcomm.com
 
 # Samsung
-connectivity.samsung.com.cn @cn
+full:connectivity.samsung.com.cn @cn
 
 # Steam
 ipv6check-http.steamserver.net
