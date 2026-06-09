@@ -21,8 +21,9 @@ full:nmcheck.gnome.org
 
 # Google
 full:connectivitycheck.gstatic.com
-full:www.gstatic.com
-full:www.google.com
+full:www.gstatic.com @cn
+# Some end user are using connectivity-check for direct routing while they can not access `www.google.com` directly
+# full:www.google.com
 
 # Honor
 full:connectivitycheck.platform.hihonorcloud.com @cn
