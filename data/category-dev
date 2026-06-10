@@ -57,6 +57,7 @@ include:thelinuxfoundation
 include:tilda
 include:unity
 include:v8
+include:wordpress
 
 adventofcode.com
 alpinelinux.org
@@ -166,3 +167,9 @@ xposed.info
 yarnpkg.com
 ziglang.org
 zsh.org
+
+# WordPress plugins
+elegantthemes.com
+hivepress.io
+motopress.com
+wpmailsmtp.com
