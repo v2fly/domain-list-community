@@ -5,11 +5,11 @@ include:curseforge
 include:cygames
 include:ea
 include:embark
-include:eneba
 include:epicgames
 include:escapefromtarkov
 include:faceit
 include:gaijin
+include:gamesplanet
 include:garena
 include:gog
 include:hoyoverse
@@ -52,6 +52,7 @@ dodi-repacks.download
 dodi-repacks.site
 fabricmc.net
 fanatical.com
+ficgs.com
 fitgirl-repacks.site
 game-repack.site
 joinsquad.com
