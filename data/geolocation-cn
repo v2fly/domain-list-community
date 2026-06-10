@@ -55,6 +55,8 @@ hsqh.net
 iboxpay.com
 ## 汇聚支付
 joinpay.com
+## 客如云
+keruyun.com
 ## 乐惠-微信支付
 lehuipay.com
 ## 上海陆金所
@@ -162,12 +164,17 @@ geilicdn.com
 weidian.com
 ## 闲管家（深圳市收收科技）
 goofish.pro
+## 华律网
+66law.cn
+hualv.com
 ## 华住集团
 huazhu.com
 huazhucorp.com
 hworld.com
 ## 货摊网
 huotan.net
+## 齐家网
+jia.com
 ## 锦江国际
 jinjiang.com
 jinjianghotels.com.cn
@@ -179,6 +186,8 @@ jumei.com
 ## 孔夫子旧书网
 kongfz.com
 kfzimg.com
+## 酷家乐
+kujiale.com
 ## 银泰百货
 intime.com.cn
 linkheer.com
@@ -197,6 +206,10 @@ qyer.com
 qyerstatic.com
 ## Ru-seer 俄罗斯卖家助手
 ruseer.com
+## 土巴兔
+to8to.com
+## 设计知外
+ucppt.com
 ## 瞎买
 xiamai.net
 ## 亚朵
@@ -623,16 +636,26 @@ include:zte
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
 dreame.tech # 追觅科技
+ibaotu.com # 包图网
 insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
 jmgo.com # 坚果投影
 mediastory.cc # 闪电分镜
 roborock.com # 石头科技
+shipin520.com # 潮点视频
 socpk.com # 极客湾移动芯片排行
 suzuki-china.com # 铃木中国官网
 udesk.cn # 沃丰科技
 ysjf.com # 影视飓风
 
+## 曹操出行
+caocao.com.cn
+caocaokeji.cn
+## 视觉中国
+cfp.cn
+ishijue.com
+vcg.com
+vcgapi.com
 ## 飞牛
 fnnas.com
 fnnas.net
@@ -656,6 +679,9 @@ onedns.net
 shellpub.com
 threatbook.cn
 threatbook.com
+## 新片场
+xinpianchang.com
+xpccdn.com
 
 # Telecommunication
 include:chinabroadnet
@@ -941,7 +967,6 @@ chinadongchu.com
 chinafph.com
 chinakaoyan.com
 chinalawedu.com
-chinapay.com
 chinapp.net
 chinapubmed.net
 chinasspp.com
@@ -1161,13 +1186,10 @@ hxfy888.com
 hxsd.com
 hybiome.com # 苏ICP备13012891号-1
 iask.com
-ibaotu.com
 ibuychem.com
 icaidao.com
 ichangtou.com
 idongdong.com
-igao7.com
-iheima.com
 ijiandao.com
 ijingyi.com # 粤ICP备2025452707号-5
 ikafan.com
@@ -1190,7 +1212,6 @@ iyunmu.com
 jb51.com
 jb51.net
 jduoduo.com # 粤ICP备2022046650号-1
-jia.com
 jiameng.com
 jianbihua.com
 jiangningwater.com # 苏ICP备11072203号-1
@@ -1348,7 +1369,6 @@ nx-sc.com
 nxog.top # 湘ICP备2022006601号-1
 nzbdw.com
 oadz.com
-oeeee.com
 officese.com
 oicq88.com
 okooo.com
@@ -1468,7 +1488,6 @@ supermap.com
 supermapcloud.com
 sys321.com
 szfw.org
-szhk.com
 szzfgjj.com
 t1y5.com
 taihe.com
@@ -1703,9 +1722,6 @@ azz.net
 # 京ICP备12006877号-1
 runsheng.com
 vzuu.com
-
-# 酷家乐 杭州群核信息技术有限公司 浙ICP备12022366号-6
-kujiale.com
 
 # 建始网 鄂ICP备05004864号-1
 jsw118.com
