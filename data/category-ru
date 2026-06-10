@@ -37,6 +37,10 @@ include:ucoz
 include:whoosh
 include:yandex
 
+## LiveJournal
+livejournal.com
+livejournal.net
+
 # Bank & Finance & Insurance & Securities
 include:category-bank-ru
 ## Credit History Bureaus
