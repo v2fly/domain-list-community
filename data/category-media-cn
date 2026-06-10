@@ -16,11 +16,18 @@ include:ynet
 21jingji.com
 # 站长网
 admin5.com
+# 安徽财经网
+ahcjw.com
+ahcaijing.com
+# 安徽网
+ahwang.cn
 # 安徽新闻
 anhuinews.com
 anhuiyun.com
 # 锋潮科技
 anzhuo.cn
+# 半岛网
+bandao.cn
 # 北京商报
 bbtnews.com.cn
 # 鞭牛士
@@ -78,6 +85,8 @@ cztv.com
 cztvcdn.com
 cztvcloud.com
 zjstv.com
+# 大河网
+dahe.cn
 # 大河报
 daheapp.com
 dahebao.cn
@@ -113,6 +122,15 @@ gmw.com
 guancha.cn
 # 硅谷网
 guigu.org
+# 广西网络广播电视台
+gxtv.cn
+gxxmt.com
+liangtv.cn
+# 广州市广播电视台
+gztv.com
+# i黑马网
+heimadata.com
+iheima.com
 # 同花顺
 0033.cn
 10jqka.com.cn
@@ -132,14 +150,21 @@ huanqiucdn.cn
 # 虎嗅
 huxiu.com
 huxiucdn.com
+# 海峡网
+hxnews.com
 # 电脑报
 icpcw.com
 # 长沙晚报
 icswb.com
 # 中国IDC圈
 idcquan.com
+# 爱搞机
+igao7.com
 # 砍柴网
 ikanchai.com
+# 南方周末
+infzm.com
+nfpeople.com
 # 艾瑞咨询
 iresearch.cn
 # IT168
@@ -184,6 +209,8 @@ leikeji.com
 leiphone.com
 # 今日观察网
 miercn.com
+# 闽南网
+mnw.cn
 # 快科技
 mydrivers.com
 # 南岳新闻网
@@ -197,8 +224,12 @@ news.cn
 newsimg.cn
 xinhuanet.com
 xinhuaxmt.com
+# 奥一新闻
+oeeee.com
 # 维科网
 ofweek.com
+# 我苏网
+ourjiangsu.com
 # PChome电脑之家
 pchome.net
 pchpic.net
@@ -227,6 +258,10 @@ qingdaonews.com
 qianzhan.com
 # 青岛之窗
 qingdaochina.org
+# 四川网络广播电视台
+scgchc.com
+sctv-tf.com
+sctv.com
 # 四川手机报
 scsjb.cn
 # 安全内参
@@ -251,6 +286,8 @@ ssimg.cn
 stockstar.com
 # 证券时报网
 stcn.com
+# 深港在线
+szhk.com
 # 深圳报业集团
 sznews.com
 szpgm.com
@@ -279,10 +316,14 @@ xkb.com.cn
 ycwb.com
 # 第一财经
 yicai.com
+# 云南网
+yunnan.cn
 # 扬子晚报
 yzwb.net
 # ZEALER
 zealer.com
+# 中国交通新闻网
+zgjtb.com
 # 知产力
 zhichanli.com
 # 至顶网
