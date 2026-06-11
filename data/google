@@ -595,15 +595,18 @@ full:analytics.google.com @ads
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:google@cn"
+265.com @cn
 gvt1-cn.com @cn
 gvt2-cn.com @cn
+full:recaptcha-cn.net @cn
+full:recaptcha.net @cn
+full:www.recaptcha-cn.net @cn
 full:www.recaptcha.net @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/google.china.conf
 # Revision: 94f89bb5065cdff0777ef3a116ecfecb14ca1f56
 # Duplicates removed
 # Use in config file like this: "geosite:google@cn"
-full:265.com @cn
 full:2mdn-cn.net @cn
 full:2mdn.net @cn
 full:admob-cn.com @cn
@@ -628,7 +631,6 @@ full:clickserver.googleads.com @cn
 full:clientservices.googleapis.com @cn
 full:cn.widevine.com @cn
 full:connectivitycheck.gstatic.com @cn
-full:crashlyticsreports-pa.googleapis.com @cn
 full:csi.gstatic.com @cn
 full:dartsearch-cn.net @cn
 full:dg-meta.video.google.com @cn
@@ -677,8 +679,6 @@ full:prod-databe.floonet.goog @cn
 full:prod.databe.floonet.goog @cn
 full:qiao-cn.com @cn
 full:qpx.googleflights.net @cn
-full:recaptcha-cn.net @cn
-full:recaptcha.net @cn
 full:redirector.bdn.dev @cn
 full:redirector.c.chat.google.com @cn
 full:redirector.c.mail.google.com @cn
@@ -699,7 +699,6 @@ full:staging-databe.floonet.goog @cn
 full:staging.databe.floonet.goog @cn
 full:tac.googleapis.com @cn
 full:tools.google.com @cn
-full:update.crashlytics.com @cn
 full:update.googleapis.com @cn
 full:wear.googleapis.com @cn
 full:www-google-analytics.l.google.com @cn
