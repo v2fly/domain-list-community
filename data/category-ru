@@ -1,8 +1,13 @@
-# Russian websites
+include:tld-ru
 ru.com
 ru.net
 
-include:tld-ru
+# - There is `[domain:]ru` in this list (from tld-ru), which matches all `*.ru` domains
+# - Redundant subdomains (full/domain type without attr) will be trimed by main.go
+#   In this list, `*.ru` domains without attr are redundant for the program and will not contribute to `geosite:category-ru`
+# - You can still add `*.ru` domains here if you want
+
+# Subcategories
 include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
@@ -26,6 +31,8 @@ include:headhunter
 include:ideco-ru
 include:kaspersky
 include:kontur
+# Not include:habr #3087
+# Not include:livejournal #3715
 include:mailru-group
 include:mindbox
 include:myoffice-ru
