@@ -4,7 +4,7 @@ include:bilibili-game
 include:bluepoch-games
 include:cowlevel
 include:herogame
-include:kurogames
+include:kurogames @-!cn
 include:mihoyo-cn
 include:tencent-games
 include:tiancity
