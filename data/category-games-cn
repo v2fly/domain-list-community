@@ -6,6 +6,7 @@ include:cowlevel
 include:herogame
 include:kurogames @-!cn
 include:mihoyo-cn
+include:seasun
 include:tencent-games
 include:tiancity
 include:vrzwk
@@ -20,6 +21,9 @@ include:yokaverse
 arcaea.cn
 # 《异象回声》游戏官网 沪ICP备2023010411号-1
 astral-vector.com
+# 畅游
+changyou.com
+cy.com
 # 终末地-协议终端
 full:end-api.shallow.ink
 full:end.shallow.ink
