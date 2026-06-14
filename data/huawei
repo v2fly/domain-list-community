@@ -8,7 +8,7 @@ dbankcdn.cn
 dbankcdn.com
 dbankcloud.cn
 dbankcloud.com
-dbankcloud.ru @!cn
+dbankcloud.ru 
 dbankedge.cn
 dbankedge.net
 hicloud.com
@@ -30,4 +30,16 @@ vmall.com
 vmallres.com
 
 # Tracking
-domain:dt.dbankcloud.ru @ads @!cn
+domain:dt.dbankcloud.ru @ads 
+domain:dt.dbankcloud.cn @ads 
+domain:logservice1.dbankcloud.cn @ads
+regexp:^(.*-)?drcn\.((dt|op|cloud)\.)?dbank(.*)?\.(.*)$ @ads
+full: h5hosting-drcn.dbankcdn.cn @ads
+regexp:^metrics?\.(data\.hicloud|dbankcloud)\.(com|cn)$
+regexp:^logservice1?\.(data\.hicloud|dbankcloud)\.(com|cn)$ @ads
+keyword: ad.hicloud @ads
+as.hicloud.com @ads
+ads.hicloud.com @ads
+click.hicloud.com @ads
+stats.hicloud.com @ads
+log.hicloud.com @ads
