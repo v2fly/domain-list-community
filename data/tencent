@@ -1,4 +1,5 @@
 include:qcloud #腾讯云
+include:sogou
 include:tencent-dev
 include:tencent-games
 include:tencent-tme
