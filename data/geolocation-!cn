@@ -158,6 +158,7 @@ include:falungong
 include:category-android-app-download
 include:category-antivirus
 include:category-browser-!cn
+include:category-consent-management
 include:category-enhance-gaming
 include:category-mobile-repair
 include:category-ntp
@@ -279,13 +280,6 @@ osmand.net
 ## Xiaomi Flash (not affiliated with the official Xiaomi)
 xiaomiflash.com
 
-## Consent Management Platforms / Cookie services
-consentpro.com
-cookiepro.com
-cookielaw.org
-onetrust.com
-osano.com
-usercentrics.eu
 ## Translators & Dictionaries
 include:linguee
 collinsdictionary.com
