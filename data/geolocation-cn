@@ -614,6 +614,8 @@ webterren.com
 
 # State Owned Companies
 include:chinapost
+include:cnnc
+include:cscec @-!cn
 include:sinopec
 
 # Tech companies & Orginations
