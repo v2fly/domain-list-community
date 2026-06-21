@@ -114,6 +114,8 @@ suufun.com
 suu-fun.com
 
 # Cloud Service
+## 华栖云
+chinamcloud.com
 ## 安徽大家网络科技
 cnwza.cn
 govwza.cn
@@ -306,6 +308,8 @@ hdfimg.com
 jsehealth.com
 ## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
+## 爱问医生
+wenwo.com
 ## 牙医管家
 yayi360.com
 ## 有来医生
@@ -522,6 +526,7 @@ kookong.com
 dida365.com
 ## 豆果美食
 douguo.com
+douguo.net
 ## 短书
 duanshu.com
 ## 兑吧
@@ -536,6 +541,7 @@ gongxiangjizhang.com
 ## 快应用
 hapjs.org
 quickapp.cn
+so-quick.cn
 ## 乐播投屏
 hpplay.cn
 lbtp.com
@@ -581,6 +587,8 @@ sangfor.com.cn
 ## 心知天气
 sencdn.com
 seniverse.com
+## 声网
+shengwang.cn
 ## 实习僧
 shixiseng.com
 sxsimg.com
@@ -614,6 +622,7 @@ webterren.com
 
 # State Owned Companies
 include:chinapost
+include:petrochina
 include:sinopec
 
 # Tech companies & Orginations
@@ -651,8 +660,10 @@ include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
 include:tencent @-!cn
+include:trustasia
 include:tongfang
 include:vivo @-!cn
+include:wanmei
 include:xiaomi @-!cn
 include:xunlei
 include:youquan # 祐全科技
@@ -679,6 +690,10 @@ allday.work
 cangpeng.com
 erp198.com
 sunrocks.cn
+## 知道创宇
+anquan.org
+knownsec.com
+yunaq.com
 ## 曹操出行
 caocao.com.cn
 caocaokeji.cn
@@ -837,7 +852,6 @@ ycrx360.com
 365dmp.com
 3733.com
 3d66.com
-3elife.net
 3h3.com
 3type.cn
 3yx.com
@@ -917,7 +931,6 @@ aldwx.com # 京ICP备17030349号-1
 alittle-tea.com
 allyes.com
 anfensi.com
-anquan.org
 anruan.com
 aotrip.net
 aoyou.com
@@ -963,7 +976,6 @@ bojianger.com
 bokecc.com
 boosj.com
 btgtravel.com
-btime.com
 cabbagebox.com
 caijingwu.com
 caiyun.com
@@ -1080,7 +1092,6 @@ douxie.com
 downcc.com
 downxia.com
 downyi.com
-dpfile.com
 dreams-travel.com
 drivergenius.com
 duomai.com
@@ -1138,7 +1149,6 @@ gdliontech.com
 gdrc.com
 geektool.top # 极客Tool 蜀ICP备2024086015号-2
 gezida.com
-gfan.com
 globrand.com
 gm86.com
 gmz88.com
@@ -1754,9 +1764,6 @@ merach.com
 # 珠海太川云社区技术股份有限公司 粤ICP备10213128号
 taichuan.com
 taichuan.net
-
-# 中国石油支付宝小程序
-95504test.com
 
 # 北京鸿合智能系统股份有限公司
 hitevision-solutions.com
