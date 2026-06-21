@@ -1,6 +1,12 @@
 gog.com
+gog-services.com
 gog-statics.com
+gogalaxy.com
 
 full:gog.qtlglb.com @cn
 full:gog-cdn-lumen.secure2.footprint.net
 full:gog-cdn.akamaized.net
+
+# Ads/tracking
+## https://www.gog.com/forum/general/telemetry_in_gog_galaxy_20/page1
+insights-collector.gog.com @ads
