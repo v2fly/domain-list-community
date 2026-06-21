@@ -652,6 +652,7 @@ include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
 include:tencent @-!cn
+include:trustasia
 include:tongfang
 include:vivo @-!cn
 include:xiaomi @-!cn
