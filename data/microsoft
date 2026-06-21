@@ -322,21 +322,55 @@ nelreports.net @ads
 dcg.microsoft.com @cn #2105
 dl.delivery.mp.microsoft.com @cn
 download.windowsupdate.com @cn
+# The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/accelerated-domains.china.conf
+# sed -n -e '/\.microsoft\.com/p' -e '/\.office\.net/p' -e '/\.windowssearch\.com/p' -e '/\.windowsupdate\.com/p' ./accelerated-domains.china.conf
+# Revision: 8041ef38432a4ae92a769fbb280165b9d76d5ab0
+full:azuremigrate.download.prss.microsoft.com @cn
+full:azuremigratetest.download.prss.microsoft.com @cn
+full:azurestackhub.download.prss.microsoft.com @cn
+full:azurestackhubuat.download.prss.microsoft.com @cn
 full:b.c2r.ts.cdn.office.net @cn
+full:cbdstest.download.prss.microsoft.com @cn
 full:cn.windowssearch.com @cn
+full:collaborate.download.prss.microsoft.com @cn
+full:collaborateppe.download.prss.microsoft.com @cn
 full:ctldl.windowsupdate.com @cn
 full:developer.microsoft.com @cn
 full:download.microsoft.com @cn
 full:download.visualstudio.microsoft.com @cn
+full:dreamspark.download.prss.microsoft.com @cn
+full:dreamsparkuat.download.prss.microsoft.com @cn
 full:f.c2r.ts.cdn.office.net @cn
+full:itacademy.download.prss.microsoft.com @cn
+full:itacademyuat.download.prss.microsoft.com @cn
+full:lex.download.prss.microsoft.com @cn
+full:lexuat.download.prss.microsoft.com @cn
+full:mbs.download.prss.microsoft.com @cn
+full:mpnbenefits.download.prss.microsoft.com @cn
+full:mpnbenefitsrtl.download.prss.microsoft.com @cn
+full:mpnbenefitsrtluat.download.prss.microsoft.com @cn
+full:msdn.download.prss.microsoft.com @cn
+full:msdprod-ad.download.prss.microsoft.com @cn
+full:msproduct.download.prss.microsoft.com @cn
 full:myvs.download.prss.microsoft.com @cn
 full:oemsoc.download.prss.microsoft.com @cn
+full:oemsocuat.download.prss.microsoft.com @cn
 full:officecdn.microsoft.com @cn
+full:officemkt.download.prss.microsoft.com @cn
+full:officemktuat.download.prss.microsoft.com @cn
+full:osrelease.download.prss.microsoft.com @cn
+full:rsm.download.prss.microsoft.com @cn
 full:sdx.microsoft.com @cn
 full:shell.cdn.office.net @cn
 full:software.download.prss.microsoft.com @cn
 full:statics.teams.cdn.office.net @cn
+full:storecorefulfillment.download.prss.microsoft.com @cn
+full:storeedge.microsoft.com @cn
 full:storeedgefd.dsx.mp.microsoft.com @cn
+full:surface.download.prss.microsoft.com @cn
 full:surface.downloads.prss.microsoft.com @cn
+full:vlportal.download.prss.microsoft.com @cn
+full:volic.download.prss.microsoft.com @cn
 full:vscode.download.prss.microsoft.com @cn
 full:vz.download.prss.microsoft.com @cn
+full:windbg.download.prss.microsoft.com @cn
