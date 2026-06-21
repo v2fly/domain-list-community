@@ -860,7 +860,7 @@ full:s4.mzstatic.com @cn
 full:s5.mzstatic.com @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
-# Revision: 888c12fd0708f2fafc562b0652429a25eef5b6ba
+# Revision: c3c9839e5e71f04fc170b5645d7a162631985e2d
 # Duplicates removed
 # According to the consensus in #503, do not include the domain name apps.apple.com directly.
 # Use in config file like this: "geosite:apple@cn"
@@ -932,6 +932,7 @@ full:is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net @cn
 full:itunes-apple.com.akadns.net @cn
 full:itunes.apple.com @cn
 full:itunesconnect.apple.com @cn
+full:mensura.cdn-apple.com @cn
 full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
