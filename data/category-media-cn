@@ -14,6 +14,8 @@ include:ynet
 
 # 21世纪经济报
 21jingji.com
+# 三易生活
+3elife.net
 # 站长网
 admin5.com
 # 安徽财经网
@@ -32,6 +34,12 @@ bandao.cn
 bbtnews.com.cn
 # 鞭牛士
 bianews.com
+# 新京报
+bjnews.com.cn
+bkeconomy.com
+qianlong.com
+# 北京时间
+btime.com
 # 财经网
 caijing.com.cn
 # 财新网
@@ -41,6 +49,8 @@ cankaoxiaoxi.com
 ckxx.net
 # 电脑商情在线
 cbinews.com
+# 中国经济网
+ce.cn
 # 改革网
 cfgw.net.cn
 # 中国家电网
@@ -60,6 +70,9 @@ cnfolimg.com
 cnr.cn
 # 上海证券报
 cnstock.com
+# 陕西新闻网
+cnwest.com
+sxtvs.com
 # 重庆晨报/上游新闻
 cqcb.com
 # 重庆华龙网
@@ -91,6 +104,8 @@ dahe.cn
 # 大河报
 daheapp.com
 dahebao.cn
+# 广州日报大洋网
+dayoo.com
 # 读特新闻
 dutenews.com
 # 大智慧
@@ -108,8 +123,12 @@ dzwww.com
 eastday.com
 # 经济观察网
 eeo.com.cn
+# 爱活网
+evolife.cn
 # 超能网
 expreview.com
+# 东南网
+fjsen.com
 # FreeBuf 网络安全行业门户
 freebuf.com
 # 极客邦
@@ -117,6 +136,8 @@ geekbang.org
 infoq.cn
 # 极客公园
 geekpark.net
+# 机锋网
+gfan.com
 # 光明日报
 gmdaily.cn
 gmw.cn
@@ -234,6 +255,8 @@ news.cn
 newsimg.cn
 xinhuanet.com
 xinhuaxmt.com
+# 四川新闻网
+newssc.org
 # 奥一新闻
 oeeee.com
 # 维科网
@@ -268,6 +291,8 @@ qingdaonews.com
 qianzhan.com
 # 青岛之窗
 qingdaochina.org
+# 红网
+rednet.cn
 # 四川网络广播电视台
 scgchc.com
 sctv-tf.com
@@ -323,6 +348,9 @@ woshipm.com
 xhby.net
 # 西陆网
 xilu.com
+# 新民报
+xinmin.cn
+xinminweekly.com.cn
 # 新快报
 xkb.com.cn
 # 金羊网/羊城晚报
@@ -341,6 +369,8 @@ zgjtb.com
 zhichanli.com
 # 至顶网
 zhiding.cn
+# 浙江在线
+zjol.com.cn
 # 中关村在线
 zol-img.com.cn
 zol.com.cn
