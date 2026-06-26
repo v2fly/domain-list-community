@@ -61,6 +61,7 @@ include:v8
 include:wordpress
 
 adventofcode.com
+almalinux.org
 alpinelinux.org
 apache.org
 artixlinux.org
@@ -68,6 +69,7 @@ atom.io
 badgen.net
 bitvise.com
 bugsnag.com
+busybox.net
 centos.org
 chocolatey.org
 clojure.org
@@ -109,13 +111,14 @@ linuxmint.com
 lua.org
 lxqt-project.org
 macports.org
+manjaro.org
 mariadb.org
 mate-desktop.org
 mingw.org
 mobatek.net
 mpv.io
-mysql.com
 msys2.org
+mysql.com
 neovim.io
 netfilter.org
 newpipe.net
@@ -142,6 +145,7 @@ raspberrypi.org
 raspbian.org
 regex101.com
 remirepo.net
+rockylinux.org
 rpmfusion.org
 scientificlinux.org
 scoop.sh
