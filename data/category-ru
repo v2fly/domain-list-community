@@ -37,16 +37,16 @@ include:mailru-group
 include:mindbox
 include:myoffice-ru
 include:nic-ru
+include:positive-technologies
 include:regru
 include:selectel
+include:servicepipe
 include:skyeng
 include:tilda
 include:timeweb
 include:ucoz
 include:whoosh
 include:yandex
-include:servicepipe
-include:positive-technologies
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-ru
