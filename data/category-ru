@@ -45,6 +45,7 @@ include:timeweb
 include:ucoz
 include:whoosh
 include:yandex
+include:servicepipe
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-ru
@@ -97,6 +98,8 @@ srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
 yourgood.app       # CRM for small business
+randomgodbot.com   # Telegram randomizer bot
+foto-planeta.com   # Photo encyclopedia of settlements
 
 ## Ads and tracking
 adriver.ru @ads
