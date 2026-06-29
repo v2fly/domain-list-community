@@ -46,6 +46,7 @@ include:ucoz
 include:whoosh
 include:yandex
 include:servicepipe
+include:positive-technologies
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-ru
