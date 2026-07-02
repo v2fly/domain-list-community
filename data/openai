@@ -20,6 +20,7 @@ regexp:^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 # tracking
 full:o33249.ingest.sentry.io @ads
 full:browser-intake-datadoghq.com @ads
+full:openai.qualtrics.com @ads
 
 # Advanced Voice
 chatgpt.livekit.cloud
