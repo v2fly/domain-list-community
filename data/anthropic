@@ -8,3 +8,6 @@ claudeusercontent.com
 
 # CDN
 full:servd-anthropic-website.b-cdn.net
+
+# tracking
+full:browser-intake-us5-datadoghq.com @ads
