@@ -37,8 +37,10 @@ include:mailru-group
 include:mindbox
 include:myoffice-ru
 include:nic-ru
+include:positive-technologies
 include:regru
 include:selectel
+include:servicepipe
 include:skyeng
 include:tilda
 include:timeweb
@@ -83,6 +85,7 @@ dom.ru
 3ebra.net          # Zebra Net Bureau, web development agency
 apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
 flomni.com         # Omnichannel communications platform
+foto-planeta.com   # Photo encyclopedia of settlements
 gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
 kinescopecdn.net   # Kinescope video hosting CDN
 litres.ru          # E-book and audiobook service
@@ -93,6 +96,7 @@ ognihome.com       # OGNI HOME resident portal
 pochta.ru          # Russian post
 ponyexpress.ru     # Courier delivery service
 qms.ru             # Russian internet speed testing service
+randomgodbot.com   # Telegram randomizer bot
 srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
