@@ -81,6 +81,7 @@ include:maocloud
 include:qingcloud
 include:snodehome
 include:ucloud
+include:volcengine
 include:yunfanjiasu
 
 ## 深圳市百悦通信
