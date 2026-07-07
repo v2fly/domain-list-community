@@ -2,6 +2,7 @@ include:4399
 include:aligames
 include:bilibili-game
 include:bluepoch-games
+include:changyou
 include:cowlevel
 include:herogame
 include:kurogames @-!cn
@@ -29,10 +30,6 @@ astral-vector.com
 # 橙光
 66rpg.com
 cgyouxi.com
-# 畅游 (sohu)
-changyou.com
-cy.com
-playcool.com
 # 终末地-协议终端
 full:end-api.shallow.ink
 full:end.shallow.ink
@@ -62,12 +59,22 @@ morefreegame.com
 # 途游
 nalrer.cn
 tuyoo.com
+# 叠纸游戏
+nikkigames.cn
+nikkigames.com.cn
+papegames.cn
+papegames.com
 # Phira
 phira.cn
 # 盛趣游戏 浙ICP备17039406号-1
 sdo.com
 shengqugames.com
 zjshulong.com
+# 贪玩游戏
+tanwan.com
+twyx.cn
+twyxh.com
+zx.com
 # 沪ICP备18041304号-1
 tgpro.top
 tgprocs.net

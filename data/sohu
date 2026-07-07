@@ -1,6 +1,8 @@
 # All .sohu domains
 sohu
 
+include:changyou
+
 focus-img.cn
 focus.cn
 itc.cn
