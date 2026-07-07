@@ -2,6 +2,7 @@ include:4399
 include:aligames
 include:bilibili-game
 include:bluepoch-games
+include:changyou
 include:cowlevel
 include:herogame
 include:kurogames @-!cn
@@ -29,10 +30,6 @@ astral-vector.com
 # 橙光
 66rpg.com
 cgyouxi.com
-# 畅游 (sohu)
-changyou.com
-cy.com
-playcool.com
 # 终末地-协议终端
 full:end-api.shallow.ink
 full:end.shallow.ink
