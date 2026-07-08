@@ -477,9 +477,6 @@ appleone.website
 # Shazam
 shazam.com
 
-# Apple Health Studies
-full:ingest.apple-studies.com  # 采集心率、运动、听力等传感器数据，以及用户填报的研究问卷，将其加密后上传至 Apple 后端
-
 # Others
 1to1computing.com.au
 1to1conference.com.au
@@ -520,6 +517,7 @@ apple-livephotoskit.com
 apple-mapkit.com
 apple-maps.cn @cn
 apple-online.com
+apple-studies.com
 apple-usa.net
 appleafrica.com
 appleantilles.com
@@ -753,61 +751,27 @@ courier-push-apple.com.akadns.net
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:apple@cn"
-full:amp-api-edge-lb-cn.itunes-apple.com.akadns.net @cn
-full:amp-api-edge-lb.itunes-apple.com.akadns.net @cn
 full:amp-api-edge.apps.apple.com @cn
 full:amp-api-edge.music.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
 full:amp-api.music.apple.com @cn
-full:aod-ssl.itunes.apple.com @cn
-full:aod.itunes.apple.com @cn
 full:api-edge.apps.apple.com @cn
-full:apptrailers.itunes.apple.com @cn
 full:auth.music.apple.com @cn
-full:bag.itunes.apple.com @cn
-full:bookkeeper.itunes.apple.com @cn
-full:client-api.itunes.apple.com @cn
-full:cma.itunes.apple.com @cn
 full:communities.apple.com @cn
 full:discussionschinese.apple.com @cn
-full:downloaddispatch.itunes.apple.com @cn
 full:fides-pol.apple.com @cn
 full:gspe11-2-cn-ssl.ls.apple.com @cn
 full:gspe12-cn-ssl.ls.apple.com @cn
 full:gspe85-cn-ssl.ls.apple.com @cn
-full:inappcheck-cn.itunes-apple.com.akadns.net @cn
-full:inappcheck-lb.itunes-apple.com.akadns.net @cn
-full:inappcheck.itunes.apple.com @cn
 full:init.gc-lb.apple.com.akadns.net @cn
 full:init.gc.apple.com @cn
-full:init.itunes.apple.com @cn
-full:iosapps.itunes.apple.com @cn
 full:js-cdn.music.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
-full:misc-assets.itunes.apple.com @cn
 full:musicstatus.music.apple.com @cn
-full:mvod.itunes.apple.com @cn
-full:myapp.itunes.apple.com @cn
-full:np-edge.itunes.apple.com @cn
-full:osxapps.itunes.apple.com @cn
-full:pd-nk.itunes.apple.com @cn
-full:pd.itunes.apple.com @cn
-full:play.itunes.apple.com @cn
 full:play.music.apple.com @cn
-full:se-edge.itunes.apple.com @cn
-full:se2.itunes.apple.com @cn
-full:search.itunes.apple.com @cn
-full:sf-api-token-service.itunes.apple.com @cn
-full:sp.itunes.apple.com @cn
 full:speedysub.music.apple.com @cn
-full:streamingaudio.itunes.apple.com @cn
-full:su.itunes.apple.com @cn
-full:sync.itunes.apple.com @cn
-full:tf-feedback.itunes.apple.com @cn
-full:universal-activity-service.itunes.apple.com @cn
-full:upp.itunes.apple.com @cn
 full:www.support.apple.com @cn
 
 # regexp:^a[1-5]\.mzstatic\.com$ @cn
@@ -877,7 +841,6 @@ full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:appleid.cdn-apple.com @cn
 full:apps.mzstatic.com @cn
-full:bag-cdn.itunes-apple.com.akadns.net @cn
 full:cds-cdn.v.aaplimg.com @cn
 full:cds.apple.com @cn
 full:cds.apple.com.akadns.net @cn
@@ -928,14 +891,9 @@ full:init-p01st.push.apple.com @cn
 full:init-s01st-lb.push-apple.com.akadns.net @cn
 full:init-s01st.push.apple.com @cn
 full:init.ess.apple.com @cn
-full:iosapps.itunes.g.aaplimg.com @cn
 full:ipcdn.apple.com @cn
 full:iphone-ld.apple.com @cn
 full:iphone-ld.origin-apple.com.akadns.net @cn
-full:is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net @cn
-full:itunes-apple.com.akadns.net @cn
-full:itunes.apple.com @cn
-full:itunesconnect.apple.com @cn
 full:mensura.cdn-apple.com @cn
 full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
@@ -944,7 +902,6 @@ full:ml.cdn-apple.com @cn
 full:music.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
-full:osxapps.itunes.g.aaplimg.com @cn
 full:pancake.apple.com @cn
 full:pba0.apple.com @cn
 full:probe.siri.apple.com @cn

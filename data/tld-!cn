@@ -1,5 +1,6 @@
 # References:
 # https://icannwiki.org/Country_code_top-level_domain
+# https://www.iana.org/domains/root/db
 # https://www.101domain.com/branded_domains.htm
 
 ## DO NOT RE-INTRODUCE!
@@ -202,7 +203,6 @@ pl # Poland
 pm # Saint-Pierre and Miquelon
 pn # Pitcairn Islands
 pr # Puerto Rico
-ps # Gaza Strip (Gaza)
 ps # Palestine
 pt # Portugal
 py # Paraguay
@@ -225,7 +225,6 @@ sl # Sierra Leone
 sm # San Marino
 sn # Senegal
 so # Somalia
-so # Somaliland
 sr # Suriname
 ss # South Sudan
 st # São Tomé and Príncipe
@@ -439,10 +438,8 @@ woodside # Woodside Petroleum Limited
 zara # Inditex, SA
 
 # Miscellaneous Domains
-africamagic # Electronic Media Network Limited
 agakhan # Aga Khan Foundation
 akdn # Aga Khan Foundation
-bar # A place which provide liquor
 bharti # Bharti Enterprises
 bingo # Bingo
 casa # Casa (Home)
@@ -466,7 +463,6 @@ style # though the comment actually seems to be about .tattoo
 sucks # Vox Populi Registry
 tattoo # Tattoo
 vana # Scripps Networks Interactive, Inc.
-virgin # Virgin Enterprises Limited
 vodka # Alcohol
 wine # Alcohol
 wme # William Morris Endeavor Entertainment, LLC
@@ -741,6 +737,7 @@ amazon # Technology Domains
 aol # AOL Inc.
 aws # Amazon
 azure # Microsoft
+bing # Microsoft
 chrome # Google
 cisco # Cisco Technology, Inc.
 dclk # Google
@@ -801,7 +798,6 @@ richardli # Pacific Century Asset Management (HK) Limited
 ricoh # Ricoh Company, Ltd.
 rogers # Rogers Communications Partnership
 sakura # Sakura Internet Inc.
-sas # Scandinavian Airlines System Group
 sfr # Societe Francaise du Radiotelephone
 shaw # Shaw Cablesystems G.P.
 skype # Microsoft

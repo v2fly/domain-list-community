@@ -19,7 +19,6 @@ itun.es
 itunbes.com
 ituneas.com
 itunes-apple.cn @cn
-itunes-apple.com.akadns.net
 itunes-radio.net
 itunes.ca
 itunes.co
@@ -50,3 +49,55 @@ itunesu.com
 itunesu.net
 iutunes.com
 wwwitunes.com
+
+itunes-apple.com.akadns.net
+itunes.apple.com
+
+# Domains with access point in China mainland
+# Avoid adding `[domain:]itunes.apple.com @cn` directly, as some subdomains not resolve to a cn IP address
+# See #2228 and #2259
+full:amp-api-edge-lb-cn.itunes-apple.com.akadns.net @cn
+full:amp-api-edge-lb.itunes-apple.com.akadns.net @cn
+full:aod-ssl.itunes.apple.com @cn
+full:aod.itunes.apple.com @cn
+full:apptrailers.itunes.apple.com @cn
+full:bag.itunes.apple.com @cn
+full:bookkeeper.itunes.apple.com @cn
+full:client-api.itunes.apple.com @cn
+full:cma.itunes.apple.com @cn
+full:downloaddispatch.itunes.apple.com @cn
+full:entitlements-edge.itunes.apple.com @cn
+full:fpinit.itunes.apple.com @cn
+full:inappcheck-cn.itunes-apple.com.akadns.net @cn
+full:inappcheck-lb.itunes-apple.com.akadns.net @cn
+full:inappcheck.itunes.apple.com @cn
+full:init.itunes.apple.com @cn
+full:iosapps.itunes.apple.com @cn
+full:misc-assets.itunes.apple.com @cn
+full:mvod.itunes.apple.com @cn
+full:myapp.itunes.apple.com @cn
+full:np-edge.itunes.apple.com @cn
+full:osxapps.itunes.apple.com @cn
+full:pd-nk.itunes.apple.com @cn
+full:pd.itunes.apple.com @cn
+full:play.itunes.apple.com @cn
+full:se-edge.itunes.apple.com @cn
+full:se2.itunes.apple.com @cn
+full:search.itunes.apple.com @cn
+full:sf-api-token-service.itunes.apple.com @cn
+full:sp.itunes.apple.com @cn
+full:streamingaudio.itunes.apple.com @cn
+full:su.itunes.apple.com @cn
+full:sync.itunes.apple.com @cn
+full:tf-feedback.itunes.apple.com @cn
+full:universal-activity-service.itunes.apple.com @cn
+full:upp.itunes.apple.com @cn
+
+# The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
+full:bag-cdn.itunes-apple.com.akadns.net @cn
+full:iosapps.itunes.g.aaplimg.com @cn
+full:is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net @cn
+full:itunes-apple.com.akadns.net @cn
+full:itunes.apple.com @cn
+full:itunesconnect.apple.com @cn
+full:osxapps.itunes.g.aaplimg.com @cn

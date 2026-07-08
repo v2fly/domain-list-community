@@ -19,6 +19,7 @@ jobs:
       - name: Checkout codebase
         uses: actions/checkout@v7
         with:
+          ref: ${{ github.sha }}
           path: code
 
       - name: Setup Go
