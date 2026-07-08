@@ -8,6 +8,7 @@ ru.net
 # - You can still add `*.ru` domains here if you want
 
 # Subcategories
+include:category-ai-ru
 include:category-betting-ru
 include:category-ecommerce-ru
 include:category-entertainment-ru
