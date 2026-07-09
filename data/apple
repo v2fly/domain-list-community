@@ -1,6 +1,8 @@
 include:apple-dev # swift inside
 # Not include:apple-intelligence
+include:apple-music
 include:apple-pki
+include:apple-podcasts
 include:apple-tvplus
 include:apple-update
 include:beats
@@ -139,18 +141,6 @@ appleid.hamburg
 appleid.hk
 ids-apple.com
 myappleid.com
-
-# Apple Music
-applemusic.berlin
-applemusic.co
-applemusic.com
-applemusic.com.au
-applemusic.hamburg
-applemusic.wang
-applemusicconnect.com
-applemusicfestival.com
-musickit.net
-wwwapplemusic.com
 
 # Apple News
 apple.comscoreresearch.com
@@ -572,7 +562,6 @@ appleonline.net
 appleoriginalproductions.com
 appleos.tv
 applepencil.net
-applepodcasts.com
 applepremiumreseller.com.au
 applepremiumresellers.com.au
 applereach.com
@@ -752,13 +741,9 @@ courier-push-apple.com.akadns.net
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:apple@cn"
 full:amp-api-edge.apps.apple.com @cn
-full:amp-api-edge.music.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
-full:amp-api.music.apple.com @cn
-full:amp-api.podcasts.apple.com @cn
 full:api-edge.apps.apple.com @cn
-full:auth.music.apple.com @cn
 full:communities.apple.com @cn
 full:discussionschinese.apple.com @cn
 full:fides-pol.apple.com @cn
@@ -767,13 +752,8 @@ full:gspe12-cn-ssl.ls.apple.com @cn
 full:gspe85-cn-ssl.ls.apple.com @cn
 full:init.gc-lb.apple.com.akadns.net @cn
 full:init.gc.apple.com @cn
-full:js-cdn.music.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
-full:musicstatus.music.apple.com @cn
-full:play.music.apple.com @cn
-full:podcasts.apple.com @cn
-full:speedysub.music.apple.com @cn
 full:www.support.apple.com @cn
 
 # regexp:^a[1-5]\.mzstatic\.com$ @cn
@@ -834,6 +814,7 @@ full:s5.mzstatic.com @cn
 # Duplicates removed
 # According to the consensus in #503, do not include the domain name apps.apple.com directly.
 # Use in config file like this: "geosite:apple@cn"
+# full:music.apple.com @cn has been moved to apple-music
 full:adcdownload.apple.com @cn
 full:adcdownload.apple.com.akadns.net @cn
 full:amp-api-updates.apps.apple.com @cn
@@ -901,7 +882,6 @@ full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
 full:ml.cdn-apple.com @cn
-full:music.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
 full:pancake.apple.com @cn
