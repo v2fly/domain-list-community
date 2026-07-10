@@ -8,6 +8,7 @@ include:ogury
 include:openx
 include:pubmatic
 include:segment
+include:sentry
 include:supersonic
 include:taboola
 
