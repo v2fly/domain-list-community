@@ -1,2 +1,8 @@
 sentry.io
 sentry-cdn.com
+
+# tracking
+regexp:^o\d+\.ingest\.sentry\.io$ @ads
+regexp:^o\d+\.ingest\.us2\.sentry\.io$ @ads
+regexp:^o\d+\.ingest\.de\.sentry\.io$ @ads
+regexp:^o\d+\.ingest\.us\.sentry\.io$ @ads
