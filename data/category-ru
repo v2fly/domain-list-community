@@ -24,6 +24,7 @@ include:carrotquest
 include:cdek
 include:comssone
 include:drweb
+include:dsn-host
 include:envybox
 include:genotek-ru
 include:gismeteo
