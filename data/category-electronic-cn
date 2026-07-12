@@ -20,11 +20,7 @@ bouffalolab.com
 cxmt.com
 
 # 乐鑫信息科技
-#include:espressif
-esp8266.cn
-esp8266.com.cn
-espressif.cn
-espressif.com.cn
+include:espressif @-!cn
 
 # 华秋电子
 eda.cn
