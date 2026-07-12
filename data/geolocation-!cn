@@ -321,7 +321,7 @@ wiki.gg
 
 # Others
 include:avaxhome
-include:espressif
+include:espressif @!cn
 include:familymart
 include:fzdm
 include:hkedcity
