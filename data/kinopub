@@ -1,4 +1,5 @@
 kino.pub
+kino.watch
 kinopub.online
 kpdl.link
 
@@ -6,6 +7,11 @@ kpdl.link
 ahc.ovh # sub domains mirror
 gfw.ovh # sub domains mirror
 mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh
+
+# kinopub API services
+api.alador.space
+m.alador.space
+support-kp.com
 
 # kinopub CDN servers
 cdn-service.space
