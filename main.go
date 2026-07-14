@@ -136,11 +136,11 @@ func (gs *GeoSites) assembleDat(task DatTask) error {
 				return fmt.Errorf("list %q not found for allowlist task", list)
 			}
 		}
-		slices.Sort(allowedIdxes)
 		allowedlen := len(allowedIdxes)
 		if allowedlen == 0 {
 			return fmt.Errorf("allowlist needs at least one valid list")
 		}
+		slices.Sort(allowedIdxes)
 		geoSiteList.Entry = make([]*router.GeoSite, allowedlen)
 		for i, idx := range allowedIdxes {
 			geoSiteList.Entry[i] = gs.Sites[idx]
@@ -487,19 +487,19 @@ func (p *Processor) resolveList(plname string) error {
 		}
 	}
 	if len(roughMap) == 0 {
-		return fmt.Errorf("empty list")
+		fmt.Printf("[Warn] ignore empty list %q", plname)
+	} else {
+		p.finalMap[plname] = polishList(roughMap)
 	}
-	p.finalMap[plname] = polishList(roughMap)
 	return nil
 }
 
 func run() error {
-	dir := *dataPath
-	fmt.Printf("using domain lists data in %q\n", dir)
+	fmt.Printf("using domain lists data in %q\n", *dataPath)
 
 	// Generate plMap
 	processor := &Processor{plMap: make(map[string]*ParsedList)}
-	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
+	err := filepath.WalkDir(*dataPath, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
 		}
