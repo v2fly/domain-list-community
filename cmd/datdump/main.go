@@ -19,82 +19,62 @@ var (
 	exportLists = flag.String("exportlists", "", "Lists to be exported, separated by ',' (empty for _all_)")
 )
 
-type DomainRule struct {
-	Type  string
-	Value string
-	Attrs []string
+type GeoSites struct {
+	Sites   []*router.GeoSite
+	SiteIdx map[string]int
 }
 
-type DomainList struct {
-	Name  string
-	Rules []DomainRule
-}
-
-func (d *DomainRule) domain2String() string {
-	var dstr strings.Builder
-	dstr.Grow(len(d.Type) + len(d.Value) + 10)
-	dstr.WriteString(d.Type)
-	dstr.WriteByte(':')
-	dstr.WriteString(d.Value)
-	for i, attr := range d.Attrs {
-		if i == 0 {
-			dstr.WriteByte(':')
-		} else {
-			dstr.WriteByte(',')
-		}
-		dstr.WriteByte('@')
-		dstr.WriteString(attr)
-	}
-	return dstr.String()
-}
-
-func loadGeosite(path string) ([]DomainList, map[string]*DomainList, error) {
+func loadGeosite(path string) (*GeoSites, error) {
 	data, err := os.ReadFile(path)
 	if err != nil {
-		return nil, nil, fmt.Errorf("failed to read geosite file: %w", err)
+		return nil, fmt.Errorf("failed to read geosite file: %w", err)
 	}
 	vgeositeList := new(router.GeoSiteList)
 	if err := proto.Unmarshal(data, vgeositeList); err != nil {
-		return nil, nil, fmt.Errorf("failed to unmarshal: %w", err)
+		return nil, fmt.Errorf("failed to unmarshal: %w", err)
 	}
-	domainLists := make([]DomainList, len(vgeositeList.Entry))
-	domainListByName := make(map[string]*DomainList, len(vgeositeList.Entry))
-	for i, vsite := range vgeositeList.Entry {
-		rules := make([]DomainRule, 0, len(vsite.Domain))
-		for _, vdomain := range vsite.Domain {
-			rule := DomainRule{Value: vdomain.Value}
-			switch vdomain.Type {
-			case router.Domain_RootDomain:
-				rule.Type = dlc.RuleTypeDomain
-			case router.Domain_Regex:
-				rule.Type = dlc.RuleTypeRegexp
-			case router.Domain_Plain:
-				rule.Type = dlc.RuleTypeKeyword
-			case router.Domain_Full:
-				rule.Type = dlc.RuleTypeFullDomain
-			default:
-				return nil, nil, fmt.Errorf("invalid rule type: %+v", vdomain.Type)
-			}
-			for _, vattr := range vdomain.Attribute {
-				rule.Attrs = append(rule.Attrs, vattr.Key)
-			}
-			rules = append(rules, rule)
-		}
-		domainLists[i] = DomainList{
-			Name:  strings.ToUpper(vsite.CountryCode),
-			Rules: rules,
-		}
-		domainListByName[domainLists[i].Name] = &domainLists[i]
+	gs := &GeoSites{Sites: vgeositeList.Entry}
+	gs.SiteIdx = make(map[string]int, len(gs.Sites))
+	for i, site := range gs.Sites {
+		gs.SiteIdx[strings.ToUpper(site.CountryCode)] = i
 	}
-	return domainLists, domainListByName, nil
+	return gs, nil
 }
 
-func exportSite(name string, domainListByName map[string]*DomainList) error {
-	domainList, ok := domainListByName[strings.ToUpper(name)]
+func domain2Builder(d *router.Domain, b *strings.Builder) error {
+	switch d.Type {
+	case router.Domain_RootDomain:
+		b.WriteString(dlc.RuleTypeDomain)
+	case router.Domain_Full:
+		b.WriteString(dlc.RuleTypeFullDomain)
+	case router.Domain_Plain:
+		b.WriteString(dlc.RuleTypeKeyword)
+	case router.Domain_Regex:
+		b.WriteString(dlc.RuleTypeRegexp)
+	default:
+		return fmt.Errorf("invalid rule type: %+v", d.Type)
+	}
+	b.WriteByte(':')
+	b.WriteString(d.Value)
+	for i, attr := range d.Attribute {
+		if i == 0 {
+			b.WriteByte(':')
+		} else {
+			b.WriteByte(',')
+		}
+		b.WriteByte('@')
+		b.WriteString(attr.Key)
+	}
+	return nil
+}
+
+func exportSite(name string, gs *GeoSites) error {
+	idx, ok := gs.SiteIdx[strings.ToUpper(name)]
 	if !ok {
 		return fmt.Errorf("list %q does not exist", name)
 	}
-	if len(domainList.Rules) == 0 {
+	vDomains := gs.Sites[idx].Domain
+	if len(vDomains) == 0 {
 		return fmt.Errorf("list %q is empty", name)
 	}
 	file, err := os.Create(filepath.Join(*outputDir, name+".yml"))
@@ -104,13 +84,19 @@ func exportSite(name string, domainListByName map[string]*DomainList) error {
 	defer file.Close()
 	w := bufio.NewWriter(file)
 	fmt.Fprintf(w, "%s:\n", name)
-	for _, domain := range domainList.Rules {
-		fmt.Fprintf(w, "  - %q\n", domain.domain2String())
+	var b strings.Builder
+	b.Grow(64)
+	for _, vdomain := range vDomains {
+		b.Reset()
+		if err := domain2Builder(vdomain, &b); err != nil {
+			return err
+		}
+		fmt.Fprintf(w, "  - %q\n", b.String())
 	}
 	return w.Flush()
 }
 
-func exportAll(filename string, domainLists []DomainList) error {
+func exportAll(filename string, gs *GeoSites) error {
 	file, err := os.Create(filepath.Join(*outputDir, filename))
 	if err != nil {
 		return err
@@ -118,12 +104,18 @@ func exportAll(filename string, domainLists []DomainList) error {
 	defer file.Close()
 	w := bufio.NewWriter(file)
 	w.WriteString("lists:\n")
-	for _, domainList := range domainLists {
-		fmt.Fprintf(w, "  - name: %s\n", strings.ToLower(domainList.Name))
-		fmt.Fprintf(w, "    length: %d\n", len(domainList.Rules))
+	var b strings.Builder
+	b.Grow(64)
+	for _, site := range gs.Sites {
+		fmt.Fprintf(w, "  - name: %q\n", strings.ToLower(site.CountryCode))
+		fmt.Fprintf(w, "    length: %d\n", len(site.Domain))
 		w.WriteString("    rules:\n")
-		for _, domain := range domainList.Rules {
-			fmt.Fprintf(w, "      - %q\n", domain.domain2String())
+		for _, vdomain := range site.Domain {
+			b.Reset()
+			if err := domain2Builder(vdomain, &b); err != nil {
+				return err
+			}
+			fmt.Fprintf(w, "      - %q\n", b.String())
 		}
 	}
 	return w.Flush()
@@ -136,7 +128,7 @@ func run() error {
 	}
 
 	fmt.Printf("loading source data %q...\n", *inputData)
-	domainLists, domainListByName, err := loadGeosite(*inputData)
+	geoSites, err := loadGeosite(*inputData)
 	if err != nil {
 		return fmt.Errorf("failed to loadGeosite: %w", err)
 	}
@@ -153,17 +145,17 @@ func run() error {
 
 	for _, eplistname := range exportListSlice {
 		if strings.EqualFold(eplistname, "_all_") {
-			if err := exportAll(filepath.Base(*inputData)+"_plain.yml", domainLists); err != nil {
-				fmt.Printf("failed to exportAll: %v\n", err)
+			if err := exportAll(filepath.Base(*inputData)+"_plain.yml", geoSites); err != nil {
+				fmt.Printf("[Error] failed to exportAll: %v\n", err)
 				continue
 			}
 		} else {
-			if err := exportSite(eplistname, domainListByName); err != nil {
-				fmt.Printf("failed to exportSite: %v\n", err)
+			if err := exportSite(eplistname, geoSites); err != nil {
+				fmt.Printf("[Error] failed to exportSite: %v\n", err)
 				continue
 			}
 		}
-		fmt.Printf("list: %q has been exported successfully.\n", eplistname)
+		fmt.Printf("list: %q has been exported successfully\n", eplistname)
 	}
 	return nil
 }
@@ -171,7 +163,7 @@ func run() error {
 func main() {
 	flag.Parse()
 	if err := run(); err != nil {
-		fmt.Printf("Fatal error: %v\n", err)
+		fmt.Printf("[Fatal] critical error: %v\n", err)
 		os.Exit(1)
 	}
 }
