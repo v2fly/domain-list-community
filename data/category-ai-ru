@@ -2,9 +2,7 @@
 aiesa.ru
 
 # Yandex Alice
-alice.yandex.net
-alice.yandex.ru
-alicepro.yandex.ru
+include:yandex-ai
 
 # CopyMonkey (AI copywriter)
 copymonkey.app
