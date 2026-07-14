@@ -15,8 +15,8 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 ## Notice
 
-- Rules with `@!cn` attribute has been cast out from cn lists. `geosite:geolocation-cn@!cn` is no longer available. Check [#390](https://github.com/v2fly/domain-list-community/issues/390), [#3119](https://github.com/v2fly/domain-list-community/pull/3119) and [#3198](https://github.com/v2fly/domain-list-community/pull/3198) for more information.
-- Dedicated non-category ad lists like `geosite:xxx-ads` has been removed. Use `geosite:xxx@ads` instead. `geosite:category-ads[-xx]` is not affected.
+- Rules with `@!cn` attribute have been cast out from cn lists. `geosite:geolocation-cn@!cn` is no longer available. Check [#390](https://github.com/v2fly/domain-list-community/issues/390), [#3119](https://github.com/v2fly/domain-list-community/pull/3119) and [#3198](https://github.com/v2fly/domain-list-community/pull/3198) for more information.
+- Dedicated non-category ad lists like `geosite:xxx-ads` have been removed. Use `geosite:xxx@ads` instead. `geosite:category-ads[-xx]` is not affected.
 
 Please report if you have any problems or questions.
 
@@ -109,14 +109,17 @@ regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 > [!NOTE]
 > The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **NOT** copy and paste directly.
 
-- Comment begins with `#`. It may begin anywhere in the file. The content in the line after `#` is treated as comment and ignored in production.
+> [!NOTE]
+> Adding attributes after `include:filename` means selective inclusion. It's filtering, not flaging.
+
+- Comment begins with `#`. It may begin anywhere in the file. The content after `#` is treated as comment and will be ignored in production.
 - Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
 - Full domain begins with `full:`, followed by a complete and valid domain name.
 - Keyword begins with `keyword:`, followed by a substring of a valid domain name.
 - Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
 - Domain rules (including `domain`, `full`, `keyword`, and `regexp`) may have none, one or more attributes. Each attribute begins with `@` and followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
-- Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and followed by the name of the target list (nomatter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
-- Inclusion begins with `include:`, followed by the name of another valid domain list. `include:listb` in file `lista` means adding all domain rules of `listb` into `lista`. Inclusions with attributes stand for selective inclusion. `include:listb @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
+- Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and followed by the name of the target list (no matter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
+- Inclusion begins with `include:`, followed by the name of another valid domain list. `include:list2` in file `data/list1` means adding all domain rules of `list2` into `list1`. Inclusions with attributes stand for selective inclusion. `include:list2 @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
 
 ## How it works
 
