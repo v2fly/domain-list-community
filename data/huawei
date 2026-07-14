@@ -1,5 +1,6 @@
 include:huawei-dev
 include:huaweicloud
+include:huawei-doh
 
 abhouses.com
 agconnect.link

@@ -4,6 +4,8 @@ include:tencent-dev
 include:tencent-games
 include:tencent-tme
 include:yuewen
+# Tencent Wechat ads
+include:tencent-doh
 
 qq.xn--fiqs8s # qq.中国
 xn--r70as2s.xn--fiqs8s # 腾讯.中国

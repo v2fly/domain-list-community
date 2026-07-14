@@ -31,8 +31,8 @@ qchannel03.cn
 # 神策数据
 sensorsdata.cn
 
-# category-httpdns-cn is mainly for advertising purpose
-include:category-httpdns-cn
+# category-doh-cn is mainly for advertising purpose
+include:category-doh-cn
 
 # 号码认证
 # include:category-number-verification-cn

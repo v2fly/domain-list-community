@@ -11,12 +11,7 @@ httpdns.n.shifen.com @ads
 httpsdns.baidu.com @ads
 
 # Huawei Cloud
-httpdns-browser.platform.dbankcloud.cn @ads
-httpdns.c.cdnhwc2.com @ads
-httpdns.huaweicloud.com @ads
-httpdns.platform.dbankcloud.cn @ads
-httpdns.platform.dbankcloud.com @ads
-httpdns1.cc.cdnhwc5.com @ads
+include:huawei-doh
 
 # iqiyi
 dns.iqiyi.com @ads
@@ -43,9 +38,7 @@ httpdns.push.oppomobile.com @ads
 httpdns.ocloud.oppomobile.com @ads
 
 # Tencent
-dns.weixin.qq.com @ads
-dns.weixin.qq.com.cn @ads
-httpdns.kg.qq.com @ads
+include:tencent-doh
 
 # HeyTap
 httpdns.ocloud.heytapmobi.com @ads
