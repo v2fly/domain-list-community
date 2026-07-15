@@ -110,7 +110,7 @@ regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 > The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **NOT** copy and paste directly.
 
 > [!NOTE]
-> Adding attributes after `include:filename` means selective inclusion. It's filtering, not flaging.
+> Adding attributes after `include:filename` means selective inclusion. It's filtering, not flagging.
 
 - Comment begins with `#`. It may begin anywhere in the file. The content after `#` is treated as comment and will be ignored in production.
 - Subdomain begins with `domain:`, followed by a valid domain name. The prefix `domain:` may be omitted.
