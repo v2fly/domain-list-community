@@ -9,6 +9,8 @@ include:7tv
 include:abema
 include:amc
 include:anime
+include:apple-music
+include:apple-podcasts
 include:apple-tvplus
 include:archiveofourown
 include:attwatchtv
@@ -37,11 +39,13 @@ include:hulu
 include:imdb
 include:itunes
 include:iyf
+include:kick
 include:kingkonglive
 include:kkbox
 include:kktv
 include:lastfm
 include:litv
+include:likee
 include:manhuagui
 include:metacritic
 include:mubi
