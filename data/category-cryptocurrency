@@ -1,6 +1,7 @@
 # Reference: https://bitcoin.org/en/exchanges
 
 include:asproex
+include:bestchange
 include:binance
 include:bitflyer
 include:bitsquare
@@ -61,6 +62,7 @@ cryptomus.com
 curve.fi
 cyberx.com
 debank.com
+delets.online
 dogecoin.com
 drpc.org
 dydx.exchange
@@ -88,11 +90,16 @@ mexcsensors.com
 mytokenapi.com
 nodereal.io
 oasis.io
+onemoment.cc
 onfinality.io
 opensea.io
 osl.com
 paxful.com
+payget.pro
+platov.co
 polymarket.com
+ramon.cash
+ramon.money
 ripple.com
 rsk.co
 satoshilabs.com

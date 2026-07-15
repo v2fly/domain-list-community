@@ -32,6 +32,7 @@ include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:mindbox @ads
+include:moji @ads
 include:mozilla @ads
 include:mts-ru @ads
 include:netease @ads
@@ -70,7 +71,6 @@ include:zhihu @ads
 a.adtng.com
 aaxads.com
 ad-srv.net
-ad.api.moji.com
 ad.wang502.com
 adbutter.net
 addthisedge.com

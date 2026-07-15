@@ -1,6 +1,8 @@
-include:apple-dev # swift inside
+include:apple-dev
 # Not include:apple-intelligence
+include:apple-music
 include:apple-pki
+include:apple-podcasts
 include:apple-tvplus
 include:apple-update
 include:beats
@@ -104,6 +106,93 @@ apple.xn--czr694b # apple.商标
 apple.xn--fiqs8s # apple.中国
 apple.xyz
 
+# App Store
+app-store.wang
+appe-store.com
+apple-appstore.cn @cn
+appleappstore.cn @cn
+appleappstore.net
+appleappstore.tv
+appsto.re
+appstore.co.id
+appstore.hk
+appstore.my
+appstore.ph
+appstoreapple.cn @cn
+asto.re
+tvappstore.net
+
+# Apple Care
+applecare.berlin
+applecare.cc
+applecare.eu
+applecare.hamburg
+applecare.wang
+
+# Apple ID
+appleaccount.net
+appleid-applemx.com
+appleid-applemx.us
+appleid-iclou.com
+appleid-uk.us
+appleid.berlin
+appleid.com
+appleid.hamburg
+appleid.hk
+ids-apple.com
+myappleid.com
+
+# Apple News
+apple.comscoreresearch.com
+apple.news
+appleenews.com
+applenews.berlin
+applenews.hamburg
+applenews.tv
+applenewsformat.com
+
+# Apple One
+appleone.audio
+appleone.blog
+appleone.chat
+appleone.cloud
+appleone.club
+appleone.community
+appleone.film
+appleone.guide
+appleone.host
+appleone.space
+appleone.tech
+appleone.website
+
+# Apple Pay
+apple-pay.com
+apple-pay.rs
+apple-pay.wang
+applepay.berlin
+applepay.co.rs
+applepay.com.tw
+applepay.hamburg
+applepay.hk
+applepay.info
+applepay.jp
+applepay.rs
+applepay.tv
+applepaycash.cn @cn
+applepaycash.com.cn @cn
+applepaycash.net
+applepaycash.tv
+applepaymerchantsupplies.info
+applepaysupplies.berlin
+applepaysupplies.cn @cn
+applepaysupplies.com
+applepaysupplies.com.cn @cn
+applepaysupplies.info
+applepaysupplies.net
+applepaysupplies.tv
+applewallet.com
+applewallet.tv
+
 # Apple Store
 aplestore.com
 apple-store.cn @cn
@@ -151,21 +240,33 @@ applestoreonline.com
 applestorepro.eu
 onlineapplestore.com
 
-# App Store
-app-store.wang
-appe-store.com
-apple-appstore.cn @cn
-appleappstore.cn @cn
-appleappstore.net
-appleappstore.tv
-appsto.re
-appstore.co.id
-appstore.hk
-appstore.my
-appstore.ph
-appstoreapple.cn @cn
-asto.re
-tvappstore.net
+# Apple TV
+appletv.com
+appletv.fr
+appletv.wang
+appletv4.cn @cn
+appletv4.com.cn @cn
+appletvapp.apple
+
+# Apple Watch
+apple-watch.com.ru
+applewatch.hk
+applewatch.tv
+applewatch.tw
+applewatch.wang
+applewatchedition.com
+applewatchseries3.net
+applewatchsport.com
+
+# iBook
+i-book.com
+i-book.net
+ibook.co.nz
+ibook.com
+ibook.eu
+ibook.net
+ibookpartner.com
+ibooksauthor.com
 
 # iMac
 apple-imac.com
@@ -181,6 +282,11 @@ imac.one
 imac.rs
 imacapple.com
 imacapplecomputer.com
+
+# iMovie
+imovie.eu
+imoviegallery.com
+imoviestage.com
 
 # iPad
 ebookforipad.com
@@ -207,6 +313,54 @@ ipadmini.com.lk
 ipadmini.lk
 ipadpro.buzz
 ukipad.com
+
+# iPod
+aplleipods.com
+appleclassicipod.com
+downloadsforipod.com
+ipod.ca
+ipod.ch
+ipod.cm
+ipod.co
+ipod.co.nz
+ipod.co.uk
+ipod.co.za
+ipod.com
+ipod.com.au
+ipod.com.cn @cn
+ipod.com.fr
+ipod.com.hk
+ipod.com.sg
+ipod.com.tw
+ipod.de
+ipod.es
+ipod.eu
+ipod.fr
+ipod.gr
+ipod.hk
+ipod.is
+ipod.net
+ipod.no
+ipod.pk
+ipod.rs
+ipod.ru
+ipod.tw
+ipodcentre.nl
+ipodcleaner.com
+ipoditouch.com
+ipodnano.com
+ipodnano.net
+ipodprices.com
+ipodrip.ca
+ipodrocks.com.au
+ipods.com
+ipodshop.com.au
+ipodtouch.co
+ipodtouch.com
+myipod.net
+offrezdesipods.com
+simplyipod.com
+wwwipodlounge.com
 
 # iPhone
 appleiphone.hu
@@ -268,53 +422,11 @@ iphoneunlockimei.com
 iphonexs.tv
 onlyiphone5case.com
 
-# iPod
-aplleipods.com
-appleclassicipod.com
-downloadsforipod.com
-ipod.ca
-ipod.ch
-ipod.cm
-ipod.co
-ipod.co.nz
-ipod.co.uk
-ipod.co.za
-ipod.com
-ipod.com.au
-ipod.com.cn @cn
-ipod.com.fr
-ipod.com.hk
-ipod.com.sg
-ipod.com.tw
-ipod.de
-ipod.es
-ipod.eu
-ipod.fr
-ipod.gr
-ipod.hk
-ipod.is
-ipod.net
-ipod.no
-ipod.pk
-ipod.rs
-ipod.ru
-ipod.tw
-ipodcentre.nl
-ipodcleaner.com
-ipoditouch.com
-ipodnano.com
-ipodnano.net
-ipodprices.com
-ipodrip.ca
-ipodrocks.com.au
-ipods.com
-ipodshop.com.au
-ipodtouch.co
-ipodtouch.com
-myipod.net
-offrezdesipods.com
-simplyipod.com
-wwwipodlounge.com
+# iPhoto
+iphoto.eu
+iphoto.no
+iphoto.se
+iphoto.wang
 
 # MacBook
 imacsources.com
@@ -345,134 +457,19 @@ macbookpros.com
 macbooksale.com
 wwwmacbookair.com
 
-# Apple Watch
-apple-watch.com.ru
-applewatch.hk
-applewatch.tv
-applewatch.tw
-applewatch.wang
-applewatchedition.com
-applewatchseries3.net
-applewatchsport.com
-
-# Apple Music
-applemusic.berlin
-applemusic.co
-applemusic.com
-applemusic.com.au
-applemusic.hamburg
-applemusic.wang
-applemusicconnect.com
-applemusicfestival.com
-musickit.net
-wwwapplemusic.com
-
-# Apple News
-apple.comscoreresearch.com
-apple.news
-appleenews.com
-applenews.berlin
-applenews.hamburg
-applenews.tv
-applenewsformat.com
-
-# Apple Pay
-apple-pay.com
-apple-pay.rs
-apple-pay.wang
-applepay.berlin
-applepay.co.rs
-applepay.com.tw
-applepay.hamburg
-applepay.hk
-applepay.info
-applepay.jp
-applepay.rs
-applepay.tv
-applepaycash.cn @cn
-applepaycash.com.cn @cn
-applepaycash.net
-applepaycash.tv
-applepaymerchantsupplies.info
-applepaysupplies.berlin
-applepaysupplies.cn @cn
-applepaysupplies.com
-applepaysupplies.com.cn @cn
-applepaysupplies.info
-applepaysupplies.net
-applepaysupplies.tv
-applewallet.com
-applewallet.tv
-
-# iBook
-i-book.com
-i-book.net
-ibook.co.nz
-ibook.com
-ibook.eu
-ibook.net
-ibookpartner.com
-ibooksauthor.com
-
-# iPhoto
-iphoto.eu
-iphoto.no
-iphoto.se
-iphoto.wang
-
-# iMovie
-imovie.eu
-imoviegallery.com
-imoviestage.com
-
-# Apple Care
-applecare.berlin
-applecare.cc
-applecare.eu
-applecare.hamburg
-applecare.wang
-
 # macOS
+apple-darwin.com
+apple-darwin.net
+apple-darwin.org
 appledarwin.com
 appledarwin.net
 darwinsource.com
 darwinsource.org
 darwinsourcecode.com
-
-# Apple ID
-appleaccount.net
-appleid-applemx.com
-appleid-applemx.us
-appleid-iclou.com
-appleid-uk.us
-appleid.berlin
-appleid.com
-appleid.hamburg
-appleid.hk
-ids-apple.com
-myappleid.com
-
-# Apple TV
-appletv.com
-appletv.fr
-appletv.wang
-appletv4.cn @cn
-appletv4.com.cn @cn
-appletvapp.apple
-
-# Apple One
-appleone.audio
-appleone.blog
-appleone.chat
-appleone.cloud
-appleone.club
-appleone.community
-appleone.film
-appleone.guide
-appleone.host
-appleone.space
-appleone.tech
-appleone.website
+macos.com.au
+macossierra.com
+macosx.info
+macosxlion.com
 
 # Shazam
 shazam.com
@@ -500,9 +497,6 @@ appl-e.com
 appl.com
 appl4e.com
 appla.com
-apple-darwin.com
-apple-darwin.net
-apple-darwin.org
 apple-dns.cn @cn
 apple-dns.com
 apple-dns.com.cn @cn
@@ -572,7 +566,6 @@ appleonline.net
 appleoriginalproductions.com
 appleos.tv
 applepencil.net
-applepodcasts.com
 applepremiumreseller.com.au
 applepremiumresellers.com.au
 applereach.com
@@ -690,10 +683,6 @@ machos.net
 macintosh.eu
 macintoshsoftware.com
 macmini.com
-macos.com.au
-macossierra.com
-macosx.info
-macosxlion.com
 macpazar.com
 macreach.com
 macreach.net
@@ -752,12 +741,9 @@ courier-push-apple.com.akadns.net
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:apple@cn"
 full:amp-api-edge.apps.apple.com @cn
-full:amp-api-edge.music.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
-full:amp-api.music.apple.com @cn
 full:api-edge.apps.apple.com @cn
-full:auth.music.apple.com @cn
 full:communities.apple.com @cn
 full:discussionschinese.apple.com @cn
 full:fides-pol.apple.com @cn
@@ -766,12 +752,8 @@ full:gspe12-cn-ssl.ls.apple.com @cn
 full:gspe85-cn-ssl.ls.apple.com @cn
 full:init.gc-lb.apple.com.akadns.net @cn
 full:init.gc.apple.com @cn
-full:js-cdn.music.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
-full:musicstatus.music.apple.com @cn
-full:play.music.apple.com @cn
-full:speedysub.music.apple.com @cn
 full:www.support.apple.com @cn
 
 # regexp:^a[1-5]\.mzstatic\.com$ @cn
@@ -829,7 +811,7 @@ full:s5.mzstatic.com @cn
 
 # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
 # Revision: c3c9839e5e71f04fc170b5645d7a162631985e2d
-# Duplicates removed
+# Duplicates removed; some domains were added to dedicated lists like itunes/apple-music
 # According to the consensus in #503, do not include the domain name apps.apple.com directly.
 # Use in config file like this: "geosite:apple@cn"
 full:adcdownload.apple.com @cn
@@ -899,7 +881,6 @@ full:mesu-cdn.apple.com.akadns.net @cn
 full:mesu-china.apple.com.akadns.net @cn
 full:mesu.apple.com @cn
 full:ml.cdn-apple.com @cn
-full:music.apple.com @cn
 full:oscdn.apple.com @cn
 full:oscdn.origin-apple.com.akadns.net @cn
 full:pancake.apple.com @cn

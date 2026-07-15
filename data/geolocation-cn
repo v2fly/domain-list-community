@@ -45,10 +45,14 @@ include:everbright
 include:pingan @-!cn
 include:taikang
 
+## 北汽金融
+baicaf.com
 ## 航财通·校园付
 cc-pay.cn
 ## 易鑫金融
 daikuan.com
+## 嘟噜支付
+dulupay.com
 ## 合利宝
 helipay.com
 ## 徽商期货有限责任公司
@@ -119,6 +123,8 @@ pkoplink.com
 ## 速方云
 suufun.com
 suu-fun.com
+## 亿速云
+yisu.com
 
 # Cloud Service
 ## 华栖云
@@ -128,6 +134,10 @@ cjyun.org
 ## 安徽大家网络科技
 cnwza.cn
 govwza.cn
+## 新空云
+newaircloud.com
+## 趣看科技
+quklive.com
 ## 广州润雨科技有限公司 粤ICP备19052839号
 rainyun.com
 ## 深圳市狐蒂云网络科技有限公司 粤ICP备2025387186号-1
@@ -213,6 +223,9 @@ kujiale.com
 ## 银泰百货
 intime.com.cn
 linkheer.com
+## 法律快车
+lawtime.cn
+lawtimeimg.com
 ## 慢慢买
 manmanbuy.com
 ## 美物清单
@@ -318,6 +331,12 @@ haodf.com
 hdfimg.com
 ## 江苏健康通
 jsehealth.com
+## 民福康
+39yst.com
+mfk.com
+## 妙手医生
+miaoshou.net
+miaoshoucdn.com
 ## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
 ## 爱问医生
@@ -418,6 +437,10 @@ ccrgt.com
 bmac.com.cn
 ## 车来了
 chelaile.net.cn
+## 活力智汇/高铁管家/航班管家
+133.cn
+gtgjtrip.com
+rsscc.cn
 ## 跨境巴士
 kuajing84.com
 ## 掌上公交
@@ -633,6 +656,9 @@ zaih.com
 ## 智联招聘
 zhaopin.cn
 zhaopin.com
+## 最美天气
+zmtqsh.cn
+zmtqsh.com
 
 ## 上海东方怡动信息技术有限公司
 ewdcloud.com
@@ -649,6 +675,7 @@ include:aisiku # 北京艾斯酷科技有限公司
 include:akiko # 秋子酱科技
 include:alibaba @-!cn
 include:anker @-!cn
+include:auxgroup @-!cn # 奥克斯集团
 include:baidu
 include:beisen
 include:bluepoch
@@ -722,12 +749,22 @@ cfp.cn
 ishijue.com
 vcg.com
 vcgapi.com
+## 视源/视臻/视睿
+cvte.com
+maxhub.com
+seewo.com
 ## 飞牛
 fnnas.com
 fnnas.net
 fnos.net
 ## 咕咕数据
 gugudata.com
+## 二三四五
+2345.cc
+2345.cn
+2345.com
+2345cdn.net
+hao774.com
 ## 稿定（厦门）信息服务有限公司
 ### 花瓣网 闽ICP备2021013850号
 huaban.com
@@ -741,6 +778,10 @@ xsbapp.cn
 ## 凯迪仕
 juziwulian.com
 kaadas.com
+## UGREEN绿联
+lulian.cn
+ugnas.cloud
+ugnas.com
 ## 微步在线 / 步刻科技
 onedns.net
 #safeskill.cn
@@ -855,7 +896,6 @@ ycrx360.com
 1zhe.com
 2265.com
 2288.org
-2345.com
 258.com
 263.net
 289.com
@@ -1122,7 +1162,6 @@ downcc.com
 downxia.com
 downyi.com
 dreams-travel.com
-drivergenius.com
 duomai.com
 duoshuo.com
 duote.com
@@ -1177,6 +1216,7 @@ gdliontech.com
 gdrc.com
 geektool.top # 极客Tool 蜀ICP备2024086015号-2
 gezida.com
+gifpay.com # 苏ICP备2021037684号-1
 globrand.com
 gm86.com
 gmz88.com
@@ -1238,6 +1278,7 @@ hongsanban.com
 hongyuanqh.com
 houdao.com
 houyuantuan.com
+hprtupgrade.com # 闽ICP备17017244号-4
 hteacher.net
 huashengdaili.com
 huize.com
@@ -1260,8 +1301,10 @@ im-cc.com
 imacos.top # 黑苹果屋 滇ICP备20000138号-1
 imgcdc.com
 imooc.com
+indeedpower.com # 沪ICP备17014357号-3
 indienova.com
 infini-fantasy.com # 沪ICP备2025147287号-3
+iposl.com # 冀ICP备2025135750号-4
 iranshao.com
 irs01.com
 istoreos.com # 粤ICP备20024441号-9
@@ -1325,7 +1368,6 @@ kq7.com
 kuaaa.com
 kuaihou.com
 kuaiji.com
-kuaizhan.com
 kuqin.com
 kuyiso.com
 lady8844.com
@@ -1482,7 +1524,6 @@ qudong.com
 qugame.com
 qunjielong.com # 桂ICP备14006138号-2
 rockyenglish.com
-rrmj.plus
 rtbasia.com
 ruan8.com
 ruiwen.com
@@ -1555,6 +1596,8 @@ tao123.com
 taoche.com
 te5.com
 tenxcloud.com
+tggfl.com # 粤ICP备20037988号-1
+thispx.com # 粤ICP备2021020067号-2
 thmnet.com # 粤ICP备10240765号-2
 tianlailive.com
 tianlala.com
@@ -1566,6 +1609,7 @@ tingyun.com
 titanar.com
 tjjt360.com
 tmcdn.net
+tmwanba.com # 渝ICP备20006035号-4
 tobosu.com
 tom.com
 tongdun.net
@@ -1703,7 +1747,6 @@ yinyuetai.com
 yinzhaowang.com
 yiqifa.com
 yiqifa.org
-yisu.com
 yitaifang.com
 yiwan.com
 yixi.tv
