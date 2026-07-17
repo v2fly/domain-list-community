@@ -48,6 +48,7 @@ include:redhat
 include:redis
 include:ruby
 include:rust
+include:safety-cybersecurity
 include:scala
 include:sentry
 include:sourcehut
