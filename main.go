@@ -38,7 +38,7 @@ type Inclusion struct {
 }
 
 type ParsedList struct {
-	Name       string
+	Resolved   bool
 	Inclusions []*Inclusion
 	Entries    []*Entry
 }
@@ -338,7 +338,7 @@ func validateSiteName(name string) bool {
 func (p *Processor) getOrCreateParsedList(name string) *ParsedList {
 	pl, exist := p.plMap[name]
 	if !exist {
-		pl = &ParsedList{Name: name}
+		pl = &ParsedList{Resolved: false}
 		p.plMap[name] = pl
 	}
 	return pl
@@ -458,12 +458,12 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 }
 
 func (p *Processor) resolveList(plname string) error {
-	if _, pldone := p.finalMap[plname]; pldone {
-		return nil
-	}
-	pl, plexist := p.plMap[plname]
-	if !plexist {
+	pl, ok := p.plMap[plname]
+	if !ok {
 		return fmt.Errorf("list %q not found", plname)
+	}
+	if pl.Resolved {
+		return nil
 	}
 	if p.cirIncMap[plname] {
 		return fmt.Errorf("circular inclusion in: %q", plname)
@@ -487,10 +487,11 @@ func (p *Processor) resolveList(plname string) error {
 		}
 	}
 	if len(roughMap) == 0 {
-		fmt.Printf("[Warn] ignore empty list %q", plname)
+		fmt.Printf("[Warn] ignore empty list %q\n", plname)
 	} else {
 		p.finalMap[plname] = polishList(roughMap)
 	}
+	pl.Resolved = true
 	return nil
 }
 
@@ -516,8 +517,7 @@ func run() error {
 		return fmt.Errorf("failed to loadData: %w", err)
 	}
 	// Generate finalMap
-	sitesCount := len(processor.plMap)
-	processor.finalMap = make(map[string][]*Entry, sitesCount)
+	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
 	processor.cirIncMap = make(map[string]bool)
 	for plname := range processor.plMap {
 		if err := processor.resolveList(plname); err != nil {
@@ -547,6 +547,7 @@ func run() error {
 	}
 
 	// Generate proto sites
+	sitesCount := len(processor.finalMap)
 	gs := &GeoSites{
 		Sites:   make([]*router.GeoSite, 0, sitesCount),
 		SiteIdx: make(map[string]int, sitesCount),
