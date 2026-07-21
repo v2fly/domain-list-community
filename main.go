@@ -487,7 +487,7 @@ func (p *Processor) resolveList(plname string) error {
 		}
 	}
 	if len(roughMap) == 0 {
-		fmt.Printf("[Warn] ignore empty list %q", plname)
+		fmt.Printf("[Warn] ignore empty list %q\n", plname)
 	} else {
 		p.finalMap[plname] = polishList(roughMap)
 	}
@@ -516,8 +516,7 @@ func run() error {
 		return fmt.Errorf("failed to loadData: %w", err)
 	}
 	// Generate finalMap
-	sitesCount := len(processor.plMap)
-	processor.finalMap = make(map[string][]*Entry, sitesCount)
+	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
 	processor.cirIncMap = make(map[string]bool)
 	for plname := range processor.plMap {
 		if err := processor.resolveList(plname); err != nil {
@@ -547,6 +546,7 @@ func run() error {
 	}
 
 	// Generate proto sites
+	sitesCount := len(processor.finalMap)
 	gs := &GeoSites{
 		Sites:   make([]*router.GeoSite, 0, sitesCount),
 		SiteIdx: make(map[string]int, sitesCount),
