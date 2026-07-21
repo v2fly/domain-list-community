@@ -38,7 +38,7 @@ type Inclusion struct {
 }
 
 type ParsedList struct {
-	Name       string
+	Resolved   bool
 	Inclusions []*Inclusion
 	Entries    []*Entry
 }
@@ -338,7 +338,7 @@ func validateSiteName(name string) bool {
 func (p *Processor) getOrCreateParsedList(name string) *ParsedList {
 	pl, exist := p.plMap[name]
 	if !exist {
-		pl = &ParsedList{Name: name}
+		pl = &ParsedList{Resolved: false}
 		p.plMap[name] = pl
 	}
 	return pl
@@ -458,12 +458,12 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 }
 
 func (p *Processor) resolveList(plname string) error {
-	if _, pldone := p.finalMap[plname]; pldone {
-		return nil
-	}
-	pl, plexist := p.plMap[plname]
-	if !plexist {
+	pl, ok := p.plMap[plname]
+	if !ok {
 		return fmt.Errorf("list %q not found", plname)
+	}
+	if pl.Resolved {
+		return nil
 	}
 	if p.cirIncMap[plname] {
 		return fmt.Errorf("circular inclusion in: %q", plname)
@@ -491,6 +491,7 @@ func (p *Processor) resolveList(plname string) error {
 	} else {
 		p.finalMap[plname] = polishList(roughMap)
 	}
+	pl.Resolved = true
 	return nil
 }
 
