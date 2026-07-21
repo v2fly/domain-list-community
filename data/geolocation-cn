@@ -26,6 +26,8 @@ include:getui
 include:growingio
 include:jiguang
 
+# LinkFlow
+linkflowtech.com
 # 北京贵士信息科技有限公司
 qchannel03.cn
 # 神策数据
@@ -49,6 +51,9 @@ include:taikang
 baicaf.com
 ## 航财通·校园付
 cc-pay.cn
+## 橙券
+51106.cn
+chengquan.cn
 ## 易鑫金融
 daikuan.com
 ## 嘟噜支付
@@ -125,8 +130,13 @@ suufun.com
 suu-fun.com
 ## 亿速云
 yisu.com
+## 静态资源 ZStatic
+zstatic.net
 
 # Cloud Service
+## 书链
+bookln.cn
+zhizhuma.com
 ## 华栖云
 chinamcloud.com
 ## CmsTop 媒体云
@@ -134,6 +144,9 @@ cjyun.org
 ## 安徽大家网络科技
 cnwza.cn
 govwza.cn
+## 顶想云
+kancloud.cn
+topthink.com
 ## 新空云
 newaircloud.com
 ## 趣看科技
@@ -351,6 +364,7 @@ youlai.cn
 12321.cn
 12377.cn
 gov.cn
+mil.cn
 ## 中华全国总工会
 acftu.org
 ## 中国气象局
@@ -466,6 +480,8 @@ guoxuedashi.com
 guoxuemi.com
 ## 科普中国
 kepuchina.cn
+## 国家图书馆
+nlc.cn
 ## 四川省文物考古研究院
 sckg.com
 ## 温州市图书馆
@@ -572,6 +588,8 @@ duanshu.com
 ## 兑吧
 dui88.com
 duiba.com.cn
+## 易聊科技
+easyliao.com
 ## 旷视科技（人脸识别）
 faceid.com
 ## 方正字库
@@ -645,6 +663,9 @@ tianqi.com
 tianqistatic.com
 ## Via 浏览器
 viayoo.com
+## 微盟
+weimob.com
+weimobdc.com
 ## 问卷网
 wenjuan.com
 ## X 浏览器
@@ -653,6 +674,9 @@ xbext.com
 yinxiang.com
 ## 云片
 yunpian.com
+## 鱼泡直聘
+yupao.com
+yupaowang.com
 ## 在行
 zaih.com
 ## 智联招聘
@@ -661,6 +685,7 @@ zhaopin.com
 ## 最美天气
 zmtqsh.cn
 zmtqsh.com
+zuimeitianqi.com
 
 ## 上海东方怡动信息技术有限公司
 ewdcloud.com
@@ -721,15 +746,20 @@ include:zte
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
 dreame.tech # 追觅科技
+fastcom.com.cn # 迅捷
 ibaotu.com # 包图网
 insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
 jmgo.com # 坚果投影
 mediastory.cc # 闪电分镜
+mercurycom.com.cn # 水星
 roborock.com # 石头科技
+ruijie.com.cn # 锐捷
 shipin520.com # 潮点视频
 socpk.com # 极客湾移动芯片排行
 suzuki-china.com # 铃木中国官网
+tenda.com.cn # 腾达
+tp-link.com.cn # 普联
 udesk.cn # 沃丰科技
 ysjf.com # 影视飓风
 
@@ -790,6 +820,9 @@ onedns.net
 shellpub.com
 threatbook.cn
 threatbook.com
+## 千图网
+58pic.com
+qiantucdn.com
 ## 新片场
 xinpianchang.com
 xpccdn.com
@@ -949,7 +982,6 @@ ycrx360.com
 55.com
 5577.com
 55bbs.com
-58pic.com
 5bite.com
 5fun.com
 5gzm.net
@@ -1414,9 +1446,7 @@ lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
 lxway.com
 maisanqi.com
-mamecn.com
 manhuatai.com
-manmankan.com
 mapbar.com
 mayi.com
 mayihr.com
