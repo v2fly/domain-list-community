@@ -37,6 +37,7 @@ include:kontur
 include:mailru-group
 include:mindbox
 include:myoffice-ru
+include:netcraze
 include:nic-ru
 include:positive-technologies
 include:regru
@@ -102,7 +103,12 @@ randomgodbot.com   # Telegram randomizer bot
 srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
+vimu.tv            # Vimu Media Player
 yourgood.app       # CRM for small business
+
+## Russian 2FA/MFA provider
+mfa.center
+multifactor.ru
 
 ## Ads and tracking
 adriver.ru @ads
