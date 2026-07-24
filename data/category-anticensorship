@@ -10,6 +10,7 @@ include:softether
 include:torproject
 include:v2ray
 include:vpngate
+include:remnawave
 
 full:trojan-gfw.github.io
 full:xtls.github.io
