@@ -81,6 +81,7 @@ include:t2-ru
 adygtelecom.com    # Adygea Telephone Company, regional operator
 beeline.ru
 dom.ru
+mcc250.pub.3gppnetwork.org # Mobile IMS
 
 # Other services
 3ebra.net          # Zebra Net Bureau, web development agency
