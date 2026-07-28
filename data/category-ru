@@ -24,6 +24,7 @@ include:carrotquest
 include:cdek
 include:comssone
 include:drweb
+include:dsn-host
 include:envybox
 include:genotek-ru
 include:gismeteo
@@ -89,6 +90,7 @@ apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
 flomni.com         # Omnichannel communications platform
 foto-planeta.com   # Photo encyclopedia of settlements
 gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
+hostland.ru        # Russian hosting provider
 kinescopecdn.net   # Kinescope video hosting CDN
 litres.ru          # E-book and audiobook service
 meteoinfo.ru       # Hydrometeorological Center of Russia
