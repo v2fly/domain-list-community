@@ -37,6 +37,7 @@ include:kontur
 include:mailru-group
 include:mindbox
 include:myoffice-ru
+include:netcraze
 include:nic-ru
 include:positive-technologies
 include:regru
@@ -89,7 +90,6 @@ apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
 flomni.com         # Omnichannel communications platform
 foto-planeta.com   # Photo encyclopedia of settlements
 gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
-kinescopecdn.net   # Kinescope video hosting CDN
 litres.ru          # E-book and audiobook service
 meteoinfo.ru       # Hydrometeorological Center of Russia
 ngenix.net         # NGENIX is a Russian provider of acceleration and security services for public web resources
@@ -102,7 +102,18 @@ randomgodbot.com   # Telegram randomizer bot
 srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
+vimu.tv            # Vimu Media Player
 yourgood.app       # CRM for small business
+
+## eXpress corporate messenger
+corp.express
+express.ms
+public.express
+xlnk.ms
+
+## Russian 2FA/MFA provider
+mfa.center
+multifactor.ru
 
 ## Ads and tracking
 adriver.ru @ads
