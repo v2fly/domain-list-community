@@ -2,6 +2,13 @@
 include:rossiyasegodnya
 include:rt
 
+72.ru            # News from Tyumen and the Tyumen region
+amic.ru          # News from the Altai Krai
+e1.ru            # News from Yekaterinburg and the Sverdlovsk region
+ekat.ru          # e1`s alternative domain
+gazeta.ru        # A media outlet owned by Russian It giant "Sber"
+rambler.ru       # A media outlet owned by Russian It giant "Sber"
+
 # EurAsia Daily (EADaily, EAD), allegedly a state-controlled news outlet
 eadaily.com
 eadaily.info
@@ -9,7 +16,3 @@ eadaily.net
 eadaily.org
 eadaily.su
 eurasiadaily.su
-
-# iXBT
-ixbt.com
-ixbt.site
