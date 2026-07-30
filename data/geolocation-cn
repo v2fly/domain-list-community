@@ -712,6 +712,7 @@ include:bytedance @-!cn
 include:didi @-!cn
 include:dingdatech # 叮哒出行(杭州金通互联科技有限公司)
 include:dji
+include:focus # 焦点科技
 include:gree
 include:haier
 include:hikvision
