@@ -18,8 +18,6 @@ include:category-proxy-tunnels
 include:artstation
 include:dribbble
 include:dyna
-include:flickr
-include:fonts
 include:fontsinuse
 include:gettyimages
 include:glyphs
@@ -43,11 +41,9 @@ include:volvo
 
 # Bank & Finance
 include:category-finance
-include:dowjones
 include:mastercard
 include:paypal
 include:softbank
-include:stripe
 include:visa
 ## アプリペイ
 app-pay.jp
@@ -87,7 +83,6 @@ include:edx
 include:egghead
 include:embl
 include:freecodecamp
-include:kaggle
 include:khanacademy
 include:laracasts
 include:libgen
@@ -138,9 +133,6 @@ include:streamable
 include:category-forums
 include:category-social-media-!cn
 
-# IPFS
-include:category-ipfs
-
 # Media & News & Press
 include:category-media
 include:pugpig
@@ -150,9 +142,6 @@ include:category-orgs
 
 # Porn
 include:category-porn
-
-# Religion
-include:falungong
 
 # Services & Softwares
 include:category-android-app-download
@@ -173,7 +162,6 @@ include:rsshub-3rd
 include:accuweather
 include:adblock
 include:adblockplus
-include:addthis
 include:addtoany
 include:adguard
 include:aptoide
@@ -185,7 +173,6 @@ include:chatango
 include:cloudconvert
 include:contentful
 include:cuttly
-include:digitalocean
 include:disqus
 include:duckduckgo
 include:easylist
@@ -229,7 +216,6 @@ include:reurl
 include:sb
 include:setapp
 include:sharethis
-include:shopify
 include:slideshare
 include:sourceforge
 include:squareup
@@ -329,7 +315,6 @@ include:huanghuagang
 include:lavteam
 include:mcdonalds
 include:rb
-include:reagroup
 include:scenesource
 include:starbucks
 include:tsquare
