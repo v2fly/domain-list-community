@@ -9,6 +9,7 @@ include:github-copilot
 include:google-deepmind
 include:groq
 include:huggingface
+include:jetbrains-ai
 include:liveperson
 include:manus
 include:openai
