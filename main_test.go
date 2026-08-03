@@ -25,7 +25,7 @@ func TestParseEntry(t *testing.T) {
 		{name: "invalid regexp", typ: "regexp", rule: "^example(", wantErr: true},
 		{name: "empty rule", typ: "domain", rule: "   ", wantErr: true},
 		{name: "unknown type", typ: "prefix", rule: "example.com", wantErr: true},
-		{name: "invalid domain", typ: "domain", rule: "exa mple.com @ads", wantErr: true},
+		{name: "invalid domain", typ: "domain", rule: "exa_mple.com @ads", wantErr: true},
 		{name: "empty attr", typ: "domain", rule: "example.com @", wantErr: true},
 		{name: "empty affiliation", typ: "domain", rule: "example.com &", wantErr: true},
 		{name: "unknown field", typ: "domain", rule: "example.com ads", wantErr: true},
@@ -71,7 +71,7 @@ func TestParseInclusion(t *testing.T) {
 		{name: "empty attr", rule: "other @", wantErr: true},
 		{name: "empty ban attr", rule: "other @-", wantErr: true},
 		{name: "empty rule", rule: " ", wantErr: true},
-		{name: "invalid name", rule: "other list@", wantErr: true},
+		{name: "invalid name", rule: "other@list", wantErr: true},
 		{name: "affiliation", rule: "other &another", wantErr: true},
 	}
 	for _, tc := range testCases {
