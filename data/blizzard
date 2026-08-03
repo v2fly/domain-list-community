@@ -12,7 +12,9 @@ full:bnetproduct-a.akamaihd.net
 full:bnetshopus.akamaized.net
 
 # Diablo
+diablo.com
 diablo3.com
+diablo4.com
 diabloimmortal.com
 
 # Hearthstone
@@ -34,6 +36,8 @@ playwarcraft3.com
 
 # World of Warcraft
 worldofwarcraft.com
+
+include:activision
 
 full:blizzcon-a.akamaihd.net
 full:blzmedia-a.akamaihd.net
