@@ -45,6 +45,7 @@ type ParsedList struct {
 
 type Processor struct {
 	plMap     map[string]*ParsedList
+	roughMap  map[string]map[string]*Entry
 	finalMap  map[string][]*Entry
 	cirIncMap map[string]bool
 }
@@ -136,11 +137,12 @@ func (gs *GeoSites) assembleDat(task DatTask) error {
 				return fmt.Errorf("list %q not found for allowlist task", list)
 			}
 		}
+		slices.Sort(allowedIdxes)
+		allowedIdxes = slices.Compact(allowedIdxes) // Avoid duplicated lists
 		allowedlen := len(allowedIdxes)
 		if allowedlen == 0 {
 			return fmt.Errorf("allowlist needs at least one valid list")
 		}
-		slices.Sort(allowedIdxes)
 		geoSiteList.Entry = make([]*router.GeoSite, allowedlen)
 		for i, idx := range allowedIdxes {
 			geoSiteList.Entry[i] = gs.Sites[idx]
@@ -151,12 +153,12 @@ func (gs *GeoSites) assembleDat(task DatTask) error {
 			if idx, ok := gs.SiteIdx[strings.ToUpper(list)]; ok {
 				deniedMap[idx] = true
 			} else {
-				fmt.Printf("[Warn] list %q not found in denylist task %q", list, task.Name)
+				fmt.Printf("[Warn] list %q not found in denylist task %q\n", list, task.Name)
 			}
 		}
 		deniedlen := len(deniedMap)
 		if deniedlen == 0 {
-			fmt.Printf("[Warn] nothing to deny in task %q", task.Name)
+			fmt.Printf("[Warn] nothing to deny in task %q\n", task.Name)
 			geoSiteList.Entry = gs.Sites
 		} else {
 			geoSiteList.Entry = make([]*router.GeoSite, 0, len(gs.Sites)-deniedlen)
@@ -237,7 +239,8 @@ func parseEntry(typ, rule string) (*Entry, []string, error) {
 		}
 	}
 
-	slices.Sort(entry.Attrs) // Sort attributes
+	slices.Sort(entry.Attrs)                  // Sort attributes
+	entry.Attrs = slices.Compact(entry.Attrs) // Remove duplicated attributes
 	// Formated plain entry: type:domain.tld:@attr1,@attr2
 	var plain strings.Builder
 	plain.Grow(plen)
@@ -272,7 +275,7 @@ func parseInclusion(rule string) (*Inclusion, error) {
 		switch part[0] {
 		case '@':
 			attr := strings.ToLower(part[1:])
-			if attr[0] == '-' {
+			if strings.HasPrefix(attr, "-") {
 				battr := attr[1:]
 				if !validateAttrChars(battr) {
 					return inc, fmt.Errorf("invalid ban attribute: %q", battr)
@@ -480,12 +483,16 @@ func (p *Processor) resolveList(plname string) error {
 			return fmt.Errorf("failed to resolve inclusion %q: %w", inc.Source, err)
 		}
 		isFullInc := len(inc.MustAttrs) == 0 && len(inc.BanAttrs) == 0
-		for _, ientry := range p.finalMap[inc.Source] {
+		// Filter the unpolished entries of the source list, otherwise selective
+		// inclusion would lose rules that have been pruned in the source list as
+		// redundant subdomains of a parent rule which is filtered out here.
+		for _, ientry := range p.roughMap[inc.Source] {
 			if isFullInc || isMatchAttrFilters(ientry, inc) {
 				roughMap[ientry.Plain] = ientry
 			}
 		}
 	}
+	p.roughMap[plname] = roughMap
 	if len(roughMap) == 0 {
 		fmt.Printf("[Warn] ignore empty list %q\n", plname)
 	} else {
@@ -518,6 +525,7 @@ func run() error {
 	}
 	// Generate finalMap
 	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
+	processor.roughMap = make(map[string]map[string]*Entry, len(processor.plMap))
 	processor.cirIncMap = make(map[string]bool)
 	for plname := range processor.plMap {
 		if err := processor.resolveList(plname); err != nil {
@@ -525,12 +533,14 @@ func run() error {
 		}
 	}
 	processor.plMap = nil
+	processor.roughMap = nil
 
 	// Make sure output directory exists
 	if err := os.MkdirAll(*outputDir, 0755); err != nil {
 		return fmt.Errorf("failed to create output directory: %w", err)
 	}
 	// Export plaintext lists
+	failedCount := 0
 	for rawEpList := range strings.SplitSeq(*exportLists, ",") {
 		if epList := strings.TrimSpace(rawEpList); epList != "" {
 			entries, exist := processor.finalMap[strings.ToUpper(epList)]
@@ -540,6 +550,7 @@ func run() error {
 			}
 			if err := writePlainList(epList, entries); err != nil {
 				fmt.Printf("[Error] failed to write list %q: %v\n", epList, err)
+				failedCount++
 				continue
 			}
 			fmt.Printf("list %q has been generated successfully\n", epList)
@@ -577,8 +588,12 @@ func run() error {
 	}
 	for _, task := range tasks {
 		if err := gs.assembleDat(task); err != nil {
-			fmt.Printf("[Error] failed to assembleDat %q: %v", task.Name, err)
+			fmt.Printf("[Error] failed to assembleDat %q: %v\n", task.Name, err)
+			failedCount++
 		}
+	}
+	if failedCount > 0 {
+		return fmt.Errorf("%d output file(s) failed to be generated", failedCount)
 	}
 	return nil
 }
