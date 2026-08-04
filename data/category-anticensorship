@@ -12,6 +12,9 @@ include:v2ray
 include:vpngate
 include:remnawave
 
+full:metacubex.github.io
+full:rabbit-hole-1.gitbook.io
+full:throneproj.github.io
 full:trojan-gfw.github.io
 full:xtls.github.io
 
@@ -20,11 +23,15 @@ akasha.world
 browserleaks.com
 bypasscensorship.org
 censorship.ai
+clashmi.app
+clashparty.org
 clashyun.com
 dat.foundation
 democracy.earth
 eff.org
 ffprofile.com
+flclashx.app
+flowvy.io
 freenetproject.org
 fteproxy.org
 geti2p.net
@@ -34,7 +41,9 @@ guardianproject.info
 happ.info
 happ.su
 hiddify.com
+incy.cc
 jitsi.org
+karing.app
 lokinet.org
 metacubex.one
 ntc.party
@@ -42,6 +51,7 @@ onionshare.org
 ooni.org
 openvpn.net
 privacytools.io
+prizrak.app
 proxifier.com
 psiphon.ca
 psiphon3.com
