@@ -754,6 +754,9 @@ full:init.gc-lb.apple.com.akadns.net @cn
 full:init.gc.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
+full:tj-pod1-smp-device.apple.com @cn
+full:tj-pod2-smp-device.apple.com @cn
+full:tj-pod3-smp-device.apple.com @cn
 full:www.support.apple.com @cn
 
 # regexp:^a[1-5]\.mzstatic\.com$ @cn
@@ -916,7 +919,6 @@ full:swdist.apple.com.akadns.net @cn
 full:swscan-cdn.apple.com.akadns.net @cn
 full:swscan.apple.com @cn
 full:sylvan.apple.com @cn
-full:tj-pod1-smp-device.apple.com @cn
 full:updates-http.cdn-apple.com @cn
 full:updates-http.cdn-apple.com.akadns.net @cn
 full:updates.cdn-apple.com @cn
