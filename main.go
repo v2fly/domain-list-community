@@ -38,16 +38,17 @@ type Inclusion struct {
 }
 
 type ParsedList struct {
-	Resolved   bool
 	Inclusions []*Inclusion
-	Entries    []*Entry
+	Entries    []*Entry // Entries parsed from the list itself
+	// The fields below are filled in by resolveList
+	Resolving    bool
+	Resolved     bool
+	RoughEntries map[string]*Entry // Deduplicated direct and included entries
+	FinalEntries []*Entry          // Sorted entries without redundant subdomains
 }
 
 type Processor struct {
-	plMap     map[string]*ParsedList
-	roughMap  map[string]map[string]*Entry
-	finalMap  map[string][]*Entry
-	cirIncMap map[string]bool
+	parsedListByName map[string]*ParsedList
 }
 
 type GeoSites struct {
@@ -275,8 +276,7 @@ func parseInclusion(rule string) (*Inclusion, error) {
 		switch part[0] {
 		case '@':
 			attr := strings.ToLower(part[1:])
-			if strings.HasPrefix(attr, "-") {
-				battr := attr[1:]
+			if battr, ok := strings.CutPrefix(attr, "-"); ok {
 				if !validateAttrChars(battr) {
 					return inc, fmt.Errorf("invalid ban attribute: %q", battr)
 				}
@@ -339,10 +339,10 @@ func validateSiteName(name string) bool {
 }
 
 func (p *Processor) getOrCreateParsedList(name string) *ParsedList {
-	pl, exist := p.plMap[name]
+	pl, exist := p.parsedListByName[name]
 	if !exist {
-		pl = &ParsedList{Resolved: false}
-		p.plMap[name] = pl
+		pl = new(ParsedList)
+		p.parsedListByName[name] = pl
 	}
 	return pl
 }
@@ -460,53 +460,55 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 	return finalList
 }
 
-func (p *Processor) resolveList(plname string) error {
-	pl, ok := p.plMap[plname]
+// resolveList resolves the inclusions of the named list and returns it.
+func (p *Processor) resolveList(plname string) (*ParsedList, error) {
+	pl, ok := p.parsedListByName[plname]
 	if !ok {
-		return fmt.Errorf("list %q not found", plname)
+		return nil, fmt.Errorf("list %q not found", plname)
 	}
 	if pl.Resolved {
-		return nil
+		return pl, nil
 	}
-	if p.cirIncMap[plname] {
-		return fmt.Errorf("circular inclusion in: %q", plname)
+	if pl.Resolving {
+		return nil, fmt.Errorf("circular inclusion in: %q", plname)
 	}
-	p.cirIncMap[plname] = true
-	defer delete(p.cirIncMap, plname)
+	pl.Resolving = true
+	defer func() { pl.Resolving = false }()
 
-	roughMap := make(map[string]*Entry) // Avoid basic duplicates
-	for _, dentry := range pl.Entries { // Add direct entries
-		roughMap[dentry.Plain] = dentry
+	roughEntries := make(map[string]*Entry) // Avoid basic duplicates
+	for _, dentry := range pl.Entries {     // Add direct entries
+		roughEntries[dentry.Plain] = dentry
 	}
 	for _, inc := range pl.Inclusions { // Add included entries
-		if err := p.resolveList(inc.Source); err != nil {
-			return fmt.Errorf("failed to resolve inclusion %q: %w", inc.Source, err)
+		ipl, err := p.resolveList(inc.Source)
+		if err != nil {
+			return nil, fmt.Errorf("failed to resolve inclusion %q: %w", inc.Source, err)
 		}
 		isFullInc := len(inc.MustAttrs) == 0 && len(inc.BanAttrs) == 0
 		// Filter the unpolished entries of the source list, otherwise selective
 		// inclusion would lose rules that have been pruned in the source list as
 		// redundant subdomains of a parent rule which is filtered out here.
-		for _, ientry := range p.roughMap[inc.Source] {
+		for _, ientry := range ipl.RoughEntries {
 			if isFullInc || isMatchAttrFilters(ientry, inc) {
-				roughMap[ientry.Plain] = ientry
+				roughEntries[ientry.Plain] = ientry
 			}
 		}
 	}
-	p.roughMap[plname] = roughMap
-	if len(roughMap) == 0 {
+	pl.RoughEntries = roughEntries
+	if len(roughEntries) == 0 {
 		fmt.Printf("[Warn] ignore empty list %q\n", plname)
 	} else {
-		p.finalMap[plname] = polishList(roughMap)
+		pl.FinalEntries = polishList(roughEntries)
 	}
 	pl.Resolved = true
-	return nil
+	return pl, nil
 }
 
 func run() error {
 	fmt.Printf("using domain lists data in %q\n", *dataPath)
 
-	// Generate plMap
-	processor := &Processor{plMap: make(map[string]*ParsedList)}
+	// Parse all lists in the data directory
+	processor := &Processor{parsedListByName: make(map[string]*ParsedList)}
 	err := filepath.WalkDir(*dataPath, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
 			return err
@@ -523,17 +525,12 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("failed to loadData: %w", err)
 	}
-	// Generate finalMap
-	processor.finalMap = make(map[string][]*Entry, len(processor.plMap))
-	processor.roughMap = make(map[string]map[string]*Entry, len(processor.plMap))
-	processor.cirIncMap = make(map[string]bool)
-	for plname := range processor.plMap {
-		if err := processor.resolveList(plname); err != nil {
+	// Resolve the inclusions of all lists
+	for plname := range processor.parsedListByName {
+		if _, err := processor.resolveList(plname); err != nil {
 			return fmt.Errorf("failed to resolveList %q: %w", plname, err)
 		}
 	}
-	processor.plMap = nil
-	processor.roughMap = nil
 
 	// Make sure output directory exists
 	if err := os.MkdirAll(*outputDir, 0755); err != nil {
@@ -543,12 +540,12 @@ func run() error {
 	failedCount := 0
 	for rawEpList := range strings.SplitSeq(*exportLists, ",") {
 		if epList := strings.TrimSpace(rawEpList); epList != "" {
-			entries, exist := processor.finalMap[strings.ToUpper(epList)]
-			if !exist {
-				fmt.Printf("[Warn] list %q does not exist\n", epList)
+			pl, exist := processor.parsedListByName[strings.ToUpper(epList)]
+			if !exist || len(pl.FinalEntries) == 0 {
+				fmt.Printf("[Warn] list %q does not exist or is empty\n", epList)
 				continue
 			}
-			if err := writePlainList(epList, entries); err != nil {
+			if err := writePlainList(epList, pl.FinalEntries); err != nil {
 				fmt.Printf("[Error] failed to write list %q: %v\n", epList, err)
 				failedCount++
 				continue
@@ -558,20 +555,22 @@ func run() error {
 	}
 
 	// Generate proto sites
-	sitesCount := len(processor.finalMap)
+	listsCount := len(processor.parsedListByName)
 	gs := &GeoSites{
-		Sites:   make([]*router.GeoSite, 0, sitesCount),
-		SiteIdx: make(map[string]int, sitesCount),
+		Sites:   make([]*router.GeoSite, 0, listsCount),
+		SiteIdx: make(map[string]int, listsCount),
 	}
-	for siteName, siteEntries := range processor.finalMap {
-		gs.Sites = append(gs.Sites, makeProtoList(siteName, siteEntries))
+	for siteName, pl := range processor.parsedListByName {
+		if len(pl.FinalEntries) == 0 { // Skip empty lists
+			continue
+		}
+		gs.Sites = append(gs.Sites, makeProtoList(siteName, pl.FinalEntries))
 	}
-	processor = nil
 	// Sort proto sites so the generated file is reproducible
 	slices.SortFunc(gs.Sites, func(a, b *router.GeoSite) int {
 		return strings.Compare(a.CountryCode, b.CountryCode)
 	})
-	for i := range sitesCount {
+	for i := range gs.Sites {
 		gs.SiteIdx[gs.Sites[i].CountryCode] = i
 	}
 

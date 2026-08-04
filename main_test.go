@@ -144,27 +144,22 @@ func TestResolveSelectiveInclusion(t *testing.T) {
 		}
 	}
 
-	processor := &Processor{
-		plMap:     make(map[string]*ParsedList),
-		roughMap:  make(map[string]map[string]*Entry),
-		finalMap:  make(map[string][]*Entry),
-		cirIncMap: make(map[string]bool),
-	}
+	processor := &Processor{parsedListByName: make(map[string]*ParsedList)}
 	for name := range files {
 		if err := processor.loadData(strings.ToUpper(name), filepath.Join(dataPath, name)); err != nil {
 			t.Fatalf("loadData(%q) got unexpected error: %v", name, err)
 		}
 	}
 	for name := range files {
-		if err := processor.resolveList(strings.ToUpper(name)); err != nil {
+		if _, err := processor.resolveList(strings.ToUpper(name)); err != nil {
 			t.Fatalf("resolveList(%q) got unexpected error: %v", name, err)
 		}
 	}
 
-	assertPlains(t, "SOURCE", processor.finalMap["SOURCE"], []string{"domain:example.com:@cn", "domain:example.org:@ads"})
-	assertPlains(t, "FULL", processor.finalMap["FULL"], []string{"domain:example.com:@cn", "domain:example.org:@ads"})
-	assertPlains(t, "MUST", processor.finalMap["MUST"], []string{"domain:example.org:@ads"})
-	assertPlains(t, "BANNED", processor.finalMap["BANNED"], []string{"domain:example.org:@ads", "domain:sub.example.com", "full:mail.example.com"})
+	assertList(t, processor, "SOURCE", []string{"domain:example.com:@cn", "domain:example.org:@ads"})
+	assertList(t, processor, "FULL", []string{"domain:example.com:@cn", "domain:example.org:@ads"})
+	assertList(t, processor, "MUST", []string{"domain:example.org:@ads"})
+	assertList(t, processor, "BANNED", []string{"domain:example.org:@ads", "domain:sub.example.com", "full:mail.example.com"})
 }
 
 func TestResolveCircularInclusion(t *testing.T) {
@@ -178,20 +173,24 @@ func TestResolveCircularInclusion(t *testing.T) {
 			t.Fatalf("failed to write test data %q: %v", name, err)
 		}
 	}
-	processor := &Processor{
-		plMap:     make(map[string]*ParsedList),
-		roughMap:  make(map[string]map[string]*Entry),
-		finalMap:  make(map[string][]*Entry),
-		cirIncMap: make(map[string]bool),
-	}
+	processor := &Processor{parsedListByName: make(map[string]*ParsedList)}
 	for name := range files {
 		if err := processor.loadData(strings.ToUpper(name), filepath.Join(dataPath, name)); err != nil {
 			t.Fatalf("loadData(%q) got unexpected error: %v", name, err)
 		}
 	}
-	if err := processor.resolveList("FIRST"); err == nil {
+	if _, err := processor.resolveList("FIRST"); err == nil {
 		t.Fatal("resolveList(\"FIRST\") = nil, want circular inclusion error")
 	}
+}
+
+func assertList(t *testing.T, p *Processor, name string, want []string) {
+	t.Helper()
+	pl, exist := p.parsedListByName[name]
+	if !exist {
+		t.Fatalf("list %q does not exist", name)
+	}
+	assertPlains(t, name, pl.FinalEntries, want)
 }
 
 func assertPlains(t *testing.T, name string, entries []*Entry, want []string) {
