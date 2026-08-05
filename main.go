@@ -432,7 +432,7 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 			queuingList = append(queuingList, entry)
 		}
 	}
-	// Remove redundant subdomains for full/domain without attr
+
 	for _, qentry := range queuingList {
 		isRedundant := false
 		var pd string // To be parent domain (with attrs)
