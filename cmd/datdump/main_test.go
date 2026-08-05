@@ -12,7 +12,7 @@ import (
 	"google.golang.org/protobuf/proto"
 )
 
-// mainExitEnv marks the re-executed test binary that has to run main().
+// mainExitEnv stores the missing input path for the re-executed test binary.
 const mainExitEnv = "DATDUMP_TEST_MAIN_EXIT"
 
 func TestLoadGeosite(t *testing.T) {
@@ -244,13 +244,13 @@ func TestMainExportsLists(t *testing.T) {
 // TestMainExitsOnError re-executes the test binary, because main() terminates
 // the process when the export fails.
 func TestMainExitsOnError(t *testing.T) {
-	if os.Getenv(mainExitEnv) == "1" {
-		os.Args = []string{"datdump", "--inputdata=" + filepath.Join(t.TempDir(), "missing.dat")}
+	if missingPath := os.Getenv(mainExitEnv); missingPath != "" {
+		os.Args = []string{"datdump", "--inputdata=" + missingPath}
 		main()
 		return
 	}
 	cmd := exec.Command(os.Args[0], "-test.run=^TestMainExitsOnError$")
-	cmd.Env = append(os.Environ(), mainExitEnv+"=1")
+	cmd.Env = append(os.Environ(), mainExitEnv+"="+filepath.Join(t.TempDir(), "missing.dat"))
 	out, err := cmd.CombinedOutput()
 	var exitErr *exec.ExitError
 	if !errors.As(err, &exitErr) || exitErr.ExitCode() != 1 {
