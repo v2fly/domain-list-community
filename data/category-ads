@@ -1,6 +1,7 @@
 # This file contains domains that clearly serving ads
 include:category-ads-ir
 
+include:36kr @ads
 include:acfun @ads
 include:adobe @ads
 include:alibaba @ads
@@ -130,9 +131,6 @@ wwads.cn
 
 # 12306
 ad.12306.cn
-
-# 36Kr
-adx.36kr.com
 
 # AdHub
 hubcloud.com.cn
