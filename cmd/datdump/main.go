@@ -83,7 +83,7 @@ func exportSite(name string, gs *GeoSites) error {
 	}
 	defer file.Close()
 	w := bufio.NewWriter(file)
-	fmt.Fprintf(w, "%s:\n", name)
+	fmt.Fprintf(w, "%q:\n", name)
 	var b strings.Builder
 	b.Grow(64)
 	for _, vdomain := range vDomains {
