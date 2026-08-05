@@ -66,9 +66,7 @@ const (
 	ModeAll       string = "all"
 	ModeAllowlist string = "allowlist"
 	ModeDenylist  string = "denylist"
-)
 
-const (
 	maxDomainLen int = 253 // Maximum length of a domain name
 	maxLabelLen  int = 63  // Maximum length of a label of a domain name
 )
@@ -197,10 +195,7 @@ func writePlainList(listname string, entries []*Entry) error {
 	for _, entry := range entries {
 		fmt.Fprintln(w, entry.Plain)
 	}
-	if err := w.Flush(); err != nil {
-		return err
-	}
-	return file.Close() // Report the error of the final write
+	return w.Flush()
 }
 
 func parseEntry(typ, rule string) (*Entry, []string, error) {

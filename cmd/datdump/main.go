@@ -93,10 +93,7 @@ func exportSite(name string, gs *GeoSites) error {
 		}
 		fmt.Fprintf(w, "  - %q\n", b.String())
 	}
-	if err := w.Flush(); err != nil {
-		return err
-	}
-	return file.Close() // Report the error of the final write
+	return w.Flush()
 }
 
 func exportAll(filename string, gs *GeoSites) error {
@@ -121,10 +118,7 @@ func exportAll(filename string, gs *GeoSites) error {
 			fmt.Fprintf(w, "      - %q\n", b.String())
 		}
 	}
-	if err := w.Flush(); err != nil {
-		return err
-	}
-	return file.Close() // Report the error of the final write
+	return w.Flush()
 }
 
 func run() error {
