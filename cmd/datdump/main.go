@@ -83,7 +83,7 @@ func exportSite(name string, gs *GeoSites) error {
 	}
 	defer file.Close()
 	w := bufio.NewWriter(file)
-	fmt.Fprintf(w, "%s:\n", name)
+	fmt.Fprintf(w, "%q:\n", name)
 	var b strings.Builder
 	b.Grow(64)
 	for _, vdomain := range vDomains {
@@ -93,7 +93,10 @@ func exportSite(name string, gs *GeoSites) error {
 		}
 		fmt.Fprintf(w, "  - %q\n", b.String())
 	}
-	return w.Flush()
+	if err := w.Flush(); err != nil {
+		return err
+	}
+	return file.Close() // Report the error of the final write
 }
 
 func exportAll(filename string, gs *GeoSites) error {
@@ -118,7 +121,10 @@ func exportAll(filename string, gs *GeoSites) error {
 			fmt.Fprintf(w, "      - %q\n", b.String())
 		}
 	}
-	return w.Flush()
+	if err := w.Flush(); err != nil {
+		return err
+	}
+	return file.Close() // Report the error of the final write
 }
 
 func run() error {

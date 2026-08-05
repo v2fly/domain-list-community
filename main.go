@@ -68,6 +68,11 @@ const (
 	ModeDenylist  string = "denylist"
 )
 
+const (
+	maxDomainLen int = 253 // Maximum length of a domain name
+	maxLabelLen  int = 63  // Maximum length of a label of a domain name
+)
+
 func makeProtoList(listName string, entries []*Entry) *router.GeoSite {
 	site := &router.GeoSite{
 		CountryCode: listName,
@@ -192,7 +197,10 @@ func writePlainList(listname string, entries []*Entry) error {
 	for _, entry := range entries {
 		fmt.Fprintln(w, entry.Plain)
 	}
-	return w.Flush()
+	if err := w.Flush(); err != nil {
+		return err
+	}
+	return file.Close() // Report the error of the final write
 }
 
 func parseEntry(typ, rule string) (*Entry, []string, error) {
@@ -208,10 +216,15 @@ func parseEntry(typ, rule string) (*Entry, []string, error) {
 			return entry, nil, fmt.Errorf("invalid regexp %q: %w", parts[0], err)
 		}
 		entry.Value = parts[0]
-	case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain, dlc.RuleTypeKeyword:
+	case dlc.RuleTypeDomain, dlc.RuleTypeFullDomain:
+		entry.Value = strings.ToLower(parts[0])
+		if !validateDomainName(entry.Value) {
+			return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
+		}
+	case dlc.RuleTypeKeyword:
 		entry.Value = strings.ToLower(parts[0])
 		if !validateDomainChars(entry.Value) {
-			return entry, nil, fmt.Errorf("invalid domain: %q", entry.Value)
+			return entry, nil, fmt.Errorf("invalid keyword: %q", entry.Value)
 		}
 	default:
 		return entry, nil, fmt.Errorf("unknown rule type: %q", entry.Type)
@@ -306,6 +319,21 @@ func validateDomainChars(domain string) bool {
 			continue
 		}
 		return false
+	}
+	return true
+}
+
+// validateDomainName reports whether the domain is a valid domain name, so that
+// typos like "example..com" or "-example.com" would not be silently built into
+// rules which can never match any domain.
+func validateDomainName(domain string) bool {
+	if !validateDomainChars(domain) || len(domain) > maxDomainLen {
+		return false
+	}
+	for label := range strings.SplitSeq(domain, ".") {
+		if label == "" || len(label) > maxLabelLen || label[0] == '-' || label[len(label)-1] == '-' {
+			return false
+		}
 	}
 	return true
 }
