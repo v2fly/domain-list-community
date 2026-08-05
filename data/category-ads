@@ -1,6 +1,7 @@
 # This file contains domains that clearly serving ads
 include:category-ads-ir
 
+include:36kr @ads
 include:acfun @ads
 include:adobe @ads
 include:alibaba @ads
@@ -73,7 +74,6 @@ aaxads.com
 ad-srv.net
 ad.wang502.com
 adbutter.net
-addthisedge.com
 ads.huan.tv
 ads.huantest.com
 ads.trafficjunky.net
@@ -82,7 +82,6 @@ adservice.sigmob.cn
 adtechus.com
 adtrue.com
 adxprtz.com
-cdn.advertserve.com
 cdn.banclip.com
 cfts1tifqr.com
 contentabc.com
@@ -131,9 +130,6 @@ wwads.cn
 # 12306
 ad.12306.cn
 
-# 36Kr
-adx.36kr.com
-
 # AdHub
 hubcloud.com.cn
 
@@ -150,23 +146,6 @@ applvn.com
 
 # AppsFlyer
 appsflyersdk.com
-
-# Caixin
-# regexp:^pinggai\d\.caixin\.com$
-full:pinggai0.caixin.com
-full:pinggai1.caixin.com
-full:pinggai2.caixin.com
-full:pinggai3.caixin.com
-full:pinggai4.caixin.com
-full:pinggai5.caixin.com
-full:pinggai6.caixin.com
-full:pinggai7.caixin.com
-full:pinggai8.caixin.com
-full:pinggai9.caixin.com
-
-# Chinaso
-adq.chinaso.com
-stat.chinaso.com
 
 # hiido
 mlog.hiido.com
@@ -189,22 +168,9 @@ ironbeast.io
 advapi.joyplus.tv
 advapikj.joyplus.tv
 
-# pocoiq
-cdn.pocoiq.cn
-oct.pocoiq.cn
-
-# Qiniu
-dn-growing.qbox.me
-
 # tagtic
 g1.tagtic.cn
 xy-log.tagtic.cn
-
-# UNI Marketing
-ad.unimhk.com
-
-# UCloud
-das-rpt-log.ucloud.cn
 
 # Vungle
 full:logs.ads.vungle.com
