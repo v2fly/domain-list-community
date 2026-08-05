@@ -17,6 +17,12 @@ import (
 // mainExitEnv marks the re-executed test binary that has to run main().
 const mainExitEnv = "DLC_TEST_MAIN_EXIT"
 
+// datList is a list and its rules read back from a generated dat file.
+type datList struct {
+	name  string
+	rules []string
+}
+
 func TestParseEntry(t *testing.T) {
 	testCases := []struct {
 		name      string
@@ -499,29 +505,32 @@ func TestRun(t *testing.T) {
 	dataPath := t.TempDir()
 	outPath := filepath.Join(t.TempDir(), "output") // Not existing yet
 	writeTestData(t, dataPath, map[string]string{
-		"cn":     "# Chinese sites\ndomain:example.cn\nfull:www.example.cn @ads\nkeyword:examplecn\n",
-		"apple":  "include:cn\ndomain:apple.com &icloud\n",
-		"icloud": "domain:icloud.com\n",
-		"empty":  "# Nothing here\n",
+		"cn":      "# Chinese sites\ndomain:example.cn\nfull:www.example.cn @ads\nkeyword:examplecn\n",
+		"apple":   "include:cn\ndomain:apple.com &icloud\n",
+		"icloud":  "domain:icloud.com\n",
+		"google":  "domain:google.com\n",
+		"netflix": "domain:netflix.com\n",
+		"empty":   "# Nothing here\n",
 	})
 	setRunFlags(t, dataPath, outPath, "test.dat", "", "cn, ,missing,")
 
 	if err := run(); err != nil {
 		t.Fatalf("run() got unexpected error: %v", err)
 	}
-	got := readDatLists(t, filepath.Join(outPath, "test.dat"))
-	want := map[string][]string{
-		"APPLE":  {"domain:apple.com", "domain:example.cn", "full:www.example.cn:@ads", "keyword:examplecn"},
-		"CN":     {"domain:example.cn", "full:www.example.cn:@ads", "keyword:examplecn"},
-		"ICLOUD": {"domain:apple.com", "domain:icloud.com"},
+	// Empty lists are skipped and the remaining ones are sorted by name, so
+	// that the generated dat file is reproducible
+	want := []datList{
+		{name: "APPLE", rules: []string{"domain:apple.com", "domain:example.cn", "full:www.example.cn:@ads", "keyword:examplecn"}},
+		{name: "CN", rules: []string{"domain:example.cn", "full:www.example.cn:@ads", "keyword:examplecn"}},
+		{name: "GOOGLE", rules: []string{"domain:google.com"}},
+		{name: "ICLOUD", rules: []string{"domain:apple.com", "domain:icloud.com"}},
+		{name: "NETFLIX", rules: []string{"domain:netflix.com"}},
 	}
-	if len(got) != len(want) {
-		t.Fatalf("run() generated lists %v, want %v", got, want)
-	}
-	for name, wantRules := range want {
-		if !slices.Equal(got[name], wantRules) {
-			t.Errorf("run() list %q = %v, want %v", name, got[name], wantRules)
-		}
+	got := readDat(t, filepath.Join(outPath, "test.dat"))
+	if !slices.EqualFunc(got, want, func(a, b datList) bool {
+		return a.name == b.name && slices.Equal(a.rules, b.rules)
+	}) {
+		t.Errorf("run() generated lists = %+v, want %+v", got, want)
 	}
 	plain, err := os.ReadFile(filepath.Join(outPath, "cn.txt"))
 	if err != nil {
@@ -716,18 +725,21 @@ func newTestGeoSites(names ...string) *GeoSites {
 	return gs
 }
 
+// readDatSites returns the names of the lists in a generated dat file, keeping
+// the order in which they are stored.
 func readDatSites(t *testing.T, path string) []string {
 	t.Helper()
-	lists := readDatLists(t, path)
+	lists := readDat(t, path)
 	names := make([]string, 0, len(lists))
-	for name := range lists {
-		names = append(names, name)
+	for _, list := range lists {
+		names = append(names, list.name)
 	}
-	slices.Sort(names)
 	return names
 }
 
-func readDatLists(t *testing.T, path string) map[string][]string {
+// readDat returns the lists of a generated dat file, keeping the order in which
+// the lists and their rules are stored.
+func readDat(t *testing.T, path string) []datList {
 	t.Helper()
 	data, err := os.ReadFile(path)
 	if err != nil {
@@ -737,7 +749,7 @@ func readDatLists(t *testing.T, path string) map[string][]string {
 	if err := proto.Unmarshal(data, geoSiteList); err != nil {
 		t.Fatalf("failed to unmarshal generated dat: %v", err)
 	}
-	lists := make(map[string][]string, len(geoSiteList.Entry))
+	lists := make([]datList, 0, len(geoSiteList.Entry))
 	for _, site := range geoSiteList.Entry {
 		rules := make([]string, 0, len(site.Domain))
 		for _, pdomain := range site.Domain {
@@ -762,7 +774,7 @@ func readDatLists(t *testing.T, path string) map[string][]string {
 			}
 			rules = append(rules, rule)
 		}
-		lists[site.CountryCode] = rules
+		lists = append(lists, datList{name: site.CountryCode, rules: rules})
 	}
 	return lists
 }
