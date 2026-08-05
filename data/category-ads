@@ -147,23 +147,6 @@ applvn.com
 # AppsFlyer
 appsflyersdk.com
 
-# Caixin
-# regexp:^pinggai\d\.caixin\.com$
-full:pinggai0.caixin.com
-full:pinggai1.caixin.com
-full:pinggai2.caixin.com
-full:pinggai3.caixin.com
-full:pinggai4.caixin.com
-full:pinggai5.caixin.com
-full:pinggai6.caixin.com
-full:pinggai7.caixin.com
-full:pinggai8.caixin.com
-full:pinggai9.caixin.com
-
-# Chinaso
-adq.chinaso.com
-stat.chinaso.com
-
 # hiido
 mlog.hiido.com
 ylog.hiido.com
@@ -185,19 +168,9 @@ ironbeast.io
 advapi.joyplus.tv
 advapikj.joyplus.tv
 
-# pocoiq
-cdn.pocoiq.cn
-oct.pocoiq.cn
-
-# Qiniu
-dn-growing.qbox.me
-
 # tagtic
 g1.tagtic.cn
 xy-log.tagtic.cn
-
-# UCloud
-das-rpt-log.ucloud.cn
 
 # Vungle
 full:logs.ads.vungle.com
