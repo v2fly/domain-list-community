@@ -108,12 +108,12 @@ func TestParseInclusion(t *testing.T) {
 
 func TestPolishList(t *testing.T) {
 	rules := []struct{ typ, rule string }{
-		{"domain", "example.com"},
-		{"domain", "sub.example.com"},      // Redundant
-		{"full", "www.example.com"},        // Redundant
-		{"full", "example.com"},            // Redundant
+		{"domain", "example.com @cn"},
+		{"domain", "sub.example.com"},      // Redundant, no attribute
+		{"full", "www.example.com @cn"},    // Redundant, same attribute
+		{"full", "example.com"},            // Redundant, no attribute
 		{"full", "example.org"},            // Kept, no parent domain rule
-		{"domain", "ads.example.com @ads"}, // Kept, has attribute
+		{"domain", "ads.example.com @ads"}, // Kept, different attribute
 		{"keyword", "example"},
 	}
 	roughMap := make(map[string]*Entry, len(rules))
@@ -124,7 +124,7 @@ func TestPolishList(t *testing.T) {
 		}
 		roughMap[entry.Plain] = entry
 	}
-	want := []string{"domain:ads.example.com:@ads", "domain:example.com", "full:example.org", "keyword:example"}
+	want := []string{"domain:ads.example.com:@ads", "domain:example.com:@cn", "full:example.org", "keyword:example"}
 	assertPlains(t, "polishList", polishList(roughMap), want)
 }
 

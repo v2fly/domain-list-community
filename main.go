@@ -408,33 +408,39 @@ func isMatchAttrFilters(entry *Entry, incFilter *Inclusion) bool {
 	return true
 }
 
+// polishList trims redundant full/domain type subdomains and returns sorted lists
+// A domain with attr(s) trims subdomains with same attr(s) and subdomains without attr
+// A subdomain with attr(s) can only be trimed by parent domain with same attr(s)
 func polishList(roughMap map[string]*Entry) []*Entry {
 	finalList := make([]*Entry, 0, len(roughMap))
-	queuingList := make([]*Entry, 0, len(roughMap)) // Domain/full entries without attr
-	domainsMap := make(map[string]bool)
+	queuingList := make([]*Entry, 0, len(roughMap))
+	parentsMap := make(map[string]bool)
 	for _, entry := range roughMap {
-		switch entry.Type { // Bypass regexp, keyword and "full/domain with attr"
+		switch entry.Type { // Bypass regexp and keyword
 		case dlc.RuleTypeRegexp, dlc.RuleTypeKeyword:
 			finalList = append(finalList, entry)
 		case dlc.RuleTypeDomain:
-			domainsMap[entry.Value] = true
+			parentsMap[entry.Value] = true
 			if len(entry.Attrs) != 0 {
-				finalList = append(finalList, entry)
-			} else {
-				queuingList = append(queuingList, entry)
+				// `sub.example.org:@attr1,@attr2`
+				// Ensure no dot exists except the domain (entry.Value) part
+				_, domainAndAttrs, _ := strings.Cut(entry.Plain, ":")
+				parentsMap[domainAndAttrs] = true
 			}
+			queuingList = append(queuingList, entry)
 		case dlc.RuleTypeFullDomain:
-			if len(entry.Attrs) != 0 {
-				finalList = append(finalList, entry)
-			} else {
-				queuingList = append(queuingList, entry)
-			}
+			queuingList = append(queuingList, entry)
 		}
 	}
 	// Remove redundant subdomains for full/domain without attr
 	for _, qentry := range queuingList {
 		isRedundant := false
-		pd := qentry.Value // To be parent domain
+		var pd string // To be parent domain (with attrs)
+		if len(qentry.Attrs) == 0 {
+			pd = qentry.Value
+		} else {
+			_, pd, _ = strings.Cut(qentry.Plain, ":")
+		}
 		if qentry.Type == dlc.RuleTypeFullDomain {
 			pd = "." + pd // So that `domain:example.org` overrides `full:example.org`
 		}
@@ -444,7 +450,7 @@ func polishList(roughMap map[string]*Entry) []*Entry {
 			if !hasParent {
 				break
 			}
-			if domainsMap[pd] {
+			if parentsMap[pd] {
 				isRedundant = true
 				break
 			}
