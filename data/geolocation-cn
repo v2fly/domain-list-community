@@ -23,9 +23,11 @@ include:category-social-media-cn
 # CAs
 include:apple-pki @cn
 include:digicert @cn
+include:entrust @cn
 include:globalsign @cn
 include:google-trust-services @cn
 include:sectigo @cn
+include:sslcom @cn
 
 # Advertisment & Analytics
 include:getui
