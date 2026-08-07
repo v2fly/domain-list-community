@@ -137,6 +137,7 @@ bytetos.com
 bytetraffic.net
 bytetstatic.com
 bytetstatic.net
+byteurl.cn
 bytevalk.com
 bytevcloudapi.com
 bytevcloudvod.com
@@ -278,6 +279,7 @@ vlabstatic.com
 vlabvod.com
 
 # CapCut
+capcut.cn
 capcut.com @!cn
 capcutcdn-us.com @!cn
 
@@ -347,20 +349,30 @@ ppxstatic.com
 ppxvod.com
 xiaoxiaapi.com
 
+# 朝夕光年
+dailygn.com
+nvsgames.cn
+
 # 上海格物致品
-douyinec.com
+buydouke.com
 ecombdapi.com
+ecombdimg.com
 ecombdstatic.com
+ecombdvod.com
 jinritemai.com
 
-# faceu
+# FaceU激萌
 faceu.com
+faceu.mobi
 
 # 轻颜相机
 ulikecam.com
 
 # RsProxy 镜像
 rsproxy.cn
+
+# 巨量引擎
+oceanengine.com
 
 # 半次元 (dead)
 # 沪ICP备2021005742号
