@@ -20,6 +20,12 @@ include:category-media-cn
 include:category-network-security-cn
 # Social Media
 include:category-social-media-cn
+# CAs
+include:apple-pki @cn
+include:digicert @cn
+include:globalsign @cn
+include:google-trust-services @cn
+include:sectigo @cn
 
 # Advertisment & Analytics
 include:getui
