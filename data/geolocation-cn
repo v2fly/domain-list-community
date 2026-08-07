@@ -397,7 +397,7 @@ zgjx.cn
 
 # Public transportation
 ## 中国国际航空
-include:airchina
+include:airchina @-!cn
 ## 海南航空
 include:hainanairlines
 ## 长安航空
