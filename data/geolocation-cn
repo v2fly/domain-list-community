@@ -41,6 +41,7 @@ include:category-httpdns-cn
 
 # Bank & Finance & Insurance & Securities
 include:category-bank-cn
+include:category-bourse-cn
 include:category-securities-cn
 include:eastmoney @-!cn
 include:everbright
