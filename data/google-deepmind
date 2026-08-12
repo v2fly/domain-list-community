@@ -32,6 +32,7 @@ full:daily-cloudcode-pa.googleapis.com
 # NotebookLM
 full:notebooklm-pa.googleapis.com
 full:notebooklm.googleapis.com
+notebook.google.com
 notebooklm.google
 notebooklm.google.com
 
@@ -42,6 +43,7 @@ jules.google.com
 # Google AI Labs
 labs.google
 labs.google.com
+flow.google
 aisandbox-pa.googleapis.com
 
 # Android Studio Gemini Code Assist

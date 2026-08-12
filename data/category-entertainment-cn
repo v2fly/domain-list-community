@@ -20,6 +20,7 @@ include:kuaikan
 include:kuaishou
 include:le
 include:lizhi
+include:manhuaren
 include:pptv
 include:qimao
 include:qingtingfm
@@ -60,6 +61,8 @@ include:wasu
 172mix.com
 # 17K小说
 17k.com
+# 西影网
+1958xy.com
 # https://github.com/supzhang/epg
 51zmt.top
 # 六间房
@@ -87,6 +90,8 @@ bsbsb.top
 ccw.site
 # CdkeyNoGap
 cdkeynogap.com
+# 彩视
+colorv.com
 # 酷音铃声
 diyring.cc
 kuyin123.com
@@ -128,10 +133,16 @@ jjwxc.net
 # 酷匠网
 kjcdn.com
 kujiang.com
+# 来疯
+laifeng.com
 # 1905电影网
 1905.com
 m1905.cn
 m1905.com
+# 街机中国
+mamecn.com
+# 漫漫看
+manmankan.com
 # 喵御宅
 mfuns.cn
 mfuns.net
@@ -147,6 +158,15 @@ mtime.com
 pearvideo.com
 # 皮皮网
 pipi.cn
+# 腾飞网
+qqtf.com
+# 人人视频
+rrmj.plus
+rrsp.app
+rrsp.com.cn
+qwapp.top
+qwdjapp.com
+yichengwlkj.com
 # SF轻小说二次元
 sfacg.com
 # 书海小说
@@ -157,6 +177,9 @@ tadu.com
 vistopia.com.cn
 # 江山文学
 vsread.com
+# 西窗烛
+xcz.im
+xczim.com
 # 树梦
 xinlishumeng.com
 # 祥云游社

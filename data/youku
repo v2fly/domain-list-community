@@ -1,7 +1,6 @@
 # youku uses some alicdn services, so this must use with domain list "alibaba"
 9xsecndns.cn
 kumiao.com
-mmstat.com
 soku.com
 tudou.com
 ykimg.com
@@ -9,6 +8,8 @@ youku.com
 youku.tv @!cn
 youkuhonor.com
 youkuplay.com @!cn
+
+full:ykimg.alicdn.com
 
 # Ads/tracking
 ad.api.3g.youku.com @ads
