@@ -83,7 +83,7 @@ func exportSite(name string, gs *GeoSites) error {
 	}
 	defer file.Close()
 	w := bufio.NewWriter(file)
-	fmt.Fprintf(w, "%s:\n", name)
+	fmt.Fprintf(w, "%q:\n", name)
 	var b strings.Builder
 	b.Grow(64)
 	for _, vdomain := range vDomains {
@@ -143,19 +143,25 @@ func run() error {
 		exportListSlice = []string{"_all_"}
 	}
 
+	failedCount := 0
 	for _, eplistname := range exportListSlice {
 		if strings.EqualFold(eplistname, "_all_") {
 			if err := exportAll(filepath.Base(*inputData)+"_plain.yml", geoSites); err != nil {
 				fmt.Printf("[Error] failed to exportAll: %v\n", err)
+				failedCount++
 				continue
 			}
 		} else {
 			if err := exportSite(eplistname, geoSites); err != nil {
 				fmt.Printf("[Error] failed to exportSite: %v\n", err)
+				failedCount++
 				continue
 			}
 		}
 		fmt.Printf("list: %q has been exported successfully\n", eplistname)
+	}
+	if failedCount > 0 {
+		return fmt.Errorf("%d list(s) failed to be exported", failedCount)
 	}
 	return nil
 }

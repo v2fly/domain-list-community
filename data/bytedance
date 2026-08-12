@@ -137,6 +137,7 @@ bytetos.com
 bytetraffic.net
 bytetstatic.com
 bytetstatic.net
+byteurl.cn
 bytevalk.com
 bytevcloudapi.com
 bytevcloudvod.com
@@ -240,6 +241,7 @@ volcdns-test.net
 voleai.com
 wtturl.cn
 xsgtvacct.com
+yhgfb-cn-static.com
 zijieapi.cn
 zijieapi.com
 zijieapi.net
@@ -275,6 +277,11 @@ jimeng.com
 vlabimg.com
 vlabstatic.com
 vlabvod.com
+
+# CapCut
+capcut.cn
+capcut.com @!cn
+capcutcdn-us.com @!cn
 
 # 今日头条
 toutiao.com
@@ -342,20 +349,30 @@ ppxstatic.com
 ppxvod.com
 xiaoxiaapi.com
 
+# 朝夕光年
+dailygn.com
+nvsgames.cn
+
 # 上海格物致品
-douyinec.com
+buydouke.com
 ecombdapi.com
+ecombdimg.com
 ecombdstatic.com
+ecombdvod.com
 jinritemai.com
 
-# faceu
+# FaceU激萌
 faceu.com
+faceu.mobi
 
 # 轻颜相机
 ulikecam.com
 
 # RsProxy 镜像
 rsproxy.cn
+
+# 巨量引擎
+oceanengine.com
 
 # 半次元 (dead)
 # 沪ICP备2021005742号
@@ -371,12 +388,14 @@ rsproxy.cn
 ad.toutiao.com @ads
 bds.snssdk.com @ads
 byteadverts.com @ads
+csjplatform.com @ads
 ctobsnssdk.com @ads
 dig.bdurl.net @ads
 extlog.snssdk.com @ads
 i.snssdk.com @ads
 log.zijieapi.com @ads
 mcs.snssdk.com @ads
+pangle.cn @ads
 pangolin-dsp-toutiao-b.com @ads
 pangolin-dsp-toutiao.com @ads
 pangolin-hl.snssdk.com @ads

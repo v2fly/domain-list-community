@@ -20,6 +20,7 @@ include:bangumi
 include:boomerang
 include:bushiroad
 include:catchplay
+include:chesscom
 include:copymanga
 include:dailymotion
 include:dandanplay
@@ -36,7 +37,6 @@ include:gimy
 include:goodreads
 include:hamivideo
 include:hbo
-include:hulu
 include:imdb
 include:itunes
 include:iyf
@@ -66,6 +66,7 @@ include:radiko
 include:roku
 include:showtimeanytime
 include:sling
+include:sonemic
 include:sonypictures
 include:soundcloud
 include:spotify

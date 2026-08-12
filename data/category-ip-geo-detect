@@ -89,6 +89,7 @@ ipqualityscore.com
 ipquery.io
 ipregistry.co
 iproyal.com
+ipsimple.org
 ipstack.com
 ipverify.com
 ipw.cn @cn
@@ -104,6 +105,7 @@ my.ipinfo.app
 myexternalip.com
 myip.com
 myip.expert
+myip.link
 myip.ms
 myip.ru
 myip.wtf
@@ -111,6 +113,7 @@ myipaddress.com
 myiplookup.com
 mylocation.org
 nodedata.io
+nossl.sh
 osint.sh
 proxycheck.io
 realip.cc
@@ -145,9 +148,11 @@ wtfismyip.com
 full:checkip.amazonaws.com
 full:checkip.dyndns.org
 full:checkip.dyn.com
+full:ip-check-perf.radar.cloudflare.com
 full:ip.comss.net
 full:ipv4-check-perf.radar.cloudflare.com
 full:ipv6-check-perf.radar.cloudflare.com
+full:myip.dnsomatic.com
 full:whatismyip.akamai.com
 geoip.noc.gov.ru
 ip.hetzner.com
