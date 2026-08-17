@@ -1,3 +1,6 @@
+# https://www.jetbrains.com/legal/websites/
+include:jetbrains-ai
+
 datalore.io
 intellij.com
 intellij.net
@@ -6,10 +9,18 @@ jb.gg
 jetbrains.cloud
 jetbrains.com
 jetbrains.com.cn @cn
+jetbrains.dev
 jetbrains.net
+jetbrains.org
+jetbrains.ru
 jetbrains.space
 jetbrains.team
+kotl.in
+kotlinconf.com
 kotlinlang.org
+ktor.io
+myjetbrains.com
+talkingkotlin.com
 youtrack.cloud
 
 cdn.jetbrains.com @cn

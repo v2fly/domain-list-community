@@ -1,6 +1,7 @@
 # This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
 include:category-ads
 
+include:addthis
 include:adjust
 include:clearbit
 include:growingio
@@ -18,13 +19,11 @@ ad-delivery.net @ads
 adcolony.com @ads
 adinplay.com @ads
 adnxs.com @ads
-ads.trafficjunky.net @ads
 advertserve.com @ads
 adview.cn @ads
 casalemedia.com @ads
 contextual.media.net @ads
 cpmstar.com @ads
-demdex.net @ads
 httpool.com @ads
 lijit.com @ads
 mfadsrvr.com @ads

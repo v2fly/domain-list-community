@@ -9,6 +9,7 @@ include:github-copilot
 include:google-deepmind
 include:groq
 include:huggingface
+include:jetbrains-ai
 include:liveperson
 include:manus
 include:openai
@@ -31,6 +32,10 @@ copilot-stg.com
 copilot.cloud.microsoft
 copilot.com
 copilot.microsoft.com
+
+# DeepWiki
+deepwiki.com
+deepwiki.org
 
 # Jasper
 clipdrop.co
