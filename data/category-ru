@@ -37,6 +37,7 @@ include:kaspersky
 include:kontur
 # Not include:habr #3087
 # Not include:livejournal #3715
+include:magnit
 include:mailru-group
 include:mindbox
 include:myoffice-ru
