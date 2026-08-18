@@ -9,32 +9,53 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout codebase
+      - name: Checkout PR base
         uses: actions/checkout@v7
         with:
-          path: code
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+
+      - name: Checkout PR head
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: test
 
       - name: Setup Go
         uses: actions/setup-go@v7
         with:
-          go-version-file: code/go.mod
-          cache-dependency-path: code/go.sum
+          go-version-file: test/go.mod
+          cache-dependency-path: test/go.sum
 
-      - name: Set variables
+      - name: Build .dat and .yml
         run: |
-          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-        shell: bash
+          [ -d ./base/data/ ] && [ -d ./test/data/ ] || exit 1
+          mv ./base/data/ ./test/basedata/
+          rm -rf ./base
+          cd test || exit 1
+          # Base files
+          go run ./main.go --datapath=./basedata --outputdir=../
+          go run ./cmd/datdump/main.go --inputdata=../dlc.dat --outputdir=../ --exportlists=_all_
+          rm -f ../dlc.dat
+          mv ../dlc.dat_plain.yml ../BASE-${{ github.run_number }}-dlc.yml
+          # Head files
+          go run ./main.go --datapath=./data --outputdir=../
+          go run ./cmd/datdump/main.go --inputdata=../dlc.dat --outputdir=../ --exportlists=_all_
+          mv ../dlc.dat ../TEST-${{ github.run_number }}-dlc.dat
+          mv ../dlc.dat_plain.yml ../TEST-${{ github.run_number }}-dlc.yml
+          cd ../ && rm -rf ./test
 
-      - name: Build dlc.dat file
+      - name: Print plain diff
         run: |
-          cd code || exit 1
-          go run ./ --outputdir=../ --exportlists=category-ads-all,tld-cn,cn,tld-\!cn,geolocation-\!cn,apple,icloud
-          cd ../ && rm -rf code
-          mv dlc.dat TEST-${{ github.run_number }}-dlc.dat
+          echo "Base: ${{ github.event.pull_request.base.sha }}"
+          echo "Head: ${{ github.event.pull_request.head.sha }}"
+          diff -us BASE-${{ github.run_number }}-dlc.yml TEST-${{ github.run_number }}-dlc.yml | tee TEST-${{ github.run_number }}-dlc.diff
+          rm -f BASE-${{ github.run_number }}-dlc.yml TEST-${{ github.run_number }}-dlc.yml
 
-      - name: Upload TEST-${{ github.run_number }}-dlc.dat
+      - name: Upload TEST-${{ github.run_number }} files
         uses: actions/upload-artifact@v7
         with:
-          name: TEST-${{ github.run_number }}-dlc.dat
-          path: TEST-${{ github.run_number }}-dlc.dat
+          name: TEST-${{ github.run_number }}
+          path: |
+            TEST-${{ github.run_number }}-dlc.dat
+            TEST-${{ github.run_number }}-dlc.diff

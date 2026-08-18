@@ -294,6 +294,7 @@ full:public.ns.nwps.fi
 full:kids.ns.nwps.fi
 
 ## ASTRACAT DNS
+full:dns.astracat.ru
 full:frd4wvnobp.cloudflare-gateway.com
 
 ## DNSGuard
@@ -301,3 +302,16 @@ full:dnsguard.pub
 
 ## 18Bit DNS
 full:doh.18bit.cn
+
+## Malw DNS
+full:5u35p8m9i7.cloudflare-gateway.com
+full:dns.malw.link
+
+## Mafioznik DNS
+full:dns.mafioznik.xyz
+
+## GeoHide
+full:dns.geohide.ru
+
+## XBox DNS
+full:xbox-dns.ru

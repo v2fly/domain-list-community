@@ -41,10 +41,15 @@ kunlunwe.com
 mxhichina.com
 myalicdn.com
 
-#865 #882 aliyuncs.com
+#869 #882 aliyuncs.com
 ap-southeast-1.aliyuncs.com @!cn
+cn-beijing.aliyuncs.com
+cn-chengdu.aliyuncs.com
+cn-guangzhou.aliyuncs.com
 cn-hangzhou.aliyuncs.com
+cn-hongkong.aliyuncs.com @!cn
 cn-shanghai.aliyuncs.com
+hotfix-api.aliyuncs.com
 log-global.aliyuncs.com
 oss-ap-northeast-1.aliyuncs.com @!cn
 oss-ap-northeast-2.aliyuncs.com @!cn
@@ -73,6 +78,7 @@ oss-eu-west-1.aliyuncs.com @!cn
 oss-me-east-1.aliyuncs.com @!cn
 oss-us-east-1.aliyuncs.com @!cn
 oss-us-west-1.aliyuncs.com @!cn
+registry.aliyuncs.com
 
 # Ads/tracking
 acjs.aliyun.com @ads

@@ -69,6 +69,6 @@ jobs:
 
       - name: Release and upload assets
         run: |
-          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.* ./dlc.dat_plain.yml ./dlc.dat_plain.yml.*
+          gh release create ${{ env.TAG_NAME }} --target ${{ github.sha }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.* ./dlc.dat_plain.yml ./dlc.dat_plain.yml.*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
