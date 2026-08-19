@@ -13,6 +13,7 @@ mos-gorsud.co # kinopub domain to generate a mirror site through gfw.ovh
 api.alador.space
 m.alador.space
 support-kp.com
+srvkp.com # used in the LG WebOS app
 
 # kinopub CDN servers
 cdn-service.space
@@ -20,5 +21,6 @@ cdn2cdn.com
 cdn2site.com
 pushbr.com # poster images CDN
 smarttvcdn.online
+cdnservices.link # used in the LG WebOS app
 
 regexp:(\w+)-static-[0-9]+\.cdntogo\.net$
