@@ -23,6 +23,14 @@ gemini.google
 gemini.google.com
 gemini.gstatic.com
 
+# Gemini shared private-API backends (gRPC over clients6.google.com)
+# waa-pa: Web Abuse Arbiter integrity tokens; required by gemini.google.com,
+#         aistudio.google.com and listed in Google's official Gemini firewall
+#         allowlist (https://support.google.com/a/answer/15627649).
+# people-pa: Internal People API, used by Gemini for account/profile context.
+full:waa-pa.clients6.google.com
+full:people-pa.clients6.google.com
+
 # Gemini Code Assist
 # https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
 full:cloudaicompanion.googleapis.com
