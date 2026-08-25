@@ -26,11 +26,14 @@ include:getui
 include:growingio
 include:jiguang
 
-# LinkFlow
+## LinkFlow
 linkflowtech.com
-# 北京贵士信息科技有限公司
+## openinstall
+openinstall.com
+openinstall.io
+## 北京贵士信息科技有限公司
 qchannel03.cn
-# 神策数据
+## 神策数据
 sensorsdata.cn
 
 # category-httpdns-cn is mainly for advertising purpose
@@ -47,6 +50,13 @@ include:everbright
 include:pingan @-!cn
 include:taikang
 
+## 太平洋保险
+aaic.com.cn
+cpic.com.cn
+cpiccdn.com
+## 中国保险行业协会
+iachina.cn
+
 ## 北汽金融
 baicaf.com
 ## 航财通·校园付
@@ -54,6 +64,8 @@ cc-pay.cn
 ## 橙券
 51106.cn
 chengquan.cn
+## 国联安基金
+cpicfunds.com
 ## 易鑫金融
 daikuan.com
 ## 嘟噜支付
@@ -70,6 +82,9 @@ joinpay.com
 keruyun.com
 ## 乐惠-微信支付
 lehuipay.com
+## 连连
+lianlian.com
+lianlianpay.com
 ## 上海陆金所
 lu.com
 lufax.com
@@ -165,6 +180,8 @@ szhdy.com
 300.cn
 thefastfile.com
 thefastimg.com
+## 有连云
+youliancloud.cn
 
 # E-commerce
 include:58tongcheng
@@ -206,6 +223,11 @@ didapinche.com
 ## 多点新鲜
 dmall.com
 dmallcdn.com
+## 房天下/搜房网
+fang.com
+soufun.com
+soufun.com.cn
+soufunimg.com
 ## 大润发
 feiniu.com
 fn-mart.com
@@ -245,6 +267,8 @@ linkheer.com
 ## 法律快车
 lawtime.cn
 lawtimeimg.com
+## 卢米埃影院
+lumiai.com
 ## 慢慢买
 manmanbuy.com
 ## 美物清单
@@ -354,6 +378,10 @@ chunyuyisheng.com
 ## 好大夫在线
 haodf.com
 hdfimg.com
+## 健康之路/医护网
+jkzlrs.com
+yihu.com
+yihuimg.com
 ## 江苏健康通
 jsehealth.com
 ## 民福康
@@ -364,6 +392,8 @@ miaoshou.net
 miaoshoucdn.com
 ## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
+## 山西省预约诊疗服务平台
+sxyygh.com
 ## 爱问医生
 wenwo.com
 ## 牙医管家
@@ -380,6 +410,8 @@ gov.cn
 mil.cn
 ## 中华全国总工会
 acftu.org
+## 游戏产业网-游戏工委
+cgigc.com.cn
 ## 中国气象局
 cma.cn
 ## 政务和公益机构域名注册管理中心
@@ -568,6 +600,8 @@ include:zdns
 include:zhangtao
 include:zhubajie
 
+## 驱动人生
+160.com
 ## 容联七陌 客服 营销
 7moor-fs1.com
 7moor.com
@@ -588,11 +622,16 @@ yingyonghui.com
 ## 问答库
 asklib.com
 ## 拓竹科技
-bambulab.com
+bambulab.cn
+makerworld.com.cn
 bblmw.com
 ## BOSS 直聘
 bosszhipin.com
 zhipin.com
+## 草料二维码
+caoliao.net
+clewm.net
+cli.im
 ## 下厨房
 chuimg.com
 xiachufang.com
@@ -621,6 +660,8 @@ duiba.com.cn
 easyliao.com
 ## 旷视科技（人脸识别）
 faceid.com
+## FinClip
+finclip.com
 ## 方正字库
 foundertype.com
 ## 发现报告
@@ -736,6 +777,15 @@ sgcc.com.cn
 csg.cn
 ecsg.com.cn
 poweremarket.com
+
+## 新华书店
+winshare.com.cn
+winxuan.com
+winxuancdn.com
+xhmedia.com
+xhsd.com
+xhsdzd.com
+xinhuashudian.com
 
 # Tech companies & Orginations
 include:aisiku # 北京艾斯酷科技有限公司
@@ -857,12 +907,18 @@ kaadas.com
 lulian.cn
 ugnas.cloud
 ugnas.com
+## 九号公司
+ninebot.com
+segwayrobotics.com
 ## 微步在线 / 步刻科技
 onedns.net
 #safeskill.cn
 shellpub.com
 threatbook.cn
 threatbook.com
+## 创维
+skyworth.com
+skyworthdigital.com
 ## 千图网
 58pic.com
 qiantucdn.com
@@ -927,6 +983,8 @@ imsyy.com
 ## Infinity Pro
 infinitynewtab.com
 inftab.com
+## 极光Tab
+jgtab.link
 ## 可可牛导航
 kekeniu.com
 ## 青柠起始页
@@ -1396,6 +1454,7 @@ homeinns.com
 homekoo.com
 hongsanban.com
 hongyuanqh.com
+hotjob.cn # 沪ICP备10000326号-6
 houdao.com
 houyuantuan.com
 hprtupgrade.com # 闽ICP备17017244号-4
@@ -1932,7 +1991,6 @@ ynhr.com
 yocajr.com
 youboy.com
 youke.co
-youlian.fun
 youshang.com
 youxiake.com
 youxihezi.net
@@ -2013,11 +2071,18 @@ gzyowin.com
 # 北京鸿合智能系统股份有限公司
 hitevision-solutions.com
 
+# 杭州实科金人科技有限公司/杭州钱塘区人才就业服务网
+hrsecn.com
+
 # 捷顺科技
 jslife.net
 
 # 建始网 鄂ICP备05004864号-1
 jsw118.com
+
+# 深圳新度博望科技有限公司 粤ICP备19030343号
+juwinmedia.com
+xdplt.com
 
 # 浙江御鹿电子科技有限公司 麦瑞克健身设备 & 超燃脂APP 浙ICP备2021003090号-2
 merach.com
@@ -2053,6 +2118,3 @@ wanji.net.cn
 
 # 杭州烨彬科技有限公司 浙ICP备2024084590号
 yebinnet.com
-
-# 杭州实科金人科技有限公司/杭州钱塘区人才就业服务网
-hrsecn.com
