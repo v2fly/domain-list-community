@@ -25,7 +25,6 @@ fraudlogix.com
 freegeoip.app
 freeipapi.com
 geodatatool.com
-geoip.noc.gov.ru
 geojs.io
 geolocation-db.com
 geoplugin.com
@@ -76,6 +75,7 @@ ipfinder.io
 ipgeolocation.io
 ipify.cn @cn
 ipify.org
+ipinfo.app
 ipinfo.io
 iplark.com @cn
 ipleak.net
@@ -102,7 +102,6 @@ maxmind.com
 mon-ip.com
 monip.org
 my-ip.io
-my.ipinfo.app
 myexternalip.com
 myip.ae
 myip.at
@@ -187,6 +186,7 @@ full:ipv4-check-perf.radar.cloudflare.com
 full:ipv6-check-perf.radar.cloudflare.com
 full:myip.dnsomatic.com
 full:whatismyip.akamai.com
+geoip.noc.gov.ru
 ip.hetzner.com
 ip.mail.ru
 ip.nic.ru
