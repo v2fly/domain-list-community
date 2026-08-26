@@ -8,13 +8,19 @@ abstractapi.com
 apiip.net
 apivoid.com
 bigdatacloud.net
+browserleaks.com
 check-host.net
+checkip.com.vn
 checkip.org
 checkip.ru
+checkip.sh
+checkmyip.now
 country.is
+criminalip.io
 curlmyip.net
 dadata.ru
 db-ip.com
+dnsleaktest.com
 extreme-ip-lookup.com
 find-my-ip.com
 find-my-ip.net
@@ -32,6 +38,7 @@ geoplugin.net
 get-ipv4.com
 get-ipv6.com
 getipintel.net
+getjsonip.com
 greip.io
 hackertarget.com
 httpbin.org
@@ -42,6 +49,7 @@ ifconfig.co
 ifconfig.es
 ifconfig.io
 ifconfig.me
+infosniper.net
 ip-adress.com
 ip-api.com
 ip-api.io
@@ -62,6 +70,7 @@ ipaddr.site
 ipaddress.com
 ipaddress.my
 ipaddress.sh
+ipaddress.to
 ipapi.co
 ipapi.com
 ipapi.is
@@ -100,6 +109,7 @@ ipw.cn @cn
 ipwho.is
 ipwhois.io
 ipxapi.com
+jsonip.com
 l2.io
 maxmind.com
 mon-ip.com
@@ -150,6 +160,7 @@ nossl.sh
 osint.sh
 proxycheck.io
 realip.cc
+reallyfreegeoip.org
 seeip.org
 showip.net
 showmyip.com
@@ -163,6 +174,7 @@ tracemyip.org
 trustmyip.com
 wgetip.com
 whatismyip.com
+whatismyip.io
 whatismyip.net
 whatismyip.org
 whatismyipaddress.com
@@ -177,6 +189,40 @@ whoerip.com
 whoisxmlapi.com
 wieistmeineip.de
 wtfismyip.com
+
+# IPv6 Test
+ipv6-test.pl
+ipv6ready.me
+test-ipv6-ct.comcast.net
+test-ipv6.alpinedc.ch
+test-ipv6.ams.vr.org
+test-ipv6.arauc.br
+test-ipv6.carnet.hr
+test-ipv6.cl
+test-ipv6.cmd.net.br
+test-ipv6.com
+test-ipv6.com.au
+test-ipv6.csclub.uwaterloo.ca
+test-ipv6.cz
+test-ipv6.ernet.in
+test-ipv6.fratec.net
+test-ipv6.go6.si
+test-ipv6.hkg.vr.org
+test-ipv6.jp
+test-ipv6.ke.liquidtelecom.net
+test-ipv6.nl
+test-ipv6.noroutetohost.net
+test-ipv6.pa.comcast.net
+test-ipv6.polkam.go.id
+test-ipv6.roedu.net
+test-ipv6.run
+test-ipv6.se
+test-ipv6.si
+test-ipv6.sin.vr.org
+test-ipv6.zw.liquidtelecom.net
+test.version6.ru
+testipv6.cn @cn
+testipv6.de
 
 # Subdomains/internal api used for ip-geo-detect
 full:checkip.amazonaws.com
