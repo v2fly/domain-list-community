@@ -5,6 +5,7 @@ include:36kr @ads
 include:adobe @ads
 include:alibaba @ads
 include:amazon @ads
+include:amplitude @ads
 include:apple @ads
 include:avito @ads
 include:baidu @ads
