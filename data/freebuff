@@ -1,0 +1,9 @@
+# Freebuff - https://freebuff.com/
+# Source: https://github.com/CodebuffAI/freebuff
+
+codebuff.com
+freebuff.com
+
+# Direct client-side advertising and telemetry endpoints
+full:us.i.posthog.com @ads
+zeroclick.dev @ads
