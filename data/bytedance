@@ -21,6 +21,7 @@ ali-api-test.net
 ali-gtm-01.net
 ali-gtm-pressure.com
 ali-restore.net
+applogcdn.com
 arco.design
 baikevod.com
 bdactivity.com
@@ -137,6 +138,7 @@ bytetos.com
 bytetraffic.net
 bytetstatic.com
 bytetstatic.net
+byteurl.cn
 bytevalk.com
 bytevcloudapi.com
 bytevcloudvod.com
@@ -167,6 +169,7 @@ jokecommunity.com
 jokecommunity.net
 jstti.com
 jtamac.com
+letsign.com
 livecdnstatic.com
 local-ip.online
 luckysf.net
@@ -188,6 +191,7 @@ pstatp.com
 qingfuwucdn.net
 qualitycloud.top
 samasty.com
+searchpstatp.com
 searchstatic.com
 searchtoutiaolive.com
 shidianguji.com
@@ -239,6 +243,8 @@ volcdns-test.com
 volcdns-test.net
 voleai.com
 wtturl.cn
+xiaohe.cn
+xingtu.cn
 xsgtvacct.com
 yhgfb-cn-static.com
 zijieapi.cn
@@ -276,6 +282,11 @@ jimeng.com
 vlabimg.com
 vlabstatic.com
 vlabvod.com
+
+# CapCut
+capcut.cn
+capcut.com @!cn
+capcutcdn-us.com @!cn
 
 # 今日头条
 toutiao.com
@@ -343,20 +354,31 @@ ppxstatic.com
 ppxvod.com
 xiaoxiaapi.com
 
+# 朝夕光年
+dailygn.com
+nvsgames.cn
+
 # 上海格物致品
-douyinec.com
+buydouke.com
 ecombdapi.com
+ecombdimg.com
 ecombdstatic.com
+ecombdvod.com
 jinritemai.com
 
-# faceu
+# FaceU激萌
 faceu.com
+faceu.mobi
 
-# 轻颜相机
+# 轻颜相机/可颂
+kesong.co
 ulikecam.com
 
 # RsProxy 镜像
 rsproxy.cn
+
+# 巨量引擎
+oceanengine.com
 
 # 半次元 (dead)
 # 沪ICP备2021005742号

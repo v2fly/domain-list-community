@@ -37,7 +37,6 @@ include:gimy
 include:goodreads
 include:hamivideo
 include:hbo
-include:hulu
 include:imdb
 include:itunes
 include:iyf
@@ -67,6 +66,7 @@ include:radiko
 include:roku
 include:showtimeanytime
 include:sling
+include:sonemic
 include:sonypictures
 include:soundcloud
 include:spotify

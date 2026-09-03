@@ -15,7 +15,6 @@ include:category-anticensorship
 include:category-proxy-tunnels
 
 # Art & Design & Photography
-include:artstation
 include:dribbble
 include:dyna
 include:fontsinuse
@@ -104,6 +103,7 @@ include:zotero
 ankiuser.net
 ankiweb.net
 chemequations.com # 线上化学方程式！
+divdyn.com
 geogebra.org
 wolframalpha.com
 
@@ -182,6 +182,7 @@ include:evernote
 include:faststone
 include:feedly
 include:figma
+include:flyio
 include:gofundme
 include:gravatar
 include:hcaptcha
