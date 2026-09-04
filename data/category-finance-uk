@@ -1,20 +1,5 @@
+# 
 
-include:amex@uk
-include:barclays@uk
-include:hsbc@uk
-include:ibkr@uk
-include:lloyds
-include:natwest@uk
-include:monzo
-include:satander@uk
-include:chase@uk
-
-aldermore.co.uk
-co-operativebank.co.uk
-coutts.com
-coutts24.com
-hoaresbank.co.uk
-metrobankonline.co.uk
-oaknorth.co.uk
-tsb.co.uk
-virginmoney.com
+include:category-bank-uk
+#include:kraken @uk
+kraken.co.uk
