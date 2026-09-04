@@ -3,15 +3,24 @@ include:category-bank-ir
 include:category-bank-jp
 include:category-bank-mm
 include:category-bank-ru
+include:category-bank-uk
 
+include:amex
+include:barclays
+include:chase
 include:fibank
 include:futu
 include:hsbc
 include:ibkr
 include:ifast
 include:itiger
+include:jpmorgan
+include:lloyds
 include:longbridge
+include:monzo
 include:n26
+include:natwest
+include:santander
 include:schwab
 include:standardchartered
 include:stripe
