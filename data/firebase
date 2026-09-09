@@ -4,11 +4,15 @@ firebase.io
 firebaseapp.com
 firebaseio.com
 
+full:appdistribution.firebase.dev
+full:appdistribution.firebase.google.com
 full:crashlyticsreports-pa.googleapis.com @cn
 full:firebase-settings.crashlytics.com @cn
 full:firebase.google.com
 full:firebase.googleapis.com
 full:firebaseappcheck.googleapis.com
+full:firebaseappdistribution.googleapis.com
+full:firebaseapptesters.googleapis.com
 full:firebasedynamiclinks-ipv4.googleapis.com
 full:firebasedynamiclinks-ipv6.googleapis.com
 full:firebasedynamiclinks.googleapis.com
