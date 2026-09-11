@@ -51,7 +51,7 @@ iutunes.com
 wwwitunes.com
 
 itunes-apple.com.akadns.net
-itunes.apple.com
+itunes.apple.com @cn
 
 # Domains with access point in China mainland
 # Avoid adding `[domain:]itunes.apple.com @cn` directly, as some subdomains not resolve to a cn IP address
