@@ -41,6 +41,7 @@ include:nixos
 include:openwrt
 include:perl
 include:polymer
+include:postman
 include:python
 include:qt
 include:readthedocs
