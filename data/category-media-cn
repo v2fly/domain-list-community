@@ -27,6 +27,8 @@ admin5.com
 # 安徽财经网
 ahcjw.com
 ahcaijing.com
+# 安徽新闻网/安徽日报
+ahnews.com.cn
 # 安徽网
 ahwang.cn
 # 安徽新闻
@@ -34,6 +36,8 @@ anhuinews.com
 anhuiyun.com
 # 锋潮科技
 anzhuo.cn
+# 中商情报网
+askci.com
 # 半岛网
 bandao.cn
 # 半月谈
@@ -61,6 +65,8 @@ ckxx.net
 cbinews.com
 # 通信产业网
 ccidcom.com
+# 中国消费网
+ccn.com.cn
 # 广东时代传媒
 ccreports.com.cn
 tfcaijing.com
@@ -70,11 +76,23 @@ timesmedia.com.cn
 ce.cn
 # 改革网
 cfgw.net.cn
+# 中国财经信息网
+cfi.cn
+cfi.net.cn
+# 中国食品安全网
+cfsn.cn
 # 中国家电网
 cheaa.com
 # 潇湘晨报
 chenshipin.com
 xxcb.cn
+# 中国网（中国互联网新闻中心）
+china.cn
+china.com.cn
+china.org.cn
+# 中华网
+china.com
+imgcdc.com
 # AET 电子技术应用
 chinaaet.com
 # 天极网
@@ -85,20 +103,27 @@ yesky.com
 chinadevelopment.com.cn
 # 品牌网
 chinapp.com
+# 中国基金报
+chnfund.com
 # 四川日报
 chuanbaoguancha.cn
 scol.com.cn
 scdaily.cn
 # 中指云
 cih-index.com
+# 企业观察网
+cneo.com.cn
 # 中金在线
 cnfol.com
 cnfolimg.com
 # 荆楚网/湖北日报
 cnhubei.com
 hubeidaily.net
+# CNMO
+cnmo.com
 # 央广网
 cnr.cn
+radio.cn
 # 上海证券报
 cnstock.com
 # 陕西新闻网
@@ -139,8 +164,14 @@ topnews.cn
 # 大河报
 daheapp.com
 dahebao.cn
+# 与非网
+datasheet5.com
+eefcdn.com
+eefocus.com
 # 广州日报大洋网
 dayoo.com
+# 中国国家地理网
+dili360.com
 # 读特新闻
 dutenews.com
 # 大智慧
@@ -212,8 +243,10 @@ thsi.cn
 hexun.com
 # 华声在线/湖南在线
 hnol.net
+hunantoday.cn
 voc.com.cn
 # 河南广播电视台/大象网
+hnr.cn
 hntv.tv
 hndt.com # 河南广播网
 dianzhenkeji.com # 河南广电融媒
@@ -250,17 +283,20 @@ iresearch.cn
 istv.cn
 # IT168
 it168.com
+# 上观新闻/解放日报
+jfdaily.com
+jfdaily.com.cn
+shobserver.cn
+shobserver.com
 # 华尔街见闻
 jianyuweb.com
 wallstcn.com
 wallstreetcn.com
 # 金十数据
 jin10.com
-# 上观新闻/解放日报
-jfdaily.com
-jfdaily.com.cn
-shobserver.cn
-shobserver.com
+# 经济日报
+jingjiribao.cn
+jjrbs.cn
 # 新黄河/济南时报
 jinantimes.com.cn
 # 机器之心
@@ -289,6 +325,9 @@ kf.cn
 # 中国科技网/科技日报
 kjrb.com.cn
 stdaily.com
+# 快科技
+kkj.cn
+mydrivers.com
 # 新智派
 knewsmart.com
 # 晚点
@@ -297,12 +336,13 @@ latepost.com
 leikeji.com
 # 雷峰网
 leiphone.com
+# 三联生活周刊/三联书店
+lifeweek.com.cn
+sdxjpc.com
 # 今日观察网
 miercn.com
 # 闽南网
 mnw.cn
-# 快科技
-mydrivers.com
 # ZAKER新闻
 myzaker.com
 # 南岳新闻网
@@ -339,6 +379,8 @@ pdnews.cn
 people.cn
 people.com.cn
 peopleapp.com
+# 投资界
+pedaily.cn
 # 品玩
 pingwest.com
 # 量子位
@@ -362,6 +404,8 @@ rednet.cn
 scgchc.com
 sctv-tf.com
 sctv.com
+# 科学网/中国科学报
+sciencenet.cn
 # 四川手机报
 scsjb.cn
 # 安全内参
@@ -406,6 +450,8 @@ thepaper.cn
 # 潮新闻/浙江日报
 8531.cn
 tidenews.com.cn
+# 理想生活实验室
+toodaylab.com
 # 动脉网
 vbdata.cn
 vcbeat.top
@@ -424,14 +470,17 @@ xinminweekly.com.cn
 xkb.com.cn
 # 学习强国
 xuexi.cn
+# 扬子晚报
+yangtse.com
+yzwb.net
 # 金羊网/羊城晚报
 ycwb.com
 # 第一财经
 yicai.com
+# 中国青年网
+youth.cn
 # 云南网
 yunnan.cn
-# 扬子晚报
-yzwb.net
 # ZEALER
 zealer.com
 # 中国交通新闻网
