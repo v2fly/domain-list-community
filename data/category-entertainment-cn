@@ -3,8 +3,6 @@
 include:category-games-cn
 
 include:aamgame
-include:acfun
-include:acplay
 include:bilibili @-!cn
 include:ciweimao
 include:dedao
@@ -21,14 +19,15 @@ include:kuaikan
 include:kuaishou
 include:le
 include:lizhi
+include:manhuaren
 include:pptv
 include:qimao
 include:qingtingfm
 include:sakurafrp
 include:shuqi
+include:taihe
 include:taomee
 include:tencent-tme
-include:u17
 include:xiaoheihe
 include:xiaoyuzhou
 include:youku @-!cn
@@ -60,10 +59,19 @@ include:wasu
 172mix.com
 # 17K小说
 17k.com
+# 西影网
+1958xy.com
 # https://github.com/supzhang/epg
 51zmt.top
+# 六间房
+6.cn
+6rooms.com
+xiu123.cn
 # 动画巡礼
 anitabi.cn
+# 咔叽相机
+b612kaji.com
+kajicam.com
 # 暴风影音
 baofeng.com
 baofeng.net
@@ -80,6 +88,8 @@ bsbsb.top
 ccw.site
 # CdkeyNoGap
 cdkeynogap.com
+# 彩视
+colorv.com
 # 酷音铃声
 diyring.cc
 kuyin123.com
@@ -91,8 +101,17 @@ muwai.com
 # 懂球帝
 dongdianqiu.com
 dongqiudi.com
+# 直播吧
+duoduocdn.com
+zhibo8.cc
+zhibo8.com
 # 飞卢小说
 faloo.com
+# 蜂鸟网
+fengniao.com
+img-space.com
+# 游戏狗
+gamedog.cn
 # 三国杀打小抄官网
 goka.top
 # 海读文学
@@ -109,17 +128,24 @@ huajiao.com
 # 映客直播
 inke.cn
 ikstatic.cn
+# 图虫网
+ituchong.com
+tuchong.com
 # 晋江文学城
 jjwxc.net
-# 咔叽相机
-kajicam.com
 # 酷匠网
 kjcdn.com
 kujiang.com
+# 来疯
+laifeng.com
 # 1905电影网
 1905.com
 m1905.cn
 m1905.com
+# 街机中国
+mamecn.com
+# 漫漫看
+manmankan.com
 # 喵御宅
 mfuns.cn
 mfuns.net
@@ -135,22 +161,42 @@ mtime.com
 pearvideo.com
 # 皮皮网
 pipi.cn
+# 腾飞网
+qqtf.com
+# 人人视频
+rrmj.plus
+rrsp.app
+rrsp.com.cn
+qwapp.top
+qwdjapp.com
+yichengwlkj.com
 # SF轻小说二次元
 sfacg.com
 # 书海小说
 shuhai.com
 # 塔读小说
 tadu.com
+# 看理想
+vistopia.com.cn
 # 江山文学
 vsread.com
+# 西窗烛
+xcz.im
+xczim.com
 # 树梦
 xinlishumeng.com
 # 祥云游社
 xyys.com
+# 星座屋
+xzw.com
 # 百合会
 yamibo.com
 # 易有料
 yiyouliao.com
+# 游戏宝
+youxibao.com
+# 游戏鸟手游网
+youxiniao.com
 # 游迅网
 yxdown.com
 # 战旗直播
@@ -168,8 +214,6 @@ zongheng.com
 include:tgbus
 include:vgtime
 
-## 17173网
-17173.com
 ## 18183网
 18183.com
 ## 3DM游戏网
@@ -198,6 +242,8 @@ ign.com.cn
 nadianshi.com
 ## 游戏日报
 news.yxrb.net
+## 超级玩家游戏网
+sgamer.com
 ## 手谈姬
 shoutanjjj.com
 ## 游戏机实用技术

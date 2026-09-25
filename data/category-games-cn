@@ -2,16 +2,23 @@ include:4399
 include:aligames
 include:bilibili-game
 include:bluepoch-games
+include:changyou
 include:cowlevel
 include:herogame
-include:kurogames
+include:kurogames @-!cn
 include:mihoyo-cn
+include:seasun
 include:tencent-games
 include:tiancity
 include:vrzwk
 include:xd @-!cn
 include:yokaverse
 
+# 三七互娱
+37.com
+37.com.cn
+37wan.net
+37wanimg.com
 # 北京奇客创想科技有限公司
 7k7k.com
 # 刀锋盒子 皖B2-20190103-4
@@ -20,6 +27,14 @@ include:yokaverse
 arcaea.cn
 # 《异象回声》游戏官网 沪ICP备2023010411号-1
 astral-vector.com
+# 橙光
+66rpg.com
+cgyouxi.com
+# 多益网络
+duoyi.com
+duoyigroup.cn
+duoyiwangluo.com
+ygduoyi.com
 # 终末地-协议终端
 full:end-api.shallow.ink
 full:end.shallow.ink
@@ -33,31 +48,51 @@ fxt365.com
 gameabc.com
 # 游戏魅 合肥启云软件 皖B2-20160087-3
 gamemei.com
+# 乐元素
+happyelements.com
+leyuansu.com
 # Enhance Gaming
 heavenlywind.cc
+# 完美世界 (Note: geosite:wanmei contains more non-game domains)
+laohu.com
+wanmei.com
+wmsj.cn
+wmupd.com
 # 乐都网 浙ICP备2024091002号-2
 ledu.com
 # 龙图游戏 京ICP备11023195号
 longtugame.com
 # 北京慕飞科技 京ICP备20006112号-2
 morefreegame.com
+# 途游
+nalrer.cn
+tuyoo.com
+# 叠纸游戏
+nikkigames.cn
+nikkigames.com.cn
+papegames.cn
+papegames.com
 # Phira
 phira.cn
 # 盛趣游戏 浙ICP备17039406号-1
 sdo.com
 shengqugames.com
 zjshulong.com
+# 贪玩游戏
+tanwan.com
+twyx.cn
+twyxh.com
+zx.com
 # 沪ICP备18041304号-1
 tgpro.top
 tgprocs.net
-# 途游
-tuyoo.com
-# 完美世界
-wanmei.com
-wmsj.cn
 # Wine游戏助手 京ICP备18041936号
 winegame.net
 # 畅玩空间 冀ICP备20019223号
 wo1wan.com
 # 云蟾游戏 沪ICP备11009299号
 ycgame.com
+# 永劫无间
+yjwujian.cn
+# 燕云十六声
+yysls.cn

@@ -1,10 +1,12 @@
-# This file contains domains that clearly serving ads
+# This file contains domains that clearly serving for ads or tracking.
+# We can not seperate ads and tracking domains clearly, so they are mixed together.
 include:category-ads-ir
 
-include:acfun @ads
+include:36kr @ads
 include:adobe @ads
 include:alibaba @ads
 include:amazon @ads
+include:amplitude @ads
 include:apple @ads
 include:avito @ads
 include:baidu @ads
@@ -16,6 +18,7 @@ include:disney @ads
 include:dmm @ads
 include:duolingo @ads
 include:gamersky @ads
+include:gog @ads
 include:google @ads
 include:hetzner @ads
 include:huawei @ads
@@ -24,12 +27,14 @@ include:iqiyi @ads
 include:jd @ads
 include:kontur @ads
 include:kuaishou @ads
+include:kurogames @ads
 include:le @ads
 include:mailru-group @ads
 include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:mindbox @ads
+include:moji @ads
 include:mozilla @ads
 include:mts-ru @ads
 include:netease @ads
@@ -61,6 +66,7 @@ include:xiaomi @ads
 include:yahoo @ads
 include:yandex @ads
 include:zhihu @ads
+include:zuoyebang @ads
 
 # Other domains for ads serving
 51.la
@@ -68,19 +74,15 @@ include:zhihu @ads
 a.adtng.com
 aaxads.com
 ad-srv.net
-ad.api.moji.com
 ad.wang502.com
 adbutter.net
-addthisedge.com
 ads.huan.tv
 ads.huantest.com
 ads.trafficjunky.net
 ads.wteam.xyz
-adservice.sigmob.cn
 adtechus.com
 adtrue.com
 adxprtz.com
-cdn.advertserve.com
 cdn.banclip.com
 cfts1tifqr.com
 contentabc.com
@@ -129,9 +131,6 @@ wwads.cn
 # 12306
 ad.12306.cn
 
-# 36Kr
-adx.36kr.com
-
 # AdHub
 hubcloud.com.cn
 
@@ -148,23 +147,6 @@ applvn.com
 
 # AppsFlyer
 appsflyersdk.com
-
-# Caixin
-# regexp:^pinggai\d\.caixin\.com$
-full:pinggai0.caixin.com
-full:pinggai1.caixin.com
-full:pinggai2.caixin.com
-full:pinggai3.caixin.com
-full:pinggai4.caixin.com
-full:pinggai5.caixin.com
-full:pinggai6.caixin.com
-full:pinggai7.caixin.com
-full:pinggai8.caixin.com
-full:pinggai9.caixin.com
-
-# Chinaso
-adq.chinaso.com
-stat.chinaso.com
 
 # hiido
 mlog.hiido.com
@@ -187,22 +169,9 @@ ironbeast.io
 advapi.joyplus.tv
 advapikj.joyplus.tv
 
-# pocoiq
-cdn.pocoiq.cn
-oct.pocoiq.cn
-
-# Qiniu
-dn-growing.qbox.me
-
 # tagtic
 g1.tagtic.cn
 xy-log.tagtic.cn
-
-# UNI Marketing
-ad.unimhk.com
-
-# UCloud
-das-rpt-log.ucloud.cn
 
 # Vungle
 full:logs.ads.vungle.com
@@ -259,3 +228,6 @@ logs.chelaile.net.cn
 # 航旅纵横
 analytics.umetrip.com
 sensors.umetrip.com.cn
+
+# Freestar ads
+pub.network

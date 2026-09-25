@@ -6,3 +6,8 @@ alibabacloud.com.my @!cn
 alibabacloud.com.sg @!cn
 alibabacloud.com.tw @!cn
 alicloud.com @!cn
+
+full:account-cn.alibabacloud.com @cn
+full:api.alibabacloud.com @cn
+full:cn.alibabacloud.com @cn
+full:status.alibabacloud.com @cn

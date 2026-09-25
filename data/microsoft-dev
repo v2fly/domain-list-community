@@ -21,8 +21,8 @@ microsoftreactor.info
 microsoftreactor.net
 microsoftreactor.org
 microsoftsilverlight.com
-microsoftsilverlight.org
 microsoftsilverlight.net
+microsoftsilverlight.org
 microsoftsqlserver.com
 mmdnn.com
 mono-project.com
@@ -40,25 +40,28 @@ sankie.net
 sqlserveronlinux.com
 timelinestoryteller.com
 uwpcommunitytoolkit.com
-visualstudio-staging.com
-visualstudio.com
-visualstudio.co
-visualstudio.co.uk
-visualstudio.eu
-visualstudio.net
 vfsforgit.com
 vfsforgit.org
+visualstudio-staging.com
+visualstudio.co
+visualstudio.co.uk
+visualstudio.com
+visualstudio.eu
+visualstudio.net
 vsassets.io
-vscode.dev
 vscode-cdn.net
 vscode-unpkg.net
+vscode-webview.net
+vscode.dev
+vscodeedu.app
+vscodeedu.com
 xamarin.com
 
 full:az764295.vo.msecnd.net
 full:bingsettingssearch.trafficmanager.net
 full:default.exp-tas.com
 full:developer.microsoft.com
-full:download.visualstudio.microsoft.com
+full:download.visualstudio.microsoft.com @cn
 full:dtlgalleryint.cloudapp.net
 full:packages.microsoft.com
 full:poshtestgallery.cloudapp.net

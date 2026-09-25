@@ -1,4 +1,5 @@
 # AT&T Inc.
+include:attwatchtv
 
 accbusiness.com
 atandt.com
@@ -11,7 +12,6 @@ att.cn @cn
 att.com
 att.jobs
 att.net
-att.tv
 attalascom.com
 attbelieves.com
 attbusiness.net
@@ -33,7 +33,6 @@ attspecial.com
 attssl.com
 attstadium.com
 attsuppliers.com
-atttvnow.com
 attuverseoffers.com
 attuverseonline.com
 attvoip.com
@@ -51,7 +50,6 @@ enterprisepaging.com
 itcanwait.com
 mymmode.com
 naturalvoices.com
-nettyinternet.com
 openapiplatform.com
 openapiservice.com
 patentgold.net
@@ -72,6 +70,8 @@ attdns.net
 na-att-idns.net
 
 # Direct TV
+# AT&T and DIRECTV are completely separate companies now.
+# We may add a separate list for DIRECTV
 audiencenetwork.com
 audiencenetwork.tv
 cabletvdirectv.com

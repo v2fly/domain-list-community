@@ -9,6 +9,7 @@ include:schoopia
 include:shanbay
 include:xueersi
 include:yuanfudao
+include:zuoyebang
 
 edu.cn
 
@@ -24,6 +25,10 @@ xuetangx.com
 # 国家智慧教育公共服务平台
 cbern.com.cn
 smartedu.cn
+# 国家教育资源公共服务平台
+eduyun.cn
+# 教育部中国大学生在线
+univs.cn
 
 # 教育部学生服务与素质发展中心
 # 京ICP备19004913号
@@ -59,6 +64,13 @@ zbbm.net
 neea.cn
 # neea.edu.cn
 
+# 高等教育出版社
+hep.com.cn
+# 人民教育出版社
+mypep.cn
+peeavp.com.cn
+pep.com.cn
+
 # 二一教育
 21cnjy.com
 # 云校
@@ -76,6 +88,8 @@ bczeducation.cn
 # 班小二
 banxiaoer.com
 banxiaoer.net
+# 爱思博特国际教育
+beie.org
 # 毕业之家科研服务平台
 biyehome.net
 # Burning Vocabulary
@@ -83,14 +97,22 @@ burningvocabulary.cn
 burningvocabulary.com
 # 世纪外语网
 centuryenglish.com
+# 中教双元/教育在线
+cepsp.cn
+eol.cn
+gaokao.cn
 # 中国地质大学 继续教育学院
 cugbonline.cn
+# 大连财经学院 大财校园
+dcshfu.com
 # 第二教育网
 dearedu.com
 # 莞教通
 dgjy.net
 # 海词词典
 dict.cn
+# 对分易
+duifene.com
 # 在职研究生教育信息网
 eduei.com
 # 中公
@@ -100,11 +122,19 @@ offcn.com
 zggqzp.com
 zgjsks.com
 zgsydw.com
+# 高绩网
+gaojidata.com
 # 高考100
 gk100.com
+# 智德通达
+guojibk.com
+# 广州应用科技学院
+gzasc.com
 # 华图
 huatu.com
 sydw8.com
+# 慧教云
+huijiaoyun.com
 # 中科大数据研究院，豫ICP备19023555号
 ictbda.cn
 ictbda.com
@@ -122,8 +152,6 @@ jzagile.com
 keboyunxiao.com
 # 课堂派
 ketangpai.com
-# 快对作业
-kuaiduizuoye.com
 # 流利说
 liulishuo.com
 llsapp.com
@@ -136,6 +164,9 @@ maimemo.com
 maimemostatus.com
 # 墨墨记忆卡
 markji.com
+# 墨督督/上海识刻
+mddclass.com
+sksight.com
 # CIS NanoMasters
 neoscholar.com
 neoschool.com
@@ -143,8 +174,17 @@ neoschool.com
 oldboyedu.com
 # 批改网
 pigai.org
+# 蜻蜓志愿
+qingtingai.net
+# 曲一线教育
+quyixian.com
+# 荣德基教育
+rongdeji.cn
+rudder.com.cn
 # 公考知识库
 saduck.top
+# 天星教育
+tesoon.com
 # 外研在线
 unipus.cn
 # 未来云校
@@ -167,6 +207,10 @@ zxxk.com
 yunzhuxue.com
 # “叶圣陶杯”全国中学生新作文大赛
 ystbds.com
+# 易班优课
+yooc.me
+# 中国高校在线
+zggx100.com
 # 小站教育
 zhan.com
 # 智慧树
@@ -178,3 +222,7 @@ zuowen8.com
 zuowenjun.com
 zuowenku.net
 zuowenwang.net
+# 千学教育 # 京ICP备2021026895号-5
+qianxuecloud.com
+qianxueyunke.com
+zhixingyunke.com

@@ -20,6 +20,7 @@ include:flatpak
 include:flutter
 include:fontawesome
 include:framer
+include:freebuff
 include:gemfury
 include:gitbook
 include:github
@@ -32,12 +33,12 @@ include:homebrew
 include:intel-dev
 include:java
 include:jetbrains
-include:jetbrains-ai
 include:jfrog
 include:kubernetes
 include:microsoft-dev
 include:mongodb
 include:nginx
+include:nixos
 include:openwrt
 include:perl
 include:polymer
@@ -61,6 +62,7 @@ include:v8
 include:wordpress
 
 adventofcode.com
+almalinux.org
 alpinelinux.org
 apache.org
 artixlinux.org
@@ -68,6 +70,7 @@ atom.io
 badgen.net
 bitvise.com
 bugsnag.com
+busybox.net
 centos.org
 chocolatey.org
 clojure.org
@@ -109,18 +112,19 @@ linuxmint.com
 lua.org
 lxqt-project.org
 macports.org
+manjaro.org
 mariadb.org
 mate-desktop.org
 mingw.org
 mobatek.net
+motocms.com
 mpv.io
-mysql.com
 msys2.org
+mysql.com
 neovim.io
 netfilter.org
 newpipe.net
 nftables.org
-nixos.org
 nodesource.com
 notepad-plus-plus.org
 openresty.org
@@ -142,6 +146,7 @@ raspberrypi.org
 raspbian.org
 regex101.com
 remirepo.net
+rockylinux.org
 rpmfusion.org
 scientificlinux.org
 scoop.sh
@@ -170,6 +175,7 @@ ziglang.org
 zsh.org
 
 # WordPress plugins
+crocoblock.com
 elegantthemes.com
 hivepress.io
 motopress.com

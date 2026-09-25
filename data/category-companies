@@ -73,6 +73,7 @@ include:musixmatch
 include:mxroute
 include:naver
 include:neuralink
+include:nic-ru
 include:nvidia
 include:openweather
 include:oracle
@@ -84,6 +85,7 @@ include:qnap
 include:qualcomm
 include:qwant
 include:razer
+include:regru
 include:rostelecom
 include:salesforce
 include:samsung

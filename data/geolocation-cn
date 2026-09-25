@@ -26,9 +26,14 @@ include:getui
 include:growingio
 include:jiguang
 
-# 北京贵士信息科技有限公司
+## LinkFlow
+linkflowtech.com
+## openinstall
+openinstall.com
+openinstall.io
+## 北京贵士信息科技有限公司
 qchannel03.cn
-# 神策数据
+## 神策数据
 sensorsdata.cn
 
 # category-httpdns-cn is mainly for advertising purpose
@@ -45,8 +50,26 @@ include:everbright
 include:pingan @-!cn
 include:taikang
 
+## 太平洋保险
+aaic.com.cn
+cpic.com.cn
+cpiccdn.com
+## 中国保险行业协会
+iachina.cn
+
+## 北汽金融
+baicaf.com
 ## 航财通·校园付
 cc-pay.cn
+## 橙券
+51106.cn
+chengquan.cn
+## 国联安基金
+cpicfunds.com
+## 易鑫金融
+daikuan.com
+## 嘟噜支付
+dulupay.com
 ## 合利宝
 helipay.com
 ## 徽商期货有限责任公司
@@ -59,14 +82,24 @@ joinpay.com
 keruyun.com
 ## 乐惠-微信支付
 lehuipay.com
+## 连连
+lianlian.com
+lianlianpay.com
 ## 上海陆金所
 lu.com
 lufax.com
 lufaxcdn.com
+## 融360
+rong360.com
 ## 银豹收银系统
 pospal.cn
+## 趣店
+qudian.com
 ## 上海付费通
 shfft.com
+## 收钱吧
+shouqianba.com
+wosaimg.com
 
 # CDN or SDWAN
 include:category-cdn-cn
@@ -79,6 +112,15 @@ include:snodehome
 include:ucloud
 include:yunfanjiasu
 
+## 深圳市百悦通信
+100ycdn.com
+## 文派科技
+admincdn.com
+cravatar.cn
+cravatar.com
+wenpai.org
+windfonts.com
+wpcy.com
 ## 百家云
 baijiayun.com
 ## 123 云盘 CDN
@@ -106,19 +148,42 @@ pkoplink.com
 ## 速方云
 suufun.com
 suu-fun.com
+## 亿速云
+yisu.com
+## 静态资源 ZStatic
+zstatic.net
 
 # Cloud Service
+## 书链
+bookln.cn
+zhizhuma.com
+## 华栖云
+chinamcloud.com
+## CmsTop 媒体云
+cjyun.org
 ## 安徽大家网络科技
 cnwza.cn
 govwza.cn
+## 顶想云
+kancloud.cn
+topthink.com
+## 新空云
+newaircloud.com
+## 趣看科技
+quklive.com
 ## 广州润雨科技有限公司 粤ICP备19052839号
 rainyun.com
+## 融云
+rongcloud.cn
+ronghub.com
 ## 深圳市狐蒂云网络科技有限公司 粤ICP备2025387186号-1
 szhdy.com
 ## 中企动力
 300.cn
 thefastfile.com
 thefastimg.com
+## 有连云
+youliancloud.cn
 
 # E-commerce
 include:58tongcheng
@@ -141,6 +206,8 @@ include:ziroom
 
 ## 无忧易售
 51selling.com
+## 凡米克思 FURMIX（江苏艾格家具）
+aigefurniture.com
 ## 爱回收
 aihuishou.com
 ## 唯品会
@@ -148,17 +215,33 @@ appsimg.com
 appvipshop.com
 vip.com
 vipstatic.com
+## 爱赞助
+azz.net
 ## 首旅如家/和美酒店
 btghotels.com
 bthhotels.com
 homeinns.com
+## 欣欣旅游网
+cncn.com
+cncnimg.cn
+## 嘀嗒出行
+didachuxing.com
+didapinche.com
 ## 多点新鲜
 dmall.com
 dmallcdn.com
+## 房天下/搜房网
+fang.com
+soufun.com
+soufun.com.cn
+soufunimg.com
 ## 大润发
 feiniu.com
 fn-mart.com
 rt-mart.com.cn
+## 找法网
+findlaw.cn
+findlawimg.com
 ## 微店
 geilicdn.com
 weidian.com
@@ -191,11 +274,22 @@ kujiale.com
 ## 银泰百货
 intime.com.cn
 linkheer.com
+## 法律快车
+lawtime.cn
+lawtimeimg.com
+## 鲁班到家
+lbdj.com
+## 领星（跨境电商亚马逊ERP）
+lingxing.com
+## 卢米埃影院
+lumiai.com
 ## 慢慢买
 manmanbuy.com
 ## 美物清单
 maxonesoft.com
 meiwulist.com
+## 得力集团
+nbdeli.com
 ## OZONBIGSELL分析产品系统
 ozonbigsell.com
 ## 朴朴
@@ -206,16 +300,30 @@ qyer.com
 qyerstatic.com
 ## Ru-seer 俄罗斯卖家助手
 ruseer.com
+## 搜了网
+51sole.com
+solepic.com
 ## 土巴兔
 to8to.com
+## 途牛网
+tuniu.com
+tuniu.net
+tuniucdn.com
 ## 设计知外
 ucppt.com
+## 西部数码
+west.cn
 ## 瞎买
 xiamai.net
+## 啄木鸟家庭维修
+xiujiadian.com
+zmn.cn
 ## 亚朵
 yaduo.com
 ## 诸葛找房
 zhuge.com
+## 紫鸟浏览器
+ziniao.com
 
 # Forums
 include:b3log
@@ -243,6 +351,7 @@ kdslife.com # 宽带山
 klpbbs.com # 苦力怕论坛
 mala.cn # 麻辣社区
 mcbbs.net # MCBBS论坛
+netbig.top # 网大论坛
 pcbeta.com # 远景论坛
 right.com.cn # 恩山论坛
 tianya.net # 天涯社区
@@ -276,6 +385,8 @@ winos.me # WINOS 精简社区
 
 # Healthcare
 include:category-hospital-cn
+## 39健康网
+39.net
 ## 安徽药品人才网
 ahfda.com
 ## 丁香园
@@ -285,34 +396,74 @@ dxy.cn
 dxycdn.com
 ## 薄荷健康
 boohee.com
+## 巢内网
+chaonei.com
+## 春雨医生
+chunyu.mobi
+chunyuyisheng.com
+## 宁波全网云医疗
+eword.cn
 ## 好大夫在线
 haodf.com
 hdfimg.com
+## 健康之路/医护网
+jkzlrs.com
+yihu.com
+yihuimg.com
 ## 江苏健康通
 jsehealth.com
+## 医脉通
+medlive.cn
+## 民福康
+39yst.com
+mfk.com
+## 妙手医生
+miaoshou.net
+miaoshoucdn.com
 ## 仁科医疗科技有限公司服务域名，为北大口腔和一些其他国内医院小程序提供服务
 mingxuan.store
+## 山西省预约诊疗服务平台
+sxyygh.com
+## 爱问医生
+wenwo.com
+## 闻康健康/寻医问药网
+wkimg.com
+xywy.com
+xyxy.net
 ## 牙医管家
 yayi360.com
 ## 有来医生
 youlai.cn
+## 肿瘤界
+zhongliujie.com
 
 # Party and government offices & Public units
 12315.cn
 12321.cn
+12371.cn
+12377.cn
 gov.cn
+mil.cn
 ## 中华全国总工会
 acftu.org
+## 游戏产业网-游戏工委
+cgigc.com.cn
 ## 中国气象局
 cma.cn
 ## 政务和公益机构域名注册管理中心
 conac.cn
+## 国家林业和草原局自然保护区研究中心
+fnrrc.com
 ## 中央气象台
 nmc.cn
+# 中国人民银行征信中心
+pbccrc.org.cn
 ## 中国互联网联合辟谣平台
 piyao.org.cn
 ## 中国红十字会
 redcross.org.cn
+## 宿迁市宿豫区启明金融调解中心
+sqqmtj.com
 ## 中国殡葬网
 zgbznet.com.cn
 ## 中国记协网
@@ -320,7 +471,7 @@ zgjx.cn
 
 # Public transportation
 ## 中国国际航空
-include:airchina
+include:airchina @-!cn
 ## 海南航空
 include:hainanairlines
 ## 长安航空
@@ -366,6 +517,22 @@ urumqi-air.com
 ## 厦门航空
 xiamenair.com
 
+## 北京市政交通一卡通
+bmac.com.cn
+## 重庆通卡
+cqtk.com.cn
+## 北京如意行
+ruubypay.com
+## 上海交通卡
+sctcd.com
+sptcc.com
+## 深圳通
+shenzhentong.com
+
+## 一些钱包 app 里手机交通卡供应商
+nfcos.cn
+snowballtech.com
+
 ## 中国民航局
 caac.gov.cn
 ## 信天游（航空电子客票验真）
@@ -383,10 +550,12 @@ variflight.com
 12306.cn
 95306.cn
 ccrgt.com
-## 北京市政交通一卡通
-bmac.com.cn
 ## 车来了
 chelaile.net.cn
+## 活力智汇/高铁管家/航班管家
+133.cn
+gtgjtrip.com
+rsscc.cn
 ## 跨境巴士
 kuajing84.com
 ## 掌上公交
@@ -412,8 +581,15 @@ guoxuedashi.com
 guoxuemi.com
 ## 科普中国
 kepuchina.cn
+## 路标 Wiki 豫ICP备2024043594号-2
+lubiao.wiki
+## 国家图书馆
+nlc.cn
 ## 四川省文物考古研究院
 sckg.com
+## 微科普
+wkepu.cn
+wkepu.com
 ## 温州市图书馆
 wzlib.cn
 ## 中国大百科全书
@@ -469,24 +645,40 @@ include:zdns
 include:zhangtao
 include:zhubajie
 
+## 驱动人生
+160.com
+## 53客服
+53kf.com
 ## 容联七陌 客服 营销
 7moor-fs1.com
 7moor.com
 ## 在意空气
 air-matters.com
+## Hover Translate #3854
+full:api.blipsandchitz.me
 ## Alook 浏览器
 alookweb.com
+## AniXPlayer
+anixplayer.net
 ## 安兔兔
 antutu.com
 antutu.net
+## 应用汇
+appchina.com
+yingyonghui.com
 ## 问答库
 asklib.com
 ## 拓竹科技
-bambulab.com
+bambulab.cn
+makerworld.com.cn
 bblmw.com
 ## BOSS 直聘
 bosszhipin.com
 zhipin.com
+## 草料二维码
+caoliao.net
+clewm.net
+cli.im
 ## 下厨房
 chuimg.com
 xiachufang.com
@@ -503,11 +695,22 @@ deepepg.com
 kookong.com
 ## 滴答清单
 dida365.com
+## 数英
+digitaling.com
+## 豆果美食
+douguo.com
+douguo.net
 ## 短书
 duanshu.com
 ## 兑吧
 dui88.com
 duiba.com.cn
+## 易聊科技
+easyliao.com
+## 旷视科技（人脸识别）
+faceid.com
+## FinClip
+finclip.com
 ## 方正字库
 foundertype.com
 ## 发现报告
@@ -517,6 +720,7 @@ gongxiangjizhang.com
 ## 快应用
 hapjs.org
 quickapp.cn
+so-quick.cn
 ## 乐播投屏
 hpplay.cn
 lbtp.com
@@ -544,6 +748,11 @@ ireader.com
 zhangyue.com
 zhangyue01.com
 zhangyuecdn.com
+## 职友集
+jobui.com
+## 美食天下
+meishichina.com
+meishitx.com
 ## 喵提醒
 miaotixing.com
 ## 仟寻招聘
@@ -557,6 +766,8 @@ sangfor.com.cn
 ## 心知天气
 sencdn.com
 seniverse.com
+## 声网
+shengwang.cn
 ## 实习僧
 shixiseng.com
 sxsimg.com
@@ -571,15 +782,29 @@ tianqi.com
 tianqistatic.com
 ## Via 浏览器
 viayoo.com
+## 微盟
+weimob.com
+weimobdc.com
 ## 问卷网
 wenjuan.com
 ## X 浏览器
 xbext.com
 ## 印象笔记
 yinxiang.com
+## 云片
+yunpian.com
+## 鱼泡直聘
+yupao.com
+yupaowang.com
+## 在行
+zaih.com
 ## 智联招聘
 zhaopin.cn
 zhaopin.com
+## 最美天气
+zmtqsh.cn
+zmtqsh.com
+zuimeitianqi.com
 
 ## 上海东方怡动信息技术有限公司
 ewdcloud.com
@@ -588,13 +813,35 @@ webterren.com
 
 # State Owned Companies
 include:chinapost
+include:petrochina
 include:sinopec
+
+## 国家电网
+95598.cn
+95598pay.com
+echargenet.com
+esgcc.com.cn
+sgcc.com.cn
+## 南方电网
+csg.cn
+ecsg.com.cn
+poweremarket.com
+
+## 新华书店
+winshare.com.cn
+winxuan.com
+winxuancdn.com
+xhmedia.com
+xhsd.com
+xhsdzd.com
+xinhuashudian.com
 
 # Tech companies & Orginations
 include:aisiku # 北京艾斯酷科技有限公司
 include:akiko # 秋子酱科技
 include:alibaba @-!cn
 include:anker @-!cn
+include:auxgroup @-!cn # 奥克斯集团
 include:baidu
 include:beisen
 include:bluepoch
@@ -602,6 +849,7 @@ include:bytedance @-!cn
 include:didi @-!cn
 include:dingdatech # 叮哒出行(杭州金通互联科技有限公司)
 include:dji
+include:focuschina # 焦点科技
 include:gree
 include:haier
 include:hikvision
@@ -625,8 +873,10 @@ include:qihoo360
 include:sumkoo #北京尚古创新科技有限公司
 include:tcl
 include:tencent @-!cn
+include:trustasia
 include:tongfang
 include:vivo @-!cn
+include:wanmei
 include:xiaomi @-!cn
 include:xunlei
 include:youquan # 祐全科技
@@ -636,18 +886,34 @@ include:zte
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
 dreame.tech # 追觅科技
+fastcom.com.cn # 迅捷
 ibaotu.com # 包图网
 insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
 jmgo.com # 坚果投影
 mediastory.cc # 闪电分镜
+mercurycom.com.cn # 水星
 roborock.com # 石头科技
+ruijie.com.cn # 锐捷
 shipin520.com # 潮点视频
 socpk.com # 极客湾移动芯片排行
 suzuki-china.com # 铃木中国官网
+tenda.com.cn # 腾达
+tp-link.com.cn # 普联
 udesk.cn # 沃丰科技
 ysjf.com # 影视飓风
+yunxi.tv # 云犀
 
+## 厦门 沧鹏电子科技/杉鹭信息技术
+allday.work
+cangpeng.com
+erp198.com
+sunrocks.cn
+## 知道创宇
+anquan.org
+hackernews.cc
+knownsec.com
+yunaq.com
 ## 曹操出行
 caocao.com.cn
 caocaokeji.cn
@@ -656,10 +922,29 @@ cfp.cn
 ishijue.com
 vcg.com
 vcgapi.com
+## 视源/视臻/视睿
+cvte.com
+maxhub.com
+seewo.com
+## 上海互盾信息科技/迅捷PDF
+daotudashi.com
+xunjiepdf.com
 ## 飞牛
 fnnas.com
 fnnas.net
 fnos.net
+## 公牛集团
+gongniu.cn
+gongniukaiguan.net
+## 咕咕数据
+gugudata.com
+## 二三四五
+2345.cc
+2345.cn
+2345.com
+2345cdn.net
+2345tianqi.cn
+hao774.com
 ## 稿定（厦门）信息服务有限公司
 ### 花瓣网 闽ICP备2021013850号
 huaban.com
@@ -673,12 +958,32 @@ xsbapp.cn
 ## 凯迪仕
 juziwulian.com
 kaadas.com
+## UGREEN绿联
+lulian.cn
+ugnas.cloud
+ugnas.com
+## 九号公司
+ninebot.com
+segwayrobotics.com
 ## 微步在线 / 步刻科技
 onedns.net
 #safeskill.cn
 shellpub.com
 threatbook.cn
 threatbook.com
+## 千图网
+58pic.com
+qiantucdn.com
+## 享道出行
+saicmobility.com
+## 创维
+skyworth.com
+skyworthdigital.com
+## T3出行
+t3go.cn
+## 小拉出行
+xiaolachuxing.com
+xlcx.cn
 ## 新片场
 xinpianchang.com
 xpccdn.com
@@ -709,8 +1014,10 @@ anytocopy.com
 ## 华为手表HDC工具箱 鄂ICP备2025146053号
 osbdf.com
 
+boce.com # 拨测 闽ICP备11028257号-28
 chaziyu.com # 滇ICP备2024035496号
 fofa.info # Fofa网站测绘（华顺信安）
+i4.cn # 爱思助手
 icplishi.com # 粤ICP备20009057号
 ip138.com # ip138查询网
 ipchaxun.com # 滇ICP备2024035496号
@@ -719,8 +1026,12 @@ ipplus360.com # 豫ICP备17017462号-1 埃文科技
 ipshu.com # 鄂B2-20110095-1
 ipshudi.com # IP属地查询
 itdog.cn # itdog网站工具箱
+iwangding.com # 网丁网络测速
 rdnsdb.com # 闽ICP备15009794号
+shipxy.com # 船讯网 京ICP备11024593号-2
+tol.vip # 沪ICP备2022013949号-3
 webmasterhome.cn # 站长之家
+youbianku.com # 邮编库
 
 # 主页导航
 ## 氪主页
@@ -728,11 +1039,17 @@ webmasterhome.cn # 站长之家
 zhuye.kim
 ## 乐游导航主页
 6-u.com
+## 磁力搜索
+cilisouou.com
+jigecili.com
+wsjqnmmrmv.world
 ## imsYY起始页
 imsyy.com
 ## Infinity Pro
 infinitynewtab.com
 inftab.com
+## 极光Tab
+jgtab.link
 ## 可可牛导航
 kekeniu.com
 ## 青柠起始页
@@ -779,11 +1096,11 @@ ycrx360.com
 1nongjing.com
 1ting.com
 1zhe.com
-21cn.com
+20130123.com # 深圳市掌信传媒
 2265.com
 2288.org
-2345.com
 258.com
+25mao.com # 粤ICP备17115456号-2
 263.net
 289.com
 2cto.com
@@ -805,11 +1122,9 @@ ycrx360.com
 360zhyx.com
 365azw.com
 365dmp.com
-37.com
 3733.com
-39.net
 3d66.com
-3elife.net
+3dwhere.com # 鲁ICP备09007355号-4
 3h3.com
 3type.cn
 3yx.com
@@ -825,38 +1140,43 @@ ycrx360.com
 51gaifang.com
 51hejia.com
 51jingying.com
+51kandianshi.com # 苏ICP备10008205号-11
 51meishu.com
-51sole.com
 51yes.com
 5253.com
 52hxw.com
+52jiawei.com # lanyun.net
 52miji.com
+52muban.com # 粤ICP备2020135806号-2
 52pk.com
+52youzai.com # 沪ICP备18001352号-3
 52z.com
-53kf.com
 55.com
+55555.ink # 琼ICP备2023002894号-1
 5577.com
 55bbs.com
-58pic.com
+56tvc.com # 冀ICP备2024095542号-1
 5bite.com
+5ddd.com # 粤ICP备2023020469号-2
 5fun.com
 5gzm.net
 5khouse.com
 5you.com
 66wz.com
 68h5.com
-6rooms.com
 714.com
 7230.com
 72byte.com
 7down.com
 7po.com
+7sef.com # 蜀ICP备17032697号-1
 7x24cc.com
 7xdown.com
 818ps.com
 8264.com
 84399.com
 885.com
+8m2.net
 900.la
 900cha.com # 冀ICP备2024081752号-2
 917.com
@@ -868,6 +1188,7 @@ ycrx360.com
 9718.com
 99166.com
 998.com
+998tool.com # 黔ICP备2024032117号-2
 999d.com
 99danji.com
 9ht.com
@@ -875,7 +1196,11 @@ ycrx360.com
 a9vg.com
 acetaffy.club # 粤ICP备2022042304号
 acepanel.net # 津ICP备2022009678号-1
+acgdraw.com # 湘ICP备16008280号-1
+adhuanxiao.com # 京ICP备2024063371号-1
+adosmo.com # 浙ICP备18000384号-2
 adxvip.com
+afeica.com # 粤ICP备2022092546号-1
 afzhan.com
 agrantsem.com
 aidream.website # 粤ICP备2023062793号-3
@@ -890,23 +1215,25 @@ aldwx.com # 京ICP备17030349号-1
 alittle-tea.com
 allyes.com
 anfensi.com
-anquan.org
 anruan.com
+anvnjmc.com # 京ICP备2025111416号-22
+anycubic.com # 粤ICP备17062658号-2
 aotrip.net
 aoyou.com
 apk3.com
 apk8.com
 aplaybox.com
-appchina.com
+appracle.com # 粤ICP备17084964号-9
 arpun.com
+atticus.vip # 苏ICP备2021025652号-1
 awstme.top # 浙ICP备2024120639号
 babytree.com
 babytreeimg.com
 baidufree.com
 baifendian.com
-baihe.com
 baixing.com
 baixing.net
+baiyishequ.com # 湘ICP备18009856号-2
 bamenzhushou.com
 bangongziyuan.com
 baoxianshichang.com
@@ -920,6 +1247,7 @@ benmi.com
 berui.com
 bestopview.com
 biancheng.net
+biaoda.me # 沪ICP备2023028878号-10
 bibaodao.com
 bidchance.com
 biddingx.com
@@ -936,18 +1264,23 @@ bochaai.com # 浙ICP备2025165343号-4
 bojianger.com
 bokecc.com
 boosj.com
+bowenkj.com # 蜀ICP备09010985号-17
+boyuemobile.com # 琼ICP备16003259号-1
 btgtravel.com
-btime.com
+bvmlt.top # 粤ICP备2025445830号-1
 cabbagebox.com
 caijingwu.com
 caiyun.com
 cang.com
+canghaiip.com # 皖ICP备2024030830号-2
 cardbaobao.com
 carnoc.com
+cdut.top # 蜀ICP备15026594号-1
 cecdc.com
 cecport.com
 centanet.com
 cerambath.org
+cg3da.com # 渝ICP备2022008889号-1
 chachaba.com
 changba.com
 chaojituzi.net
@@ -959,7 +1292,6 @@ chememall.com # 津ICP备2021007710号-1
 chessease.net # 京ICP备15045948号-2
 china-chair.com
 china-nengyuan.com
-china.com
 chinacache.com
 chinacache.net
 chinachugui.com
@@ -985,25 +1317,30 @@ chushou.tv
 chuyu.me # 浙ICP备17002125 Dism++官网
 city8.com
 cjol.com
+clangcn.com # 黑ICP备16002903号-1
 clouddn.com
 cloudxns.com
 cnanzhi.com
 cnepub.com
 cnlaw.net
+cnppa.org # 京ICP备05086076号-1
 cocodiy.com
 code666.com
 codeloop.top # 渝ICP备2023015627号-1
 cofeed.com
+coffee-iot.com # 苏ICP备2025230558号-2
 cofool.com
 coindog.com
 comfylink.com # 粤ICP备2023090978号
 cone-x.com # 粤ICP备17150598号
 contentchina.com
+coros.com # 粤ICP备14054014号-3
 cpppf.org
 cr173.com
 crsky.com
 csbew.com
 csmjzs.com
+csqaq.com # 粤ICP备2023062546号-1
 csslcloud.net
 ctiforum.com
 ctsbw.com
@@ -1011,6 +1348,7 @@ cubead.com
 cwxzx.com
 cyagen.com
 cybtc.com
+cydiabc.top # 豫ICP备19039225号-1
 cyts.com
 dadajiasu.com
 dadighost.com
@@ -1030,6 +1368,7 @@ dazijia.com
 dcdkjx.com
 dd373.com
 ddooo.com
+ddzn.tech # 豫ICP备17002330号-2
 dedecms.com
 deepinos.org
 develenv.com
@@ -1050,14 +1389,13 @@ dogedoge.com
 dongao.com
 dongguantoday.com
 dopa.com
+dothantech.com # 沪ICP备12032439号-1
 douxie.com
 downcc.com
 downxia.com
 downyi.com
-dpfile.com
 dreams-travel.com
-drivergenius.com
-duoduocdn.com
+drvceo.com # 粤ICP备16002774号-8
 duomai.com
 duoshuo.com
 duote.com
@@ -1072,15 +1410,17 @@ easiu.com
 eastsoo.com
 eayyou.com
 ebico.com
-ebrun.com
+eceshi.com # 豫ICP备2022003071号-3
 ecjobhome.com
 eeyy.com
 eflycloud.com
 emarbox.com
 emumax.com
+englibrary.com # 京ICP备2024063499号-1
 enterdesk.com
 eoeandroid.com
 eolink.com
+erocraft.com # 闽ICP备15010612号-1
 et0731.com # 湘ICP备20014608号-1
 excelbbx.net # 粤ICP备16023683号-1
 excelhome.net
@@ -1093,38 +1433,54 @@ fangxiaoer.com
 fanxian.com
 fastapi.net
 feiniaomy.com
-fengniao.com
+feizhiyi.com # 京ICP备2022003976号-1
+fengsutb.com # 鲁ICP备17049695号-1
 fengxian110.com
+fffff.games # 苏ICP备2022004384号-1
 fhldns.com
 fimmu.com
 finchina.com
 fixdown.com
+fofuai.com # 粤ICP备2025416511号-1
 fqjob.net
+fsjiaoyubang.com # 粤ICP备2021041726号-3
 fugetech.com
+funmob.top # 京ICP备2024060488号-1
 fuwj.com
 fxxz.com
 fzaqjy.com
+fzwqq.com # 蜀ICP备19018133号-3
+gaishitongshu.com # 粤ICP备19054075号-1
 game234.com
 gamepp.com # 蜀ICP备2023004459号-4
 gaodun.com
+gaojiua.com # 京ICP备2022012130号-1
 gaoshouyou.com
 gaoxiaojob.com
 gdjdxy.com
 gdliontech.com
 gdrc.com
 geektool.top # 极客Tool 蜀ICP备2024086015号-2
+gei6.com # 苏ICP备12063221号-7
+gelaiyun.net # 闽ICP备2025091442号-2
 gezida.com
-gfan.com
+ghoxz.com # 京ICP备2023011471号-2
+giecds.com # 粤ICP备19103570号-1
+gifpay.com # 苏ICP备2021037684号-1
 globrand.com
 gm86.com
+gmoj.net # 粤ICP备19099631号-1
 gmz88.com
 gobasearcher.com
 gold678.com
 golue.com
 gongxiangcj.com
+googoc.com # 粤ICP备20001166号-2
 goosail.com
+gootho.com # 沪ICP备2023018816号-1
 goufw.com
 greenxiazai.com
+gseen.com # 湘ICP备2020022462号-1
 gtags.net
 guabu.com
 guaiguai.com
@@ -1140,6 +1496,7 @@ gvgoo.com # 湘ICP备17004131号-1
 gwdang.com
 gxb.io
 gzcqs.com
+gzjkoa.com # 粤ICP备13090175号-1
 gzwanju.com
 h5uc.com
 hack520.com
@@ -1149,6 +1506,8 @@ haishun.com
 hanboshi.com
 handanjob.com
 hangjiayun.com
+hanqiuming888.com # 鄂ICP备2026027193号-1
+haojieyun.com # 鲁ICP备2023012684号-1
 haolietou.com
 haote.com
 haoyouyinxiang.com
@@ -1162,11 +1521,15 @@ henha.com
 henkuai.com
 herostart.com
 hezuvip.com # 皖ICP备2021015677号-2
+higgsweb.com # 蜀ICP备2020034814号-2
 hiido.com
+hijin.vip # 沪ICP备19030579号-1
+hiocloud.com # 浙ICP备2020040255号-2
 hitokoto.cn
 hiyd.com
 hktheone.com
 hn-cbec.com
+hnchasing.com # 湘ICP备13002754号-2
 hnrcsc.com
 hnyuyuhui.com
 hollycrm.com
@@ -1174,14 +1537,18 @@ homeinns.com
 homekoo.com
 hongsanban.com
 hongyuanqh.com
+hotjob.cn # 沪ICP备10000326号-6
 houdao.com
 houyuantuan.com
+hprtupgrade.com # 闽ICP备17017244号-4
 hteacher.net
 huashengdaili.com
 huize.com
 hujia.org
 huochepiao.com
 huocheso.com
+hwbim.com # 沪ICP备10215432号-3
+hwzuku.com # 沪ICP备10215432号-4
 hxfy888.com
 hxsd.com
 hybiome.com # 苏ICP备13012891号-1
@@ -1189,17 +1556,21 @@ iask.com
 ibuychem.com
 icaidao.com
 ichangtou.com
+idazhe.net # 陕ICP备20011867号-1
 idongdong.com
+ifengmap.com # 浙ICP备2021004879号-1
+igpsport.com # 鄂ICP备13000514号-1
 ijiandao.com
 ijingyi.com # 粤ICP备2025452707号-5
 ikafan.com
 im2maker.com
 im-cc.com
 imacos.top # 黑苹果屋 滇ICP备20000138号-1
-imgcdc.com
 imooc.com
+indeedpower.com # 沪ICP备17014357号-3
 indienova.com
 infini-fantasy.com # 沪ICP备2025147287号-3
+iposl.com # 冀ICP备2025135750号-4
 iranshao.com
 irs01.com
 istoreos.com # 粤ICP备20024441号-9
@@ -1212,6 +1583,7 @@ iyunmu.com
 jb51.com
 jb51.net
 jduoduo.com # 粤ICP备2022046650号-1
+jfcoop.com
 jiameng.com
 jianbihua.com
 jiangningwater.com # 苏ICP备11072203号-1
@@ -1219,7 +1591,6 @@ jianzhi8.com
 jiaodong.net
 jiasuhui.com
 jiathis.com
-jiayuan.com
 jiazhao.com
 jiemeng8.com
 jikexueyuan.com
@@ -1228,53 +1599,62 @@ jinianbi.com
 jinse.com
 jinti.com
 jisuxia.com
+jiucaishuo.com # 津ICP备16003845号-1
 jiuzhilan.com
 jj20.com
 jkbl.com
 job5588.com
 job910.com
 jobjm.com
-jsj.top # 陕ICP备19008575号-13
 jsrdgg.com
 jsyks.com
 juefeng.com
+julebu.co # 京ICP备2024090955号-1
 julive.com
 juwan.com
 juxia.com
 jyimg.com
 k366.com
 kaifubiao.com
+kaijiacloud.com # 闽ICP备15018608号-20
 kaipanhong.com # 粤ICP备2026012599号-1
 kaixin001.com
 kameng98.com
 kantianqi.net
 kanzhun.com
 kaopu001.com
+kcttpa.com # 皖ICP备2026006852号-3
 kejet.net
+keyoo.com # 粤ICP备11037858号-3
 kf5.com
 kimiss.com
 kingdee.com
+kiwiot.com # 粤ICP备14028808号-1
 kiyuu.club # 沪ICP备2022004023号-1
 kkzj.com
+kmeila.com # 浙ICP备17007890号-2
 kouclo.com
 koudai.com
 koudai8.com
 kq7.com
-ksord.com
 kuaaa.com
+kuaicha888.com # 粤ICP备2024259763号-2
 kuaihou.com
 kuaiji.com
-kuaizhan.com
+kudashi.com # 浙ICP备12022366号-10
+kukongjian.com # 浙ICP备16010401号-8
 kuqin.com
 kuyiso.com
 lady8844.com
 lanhuapp.com
+lanyun.net # 京ICP备11028363号-4
 laomaotao.net
 laomaotao.org
 lascn.net
 lawxp.com
 leangoo.com
 leanote.com
+leelen.com # 闽ICP备09020435号-1
 leiting.com
 leju.com
 leturich.org
@@ -1293,43 +1673,50 @@ linsn.com
 linuxidc.com
 liqucn.com
 liulanqi.net
+liunn.com # 粤ICP备16003335号-2
 liuxiaoer.com
 live800.com
 liweijia.com
 lixinger.com
 lkkbrand.com
 longhoo.net
+longmenshuju.com # 京ICP备14040435号-1
 longre.com
 longzhu.com
 lotpc.com
 loupan.com
+loveutips.com # 粤ICP备15011739号-1
+lsbj365.com # 浙ICP备2022032995号-2
 lunwengo.net
 luyouqi.com
+lvfapiao.com # 沪ICP备11021229号-10
 lvmama.com
 lvsexitong.com # 陇ICP备15000477号-1 绿色系统
 lxway.com
+lyihub.com # 粤ICP备2024250280号-1
 maisanqi.com
-mamecn.com
 manhuatai.com
-manmankan.com
 mapbar.com
+mashangfangxin.com # 冀ICP备15020852号-3
 mayi.com
 mayihr.com
 mblyun.com # 蜀ICP备2021030029号-1
 mcbang.com
 mdpda.com
 mechina.org
+megawords.cc # 沪ICP备2024095475号-1
 meifang.com
+meijian.com # 浙ICP备16010401号-5
 meika360.com
 meilishuo.com
 meimingteng.com
 meiqia.com
-meishichina.com
-meishij.net
+metax-tech.com # 沪ICP备2020031767号-1
 meloong.com # 蜀ICP备2024111431号
 mengtuoshi.wang
 miaobolive.com
 miaozhen.com
+mifeng.plus # 沪ICP备18021381号-6
 mifon.com # 鄂B2-20080076-9
 mijisou.com
 mikecrm.com
@@ -1339,28 +1726,35 @@ miyatech.com
 mjia.cc
 mmbang.com
 mmbang.info
+modaiyun.com # 浙ICP备12022366号-11
 mofang.com
 mofazhu.com
 mokahr.com
 moleecel.com
 moocollege.com
 mop.com
+mrtdephoto.net # 粤ICP备10020005号-2
 msanjia.com
 mscbsc.com
+mslmc.net # 粤ICP备2023129252号-3
 mukewang.com
 mumayi.com
 muomou.com
 muzhiwan.com
 mydown.com
+mykuaidi.com # 赣ICP备2021007278号-3
+myshopex.com # 湘ICP备12010245号-1
 myshow360.net
 myyx618.com
-myzaker.com
 naixuecha.com
+neihang.net # 鄂ICP备2023020036号-1
 netbian.com
 netzz.net # 鲁ICP备2022014279号-3
 newasp.net
 newbandeng.com
 newyx.net
+nicezhuanye.com # 京ICP备14014908号-1
+nlyd.club # 鲁ICP备2025157011号-2
 noknok.cn
 nowscore.com
 nruan.com
@@ -1381,12 +1775,17 @@ onlinedown.net
 onlinesjtu.com
 onlylady.com
 opdown.com
+openevai.com # 苏ICP备2024092536号-1
+orence.net # 滇ICP备2024024433号-4
 oupeng.com
+ourschool.cc # 沪ICP备16014031号-8
 p2peye.com
 p5w.net
 paipaibang.com
 paopaoche.net
+paperang.com # 粤ICP备2023029972号-10
 pc6.com
+pcwatch.com # 藏ICP备17000062号-12
 peccn.com
 pgzs.com
 pharmacodia.com
@@ -1397,8 +1796,11 @@ pingxx.com
 pintu360.com
 pipaw.com
 pipaw.net
+pixcheese.com # 闽ICP备2023024039号-2
+ppt28.com # 浙ICP备2021016136号-3
 pptbest.com
 pubyun.com
+pwithe.com # 粤ICP备14074374号-1
 qc188.com
 qcds.com
 qd8.com
@@ -1407,13 +1809,17 @@ qh24.com
 qiangbus.com
 qianjia.com
 qianlima.com
+qianuni.com # 京ICP备16011828号-12
 qiaobutang.com
 qie.tv
 qifeiye.com
 qijiayoudao.net
+qingjiansoft.com # 粤ICP备2025497372号-1
+qinglue.com # 黑ICP备16006175号-4
 qingsongchou.com
 qiumibao.com
 qizuang.com
+qjmotorlink.com # 浙ICP备2022007007号-1
 qqddc.com
 qqgexingqianming.com
 qqrizhi.com
@@ -1423,8 +1829,9 @@ qtmojo.com
 qudong.com
 qugame.com
 qunjielong.com # 桂ICP备14006138号-2
+redenmc.com # 京ICP备2021010288号-6
 rockyenglish.com
-rong360.com
+royqh.net # 京ICP备14031613号-1
 rtbasia.com
 ruan8.com
 ruiwen.com
@@ -1433,12 +1840,15 @@ rzrc114.com
 saibo.com
 sanwen.net
 sast.fun
+scbaijia.com # 蜀ICP备19000043号-1
 scdng.com
 scoregg.com
 scratch5.com # 粤ICP备19139956号-5
+scyol.com # 蜀ICP备05014943号-1
 sczsxx.com
+senachina.com # 粤ICP备2021006420号-1
 senlinjimore.com # 鲁ICP备20001333号 森林集
-sgamer.com
+senmuse.com # 赣ICP备2023016010号-3
 shang360.com
 shangc.net
 shanghairc.com
@@ -1454,9 +1864,9 @@ shengdaosoft.com
 shenmayouxi.com
 sheui.com
 shijiexia.com
+shineacc.com # 苏ICP备15050341号-2
 shmetro.com
 shoujihuifu.com
-shouqianba.com
 shouyoubus.com
 shssp.org # 沪ICP备16053588号
 shuidichou.com
@@ -1482,6 +1892,7 @@ springtour.com
 ssports.com
 starbaby.cc
 starbaby.com
+stkfanli.com # 鲁ICP备2021027142号-1
 sun0769.com
 sunrtb.com
 supermap.com
@@ -1490,18 +1901,23 @@ sys321.com
 szfw.org
 szzfgjj.com
 t1y5.com
-taihe.com
 taihuoniao.com
 tajiduo.com # 苏ICP备19036924号-4
 talk-cloud.net # 京ICP备17018423号-1
 tangeche.com
 tao123.com
 taoche.com
+tcp5.com # 蜀ICP备14017611号-2
 te5.com
 tenxcloud.com
+tggfl.com # 粤ICP备20037988号-1
+thinkerride.com # 渝ICP备2022011487号-2
+thispx.com # 粤ICP备2021020067号-2
 thmnet.com # 粤ICP备10240765号-2
+threep.top # 粤ICP备2021139944号-2
 tianlailive.com
 tianlala.com
+tianruo.xyz # 鲁ICP备2026015069号-1
 tietuku.com
 tiexue.net
 timbrd.com # 苏ICP备20004163号-1
@@ -1510,10 +1926,12 @@ tingyun.com
 titanar.com
 tjjt360.com
 tmcdn.net
+tmwanba.com # 渝ICP备20006035号-4
 tobosu.com
 tom.com
 tongdun.net
 tongkask.com # 苏ICP备2021040813号-1
+tool56.com # tool56.com
 topthink.com
 touqikan.com
 touzid.com
@@ -1521,11 +1939,12 @@ trjcn.com
 trunktech.com
 trustexporter.com
 trustutn.org
+tshell.online # 皖ICP备2024050803号-1
 ttshitu.com # 苏ICP备2024114441号-1
 tuicool.com
 tuiwen.net
 tujia.com
-tuniu.com
+tumukaoyan.com # 湘ICP备2022001596号-1
 tutuapp.com
 tuwan.com
 tuwanjun.com
@@ -1533,7 +1952,9 @@ tvmao.com
 tvzhe.com
 u.tools
 ucbug.com
+ugediao.com # 苏ICP备2024106004号-1
 uggame.com
+ulife.group # 闽ICP备17012540号-4
 uoko.com
 urselect.com
 useso.com
@@ -1550,6 +1971,8 @@ vic18.com
 videojj.com
 vobao.com
 vpgame.com
+vpsjyz.com # 豫ICP备2022010808号-1
+vpsvs.com # 沪ICP备2022013949号-4 VPS测评网
 wangyangyang.vip
 wannianli8.com
 wanplus.com
@@ -1560,6 +1983,7 @@ warmheart.top # 苏ICP备16016970号-1
 wdzj.com
 weand.com
 weavatar.com
+webportal.top
 weicaifu.com
 weilaicaijing.com
 weixing.com
@@ -1582,6 +2006,7 @@ womai.com
 wondercv.com # 超级简历
 wonnder.com
 wooyun.org
+wowgf.com # 冀ICP备20012219号-5
 woyaogexing.com
 woyoo.com
 wqiis.com
@@ -1593,6 +2018,7 @@ wuuxiang.com
 wuximediaglobal.com
 wxdw.top # 厦门开创多维软件技术有限公司 闽ICP备14020248号-3
 wywyx.com
+x-gpu.com # 浙ICP备2021032066号-6
 xafc.com
 xbiao.com
 xboxfan.com # 京ICP备17065382号-2
@@ -1600,19 +2026,24 @@ xdqtech.com # 上邻 | 新渡桥科技 浙ICP备2020031247号-1
 xdtool.com # 闽ICP备2024056202号-4
 xdwan.com
 xfdown.com
+xiankabao.com # 鲁ICP备2021037636号-1
 xiaobaixitong.com
+xiaochuanyun.com # 湘ICP备2023039366号-1
 xiaoe-tech.com
 xiaogouh5.com
 xiaoka.tv
 xiaokaxiu.com
+xiaolianhb.com # 鄂ICP备18020920号-1
+xiaomaicn.com # 陕ICP备2020012881号-2
 xiaomingtaiji.com
+xiaoting.com # 粤ICP备20052329号-4
 xiaoxiongxitong.com
 xiaoyuxitong.com
 xiayx.com
 xiazaiba.com
+xiberia.net # 粤ICP备19050220号-2
 xingjiesj.com
 xinrenxinshi.com
-xinshipu.com
 xingtan001.com
 xitong8.com
 xitu.com
@@ -1621,6 +2052,7 @@ xiucai.com
 xiziwang.net
 xmhouse.com
 xnpic.com
+xopenbeta.com # 冀ICP备19032442号-2
 xpgod.com
 xsa239.com
 xuanchuanyi.com
@@ -1628,7 +2060,7 @@ xue51.com
 xuekanba.com
 xuexicha.com
 xundupdf.com
-xywy.com
+xxrsm.com # 粤ICP备19156321号-2
 xzking.com
 yahui.cc
 yaolan.com
@@ -1636,6 +2068,7 @@ yaoyl.com
 yaozh.com
 yeepay.com
 yh31.com
+yibanbianji.com # 鄂ICP备18027658号-3
 yigao.com
 yigoonet.com
 yihedoors.com
@@ -1647,22 +2080,21 @@ yinyuetai.com
 yinzhaowang.com
 yiqifa.com
 yiqifa.org
-yisu.com
 yitaifang.com
 yiwan.com
+yixc.com # 粤ICP备09209952号-50
 yixi.tv
 yizhibo.com
 yjbys.com
 ynhr.com
+ynsj001.com # 粤ICP备2020133131号-1
 yocajr.com
 youboy.com
 youke.co
-youlian.fun
 youshang.com
 youxiake.com
 youxihezi.net
 youxila.com
-youxiniao.com
 youxigt.com
 youzhiyouxing.com # 琼ICP备2021003686号-2
 youzu.com
@@ -1683,11 +2115,12 @@ yuzua.com
 yxbao.com
 yyshub.top # 浙ICP备2023017032号-2
 yytcdn.com
+yzcsoft.com # 浙ICP备2021020433号-2
 z-tek.com # 粤ICP备2023022083号-1
 z28j.com # 鄂ICP备20002930号-1
+z6e.com # 冀ICP备2022020413号-2
 zampda.net
 zampdsp.com
-zastatic.com
 zctnet.top # 浙ICP备2021027347号-1
 zczj.com
 zdfans.com
@@ -1700,61 +2133,61 @@ zhanzhang.net
 zhaodanji.com
 zhaokao.net
 zhcw.com
-zhenai.com
-zhibo8.cc
+zhi10.com # 沪ICP备14022737号-3
 zhidx.com
 zhifang.com
 zhiziyun.com
+zhongancloud.com # 京ICP备16011828号-18
 zhuangjiba.com
 zhuanyewanjia.com
 zhuayoukong.com
 zixiaomao.com
 zixuntop.com
+zjjslawyer.com # 浙ICP备2022035077号-1
+zjxhedu.com # 浙ICP备10024215号-5
+zllinks.com # 苏ICP备2022000672号-1
 zmengzhu.com
+znnu.com # 粤ICP备2024296504号-3
+znztv.com # 苏ICP备18050492号-4
 zpb365.com
 zuhaowan.com
 zysou.com # 苏ICP备2024112174号-1
+zyyct.com # 蜀ICP备2024114257号-1
+zzclass.com # 琼ICP备2021006312号-1
 zztfly.com
+zzzcaculator.top # 浙ICP备2026054969号-1
+zzzmap.com # 鄂ICP备2021021921号-9
 
-# 爱赞助 粤ICP备18040645号
-azz.net
-
-# 京ICP备12006877号-1
-runsheng.com
-vzuu.com
-
-# 建始网 鄂ICP备05004864号-1
-jsw118.com
-
-# 陕西城乡劳动就业网 陕ICP备19016945号-1
-sxcxldjy.com
-
-# 陕西建筑资质代办 陕ICP备17011269号
-shanxijianzhuzizhi.com
-
-# 纬横数据 鲁ICP备17051601号-1
-vhengdata.com
+# 布丁猫(岩池科技)
+bdcat.top # 黑ICP备2022002729号-2
+bdmozon.com # 黑ICP备2024018807号-1
 
 # 湖南智擎科技有限公司
 educoder.net
-tokcoder.com
+proj101.cn
 trustie.net
 
-# 浙江御鹿电子科技有限公司 麦瑞克健身设备 & 超燃脂APP 浙ICP备2021003090号-2
-merach.com
-
-# 珠海太川云社区技术股份有限公司 粤ICP备10213128号
-taichuan.com
-taichuan.net
-
-# 中国石油支付宝小程序
-95504test.com
+# 广州市雅望互联网服务有限公司
+gzyowin.com
 
 # 北京鸿合智能系统股份有限公司
 hitevision-solutions.com
 
+# 杭州实科金人科技有限公司/杭州钱塘区人才就业服务网
+hrsecn.com
+
 # 捷顺科技
 jslife.net
+
+# 建始网 鄂ICP备05004864号-1
+jsw118.com
+
+# 深圳新度博望科技有限公司 粤ICP备19030343号
+juwinmedia.com
+xdplt.com
+
+# 浙江御鹿电子科技有限公司 麦瑞克健身设备 & 超燃脂APP 浙ICP备2021003090号-2
+merach.com
 
 # 南海控股有限公司
 nanhaicorp.com
@@ -1766,25 +2199,30 @@ ozonabc.com
 qingping.co
 cleargrass.com
 
-# 布丁猫(岩池科技)
-# 黑ICP备2024018807号
-bdmozon.com
-bdmyandex.com
-# 黑ICP备2022002729号
-bdcat.top
-puddingcat.top
-
 # 海南东勤网络科技有限公司 琼ICP备18003843号
 qunliao.info
 
-# 陕ICP备2024035828号
-ao-x.ac.cn
+# 陕西建筑资质代办 陕ICP备17011269号
+shanxijianzhuzizhi.com
+
+# 陕西城乡劳动就业网 陕ICP备19016945号-1
+sxcxldjy.com
+
+# 珠海太川云社区技术股份有限公司 粤ICP备10213128号
+taichuan.com
+taichuan.net
+
+# 纬横数据 鲁ICP备17051601号-1
+vhengdata.com
+
+# 上海肯耐珂萨人力资源科技股份有限公司
+vxhcm.com
 
 # 万集科技 京ICP备18036282号-2
 wanji.net.cn
 
-# 广州市雅望互联网服务有限公司
-gzyowin.com
-
 # 杭州烨彬科技有限公司 浙ICP备2024084590号
 yebinnet.com
+
+# 鄂ICP备2026043108号-1
+sjfls6.com

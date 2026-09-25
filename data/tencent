@@ -1,4 +1,5 @@
 include:qcloud #腾讯云
+include:sogou
 include:tencent-dev
 include:tencent-games
 include:tencent-tme
@@ -16,6 +17,7 @@ gtimg.com
 gtimg.com.cn
 idqqimg.com
 imqq.com
+iot-tencent.com
 myapp.com
 qlivecdn.com
 qlogo.cn
@@ -35,16 +37,25 @@ tencent.com.cn
 tencent.com.hk @!cn
 tencent.net
 tencent.net.cn
+tencentmiying.com
+tengmed.com
 tenpay.com
 tfogc.com
 wechat.com
 wechatpay.cn
 weishi.com
+weixin.com
+weixinsxy.com
 weiyun.com
-wxaurl.cn
 wxcloudrun.com
 wxgateway.com
 wxlivecdn.com
+
+# Short URL
+mmbizurl.cn
+url.cn
+wxaurl.cn
+wxmpurl.cn
 
 # 腾讯视频海外版
 wetv.vip @!cn
@@ -119,7 +130,7 @@ bugly.qq.com @ads
 e.qq.com @ads
 gdt.qq.com @ads
 hq-tracking.qq.com @ads
-htrace.wetvinfo.com @!cn @ads
+htrace.wetvinfo.com @ads
 isdspeed.qq.com @ads
 log.tbs.qq.com @ads
 mdt.qq.com @ads

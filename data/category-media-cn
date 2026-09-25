@@ -14,11 +14,21 @@ include:ynet
 
 # 21世纪经济报
 21jingji.com
+# 三易生活
+3elife.net
+# 奇艺事
+71shi.net
+goodq.top
+haowenti.net
+# 中国军网
+81.cn
 # 站长网
 admin5.com
 # 安徽财经网
 ahcjw.com
 ahcaijing.com
+# 安徽新闻网/安徽日报
+ahnews.com.cn
 # 安徽网
 ahwang.cn
 # 安徽新闻
@@ -26,24 +36,63 @@ anhuinews.com
 anhuiyun.com
 # 锋潮科技
 anzhuo.cn
+# 中商情报网
+askci.com
 # 半岛网
 bandao.cn
+# 半月谈
+banyuetan.org
 # 北京商报
 bbtnews.com.cn
 # 鞭牛士
 bianews.com
+# 京报网
+bjd.com.cn
+# 新京报
+bjnews.com.cn
+bkeconomy.com
+qianlong.com
+# 北京时间
+btime.com
 # 财经网
 caijing.com.cn
-# 财联社
-cailianpress.com
-cls.cn
 # 财新网
 caixin.com
 # 参考消息
 cankaoxiaoxi.com
 ckxx.net
+# 电脑商情在线
+cbinews.com
+# 通信产业网
+ccidcom.com
+# 中国消费网
+ccn.com.cn
+# 广东时代传媒
+ccreports.com.cn
+tfcaijing.com
+time-weekly.com
+timesmedia.com.cn
+# 中国经济网
+ce.cn
 # 改革网
 cfgw.net.cn
+# 中国财经信息网
+cfi.cn
+cfi.net.cn
+# 中国食品安全网
+cfsn.cn
+# 中国家电网
+cheaa.com
+# 潇湘晨报
+chenshipin.com
+xxcb.cn
+# 中国网（中国互联网新闻中心）
+china.cn
+china.com.cn
+china.org.cn
+# 中华网
+china.com
+imgcdc.com
 # AET 电子技术应用
 chinaaet.com
 # 天极网
@@ -52,13 +101,34 @@ tianjimedia.com
 yesky.com
 # 中国发展网
 chinadevelopment.com.cn
+# 品牌网
+chinapp.com
+# 中国基金报
+chnfund.com
+# 四川日报
+chuanbaoguancha.cn
+scol.com.cn
+scdaily.cn
+# 中指云
+cih-index.com
+# 企业观察网
+cneo.com.cn
 # 中金在线
 cnfol.com
 cnfolimg.com
+# 荆楚网/湖北日报
+cnhubei.com
+hubeidaily.net
+# CNMO
+cnmo.com
 # 央广网
 cnr.cn
+radio.cn
 # 上海证券报
 cnstock.com
+# 陕西新闻网
+cnwest.com
+sxtvs.com
 # 重庆晨报/上游新闻
 cqcb.com
 # 重庆华龙网
@@ -75,6 +145,8 @@ ctdsb.net
 full:ctdsb.clouddiffuse.xyz
 # 创头条
 ctoutiao.com
+# 通信世界网
+cww.net.cn
 # 中青在线/中国青年报
 cyol.com
 cyol.net
@@ -87,9 +159,19 @@ cztvcloud.com
 zjstv.com
 # 大河网
 dahe.cn
+dingxinwen.cn
+topnews.cn
 # 大河报
 daheapp.com
 dahebao.cn
+# 与非网
+datasheet5.com
+eefcdn.com
+eefocus.com
+# 广州日报大洋网
+dayoo.com
+# 中国国家地理网
+dili360.com
 # 读特新闻
 dutenews.com
 # 大智慧
@@ -105,23 +187,42 @@ dzng.com
 dzwww.com
 # 东方网
 eastday.com
+# 亿邦动力
+ebrun.com
 # 经济观察网
 eeo.com.cn
+# 证券时报网
+egsea.com
+stcn.com
+# 爱活网
+evolife.cn
 # 超能网
 expreview.com
+# 东南网
+fjsen.com
 # FreeBuf 网络安全行业门户
 freebuf.com
+# 极客网
+fromgeek.com
 # 极客邦
 geekbang.org
 infoq.cn
 # 极客公园
 geekpark.net
-# 光明网
-gmw.com
+# 机锋网
+gfan.com
+# 光明日报
+gmdaily.cn
+gmw.cn
+guangmingdaily.cn
 # 观察者网
 guancha.cn
 # 硅谷网
 guigu.org
+# 广西新闻网/广西日报
+gxnews.com.cn
+gxxw.com
+gxrb.com.cn
 # 广西网络广播电视台
 gxtv.cn
 gxxmt.com
@@ -140,10 +241,19 @@ ths123.com
 thsi.cn
 # 和讯
 hexun.com
+# 华声在线/湖南在线
+hnol.net
+hunantoday.cn
+voc.com.cn
 # 河南广播电视台/大象网
+hnr.cn
 hntv.tv
 hndt.com # 河南广播网
 dianzhenkeji.com # 河南广电融媒
+# 华商网
+huashangtop.com
+hsw.cn
+myhsw.cn
 # 环球网
 huanqiu.com
 huanqiucdn.cn
@@ -165,19 +275,28 @@ ikanchai.com
 # 南方周末
 infzm.com
 nfpeople.com
+# 齐鲁网
+iqilu.com
 # 艾瑞咨询
 iresearch.cn
+# 科技视讯
+istv.cn
 # IT168
 it168.com
+# 上观新闻/解放日报
+jfdaily.com
+jfdaily.com.cn
+shobserver.cn
+shobserver.com
 # 华尔街见闻
 jianyuweb.com
 wallstcn.com
 wallstreetcn.com
 # 金十数据
 jin10.com
-# 上观新闻/解放日报
-jfdaily.com
-shobserver.com
+# 经济日报
+jingjiribao.cn
+jjrbs.cn
 # 新黄河/济南时报
 jinantimes.com.cn
 # 机器之心
@@ -199,6 +318,16 @@ kankanews.com
 kankannews.com
 kksmg.com
 statickksmg.com
+# 商界
+kanshangjie.com
+# 开封网
+kf.cn
+# 中国科技网/科技日报
+kjrb.com.cn
+stdaily.com
+# 快科技
+kkj.cn
+mydrivers.com
 # 新智派
 knewsmart.com
 # 晚点
@@ -207,12 +336,15 @@ latepost.com
 leikeji.com
 # 雷峰网
 leiphone.com
+# 三联生活周刊/三联书店
+lifeweek.com.cn
+sdxjpc.com
 # 今日观察网
 miercn.com
 # 闽南网
 mnw.cn
-# 快科技
-mydrivers.com
+# ZAKER新闻
+myzaker.com
 # 南岳新闻网
 nanyuenews.com
 # 每日经济新闻报社
@@ -224,6 +356,8 @@ news.cn
 newsimg.cn
 xinhuanet.com
 xinhuaxmt.com
+# 四川新闻网
+newssc.org
 # 奥一新闻
 oeeee.com
 # 维科网
@@ -245,6 +379,8 @@ pdnews.cn
 people.cn
 people.com.cn
 peopleapp.com
+# 投资界
+pedaily.cn
 # 品玩
 pingwest.com
 # 量子位
@@ -258,10 +394,18 @@ qingdaonews.com
 qianzhan.com
 # 青岛之窗
 qingdaochina.org
+# 求是网
+qstheory.cn
+# 泉州晚报
+qzwb.com
+# 红网
+rednet.cn
 # 四川网络广播电视台
 scgchc.com
 sctv-tf.com
 sctv.com
+# 科学网/中国科学报
+sciencenet.cn
 # 四川手机报
 scsjb.cn
 # 安全内参
@@ -270,6 +414,10 @@ secrss.com
 sfccn.com
 # 商业新知
 shangyexinzhi.com
+# 上海教育传媒网
+shedunews.net
+# 遂宁新闻网
+snxw.com
 # 奇客资讯网
 solidot.org
 # 速途网
@@ -284,8 +432,6 @@ sspai.com
 ssajax.cn
 ssimg.cn
 stockstar.com
-# 证券时报网
-stcn.com
 # 深港在线
 szhk.com
 # 深圳报业集团
@@ -304,22 +450,37 @@ thepaper.cn
 # 潮新闻/浙江日报
 8531.cn
 tidenews.com.cn
+# 理想生活实验室
+toodaylab.com
+# 动脉网
+vbdata.cn
+vcbeat.top
+# 中工网/工人日报社
+workercn.cn
 # 人人都是产品经理
 woshipm.com
 # 新华日报
 xhby.net
 # 西陆网
 xilu.com
+# 新民报
+xinmin.cn
+xinminweekly.com.cn
 # 新快报
 xkb.com.cn
+# 学习强国
+xuexi.cn
+# 扬子晚报
+yangtse.com
+yzwb.net
 # 金羊网/羊城晚报
 ycwb.com
 # 第一财经
 yicai.com
+# 中国青年网
+youth.cn
 # 云南网
 yunnan.cn
-# 扬子晚报
-yzwb.net
 # ZEALER
 zealer.com
 # 中国交通新闻网
@@ -328,6 +489,8 @@ zgjtb.com
 zhichanli.com
 # 至顶网
 zhiding.cn
+# 浙江在线
+zjol.com.cn
 # 中关村在线
 zol-img.com.cn
 zol.com.cn

@@ -1,8 +1,5 @@
 include:intel-dev
 
-# All .intel domains
-intel
-
 intel.ac
 intel.ae
 intel.af
@@ -234,7 +231,6 @@ niosii.net
 omekinteractive.com
 omnitek.tv
 openamt.com
-opendroneid.org
 optanedifference.com
 passwordday.org
 pc.com

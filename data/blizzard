@@ -1,3 +1,4 @@
+# Use `geosite:activision-blizzard` if you want to match more domains
 blizzard.com
 blizzardgearstore.com
 blz-contentstack.com
@@ -12,7 +13,9 @@ full:bnetproduct-a.akamaihd.net
 full:bnetshopus.akamaized.net
 
 # Diablo
+diablo.com
 diablo3.com
+diablo4.com
 diabloimmortal.com
 
 # Hearthstone

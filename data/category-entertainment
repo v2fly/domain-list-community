@@ -9,6 +9,8 @@ include:7tv
 include:abema
 include:amc
 include:anime
+include:apple-music
+include:apple-podcasts
 include:apple-tvplus
 include:archiveofourown
 include:attwatchtv
@@ -18,8 +20,10 @@ include:bangumi
 include:boomerang
 include:bushiroad
 include:catchplay
+include:chesscom
 include:copymanga
 include:dailymotion
+include:dandanplay
 include:dandanzan
 include:dazn
 include:deezer
@@ -28,18 +32,21 @@ include:discoveryplus
 include:disney
 include:dlsite
 include:ficbook
+include:formula1
 include:gimy
 include:goodreads
 include:hamivideo
 include:hbo
-include:hulu
 include:imdb
+include:itunes
 include:iyf
+include:kick
 include:kingkonglive
 include:kkbox
 include:kktv
 include:lastfm
 include:litv
+include:likee
 include:manhuagui
 include:metacritic
 include:mubi
@@ -59,6 +66,7 @@ include:radiko
 include:roku
 include:showtimeanytime
 include:sling
+include:sonemic
 include:sonypictures
 include:soundcloud
 include:spotify
@@ -101,13 +109,12 @@ overcast.fm
 qobuz.com
 sendvid.com
 syosetu.com
+unsplash.com
 weverse.io
 yande.re
 
 # Apple Podcast
-amp-api.podcast.apple.com
-bag.itunes.apple.com
-bookeeper.itunes.apple.com
+podcast.apple.com
 
 # Entertainment oriented media
 # This section references the "Source Considerations" page on the Chinese Wikipedia:
