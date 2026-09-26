@@ -22,6 +22,7 @@ regexp:^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 # tracking
 full:browser-intake-datadoghq.com @ads
 full:o33249.ingest.sentry.io @ads
+full:o33249.ingest.us.sentry.io @ads
 full:openai.qualtrics.com @ads
 
 # Advanced Voice
