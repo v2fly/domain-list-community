@@ -28,3 +28,6 @@ full:openai.qualtrics.com @ads
 chatgpt.livekit.cloud
 host.livekit.cloud
 turn.livekit.cloud
+
+# Subscription
+api.revenuecat.com
