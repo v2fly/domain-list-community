@@ -27,6 +27,10 @@ jobs:
           go-version-file: test/go.mod
           cache-dependency-path: test/go.sum
 
+      - name: Run unit tests
+        working-directory: test
+        run: go test ./...
+
       - name: Build .dat and .yml
         run: |
           [ -d ./base/data/ ] && [ -d ./test/data/ ] || exit 1
