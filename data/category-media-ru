@@ -1,7 +1,6 @@
 # This file contains Russian media *based in Russia*, i.e. not prosecuted by the state
 include:rossiyasegodnya
 include:rt
-
 72.ru            # News from Tyumen and the Tyumen region
 amic.ru          # News from the Altai Krai
 e1.ru            # News from Yekaterinburg and the Sverdlovsk region
@@ -16,3 +15,14 @@ eadaily.net
 eadaily.org
 eadaily.su
 eurasiadaily.su
+
+# Western-Orthodox Christianity resources
+azbyka.ru
+posledovania.ru
+pravoslavie.ru
+последование.рф
+webtypikon.ru
+
+# Pravmir, daily News articles provider that inserts opinion of the Western-Orthodox Church.
+pravmir.com
+pravmir.ru
