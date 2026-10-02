@@ -5,6 +5,7 @@ include:bluepoch-games
 include:changyou
 include:cowlevel
 include:herogame
+include:hypergryph @-!cn
 include:kurogames @-!cn
 include:mihoyo-cn
 include:seasun
