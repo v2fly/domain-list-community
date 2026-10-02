@@ -1,4 +1,5 @@
-# This file contains domains that clearly serving ads
+# This file contains domains that clearly serving for ads or tracking.
+# We can not seperate ads and tracking domains clearly, so they are mixed together.
 include:category-ads-ir
 
 include:36kr @ads
@@ -65,6 +66,7 @@ include:xiaomi @ads
 include:yahoo @ads
 include:yandex @ads
 include:zhihu @ads
+include:zuoyebang @ads
 
 # Other domains for ads serving
 51.la
@@ -78,7 +80,6 @@ ads.huan.tv
 ads.huantest.com
 ads.trafficjunky.net
 ads.wteam.xyz
-adservice.sigmob.cn
 adtechus.com
 adtrue.com
 adxprtz.com
