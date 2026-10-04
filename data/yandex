@@ -125,7 +125,8 @@ metrika.yandex.net @ads
 metrika.yandex.ru @ads
 webvisor.com @ads
 webvisor.org @ads
-yabs.yandex.ru @ads
+## Disrupts the operation of the Yandex.Direct service
+# yabs.yandex.ru @ads
 yads.tech @ads
 yandex-metrica.ru @ads
 yandexmetrica.com @ads
