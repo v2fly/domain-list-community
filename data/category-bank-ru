@@ -91,7 +91,7 @@ rdb.ru
 rosdorbank.ru
 
 # Sberbank
-include:sber
+include:sberbank
 
 # Sovcombank
 halvacard.ru # subsidiary
@@ -287,6 +287,4 @@ vlbb.ru
 wb-bank.ru
 westernunion.ru
 yoobusiness.ru
-yookassa.ru # NCO ЮMoney
-yoomoney.ru # NCO ЮMoney
 ziraatbank.ru
