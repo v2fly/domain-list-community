@@ -1,3 +1,4 @@
+## Multi domains
 # Alfa Bank
 alfa.me
 alfabank.ru
@@ -5,13 +6,18 @@ alfabank.st
 alfadirect.ru
 myapelsin.ru
 
-# BBR
-bbr.ru
+# Bank Snezhinsky
+isnbank.ru
+snbank.ru
 
 # BCS bank
-bcs.ru
 bcs-bank.ru
+bcs.ru
 broker.ru
+
+# Chelyabinsk Invest Bank
+chelinvest.ru
+investpay.ru
 
 # Deutsche Bank
 dbmoscow.ru
@@ -22,19 +28,43 @@ deutschebank.ru
 domrfbank.ru
 xn--d1aqf.xn--p1ai
 
-# GazpromBank
+# Eurofinance Mosnarbank
+efbank.ru
+evrofinance.ru
+
+# Gazprombank
+creditural.ru # subsidiary
 gazprombank.com
 gazprombank.investments
 gazprombank.ru
 gid.ru
 gpb.ru
 
+# Koshelev Bank
+k-bnk.ru
+koshelev-bank.ru
+
+# Metallinvestbank
+metallinvestbank.ru
+metib.ru
+
 # Mizuho Bank
 mhcb.ru
 mhcbr.ru
 
 # MKB
+dvbank.ru # union
 mkb.ru
+
+# MOEX
+moex.com
+nationalclearingcentre.ru # subsidiary
+nkcbank.ru # subsidiary
+nsd.ru # subsidiary
+
+# MSB
+mspbank.ru
+smbfin.ru
 
 # MTS
 dbo-dengi.online
@@ -51,21 +81,23 @@ psb-ocenka.ru
 psb.ru
 psbank.ru
 
-# RUSSIA Bank
-abr.ru
-
 # Raiffeisen
 # Feature request: implement @ru in raiffeisenbank category
 raiffeisen-media.ru
 raiffeisen.ru
 
-# Russian Agricultural Bank
-rshb.ru
+# Rosdorbank
+rdb.ru
+rosdorbank.ru
 
-# SberBank
+# Sberbank
 include:sber
 
 # Sovcombank
+halvacard.ru # subsidiary
+home.bank # subsidiary
+hva.im # subsidiary
+scb.ru
 sovcombank.ru
 
 # T-Bank (Tinkoff) and RosBank
@@ -75,76 +107,186 @@ include:tbank-ru
 tochka-tech.com
 tochka.com
 
+# Transstroybank
+transstroybank.ru
+tsbnk.ru
+
+# Uglemetbank
+coalmetbank.ru
+umbank.ru
+
+# UniCredit Bank
+unicredit.ru
+unicreditbank.ru
+
 # VTB Bank
-pochtabank.ru #subsidiary
+pochtabank.ru # subsidiary
+rncb.ru # union
+sbpvtb.ru
 vtb-direct.com
 vtb-grants.fut.ru
+vtb.com
 vtb.ru
+vtbbo.ru
 vtbglobalperspectives.com
+xn--90ab2c.xn--p1ai
 
 # Zenit
 credit-zenit.ru
 zenit-card.ru
 zenit.ru
 
-# NSPK (QR-code payments)
-nspk.ru
-
-# Other
+## Single domains
+abr.ru
 absolutbank.ru
+agroros.ru
+ai-bank.ru
 akbars.ru
+akcept.ru
+akibank.ru
+albank.ru
 alefbank.com
 ankb.ru
+apkbank.ru
+aresbank.ru
 asia-pay.ru
 atb.su
+autofinancebank.ru
 autokreditbank.ru
 avangard.ru
 aversbank.ru
+bancaintesa.ru
 bank-arzamas.ru
 bank-credit-suisse-moscow.ru
+bank-hlynov.ru
+bank.yandex.ru
 bank131.com
+bank131.ru
 bankermak.ru
+bankofkazan.ru
+bankperm.ru
+bankstavr.ru
+bankvl.ru
+bbr.ru
 best2pay.net
 bfa.ru
 blanc.ru
 bm-bank.ru
+bmwbank.ru
+boc.ru
 bspb.ru
+bystrobank.ru
+centrinvest.ru
+chelindbank.ru
+cibank.ru
+cifra-bank.ru
+cmrbank.ru
 commerzbank.ru
+crediteurope.ru
+databank.ru
+dcapital.ru
+derzhava.ru
+emb.ru
+energobank.ru
+energotransbank.com
+eximbank.ru
+expobank.ru
 finambank.ru
+finance.ozon.ru
+finstarbank.ru
+forabank.ru
 forshtadt.ru
+gaztransbank.ru
+gebank.ru
+genbank.ru
 homecredit.ru
-hva.im # Sovcombank Halva
 ibamoscow.ru
+icbcmoscow.ru
+in-bank.ru
+ingobank.ru
+itb.ru
 jpmorgan.ru
+kamkombank.ru
+kbb.ru
 korona.com
+kremlinbank.ru
 kubankredit.ru
+kuzbank.ru
+lanta.ru
+lockobank.ru
+maritimebank.com
+mcbank.ru
 mfk-bank.ru
+modulbank.ru
+moneta.ru # NCO Moneta
 mvs-bank.ru
+nico-bank.ru
+nipbank.ru
 noosferabank.ru
+norvikbank.ru
+novikom.ru
+novobank.ru
+ns-bank.ru
+nskbl.ru
+nspk.ru # NSPK (QR-code payments)
+okbank.ru
+orbank.ru
+pervbank.ru
+pikhtabank.ru
+poidem.ru
 primbank.ru
+priobye.ru
+priovtb.com
 prvbank.ru
-pskb.ru
+pskb.com
 pvubank.com
 rbsgate.com
 rbsuat.com
 rencapbank.ru
+rencapbank.ru
 rencredit.ru
+resocreditbank.ru
 rncoluminis.ru
+rsb.ru
+rshb.ru
 ru.ccb.com
 sbibankllc.ru
+sdm.ru
 seb.ru
 selkombank.ru
+sevnb.ru
+sibsoc.ru
 sinara.ru
 slavbank.ru
+slbank.ru
 smbcr-bank.ru
+sngb.ru
+socium-bank.ru
 solid.ru
+solidbank.ru
 ssb.msk.ru
+svoi.ru
 tagbank.ru
 tatsotsbank.ru
+thbank.ru
+timerbank.ru
 tkbbank.ru
+toyota-bank.ru
+ubrr.ru
 ubs.com
+united.ru
+uralfd.ru
+uralprombank.ru
 uralsib.ru
+vbrr.ru
+veb.ru
+venets-bank.ru
+vfbank.ru
 vlb100.ru
+vlbb.ru
+wb-bank.ru
 westernunion.ru
 yoobusiness.ru
+yookassa.ru # NCO ЮMoney
+yoomoney.ru # NCO ЮMoney
 ziraatbank.ru
