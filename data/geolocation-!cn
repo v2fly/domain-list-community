@@ -1,5 +1,8 @@
 # This list contains domains that don't have access point in China mainland. This is opposite to geolocation-cn.
 
+# Part of Chinese entities but exclusively serving for non-cn area
+include:category-non-domestic-cn
+
 # AI Chat
 include:category-ai-!cn
 
