@@ -56,7 +56,7 @@ mhcbr.ru
 dvbank.ru # union
 mkb.ru
 
-# MOEX
+# Moscow Stock Exchange (MOEX)
 moex.com
 nationalclearingcentre.ru # subsidiary
 nkcbank.ru # subsidiary
@@ -89,6 +89,10 @@ raiffeisen.ru
 # Rosdorbank
 rdb.ru
 rosdorbank.ru
+
+# Saint-Petersburg Stock Exchange
+spbexchange.ru
+spvb.ru
 
 # Sberbank
 include:sberbank
@@ -264,7 +268,6 @@ sngb.ru
 socium-bank.ru
 solid.ru
 solidbank.ru
-spvb.ru
 ssb.msk.ru
 svoi.ru
 tagbank.ru
