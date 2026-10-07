@@ -47,6 +47,7 @@ include:regru
 include:selectel
 include:servicepipe
 include:skyeng
+include:smena
 include:tilda
 include:timeweb
 include:ucoz
