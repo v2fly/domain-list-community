@@ -61,5 +61,6 @@ full:productionresultssa17.blob.core.windows.net
 full:productionresultssa18.blob.core.windows.net
 full:productionresultssa19.blob.core.windows.net
 
-# Ads/tracking
-collector.github.com @ads
+# Telemetry
+cafe.github.com @telemetry
+collector.github.com @telemetry

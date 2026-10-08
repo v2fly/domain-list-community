@@ -64,5 +64,7 @@ webmademovies.org
 # Ads/tracking
 full:ads-img.mozilla.org @ads
 full:ads.mozilla.org @ads
-full:incoming.telemetry.mozilla.org @ads
-full:incoming-telemetry.thunderbird.net @ads
+
+# Telemetry
+full:incoming.telemetry.mozilla.org @telemetry
+full:incoming-telemetry.thunderbird.net @telemetry
