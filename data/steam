@@ -73,7 +73,8 @@ wmsjsteam.com @cn
 client-update.queniuqe.com @cn
 
 # 新流云
-dl.steam.clngaa.com @cn
+dl.file.cyngaa.com @cn
+steam.clngaa.com @cn
 
 # 白山云
 st.dl.bscstorage.net @cn
@@ -86,11 +87,17 @@ steamstatic.com.8686c.com @cn
 
 # 阿里云
 full:alibaba.cdn.steampipe.steamcontent.com @cn
+full:files.steam.nsclouds.cn @cn
 full:lv.queniujq.cn @cn
+full:steamcloud-hkg.oss-accelerate.aliyuncs.com @cn
+full:steamcloud-sgp.oss-accelerate.aliyuncs.com @cn
 full:xz.pphimalayanrt.com @cn
+full:xz.sycontroller.com @cn
+akk.gdtstream.com @cn
 
 # 蒸汽中国
 steamchina.com @cn
 
 # 数云科技
 gstore.val.manlaxy.com @cn
+gstore.val.smogfly.com @cn
