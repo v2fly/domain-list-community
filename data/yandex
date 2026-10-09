@@ -7,30 +7,44 @@ yandex
 xn--d1acpjx3f.xn--p1ai
 
 berizaryad.ru
+beru.ru
+bookmate.ru
 cabconnect.org
 clck.ru
 clstorage.net
+delivery-club.ru
 driveawaytaxi.org
+edadeal.ru
 elama.ru
+foodfox.ru
 gogettaxi.org
 goup.ai
 hayya.ae
+market.ru
 meteum.ai
 my-manager-account.com
 naydex.net
 realtyverif.ru
 rostaxi.org
+rutaxi.ru
 shedevrum.ai
+shedevrum.com
+shedevrum.ru
 sourcecraft.dev
 static-storage.net
 support-uber.com
 taxiaid.org
 taxiguru.org
 taxitax.org
+thequestion.ru
 turbopages.org
+vezet.ru
 ya.cc
 ya.ru
+yadi.sk
+yandex-ad.cn @cn
 yandex-bank.net
+yandex-team.com
 yandex-team.ru
 yandex.aero
 yandex.asia
@@ -55,22 +69,29 @@ yandex.kg
 yandex.kz
 yandex.lt
 yandex.lv
+yandex.market
 yandex.md
 yandex.mobi
 yandex.net
+yandex.net.ru
 yandex.org
 yandex.pl
+yandex.pro
 yandex.ru
 yandex.st
 yandex.sx
+yandex.taxi
 yandex.tj
 yandex.tm
 yandex.tr
+yandex.travel
 yandex.ua
 yandex.uz
 yandexadexchange.net
 yandexcloud.net
 yandexcom.net
+yandexdataschool.com
+yandexdataschool.ru
 yandexgo.com
 yandexlyceum.ru
 yandexwebcache.net
@@ -92,6 +113,7 @@ yastat.net
 yastatic-net.ru
 yastatic.net
 yccdn.ru
+ydb.tech
 yndx.net
 
 # Ads and tracking
@@ -116,7 +138,8 @@ metrika.yandex.net @ads
 metrika.yandex.ru @ads
 webvisor.com @ads
 webvisor.org @ads
-yabs.yandex.ru @ads
+## Disrupts the operation of the Yandex.Direct service
+# yabs.yandex.ru @ads
 yads.tech @ads
 yandex-metrica.ru @ads
 yandexmetrica.com @ads
