@@ -1,0 +1,4 @@
+# This file contains domains for software telemetry, error reporting and diagnostics.
+include:github @telemetry
+include:github-copilot @telemetry
+include:mozilla @telemetry
