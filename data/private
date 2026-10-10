@@ -159,6 +159,9 @@ plex.direct
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
 
+# Weixin SSO for quick login
+localhost.weixin.qq.com
+
 # Tenda router
 tendawifi.com
 
