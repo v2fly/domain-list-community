@@ -15,9 +15,13 @@ huijiwiki.com
 # MC百科
 mcmod.cn
 
-# moegirl
-moegirl.org
-moegirl.org.cn
+# moegirl 萌娘百科
+# Moegirlpedia is operated by a mainland-registered company, but the wiki itself is served by Cloudflare from outside the mainland.
+# Only the two sub-domains below have mainland access points: they CNAME to ChinaNetCenter and resolve to CHINATELECOM space.
+moegirl.org @!cn
+moegirl.org.cn @!cn
+full:app.moegirl.org.cn @cn
+full:storage.moegirl.org.cn @cn
 
 # 智汇三农
 pwsannong.com
