@@ -3,6 +3,7 @@ include:ipip
 2ip.io
 2ip.ru
 2ip.ua
+2ip.me
 51degrees.com
 abstractapi.com
 addr.tools
@@ -12,6 +13,7 @@ bgp.he.net
 bgp.tools
 bigdatacloud.net
 browserleaks.com
+bigdig.energy
 check-host.net
 checkip.com.vn
 checkip.org
@@ -115,6 +117,7 @@ ipw.cn @cn
 ipwho.is
 ipwhois.io
 ipxapi.com
+ip.ipb.to
 jsonip.com
 l2.io
 maxmind.com
@@ -189,12 +192,15 @@ whatismyisp.com
 whatismyv6.com
 whatsmyip.com
 whatsmyip.org
+whatismyip.com.tw
 where-am-i.co
 whoer.net
 whoerip.com
 whoisxmlapi.com
 wieistmeineip.de
 wtfismyip.com
+whatismyip.unc.edu
+whoisip.me
 
 # IPv6 Test
 ipv6ready.me
