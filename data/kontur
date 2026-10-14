@@ -1,5 +1,5 @@
 kontur.ru
 kontur.host
 kontur-inc.com
-full:metrika.kontur.ru @ads
-full:sentry.kontur.host @ads
+full:metrika.kontur.ru @ads @telemetry
+full:sentry.kontur.host @ads @telemetry

@@ -5,4 +5,4 @@ rostelecom.ru
 rt.ru
 
 # Tracking
-full:sentry.iptv.rt.ru @ads
+full:sentry.iptv.rt.ru @ads @telemetry

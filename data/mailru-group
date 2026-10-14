@@ -51,9 +51,9 @@ ad.mail.ru @ads
 ads.viqeo.tv @ads
 adsadvisor.io @ads
 alt-ad.mail.ru @ads
-apptracer.ru @ads
+apptracer.ru @ads @telemetry
 cxhub.ru @ads
-metrics.viqeo.tv @ads
+metrics.viqeo.tv @ads @telemetry
 myadx.net @ads
 mytrk.link # block might break something, needs further investigation
 r.mail.ru @ads
@@ -86,17 +86,17 @@ full:r0.mradx.net @ads
 full:r1.mail.ru @ads
 full:reklama.mail.ru @ads
 full:rs.mail.ru @ads
-full:sentry-ng.g.smailru.net @ads
-full:srch-telemeter10.g.smailru.net @ads
-full:sentry.dev-my.com @ads
-full:sentry.dev-my.games @ads
-full:sentry.rustore.ru @ads
-full:sentry.viqeo.tv @ads
+full:sentry-ng.g.smailru.net @ads @telemetry
+full:srch-telemeter10.g.smailru.net @ads @telemetry
+full:sentry.dev-my.com @ads @telemetry
+full:sentry.dev-my.games @ads @telemetry
+full:sentry.rustore.ru @ads @telemetry
+full:sentry.viqeo.tv @ads @telemetry
 full:stacks.vk-portal.net @ads
-full:stats.dahlmessenger.com @ads
-full:stats.dev.telega.info @ads
-full:stats.rustore.ru @ads
-full:stats.telega.info @ads
+full:stats.dahlmessenger.com @ads @telemetry
+full:stats.dev.telega.info @ads @telemetry
+full:stats.rustore.ru @ads @telemetry
+full:stats.telega.info @ads @telemetry
 full:t.mail.ru @ads
 full:top-staging.mail.ru @ads
 full:whiteline.mail.ru @ads

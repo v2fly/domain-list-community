@@ -23,8 +23,8 @@ ultimatemusic.cn
 # Ads/tracking
 ad.tencentmusic.com @ads
 adstats.tencentmusic.com @ads
-monitor.music.qq.com @ads
-report.tencentmusic.com @ads
-stat.y.qq.com @ads
+monitor.music.qq.com @ads @telemetry
+report.tencentmusic.com @ads @telemetry
+stat.y.qq.com @ads @telemetry
 tmead.y.qq.com @ads
 tmeadcomm.y.qq.com @ads

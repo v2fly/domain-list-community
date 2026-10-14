@@ -44,20 +44,20 @@ adimg.mobile.sina.cn @ads
 adimg.uve.weibo.com @ads
 ads.sina.com @ads
 alitui.weibo.com @ads
-beacon.sina.com.cn @ads
+beacon.sina.com.cn @ads @telemetry
 biz.weibo.com @ads
 click.uve.mobile.sina.cn @ads
 click.uve.weibo.com @ads
 log.mix.sina.com.cn @ads
-log.sina.cn @ads
-log2.sina.cn @ads
+log.sina.cn @ads @telemetry
+log2.sina.cn @ads @telemetry
 mixer.sina.cn @ads
 p4p.sina.com.cn @ads
 rs.sinajs.cn @ads
 sa.sina.cn @ads
-sbeacon.sina.com.cn @ads
+sbeacon.sina.com.cn @ads @telemetry
 sdkclick.mobile.sina.cn @ads
-slog.sina.cn @ads
-slog.sina.com.cn @ads
+slog.sina.cn @ads @telemetry
+slog.sina.com.cn @ads @telemetry
 wapwbclick.mobile.sina.cn @ads
 wbclick.mobile.sina.cn @ads

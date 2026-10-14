@@ -115,7 +115,7 @@ mdeer.com
 mei.com
 miaostreet.com
 miaoya.cn
-mmstat.com
+mmstat.com @telemetry
 mshare.cc
 nic.xin
 philanthropy.xin
@@ -259,26 +259,26 @@ lydass.net
 
 # Ads/tracking
 a.alimama.cn @ads
-adash-c.m.taobao.com @ads
-adash-c.ut.taobao.com @ads
-adash.m.taobao.com @ads
-adashbc.m.taobao.com @ads
-adashbc.ut.taobao.com @ads
-adashx.m.taobao.com @ads
-adashx4ae.ut.taobao.com @ads
-adashx4yt.m.taobao.com @ads
-adashxgc.ut.taobao.com @ads
-adsh.m.taobao.com @ads
+adash-c.m.taobao.com @ads @telemetry
+adash-c.ut.taobao.com @ads @telemetry
+adash.m.taobao.com @ads @telemetry
+adashbc.m.taobao.com @ads @telemetry
+adashbc.ut.taobao.com @ads @telemetry
+adashx.m.taobao.com @ads @telemetry
+adashx4ae.ut.taobao.com @ads @telemetry
+adashx4yt.m.taobao.com @ads @telemetry
+adashxgc.ut.taobao.com @ads @telemetry
+adsh.m.taobao.com @ads @telemetry
 adtrack.quark.cn @ads
-c-adash.m.taobao.com @ads
+c-adash.m.taobao.com @ads @telemetry
 fourier.taobao.com @ads
 g.click.taobao.com @ads
-h-adashx.ut.taobao.com @ads
-h-adashx4yt.ut.taobao.com @ads
-m-adash.m.taobao.com @ads
+h-adashx.ut.taobao.com @ads @telemetry
+h-adashx4yt.ut.taobao.com @ads @telemetry
+m-adash.m.taobao.com @ads @telemetry
 marketing.alibaba.com @ads
 nbsdk-baichuan.taobao.com @ads
-retcode.taobao.com @ads
+retcode.taobao.com @ads @telemetry
 tns.simba.taobao.com @ads
 track.lc.quark.cn @ads
-v6-adashx.ut.taobao.com @ads
+v6-adashx.ut.taobao.com @ads @telemetry
