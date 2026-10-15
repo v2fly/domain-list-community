@@ -1,0 +1,31 @@
+# Part of Chinese entities but exclusively serving for non-cn area
+
+include:alibaba @!cn
+include:anker @!cn
+include:bilibili @!cn
+include:boc @!cn
+include:bytedance @!cn
+include:ccb @!cn
+include:chinamobile @!cn
+include:chinatelecom @!cn
+include:chinaunicom @!cn
+include:citic @!cn
+include:cmb @!cn
+include:ctrip @!cn
+include:deepin @!cn
+include:dewu @!cn
+include:didi @!cn
+include:eastmoney @!cn
+include:huawei @!cn
+include:icbc @!cn
+include:ipip @!cn
+include:iqiyi @!cn
+include:jd @!cn
+include:oppo @!cn
+include:pingan @!cn
+include:sina @!cn
+include:tencent @!cn
+include:vivo @!cn
+include:xd @!cn
+include:xiaohongshu @!cn
+include:xiaomi @!cn
