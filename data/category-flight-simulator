@@ -38,7 +38,7 @@ rexsimulations.com
 # VATSIM
 include:vatsim
 
-# Virtual networks
+# Virtual Air Traffic Simulation Networks
 apocfly.com
 flyisfp.com
 ivao.aero
@@ -64,6 +64,7 @@ inibuilds.com # IniBuilds
 justflight.com # Just Flight
 parallel42.com # Parallel 42
 prepar3d.com # Prepar3D
+rosscarlson.dev # VATSIM developer
 sayintentions.ai # SayIntentions
 simmarket.com # SimMarket
 synapticsim.com # Synaptic Simulations
@@ -73,3 +74,4 @@ vatsim-radar.com # Online map
 x-plane.com # X-Plane official website
 x-plane.org # X-Plane community
 xenviro.net # xEnviro
+xpilot-project.org # xPilot
