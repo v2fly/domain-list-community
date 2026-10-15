@@ -112,9 +112,9 @@ full:advert-media-api.wb.ru @ads
 full:advert-api.wildberries.ru @ads
 full:advert-api-sandbox.wildberries.ru @ads
 full:advert-media-api.wildberries.ru @ads
-full:analytics-stage.wildberries.ru @ads
-full:analytics.wildberries.ru @ads
+full:analytics-stage.wildberries.ru @ads @telemetry
+full:analytics.wildberries.ru @ads @telemetry
 full:marketing-info.wildberries.ru @ads
-full:marketplace-sentry.wb.ru @ads
-full:sentry.wb.ru @ads
-full:web-analytics.wildberries.ru @ads
+full:marketplace-sentry.wb.ru @ads @telemetry
+full:sentry.wb.ru @ads @telemetry
+full:web-analytics.wildberries.ru @ads @telemetry

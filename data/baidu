@@ -109,7 +109,7 @@ ecmc.bdimg.com @ads
 eduad.baidu.com @ads
 eiv.baidu.com @ads
 fclick.baidu.com @ads
-fclog.baidu.com @ads
+fclog.baidu.com @ads @telemetry
 h2tcbox.baidu.com @ads
 hao123union.baidu.com @ads
 hm.baidu.com @ads
@@ -124,7 +124,7 @@ mobads-pre-config.cdn.bcebos.com @ads
 mountain.zhidao.baidu.com @ads
 nsclick.baidu.com @ads
 nsclickvideo.baidu.com @ads
-pimlog.baidu.com @ads
+pimlog.baidu.com @ads @telemetry
 pos.baidu.com @ads
 sclick.baidu.com @ads
 spcode.baidu.com @ads

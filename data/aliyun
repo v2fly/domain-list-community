@@ -82,8 +82,8 @@ registry.aliyuncs.com
 
 # Ads/tracking
 acjs.aliyun.com @ads
-adash-emas.cn-hangzhou.aliyuncs.com @ads
-adash.man.aliyuncs.com @ads
+adash-emas.cn-hangzhou.aliyuncs.com @ads @telemetry
+adash.man.aliyuncs.com @ads @telemetry
 alimama.alicdn.com @ads
 atanx.alicdn.com @ads
 atanx2.alicdn.com @ads

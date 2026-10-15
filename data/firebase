@@ -7,8 +7,8 @@ firebaseio.com
 
 firebase.google.com
 
-full:crashlyticsreports-pa.googleapis.com @cn
-full:firebase-settings.crashlytics.com @cn
+full:crashlyticsreports-pa.googleapis.com @cn @telemetry
+full:firebase-settings.crashlytics.com @cn @telemetry
 full:firebase.googleapis.com
 full:firebaseappcheck.googleapis.com
 full:firebaseappdistribution.googleapis.com
@@ -18,8 +18,8 @@ full:firebasedynamiclinks-ipv6.googleapis.com
 full:firebasedynamiclinks.googleapis.com
 full:firebaseinappmessaging.googleapis.com
 full:firebaseinstallations.googleapis.com
-full:firebaselogging-pa.googleapis.com
-full:firebaselogging.googleapis.com
+full:firebaselogging-pa.googleapis.com @telemetry
+full:firebaselogging.googleapis.com @telemetry
 full:firebaseperusertopics-pa.googleapis.com
 full:firebaseremoteconfig.googleapis.com
-full:update.crashlytics.com @cn
+full:update.crashlytics.com @cn @telemetry

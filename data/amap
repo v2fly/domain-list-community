@@ -11,8 +11,8 @@ autonavi.com
 gaode.com
 
 # Ads/tracking
-adashx.ut.amap.com @ads
-dualstack-logs.amap.com @ads
-logs.amap.com @ads
+adashx.ut.amap.com @ads @telemetry
+dualstack-logs.amap.com @ads @telemetry
+logs.amap.com @ads @telemetry
 optimus-ads.amap.com @ads
-v6-adashx.ut.amap.com @ads
+v6-adashx.ut.amap.com @ads @telemetry

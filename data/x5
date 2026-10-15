@@ -34,4 +34,4 @@ x5w.ru
 # Ads and tracking
 full:ads.x5.ru @ads
 full:ads.x5media.ru @ads
-full:sentry.x5.ru @ads
+full:sentry.x5.ru @ads @telemetry

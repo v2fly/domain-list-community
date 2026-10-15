@@ -15,21 +15,21 @@ full:ykimg.alicdn.com
 ad.api.3g.youku.com @ads
 ad.api.mobile.youku.com @ads
 ad.mobile.youku.com @ads
-adashx.ut.youku.com @ads
+adashx.ut.youku.com @ads @telemetry
 atm.youku.com @ads
-e.stat.ykimg.com @ads
+e.stat.ykimg.com @ads @telemetry
 ems.youku.com @ads
 guanggaoad.youku.com @ads
-h-adashx.ut.youku.com @ads
-lstat.youku.com @ads
+h-adashx.ut.youku.com @ads @telemetry
+lstat.youku.com @ads @telemetry
 mobilemsg.youku.com @ads
 msg.youku.com @ads
-p-log.ykimg.com @ads
-passport-log.youku.com @ads
+p-log.ykimg.com @ads @telemetry
+passport-log.youku.com @ads @telemetry
 pl.youku.com @ads
-s-adashx.ut.youku.com @ads
-stat.youku.com @ads
-statis.api.3g.youku.com @ads
-v6-adashx.ut.youku.com @ads
+s-adashx.ut.youku.com @ads @telemetry
+stat.youku.com @ads @telemetry
+statis.api.3g.youku.com @ads @telemetry
+v6-adashx.ut.youku.com @ads @telemetry
 yk-ssp.ad.youku.com @ads
 ykad-data.youku.com @ads
