@@ -304,23 +304,127 @@ testipv6.de
 testipv6.net
 
 # Subdomains/internal api used for ip-geo-detect
+full:2ip.kamensky-lab.ru
+full:2ip.telecom24.link
+full:am.i.mullvad.net
+full:check.torproject.org
 full:checkip.amazonaws.com
+full:checkip.dns.he.net
 full:checkip.dyn.com
+full:checkip.dyndns.com
+full:checkip.dyndns.it
 full:checkip.dyndns.org
 full:checkip.global.api.aws
+full:checkip.spdyn.de
+full:checkip.thaiware.com
+full:checkipv4.dedyn.io
+full:checkipv6.dedyn.io
+full:country.jimdo.com
+full:env.b4iine.net
+full:geo-ip.enigmasoft.net
+full:geo.sppopups.com
+full:geo.wdgtsrc.com
+full:geoip.amazing.media
+full:geoip.junglefrog.com
+full:geoip.pandascore.co
+full:geoip.rc.today
+full:geoip.vmn.net
+full:get-my-ip-v6.ddns.softether-network.net
+full:get-my-ip-v6.ddns.uxcom.jp
+full:get-my-ip.ddns.softether-network.net
+full:get-my-ip.ddns.uxcom.jp
+full:internetdb.shodan.io
 full:ip-check-perf.radar.cloudflare.com
+full:ip-info.ff.avast.com
+full:ip-scan.adspower.net
+full:ip.3322.net @cn
+full:ip.anoxinon.de
+full:ip.anysrc.net
+full:ip.changeip.com
+full:ip.cnlcp.top
 full:ip.comss.net
+full:ip.dnsexit.com
+full:ip.dpip.top
+full:ip.futurelink.ink
+full:ip.gymcalc.cn @cn
+full:ip.ipyard.com
+full:ip.is.cc
+full:ip.istatmenus.app
+full:ip.itqot.ru
+full:ip.kutool.com @cn
+full:ip.lafibre.info
+full:ip.liquidweb.com
+full:ip.mdosch.de
+full:ip.mihana.me
+full:ip.nc.gy
+full:ip.net.coffee
+full:ip.niqu.net
+full:ip.paco.bg
+full:ip.plyz.net @cn
+full:ip.preveri.si
+full:ip.qqday.com
+full:ip.samuraj-cz.com
+full:ip.siel.si
+full:ip.spacecom.cc
+full:ip.taobao.com @cn
+full:ip.telecom24.link
+full:ip.urls.is
+full:ip.v4.ro.co
+full:ip.webmasterhome.cn @cn
+full:ip.xen.tw
+full:ip1.dynupdate.no-ip.com
+full:ip4.8n1.org
+full:ip4.anysrc.net
+full:ip4.istatmenus.app
+full:ip6.8n1.org
+full:ip6.anysrc.net
+full:ip6.istatmenus.app
 full:ipv4-check-perf.radar.cloudflare.com
+full:ipv4-ip.api.skk.moe
+full:ipv4.ddnspod.com
+full:ipv4.duiadns.net
+full:ipv4.mudgee.host
+full:ipv4.nsupdate.info
+full:ipv4.nsx.de
+full:ipv4.whatismyip.akamai.com
 full:ipv6-check-perf.radar.cloudflare.com
+full:ipv6.ddnspod.com
+full:ipv6.mudgee.host
+full:ipv6.nsupdate.info
+full:ipv6.nsx.de
+full:ipv6.whatismyip.akamai.com
+full:ipv6test.wcode.net @cn
+full:mip.chinaz.com @cn
+full:myip.baze.si
+full:myip.controlpanel.si
 full:myip.dnsomatic.com
 full:myip.happ.su
+full:myip.heltech.se
+full:myip.knet.ca
+full:myip.mudfish.net
+full:myip.mysau.com.au
+full:myip.omidx.org
+full:myip.online.com.kz
+full:myip.sdu.dk
+full:myip.serverplus.tw
+full:myip.telespex.com
+full:myip.valkos.by
+full:twojeip.wp.pl
+full:v6test.ipgg.cn @cn
 full:whatismyip.akamai.com
+full:whatismyip.unc.edu
+full:whatsmyip.mw-rmm.barracudamsp.com
+check-ip.aws.a2z.com
+geoip.nekudo.com
 geoip.noc.gov.ru
+geoip.vuiz.net
 ip.hetzner.com
 ip.mail.ru
 ip.nic.ru
 ip.pe.kr
+ip.skk.moe
 ip.tyk.nu
+ip.zxinc.org
 ipgeo.vercel.app
 ipv4-internet.yandex.net
 ipv4.internet.yandex.net
