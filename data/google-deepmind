@@ -22,6 +22,8 @@ bard.google.com
 gemini.google
 gemini.google.com
 gemini.gstatic.com
+full:geminiweb-pa.clients.google.com
+full:geminiweb-pa.clients6.google.com
 
 # Gemini Code Assist
 # https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
@@ -32,6 +34,7 @@ full:daily-cloudcode-pa.googleapis.com
 # NotebookLM
 full:notebooklm-pa.googleapis.com
 full:notebooklm.googleapis.com
+labstailwind.pa.googleapis.com
 notebook.google
 notebook.google.com
 notebooklm.google
