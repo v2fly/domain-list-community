@@ -1,9 +1,13 @@
 include:ipip
 
 02ip.ru
+101ip.ru
 1ip.io
+1ip.kz
 2ip.cc
+2ip.ge
 2ip.io
+2ip.kz
 2ip.me
 2ip.ru
 2ip.tg
@@ -45,6 +49,7 @@ bulkgeoip.com
 canhazip.com
 canhazip.ir
 chaip.me @cn
+chaip.org
 chaipip.com
 chaxun-ip.cn @cn
 check-host.cn @cn
@@ -122,6 +127,7 @@ getip.cc
 getip.kr
 getip.live
 getip.sh
+getip.su
 getip.uk
 getipgeo.com
 getipintel.com
@@ -164,11 +170,13 @@ ifconfig.me
 ifconfig.my
 ifconfig.rs
 ifconfig.so
+ifconfig.su
 ifconfig.tw
 ifconfig.uz
 ifconfig.xyz
 inet-ip.info
 infosniper.net
+ip-1.ru
 ip-addr.es
 ip-addr.eu
 ip-addr.net
@@ -187,7 +195,9 @@ ip-check.cloud
 ip-check.cn @cn
 ip-check.info
 ip-check.io
+ip-check.ru
 ip-checker.info
+ip-checker.pro
 ip-db.com
 ip-info.app
 ip-info.com
@@ -211,6 +221,7 @@ ip.sh
 ip.sy
 ip.tl
 ip00.cn @cn
+ip01.ru
 ip111.cn @cn
 ip111.com @cn
 ip120.cn @cn
@@ -223,6 +234,7 @@ ip138.pro
 ip2c.org
 ip2country.com
 ip2country.info
+ip2geo.ru
 ip2location.biz
 ip2location.com
 ip2location.info
@@ -231,6 +243,8 @@ ip2location.net
 ip2location.org
 ip2location.us
 ip2ruscity.com
+ip4.bg
+ip4.ge
 ip4.host
 ip4.hu
 ip4.im
@@ -304,6 +318,7 @@ ipchicken.com
 ipchk.cc
 ipchk.cn @cn
 ipchk.co
+ipchk.ru
 ipconfig.ai
 ipconfig.cx
 ipconfig.cz
@@ -329,6 +344,7 @@ ipfinder.io
 ipfinder.kr
 ipfinder.me
 ipgeo.dev
+ipgeo.ru
 ipgeolocation.com
 ipgeolocation.io
 ipgeolocationapi.com
@@ -360,6 +376,7 @@ ipinfo.live
 ipinfo.md
 ipinfo.me
 ipinfo.net
+ipinfo.su
 ipinfo.tw
 ipinfos.io
 ipip.ee
@@ -368,6 +385,7 @@ ipip.la
 ipip.si
 ipip.top @cn
 ipip.tw
+ipip.uz
 ipip0.cc
 ipip0.net
 ipipseek.com
@@ -386,6 +404,7 @@ iplis.ru
 iplocate.cc
 iplocate.dev
 iplocate.io
+iplocate.ru
 iplocation.com
 iplocation.io
 iplocation.net
@@ -425,6 +444,7 @@ ipsearch.com.cn @cn
 ipsearch.uk
 ipsee.cn @cn
 ipsee.io
+ipsee.ru
 ipshow.de
 ipshow.me
 ipsimple.org
@@ -439,10 +459,12 @@ iptrust.co
 iptype.cc
 ipure.dev
 ipv4.is
+ipv4.md
 ipv6.cc @cn
 ipverify.com
 ipview.cc
 ipw.cn @cn
+ipwho.am
 ipwho.is
 ipwhois.io
 ipxapi.com
@@ -459,6 +481,7 @@ maxmind.com
 meuip.io
 meuip.xyz
 min-ip.org
+mojaipadresa.rs
 mojip.si
 mon-ip.com
 mon-ip.dev
@@ -469,6 +492,7 @@ monip.cloud
 monip.online
 monip.org
 my-ip.ca
+my-ip.ge
 my-ip.io
 myexternalip.com
 myip.ae
@@ -478,6 +502,7 @@ myip.by
 myip.ch
 myip.com
 myip.com.tw
+myip.com.ua
 myip.cx
 myip.dk
 myip.do
@@ -516,6 +541,7 @@ myip.sh
 myip.sk
 myip.tf
 myip.top
+myip.uz
 myip.wtf
 myip.yt
 myipaddress.app
@@ -523,16 +549,20 @@ myipaddress.com
 myipaddress.dev
 myipaddress.jp
 myipaddress.kr
+myipaddress.ru
 myipchecker.app
 myipinfo.cn @cn
 myipinfo.dev
 myiplookup.com
 myipnow.de
 myipnow.ru
+myipv4.ru
 mylocation.co.kr
 mylocation.org
 networkdatalabs.com
+nexip.ru
 nodedata.io
+nossl.ru
 nossl.sh
 osint.sh
 ping0.cc
@@ -550,10 +580,12 @@ proxycheck.tw
 publicip.eu
 publicip.is
 queip.com.br
+radarip.ru
 realip.cc
 reallyfreegeoip.org
 scamalytics.org
 seeip.cn @cn
+seeip.live
 seeip.org
 showip.com.tw
 showip.net
@@ -607,6 +639,7 @@ whatismyip.jp
 whatismyip.kr
 whatismyip.net
 whatismyip.org
+whatismyip.ru
 whatismyipaddress.com
 whatismyipaddress.info
 whatismyipaddress.net
@@ -635,6 +668,7 @@ wieistmeineip.ch
 wieistmeineip.de
 wl.gl
 wtfismyip.com
+xmyip.ru
 xn--220bz30b9rbh9x.kr
 yalala.com
 yalala.net
