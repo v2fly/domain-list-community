@@ -20,6 +20,7 @@ include:flatpak
 include:flutter
 include:fontawesome
 include:framer
+include:freebuff
 include:gemfury
 include:gitbook
 include:github
