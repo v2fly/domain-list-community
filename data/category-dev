@@ -42,7 +42,6 @@ include:nixos
 include:openwrt
 include:perl
 include:polymer
-include:postman
 include:python
 include:qt
 include:readthedocs
@@ -141,6 +140,7 @@ php.net
 piwheels.org
 plasma-mobile.org
 postgresql.org
+postman.com
 putty.org
 r-project.org
 raspberrypi.org
