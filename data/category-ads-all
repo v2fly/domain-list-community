@@ -1,4 +1,5 @@
-# This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
+# This file contains domains of all ads/tracking providers,
+# including both the domains that serves ads/tracking, and the domains of providers themselves.
 include:category-ads
 
 include:addthis
@@ -29,6 +30,7 @@ lijit.com @ads
 mfadsrvr.com @ads
 mgid.com @ads
 ns1p.net @ads
+sigmob.cn @ads
 sigmob.com @ads
 spotxchange.com @ads
 unimhk.com @ads

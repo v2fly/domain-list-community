@@ -9,6 +9,7 @@ include:schoopia
 include:shanbay
 include:xueersi
 include:yuanfudao
+include:zuoyebang
 
 edu.cn
 
@@ -99,6 +100,7 @@ centuryenglish.com
 # 中教双元/教育在线
 cepsp.cn
 eol.cn
+gaokao.cn
 # 中国地质大学 继续教育学院
 cugbonline.cn
 # 大连财经学院 大财校园
@@ -131,6 +133,8 @@ gzasc.com
 # 华图
 huatu.com
 sydw8.com
+# 慧教云
+huijiaoyun.com
 # 中科大数据研究院，豫ICP备19023555号
 ictbda.cn
 ictbda.com
@@ -148,8 +152,6 @@ jzagile.com
 keboyunxiao.com
 # 课堂派
 ketangpai.com
-# 快对作业
-kuaiduizuoye.com
 # 流利说
 liulishuo.com
 llsapp.com
@@ -162,6 +164,9 @@ maimemo.com
 maimemostatus.com
 # 墨墨记忆卡
 markji.com
+# 墨督督/上海识刻
+mddclass.com
+sksight.com
 # CIS NanoMasters
 neoscholar.com
 neoschool.com

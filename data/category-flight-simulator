@@ -1,0 +1,77 @@
+## Multi domains
+# BeyondATC
+beyondatc.app
+beyondatc.net
+
+# FSDreamTeam (FSDT)
+fsdreamteam.com
+virtualisoftware.com
+full:fsdt.virtuali.s3.amazonaws.com
+
+# HiFi
+hifisimtech.com
+hifisimtech.zendesk.com
+
+# Infiniti Flight
+infiniteflight.com
+infiniteflight.live
+
+# Microsoft Flight Simulator
+include:asobo
+
+# Navigraph
+navigraph.com
+simbrief.com
+
+# Orbx
+orbxdirect.com
+orbxsystems.com
+
+# PMDG Simulations
+pmdg.com
+precisionmanuals.com
+
+# REX Simulations
+rexgamestudios.com
+rexsimulations.com
+
+# VATSIM
+include:vatsim
+
+# Virtual Air Traffic Simulation Networks
+apocfly.com
+flyisfp.com
+ivao.aero
+pilotedge.net
+poscon.net
+skylitefly.com
+
+## Single domains
+a2asimulations.com # A2A Simulations
+aerosoft.com # Aerosoft
+carenado.com # Carenado
+css.aero # CSS Software
+digitalcombatsimulator.com # DCS
+fenixsim.com # Fenix Simulations
+flight1.com # Flight1
+flightsim.to # Marketplace
+flightsimlabs.com # Flight Sim Labs (FSL)
+flybywiresim.com # Fly By Wire Simulations
+flytampa.org # FlyTampa
+fs2crew.com # FS2Crew
+hoppie.nl # Virtual ACARS system
+inibuilds.com # IniBuilds
+justflight.com # Just Flight
+parallel42.com # Parallel 42
+prepar3d.com # Prepar3D
+rosscarlson.dev # VATSIM developer
+sayintentions.ai # SayIntentions
+simmarket.com # SimMarket
+synapticsim.com # Synaptic Simulations
+tfdidesign.com # TFDi Design
+thresholdx.net # Threshold
+vatsim-radar.com # Online map
+x-plane.com # X-Plane official website
+x-plane.org # X-Plane community
+xenviro.net # xEnviro
+xpilot-project.org # xPilot
