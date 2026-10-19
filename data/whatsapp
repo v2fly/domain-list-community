@@ -11,5 +11,5 @@ whatsapp.tv
 whatsappbrand.com
 
 # Ads/tracking
-graph.whatsapp.com @ads
-graph.whatsapp.net @ads
+# graph.whatsapp.com and graph.whatsapp.net aren't solely for ads,
+# see https://github.com/v2fly/domain-list-community/issues/4127

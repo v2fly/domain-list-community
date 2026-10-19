@@ -15,6 +15,7 @@ network-test.debian.org
 
 # Firefox
 detectportal.firefox.com
+firefox-portal-detection.com
 
 # GNOME
 full:nmcheck.gnome.org
