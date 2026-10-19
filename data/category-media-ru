@@ -1,6 +1,7 @@
 # This file contains Russian media *based in Russia*, i.e. not prosecuted by the state
 include:rossiyasegodnya
 include:rt
+
 72.ru            # News from Tyumen and the Tyumen region
 amic.ru          # News from the Altai Krai
 e1.ru            # News from Yekaterinburg and the Sverdlovsk region
