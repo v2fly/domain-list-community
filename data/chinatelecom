@@ -15,3 +15,6 @@ dlife.cn
 play.cn
 tv189.com
 vnet.cn
+
+# 3GPP 公网域 (IMS / VoWiFi)
+mnc011.mcc460.pub.3gppnetwork.org
