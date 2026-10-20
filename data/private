@@ -159,6 +159,10 @@ plex.direct
 localhost.sec.qq.com
 localhost.ptlogin2.qq.com
 
+# WeChat and WeCom local client login
+full:localhost.weixin.qq.com
+full:localhost.work.weixin.qq.com
+
 # Tenda router
 tendawifi.com
 

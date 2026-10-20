@@ -1,2 +1,7 @@
 kinopoisk.ru
 kinopoisk-ru.clstorage.net
+kp.yandex.net
+
+# Smart TV app
+full:kp-config-smart-tv.akamaized.net
+full:kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
