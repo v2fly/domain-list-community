@@ -1,15 +1,25 @@
-# Reference: https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+# References:
+# https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+# https://www.iana.org/domains/root/db
 
 alibaba
 alipay
+anquan
 baidu
 citic
 cn
 icbc
+shouji
+sina
 sohu
 taobao
 tmall
 unicom
+weibo
+xihuan
+yun
+
+xn--9krt00a # 微博
 
 # Reference: https://domain.miit.gov.cn
 # .香港 is ignored due to not in China mainland

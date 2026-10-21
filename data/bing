@@ -14,7 +14,6 @@ bingsandbox.com
 bingvisualsearch.com
 bingworld.com
 bluehatnights.com
-copilot.microsoft.com
 dictate.ms
 flipwithsurface.com
 masalladeloslimites.com
@@ -30,6 +29,11 @@ office365tw.com
 renovacionoffice.com
 sprinklesapp.com
 
+# Copilot
+copilot-stg.com
+copilot.cloud.microsoft
+copilot.com
+copilot.microsoft.com
 full:location.microsoft.com
 
 cn.bing.com @cn
@@ -39,4 +43,3 @@ ditu.live.com @cn
 r.bing.com @cn
 th.bing.com @cn
 full:bj1.api.bing.com @cn
-full:emoi-cncdn.bing.com @cn

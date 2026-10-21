@@ -10,20 +10,22 @@ taobao
 # All .tmall domains
 tmall
 
-include:9game
 include:alibabacloud
+include:aligames
 include:aliyun
 include:aliyun-drive
 include:amap
 include:cainiao
 include:dingtalk
 include:eleme
+include:shuqi
 include:teambition
 include:uc
 include:umeng
 include:youku
 
 56che.com
+88cha.com
 95095.com
 ali-health.com
 aliapp.org
@@ -31,17 +33,24 @@ alibaba-inc.com
 alibaba.com
 alibabacapital.com
 alibabachengdun.com
+alibabachengdun.net
 alibabacorp.com
+alibabadesign.com
 alibabadoctor.com
+alibabafonts.com
+alibabafoundation.com
 alibabafuturehotel.com
 alibabagroup.com
+alibabapictures.com
 alibabaplanet.com
 alibabaued.com
 alibabausercontent.com
 alifanyi.com
-aligames.com
+aligenie.com
+alihealth.cn
 alihealth.com.cn
 alihealth.hk @!cn
+alihive.com
 aliimg.com
 alikmd.com
 alimama.cn
@@ -50,6 +59,7 @@ alimebot.com
 alimei.com
 alimmdn.com
 alios.cn
+alipay-eco.com
 alipay.cn
 alipay.com
 alipay.com.cn
@@ -67,6 +77,7 @@ aliwork.com
 alixiaomi.com
 alizhaopin.com
 alyms.cn
+alysm.cn
 asczwa.com
 asczxcefsv.com
 asmlink.cn
@@ -85,40 +96,49 @@ dongting.com
 dratio.com
 emas-poc.com
 gongyi.xin
+hupan.com
+hzchengdun.com
+hzchengdun.net
 ialicdn.com
 iconfont.cn
 ics.design
 imgcook.com
 jhgtgb.com
+jiyoujia.com
 kanbox.com
 lazada.com
 liangxinyao.com
 m-now.cn
 maitix.com
+mappcloud.com
 mdeer.com
 mei.com
 miaostreet.com
+miaoya.cn
+mmstat.com
 mshare.cc
 nic.xin
 philanthropy.xin
 phpwind.com
 phpwind.net
+pp.cn
 qingtingtrip.com
 rexpos.cn
 saee.org.cn
+shejijia.com
 shenjing.com
-shuqi.com
-shuqireader.com
 sparenode.com
 supet.com
 tanx.com
 ttpod.com
 xin.xin
 xinlingshou.cn
+xixikf.cn
 yowhale.com
 yunos-inc.com
 yunos.com
 yushanfang.com
+zimgs.cn
 zuodao.com
 
 # AliExpress
@@ -160,9 +180,11 @@ antgroup-inc.cn
 
 # 神马搜索
 sm.cn
+yisou.com
 
 # 淘宝
 1688.com
+duanqu.com
 etao.com
 juhuasuan.com
 lingshoujia.com
@@ -174,11 +196,13 @@ taobao.org
 taobaocdn.com
 taobizhong.com
 taopiaopiao.com
+taotian.com
 tb.cn
 tbcache.com
 tbcdn.cn
 tburl.in
 tmall.com
+tmall.hk @!cn
 tmall.ru @!cn
 tmalltv.com
 tmjl.ai

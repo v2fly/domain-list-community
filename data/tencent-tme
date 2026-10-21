@@ -1,0 +1,30 @@
+# 腾讯音乐娱乐集团/TME
+include:kugou
+include:kuwo
+include:ximalaya
+
+qqmusic.com
+tencentmusic.com
+
+kg.qq.com
+music.qq.com
+y.qq.com
+
+# 懒人听书
+lrts.me
+mting.info
+wting.info
+
+# 爱听卓乐
+97ting.com
+tingmall.com
+ultimatemusic.cn
+
+# Ads/tracking
+ad.tencentmusic.com @ads
+adstats.tencentmusic.com @ads
+monitor.music.qq.com @ads
+report.tencentmusic.com @ads
+stat.y.qq.com @ads
+tmead.y.qq.com @ads
+tmeadcomm.y.qq.com @ads

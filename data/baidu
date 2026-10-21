@@ -1,5 +1,3 @@
-include:zuoyebang
-
 # All .baidu domains
 baidu
 
@@ -70,12 +68,15 @@ xiaodutv.com
 yoojia.com
 
 # 度小满
+combofin.com
 duxiaoman-int.com
 duxiaoman.com
 duxiaomanfintech.com
+duxiaomanfund.com
 duxiaomantech.com
 dxm-cdn.com
 dxm-int.com
+dxmbaoxian.com
 dxmjinr.com
 dxmlcf.com
 dxmlcfintech.com
@@ -98,7 +99,6 @@ cpro.baidu.com @ads
 cpro.baidustatic.com @ads
 cpu.baidu.com @ads
 cstm.baidu.com @ads
-dlswbr.baidu.com @ads
 drmcmm.baidu.com @ads
 duiwai.baidu.com @ads
 dup.baidustatic.com @ads
@@ -116,7 +116,6 @@ hm.baidu.com @ads
 hmma.baidu.com @ads
 imgstat.baidu.com @ads
 iwanad.baidu.com @ads
-miao.baidu.com @ads
 miaowu.baidu.com @ads
 mipcache.bdstatic.com @ads
 mobads.baidu.com @ads

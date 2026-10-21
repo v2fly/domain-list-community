@@ -1,5 +1,11 @@
 include:starworld
 
+# TLDs
+anquan
+shouji
+xihuan
+yun
+
 360.cn
 360.com
 360.net
@@ -15,6 +21,7 @@ include:starworld
 360panyun.cn
 360qhcdn.com
 360safe.com
+360scdn.com
 360shouji.com
 360so.com
 360sou.cn
@@ -63,6 +70,7 @@ so.com
 sou.cn
 sou.com
 urlqh.cn
+wukongsafe.cn
 xiaoluyouxuan.com
 xiaoluzhidian.com
 xjietiao.com

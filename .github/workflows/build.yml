@@ -17,12 +17,13 @@ jobs:
 
     steps:
       - name: Checkout codebase
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
+          ref: ${{ github.sha }}
           path: code
 
       - name: Setup Go
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           go-version-file: code/go.mod
           cache-dependency-path: code/go.sum
@@ -68,6 +69,6 @@ jobs:
 
       - name: Release and upload assets
         run: |
-          gh release create ${{ env.TAG_NAME }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.* ./dlc.dat_plain.yml ./dlc.dat_plain.yml.*
+          gh release create ${{ env.TAG_NAME }} --target ${{ github.sha }} --generate-notes --latest --title ${{ env.RELEASE_NAME }} ./dlc.dat ./dlc.dat.* ./dlc.dat_plain.yml ./dlc.dat_plain.yml.*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

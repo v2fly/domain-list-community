@@ -1,5 +1,6 @@
 include:clubhouse
 include:discord
+include:fluxer
 include:freenode
 include:intercom
 include:keybase
@@ -7,10 +8,14 @@ include:line
 include:mailcom
 include:matrix
 include:messenger
+include:nicegram
 include:protonmail
 include:signal
 include:slack
+include:teamspeak
 include:telegram
 include:temp-mail
 include:viber
 include:whatsapp
+
+botim.me

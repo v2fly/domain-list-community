@@ -1,16 +1,12 @@
 gog.com
+gog-services.com
 gog-statics.com
+gogalaxy.com
 
 full:gog.qtlglb.com @cn
-full:gogalaxy.gog-statics.com @cn
-full:menu-static.gog-statics.com @cn
-full:productcard.gog-statics.com @cn
-full:static-login.gog-statics.com @cn
-full:www4-static.gog-statics.com @cn
-regexp:^cdn-akamai-.+\.gog-services\.com$ @cn
-regexp:^gog-cdn-.+\.footprint\.net$ @cn
-regexp:^images(-\d)?\.gog-statics\.com$ @cn
+full:gog-cdn-lumen.secure2.footprint.net
+full:gog-cdn.akamaized.net
 
-# CDN available in China mainland
-full:gog-cdn-fastly.gog.com @cn
-full:gog-cdn.akamaized.net @cn
+# Ads/tracking
+## https://www.gog.com/forum/general/telemetry_in_gog_galaxy_20/page1
+insights-collector.gog.com @ads

@@ -1,32 +1,58 @@
-# Russian websites
+include:tld-ru
 ru.com
 ru.net
 
-include:tld-ru
+# - There is `[domain:]ru` in this list (from tld-ru), which matches all `*.ru` domains
+# - Redundant subdomains (full/domain type without attr) will be trimed by main.go
+#   In this list, `*.ru` domains without attr are redundant for the program and will not contribute to `geosite:category-ru`
+# - You can still add `*.ru` domains here if you want
+
+# Subcategories
+include:category-ai-ru
 include:category-betting-ru
 include:category-ecommerce-ru
+include:category-education-ru
 include:category-entertainment-ru
+include:category-forums-ru
 include:category-gov-ru
 include:category-media-ru
 include:category-medicine-ru
 include:category-retail-ru
+include:category-tech-media-ru
 include:category-travel-ru
 
 # Russian companies
 include:beget
+include:bitrix
 include:carrotquest
 include:cdek
+include:comssone
+include:drweb
+include:envybox
+include:genotek-ru
+include:gismeteo
+include:group-ib
 include:headhunter
+include:ideco-ru
 include:kaspersky
 include:kontur
+# Not include:habr #3087
+# Not include:livejournal #3715
 include:mailru-group
 include:mindbox
 include:myoffice-ru
+include:netcraze
+include:nic-ru
+include:positive-technologies
+include:regru
+include:sber
 include:selectel
+include:servicepipe
 include:skyeng
+include:smena
 include:tilda
 include:timeweb
-include:ucoz-ru
+include:ucoz
 include:whoosh
 include:yandex
 
@@ -35,75 +61,72 @@ include:category-bank-ru
 ## Credit History Bureaus
 credistory.ru
 nbki.ru
-## Currency and stock exchanges
-moex.com   # Moscow Stock Exchange
-spvb.ru    # Saint-Petersburg Stock Exchange
+## Card & Document delivery
+efin.ru
 ## Financial marketplace
 banki.ru
 finuslugi.ru
+## Insurance companies
+amt-insurance.com 
+lexgarant.com
+renins.com
+renins.ru
 ## Investment
 sistema-capital.com
 ## Mir payment system
 mironline.ru
 mirpayonline.ru
-## National Payment Card System
-nspk.ru
 ## Tipping service
 netmonet.co
 tips.tips
 
 # Telecom operators
+include:megafon
+include:mts-ru
+include:rostelecom
+include:t2-ru
+adygtelecom.com    # Adygea Telephone Company, regional operator
 beeline.ru
 dom.ru
-mts.ru
-mymts.ru
-rostelecom.ru
-rt.ru
-t2.ru
-tele2.ru
-
-## Megafon
-inplat.ru
-megafon.com
-megafon.ru
-megafonpro.ru
-mgfn.ru
-report-megafon.ru
-scartel.ru
-yota.ru
-yotagamer.ru
-
-### IDN ccTLD
-xn--80a9a4b.xn--p1ai # ёта.рф
-xn--80aj3b.xn--p1ai # ета.рф
-xn--80arpq.xn--p1ai # йота.рф
-
-# Other domains
-apptrackpets.com # Pet GPS tracker service (Yandex Cloud, reg.ru)
-gazfond-pn.ru    # Non-state pension fund GAZFOND pension savings
-litres.ru        # E-book and audiobook service
-meteoinfo.ru     # Hydrometeorological Center of Russia
-ngenix.net       # NGENIX is a Russian provider of acceleration and security services for public web resources
-pochta.ru        # Russian post
-qms.ru           # Russian internet speed testing service
-roistat.com @ads # Russian marketing company
-srv-hub.org      # Website buider
-t1.cloud         # Russian cloud storage provider
-taxsee.com       # Taxi for business (self-employed drivers)
+mcc250.pub.3gppnetwork.org # Mobile IMS
 
 # Other services
-include:comssone    # COMSS.ONE "Computer Security Software Russia"
-include:genotek-ru  # Genotek
-include:gismeteo-ru # Gismeteo weather service
-include:ideco-ru    # Ideco, NGFW developer
-3ebra.net           # Zebra Net Bureau, web development agency
-envybox.io @ads     # Website conversion widgets
-flomni.com          # Omnichannel communications platform
-flocktory.com @ads  # Marketing personalization platform
-group-ib.com        # Group-IB cybersecurity company
-kinescopecdn.net    # Kinescope video hosting CDN
-ognihome.com        # OGNI HOME resident portal
-saas-support.com @ads # CDN/infrastructure for Envybox
-targetads.io @ads   # Advertising verification platform
-whitesaas.com @ads  # White-label product of Envybox
-yourgood.app        # CRM for small business
+3ebra.net          # Zebra Net Bureau, web development agency
+apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
+chat2desk.com      # Omnichannel communications platform and chat center
+flomni.com         # Omnichannel communications platform
+foto-planeta.com   # Photo encyclopedia of settlements
+gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
+litres.ru          # E-book and audiobook service
+meteoinfo.ru       # Hydrometeorological Center of Russia
+ngenix.net         # NGENIX is a Russian provider of acceleration and security services for public web resources
+nplus1.ru          # N+1, popular science magazine
+ognihome.com       # OGNI HOME resident portal
+pochta.ru          # Russian post
+ponyexpress.ru     # Courier delivery service
+qms.ru             # Russian internet speed testing service
+randomgodbot.com   # Telegram randomizer bot
+robohall.tech      # Robohall, creative engineering and robotics studio (Moscow, Russia)
+srv-hub.org        # Website buider
+t1.cloud           # Russian cloud storage provider
+taxsee.com         # Taxi for business (self-employed drivers)
+vimu.tv            # Vimu Media Player
+yourgood.app       # CRM for small business
+
+## eXpress corporate messenger
+corp.express
+express.ms
+public.express
+xlnk.ms
+
+## Russian 2FA/MFA provider
+mfa.center
+multifactor.ru
+
+## Ads and tracking
+adriver.ru @ads
+flocktory.com @ads
+roistat.com @ads
+targetads.io @ads
+terratraf.com @ads
+terratraf.io @ads

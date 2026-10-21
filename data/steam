@@ -5,6 +5,7 @@ steam-api.com
 steam-chat.com
 steamcommunity.com
 steamcontent.com
+steamconnecttest.com
 steamdeck.com
 steamgames.com
 steampowered.com
@@ -12,7 +13,11 @@ steamserver.net
 steamstatic.com
 steamusercontent.com
 underlords.com
+valve.net
 valvesoftware.com
+
+# Dota 2
+dota2.com
 
 # edgecast
 edge.steam-dns.top.comcast.net
@@ -55,9 +60,12 @@ full:steamvideo-a.akamaihd.net
 
 # Azure
 full:steamcloudsweden.blob.core.windows.net
+full:steamugcquincy.blob.core.windows.net
 
 # 完美
+csgo.com.cn @cn
 csgo.wmsj.cn @cn
+dota2.com.cn @cn
 dota2.wmsj.cn @cn
 wmsjsteam.com @cn
 

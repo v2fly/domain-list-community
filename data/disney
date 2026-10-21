@@ -2,6 +2,7 @@ include:abc
 include:bamtech
 include:espn
 include:hotstar
+include:hulu
 include:marvel
 include:nationalgeographic
 include:starplus
@@ -45,15 +46,31 @@ disney.ru
 disney.se
 disney.sg
 
+# https://thewaltdisneycompany.com/about/
+disneyanimation.com
+fxnetwork.com
+fxnetworks.com
+lucasfilm.com
+pixar.com
+searchlightpictures.com
+thewaltdisneycompany.com
+waltdisneystudios.com
+
+disneylandparis.com
+hongkongdisneyland.com
+shanghaidisneyresort.com @cn
+tokyodisneyresort.jp
+
 # Others
+20thcenturystudios.com
 20thcenturystudios.com.au
 20thcenturystudios.com.br
 20thcenturystudios.jp
 adventuresbydisney.com
 babble.com
 babyzone.com
-bamgrid.com
 beautyandthebeastmusical.co.uk
+detpress.com
 dilcdn.com
 disney-asia.com
 disney-discount.com
@@ -61,6 +78,7 @@ disney-plus.net
 disney-portal.my.onetrust.com
 disney-studio.com
 disney-studio.net
+disneyaccount.com
 disneyadsales.com
 disneyarena.com
 disneyaulani.com
@@ -97,17 +115,19 @@ disneynow.com
 disneypeoplesurveys.com
 disneyplus.bn5x.net
 disneyplus.com
-disneyplus.com.ssl.sc.omtrdc.net
+disneyprivacycenter.com
 disneyredirects.com
 disneysrivieraresort.com
 disneystore.com
 disneystreaming.com
 disneysubscription.com
+disneytermsofuse.com
 disneytickets.co.uk
 disneyturkiye.com.tr
 disneytvajobs.com
 disneyworld-go.com
 dssott.com
+freeform.com
 go-disneyworldgo.com
 go.com
 mickey.tv
@@ -127,6 +147,8 @@ streamingdisney.net
 thestationbymaker.com
 thisispolaris.com
 watchdisneyfe.com
+
+full:disneyplus.com.ssl.sc.omtrdc.net
 
 # tracking
 full:disney.my.sentry.io @ads
