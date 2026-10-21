@@ -4,6 +4,9 @@ include:openspeedtest
 cnspeedtest.cn @cn
 fast.com
 fastspeedtest.com
+internet.yandex.com
+internet.yandex.ru
+librespeed.org
 linkmeter.net
 measurementlab.net
 meter.net
@@ -59,6 +62,7 @@ test6.ustc.edu.cn @cn
 testmy.net
 testmyspeed.com
 testskorosti.ru
+wifiman.me
 xnfz.seu.edu.cn @cn
 
 full:hk-global-bgp.hkg.speedtest.yecaoyun.com @!cn
