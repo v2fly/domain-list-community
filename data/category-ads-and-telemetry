@@ -1,0 +1,3 @@
+# This file contains domains of both category-ads and category-telemetry.
+include:category-ads
+include:category-telemetry

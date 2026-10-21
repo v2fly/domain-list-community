@@ -20,6 +20,7 @@ include:flatpak
 include:flutter
 include:fontawesome
 include:framer
+include:freebuff
 include:gemfury
 include:gitbook
 include:github
@@ -37,6 +38,7 @@ include:kubernetes
 include:microsoft-dev
 include:mongodb
 include:nginx
+include:nixos
 include:openwrt
 include:perl
 include:polymer
@@ -123,7 +125,6 @@ neovim.io
 netfilter.org
 newpipe.net
 nftables.org
-nixos.org
 nodesource.com
 notepad-plus-plus.org
 openresty.org
@@ -139,6 +140,7 @@ php.net
 piwheels.org
 plasma-mobile.org
 postgresql.org
+postman.com
 putty.org
 r-project.org
 raspberrypi.org
