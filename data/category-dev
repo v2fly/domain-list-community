@@ -45,10 +45,10 @@ include:polymer
 include:python
 include:qt
 include:readthedocs
+include:redhat
 include:redis
 include:ruby
 include:rust
-include:redhat
 include:scala
 include:sentry
 include:sourcehut
@@ -181,3 +181,12 @@ elegantthemes.com
 hivepress.io
 motopress.com
 wpmailsmtp.com
+
+# TemplateMonster
+templatemonster.com
+tmimgcdn.com
+
+# Safety CLI Cybersecurity Inc.
+getsafety.com
+pyup.io
+safetycli.com
