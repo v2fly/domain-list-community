@@ -1,9 +1,13 @@
 include:ookla-speedtest
 include:openspeedtest
 
+bittimittari.fi
+bredbandskollen.se
+calidadtelecos.cnmc.gob.es
 cnspeedtest.cn @cn
 fast.com
 fastspeedtest.com
+i-speed.vn
 internet.ya.ru
 internet.yandex.by
 internet.yandex.com
@@ -16,6 +20,11 @@ measurement-lab.org
 measurementlab.net
 meter.net
 metercustom.net
+misurainternet.it
+myspeed.trai.gov.in
+netmede.pt
+nettest.ctu.gov.cz
+netztest.at
 nperf.be
 nperf.biz
 nperf.ch
@@ -31,6 +40,8 @@ nperf.net
 nperf.nl
 nperf.pl
 openspeedtest.ru
+performance.cira.ca
+simet.nic.br
 speed.cloudflare.com
 speed.dler.io
 speed.ee
@@ -39,6 +50,7 @@ speed.nccu.edu.tw
 speed.neu6.edu.cn @cn
 speed.nju.edu.cn @cn
 speed.nuaa.edu.cn @cn
+speed.ops.nic.at
 speed.qlu.edu.cn @cn
 speed.ujs.edu.cn @cn
 speed2.hinet.net
@@ -55,6 +67,7 @@ speedtest.co.za
 speedtest.de
 speedtest.dno-it.ru
 speedtest.frontier.com
+speedtest.gov.za
 speedtest.im
 speedtest.mail.ru
 speedtest.mfcyun.com @cn
@@ -68,12 +81,14 @@ speedtest.shaw.ca
 speedtest.shu.edu.cn @cn
 speedtest.su
 speedtest.uz
+speedtest.vn
 speedtest.volia.com
 speedtest.xaut.edu.cn @cn
 speedtest.xfinity.com
 speedtest.xyz
 speedtest24.ru
 speedtest6.shu.edu.cn @cn
+szelessav.net
 test.nju.edu.cn @cn
 test.ustc.edu.cn @cn
 test6.nju.edu.cn @cn
