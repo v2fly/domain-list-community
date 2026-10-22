@@ -1,31 +1,58 @@
 include:ookla-speedtest
 include:openspeedtest
 
+afasttest.com
+aispeed.ca
+bandwidthplace.co
+bandwidthplace.com
 bittimittari.fi
 bredbandskollen.se
+broadbandspeedchecker.co.uk
+broadbandspeedtest.org.uk
 bufferbloat.libreqos.com
 calidadtelecos.cnmc.gob.es
 center.sp.rt.ru
+checkspeed.in
+checkspeed.io
 cnspeedtest.cn @cn
 fast.com
+fastspeedtest.app
 fastspeedtest.com
+fastspeedtest.site
+fireprobe.net
 i-speed.vn
+internet-speed-test.app
+internet-speed-test.online
+internet-speed-test.pro
 internet.ya.ru
 internet.yandex.by
 internet.yandex.com
 internet.yandex.com.tr
 internet.yandex.kz
 internet.yandex.ru
+internethealthtest.org
+internetspeedtest.dev
+internetspeedtest.me
+internetspeedtest.net
+internetspeedtest.online
+internetspeedtest.tech
+ipv6speedtest.eu
+itspeedtest.net
 librespeed.org
 linkmeter.net
+liveinternetspeed.com
 measurement-lab.org
 measurementlab.net
 medidor-de-velocidad.movistar.com.ar
 meter.net
 metercustom.net
 misurainternet.it
+myrealspeed.com
 myspeed.trai.gov.in
 netmede.pt
+netspeedhub.com
+netspeedtest.app
+netspeedtest.org
 nettest.ctu.gov.cz
 netztest.at
 nperf.be
@@ -47,6 +74,11 @@ performance.cira.ca
 simet.nic.br
 sp.msp-ict.com
 speed-interior.shatel.ir
+speed-test.co.uk
+speed-test.com
+speed-test.mx
+speed-test.site
+speed-test.xyz
 speed.btcom.kz
 speed.cable-giant.com.tw
 speed.cloudflare.com
@@ -54,6 +86,8 @@ speed.dler.io
 speed.ee
 speed.googlefiber.net
 speed.hinet.net
+speed.is
+speed.limited
 speed.nccu.edu.tw
 speed.neu6.edu.cn @cn
 speed.nju.edu.cn @cn
@@ -65,9 +99,23 @@ speed.ujs.edu.cn @cn
 speed2.hinet.net
 speed5.ntu.edu.tw
 speed6.ujs.edu.cn @cn
+speedcheck.co.uk
+speedcheck.dev
+speedcheck.online
 speedcheck.org
+speedcheck.pro
+speedchecker.co
+speedchecktest.com
+speedfast.app
 speedgeo.net
+speedlab.live
+speedmesser.com
+speedmeter.dev
+speedmeter.online
 speedof.me
+speedor.net
+speedsmart.app
+speedsmart.net
 speedtest.activ8me.net.au
 speedtest.centurylink.net
 speedtest.cesnet.cz
@@ -87,6 +135,7 @@ speedtest.gcore.com
 speedtest.gokinetic.com
 speedtest.gov.za
 speedtest.im
+speedtest.live
 speedtest.mail.ru
 speedtest.mbs.cloud
 speedtest.mci.ir
@@ -122,9 +171,11 @@ speedtest.woofy.ph
 speedtest.xaut.edu.cn @cn
 speedtest.xfinity.com
 speedtest.xyz
+speedtest24.net
 speedtest24.ru
 speedtest6.shu.edu.cn @cn
 spt102.fetnet.net
+swiftspeedtest.com
 szelessav.net
 test.eolo.it
 test.libreqos.com
@@ -135,14 +186,20 @@ test6.ustc.edu.cn @cn
 teste.novolink.net.br
 testmy.net
 testmyspeed.com
+testmyspeed.site
 testskorosti.ru
+testspeed.live
 testvelocidad.uchile.cl
 testvelocidadmad.orange.es
+ukspeedtest.co.uk
 velocidade.mgconecta.com.br
 velocidade.ti.usp.br
+vmaxcheck.com
 wifiman.com
 wifiman.me
+wifispeed.io
 xnfz.seu.edu.cn @cn
+yournetspeed.com
 
 full:hk-global-bgp.hkg.speedtest.yecaoyun.com @!cn
 
