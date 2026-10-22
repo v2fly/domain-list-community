@@ -3,6 +3,7 @@ include:openspeedtest
 
 afasttest.com
 aispeed.ca
+ash-speed.hetzner.com
 bandwidthplace.co
 bandwidthplace.com
 bittimittari.fi
@@ -22,7 +23,10 @@ fastspeedtest.app
 fastspeedtest.com
 fastspeedtest.site
 fireprobe.net
+fsn1-speed.hetzner.com
 geschwindigkeit.ch
+hel1-speed.hetzner.com
+hil-speed.hetzner.com
 i-speed.vn
 inonius.net
 internet-speed-test.app
@@ -72,6 +76,7 @@ misurainternet.it
 myrealspeed.com
 myspeed.trai.gov.in
 myspeedtest.in
+nbg1-speed.hetzner.com
 netmede.pt
 netspeedhub.com
 netspeedtest.app
@@ -97,10 +102,12 @@ nperf.nl
 nperf.pl
 openspeedtest.ru
 performance.cira.ca
+proof.ovh.net
 pruebavelocidad.com
 rychlost.cz
 scanspeed.in
 simet.nic.br
+sin-speed.hetzner.com
 skorost-interneta.com
 sp.msp-ict.com
 speed-interior.shatel.ir
@@ -118,6 +125,7 @@ speed-test.xyz
 speed.btcom.kz
 speed.cable-giant.com.tw
 speed.cloudflare.com
+speed.coe.ad.jp
 speed.dler.io
 speed.ee
 speed.googlefiber.net
@@ -163,6 +171,7 @@ speedtest.activ8me.net.au
 speedtest.adslthailand.com
 speedtest.ar
 speedtest.az
+speedtest.belwue.net
 speedtest.centurylink.net
 speedtest.cesnet.cz
 speedtest.ch
@@ -191,6 +200,7 @@ speedtest.gov.za
 speedtest.gr
 speedtest.hk
 speedtest.im
+speedtest.init7.net
 speedtest.ir
 speedtest.it
 speedtest.live
@@ -222,6 +232,7 @@ speedtest.ro
 speedtest.rt.ru
 speedtest.rtc1.com
 speedtest.ru
+speedtest.serverius.net
 speedtest.sg
 speedtest.sgix.sg
 speedtest.shaw.ca
@@ -231,13 +242,16 @@ speedtest.sits.su
 speedtest.smartlink.ph
 speedtest.su
 speedtest.techbrew.co.za
+speedtest.tele2.net
 speedtest.tw
 speedtest.uz
 speedtest.vn
 speedtest.vodafone.de
 speedtest.volia.com
 speedtest.windstream.net
+speedtest.wobcom.de
 speedtest.woofy.ph
+speedtest.wtnet.de
 speedtest.xaut.edu.cn @cn
 speedtest.xfinity.com
 speedtest.xn--qxam
@@ -259,6 +273,7 @@ test.ustc.edu.cn @cn
 test6.nju.edu.cn @cn
 test6.ustc.edu.cn @cn
 testdebit.fr
+testdebit.info
 testdebit.org
 testdevelocidad.com.ar
 testdevelocidad.com.es
