@@ -15,7 +15,6 @@ include:eneba
 include:farfetch
 include:funko
 include:ggsel
-include:glitchproductions
 include:gucci
 include:hm
 include:homedepot
@@ -56,3 +55,7 @@ youtooz.com
 # Funko Official Store
 funko.com
 full:funko.my.site.com
+
+# Glitch Productions
+glitchprod.com
+glitchproductions.store
