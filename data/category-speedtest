@@ -3,7 +3,9 @@ include:openspeedtest
 
 bittimittari.fi
 bredbandskollen.se
+bufferbloat.libreqos.com
 calidadtelecos.cnmc.gob.es
+center.sp.rt.ru
 cnspeedtest.cn @cn
 fast.com
 fastspeedtest.com
@@ -18,6 +20,7 @@ librespeed.org
 linkmeter.net
 measurement-lab.org
 measurementlab.net
+medidor-de-velocidad.movistar.com.ar
 meter.net
 metercustom.net
 misurainternet.it
@@ -42,9 +45,14 @@ nperf.pl
 openspeedtest.ru
 performance.cira.ca
 simet.nic.br
+sp.msp-ict.com
+speed-interior.shatel.ir
+speed.btcom.kz
+speed.cable-giant.com.tw
 speed.cloudflare.com
 speed.dler.io
 speed.ee
+speed.googlefiber.net
 speed.hinet.net
 speed.nccu.edu.tw
 speed.neu6.edu.cn @cn
@@ -52,6 +60,7 @@ speed.nju.edu.cn @cn
 speed.nuaa.edu.cn @cn
 speed.ops.nic.at
 speed.qlu.edu.cn @cn
+speed.sdpars.ir
 speed.ujs.edu.cn @cn
 speed2.hinet.net
 speed5.ntu.edu.tw
@@ -59,43 +68,78 @@ speed6.ujs.edu.cn @cn
 speedcheck.org
 speedgeo.net
 speedof.me
+speedtest.activ8me.net.au
+speedtest.centurylink.net
 speedtest.cesnet.cz
 speedtest.ch
 speedtest.citylink.pro
 speedtest.cn @cn
+speedtest.cnlab.ch
 speedtest.co.za
+speedtest.computerbild.de
 speedtest.de
 speedtest.dno-it.ru
+speedtest.downrightnow.in
+speedtest.ecoisp.co.za
 speedtest.frontier.com
+speedtest.gate02.ne.jp
+speedtest.gcore.com
+speedtest.gokinetic.com
 speedtest.gov.za
 speedtest.im
 speedtest.mail.ru
+speedtest.mbs.cloud
+speedtest.mci.ir
+speedtest.megaconexao.com.br
 speedtest.mfcyun.com @cn
+speedtest.mybroadband.co.za
 speedtest.net.in
 speedtest.net.ua
 speedtest.net.uk
+speedtest.net1.ie
+speedtest.orange.pl
 speedtest.org
+speedtest.parys.co.za
+speedtest.pishgaman.net
+speedtest.prodatanet.com.ph
 speedtest.rt.ru
+speedtest.rtc1.com
 speedtest.ru
+speedtest.sgix.sg
 speedtest.shaw.ca
 speedtest.shu.edu.cn @cn
+speedtest.simba.sg
+speedtest.sits.su
+speedtest.smartlink.ph
 speedtest.su
+speedtest.techbrew.co.za
 speedtest.uz
 speedtest.vn
+speedtest.vodafone.de
 speedtest.volia.com
+speedtest.windstream.net
+speedtest.woofy.ph
 speedtest.xaut.edu.cn @cn
 speedtest.xfinity.com
 speedtest.xyz
 speedtest24.ru
 speedtest6.shu.edu.cn @cn
+spt102.fetnet.net
 szelessav.net
+test.eolo.it
+test.libreqos.com
 test.nju.edu.cn @cn
 test.ustc.edu.cn @cn
 test6.nju.edu.cn @cn
 test6.ustc.edu.cn @cn
+teste.novolink.net.br
 testmy.net
 testmyspeed.com
 testskorosti.ru
+testvelocidad.uchile.cl
+testvelocidadmad.orange.es
+velocidade.mgconecta.com.br
+velocidade.ti.usp.br
 wifiman.com
 wifiman.me
 xnfz.seu.edu.cn @cn
