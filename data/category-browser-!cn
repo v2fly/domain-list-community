@@ -1,6 +1,7 @@
 include:ceno
 include:epicbrowser
 include:firefox
+include:librewolf
 include:torproject
 
 # chromium
@@ -19,7 +20,6 @@ floorp.app
 iridiumbrowser.de
 kiwibrowser.com
 kmeleonbrowser.org
-librewolf.net
 minbrowser.org
 netsurf-browser.org
 opera.com
