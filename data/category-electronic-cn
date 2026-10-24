@@ -29,10 +29,6 @@ hqchip.com
 hqdoc.com
 hqpcb.com
 
-# 英飞凌
-infineon.cn
-#infineon.com
-
 # 紫光集团
 gosinoic.com
 h3c.com
@@ -49,16 +45,23 @@ unisoc.com
 unispc.com
 uniswdc.com
 
+# 英飞凌
+infineon.cn
+#infineon.com
+
+# 移远通信
+iotronic.tech
+quecmall.cn
+quectel.com.cn
+
 # 嘉立创集团
 include:jlc
 
 # 聆思科技
 listenai.com
 
-# 移远通信
-quecmall.cn
-quectel.com.cn
-iotronic.tech
+# 微纳核芯
+nanocorechip.com
 
 # 瑞芯微电子
 rock-chips.com

@@ -23,10 +23,12 @@ include:category-travel-ru
 
 # Russian companies
 include:beget
+include:bitrix
 include:carrotquest
 include:cdek
 include:comssone
 include:drweb
+include:dsn-host
 include:envybox
 include:genotek-ru
 include:gismeteo
@@ -44,6 +46,7 @@ include:netcraze
 include:nic-ru
 include:positive-technologies
 include:regru
+include:sber
 include:selectel
 include:servicepipe
 include:skyeng
@@ -59,21 +62,21 @@ include:category-bank-ru
 ## Credit History Bureaus
 credistory.ru
 nbki.ru
-## Currency and stock exchanges
-moex.com   # Moscow Stock Exchange
-spvb.ru    # Saint-Petersburg Stock Exchange
 ## Card & Document delivery
 efin.ru
 ## Financial marketplace
 banki.ru
 finuslugi.ru
+## Insurance companies
+amt-insurance.com 
+lexgarant.com
+renins.com
+renins.ru
 ## Investment
 sistema-capital.com
 ## Mir payment system
 mironline.ru
 mirpayonline.ru
-## National Payment Card System
-nspk.ru
 ## Tipping service
 netmonet.co
 tips.tips
@@ -91,9 +94,11 @@ mcc250.pub.3gppnetwork.org # Mobile IMS
 # Other services
 3ebra.net          # Zebra Net Bureau, web development agency
 apptrackpets.com   # Pet GPS tracker service (Yandex Cloud, reg.ru)
+chat2desk.com      # Omnichannel communications platform and chat center
 flomni.com         # Omnichannel communications platform
 foto-planeta.com   # Photo encyclopedia of settlements
 gazfond-pn.ru      # Non-state pension fund GAZFOND pension savings
+hostland.ru        # Russian hosting provider
 litres.ru          # E-book and audiobook service
 meteoinfo.ru       # Hydrometeorological Center of Russia
 ngenix.net         # NGENIX is a Russian provider of acceleration and security services for public web resources
@@ -103,6 +108,7 @@ pochta.ru          # Russian post
 ponyexpress.ru     # Courier delivery service
 qms.ru             # Russian internet speed testing service
 randomgodbot.com   # Telegram randomizer bot
+robohall.tech      # Robohall, creative engineering and robotics studio (Moscow, Russia)
 srv-hub.org        # Website buider
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
@@ -124,3 +130,5 @@ adriver.ru @ads
 flocktory.com @ads
 roistat.com @ads
 targetads.io @ads
+terratraf.com @ads
+terratraf.io @ads
