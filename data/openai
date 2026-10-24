@@ -21,9 +21,9 @@ full:production-openaicom-storage.azureedge.net
 regexp:^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
 
 # tracking
-full:browser-intake-datadoghq.com @ads
-full:o33249.ingest.sentry.io @ads
-full:o33249.ingest.us.sentry.io @ads
+full:browser-intake-datadoghq.com @ads @telemetry
+full:o33249.ingest.sentry.io @ads @telemetry
+full:o33249.ingest.us.sentry.io @ads @telemetry
 full:openai.qualtrics.com @ads
 
 # Advanced Voice

@@ -31,4 +31,4 @@ juequling.com
 regexp:^.+-mihayo\.akamaized\.net$ @cn
 
 # Ads/tracking
-log-upload.mihoyo.com @ads
+log-upload.mihoyo.com @ads @telemetry

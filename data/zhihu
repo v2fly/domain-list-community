@@ -6,5 +6,5 @@ laiyagushi.com
 vzuu.com
 
 # Ads/tracking
-crash2.zhihu.com @ads
-zhihu-web-analytics.zhihu.com @ads
+crash2.zhihu.com @ads @telemetry
+zhihu-web-analytics.zhihu.com @ads @telemetry

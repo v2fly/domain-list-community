@@ -69,9 +69,9 @@ m12.vc
 a-msedge.net
 aka.ms
 ankarazirvesi2018.com
-applicationinsights.io
-applicationinsights.net
-aria.ms
+applicationinsights.io @telemetry
+applicationinsights.net @telemetry
+aria.ms @telemetry
 asp.net
 aspnetcdn.com
 binads.com
@@ -90,6 +90,7 @@ cortanaskills.com
 crmdynint-gcc.com
 crmdynint.com
 crossborderexpansion.com
+data.microsoft.com @telemetry
 docs.com
 dynamics.cn @cn
 dynamics.com
@@ -277,6 +278,7 @@ t-msedge.net
 tailwindtraders.com
 techhub.ms
 tfsallin.net
+telemetry.microsoft.com @telemetry
 translatetheweb.com
 unlocklimitlesslearning.com
 userpxt.io
@@ -316,7 +318,7 @@ full:statics-marketingsites-wcus-ms-com.akamaized.net
 clarity.ms @ads
 microsoftads.com @ads
 msads.net @ads
-nelreports.net @ads
+nelreports.net @ads @telemetry
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:microsoft@cn"

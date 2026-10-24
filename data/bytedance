@@ -21,7 +21,7 @@ ali-api-test.net
 ali-gtm-01.net
 ali-gtm-pressure.com
 ali-restore.net
-applogcdn.com
+applogcdn.com @telemetry
 arco.design
 baikevod.com
 bdactivity.com
@@ -397,9 +397,9 @@ byteadverts.com @ads
 csjplatform.com @ads
 ctobsnssdk.com @ads
 dig.bdurl.net @ads
-extlog.snssdk.com @ads
+extlog.snssdk.com @ads @telemetry
 i.snssdk.com @ads
-log.zijieapi.com @ads
+log.zijieapi.com @ads @telemetry
 mcs.snssdk.com @ads
 pangle.cn @ads
 pangolin-dsp-toutiao-b.com @ads

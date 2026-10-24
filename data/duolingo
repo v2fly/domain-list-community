@@ -3,5 +3,5 @@ duolingo.cn @cn
 
 # Ads/tracking
 ads-api.duolingo.com @ads
-analytics.vpc.duolingo.com @ads
-metrics.duolingo.com @ads
+analytics.vpc.duolingo.com @ads @telemetry
+metrics.duolingo.com @ads @telemetry
