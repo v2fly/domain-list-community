@@ -138,3 +138,7 @@ full:images-cn-8.ssl-images-amazon.com @cn
 # Ads/tracking
 amazon-adsystem.com @ads
 serving-sys.com @ads
+
+# Prime Video client metrics and diagnostic log uploads
+full:unagi-eu.amazon.com @ads
+full:unagi-na.amazon.com @ads
