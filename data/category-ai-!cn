@@ -1,7 +1,6 @@
 include:anthropic
 include:bytedance-ai-!cn
 include:cerebras
-include:cline
 include:comfy
 include:cursor
 include:elevenlabs
@@ -60,6 +59,7 @@ arena.ai
 artificialanalysis.ai
 chutes.ai
 clawhub.ai
+cline.bot
 commandcode.ai
 context7.com
 crewai.com
