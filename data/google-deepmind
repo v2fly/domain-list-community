@@ -25,6 +25,11 @@ gemini.gstatic.com
 full:geminiweb-pa.clients.google.com
 full:geminiweb-pa.clients6.google.com
 
+# Gemini in Google Workspace apps (Gmail, Docs, Drive side panel)
+full:appsgenaiserver-pa.clients.google.com
+full:appsgenaiserver-pa.clients6.google.com
+full:appsgenaiserver-pa.googleapis.com
+
 # Gemini Code Assist
 # https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
 full:cloudaicompanion.googleapis.com
