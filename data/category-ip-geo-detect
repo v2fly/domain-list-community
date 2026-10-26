@@ -1,4 +1,5 @@
 include:ipip
+include:test-ipv6
 
 02ip.ru
 101ip.ru
@@ -1525,44 +1526,6 @@ yourip.nz
 yourip.top
 yourip.us
 zistiip.sk
-
-# IPv6 Test
-ip6.ro
-ipv6.uz
-ipv6ready.me
-sixte.st
-test-ipv6.alpinedc.ch
-test-ipv6.amelek.net
-test-ipv6.ams.vr.org
-test-ipv6.arauc.br
-test-ipv6.cgates.lt
-test-ipv6.cl
-test-ipv6.coloradointerlink.net
-test-ipv6.com
-test-ipv6.cs.umd.edu
-test-ipv6.csclub.uwaterloo.ca
-test-ipv6.cz
-test-ipv6.datafiber.nl
-test-ipv6.epic.network
-test-ipv6.fratec.net
-test-ipv6.freerangecloud.com
-test-ipv6.hu
-test-ipv6.in
-test-ipv6.iu13.net
-test-ipv6.jp
-test-ipv6.karsolink.com
-test-ipv6.nl
-test-ipv6.noroutetohost.net
-test-ipv6.roedu.net
-test-ipv6.run
-test-ipv6.se
-test-ipv6.triplebit.us
-test.version6.ru
-testipv6.be
-testipv6.ca
-testipv6.cn @cn
-testipv6.de
-testipv6.net
 
 # Subdomains/internal api used for ip-geo-detect
 full:2ip.kamensky-lab.ru
