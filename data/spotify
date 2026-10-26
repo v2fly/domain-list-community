@@ -21,9 +21,9 @@ full:audio4-ak-spotify-com.akamaized.net
 full:cdn-spotify-experiments.conductrics.com
 full:heads-ak-spotify-com.akamaized.net
 full:heads4-ak-spotify-com.akamaized.net
-full:spotify.com.edgesuite.net
 full:spotify.map.fastly.net
 full:spotify.map.fastlylb.net
+spotify.com.edgesuite.net
 
 # Ads/tracking
 full:adeventtracker.spotify.com @ads
