@@ -3,11 +3,11 @@ unity3d.com
 
 # Ads/tracking
 # https://github.com/v2fly/domain-list-community/pull/3716
-analytics.cloud.unity3d.com @ads
+analytics.cloud.unity3d.com @ads @telemetry
 config.uca.cloud.unity3d.com @ads
 cdp.cloud.unity3d.com @ads
 prd-lender.cdp.internal.unity3d.com @ads
 iads.unity3d.com @ads
-perf.cloud.unity3d.com @ads
-perf-events.cloud.unity3d.com @ads
+perf.cloud.unity3d.com @ads @telemetry
+perf-events.cloud.unity3d.com @ads @telemetry
 unityads.unity3d.com @ads

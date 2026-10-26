@@ -122,33 +122,33 @@ adsview.qq.com @ads
 adsview2.qq.com @ads
 adv.app.qq.com @ads
 adver.qq.com @ads
-beacon.cdn.qq.com @ads
-beacon.qq.com @ads
-beaconcdn.qq.com @ads
-btrace.qq.com @ads
-bugly.qq.com @ads
+beacon.cdn.qq.com @ads @telemetry
+beacon.qq.com @ads @telemetry
+beaconcdn.qq.com @ads @telemetry
+btrace.qq.com @ads @telemetry
+bugly.qq.com @ads @telemetry
 e.qq.com @ads
 gdt.qq.com @ads
 gdtimg.com @ads
 hq-tracking.qq.com @ads
-htrace.wetvinfo.com @ads
+htrace.wetvinfo.com @ads @telemetry
 isdspeed.qq.com @ads
-log.tbs.qq.com @ads
+log.tbs.qq.com @ads @telemetry
 mdt.qq.com @ads
-monitor.uu.qq.com @ads
+monitor.uu.qq.com @ads @telemetry
 mpush.qq.com @ads
-mtrace.qq.com @ads
+mtrace.qq.com @ads @telemetry
 pgdt.gtimg.cn @ads
 pingjs.qq.com @ads
 pmir.3g.qq.com @ads
 push.qq.com @ads
 qqdata.ab.qq.com @ads
-report.qqweb.qq.com @ads
-rmonitor.qq.com @ads
-sngmta.qq.com @ads
+report.qqweb.qq.com @ads @telemetry
+rmonitor.qq.com @ads @telemetry
+sngmta.qq.com @ads @telemetry
 tajs.qq.com @ads
 tcss.qq.com @ads
-tpstelemetry.tencent.com @ads
-trace.qq.com @ads
+tpstelemetry.tencent.com @ads @telemetry
+trace.qq.com @ads @telemetry
 ugdtimg.com @ads
 wit.qq.com @ads

@@ -85,6 +85,7 @@ cosmosdb.net
 devopsms.com
 gotcosmos.com
 hdinsightservices.cn @cn
+in.applicationinsights.azure.com @telemetry
 management-azure-devices-int.net
 management-azure-devices-provisioning.cn @cn
 management-azure-devices.cn @cn
@@ -142,6 +143,8 @@ azchcdns.com @cn
 
 full:azure.microsoft.com
 full:azuremarketplace.microsoft.com
+full:dc.applicationinsights.azure.com @telemetry
+full:live.applicationinsights.azure.com @telemetry
 
 # Azure DNS
 azure-dns.cn @cn

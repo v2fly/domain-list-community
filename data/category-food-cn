@@ -107,7 +107,7 @@ shuanghui.net
 micun.com
 
 # Tracking
-logger.qmai.cn @ads
-tracking.mcdonalds.com.cn @ads
-trackingprd.hwwt8.com @ads
-trackserver.shuxinyc.com @ads
+logger.qmai.cn @ads @telemetry
+tracking.mcdonalds.com.cn @ads @telemetry
+trackingprd.hwwt8.com @ads @telemetry
+trackserver.shuxinyc.com @ads @telemetry

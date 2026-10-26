@@ -20,5 +20,5 @@ full:api-ru.mindbox.cloud @ads
 full:api-staging.mindbox.ru @ads
 full:api.mindbox.cloud @ads
 full:api.mindbox.ru @ads
-full:sentry.mindbox.ru @ads
-full:sentry.popmechanic.ru @ads
+full:sentry.mindbox.ru @ads @telemetry
+full:sentry.popmechanic.ru @ads @telemetry

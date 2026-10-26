@@ -22,7 +22,7 @@ full:ads.vk.ru @ads
 full:adv.vk.ru @ads
 full:advk.vk.ru @ads
 full:analytics.vk.ru @ads
-full:stats.vk-portal.net @ads
+full:stats.vk-portal.net @ads @telemetry
 full:target.vk.com @ads
 
 # CDNs
