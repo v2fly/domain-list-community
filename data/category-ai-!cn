@@ -1,6 +1,7 @@
 include:anthropic
 include:bytedance-ai-!cn
 include:cerebras
+include:cline
 include:comfy
 include:cursor
 include:elevenlabs
@@ -58,6 +59,8 @@ anythingllm.com
 arena.ai
 chutes.ai
 clawhub.ai
+commandcode.ai
+context7.com
 crewai.com
 devin.ai
 diabrowser.com
@@ -77,6 +80,7 @@ minimax.io
 mistral.ai
 mozilla.ai
 notegpt.io
+nousresearch.com
 novelai.net
 ollama.com
 openart.ai
