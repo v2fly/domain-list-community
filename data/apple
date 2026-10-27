@@ -752,6 +752,9 @@ full:init.gc-lb.apple.com.akadns.net @cn
 full:init.gc.apple.com @cn
 full:km.support.apple.com @cn
 full:maps.apple.com @cn
+full:sh-pod1-smp-device.apple.com @cn
+full:sh-pod2-smp-device.apple.com @cn
+full:sh-pod3-smp-device.apple.com @cn
 full:tj-pod1-smp-device.apple.com @cn
 full:tj-pod2-smp-device.apple.com @cn
 full:tj-pod3-smp-device.apple.com @cn
@@ -882,7 +885,6 @@ full:seed-sequoia.siri.apple.com @cn
 full:seed-swallow.siri.apple.com @cn
 full:seed.siri.apple.com @cn
 full:sequoia.apple.com @cn
-full:sh-pod2-smp-device.apple.com @cn
 full:shazam-insights.cdn-apple.com @cn
 full:smp-device-content.apple.com @cn
 full:static.gc.apple.com @cn
