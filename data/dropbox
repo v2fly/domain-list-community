@@ -1,19 +1,28 @@
 # List of all domains being operated by Dorpbox Inc.
-# Source: https://help.dropbox.com/zh-cn/accounts-billing/security/official-domains
+# Source: https://help.dropbox.com/security/official-domains
+addtodropbox.com
+dash.ai
 db.tt
+docsend.com
 dropbox-dns.com
 dropbox.com
 dropbox.tech
 dropboxapi.com
 dropboxbusiness.com
 dropboxcaptcha.com
+dropboxexperiment.com
 dropboxforum.com
 dropboxforums.com
 dropboxinsiders.com
+dropboxlegal.com
 dropboxmail.com
 dropboxpartners.com
 dropboxstatic.com
+dropboxteam.com
 dropboxusercontent.com
 getdropbox.com
+hellofax.com
+hellosign.com
 
+full:dropbox.zendesk.com
 full:paper-attachments.s3.amazonaws.com

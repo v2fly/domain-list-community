@@ -7,5 +7,5 @@ full:m1.ppy.sh
 # osu lazer
 full:lazer.ppy.sh
 full:notify.ppy.sh
-full:sentry.ppy.sh
+full:sentry.ppy.sh @telemetry
 full:spectator.ppy.sh

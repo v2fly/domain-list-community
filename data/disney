@@ -151,4 +151,4 @@ watchdisneyfe.com
 full:disneyplus.com.ssl.sc.omtrdc.net
 
 # tracking
-full:disney.my.sentry.io @ads
+full:disney.my.sentry.io @ads @telemetry
