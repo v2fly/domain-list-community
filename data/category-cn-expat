@@ -1,0 +1,42 @@
+# Part of Chinese entities but exclusively serving for non-cn area
+# This list is NOT included in `geolocation-cn`, `cn` or `geolocation-!cn`
+
+include:kurogames @!cn
+include:xd @!cn
+include:boc @!cn
+include:ccb @!cn
+include:citic @!cn
+include:cmb @!cn
+include:icbc @!cn
+include:espressif @!cn
+include:eastmoney @!cn
+include:pingan @!cn
+include:ctrip @!cn
+include:dewu @!cn
+include:jd @!cn
+include:airchina @!cn
+include:alibaba @!cn
+include:anker @!cn
+include:auxgroup @!cn
+include:bytedance @!cn
+include:didi @!cn
+include:huawei @!cn
+include:netease @!cn
+include:oppo @!cn
+include:tencent @!cn
+include:vivo @!cn
+include:xiaomi @!cn
+include:chinamobile @!cn
+include:chinatelecom @!cn
+include:chinaunicom @!cn
+include:ipip @!cn
+include:bilibili @!cn
+include:iqiyi @!cn
+include:deepin @!cn
+include:sina @!cn
+include:xiaohongshu @!cn
+
+# youku is included in alibaba
+# include:youku @!cn
+# yuewen is included in tencent
+# include:yuewen @!cn
