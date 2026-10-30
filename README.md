@@ -15,7 +15,7 @@ This project is not opinionated. In other words, it does NOT endorse, claim or i
 
 ## Notice
 
-- Rules with `@!cn` attribute have been cast out from cn lists. `geosite:geolocation-cn@!cn` is no longer available. Check [#390](https://github.com/v2fly/domain-list-community/issues/390), [#3119](https://github.com/v2fly/domain-list-community/pull/3119) and [#3198](https://github.com/v2fly/domain-list-community/pull/3198) for more information.
+- Rules with `@!cn` attribute have been cast out from cn lists. `geosite:geolocation-cn@!cn` is no longer available. Use `geosite:category-cn-expat` instead. Check [#3119](https://github.com/v2fly/domain-list-community/pull/3119), [#3198](https://github.com/v2fly/domain-list-community/pull/3198) and [#3265](https://github.com/v2fly/domain-list-community/pull/3265) for more information.
 - Dedicated non-category ad lists like `geosite:xxx-ads` have been removed. Use `geosite:xxx@ads` instead. `geosite:category-ads[-xx]` is not affected.
 
 Please report if you have any problems or questions.
