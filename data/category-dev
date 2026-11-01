@@ -60,6 +60,7 @@ include:tilda
 include:unity
 include:v8
 include:webflow
+include:wix
 include:wordpress
 
 adventofcode.com
