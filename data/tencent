@@ -40,6 +40,7 @@ tencent.net.cn
 tencentmiying.com
 tengmed.com
 tenpay.com
+tenpayglobal.com
 tfogc.com
 wechat.com
 wechatpay.cn
@@ -56,6 +57,10 @@ mmbizurl.cn
 url.cn
 wxaurl.cn
 wxmpurl.cn
+
+# 腾讯微保
+wesure.cn
+wesure100.com
 
 # 腾讯视频海外版
 wetv.vip @!cn
