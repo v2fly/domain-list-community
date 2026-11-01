@@ -48,3 +48,9 @@ cmdcxls.com
 cxzx10086.cn
 fxltsbl.com
 zdsdp.com
+
+# 3GPP 公网域 (IMS / VoWiFi)
+mnc000.mcc460.pub.3gppnetwork.org
+mnc002.mcc460.pub.3gppnetwork.org
+mnc004.mcc460.pub.3gppnetwork.org
+mnc007.mcc460.pub.3gppnetwork.org
