@@ -19,3 +19,8 @@ ads.api.my7v.com @ads
 euads-o.api.leiniao.com @ads
 hwads-t.api.my7v.com @ads
 testads.api.my7v.com @ads
+# boot ad delivery, creative CDN, and the ad SDK key server
+ads-api-o.api.leiniao.com @ads
+ads-o.res.leiniao.com @ads
+ads-api-t.my7v.com @ads
+isms-o.api.my7v.com @ads
