@@ -54,7 +54,7 @@ itunes-apple.com.akadns.net
 itunes.apple.com
 
 # Domains with access point in China mainland
-# Avoid adding `[domain:]itunes.apple.com @cn` directly, as some subdomains not resolve to a cn IP address
+# Avoid adding `[domain:]itunes.apple.com @cn` directly, as some subdomains do not resolve to a cn IP address
 # See #2228 and #2259
 full:amp-api-edge-lb-cn.itunes-apple.com.akadns.net @cn
 full:amp-api-edge-lb.itunes-apple.com.akadns.net @cn

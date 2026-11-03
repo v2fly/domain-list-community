@@ -3,7 +3,7 @@ ru.com
 ru.net
 
 # - There is `[domain:]ru` in this list (from tld-ru), which matches all `*.ru` domains
-# - Redundant subdomains (full/domain type without attr) will be trimed by main.go
+# - Redundant subdomains (full/domain type without attr) will be trimmed by main.go
 #   In this list, `*.ru` domains without attr are redundant for the program and will not contribute to `geosite:category-ru`
 # - You can still add `*.ru` domains here if you want
 
@@ -109,7 +109,7 @@ ponyexpress.ru     # Courier delivery service
 qms.ru             # Russian internet speed testing service
 randomgodbot.com   # Telegram randomizer bot
 robohall.tech      # Robohall, creative engineering and robotics studio (Moscow, Russia)
-srv-hub.org        # Website buider
+srv-hub.org        # Website builder
 t1.cloud           # Russian cloud storage provider
 taxsee.com         # Taxi for business (self-employed drivers)
 vimu.tv            # Vimu Media Player

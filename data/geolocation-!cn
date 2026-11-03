@@ -3,7 +3,7 @@
 # AI Chat
 include:category-ai-!cn
 
-# Advertisment & Analytics
+# Advertisement & Analytics
 include:pubmatic
 include:taboola
 
@@ -144,7 +144,7 @@ include:category-orgs
 # Porn
 include:category-porn
 
-# Services & Softwares
+# Services & Software
 include:category-android-app-download
 include:category-antivirus
 include:category-browser-!cn

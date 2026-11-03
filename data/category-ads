@@ -1,5 +1,5 @@
 # This file contains domains that clearly serving for ads or tracking.
-# We can not seperate ads and tracking domains clearly, so they are mixed together.
+# We cannot separate ads and tracking domains clearly, so they are mixed together.
 include:category-ads-ir
 
 include:36kr @ads
