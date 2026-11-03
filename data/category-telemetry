@@ -52,6 +52,7 @@ include:sina @telemetry
 include:tencent @telemetry
 include:tencent-dev @telemetry
 include:tencent-tme @telemetry
+include:tcl @telemetry
 include:umeng @telemetry
 include:unity @telemetry
 include:vk @telemetry

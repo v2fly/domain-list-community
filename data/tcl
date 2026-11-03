@@ -24,3 +24,14 @@ ads-api-o.api.leiniao.com @ads
 ads-o.res.leiniao.com @ads
 ads-api-t.my7v.com @ads
 isms-o.api.my7v.com @ads
+
+# Telemetry: BI report, report config, QMS error report, Bugly app config
+base.api.my7v.com @telemetry
+dc-conf-o.api.leiniao.com @telemetry
+dc-conf-t.api.leiniao.com @telemetry
+dc-o.api.leiniao.com @telemetry
+dc-t.api.leiniao.com @telemetry
+dc-uo.api.leiniao.com @telemetry
+dc-ut.api.leiniao.com @telemetry
+qms-report-o.api.leiniao.com @telemetry
+qms-report-t.api.leiniao.com @telemetry
