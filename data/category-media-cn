@@ -52,6 +52,8 @@ bjd.com.cn
 bjnews.com.cn
 bkeconomy.com
 qianlong.com
+# 博望财经
+bowangcaijing.cn
 # 北京时间
 btime.com
 # 财经网
@@ -72,6 +74,8 @@ ccreports.com.cn
 tfcaijing.com
 time-weekly.com
 timesmedia.com.cn
+# 飞象网
+cctime.com
 # 中国经济网
 ce.cn
 # 改革网
@@ -116,11 +120,15 @@ cneo.com.cn
 # 中金在线
 cnfol.com
 cnfolimg.com
+# 中国食品报
+cnfood.cn
 # 荆楚网/湖北日报
 cnhubei.com
 hubeidaily.net
 # CNMO
 cnmo.com
+# 中国食品药品网/中国医药报
+cnpharm.com
 # 央广网
 cnr.cn
 radio.cn
@@ -170,6 +178,8 @@ eefcdn.com
 eefocus.com
 # 广州日报大洋网
 dayoo.com
+# 东北网
+dbw.cn
 # 中国国家地理网
 dili360.com
 # 读特新闻
@@ -209,6 +219,8 @@ geekbang.org
 infoq.cn
 # 极客公园
 geekpark.net
+# 格隆汇
+gelonghui.com
 # 机锋网
 gfan.com
 # 光明日报
@@ -229,6 +241,9 @@ gxxmt.com
 liangtv.cn
 # 广州市广播电视台
 gztv.com
+# 河北新闻网/河北日报
+hebnews.cn
+hebrb.cn
 # i黑马网
 heimadata.com
 iheima.com
@@ -262,6 +277,8 @@ huxiu.com
 huxiucdn.com
 # 海峡网
 hxnews.com
+# 中国企业家
+iceo.com.cn
 # 电脑报
 icpcw.com
 # 长沙晚报
@@ -283,6 +300,8 @@ iresearch.cn
 istv.cn
 # IT168
 it168.com
+# 正义网
+jcrb.com
 # 上观新闻/解放日报
 jfdaily.com
 jfdaily.com.cn
@@ -339,6 +358,15 @@ leiphone.com
 # 三联生活周刊/三联书店
 lifeweek.com.cn
 sdxjpc.com
+# 新华社
+mcndata.cn
+news.cn
+newscdn.cn
+newsimg.cn
+shuwen.com
+xinhuanet.com
+xinhuaxmt.com
+xinhuazhiyun.com
 # 今日观察网
 miercn.com
 # 闽南网
@@ -351,11 +379,6 @@ nanyuenews.com
 nbd.com.cn
 # 新周刊
 neweekly.com.cn
-# 新华社
-news.cn
-newsimg.cn
-xinhuanet.com
-xinhuaxmt.com
 # 四川新闻网
 newssc.org
 # 奥一新闻
@@ -383,6 +406,8 @@ peopleapp.com
 pedaily.cn
 # 品玩
 pingwest.com
+# 朝闻通
+przwt.com
 # 量子位
 qbitai.com
 # 齐鲁壹点
@@ -406,6 +431,8 @@ sctv-tf.com
 sctv.com
 # 科学网/中国科学报
 sciencenet.cn
+# 四川发布
+scpublic.cn
 # 四川手机报
 scsjb.cn
 # 安全内参
@@ -450,8 +477,14 @@ thepaper.cn
 # 潮新闻/浙江日报
 8531.cn
 tidenews.com.cn
+# 观潮新消费
+tidesight.com
 # 理想生活实验室
 toodaylab.com
+# 环球旅讯
+traveldaily.cn
+# 有为财经
+upsort.com
 # 动脉网
 vbdata.cn
 vcbeat.top
@@ -489,6 +522,8 @@ zgjtb.com
 zhichanli.com
 # 至顶网
 zhiding.cn
+# 指股网
+zhiguf.com
 # 浙江在线
 zjol.com.cn
 # 中关村在线
