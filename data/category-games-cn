@@ -8,7 +8,7 @@ include:herogame
 include:kurogames @-!cn
 include:mihoyo-cn
 include:seasun
-include:tencent-games
+include:tencent-games @-!cn
 include:tiancity
 include:vrzwk
 include:xd @-!cn
