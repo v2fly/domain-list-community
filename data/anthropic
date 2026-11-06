@@ -19,3 +19,6 @@ claudeusercontent.com
 
 # CDN
 full:servd-anthropic-website.b-cdn.net
+
+# Claude Code telemetry
+full:http-intake.logs.us5.datadoghq.com @ads
