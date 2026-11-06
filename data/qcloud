@@ -4,7 +4,6 @@ include:dnspod
 acctdns.com
 acctdns.net
 aitransfy.com
-apaas-zone-test.com
 apdcdn.com
 apdcdn.net
 apigwtencent.com
@@ -53,7 +52,6 @@ gaapqcloud.com
 gitdrone.cn
 gmedev.cn
 govqcloud.com
-gsadds.com
 gtm.pub
 hr-welink.com
 idcgcloudcs.com
@@ -74,12 +72,10 @@ openapp.run
 ovscdns.com
 ovscdns.net
 pn1waq.com
-qcloud-edumall.com
 qcloud.com
 qcloud.la
 qcloudapps.com
 qcloudcdn.com
-qcloudcdntest.cn
 qcloudclass.com
 qcloudcos.cn
 qcloudcos.com
@@ -88,7 +84,6 @@ qclouder.com
 qcloudgme.com
 qcloudimg.com
 qcloudipv6.com
-qcloudmarket.com
 qcloudns.com
 qcloudsmartiot.com
 qcloudtcic.com
@@ -96,7 +91,6 @@ qcloudtiw.com
 qcloudtrip.com
 qcloudtt.com
 qcloudwaf.com
-qdwebim.com
 qeodns.com
 qeodns.net
 qqmra.cn
@@ -127,7 +121,6 @@ tcloudbase.com
 tcloudbase.net
 tcloudbaseapp.com
 tcloudbi.com
-tclouddrive.com
 tcloudedu.com
 tcloudhw.com
 tcloudhw.net
@@ -137,24 +130,19 @@ tdnsstic1.cn
 tdnsx1.com
 techo.chat
 tefscloud.com
-tefscloud.net
-tenant-zone-dev.com
 tencdns.net
 tencent-cloud.com
 tencent-cloud.net
 tencentapps.com
-tencentbyod.com
 tencentcdb.cn
 tencentcdb.com
 tencentcdb.com.cn
 tencentclb.cn
 tencentclb.com
 tencentclb.com.cn
-tencentcloud-aiot.com
 tencentcloudapi.com
 tencentcloudclub.com
 tencentcloudcr.com
-tencentcloudmarket.com
 tencentcloudns.com
 tencentcloudsec.com
 tencentcloudses.com
@@ -167,7 +155,6 @@ tencentdayu.com
 tencentdb.com
 tencentdevices.com
 tencentdigitalassistant.com
-tencentdms.com
 tencenteiam.com
 tencentelasticsearch.com
 tencentid.com
@@ -184,24 +171,15 @@ testjrzk.net.cn
 testmeet.cn
 testwaf.com
 tgovcloud.com
-tidaas.com
-timatrix.com.cn
-timmerse.com
 tlivecdn.com
 tlivemcdn.com
 tlivepush.com
 tlivesource.com
 tourismshow.cn
-tourismuser.cn
-tsparkling.com
-tx-exhibition.com
-txbyod.com
 txidc.wang
 txlivecdn.com
-txtyxg.com
 txyscdn.com
 txyscdn.net
-uncnn.cn
 vcloudstc.com
 vcloudstc.net
 vcloudvod.com
@@ -210,8 +188,6 @@ vxo7tu.com
 wework-studio.com
 xqymuy.com
 yufuid.com
-yufuid.com.cn
-yufuid.net
 yunjitele.com
 
 # regexp:.+\.dnse[0-5]\.(cn|com)$
@@ -392,11 +368,8 @@ oracle-tencent.net.cn
 
 # 腾讯优码
 m1.run
-m6.run
-m9.run
 ma.run
 um.run
-ym.run
 
 # 前端性能监控
 aegis.qq.com
