@@ -2,10 +2,17 @@
 # The project does not provide any guarantees or warranties to financial institutions.
 
 # Stock Exchange 证券交易所
-sse.com.cn
-sseinfo.com
-szse.cn
-cninfo.com.cn
+bse.cn # 北京证券交易所
+bseinfo.net # 北京证券交易所
+chinahtz.com # 科融通（深交所）
+cnindex.com.cn # 国证指数（深交所）
+cninfo.com.cn # 巨潮资讯（深交所）
+csindex.com.cn # 中证指数有限公司
+sse.com.cn # 上海证券交易所
+sseinfo.com # 上证所信息网络有限公司
+ssetech.com.cn # 上交所技术有限责任公司
+szse.cn # 深圳证券交易所
+szsi.cn # 深圳证券信息有限公司（深交所）
 
 # 中国证券登记结算有限责任公司
 chinaclear.cn
