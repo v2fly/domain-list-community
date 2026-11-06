@@ -23,5 +23,6 @@ primevideo.com
 primevideo.info
 primevideo.org
 primevideo.tv
-prod.service.minerva.devices.a2z.com
+# Minerva client performance and request metrics (not video delivery)
+prod.service.minerva.devices.a2z.com @ads
 pv-cdn.net
