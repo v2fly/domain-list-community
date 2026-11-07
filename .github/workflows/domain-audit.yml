@@ -1,0 +1,54 @@
+name: Audit domain registrations
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    name: Audit domain registrations
+    if: github.event_name != 'schedule' || github.repository == 'v2fly/domain-list-community'
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+
+    steps:
+      - name: Checkout codebase and domain history
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Go
+        uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+
+      - name: Audit domain registrations
+        run: go run ./cmd/domaincheck --outputdir=domain-audit --timeout=5h
+
+      - name: Publish audit summary
+        if: always()
+        run: |
+          if [ -f domain-audit/summary.md ]; then
+            cat domain-audit/summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "::warning::The domain audit did not produce a summary. Check the audit logs."
+            echo "The domain audit did not produce a summary. Check the audit logs." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: domain-audit-${{ github.run_number }}
+          path: |
+            domain-audit/report.json
+            domain-audit/summary.md
+          if-no-files-found: error
