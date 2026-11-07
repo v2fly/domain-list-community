@@ -20,7 +20,7 @@ func writeReports(outputDir string, data *inventory, results []checkResult) erro
 		if result.FirstSeen.IsZero() {
 			missingHistory++
 		}
-		if result.Status == "registered" && result.Registered.IsZero() {
+		if result.Status == statusRegistered && result.Registered.IsZero() {
 			missingRegistration++
 		}
 	}
@@ -54,11 +54,11 @@ func writeReports(outputDir string, data *inventory, results []checkResult) erro
 	fmt.Fprintf(&summary, "\nScanned %d literal rules, grouped into %d registration domains.\n", data.LiteralRules, len(results))
 	fmt.Fprintln(&summary, "\nThis is an advisory report for manual review. No rules are removed automatically. Registered does not mean ownership is correct. A later registration date suggests a lapse but does not prove a change of owner.")
 	fmt.Fprintln(&summary, "\n| Result | Domains |\n| --- | ---: |")
-	for _, status := range []string{"registered", "possibly_unregistered", "possibly_reregistered", "unknown", "unsupported"} {
+	for _, status := range []string{statusRegistered, statusPossiblyUnregistered, statusPossiblyReregistered, statusUnknown, statusUnsupported} {
 		fmt.Fprintf(&summary, "| %s | %d |\n", status, counts[status])
 	}
 	fmt.Fprintf(&summary, "\nUnknown and unsupported results are coverage gaps, not evidence of expiry. Registration-date comparison was unavailable for %d registered domains without a registration date, and %d domains without rule history.\n", missingRegistration, missingHistory)
-	if counts["unknown"] > 0 {
+	if counts[statusUnknown] > 0 {
 		fmt.Fprintln(&summary, "\n**Coverage is incomplete.** Inspect `unknown` results in the JSON report before drawing conclusions.")
 	}
 	fmt.Fprintln(&summary, "\nSkipped rules:")
@@ -71,11 +71,11 @@ func writeReports(outputDir string, data *inventory, results []checkResult) erro
 		fmt.Fprintf(&summary, "- %s: %d\n", markdownText(typ), data.Skipped[typ])
 	}
 	fmt.Fprintln(&summary, "\nIncludes are covered through their source files. Keywords and regular expressions cannot be queried as DNS names. TLD-only names and names without an ICANN registration boundary are excluded, along with Tor .onion names and infrastructure .arpa names.")
-	fmt.Fprintln(&summary, "\n## Review candidates\n\nA missing registration requires registry RDAP `errorCode: 404` plus NXDOMAIN from both Google and Cloudflare DNS for the registration domain. NOERROR (including NODATA), DNS failures, non-RDAP 404 responses and unsupported registries are not classified as unregistered.")
+	fmt.Fprintln(&summary, "\n## Review candidates\n\nA missing registration requires a registry RDAP HTTP 404, with an empty body or `errorCode: 404`, plus NXDOMAIN from both Google and Cloudflare DNS for the registration domain. NOERROR (including NODATA), DNS failures, other 404 bodies and unsupported registries are not classified as unregistered.")
 	fmt.Fprintln(&summary, "\n| Domain | Finding | First in history (UTC) | Registered (UTC) | Source locations |\n| --- | --- | --- | --- | --- |")
 	candidates := 0
 	for _, result := range results {
-		if result.Status != "possibly_unregistered" && result.Status != "possibly_reregistered" {
+		if result.Status != statusPossiblyUnregistered && result.Status != statusPossiblyReregistered {
 			continue
 		}
 		candidates++
@@ -93,8 +93,8 @@ func writeReports(outputDir string, data *inventory, results []checkResult) erro
 	if err := os.WriteFile(filepath.Join(outputDir, "summary.md"), []byte(summary.String()), 0644); err != nil {
 		return err
 	}
-	fmt.Printf("Audit reports saved to %s: %d review candidates, %d unknown, %d unsupported\n", outputDir, candidates, counts["unknown"], counts["unsupported"])
-	if counts["registered"]+counts["possibly_unregistered"]+counts["possibly_reregistered"] == 0 {
+	fmt.Printf("Audit reports saved to %s: %d review candidates, %d unknown, %d unsupported\n", outputDir, candidates, counts[statusUnknown], counts[statusUnsupported])
+	if counts[statusRegistered]+counts[statusPossiblyUnregistered]+counts[statusPossiblyReregistered] == 0 {
 		return fmt.Errorf("no conclusive registry responses; reports saved with coverage gaps")
 	}
 	return nil

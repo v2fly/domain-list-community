@@ -46,7 +46,7 @@ func auditDomains(ctx context.Context, data *inventory, client *http.Client, int
 	if err != nil {
 		bootstrapErr := fmt.Errorf("load RDAP bootstrap: %w", err)
 		for index, name := range names {
-			results[index] = checkResult{domainEntry: data.Domains[name], Status: "unknown", Detail: bootstrapErr.Error()}
+			results[index] = checkResult{domainEntry: data.Domains[name], Status: statusUnknown, Detail: bootstrapErr.Error()}
 		}
 		return errors.Join(bootstrapErr, writeReports(outputDir, data, results))
 	}

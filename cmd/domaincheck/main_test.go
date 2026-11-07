@@ -15,12 +15,6 @@ import (
 	"time"
 )
 
-type bootstrapTransport func(*http.Request) (*http.Response, error)
-
-func (transport bootstrapTransport) RoundTrip(request *http.Request) (*http.Response, error) {
-	return transport(request)
-}
-
 func TestAuditDomainsPreservesReportsWhenBootstrapTimesOut(t *testing.T) {
 	for _, status := range []int{http.StatusServiceUnavailable, http.StatusTooManyRequests} {
 		t.Run(http.StatusText(status), func(t *testing.T) {
@@ -33,7 +27,7 @@ func TestAuditDomainsPreservesReportsWhenBootstrapTimesOut(t *testing.T) {
 				LiteralRules: 2, Skipped: map[string]int{"keyword": 1},
 			}
 			var requests atomic.Int32
-			client := &http.Client{Transport: bootstrapTransport(func(request *http.Request) (*http.Response, error) {
+			client := &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
 				requests.Add(1)
 				if request.URL.String() != bootstrapURL {
 					t.Errorf("unexpected request before bootstrap succeeded: %s", request.URL)
@@ -107,7 +101,7 @@ func TestAuditDomainsPreservesBootstrapAndReportWriteErrors(t *testing.T) {
 	bootstrapErr := errors.New("bootstrap transport unavailable")
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
-	client := &http.Client{Transport: bootstrapTransport(func(request *http.Request) (*http.Response, error) {
+	client := &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
 		cancel()
 		return nil, bootstrapErr
 	})}

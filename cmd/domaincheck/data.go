@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"io/fs"
+	"maps"
 	"net"
 	"os"
 	"os/exec"
@@ -27,7 +28,7 @@ type source struct {
 type domainEntry struct {
 	Domain    string    `json:"domain"`
 	Sources   []source  `json:"sources"`
-	FirstSeen time.Time `json:"first_seen"`
+	FirstSeen time.Time `json:"first_seen,omitzero"`
 }
 
 type inventory struct {
@@ -183,21 +184,15 @@ func loadHistory(ctx context.Context, dataPath string, domains map[string]*domai
 	if err := command.Start(); err != nil {
 		return err
 	}
-	readErr := readHistory(pipe, domains)
-	if readErr != nil {
+	if err := readHistory(pipe, domains); err != nil {
+		// Report the parse failure rather than the resulting "signal: killed".
 		_ = command.Process.Kill()
-	}
-	if err := command.Wait(); err != nil {
+		_ = command.Wait()
 		return err
 	}
-	return readErr
+	return command.Wait()
 }
 
 func sortedDomains(domains map[string]*domainEntry) []string {
-	names := make([]string, 0, len(domains))
-	for name := range domains {
-		names = append(names, name)
-	}
-	slices.Sort(names)
-	return names
+	return slices.Sorted(maps.Keys(domains))
 }

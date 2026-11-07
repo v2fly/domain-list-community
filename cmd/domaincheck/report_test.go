@@ -25,7 +25,7 @@ func TestWriteReportsPreservesEvidenceAndCoverage(t *testing.T) {
 		{
 			domainEntry: &domainEntry{Domain: "example.com", Sources: sources, FirstSeen: firstSeen},
 			Status:      "possibly_reregistered", RDAPURL: "https://registry.example/domain/example.com",
-			HTTPStatus: 200, Registered: registered, RegistryHold: []string{"active"},
+			HTTPStatus: 200, Registered: registered, RegistryStatus: []string{"active"},
 			Detail: "Review registration history",
 		},
 		{
@@ -54,15 +54,15 @@ func TestWriteReportsPreservesEvidenceAndCoverage(t *testing.T) {
 		MissingHistory      int            `json:"missing_history"`
 		MissingRegistration int            `json:"missing_registration_date"`
 		Results             []struct {
-			Domain       string    `json:"domain"`
-			Sources      []source  `json:"sources"`
-			FirstSeen    time.Time `json:"first_seen"`
-			Status       string    `json:"status"`
-			RDAPURL      string    `json:"rdap_url"`
-			HTTPStatus   int       `json:"http_status"`
-			Registered   time.Time `json:"registered"`
-			RegistryHold []string  `json:"registry_status"`
-			Detail       string    `json:"detail"`
+			Domain         string    `json:"domain"`
+			Sources        []source  `json:"sources"`
+			FirstSeen      time.Time `json:"first_seen"`
+			Status         string    `json:"status"`
+			RDAPURL        string    `json:"rdap_url"`
+			HTTPStatus     int       `json:"http_status"`
+			Registered     time.Time `json:"registered"`
+			RegistryStatus []string  `json:"registry_status"`
+			Detail         string    `json:"detail"`
 		} `json:"results"`
 	}
 	if err := json.Unmarshal(encoded, &report); err != nil {
@@ -85,7 +85,7 @@ func TestWriteReportsPreservesEvidenceAndCoverage(t *testing.T) {
 	if first.Domain != "example.com" || !reflect.DeepEqual(first.Sources, sources) || !first.FirstSeen.Equal(firstSeen) || !first.Registered.Equal(registered) {
 		t.Errorf("report did not preserve source and date evidence: %+v", first)
 	}
-	if first.Status != "possibly_reregistered" || first.RDAPURL != results[0].RDAPURL || first.HTTPStatus != 200 || !reflect.DeepEqual(first.RegistryHold, []string{"active"}) || first.Detail != results[0].Detail {
+	if first.Status != "possibly_reregistered" || first.RDAPURL != results[0].RDAPURL || first.HTTPStatus != 200 || !reflect.DeepEqual(first.RegistryStatus, []string{"active"}) || first.Detail != results[0].Detail {
 		t.Errorf("report did not preserve registry evidence: %+v", first)
 	}
 	summary, err := os.ReadFile(filepath.Join(outputDir, "summary.md"))

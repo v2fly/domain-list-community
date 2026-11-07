@@ -1,7 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"context"
+	"errors"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -128,6 +130,16 @@ func TestLoadHistoryIncludesPrunedMergedBranch(t *testing.T) {
 		t.Fatalf("loadHistory() got unexpected error: %v", err)
 	}
 	assertHistoryDate(t, domains["shared.com"], "2021-01-01T00:00:00Z")
+}
+
+func TestLoadHistoryReportsReadErrors(t *testing.T) {
+	repository := newHistoryRepository(t)
+	writeHistoryList(t, "base.com\n"+strings.Repeat("a", 5*1024*1024)+"\n")
+	commitHistoryList(t, repository, "2020-01-01T00:00:00Z")
+	err := loadHistory(context.Background(), historyDataPath, map[string]*domainEntry{"base.com": {Domain: "base.com"}})
+	if !errors.Is(err, bufio.ErrTooLong) {
+		t.Fatalf("loadHistory() error = %v, want %v", err, bufio.ErrTooLong)
+	}
 }
 
 func TestLoadHistoryRejectsShallowRepository(t *testing.T) {

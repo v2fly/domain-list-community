@@ -16,21 +16,25 @@ func TestCheckRegistryAndDNS(t *testing.T) {
 	firstSeen := time.Date(2020, time.January, 1, 0, 0, 0, 0, time.UTC)
 	registered := `{"objectClassName":"domain","ldhName":"example.com","events":[{"eventAction":"registration","eventDate":"2000-01-01T00:00:00Z"}]}`
 	testCases := []struct {
-		name       string
-		rdapStatus int
-		rdapBody   string
-		dnsBodies  []string
-		wantStatus string
-		wantDNS    []string
-		wantHold   []string
+		name         string
+		rdapStatus   int
+		rdapBody     string
+		dnsBodies    []string
+		wantStatus   string
+		wantDNS      []string
+		wantRegistry []string
 	}{
 		{name: "registered", rdapStatus: 200, rdapBody: registered, wantStatus: "registered"},
-		{name: "registered on hold", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"example.com","status":["server hold"]}`, wantStatus: "registered", wantHold: []string{"server hold"}},
+		{name: "registered on hold", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"example.com","status":["server hold"]}`, wantStatus: "registered", wantRegistry: []string{"server hold"}},
 		{name: "two NXDOMAIN confirmations", rdapStatus: 404, rdapBody: `{"errorCode":404}`, dnsBodies: []string{dnsResponse(3), dnsResponse(3)}, wantStatus: "possibly_unregistered", wantDNS: []string{"NXDOMAIN", "NXDOMAIN"}},
 		{name: "NOERROR without answers is not NXDOMAIN", rdapStatus: 404, rdapBody: `{"errorCode":404}`, dnsBodies: []string{dnsResponse(3), dnsResponse(0)}, wantStatus: "unknown", wantDNS: []string{"NXDOMAIN", "NOERROR"}},
 		{name: "SERVFAIL is not NXDOMAIN", rdapStatus: 404, rdapBody: `{"errorCode":404}`, dnsBodies: []string{dnsResponse(2), dnsResponse(3)}, wantStatus: "unknown", wantDNS: []string{"RCODE_2", "NXDOMAIN"}},
 		{name: "missing DNS status", rdapStatus: 404, rdapBody: `{"errorCode":404}`, dnsBodies: []string{`{"Question":[{"name":"example.com.","type":2}]}`, dnsResponse(3)}, wantStatus: "unknown", wantDNS: []string{"unknown", "NXDOMAIN"}},
 		{name: "different DNS question", rdapStatus: 404, rdapBody: `{"errorCode":404}`, dnsBodies: []string{`{"Status":3,"Question":[{"name":"other.com.","type":2}]}`, dnsResponse(3)}, wantStatus: "unknown", wantDNS: []string{"unknown", "NXDOMAIN"}},
+		{name: "empty 404 body with two NXDOMAIN confirmations", rdapStatus: 404, rdapBody: "", dnsBodies: []string{dnsResponse(3), dnsResponse(3)}, wantStatus: "possibly_unregistered", wantDNS: []string{"NXDOMAIN", "NXDOMAIN"}},
+		{name: "blank 404 body with two NXDOMAIN confirmations", rdapStatus: 404, rdapBody: "\r\n", dnsBodies: []string{dnsResponse(3), dnsResponse(3)}, wantStatus: "possibly_unregistered", wantDNS: []string{"NXDOMAIN", "NXDOMAIN"}},
+		{name: "empty 404 body without two NXDOMAIN confirmations", rdapStatus: 404, rdapBody: "", dnsBodies: []string{dnsResponse(3), dnsResponse(0)}, wantStatus: "unknown", wantDNS: []string{"NXDOMAIN", "NOERROR"}},
+		{name: "empty 200 body", rdapStatus: 200, rdapBody: "", wantStatus: "unknown"},
 		{name: "HTML 404", rdapStatus: 404, rdapBody: "<html>Not found</html>", wantStatus: "unknown"},
 		{name: "404 without RDAP error", rdapStatus: 404, rdapBody: `{}`, wantStatus: "unknown"},
 		{name: "RDAP error disagrees with HTTP", rdapStatus: 404, rdapBody: `{"errorCode":400}`, wantStatus: "unknown"},
@@ -39,6 +43,7 @@ func TestCheckRegistryAndDNS(t *testing.T) {
 		{name: "invalid registration date", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"example.com","events":[{"eventAction":"registration","eventDate":"invalid"}]}`, wantStatus: "unknown"},
 		{name: "registration exactly 24 hours later", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"example.com","events":[{"eventAction":"registration","eventDate":"2020-01-02T00:00:00Z"}]}`, wantStatus: "registered"},
 		{name: "registration beyond timestamp margin", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"EXAMPLE.COM.","events":[{"eventAction":"registration","eventDate":"2020-01-02T00:00:01Z"}]}`, wantStatus: "possibly_reregistered"},
+		{name: "renewal reported as reregistration", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"example.com","events":[{"eventAction":"registration","eventDate":"2000-01-01T00:00:00Z"},{"eventAction":"reregistration","eventDate":"2024-01-01T00:00:00Z"}]}`, wantStatus: "registered"},
 		{name: "earliest registration event", rdapStatus: 200, rdapBody: `{"objectClassName":"domain","ldhName":"example.com","events":[{"eventAction":"registration","eventDate":"2024-01-01T00:00:00Z"},{"eventAction":"registration","eventDate":"2000-01-01T00:00:00Z"}]}`, wantStatus: "registered"},
 	}
 	for _, tc := range testCases {
@@ -77,8 +82,8 @@ func TestCheckRegistryAndDNS(t *testing.T) {
 			if !slices.Equal(result.DNS, tc.wantDNS) {
 				t.Errorf("DNS evidence = %v, want %v", result.DNS, tc.wantDNS)
 			}
-			if !slices.Equal(result.RegistryHold, tc.wantHold) {
-				t.Errorf("registry status = %v, want %v", result.RegistryHold, tc.wantHold)
+			if !slices.Equal(result.RegistryStatus, tc.wantRegistry) {
+				t.Errorf("registry status = %v, want %v", result.RegistryStatus, tc.wantRegistry)
 			}
 			if result.HTTPStatus != tc.rdapStatus || result.RDAPURL != server.URL+"/rdap/domain/example.com" {
 				t.Errorf("registry evidence = HTTP %d %q, want original registry response", result.HTTPStatus, result.RDAPURL)
