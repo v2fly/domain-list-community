@@ -21,6 +21,5 @@ claudeusercontent.com
 full:servd-anthropic-website.b-cdn.net
 
 # Claude Code telemetry
-full:http-intake.logs.us5.datadoghq.com @ads
-full:o1158394.ingest.us.sentry.io @ads
-full:statsigapi.net @ads
+full:http-intake.logs.us5.datadoghq.com @telemetry
+full:o1158394.ingest.us.sentry.io @telemetry
