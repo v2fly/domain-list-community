@@ -173,7 +173,8 @@ func loadHistory(ctx context.Context, dataPath string, domains map[string]*domai
 	if strings.TrimSpace(string(shallow)) != "false" {
 		return fmt.Errorf("complete git history is required; checkout with fetch-depth: 0")
 	}
-	command := exec.CommandContext(ctx, "git", "log", "--format=DLC-COMMIT %cI", "--no-renames", "--diff-filter=AM", "--unified=0", "-p", "--", dataPath)
+	// Walk every parent and emit ordinary patches for rules introduced during merges.
+	command := exec.CommandContext(ctx, "git", "log", "--format=DLC-COMMIT %cI", "--full-history", "--diff-merges=separate", "--no-color", "--no-ext-diff", "--no-textconv", "--no-renames", "--diff-filter=AM", "--unified=0", "-p", "--", dataPath)
 	command.Stderr = os.Stderr
 	pipe, err := command.StdoutPipe()
 	if err != nil {

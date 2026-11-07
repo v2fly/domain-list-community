@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"errors"
 	"flag"
 	"fmt"
 	"net/http"
@@ -35,16 +36,24 @@ func run(ctx context.Context) error {
 		return fmt.Errorf("load domain history: %w", err)
 	}
 	client := &http.Client{Timeout: 20 * time.Second}
-	checker, err := newChecker(ctx, client, *interval)
-	if err != nil {
-		return fmt.Errorf("load RDAP bootstrap: %w", err)
-	}
+	return auditDomains(ctx, data, client, *interval, *workers, *outputDir)
+}
+
+func auditDomains(ctx context.Context, data *inventory, client *http.Client, interval time.Duration, workers int, outputDir string) error {
 	names := sortedDomains(data.Domains)
 	results := make([]checkResult, len(names))
+	checker, err := newChecker(ctx, client, interval)
+	if err != nil {
+		bootstrapErr := fmt.Errorf("load RDAP bootstrap: %w", err)
+		for index, name := range names {
+			results[index] = checkResult{domainEntry: data.Domains[name], Status: "unknown", Detail: bootstrapErr.Error()}
+		}
+		return errors.Join(bootstrapErr, writeReports(outputDir, data, results))
+	}
 	jobs := make(chan int)
 	var group sync.WaitGroup
 	var completed atomic.Int64
-	for range *workers {
+	for range workers {
 		group.Go(func() {
 			for index := range jobs {
 				results[index] = checker.check(ctx, data.Domains[names[index]])
@@ -59,13 +68,11 @@ func run(ctx context.Context) error {
 	}
 	close(jobs)
 	group.Wait()
-	if err := writeReports(*outputDir, data, results); err != nil {
-		return err
-	}
+	reportErr := writeReports(outputDir, data, results)
 	if ctx.Err() != nil {
-		return fmt.Errorf("audit incomplete; partial results saved: %w", ctx.Err())
+		return errors.Join(fmt.Errorf("audit incomplete: %w", ctx.Err()), reportErr)
 	}
-	return nil
+	return reportErr
 }
 
 func main() {
