@@ -22,7 +22,18 @@ func TestRegistrationDomain(t *testing.T) {
 		{host: "co.uk"},
 		{host: "com"},
 		{host: "router.local"},
+		{host: "onion"},
 		{host: "hidden.onion"},
+		{host: "sub.hidden.onion"},
+		{host: "arpa"},
+		{host: "home.arpa"},
+		{host: "router.home.arpa"},
+		{host: "1.0.0.127.in-addr.arpa"},
+		{host: "0.0.0.0.ip6.arpa"},
+		{host: "notonion.com", want: "notonion.com"},
+		{host: "notarpa.com", want: "notarpa.com"},
+		{host: "onion.example.com", want: "example.com"},
+		{host: "arpa.example.com", want: "example.com"},
 		{host: "127.0.0.1"},
 		{host: "::1"},
 	}
@@ -39,7 +50,7 @@ func TestLoadInventory(t *testing.T) {
 	dataPath := t.TempDir()
 	files := map[string]string{
 		"first":  "# Source rules\nExample.COM @cn &second # comment\nfull:Mail.Example.COM @ads\ninclude:second\nkeyword:example\nregexp:^example\\.com$\ngoogle\nrouter.local\n",
-		"second": "domain: example.com @ads\nfull:api.example.co.uk\n",
+		"second": "domain: example.com @ads\nfull:api.example.co.uk\nfull:hidden.onion\nrouter.home.arpa\n",
 	}
 	for name, content := range files {
 		if err := os.WriteFile(filepath.Join(dataPath, name), []byte(content), 0644); err != nil {
@@ -53,10 +64,10 @@ func TestLoadInventory(t *testing.T) {
 	if got := sortedDomains(data.Domains); !slices.Equal(got, []string{"example.co.uk", "example.com"}) {
 		t.Fatalf("registration domains = %v, want example.co.uk and example.com", got)
 	}
-	if data.LiteralRules != 6 {
-		t.Errorf("literal rule count = %d, want 6", data.LiteralRules)
+	if data.LiteralRules != 8 {
+		t.Errorf("literal rule count = %d, want 8", data.LiteralRules)
 	}
-	for kind, count := range map[string]int{"include": 1, "keyword": 1, "regexp": 1, "no_registry_domain": 2} {
+	for kind, count := range map[string]int{"include": 1, "keyword": 1, "regexp": 1, "no_registry_domain": 4} {
 		if data.Skipped[kind] != count {
 			t.Errorf("skipped %s = %d, want %d", kind, data.Skipped[kind], count)
 		}

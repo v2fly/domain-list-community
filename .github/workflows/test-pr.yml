@@ -27,9 +27,11 @@ jobs:
           go-version-file: test/go.mod
           cache-dependency-path: test/go.sum
 
-      - name: Build Go commands
+      - name: Build and test Go commands
         working-directory: test
-        run: go build ./...
+        run: |
+          go build ./...
+          go test ./...
 
       - name: Build .dat and .yml
         run: |

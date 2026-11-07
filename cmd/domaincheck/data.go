@@ -59,6 +59,10 @@ func literalDomain(line string) (string, string) {
 }
 
 func registrationDomain(host string) string {
+	// PSL inclusion does not make Tor names or infrastructure names registrable.
+	if host == "onion" || strings.HasSuffix(host, ".onion") || host == "arpa" || strings.HasSuffix(host, ".arpa") {
+		return ""
+	}
 	if net.ParseIP(host) != nil {
 		return ""
 	}

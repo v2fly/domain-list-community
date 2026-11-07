@@ -70,7 +70,7 @@ func writeReports(outputDir string, data *inventory, results []checkResult) erro
 	for _, typ := range skipTypes {
 		fmt.Fprintf(&summary, "- %s: %d\n", markdownText(typ), data.Skipped[typ])
 	}
-	fmt.Fprintln(&summary, "\nIncludes are covered through their source files. Keywords and regular expressions cannot be queried as DNS names. TLD-only, special-use and private-network names without an ICANN registration boundary are excluded.")
+	fmt.Fprintln(&summary, "\nIncludes are covered through their source files. Keywords and regular expressions cannot be queried as DNS names. TLD-only names and names without an ICANN registration boundary are excluded, along with Tor .onion names and infrastructure .arpa names.")
 	fmt.Fprintln(&summary, "\n## Review candidates\n\nA missing registration requires registry RDAP `errorCode: 404` plus NXDOMAIN from both Google and Cloudflare DNS for the registration domain. NOERROR (including NODATA), DNS failures, non-RDAP 404 responses and unsupported registries are not classified as unregistered.")
 	fmt.Fprintln(&summary, "\n| Domain | Finding | First in history (UTC) | Registered (UTC) | Source locations |\n| --- | --- | --- | --- | --- |")
 	candidates := 0
