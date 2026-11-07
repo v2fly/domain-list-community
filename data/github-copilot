@@ -2,6 +2,7 @@ githubcopilot.com
 
 full:copilot-proxy.githubusercontent.com
 full:copilot-workspace.githubnext.com
+full:production-copilot-host-westus.webpubsub.azure.com
 
 # Azure Blob Storage
 full:copilotprodattachments.blob.core.windows.net
