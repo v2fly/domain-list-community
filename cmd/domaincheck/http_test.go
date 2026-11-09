@@ -130,6 +130,126 @@ func TestGetJSONEnforcesRedirectPolicy(t *testing.T) {
 	}
 }
 
+func TestRetryDelayBounds(t *testing.T) {
+	testCases := []struct {
+		name    string
+		value   string
+		attempt int
+		want    time.Duration
+	}{
+		{name: "seconds", value: "120", want: 2 * time.Minute},
+		{name: "zero", value: "0", want: 0},
+		{name: "capped seconds", value: "86401", want: maxRetryAfter},
+		// time.Duration(9999999999) * time.Second would overflow to a negative delay.
+		{name: "seconds that would overflow", value: "9999999999", want: maxRetryAfter},
+		{name: "beyond int64 falls back to backoff", value: "99999999999999999999", attempt: 1, want: 2 * time.Second},
+		{name: "negative falls back to backoff", value: "-5", want: time.Second},
+		{name: "missing header", attempt: 2, want: 4 * time.Second},
+		{name: "past date falls back to backoff", value: "Mon, 01 Jan 2001 00:00:00 GMT", want: time.Second},
+		{name: "far-future date", value: "Fri, 01 Jan 2300 00:00:00 GMT", want: maxRetryAfter},
+	}
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			if got := retryDelay(tc.value, tc.attempt); got != tc.want {
+				t.Errorf("retryDelay(%q, %d) = %s, want %s", tc.value, tc.attempt, got, tc.want)
+			}
+		})
+	}
+}
+
+func TestGetJSONFailsFastOnLongBackoff(t *testing.T) {
+	for _, status := range []int{http.StatusTooManyRequests, http.StatusServiceUnavailable} {
+		t.Run(http.StatusText(status), func(t *testing.T) {
+			var slowRequests, fastRequests atomic.Int32
+			checker := &checker{interval: time.Nanosecond, client: &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
+				switch request.URL.Host {
+				case "slow.example":
+					slowRequests.Add(1)
+					response := auditHTTPResponse(status, "")
+					response.Header.Set("Retry-After", "3600")
+					return response, nil
+				case "fast.example":
+					fastRequests.Add(1)
+					return auditHTTPResponse(200, `{"errorCode":0}`), nil
+				default:
+					return nil, fmt.Errorf("unexpected URL: %s", request.URL)
+				}
+			})}}
+			ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+			defer cancel()
+			started := time.Now()
+			var result rdapResponse
+			gotStatus, err := checker.getJSON(ctx, "https://slow.example/domain/a.com", acceptRDAP, &result)
+			if !errors.Is(err, errBackoffTooLong) || gotStatus != status || !strings.Contains(err.Error(), "Retry-After 1h0m0s") {
+				t.Fatalf("long Retry-After = HTTP %d, %v; want HTTP %d with %v", gotStatus, err, status, errBackoffTooLong)
+			}
+			// Later domains on the throttled host fail without contacting it again.
+			gotStatus, err = checker.getJSON(ctx, "https://slow.example/domain/b.com", acceptRDAP, &result)
+			if !errors.Is(err, errBackoffTooLong) || gotStatus != 0 || !strings.Contains(err.Error(), "slow.example") {
+				t.Errorf("request during backoff = HTTP %d, %v; want %v naming the host", gotStatus, err, errBackoffTooLong)
+			}
+			if slowRequests.Load() != 1 {
+				t.Errorf("throttled host requests = %d, want 1 without retries", slowRequests.Load())
+			}
+			// Other hosts are unaffected.
+			if gotStatus, err = checker.getJSON(ctx, "https://fast.example/domain/c.com", acceptRDAP, &result); err != nil || gotStatus != 200 || fastRequests.Load() != 1 {
+				t.Errorf("unthrottled host = HTTP %d, %v after %d requests", gotStatus, err, fastRequests.Load())
+			}
+			if elapsed := time.Since(started); elapsed > time.Second {
+				t.Errorf("long backoff blocked for %s, want an immediate failure", elapsed)
+			}
+		})
+	}
+}
+
+func TestGetJSONDoesNotRetryBackoffAfterRedirect(t *testing.T) {
+	var sourceRequests atomic.Int32
+	checker := &checker{interval: time.Nanosecond, client: &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
+		if request.URL.Host != "source.example" {
+			return nil, fmt.Errorf("request reached a host that is backing off: %s", request.URL)
+		}
+		sourceRequests.Add(1)
+		response := auditHTTPResponse(http.StatusFound, "")
+		response.Header.Set("Location", "https://slow.example/domain/example.com")
+		return response, nil
+	})}}
+	// The destination is backing off because of traffic that did not pass through the source.
+	checker.limiterFor("slow.example").deferUntil(time.Now().Add(time.Hour))
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+	started := time.Now()
+	var result rdapResponse
+	_, err := checker.getJSON(ctx, "https://source.example/domain/example.com", acceptRDAP, &result)
+	if !errors.Is(err, errBackoffTooLong) || !strings.Contains(err.Error(), "slow.example") {
+		t.Errorf("redirect into a backing-off host = %v, want %v naming the destination", err, errBackoffTooLong)
+	}
+	if sourceRequests.Load() != 1 {
+		t.Errorf("source requests = %d, want 1 without retries", sourceRequests.Load())
+	}
+	if elapsed := time.Since(started); elapsed > time.Second {
+		t.Errorf("redirect into a backing-off host took %s, want an immediate failure", elapsed)
+	}
+}
+
+func TestHostLimiterLongDelay(t *testing.T) {
+	next := time.Now().Add(maxRetryWait + 30*time.Second)
+	limiter := &hostLimiter{next: next}
+	failFast, cancel := context.WithTimeout(context.Background(), time.Second)
+	defer cancel()
+	if err := limiter.wait(failFast, time.Nanosecond); !errors.Is(err, errBackoffTooLong) {
+		t.Errorf("wait() beyond the retry limit = %v, want %v", err, errBackoffTooLong)
+	}
+	// An operator-chosen interval above maxRetryWait is pacing, not a server backoff, so it sleeps.
+	sleep, cancelSleep := context.WithTimeout(context.Background(), 50*time.Millisecond)
+	defer cancelSleep()
+	if err := limiter.wait(sleep, maxRetryWait+time.Minute); !errors.Is(err, context.DeadlineExceeded) {
+		t.Errorf("wait() within a long interval = %v, want a sleep ended by the deadline", err)
+	}
+	if !limiter.next.Equal(next) {
+		t.Errorf("failed waits changed the next request time to %s, want %s", limiter.next, next)
+	}
+}
+
 func TestGetJSONRejectsIncompleteOrOversizedBody(t *testing.T) {
 	for _, name := range []string{"read error after valid prefix", "empty body", "exactly at limit", "larger than limit"} {
 		t.Run(name, func(t *testing.T) {

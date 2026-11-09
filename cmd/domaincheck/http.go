@@ -22,11 +22,18 @@ const (
 	maxJSONBytes = 2 * 1024 * 1024
 	maxAttempts  = 3
 	maxRedirects = 10
+	// maxRetryWait is the longest server backoff a worker waits out. Workers share one queue, so
+	// waiting stalls every registry; a longer backoff fails that host's requests immediately
+	// instead of holding all workers until the audit deadline.
+	maxRetryWait = 30 * time.Minute
+	// maxRetryAfter bounds Retry-After values before conversion to time.Duration.
+	maxRetryAfter = 24 * time.Hour
 )
 
 var (
 	errRedirectPolicy = errors.New("redirect refused")
 	errEmptyBody      = errors.New("empty response body")
+	errBackoffTooLong = errors.New("server backoff exceeds the retry limit")
 )
 
 type hostLimiter struct {
@@ -47,6 +54,10 @@ func (limiter *hostLimiter) wait(ctx context.Context, interval time.Duration) er
 			return nil
 		}
 		limiter.mu.Unlock()
+		// Pacing never exceeds interval; only a server-requested backoff can be longer.
+		if delay > max(maxRetryWait, interval) {
+			return fmt.Errorf("backing off for another %s: %w", delay.Round(time.Second), errBackoffTooLong)
+		}
 		if err := pause(ctx, delay); err != nil {
 			return err
 		}
@@ -77,12 +88,14 @@ func pause(ctx context.Context, delay time.Duration) error {
 	}
 }
 
+// retryDelay returns the Retry-After delay, capped at maxRetryAfter, or an exponential backoff.
 func retryDelay(value string, attempt int) time.Duration {
-	if seconds, err := strconv.Atoi(value); err == nil && seconds >= 0 {
-		return time.Duration(seconds) * time.Second
+	if seconds, err := strconv.ParseInt(value, 10, 64); err == nil && seconds >= 0 {
+		// Clamp before multiplying so that huge values cannot overflow.
+		return time.Duration(min(seconds, int64(maxRetryAfter/time.Second))) * time.Second
 	}
 	if date, err := http.ParseTime(value); err == nil && time.Until(date) > 0 {
-		return time.Until(date)
+		return min(time.Until(date), maxRetryAfter)
 	}
 	return time.Duration(1<<attempt) * time.Second
 }
@@ -108,6 +121,9 @@ func (checker *checker) get(ctx context.Context, endpoint, accept string) (*http
 	for hop := 1; ; hop++ {
 		// Start each network timeout only after this hop's pacing delay has elapsed.
 		if err := checker.limiterFor(request.URL.Host).wait(ctx, checker.interval); err != nil {
+			if errors.Is(err, errBackoffTooLong) {
+				return nil, fmt.Errorf("%s %w", request.URL.Host, err)
+			}
 			return nil, err
 		}
 		response, err := client.Do(request)
@@ -151,7 +167,7 @@ func (checker *checker) getJSON(ctx context.Context, endpoint, accept string, ta
 	for attempt := 0; attempt < maxAttempts; attempt++ {
 		response, requestErr := checker.get(ctx, endpoint, accept)
 		if requestErr != nil {
-			if attempt < maxAttempts-1 && ctx.Err() == nil && !errors.Is(requestErr, errRedirectPolicy) {
+			if attempt < maxAttempts-1 && ctx.Err() == nil && !errors.Is(requestErr, errRedirectPolicy) && !errors.Is(requestErr, errBackoffTooLong) {
 				limiter.deferUntil(time.Now().Add(retryDelay("", attempt)))
 				continue
 			}
@@ -160,9 +176,13 @@ func (checker *checker) getJSON(ctx context.Context, endpoint, accept string, ta
 		status := response.StatusCode
 		if status == http.StatusTooManyRequests || status >= 500 {
 			_ = response.Body.Close()
-			until := time.Now().Add(retryDelay(response.Header.Get("Retry-After"), attempt))
+			delay := retryDelay(response.Header.Get("Retry-After"), attempt)
+			until := time.Now().Add(delay)
 			limiter.deferUntil(until)
 			checker.limiterFor(response.Request.URL.Host).deferUntil(until)
+			if delay > maxRetryWait {
+				return status, fmt.Errorf("HTTP %d with Retry-After %s: %w", status, delay.Round(time.Second), errBackoffTooLong)
+			}
 			if attempt < maxAttempts-1 {
 				continue
 			}

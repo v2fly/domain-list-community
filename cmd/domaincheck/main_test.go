@@ -32,9 +32,10 @@ func TestAuditDomainsPreservesReportsWhenBootstrapTimesOut(t *testing.T) {
 				if request.URL.String() != bootstrapURL {
 					t.Errorf("unexpected request before bootstrap succeeded: %s", request.URL)
 				}
+				// Retry-After is within maxRetryWait, so the bootstrap waits until the audit deadline.
 				return &http.Response{
 					StatusCode: status,
-					Header:     http.Header{"Retry-After": []string{"3600"}},
+					Header:     http.Header{"Retry-After": []string{"60"}},
 					Body:       io.NopCloser(strings.NewReader("")),
 					Request:    request,
 				}, nil
@@ -94,6 +95,47 @@ func TestAuditDomainsPreservesReportsWhenBootstrapTimesOut(t *testing.T) {
 				t.Error("bootstrap failure summary did not disclose unknown coverage")
 			}
 		})
+	}
+}
+
+func TestAuditDomainsFailsFastOnLongBootstrapBackoff(t *testing.T) {
+	var requests atomic.Int32
+	client := &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
+		requests.Add(1)
+		return &http.Response{
+			StatusCode: http.StatusTooManyRequests,
+			Header:     http.Header{"Retry-After": []string{"3600"}},
+			Body:       io.NopCloser(strings.NewReader("")),
+			Request:    request,
+		}, nil
+	})}
+	data := &inventory{Domains: map[string]*domainEntry{"example.com": {Domain: "example.com"}}, LiteralRules: 1, Skipped: make(map[string]int)}
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+	outputDir := t.TempDir()
+	started := time.Now()
+	err := auditDomains(ctx, data, client, time.Nanosecond, 1, outputDir)
+	if !errors.Is(err, errBackoffTooLong) || errors.Is(err, context.DeadlineExceeded) || !strings.Contains(err.Error(), "load RDAP bootstrap") {
+		t.Errorf("auditDomains() error = %v, want an immediate bootstrap %v", err, errBackoffTooLong)
+	}
+	if elapsed := time.Since(started); elapsed > time.Second || requests.Load() != 1 {
+		t.Errorf("long bootstrap backoff took %s and %d requests, want one request and an immediate failure", elapsed, requests.Load())
+	}
+	encoded, err := os.ReadFile(filepath.Join(outputDir, "report.json"))
+	if err != nil {
+		t.Fatalf("bootstrap failure did not save report: %v", err)
+	}
+	var report struct {
+		Results []struct {
+			Status string `json:"status"`
+			Detail string `json:"detail"`
+		} `json:"results"`
+	}
+	if err := json.Unmarshal(encoded, &report); err != nil {
+		t.Fatalf("decode bootstrap failure report: %v", err)
+	}
+	if len(report.Results) != 1 || report.Results[0].Status != statusUnknown || !strings.Contains(report.Results[0].Detail, "Retry-After 1h0m0s") {
+		t.Errorf("bootstrap failure report = %+v, want unknown coverage naming the Retry-After", report.Results)
 	}
 }
 

@@ -96,6 +96,43 @@ func dnsResponse(status int) string {
 	return fmt.Sprintf(`{"Status":%d,"Question":[{"name":"example.com.","type":2}]}`, status)
 }
 
+func TestCheckAcceptsEmpty404EndedByConnectionClose(t *testing.T) {
+	// Verisign sends its empty 404 without Content-Length or chunked encoding, so the body ends at EOF.
+	const closeDelay = 50 * time.Millisecond
+	server := httptest.NewServer(http.HandlerFunc(func(writer http.ResponseWriter, request *http.Request) {
+		if request.URL.Path != "/rdap/domain/example.com" {
+			writer.Header().Set("Content-Type", "application/dns-json")
+			fmt.Fprint(writer, dnsResponse(3))
+			return
+		}
+		connection, buffer, err := writer.(http.Hijacker).Hijack()
+		if err != nil {
+			t.Errorf("hijack RDAP connection: %v", err)
+			return
+		}
+		defer connection.Close()
+		fmt.Fprint(buffer, "HTTP/1.1 404 Not Found\r\nContent-Type: application/rdap+json\r\n\r\n")
+		if err := buffer.Flush(); err != nil {
+			t.Errorf("write RDAP headers: %v", err)
+		}
+		time.Sleep(closeDelay)
+	}))
+	defer server.Close()
+	checker := &checker{
+		client: server.Client(), services: map[string]string{"com": server.URL + "/rdap"},
+		interval: time.Nanosecond, resolvers: []string{server.URL + "/dns-a", server.URL + "/dns-b"},
+	}
+	started := time.Now()
+	result := checker.check(context.Background(), &domainEntry{Domain: "example.com"})
+	// The body is complete only at EOF; returning earlier would skip a body that follows the headers.
+	if elapsed := time.Since(started); elapsed < closeDelay {
+		t.Errorf("check() returned after %s, before the server closed the connection", elapsed)
+	}
+	if result.Status != "possibly_unregistered" || result.HTTPStatus != http.StatusNotFound || !slices.Equal(result.DNS, []string{"NXDOMAIN", "NXDOMAIN"}) {
+		t.Errorf("connection-closed empty 404 = %+v, want possibly_unregistered after DNS confirmation", result)
+	}
+}
+
 func TestCheckRequiresHistoryForReregistration(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(writer http.ResponseWriter, request *http.Request) {
 		fmt.Fprint(writer, `{"objectClassName":"domain","ldhName":"example.com","events":[{"eventAction":"registration","eventDate":"2024-01-01T00:00:00Z"}]}`)
