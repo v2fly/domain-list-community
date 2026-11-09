@@ -142,8 +142,15 @@ func TestRetryDelayBounds(t *testing.T) {
 		{name: "capped seconds", value: "86401", want: maxRetryAfter},
 		// time.Duration(9999999999) * time.Second would overflow to a negative delay.
 		{name: "seconds that would overflow", value: "9999999999", want: maxRetryAfter},
-		{name: "beyond int64 falls back to backoff", value: "99999999999999999999", attempt: 1, want: 2 * time.Second},
+		// delay-seconds has no upper bound, so values beyond int64 are valid and saturate.
+		{name: "largest int64", value: "9223372036854775807", want: maxRetryAfter},
+		{name: "just beyond int64", value: "9223372036854775808", want: maxRetryAfter},
+		{name: "far beyond int64", value: "99999999999999999999", want: maxRetryAfter},
+		// HTTP/2 field values are not trimmed by the transport.
+		{name: "surrounding whitespace", value: " \t120 ", want: 2 * time.Minute},
 		{name: "negative falls back to backoff", value: "-5", want: time.Second},
+		{name: "signed value falls back to backoff", value: "+120", want: time.Second},
+		{name: "fraction falls back to backoff", value: "1.5", want: time.Second},
 		{name: "missing header", attempt: 2, want: 4 * time.Second},
 		{name: "past date falls back to backoff", value: "Mon, 01 Jan 2001 00:00:00 GMT", want: time.Second},
 		{name: "far-future date", value: "Fri, 01 Jan 2300 00:00:00 GMT", want: maxRetryAfter},
@@ -228,6 +235,81 @@ func TestGetJSONDoesNotRetryBackoffAfterRedirect(t *testing.T) {
 	}
 	if elapsed := time.Since(started); elapsed > time.Second {
 		t.Errorf("redirect into a backing-off host took %s, want an immediate failure", elapsed)
+	}
+}
+
+func TestGetJSONBackoffAppliesToRespondingHost(t *testing.T) {
+	var throttledRequests, healthyRequests atomic.Int32
+	checker := &checker{interval: time.Nanosecond, client: &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
+		switch request.URL.Host {
+		case "entry.example":
+			// A shared entry redirects each domain to the registry that holds it.
+			response := auditHTTPResponse(http.StatusFound, "")
+			response.Header.Set("Location", "https://"+request.URL.Query().Get("registry")+"/domain/example.com")
+			return response, nil
+		case "throttled.example":
+			throttledRequests.Add(1)
+			response := auditHTTPResponse(http.StatusTooManyRequests, "")
+			response.Header.Set("Retry-After", "3600")
+			return response, nil
+		case "healthy.example":
+			healthyRequests.Add(1)
+			return auditHTTPResponse(200, `{"errorCode":0}`), nil
+		default:
+			return nil, fmt.Errorf("unexpected URL: %s", request.URL)
+		}
+	})}}
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+	var result rdapResponse
+	_, err := checker.getJSON(ctx, "https://entry.example/domain/a?registry=throttled.example", acceptRDAP, &result)
+	if !errors.Is(err, errBackoffTooLong) {
+		t.Fatalf("throttled registry = %v, want %v", err, errBackoffTooLong)
+	}
+	if status, err := checker.getJSON(ctx, "https://entry.example/domain/b?registry=healthy.example", acceptRDAP, &result); err != nil || status != 200 || healthyRequests.Load() != 1 {
+		t.Errorf("healthy registry behind the same entry = HTTP %d, %v after %d requests", status, err, healthyRequests.Load())
+	}
+	// The throttled registry still fails fast without being contacted again.
+	if _, err := checker.getJSON(ctx, "https://entry.example/domain/c?registry=throttled.example", acceptRDAP, &result); !errors.Is(err, errBackoffTooLong) || !strings.Contains(err.Error(), "throttled.example") || throttledRequests.Load() != 1 {
+		t.Errorf("throttled registry during backoff = %v after %d requests, want %v naming it", err, throttledRequests.Load(), errBackoffTooLong)
+	}
+}
+
+func TestGetJSONTransportRetryDefersFailedHop(t *testing.T) {
+	var entryCalls, brokenCalls []time.Time
+	checker := &checker{interval: time.Nanosecond, client: &http.Client{Transport: auditHTTPTransport(func(request *http.Request) (*http.Response, error) {
+		switch request.URL.Host {
+		case "entry.example":
+			entryCalls = append(entryCalls, time.Now())
+			response := auditHTTPResponse(http.StatusFound, "")
+			response.Header.Set("Location", "https://broken.example/domain/example.com")
+			return response, nil
+		case "broken.example":
+			brokenCalls = append(brokenCalls, time.Now())
+			if len(brokenCalls) == 1 {
+				return nil, errors.New("connection reset by peer")
+			}
+			return auditHTTPResponse(200, `{"errorCode":0}`), nil
+		default:
+			return nil, fmt.Errorf("unexpected URL: %s", request.URL)
+		}
+	})}}
+	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer cancel()
+	var result rdapResponse
+	if status, err := checker.getJSON(ctx, "https://entry.example/domain/example.com", acceptRDAP, &result); err != nil || status != 200 {
+		t.Fatalf("retry after a transport error = HTTP %d, %v", status, err)
+	}
+	if len(entryCalls) != 2 || len(brokenCalls) != 2 {
+		t.Fatalf("requests: entry=%d broken=%d, want 2 each", len(entryCalls), len(brokenCalls))
+	}
+	// The failed hop is held back by the first retry delay, which starts after its failure.
+	if gap := brokenCalls[1].Sub(brokenCalls[0]); gap < time.Second {
+		t.Errorf("failed host was retried after %s, want its own backoff of at least 1s", gap)
+	}
+	// The shared entry is not deferred, so other registries behind it stay usable.
+	if gap := entryCalls[1].Sub(entryCalls[0]); gap > 500*time.Millisecond {
+		t.Errorf("entry was retried after %s, want no backoff for a host that did not fail", gap)
 	}
 }
 

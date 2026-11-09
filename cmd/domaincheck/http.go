@@ -10,6 +10,7 @@ import (
 	"net/http"
 	"net/url"
 	"strconv"
+	"strings"
 	"sync"
 	"time"
 )
@@ -90,9 +91,17 @@ func pause(ctx context.Context, delay time.Duration) error {
 
 // retryDelay returns the Retry-After delay, capped at maxRetryAfter, or an exponential backoff.
 func retryDelay(value string, attempt int) time.Duration {
-	if seconds, err := strconv.ParseInt(value, 10, 64); err == nil && seconds >= 0 {
-		// Clamp before multiplying so that huge values cannot overflow.
-		return time.Duration(min(seconds, int64(maxRetryAfter/time.Second))) * time.Second
+	// HTTP/1 header parsing strips optional whitespace, but HTTP/2 field values arrive as sent.
+	value = strings.Trim(value, " \t")
+	// delay-seconds is 1*DIGIT with no upper bound (RFC 9110, section 10.2.3).
+	if value != "" && strings.Trim(value, "0123456789") == "" {
+		seconds, err := strconv.ParseInt(value, 10, 64)
+		// Digits can only fail to parse by exceeding int64. Saturate those and clamp before
+		// multiplying so that huge values cannot overflow.
+		if err != nil || seconds > int64(maxRetryAfter/time.Second) {
+			return maxRetryAfter
+		}
+		return time.Duration(seconds) * time.Second
 	}
 	if date, err := http.ParseTime(value); err == nil && time.Until(date) > 0 {
 		return min(time.Until(date), maxRetryAfter)
@@ -157,18 +166,28 @@ func (checker *checker) get(ctx context.Context, endpoint, accept string) (*http
 	}
 }
 
+// failedHost returns the host of the redirect hop whose request failed, or fallback.
+func failedHost(err error, fallback string) string {
+	var urlErr *url.Error
+	if errors.As(err, &urlErr) {
+		if failed, parseErr := url.Parse(urlErr.URL); parseErr == nil && failed.Host != "" {
+			return failed.Host
+		}
+	}
+	return fallback
+}
+
 // getJSON decodes a complete, bounded 200 or 404 response. An empty body returns errEmptyBody.
 func (checker *checker) getJSON(ctx context.Context, endpoint, accept string, target any) (int, error) {
 	parsed, err := url.Parse(endpoint)
 	if err != nil {
 		return 0, err
 	}
-	limiter := checker.limiterFor(parsed.Host)
 	for attempt := 0; attempt < maxAttempts; attempt++ {
 		response, requestErr := checker.get(ctx, endpoint, accept)
 		if requestErr != nil {
 			if attempt < maxAttempts-1 && ctx.Err() == nil && !errors.Is(requestErr, errRedirectPolicy) && !errors.Is(requestErr, errBackoffTooLong) {
-				limiter.deferUntil(time.Now().Add(retryDelay("", attempt)))
+				checker.limiterFor(failedHost(requestErr, parsed.Host)).deferUntil(time.Now().Add(retryDelay("", attempt)))
 				continue
 			}
 			return 0, requestErr
@@ -177,9 +196,9 @@ func (checker *checker) getJSON(ctx context.Context, endpoint, accept string, ta
 		if status == http.StatusTooManyRequests || status >= 500 {
 			_ = response.Body.Close()
 			delay := retryDelay(response.Header.Get("Retry-After"), attempt)
-			until := time.Now().Add(delay)
-			limiter.deferUntil(until)
-			checker.limiterFor(response.Request.URL.Host).deferUntil(until)
+			// Defer only the host that answered. A shared redirect entry may lead to other,
+			// healthy targets; each hop still waits for its own host's limiter.
+			checker.limiterFor(response.Request.URL.Host).deferUntil(time.Now().Add(delay))
 			if delay > maxRetryWait {
 				return status, fmt.Errorf("HTTP %d with Retry-After %s: %w", status, delay.Round(time.Second), errBackoffTooLong)
 			}
