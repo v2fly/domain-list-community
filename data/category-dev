@@ -27,6 +27,7 @@ include:github
 include:github1s
 include:gitlab
 include:golang
+include:grafanalabs
 include:hashicorp
 include:haskell
 include:homebrew
