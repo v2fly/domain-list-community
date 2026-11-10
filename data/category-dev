@@ -27,6 +27,7 @@ include:github
 include:github1s
 include:gitlab
 include:golang
+include:grafanalabs
 include:hashicorp
 include:haskell
 include:homebrew
@@ -100,8 +101,6 @@ gitgud.io
 gnome.org
 gnu.org
 godbolt.org
-grafana.com
-grafana.net
 greenend.org.uk # PuTTY and some software official websites
 hex.pm
 hexdocs.pm
