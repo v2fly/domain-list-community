@@ -59,9 +59,11 @@ xamarin.com
 
 full:az764295.vo.msecnd.net
 full:bingsettingssearch.trafficmanager.net
+full:builds.dotnet.microsoft.com
 full:dc.services.visualstudio.com @telemetry
 full:default.exp-tas.com
 full:developer.microsoft.com
+full:dotnetcli.trafficmanager.net
 full:download.visualstudio.microsoft.com @cn
 full:dtlgalleryint.cloudapp.net
 full:packages.microsoft.com
@@ -70,8 +72,10 @@ full:psg-int-centralus.cloudapp.net
 full:psg-int-eastus.cloudapp.net
 full:rink.hockeyapp.net
 full:rt.services.visualstudio.com @telemetry
+full:sundry-star-net-geo.trafficmanager.net
 full:vscode-sync-insiders.trafficmanager.net
 full:vscode-sync.trafficmanager.net
 full:vscode.blob.core.windows.net
+full:vscode.download.prss.microsoft.com
 full:vscode.search.windows.net
 full:vsmarketplacebadge.apphb.com
