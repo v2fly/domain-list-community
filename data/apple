@@ -827,6 +827,7 @@ full:clientflow.apple.com.akadns.net @cn
 full:cn-smp-paymentservices.apple.com @cn
 full:configuration.apple.com @cn
 full:configuration.apple.com.akadns.net @cn
+full:configuration.ls.apple.com @cn
 full:cstat.apple.com @cn
 full:cstat.cdn-apple.com @cn
 full:dd-cdn.origin-apple.com.akadns.net @cn
