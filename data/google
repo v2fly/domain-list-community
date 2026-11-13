@@ -625,14 +625,11 @@ full:c.admob.com @cn
 full:c.android.clients.google.com @cn
 full:cache-management-prod.google.com @cn
 full:cache.pack.google.com @cn
-full:checkin.gstatic.com @cn
 full:clickserve.cc-dt.com @cn
 full:clickserve.dartsearch.net @cn
 full:clickserver.googleads.com @cn
 full:clientservices.googleapis.com @cn
 full:cn.widevine.com @cn
-full:connectivitycheck.gstatic.com @cn
-full:csi.gstatic.com @cn
 full:dartsearch-cn.net @cn
 full:dg-meta.video.google.com @cn
 full:dl.google.com @cn
@@ -643,11 +640,6 @@ full:download.mlcc.google.com @cn
 full:download.tensorflow.google.com @cn
 full:fontfiles.googleapis.com @cn
 full:fonts.googleapis.com @cn
-full:fonts.gstatic.com @cn
-full:g0.gstatic.com @cn
-full:g1.gstatic.com @cn
-full:g2.gstatic.com @cn
-full:g3.gstatic.com @cn
 full:gonglchuangl.net @cn
 full:gongyichuangyi.net @cn
 full:google-analytics-cn.com @cn
@@ -694,7 +686,6 @@ full:safebrowsing-cache.google.com @cn
 full:safebrowsing.googleapis.com @cn
 full:service.urchin.com @cn
 full:ssl-google-analytics.l.google.com @cn
-full:ssl.gstatic.com @cn
 full:staging-controlbe.floonet.goog @cn
 full:staging-databe.floonet.goog @cn
 full:staging.databe.floonet.goog @cn
@@ -705,5 +696,4 @@ full:wear.googleapis.com @cn
 full:www-google-analytics.l.google.com @cn
 full:www-googletagmanager.l.google.com @cn
 full:www.destinationurl.com @cn
-full:www.gstatic.com @cn
 full:www.pxcc.com @cn
