@@ -1,8 +1,12 @@
-# ChatGPT Extension
+# Apple Intelligence, Siri, and Search
+# Source: https://support.apple.com/en-us/101555#aisirisearch
 full:apple-relay.apple.com
 full:apple-relay.cloudflare.com
 full:apple-relay.fastly-edge.com
 full:apple-relay.mask.apple-dns.net
+full:cp4.cloudflare.com
+full:guzzoni.apple.com
+smoot.apple.com
 
 # Potentially affected services include:
 # * eSIM region determination for devices in China
