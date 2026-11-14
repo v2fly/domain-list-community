@@ -49,6 +49,7 @@ include:sber @telemetry
 include:sberbank @telemetry
 include:shuqi @telemetry
 include:sina @telemetry
+include:tcl @telemetry
 include:tencent @telemetry
 include:tencent-dev @telemetry
 include:tencent-tme @telemetry

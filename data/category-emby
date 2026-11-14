@@ -22,7 +22,6 @@ blueseacdn.com
 
 # 1111
 emby.ml
-loseremby.org
 
 # llon plex
 plex.direct
@@ -58,7 +57,7 @@ full:emby.mdss.cloud
 # emby-ytoo
 full:emby.ytoo.li
 
-# emby-w8ves
+# emby-w8ves (WaveCloud)
 full:embyserver.ga
 
 # emby-prpr
@@ -67,8 +66,9 @@ full:emby.prprcloud.com
 # emby-nyancat
 full:emby.nyancat.net
 
-# emby-Plus
+# emby-Plus (普拉斯影业)
 full:emby.plusmedia.site
+full:emby-sg.plusmedia.site
 full:emby-cf.plusmedia.site
 full:emby.xeton.dev
 full:jellyfin.xeton.dev
@@ -105,18 +105,6 @@ full:line.emby.men
 
 # SoCloud
 full:emby.run
-
-# 普拉斯影业
-full:emby.plusmedia.site
-full:emby-sg.plusmedia.site
-full:emby-cf.plusmedia.site
-full:emby.xeton.dev
-full:jellyfin.xeton.dev
-full:movie.xeton.dev
-full:servers.xeton.dev
-
-# WaveCloud
-full:embyserver.ga
 
 # 卷毛鼠
 full:jmsooo.com

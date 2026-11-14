@@ -1,6 +1,6 @@
 # Domain list community
 
-This project manages a list of domains, to be used as geosites for routing purpose in Project V.
+This project manages a list of domains, to be used as geosites for routing purposes in Project V.
 
 ## Purpose of this project
 
@@ -107,7 +107,7 @@ regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 > Adding new `regexp` and `keyword` rules is discouraged because it is easy to use them incorrectly, and proxy software cannot efficiently match these types of rules.
 
 > [!NOTE]
-> The following types of rules are **NOT** fully compatible with the ones that defined by user in V2Ray config file. Do **NOT** copy and paste directly.
+> The following types of rules are **NOT** fully compatible with the ones defined by users in the V2Ray config file. Do **NOT** copy and paste directly.
 
 > [!NOTE]
 > Adding attributes after `include:filename` means selective inclusion. It's filtering, not flagging.
@@ -117,8 +117,8 @@ regexp:^odd[1-7]\.example\.org(\.[a-z]{2})?$
 - Full domain begins with `full:`, followed by a complete and valid domain name.
 - Keyword begins with `keyword:`, followed by a substring of a valid domain name.
 - Regular expression begins with `regexp:`, followed by a valid regular expression (per Golang's standard).
-- Domain rules (including `domain`, `full`, `keyword`, and `regexp`) may have none, one or more attributes. Each attribute begins with `@` and followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
-- Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and followed by the name of the target list (no matter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
+- Domain rules (including `domain`, `full`, `keyword`, and `regexp`) may have none, one or more attributes. Each attribute begins with `@` and is followed by the name of the attribute. Attributes will remain available in final lists and `dlc.dat`.
+- Domain rules may have none, one or more affiliations, which additionally adds the domain rule into the affiliated target list. Each affiliation begins with `&` and is followed by the name of the target list (no matter whether the target has a dedicated file in data path). This is a method for data management, and will not remain in the final lists or `dlc.dat`.
 - Inclusion begins with `include:`, followed by the name of another valid domain list. `include:list2` in file `data/list1` means adding all domain rules of `list2` into `list1`. Inclusions with attributes stand for selective inclusion. `include:list2 @attr1 @-attr2` means only adding those domain rules *with* `@attr1` **and** *without* `@attr2`. This is a special type for data management, and will not remain in the final lists or `dlc.dat`.
 
 ## How it works
@@ -143,16 +143,16 @@ Read [main.go](./main.go) for details.
 
 ### File name
 
-Theoretically any string can be used as the name, as long as it is a valid file name. In practice, we prefer names for determinic group of domains, such as the owner (usually a company name) of the domains, e.g., "google", "netflix". Names with unclear scope are generally unrecommended, such as "evil", or "local".
+Theoretically any string can be used as the name, as long as it is a valid file name. In practice, we prefer names for a determinate group of domains, such as the owner (usually a company name) of the domains, e.g., "google", "netflix". Names with unclear scope are generally not recommended, such as "evil", or "local".
 
 ### Attributes
 
-Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of `google` may contains its main domains, as well as domains that serve ads. The ads domains may be marked by attribute `@ads`, and can be used as `geosite:google@ads` in V2Ray routing. Domains and services that originate from outside China mainland but have access point in China mainland, may be marked by attribute `@cn`.
+Attribute is useful for sub-group of domains, especially for filtering purpose. For example, the list of `google` may contain its main domains, as well as domains that serve ads. The ads domains may be marked by attribute `@ads`, and can be used as `geosite:google@ads` in V2Ray routing. Domains and services that originate from outside China mainland but have access points in China mainland, may be marked by attribute `@cn`.
 
 ## Contribution guideline
 
 - Fork this repo, make modifications to your own repo, file a PR.
 - Please begin with small size PRs, say modification in a single file.
 - A PR must be reviewed and approved by another member.
-- A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Action label to get detailed information if you didn't pass it. We also provide the file which has been generated to make you test.
+- A script will verify your pull request to test whether your PR is correct or not every time you update the PR. Only the PR which passes the test will be merged. Please go to the Actions tab to get detailed information if you didn't pass it. We also provide the generated file for you to test.
 - After a few successful PRs, you may apply for manager access to this repository.

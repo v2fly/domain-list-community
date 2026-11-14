@@ -250,7 +250,7 @@ func parseEntry(typ, rule string) (*Entry, []string, error) {
 
 	slices.Sort(entry.Attrs)                  // Sort attributes
 	entry.Attrs = slices.Compact(entry.Attrs) // Remove duplicated attributes
-	// Formated plain entry: type:domain.tld:@attr1,@attr2
+	// Formatted plain entry: type:domain.tld:@attr1,@attr2
 	var plain strings.Builder
 	plain.Grow(plen)
 	plain.WriteString(entry.Type)
@@ -433,7 +433,7 @@ func isMatchAttrFilters(entry *Entry, incFilter *Inclusion) bool {
 
 // polishList trims redundant full/domain type subdomains and returns sorted lists
 // A domain with attr(s) trims subdomains with same attr(s) and subdomains without attr
-// A subdomain with attr(s) can only be trimed by parent domain with same attr(s)
+// A subdomain with attr(s) can only be trimmed by parent domain with same attr(s)
 func polishList(roughMap map[string]*Entry) []*Entry {
 	finalList := make([]*Entry, 0, len(roughMap))
 	queuingList := make([]*Entry, 0, len(roughMap))
@@ -611,7 +611,7 @@ func run() error {
 		var err error
 		tasks, err = loadTasks(*datProfile)
 		if err != nil {
-			return fmt.Errorf("failed to loadTasks %q: %v", *datProfile, err)
+			return fmt.Errorf("failed to loadTasks %q: %w", *datProfile, err)
 		}
 	}
 	for _, task := range tasks {
