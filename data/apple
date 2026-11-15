@@ -739,6 +739,7 @@ courier-push-apple.com.akadns.net
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:apple@cn"
+captive.apple.com @cn
 full:amp-api-edge.apps.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
@@ -815,7 +816,6 @@ full:appldnld.apple.com @cn
 full:appldnld.g.aaplimg.com @cn
 full:appleid.cdn-apple.com @cn
 full:apps.mzstatic.com @cn
-full:captive.apple.com @cn
 full:cds-cdn.v.aaplimg.com @cn
 full:cds.apple.com @cn
 full:cds.apple.com.akadns.net @cn
