@@ -405,7 +405,6 @@ iphone5.com
 iphone5casescovers.com
 iphone5s5case.com
 iphoneacessorios.com.br
-iphonecase2013.com
 iphonecase5.com
 iphonecases100.com
 iphonecases5.com
@@ -700,7 +699,6 @@ quicktime.com.au
 quicktime.eu
 quicktime.net
 quicktime.tv
-reform-apple.com
 services-apple.net
 siri.com
 spektral.cc
@@ -739,11 +737,13 @@ courier-push-apple.com.akadns.net
 
 # Domains and services below are available in China mainland
 # Use in config file like this: "geosite:apple@cn"
+captive.apple.com @cn
 full:amp-api-edge.apps.apple.com @cn
 full:amp-api-search-edge.apps.apple.com @cn
 full:amp-api.apps.apple.com @cn
 full:api-edge.apps.apple.com @cn
 full:communities.apple.com @cn
+full:configuration.ls.apple.com @cn
 full:discussionschinese.apple.com @cn
 full:fides-pol.apple.com @cn
 full:gspe12-cn-ssl.ls.apple.com @cn
