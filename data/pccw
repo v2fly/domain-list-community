@@ -2,6 +2,9 @@ include:hkt
 include:now
 include:viu
 
+# All .pccw domains
+pccw
+
 pccw.com
 pccwglobal.com
 pccwsolutions.com
