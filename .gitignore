@@ -3,6 +3,7 @@
 
 /domain-list-community
 /domain-list-community.exe
+/domain-audit/
 
 # Generated dat files.
 /*.dat
