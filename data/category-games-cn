@@ -87,6 +87,14 @@ zx.com
 # 沪ICP备18041304号-1
 tgpro.top
 tgprocs.net
+# 华立科技
+wahlap.net
+## The servers for wahlap.com are not all located in mainland China, so only add the accurate subdomains
+tgk-wcaime.wahlap.com
+## 舞萌DX
+maimai.wahlap.com
+## 中二节奏
+chunithm.wahlap.com
 # Wine游戏助手 京ICP备18041936号
 winegame.net
 # 畅玩空间 冀ICP备20019223号
