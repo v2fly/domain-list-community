@@ -87,8 +87,23 @@ include:mts-ru
 include:rostelecom
 include:t2-ru
 adygtelecom.com    # Adygea Telephone Company, regional operator
-beeline.ru
-dom.ru
+beeline.ru         # Beeline
+cnt.ru             # Central Telegraph
+dom.ru             # DOM.RU
+goodline.info      # Goodline
+goodline.ru        # Goodline
+is74.ru            # Intersvyaz
+letai.ru           # Tattelecom
+lovit.ru           # Lovit
+miranda-media.ru   # Mirinda
+novotelecom.ru     # Novotelecom
+podryad.tv         # Podryad
+redcom.ru          # Redcom
+sknt.ru            # SkyNet
+skynet.ru          # SkyNet
+tattelecom.ru      # Tattelecom
+ttk.ru             # TTK
+vladlink.ru        # Vladlink
 mcc250.pub.3gppnetwork.org # Mobile IMS
 
 # Other services
