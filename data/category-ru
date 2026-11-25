@@ -86,6 +86,7 @@ include:megafon
 include:mts-ru
 include:rostelecom
 include:t2-ru
+include:transtelecom
 adygtelecom.com    # Adygea Telephone Company, regional operator
 beeline.ru         # Beeline
 cnt.ru             # Central Telegraph
@@ -99,10 +100,10 @@ miranda-media.ru   # Mirinda
 novotelecom.ru     # Novotelecom
 podryad.tv         # Podryad
 redcom.ru          # Redcom
+redcom.net         # Redcom
 sknt.ru            # SkyNet
 skynet.ru          # SkyNet
 tattelecom.ru      # Tattelecom
-ttk.ru             # TTK
 vladlink.ru        # Vladlink
 mcc250.pub.3gppnetwork.org # Mobile IMS
 
