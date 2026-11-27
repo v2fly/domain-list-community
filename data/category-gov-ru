@@ -1,25 +1,79 @@
-# Federal Gov.
+# Federal Government
 gov.ru          # Russian government server
 government.ru   # The official website of the Russian government
+
+# Federal Ministries, Services and Agencies
+customs.ru      # Federal Customs Service (legacy domain)
+egais.ru        # EGAIS - Unified State Automated Alcohol Accounting System
+favt.ru         # Federal Air Transport Agency (legacy domain)
+fedsfm.ru       # Federal Financial Monitoring Service
+fips.ru         # Federal Institute of Industrial Property (Rospatent)
+fsb.ru          # Federal Security Service
+fss.ru          # Social Insurance Fund (legacy domain)
+fstec.ru        # Federal Service for Technical and Export Control
+gks.ru          # Federal State Statistics Service (legacy domain)
+gosnadzor.ru    # Federal Service for Environmental, Technological and Nuclear Supervision
+gost.ru         # Federal Agency on Technical Regulating and Metrology
+gostinfo.ru     # Russian Standardization Institute
+mcx.ru          # Ministry of Agriculture
+meteoinfo.ru    # Hydrometeorological Center of Russia
+meteorf.ru      # Federal Service for Hydrometeorology (Roshydromet)
+mid.ru          # Ministry of Foreign Affairs
+minfin.ru       # Ministry of Finance (legacy domain)
+minstroyrf.ru   # Ministry of Construction
+mkrf.ru         # Ministry of Culture (legacy domain)
+mvd.ru          # Ministry of Internal Affairs
+pfrf.ru         # Pension Fund (legacy domain)
+rosgvard.ru     # National Guard (Rosgvardiya)
+rosminzdrav.ru  # Ministry of Health (legacy domain)
+rospotrebnadzor.ru # Federal Service for Consumer Rights Protection (Rospotrebnadzor)
+rosreestr.ru    # Federal Service for State Registration, Cadastre and Cartography
+rupto.ru        # Federal Service for Intellectual Property (Rospatent)
+sledcom.ru      # Investigative Committee
+udprf.ru        # Presidential Property Management Directorate
+vetrf.ru        # VetIS state information system (Rosselkhoznadzor)
+xn--80abucjiibhv9a.xn--p1ai # минобрнауки.рф / Ministry of Science and Higher Education
+xn--90adear.xn--p1ai # гибдд.рф / State Traffic Safety Inspectorate
+xn--b1aew.xn--p1ai # мвд.рф / Ministry of Internal Affairs
+
+# Federal Courts
+arbitr.ru       # Arbitration courts, case files
+ksrf.ru         # Constitutional Court
+mos-gorsud.ru   # Moscow City Court
+mos-sud.ru      # Moscow magistrates courts
+sudrf.ru        # GAS Pravosudie - courts of general jurisdiction
+vsrf.ru         # Supreme Court
 
 # Federal Public Services
 gosuslugi.ru    # Government services portal
 gu-st.ru        # Government services portal old version
+trudvsem.ru     # Work in Russia - federal job portal (Rostrud)
 
 # Federal Healthcare Services
 emias.info      # Making an appointment at a municipal clinic in Moscow
 mgfoms.ru       # The mandatory health insurance system in Moscow
+takzdorovo.ru   # Ministry of Health healthy lifestyle portal
+xn--80aesfpebagmfblc0a.xn--p1ai # стопкоронавирус.рф / COVID-19 official information
 
 # Federal Educational Services
 edu-74.ru       # Education in the Chelyabinsk region
 edu.ru          # Russian digital school
 edu22.info      # Official portal of the Altai krai education system
-netschool.website  # Students online journal
+fipi.ru         # Federal Institute of Pedagogical Measurements (Unified State Exam)
+netschool.website # Students online journal
 ooc-school.ru   # "Schooll" general education portal
 prim-edu.ru     # Primorsky Krai education services portal
 ro-edu.ru       # Russian education federal portal
 tomedu.ru       # Tomsk education portal
 zabedu.ru       # Education portal of the Trans-baikal region
+
+# State Corporations and Institutions
+asi.ru          # Agency for Strategic Initiatives
+dosaaf.ru       # DOSAAF - Volunteer Society for Cooperation with the Army, Aviation and Navy
+rosatom.ru      # Rosatom State Corporation
+roscosmos.ru    # Roscosmos State Corporation
+rosmorport.ru   # Rosmorport - federal seaport operator
+xn--90acagbhgpca7c8c7f.xn--p1ai # будьвдвижении.рф / Movement of the First
 
 # Other Federal Resources
 cbr.ru          # Central Bank of Russia
@@ -32,10 +86,10 @@ kremlin.ru      # Online representation of the President of Russia
 mil.ru          # Ministry of Defense of the Russian Federation
 nalog.ru        # Federal Tax Service
 regionvideo.ru  # CDN edges for government agitations
-xn--80ajghhoc2aj1c8b.xn--p1ai     # Honest Sign - State Labeling System
-xn--90aivcdt6dxbc.xn--p1ai        # Explaining Russia - A website with answers to questions
-xn--b1afabzvcegckfhg.xn--p1ai     # Military Registration Register
-xn--d1acchc3adyj9k.xn--p1ai       # Achievements of the counrty and regions
+xn--80ajghhoc2aj1c8b.xn--p1ai # Honest Sign - State Labeling System
+xn--90aivcdt6dxbc.xn--p1ai # Explaining Russia - A website with answers to questions
+xn--b1afabzvcegckfhg.xn--p1ai # Military Registration Register
+xn--d1acchc3adyj9k.xn--p1ai # Achievements of the counrty and regions
 
 #
 # Regional sites and Public Services
@@ -58,31 +112,46 @@ spb.ru          # St. Petersburg
 
 # Republics
 adygeya.ru      # Republic of Adygea
+adygheya.ru     # Republic of Adygea
+altai-republic.ru # Altai Republic
 bashkiria.ru    # Republic of Bashkortostan
+bashkortostan.ru # Republic of Bashkortostan
 buryatia.ru     # Republic of Buryatia
 cap.ru          # Chuvash Republic
 chuvashia.ru    # Chuvash Republic
 crimea.ru       # Republic of Crimea
 dagestan.ru     # Republic of Dagestan
+e-dag.ru        # Republic of Dagestan
+e-mordovia.ru   # Republic of Mordovia
 e-yakutia.ru    # Republic of Sakha (Yakutia)
+egov-buryatia.ru # Republic of Buryatia
 grozny.ru       # Grozny City, Chechen Republic
 i-ola.ru        # Yoshkar-Ola City, Republic of Mari El
+ingushetia.ru   # Republic of Ingushetia
 izhevsk.ru      # Izhevsk City, Republic of Udmurtia
+kalmregion.ru   # Republic of Kalmykia
 kalmykia.ru     # Republic of Kalmykia
 karelia.ru      # Republic of Karelia
 kazan.ru        # Kazan City, Republic of Tatarstan
+kbr.ru          # Kabardino-Balkarian Republic
 kchgov.ru       # Karachay-Cherkess Republic
+kchr.info       # Karachay-Cherkess Republic
 kchr.ru         # Karachay-Cherkessia
 khakassia.ru    # Republic of Khakassia
 mari-el.ru      # Republic of Mari El
 mari.ru         # Republic of Mari El
-mordovia.ru     # Republic of Mordovi
+mordovia.ru     # Republic of Mordovia
 nalchik.ru      # Nalchik City, Kabardino-Balkarian Republic
+pravitelstvorb.ru # Government of the Republic of Bashkortostan
 ptz.ru          # Petrozavodsk City, Republic of Karelia
 rkomi.ru        # Republic of Komi
+rso-a.ru        # Republic of North Ossetia-Alania
+rtyva.ru        # Republic of Tuva
+tatar.ru        # Republic of Tatarstan, municipalities
 tatarstan.ru    # Republic of Tatarstan
 tuva.ru         # Republic of Tuva
 udm.ru          # Republic of Udmurtia
+udmurt.ru       # Republic of Udmurtia
 udmurtia.ru     # Republic of Udmurtia
 ulan-ude.ru     # Ulan-Ude City, Republic of Buryatia
 vladikavkaz.ru  # Vladikavkaz City, Republic of North Ossetia-Alania
@@ -90,61 +159,103 @@ yakutia.ru      # Republic of Yakutia
 
 # Territories (Krai)
 altai.ru        # Altai Territory
+altairegion22.ru # Altai Territory
 chita.ru        # Chita City, Zabaykalsky Territory
 kamchatka.ru    # Kamchatka Territory
+kamgov.ru       # Kamchatka Territory
 khabarovsk.ru   # Khabarovsk Territory
+khabkrai.ru     # Khabarovsk Territory
 khv.ru          # Khabarovsk Territory
+krasnodar.ru    # Krasnodar Territory
 krasnodar.su    # Krasnodar Territory / Kuban
 krasnoyarsk.ru  # Krasnoyarsk Territory
+krskstate.ru    # Krasnoyarsk Territory
 kuban.ru        # Krasnodar Territory / Kuban
 marine.ru       # Primorye Territory
 perm.ru         # Perm Territory
+permkrai.ru     # Perm Territory
+primorsky.ru    # Primorye Territory
+stavkray.ru     # Stavropol Territory
 stavropol.ru    # Stavropol Territory
 stv.ru          # Stavropol Territory
 vl.ru           # Vladivostok City, Primorye Territory
 vladivostok.ru  # Vladivostok City, Primorye Territory
 
 # Regions / Provinces (Oblast)
+49gov.ru        # Magadan Region
+adm44.ru        # Kostroma Region
+admin-smolensk.ru # Smolensk Region
+admlip.ru       # Lipetsk Region
+xn--80aacoonefzg3am8b1fsb.xn--p1ai # липецкаяобласть.рф / Lipetsk Region
+admoblkaluga.ru # Kaluga Region
+admtyumen.ru    # Tyumen Region
+ako.ru          # Kemerovo Region - Kuzbass
 amur.ru         # Amur Region
+amurobl.ru      # Amur Region
 arkhangelsk.ru  # Arkhangelsk Region
 astrakhan.ru    # Astrakhan Region
+astrobl.ru      # Astrakhan Region
+avo.ru          # Vladimir Region
 belgorod.ru     # Belgorod Region
+belregion.ru    # Belgorod Region
 bir.ru          # Birobidzhan City, Jewish Autonomous Region
 bryansk.ru      # Bryansk Region
+bryanskobl.ru   # Bryansk Region
 cbg.ru          # Voronezh Region
 chel.ru         # Chelyabinsk Region
 chelyabinsk.ru  # Chelyabinsk Region
+donland.ru      # Rostov Region
+dvinaland.ru    # Arkhangelsk Region
+eao.ru          # Jewish Autonomous Region
 ekburg.ru       # Ekaterinburg City, Sverdlovsk Region
+gov-murman.ru   # Murmansk Region
+gov39.ru        # Kaliningrad Region
+gov74.ru        # Chelyabinsk Region
+government-nnov.ru # Nizhny Novgorod Region (legacy domain)
+govvrn.ru       # Voronezh Region
+gubernator96.ru # Governor of Sverdlovsk Region
 irk.ru          # Irkutsk Region
+irkobl.ru       # Irkutsk Region
 irkutsk.ru      # Irkutsk Region
 ivanovo.ru      # Ivanovo Region
+ivanovoobl.ru   # Ivanovo Region
 jar.ru          # Birobidzhan City, Jewish Autonomous Region
 kaluga.ru       # Kaluga Region
 kemerovo.ru     # Kemerovo Region
 kirov.ru        # Kirov Region
-koenig.ru       # Kaliningrad Region
+kirovreg.ru     # Kirov Region
 kostroma.ru     # Kostroma Region
 kurgan.ru       # Kurgan Region
+kurganobl.ru    # Kurgan Region
 kursk.ru        # Kursk Region
+lenobl.ru       # Leningrad Region
 lipetsk.ru      # Lipetsk Region
 magadan.ru      # Magadan Region
+midural.ru      # Sverdlovsk Region
 murmansk.ru     # Murmansk Region
 nn.ru           # Nizhny Novgorod Region
+nobl.ru         # Nizhny Novgorod Region
 nov.ru          # Novgorod Region
 novosibirsk.ru  # Novosibirsk Region
+novreg.ru       # Novgorod Region
 nsk.ru          # Novosibirsk Region
+nso.ru          # Novosibirsk Region
 omsk.ru         # Omsk Region
+omskportal.ru   # Omsk Region
 orb.ru          # Orenburg Region
-oryol.ru        # Orel Region
+orel-region.ru  # Orel Region
+orenburg-gov.ru # Orenburg Region
 penza.ru        # Penza Region
+pnzreg.ru       # Penza Region
+pravmin74.ru    # Chelyabinsk Region
 psk.ru          # Pskov Region
 pskov.ru        # Pskov Region
-rnd.ru          # Rostov-on-Don City, Rostov Region
+rkursk.ru       # Kursk Region
 ryazan.ru       # Ryazan Region
 sakhalin.ru     # Sakhalin Region
 samara.ru       # Samara Region
+samregion.ru    # Samara Region
 saratov.ru      # Saratov Region
-simbirsk.ru     # Ulyanovsk Region
 smolensk.ru     # Smolensk Region
 tambov.ru       # Tambov Region
 tom.ru          # Tomsk Region
@@ -152,29 +263,196 @@ tomsk.ru        # Tomsk Region
 tsaritsyn.ru    # Volgograd Region
 tsk.ru          # Tomsk Region
 tula.ru         # Tula Region
+tularegion.ru   # Tula Region
 tver.ru         # Tver Region
+tverreg.ru      # Tver Region
 tyumen.ru       # Tyumen Region
+ulgov.ru        # Ulyanovsk Region
 vladimir.ru     # Vladimir Region
-vlg.ru          # Volgograd Region
-volganet.net    # Volgograd Oblast
+volganet.net    # Volgograd Region
 volgograd.ru    # Volgograd Region
+vologda-oblast.ru # Vologda Region
 vologda.ru      # Vologda Region
 voronezh.ru     # Voronezh Region
 vrn.ru          # Voronezh Region
-vyatka.ru       # Kirov Region
 xn--80acgfbsl1azdqr.xn--p1ai # екатеринбург.рф / Ekaterinburg City, Sverdlovsk Region
 yaroslavl.ru    # Yaroslavl Region
-yuzhno-sakhalinsk.ru # Yuzhno-Sakhalinsk City, Sakhalin Region
+yarregion.ru    # Yaroslavl Region
 
 # Autonomous areas
+adm-nao.ru      # Nenets Autonomous Area
+admhmao.ru      # Khanty-Mansi Autonomous Area - Yugra
 chukotka.ru     # Chukotka Autonomous Area
 jamal.ru        # Yamal-Nenets Autonomous Area
-surgut.ru       # Khanty-Mansi Autonomous Area – Yugra
+surgut.ru       # Khanty-Mansi Autonomous Area - Yugra
+xn--80atapud1a.xn--p1ai # чукотка.рф / Chukotka Autonomous Area
+xn--80aze9d.xn--p1ai # янао.рф / Yamal-Nenets Autonomous Area
 yamal.ru        # Yamal-Nenets Autonomous Area
-yanao.ru        # Yamalo-Nenets Autonomous Okrug
+yanao.ru        # Yamal-Nenets Autonomous Area
+
+# New regions (DPR, LPR, Kherson Region)
+khogov.ru       # Kherson Region
+pravdnr.ru      # Government of the Donetsk People's Republic
+xn--80aafc4bdoy.xn--p1ai # Luhansk People's Republic
+xn--80ahqgjaddr.xn--p1ai # Donetsk People's Republic
+
+# Regional ministries and agencies
+dagminobr.ru    # Ministry of Education and Science of Dagestan
+minfintuva.ru   # Ministry of Finance of Tuva
+mk-chr.ru       # Ministry of Culture of the Chechen Republic
+mondnr.ru       # Ministry of Education and Science of the DPR
 
 # Regional health services
+mosgorzdrav.ru  # Moscow Department of Health
 zdrav10.ru      # Republic of Karelia
+
+# Regional legislatures
+akzs.ru         # Altai Territory
+aosd.ru         # Arkhangelsk Region
+astroblduma.ru  # Astrakhan Region
+duma.yar.ru     # Yaroslavl Region
+duma32.ru       # Bryansk Region
+duma39.ru       # Kaliningrad Region
+duma72.ru       # Tyumen Region
+dumahmao.ru     # Khanty-Mansi Autonomous Area - Yugra
+dumasakhalin.ru # Sakhalin Region
+dumask.ru       # Stavropol Territory
+elkurultay.ru   # Altai Republic
+gshra.ru        # Republic of Adygea
+gsrb.ru         # Republic of Bashkortostan
+gsrk.ru         # Republic of Komi
+gsrm.ru         # Republic of Mordovia
+hural-buryatia.ru # Republic of Buryatia
+huralrk.ru      # Republic of Kalmykia
+iltumen.ru      # Republic of Sakha (Yakutia)
+karelia-zs.ru   # Republic of Karelia
+khural.org      # Republic of Tuva
+kosoblduma.ru   # Kostroma Region
+kubzsk.ru       # Krasnodar Territory
+kurskduma.ru    # Kursk Region
+lenoblzaks.ru   # Leningrad Region
+magoblduma.ru   # Magadan Region
+mosoblduma.ru   # Moscow Region
+novoblduma.ru   # Novgorod Region
+nslnr.su        # People's Council of the LPR
+nsrd.ru         # Republic of Dagestan
+oblsovet.ru     # Lipetsk Region
+oreloblsovet.ru # Orel Region
+parlament09.ru  # Karachay-Cherkess Republic
+parlamentchr.ru # Chechen Republic
+parlamentri.ru  # Republic of Ingushetia
+samgd.ru        # Samara Region
+sdnao.ru        # Nenets Autonomous Area
+sevzakon.ru     # Sevastopol
+smoloblduma.ru  # Smolensk Region
+sobranie.info   # Krasnoyarsk Territory
+srd.ru          # Saratov Region
+tambovoblduma.ru # Tambov Region
+udmgossovet.ru  # Republic of Udmurtia
+volgoduma.ru    # Volgograd Region
+vologdazso.ru   # Vologda Region
+vrnoblduma.ru   # Voronezh Region
+vskhakasia.ru   # Republic of Khakassia
+zaksob.ru       # Orenburg Region
+zs74.ru         # Chelyabinsk Region
+zseao.ru        # Jewish Autonomous Region
+zskaluga.ru     # Kaluga Region
+zsko.ru         # Kirov Region
+zskuzbass.ru    # Kemerovo Region - Kuzbass
+zsnso.ru        # Novosibirsk Region
+zsperm.ru       # Perm Territory
+zspo.ru         # Penza Region
+zsro.ru         # Rostov Region
+zsso.ru         # Sverdlovsk Region
+zsto.ru         # Tver Region
+zsvo.ru         # Vladimir Region
+
+# City administrations
+adm-achinsk.ru  # Achinsk
+adm-yeisk.ru    # Yeysk
+admbal.ru       # Balakovo
+admbrk.ru       # Berezniki
+admgor.nnov.ru  # Nizhny Novgorod
+admirk.ru       # Irkutsk
+admkamyshin.info # Kamyshin
+admkrsk.ru      # Krasnoyarsk
+admnoyabrsk.ru  # Noyabrsk
+admnvrsk.ru     # Novorossiysk
+admobninsk.ru   # Obninsk
+admomsk.ru      # Omsk
+admsurgut.ru    # Surgut
+admtroitsk.ru   # Troitsk (Moscow)
+admtuapse.ru    # Tuapse
+admugansk.ru    # Nefteyugansk
+admvol.ru       # Volzhsky
+anapa-official.ru # Anapa
+anzhero.ru      # Anzhero-Sudzhensk
+armawir.ru      # Armavir
+astrgorod.ru    # Astrakhan
+atmr.ru         # Tyumen District administration
+barnaul.org     # Barnaul
+belovo42.ru     # Belovo
+bga32.ru        # Bryansk
+biysk22.ru      # Biysk
+cherkessk09.ru  # Cherkessk
+city-yaroslavl.ru # Yaroslavl
+derbent.ru      # Derbent
+duma-vologda.ru # Vologda City Duma
+engels-city.ru  # Engels
+gorod-elista.ru # Elista
+gorodazov.ru    # Azov
+gorodperm.ru    # Perm
+grozmer.ru      # Grozny
+izh.ru          # Izhevsk
+kaluga-gov.ru   # Kaluga
+kamensk-uralskiy.ru # Kamensk-Uralsky
+kaspiysk.org    # Kaspiysk
+khabarovskadm.ru # Khabarovsk
+klgd.ru         # Kaliningrad
+kopeysk-okrug.ru # Kopeysk
+krd.ru          # Krasnodar
+kurgan-city.ru  # Kurgan
+magnitogorsk.ru # Magnitogorsk
+maikop.ru       # Maykop
+murom.info      # Murom
+my-evp.ru       # Yevpatoria
+mytyshi.ru      # Mytishchi
+n-vartovsk.ru   # Nizhnevartovsk
+nabchelny.ru    # Naberezhnye Chelny
+nevadm.ru       # Nevinnomyssk
+nmosk.ru        # Novomoskovsk
+novo-sibirsk.ru # Novosibirsk
+novoshakhtinsk.org # Novoshakhtinsk
+ntagil.org      # Nizhny Tagil
+nvkb.ru         # Novokuybyshevsk
+oktadm.ru       # Oktyabrsky
+oskol.city      # Stary Oskol
+prvadm.ru       # Pervouralsk
+pskovgorod.ru   # Pskov
+rostov-gorod.ru # Rostov-on-Don
+rubtsovsk.org   # Rubtsovsk
+rybinsk.ru      # Rybinsk
+salavatsovet.ru # Salavat
+saratovmer.ru   # Saratov
+sergiev-posad.ru # Sergiev Posad
+seversknet.ru   # Seversk
+smoladmin.ru    # Smolensk
+sochiadm.ru     # Sochi
+sterlitamakadm.ru # Sterlitamak
+syktyvkar-sovet.ru # Syktyvkar
+tagancity.ru    # Taganrog
+tgl.ru          # Tolyatti
+tyumen-city.ru  # Tyumen
+vlc.ru          # Vladivostok
+volgadmin.ru    # Volgograd
+voronezh-city.ru # Voronezh
+xacavurt.ru     # Khasavyurt
+xn----7sbabb9bafefpyi3bm2b9a2gra.xn--p1ai # Bataysk
+xn----ftbdvalramfg2j.xn--p1ai # Krymsk
+xn--80aa4alnee.xn--p1ai # саранск.рф / Saransk
+xn--80ae1alafffj1i.xn--p1ai # ставрополь.рф / Stavropol
+yuzhno-sakh.ru  # Yuzhno-Sakhalinsk
+zlat-go.ru      # Zlatoust
 
 # Russian Patriarchate resources
 mospat.ru       # Organization of the Department of External Church Relations of the Moscow Patriarchate
