@@ -4,6 +4,7 @@ go 1.26.10
 
 require (
 	github.com/v2fly/v2ray-core/v5 v5.56.0
+	golang.org/x/net v0.62.0
 	google.golang.org/protobuf v1.36.12
 )
 
