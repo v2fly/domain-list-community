@@ -3,18 +3,15 @@ cloudchoose.com
 cloudvolumes.com
 cmpaas.com
 cpedge.com
-crit-staging.com
 experience-vmware.com
 gemfire.net
 geodesummit.com
 getboxer.com
 gitstar.com
 gitstar.net
-gopivotal.net
 greenplum.net
 hwslabs.com
 immidio.com
-itfromtheinside.com
 latamvmwareforum.com
 pivotalinitiative.com
 snapvolumes.com
@@ -32,7 +29,6 @@ vmw.com
 vmware-cloudmanagement.com
 vmware-techcenter.com
 vmware.com
-vmware20mosaic.com
 vmwareausnews.com
 vmwarecertificationvideos.com
 vmwarecloud.com
@@ -40,7 +36,6 @@ vmwaredemandcenter.com
 vmwareemeablog.com
 vmwaregrid.com
 vmwarehorizon.com
-vmwareidentity.com
 vmwarelearning.com
 vmwarelearningplatform.com
 vmwarestuff.com
@@ -55,12 +50,8 @@ vmwidm.com
 vmwlabconnect.com
 vmwlearningplatform.com
 vmworld.com
-vmworld2010.com
-vmworld2013.com
 vmwsalesrewards.com
-vmwservices.com
 vnware.net
-whychoosehorizon.com
 whychooseview.com
 whychoosevmwareeuc.com
 windowsuem.com
@@ -69,13 +60,10 @@ xlstudio.com
 
 # Avi Networks
 avinetworks.com
-badaas.com
 
 # Bitnami
 bitnami.com
 bitnamiapp.com
-bitnamistudio.com
-dockerizer.com
 
 # Cloud Cred
 cloudcredibility.com
@@ -100,15 +88,6 @@ heptio.cn @cn
 heptio.com
 
 # vRealize Operations
-aliveipc.com
-aliveitsm.com
-aliveprofiler.com
-alivercm.com
-aliverewind.com
-alivertsm.com
-alivevm.com
-alivevmax.com
-alivevue.com
 
 # vSphere
 vsphere.com
@@ -116,11 +95,9 @@ vsphere.net
 
 # Workspace ONE
 air-watch.com
-airwatchexpress.com
 airwatchqa.com
 getws1.com
 getwsone.com
-whatisairwatch.com
 whatisworkspaceone.com
 workspaceone.com
 
