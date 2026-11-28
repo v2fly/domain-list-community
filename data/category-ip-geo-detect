@@ -1162,6 +1162,7 @@ myip.vc
 myip.world
 myip.ws
 myip.wtf
+myip.xyz
 myip.yt
 myip.zone
 myip4.de
@@ -1225,6 +1226,7 @@ mypublicip.com
 mypublicip.io
 mypublicip.live
 mypublicip.net
+nekudo.com
 nemip.dk
 networkdatalabs.com
 nexip.online
@@ -1562,6 +1564,7 @@ full:geo.sppopups.com
 full:geo.wdgtsrc.com
 full:geoip.amazing.media
 full:geoip.junglefrog.com
+full:geoip.noc.gov.ru
 full:geoip.pandascore.co
 full:geoip.rc.today
 full:geoip.vmn.net
@@ -1571,6 +1574,7 @@ full:ip-check-perf.radar.cloudflare.com
 full:ip-info.ff.avast.com
 full:ip-scan.adspower.net
 full:ip.3322.net @cn
+full:ip.admin.io.vn
 full:ip.anoxinon.de
 full:ip.anysrc.net
 full:ip.changeip.com
@@ -1579,6 +1583,7 @@ full:ip.comss.net
 full:ip.dnsexit.com
 full:ip.futurelink.ink
 full:ip.gymcalc.cn @cn
+full:ip.hetzner.com
 full:ip.ipb.to
 full:ip.ipyard.com
 full:ip.is.cc
@@ -1587,10 +1592,12 @@ full:ip.itqot.ru
 full:ip.kutool.com @cn
 full:ip.lafibre.info
 full:ip.liquidweb.com
+full:ip.mail.ru
 full:ip.mdosch.de
 full:ip.mihana.me
 full:ip.nc.gy
 full:ip.net.coffee
+full:ip.nic.ru
 full:ip.niqu.net
 full:ip.paco.bg
 full:ip.plyz.net @cn
@@ -1601,6 +1608,7 @@ full:ip.siel.si
 full:ip.spacecom.cc
 full:ip.taobao.com @cn
 full:ip.telecom24.link
+full:ip.teoh.io
 full:ip.urls.is
 full:ip.v4.ro.co
 full:ip.webmasterhome.cn @cn
@@ -1610,18 +1618,25 @@ full:ip4.8n1.org
 full:ip4.anysrc.net
 full:ip4.istatmenus.app
 full:ip6.8n1.org
+full:ip6.admin.io.vn
 full:ip6.anysrc.net
 full:ip6.istatmenus.app
+full:ipgeo.vercel.app
 full:ipv4-check-perf.radar.cloudflare.com
+full:ipv4-internet.yandex.net
 full:ipv4-ip.api.skk.moe
 full:ipv4.ddnspod.com
 full:ipv4.duiadns.net
+full:ipv4.internet.yandex.net
 full:ipv4.mudgee.host
 full:ipv4.nsupdate.info
 full:ipv4.nsx.de
 full:ipv4.whatismyip.akamai.com
 full:ipv6-check-perf.radar.cloudflare.com
+full:ipv6-internet.yandex.net
+full:ipv6-ip.hetzner.com
 full:ipv6.ddnspod.com
+full:ipv6.internet.yandex.net
 full:ipv6.mudgee.host
 full:ipv6.nsupdate.info
 full:ipv6.nsx.de
@@ -1643,22 +1658,13 @@ full:myip.serverplus.tw
 full:myip.telespex.com
 full:myip.valkos.by
 full:twojeip.wp.pl
+full:v6ip.mail.ru
 full:v6test.ipgg.cn @cn
 full:whatismyip.akamai.com
 full:whatismyip.unc.edu
 full:whatsmyip.mw-rmm.barracudamsp.com
-geoip.nekudo.com
-geoip.noc.gov.ru
-ip.hetzner.com
-ip.mail.ru
-ip.nic.ru
+full:whois.pconline.com.cn @cn
 ip.pe.kr
 ip.skk.moe
-ip.teoh.io
+ip.api.skk.moe
 ip.tyk.nu
-ipgeo.vercel.app
-ipv4-internet.yandex.net
-ipv4.internet.yandex.net
-ipv6-internet.yandex.net
-ipv6.internet.yandex.net
-whois.pconline.com.cn @cn
